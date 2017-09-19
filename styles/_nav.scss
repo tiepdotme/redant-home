@@ -9,6 +9,7 @@
   height: 36px;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
+  z-index: 101;
   cursor: pointer;
 
   span {
@@ -39,14 +40,16 @@
 
 .nav-overlay {
   align-items: flex-start;
+  z-index: 100;
 
   .nav-links {
     display: none;
-    padding: 10% 0;
+    padding: 5% 0;
     border-top: 3px solid $gray;
     border-bottom: 3px solid $gray;
 
     ul {
+      padding-left: 4rem;
       list-style: none;
       font-size: $font-size-base * 3;
 
@@ -81,8 +84,7 @@
   &.open {
     width: 100%;
     height: 100%;
-    z-index: 100;
-    background-color: rgba($black, 0.8);
+    background-color: rgba($black, 0.85);
 
     .nav-toggle-icon {
       span {

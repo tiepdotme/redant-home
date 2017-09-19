@@ -12,6 +12,10 @@
     background-color: $red-light;
   }
 
+  h4 {
+    margin: $grid-gutter-width / 2 0;
+  }
+
   @include media-breakpoint-down(sm) {
     padding-left: $grid-gutter-width / 2;
     padding-right: $grid-gutter-width / 2;

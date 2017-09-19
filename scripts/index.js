@@ -1,6 +1,6 @@
-// Load bootstrap js when its needed.
-// Reference: http://getbootstrap.com/docs/4.0/getting-started/webpack/
-// import 'bootstrap';
-
+import '../node_modules/slick-carousel';
 import './homepage';
+
+import '../node_modules/slick-carousel/slick/slick.scss';
+import '../node_modules/slick-carousel/slick/slick-theme.scss';
 import '../styles/index.scss';
