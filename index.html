@@ -19,18 +19,36 @@
     </div>
     <div class="container nav-links">
       <ul class="links">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#build">About Red Ant</a></li>
-        <li><a href="#process">Our Approach</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#">News & Ideas</a></li>
-        <li><a href="#careers">Careers</a></li>
-        <li><a href="#">Contact</a></li>
+        <li data-aos-anchor="#build" data-aos="nav-link-inactive">
+          <a href="#home" data-aos-anchor="#home" data-aos="nav-link-active">
+            Home
+          </a>
+        </li>
+        <li data-aos-anchor="#process" data-aos="nav-link-inactive">
+          <a href="#build" data-aos-anchor="#build" data-aos="nav-link-active">
+            About Red Ant
+          </a>
+        </li>
+        <li data-aos-anchor="#portfolio" data-aos="nav-link-inactive">
+          <a href="#process" data-aos-anchor="#process" data-aos="nav-link-active">
+            Our Approach
+          </a>
+        </li>
+        <li data-aos-anchor="#careers" data-aos="nav-link-inactive">
+          <a href="#portfolio" data-aos-anchor="#portfolio" data-aos="nav-link-active">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="#careers" data-aos-anchor="#careers" data-aos="nav-link-active">
+            Careers
+          </a>
+        </li>
       </ul>
     </div>
   </nav>
 
-  <header id="home" class="padded-section">
+  <header id="home" class="padded-section canvas-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -38,6 +56,24 @@
           <h1 class="text-x-large pb-3">technical agency</h1>
           <hr align="left" />
           <p>We create exceptional digital products</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="parallax-header" class="parallax-container text-center">
+      <div class="parallax-layer" data-depth="0.4">
+        <div class="parallax-content">
+          <img src="/images/grid.png" />
+        </div>
+      </div>
+      <div class="parallax-layer" data-depth="1.2">
+        <div class="parallax-content">
+          <img src="/images/grid.png" />
+        </div>
+      </div>
+      <div class="parallax-layer" data-depth="2">
+        <div class="parallax-content">
+          <img src="/images/grid.png" />
         </div>
       </div>
     </div>
@@ -64,25 +100,25 @@
     </div>
   </section>
 
-  <section id="platform" class=" bg-gray-light padded-section">
+  <section id="platform" class="bg-gray-light padded-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 268"
-            enable-background="new 0 0 256 268" xml:space="preserve" width="256">
-            <g id="five" opacity="0.6">
+        <div class="col-md-5 text-center">
+          <svg data-aos-anchor="#platform" data-aos="platform-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 256 268" enable-background="new 0 0 256 268" xml:space="preserve" width="256">
+            <g class="five square" opacity="0.6">
               <polygon fill="#4040DF" points="128,208 0,134 128,60 256,134"></polygon>
             </g>
-            <g id="four" opacity="0.6">
+            <g class="four square" opacity="0.6">
               <polygon fill="#40908F" points="128,208 0,134 128,60 256,134"></polygon>
             </g>
-            <g id="three" opacity="0.6">
+            <g class="three square" opacity="0.6">
               <polygon fill="#40DF40" points="128,208 0,134 128,60 256,134"></polygon>
             </g>
-            <g id="two" opacity="0.6">
+            <g class="two square" opacity="0.6">
               <polygon fill="#908F40" points="128,208 0,134 128,60 256,134"></polygon>
             </g>
-            <g id="one" opacity="0.6">
+            <g class="one square" opacity="0.6">
               <polygon fill="#DF4040" points="128,208 0,134 128,60 256,134"></polygon>
             </g>
           </svg>
@@ -98,7 +134,7 @@
     </div>
   </section>
 
-  <section id="process" class="process">
+  <section id="process" data-aos-anchor-placement="center-center">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4 tile">
@@ -177,15 +213,16 @@
           </div>
         </div>
         <div class="slide-img-wrapper">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px"
-            height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644" xml:space="preserve" class="preview">
+          <svg class="preview" data-aos-anchor="#portfolio" data-aos="slide-left" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px" height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644"
+            xml:space="preserve">
             <defs>
               <clipPath id="clip">
                 <rect fill="none" width="678" height="644"></rect>
               </clipPath>
             </defs>
             <g clip-path="url(#clip)">
-              <g id="big" transform="translate(-45 75)">
+              <g class="big" transform="translate(-45 75)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="455" height="719" transform="rotate(-30 455 0) skewX(30)"></rect>
                 </g>
@@ -202,7 +239,7 @@
                   <image overflow="visible" width="455" height="719" xlink:href="/images/12wbt/12wbt-455x719.png"></image>
                 </g>
               </g>
-              <g id="small" transform="translate(-10 437)">
+              <g class="small" transform="translate(-10 437)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="185" height="329" transform="rotate(-30 185 0) skewX(30)"></rect>
                 </g>
@@ -247,15 +284,16 @@
           </div>
         </div>
         <div class="slide-img-wrapper">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px"
-            height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644" xml:space="preserve" class="preview">
+          <svg class="preview" data-aos-anchor="#portfolio" data-aos="slide-left" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px" height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644"
+            xml:space="preserve">
             <defs>
               <clipPath id="clip">
                 <rect fill="none" width="678" height="644"></rect>
               </clipPath>
             </defs>
             <g clip-path="url(#clip)">
-              <g id="big" transform="translate(-45 75)">
+              <g class="big" transform="translate(-45 75)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="455" height="719" transform="rotate(-30 455 0) skewX(30)"></rect>
                 </g>
@@ -272,7 +310,7 @@
                   <image overflow="visible" width="455" height="719" xlink:href="/images/huggies/huggies-455x719.png"></image>
                 </g>
               </g>
-              <g id="small" transform="translate(-10 437)">
+              <g class="small" transform="translate(-10 437)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="185" height="329" transform="rotate(-30 185 0) skewX(30)"></rect>
                 </g>
@@ -314,15 +352,16 @@
           </div>
         </div>
         <div class="slide-img-wrapper">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px"
-            height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644" xml:space="preserve" class="preview">
+          <svg class="preview" data-aos-anchor="#portfolio" data-aos="slide-left" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="678px" height="644px" viewBox="0 0 678 644" enable-background="new 0 0 678 644"
+            xml:space="preserve">
             <defs>
               <clipPath id="clip">
                 <rect fill="none" width="678" height="644"></rect>
               </clipPath>
             </defs>
             <g clip-path="url(#clip)">
-              <g id="big" transform="translate(-45 75)">
+              <g class="big" transform="translate(-45 75)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="455" height="719" transform="rotate(-30 455 0) skewX(30)"></rect>
                 </g>
@@ -339,7 +378,7 @@
                   <image overflow="visible" width="455" height="719" xlink:href="/images/plando/plando-455x719.png"></image>
                 </g>
               </g>
-              <g id="small" transform="translate(-10 437)">
+              <g class="small" transform="translate(-10 437)">
                 <g transform="translate(0 40)" opacity="0.10" class="shadow4">
                   <rect fill="#000000" width="185" height="329" transform="rotate(-30 185 0) skewX(30)"></rect>
                 </g>

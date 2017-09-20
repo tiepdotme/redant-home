@@ -101,10 +101,13 @@ module.exports = {
     }),
   ],
 
-  // resolve: {
-  //   root: path.join(__dirname, 'scripts'),
-  //   extensions: ['', '.js', '.json'],
-  // },
+  resolve: {
+    //   root: path.join(__dirname, 'scripts'),
+    //   extensions: ['', '.js', '.json'],
+    // alias: {
+    //   node_modules: path.join(__dirname, 'node_modules'),
+    // },
+  },
 
   output: {
     path: path.join(__dirname, 'dist'),

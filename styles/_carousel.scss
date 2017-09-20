@@ -6,6 +6,7 @@
     position: relative;
     width: 100%;
     color: $white;
+    overflow: hidden;
 
     &.mb12wbt {
       background-color: $mb12wbt-bg;
@@ -20,6 +21,7 @@
     }
 
     .content {
+      position: relative;
       height: 550px;
       z-index: 2;
     }
@@ -31,6 +33,14 @@
       margin-bottom: -10px;
       overflow: hidden;
       z-index: 1;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .slide {
+      .content {
+        height: 900px;
+      }
     }
   }
 }

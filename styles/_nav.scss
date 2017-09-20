@@ -48,27 +48,18 @@
     border-top: 3px solid $gray;
     border-bottom: 3px solid $gray;
 
-    ul {
+    .links {
       padding-left: 4rem;
       list-style: none;
       font-size: $font-size-base * 3;
 
+      [data-aos='nav-link-inactive'].aos-animate a,
+      [data-aos='nav-link-active'],
       a {
         color: $white;
-
-        &.active,
-        &:focus,
-        &:hover {
-          color: $red;
-          text-decoration: none;
-
-          &::before {
-            display: block;
-          }
-        }
+        transition-property: color;
 
         &::before {
-          display: none;
           position: absolute;
           content: '';
           width: 38px;
@@ -76,6 +67,22 @@
           margin-left: -52px;
           margin-top: $font-size-base * 2;
           background-color: $red;
+          opacity: 0;
+        }
+      }
+
+      [data-aos='nav-link-active'],
+      a {
+        &.aos-animate,
+        &.active,
+        &:focus,
+        &:hover {
+          color: $red;
+          text-decoration: none;
+
+          &::before {
+            opacity: 1;
+          }
         }
       }
     }
@@ -112,11 +119,14 @@
 
   @include media-breakpoint-down(sm) {
     .nav-links {
-      ul {
+      .links {
         font-size: $font-size-base * 2;
 
-        a::before {
-          margin-top: $font-size-base * 1.4;
+        [data-aos='nav-link'],
+        a {
+          &::before {
+            margin-top: $font-size-base * 1.4;
+          }
         }
       }
     }
