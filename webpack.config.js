@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
@@ -35,13 +36,13 @@ module.exports = {
           {
             loader: 'file-loader',
           },
-          {
-            loader: 'img-loader',
-            options: {
-              optimizationLevel: 7,
-              progressive: true,
-            },
-          },
+          // {
+          //   loader: 'img-loader',
+          //   options: {
+          //     optimizationLevel: 7,
+          //     progressive: true,
+          //   },
+          // },
         ],
       },
       {
@@ -99,6 +100,15 @@ module.exports = {
       jQuery: 'jquery',
       $: 'jquery',
     }),
+
+    // Copy assets to dist
+    // Reference: https://github.com/kevlened/copy-webpack-plugin
+    new CopyWebpackPlugin([
+      {
+        from: `${__dirname}/images`,
+        to: `${__dirname}/dist/images`,
+      },
+    ]),
   ],
 
   resolve: {

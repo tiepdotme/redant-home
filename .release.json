@@ -1,0 +1,6 @@
+{
+  "buildCommand": "yarn build",
+  "dist": {
+    "repo": "git@github.com:red-ant/redant-home.git#gh-pages"
+  }
+}
