@@ -1,6 +1,6 @@
 {
   "name": "webpack-single-page-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Page app boilerplate using webpack",
   "main": "scripts/index.js",
   "scripts": {
