@@ -1,6 +1,6 @@
 {
   "name": "webpack-single-page-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple Page app boilerplate using webpack",
   "main": "scripts/index.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "test": "eslint . && webpack -d && webpack -p",
     "release": "release-it"
   },
-  "keywords": ["boilerplate", "webpack", "babel", "less"],
+  "keywords": [
+    "boilerplate",
+    "webpack",
+    "babel",
+    "less"
+  ],
   "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
   "license": "CC0-1.0",
   "dependencies": {
