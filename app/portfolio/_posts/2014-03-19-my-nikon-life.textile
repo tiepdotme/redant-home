@@ -1,0 +1,44 @@
+---
+layout: portfolio
+title: My Nikon Life
+weight: 20
+image:
+  feature: /img/feature/nikon.jpg
+  always_show: no
+carousel:
+  - /assets/portfolio/my-nikon-life-1.jpg
+  - /assets/portfolio/my-nikon-life-2.jpg
+  - /assets/portfolio/my-nikon-life-3.jpg
+  - /assets/portfolio/my-nikon-life-4.jpg
+excerpt:
+  short: My Nikon Life inspires photographic enthusiasts and provides a place to share and learn.
+meta:
+  focus_keywords: My Nikon Life
+  description: My Nikon Life inspires photographic enthusiasts and provides a place to share and learn.
+---
+
+<div class="col-md-7">
+
+  <h3>Project Description</h3>
+
+My Nikon Life brings the Nikon brand to life by inspiring enthusiasts to challenge themselves and participate in a variety of photographic assignments. This site is a rich source of information, tips and techniques to build photographic expertise and even offers a ‘Nikon School’ to help new entrants develop their techniques. The site invites members to take a look at the latest gear and write reviews. We developed this site in partnership with the Apparent Agency.
+
+  <ul>
+    <li>Online <strong>community</strong> of photographic enthusiasts</li>
+    <li>School area allows you to book into a photography workshop (ticketing system and ecommerce)</li>
+    <li>Supports Nikon’s sponsorship of Walkley Award</li>
+  </ul>
+
+<a class="button black" title="My Nikon Life site" href="http://www.mynikonlife.com.au" target="_blank">Take a look at the site</a>
+
+</div>
+
+<div class="col-md-5">
+  <h3>Project Detail</h3>
+
+  <ul>
+    <li><strong>Client:</strong> Nikon</li>
+    <li><strong>Date:</strong> 2010 – 2013</li>
+    <li><strong>Project URL:</strong> <a href="http://www.mynikonlife.com.au">www.mynikonlife.com.au</a></li>
+  </ul>
+</div>

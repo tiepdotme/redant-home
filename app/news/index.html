@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+show_categories:
+  - our-work
+  - red-ant-stuff
+meta:
+  keywords: news
+  description: What&rsquo;s happening in the world of Red Ant.
+---
+
+<div class="news static-page">
+  <div class="jumbotron no-margin">
+    <h1 class="bordered">News</h1>
+    <p>Whats happening in the world of Red Ant.</p>
+  </div>
+
+  <div class="container">
+    {% assign type = 'news' %}
+    {% include posts.html %}
+  </div>
+</div>

@@ -1,0 +1,47 @@
+---
+layout: portfolio
+title: ReachOut
+weight: 10
+image:
+  feature: /img/feature/reach-out.jpg
+  always_show: no
+carousel:
+  - /assets/portfolio/reach-out.jpg
+excerpt:
+  short: ReachOut helps young people by improving their understanding mental health issues.
+meta:
+  focus_keywords: ReachOut
+  description: ReachOut helps young people by improving their understanding mental health issues and providing information to better understand other people's experiences.
+  dsq_thread_id: "661173728"
+---
+<div class="col-md-7">
+
+h3. Project Description
+
+ReachOut helps young people by improving their understanding of the issues that relate to mental health and wellbeing and providing information to better understand other people’s experiences.
+
+Reach Out also has information on how to get the best help from services, as well as opportunities for young people to connect with other young people.
+
+h3. Key sections:
+
+  <ul>
+    <li><b>Fact Sheets &amp; Stories:</b> provides information and stories on a range of mental health issues</li>
+    <li><b>Forum:</b> where young people connect with the community through our online forums</li>
+    <li><b>Blog: </b>for latest news, stories and opinion pieces from ReachOut.com</li>
+    <li><b>Videos: </b>to browse video stories and content from other young people and ReachOut.com</li>
+    <li><b>SMS Tips:</b> where users can sign up for SMS tip campaigns on areas of mental health and wellbeing</li>
+    <li><b>Get Involved:</b> to access the latest opportunities, and all the tools and info to get involved in ReachOut.com!</li>
+  </ul>
+</div>
+
+<div class="col-md-5">
+
+h3. Project Detail
+
+  <ul>
+    <li><strong>Client:</strong> Reach Out</li>
+    <li><strong>Date:</strong> 2011-2012</li>
+    <li><strong>Project URL:</strong> <a href="http://au.reachout.com" target="_blank">http://au.reachout.com</a></li>
+  </ul>
+
+</div>

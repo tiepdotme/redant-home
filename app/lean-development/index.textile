@@ -1,0 +1,21 @@
+---
+layout: default
+title: Ruby on Rails Sydney - Red Ant - Red Ant
+---
+
+<div class="jumbotron no-margin">
+  <h1 class="bordered">Lean Development</h1>
+</div>
+<div class="container content">
+In a nutshell, Lean Development is about eliminating waste, maximising learnings, empowering the team and building integrity into projects. Lean development and the agile methodology go hand in hand in a lot of ways. For example, lean development acknowledges that uncertainty is a natural part of development, and the agile framework allows for constant adjustments as events unfold and circumstances change. Perfect. 
+	
+Ruby on Rails is also a great fit for lean development. Having a whole team working “the Rails way” and adhering to curated technology decisions means we save a lot of time and effort that used to get spent arguing over the best way to approach a task.
+	
+</div>
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.lean-development %}
+      {% include post-preview.html %}
+    {% endfor %}
+  </div>
+</div>

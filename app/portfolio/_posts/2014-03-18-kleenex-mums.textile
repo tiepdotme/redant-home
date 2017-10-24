@@ -1,0 +1,50 @@
+---
+layout: portfolio
+title: Kleenex Mums
+weight: 20
+image:
+  feature: /img/feature/kmum.jpg
+  always_show: no
+carousel:
+  - /assets/portfolio/kleenex-mums.jpg
+excerpt:
+  short: Kleenex Mums - a highly engaged online community for Australian mums.
+meta:
+  focus_keywords: Kleenex Mums
+  description: Kleenex Mums - a highly engaged online community for Australian mums.
+---
+
+<div class="col-md-7">
+
+  <h3>Project Description</h3>
+
+Kleenex Mums started off life as a simple blog, and over time it evolved to include recipes, promotions, eBooks, games, videos and tools for busy mums.
+
+An extensive content strategy saw the development of articles on parenting, working mums, post natal health, eating healthy, budgeting tips, family holiday advice and more. The combination of high-quality valuable content and useful, relevant tools quickly led to a community of highly engaged mums on the site.
+
+  <p>Kleenex Mums also grew to be an established authority on “everyday” kids’ health issues. Things like cold and flu, kids’ hygiene, and how to keep kids healthy. Product messaging - around Kleenex tissues, VIVA cleaning products, and Cottonelle toilet training products - was integrated to deliver relevant information to consumers.</p>
+
+<strong>Some of the cool Kleenex Mums tools we developed include:</strong>
+
+  <ul>
+    <li>Handy kitchen converter - to convert weight, volume and temperature metrics.</li>
+    <li>Kids Book Club</li>
+    <li>Recipe tool - browse Kleenex Mums recipes, or submit your own for the chance to win a prize.</li>
+    <li>Dinner Spinner - enter your time limit, select the meal required, and enter your main food item (eg chicken) to see what recipes turn up on the Dinner Spinner.</li>
+    <li>Photo promotions - consumers upload photos to win.</li>
+    <li>Weekly meal planner</li>
+    <li>Family Activities</li>
+    <li>Birthday party tips</li>
+    <li>Member stories/comments and Facebook integration.</li>
+  </ul>
+
+</div>
+
+<div class="col-md-5">
+  <h3>Project Detail</h3>
+
+  <ul>
+    <li><strong>Client:</strong> Kleenex Mums</li>
+    <li><strong>Date:</strong> 2010 - 2012</li>
+  </ul>
+</div>
