@@ -14,7 +14,7 @@ meta:
 
   <h2>Check out our office</h2>
   <div id="streetview" style="height: 600px"></div>
-<p>In case you're wondering what the weird Muppet puppet things are, no they aren't for cuddling up to during nap time. And we don't have some collective Jim Henson Cosplay fetish. Some of our dev servers are named after Muppets, so having them sitting around is an easy way to show who is using which server. Unfortunately when I ordered Grover I didn't read the dimensions (which ahem <a href="/ecommerce/perils-ecommerce-objects-may-appear-larger-better-actually/">isn't the first time</a>). So some the Grover one is really really small.</p>
+<p>In case you're wondering what the weird Muppet puppet things are, no they aren't for cuddling up to during nap time. And we don't have some collective Jim Henson Cosplay fetish. Some of our Dev servers are named after Muppets, so having them sitting around is an easy way to show who is using which server. Unfortunately when I ordered Grover I didn't read the dimensions (which ahem <a href="/ecommerce/perils-ecommerce-objects-may-appear-larger-better-actually/">isn't the first time</a>). So some the Grover one is really really small.</p>
 </div>
 
 
