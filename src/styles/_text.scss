@@ -1,0 +1,29 @@
+a {
+  color: $red;
+}
+
+.text-x-large {
+  font-size: $font-size-base * 4.4;
+  line-height: $font-size-base * 4;
+}
+
+hr {
+  width: 38px;
+  height: 4px;
+  margin-left: 0;
+  background-color: $red;
+
+  &.inverse {
+    background-color: $white;
+  }
+}
+
+.hr-wrapper {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba($white, 0.65);
+
+  hr {
+    margin-bottom: 0;
+  }
+}

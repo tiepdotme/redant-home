@@ -1,0 +1,15 @@
+web:
+  build: .
+  command: ./script/start
+  volumes:
+    - .:/app
+    - /app/node_modules
+  volumes_from:
+    - bundle
+  ports:
+    - '8080:8080'
+
+bundle:
+  image: busybox
+  volumes:
+    - /bundle

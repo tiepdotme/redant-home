@@ -1,0 +1,38 @@
+title: Jekyll + Webpack
+email: jason@redant.com.au
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+permalink: /:title/
+markdown: kramdown
+google_analtyics: UA-421251-1
+
+# Jekyll Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Include for processing.
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - docker-compose.yml
+  - Dockerfile
+  - package.json
+  - README.md
+  - script
+  - src
+  - webpack.config.js
+  - yarn.lock
+  - legacy

@@ -1,0 +1,37 @@
+body {
+  background-color: $gray-light;
+}
+
+.main-layout {
+  position: relative;
+  max-width: $layout-max-width;
+  margin: auto;
+  background-color: $white;
+}
+
+.homepage {
+  .navbar {
+    background-color: transparent;
+
+    .logo {
+      display: none;
+    }
+
+    &.open,
+    &.open.aos-animate {
+      background-color: rgba($black, 0.85);
+    }
+
+    &.aos-animate {
+      background-color: $white;
+
+      .logo {
+        display: block;
+      }
+    }
+  }
+
+  header {
+    padding: 30% 0;
+  }
+}
