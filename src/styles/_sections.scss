@@ -6,6 +6,15 @@
   }
 }
 
+.dark-section {
+  color: $white;
+  background-color: $black;
+}
+
+.jumbotron {
+  background-color: $gray-light;
+}
+
 .canvas-section {
   position: relative;
   overflow: hidden;
@@ -77,4 +86,9 @@
   &.step-6 {
     background-image: url('/assets/step6-cone.png');
   }
+}
+
+.section-border {
+  border-top: 1px solid $gray-smoke;
+  border-bottom: 1px solid $gray-smoke;
 }

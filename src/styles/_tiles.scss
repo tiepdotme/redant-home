@@ -3,6 +3,10 @@
   padding: 2 * $grid-gutter-width $grid-gutter-width;
   border-left: 2px solid $red-light;
 
+  &:nth-child(2n) {
+    background-color: $gray-light;
+  }
+
   .tile-count {
     position: absolute;
     padding: 10px 15px;
@@ -39,6 +43,7 @@
   display: block;
   position: relative;
   padding: $grid-gutter-width;
+  margin-bottom: $grid-gutter-width / 2;
   color: $white;
   overflow: hidden;
 
