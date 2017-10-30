@@ -1,20 +1,54 @@
-const webpack = require('webpack');
+// Modules
 const autoprefixer = require('autoprefixer');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
 
-module.exports = {
-  entry: {
-    script: './scripts/index.js',
-  },
+const isProd = process.env.NODE_ENV === 'production';
 
-  module: {
-    loaders: [
-      {
-        test: /\.json$/,
-        use: ['json-loader'],
-      },
+module.exports = (env = {}) => {
+  /**
+   * Config
+   * Reference: https://webpack.js.org/configuration/
+   * This is the object where all configuration gets set
+   */
+  const config = {};
+
+  /**
+   * Output
+   * Reference: https://webpack.js.org/configuration/devtool/
+   */
+  config.devtool = isProd ? 'source-map' : 'eval';
+
+  /**
+   * Entry
+   * Reference: https://webpack.js.org/configuration/entry-context/
+   */
+  config.entry = {
+    app: path.join(__dirname, 'src', 'index.js'),
+  };
+
+  /**
+   * Output
+   * Reference: https://webpack.js.org/configuration/output/
+   */
+  config.output = {
+    path: path.join(__dirname, 'assets'),
+    filename: isProd ? '[name].[chunkhash].js' : '[name].js',
+    publicPath: '/assets/',
+  };
+
+  /**
+   * Loaders
+   * Reference: https://webpack.js.org/configuration/module/
+   * List: https://webpack.js.org/loaders/
+   * This handles most of the magic responsible for converting modules
+   */
+  config.module = {
+    rules: [
+      // JS LOADER
+      // Reference: https://github.com/babel/babel-loader
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -25,92 +59,112 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.(ttf.*|eot.*|woff.*|ogg|mp3)$/,
-        use: ['file-loader'],
-      },
-      {
-        test: /.(png|jpe?g|gif|svg.*)$/,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-          {
-            loader: 'img-loader',
-            options: {
-              optimizationLevel: 7,
-              progressive: true,
-            },
-          },
-        ],
-      },
+
+      // CSS LOADER
+      // Reference: https://webpack.js.org/plugins/extract-text-webpack-plugin/
       {
         test: /\.s?css$/,
+        // exclude: /node_modules/,
         use: ExtractTextPlugin.extract({
-          // Reference: https://github.com/webpack/style-loader
-          // Use style-loader in development.
           fallback: 'style-loader',
           use: [
             // Reference: https://github.com/webpack/css-loader
             // Allow loading css through js
-            {
-              loader: 'css-loader',
-              query: { sourceMap: false },
-            },
-
+            { loader: 'css-loader' },
             // Reference: https://github.com/postcss/postcss-loader
             // Postprocess your css with PostCSS plugins
             {
               loader: 'postcss-loader',
-              options: {
-                plugins: [autoprefixer],
-              },
+              options: { plugins: [autoprefixer] },
             },
-
             // Reference: https://github.com/webpack-contrib/sass-loader
             // Convert scss to css
-            {
-              loader: 'sass-loader',
-            },
+            { loader: 'sass-loader' },
           ],
         }),
       },
-    ],
-  },
 
-  plugins: [
+      // FILE LOADER
+      // Reference: https://github.com/webpack-contrib/file-loader
+      {
+        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|html)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
+            }
+          }
+        ]
+      },
+    ],
+  };
+
+  /**
+   * Plugins
+   * Reference: https://webpack.js.org/configuration/plugins/
+   * List: https://webpack.js.org/plugins/
+   */
+  config.plugins = [
+    // Reference: https://webpack.js.org/plugins/environment-plugin/
+    // use 'development' unless process.env.NODE_ENV is defined
+    new webpack.EnvironmentPlugin({
+      NODE_ENV: 'development',
+    }),
+    // Reference: https://webpack.js.org/plugins/provide-plugin/
+    // Automatically load modules instead of having to import or require them everywhere.
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      Popper: ['popper.js', 'default'],
+    }),
+    // Reference: https://github.com/danethurber/webpack-manifest-plugin
+    // output the manifest for jekyll to import
+    new ManifestPlugin({
+      fileName: '../_data/webpack.json',
+      basePath: '/assets/',
+      writeToFileEmit: true,
+    }),
+    // Reference: https://webpack.js.org/plugins/extract-text-webpack-plugin/
+    // Extract css files
     new ExtractTextPlugin({
-      filename: '[name].css',
+      filename: isProd ? '[name].[chunkhash].css' : '[name].css',
       allChunks: true,
     }),
-
-    new HtmlWebpackPlugin({
-      template: 'index.html',
-      inject: 'body',
-      minify: { minifyJS: true },
+    // Reference: https://webpack.js.org/plugins/commons-chunk-plugin/
+    // Compile all third-party(node_modules) dependencies to vendor
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: ({ context }) => context && context.includes('node_modules'),
     }),
-
-    new webpack.DefinePlugin({
-      Environment: JSON.stringify(require('config')),
+    // Split common webpack meta data into a seperate file to prevent vendor
+    // changing on every build
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'meta',
+      chunks: 'vendor',
     }),
+  ];
 
-    new webpack.ProvidePlugin({
-      'window.jQuery': 'jquery',
-      jQuery: 'jquery',
-      $: 'jquery',
-    }),
-  ],
+  if (isProd) {
+    config.plugins.push(
+      // Reference: https://webpack.js.org/plugins/no-emit-on-errors-plugin/
+      // Only emit files when there are no errors
+      new webpack.NoEmitOnErrorsPlugin(),
+      // Reference: https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
+      // Minify all javascript, switch loaders to minimizing mode
+      new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
+    );
+  }
 
-  resolve: {
-    //   root: path.join(__dirname, 'scripts'),
-    //   extensions: ['', '.js', '.json'],
-    // alias: {
-    //   node_modules: path.join(__dirname, 'node_modules'),
-    // },
-  },
+  /**
+   * Dev Server
+   * Reference: https://webpack.js.org/configuration/dev-server
+   */
+  config.devServer = {
+    contentBase: path.join(__dirname, '_site'),
+    watchContentBase: true,
+  };
 
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js',
-  },
+  return config;
 };

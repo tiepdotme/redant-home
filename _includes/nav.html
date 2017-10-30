@@ -1,0 +1,32 @@
+{% if page.nav == 'navbar-aos' %}
+  <nav class="navbar nav-overlay" data-aos-anchor=".navbar-aos" data-aos="navbar-aos" data-aos-anchor-placement="bottom-bottom">
+{% else %}
+  <nav class="navbar nav-overlay">
+{% endif %}
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="{{ site.data.webpack['/assets/logo.svg'] }}" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container nav-links">
+    <ul class="links">
+      <li><a href="/about/">About Red Ant</a></li>
+      <li><a href="/our-approach/">Our approach</a></li>
+      <li><a href="/portfolio/">Stuff we&rsquo;ve made</a></li>
+      <li><a href="/ideas/">Ideas</a></li>
+      <li><a href="/jobs/">Looking for work?</a></li>
+    </ul>
+  </div>
+</nav>
