@@ -23,3 +23,48 @@
     }
   }
 }
+
+[data-aos='approach-svg'] {
+  .square-wrapper {
+    transform: translate(240px, 0);
+
+    .square {
+      transform: translate(0, 0);
+      transition-duration: 1.2s;
+      transition-property: transform;
+    }
+  }
+
+  &.aos-animate {
+    .one {
+      transform: translate(-80%, 0);
+    }
+
+    .three {
+      transform: translate(80%, 0);
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    max-width: 380px;
+    height: 540px;
+
+    .square-wrapper {
+      transform: translate(0, -320px);
+
+      .square {
+        transform: scale(3);
+      }
+    }
+
+    &.aos-animate {
+      .one {
+        transform: translate(0, -200%) scale(3);
+      }
+
+      .three {
+        transform: translate(0, 200%) scale(3);
+      }
+    }
+  }
+}

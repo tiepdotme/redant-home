@@ -11,6 +11,11 @@ a {
 .text-x-large {
   font-size: $font-size-base * 4.4;
   line-height: $font-size-base * 4;
+
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-base * 3.4;
+    line-height: $font-size-base * 3;
+  }
 }
 
 hr {
