@@ -92,7 +92,10 @@ module.exports = (env = {}) => {
           {
             loader: 'file-loader',
             options: {
-              name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
+              // Having and issue with the hashed name within css files, for the
+              // moment dont hash the name
+              // name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
+              name: '[name].[ext]',
             },
           },
         ],
