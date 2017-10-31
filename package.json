@@ -13,7 +13,7 @@
     "build:webpack": "NODE_ENV=production webpack -p --bail --progress --profile",
     "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml",
     "setup": "yarn clean && concurrently 'yarn install:jekyll' 'yarn install:webpack'",
-    "clean": "rimraf ./_site ./assets",
+    "clean": "rimraf ./assets",
     "install:jekyll": "bundle check || bundle install",
     "install:webpack": "yarn check || yarn install",
     "lint": "yarn lint:css && yarn lint:js",
