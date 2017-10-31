@@ -93,9 +93,9 @@ module.exports = (env = {}) => {
             loader: 'file-loader',
             options: {
               name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
-            }
-          }
-        ]
+            },
+          },
+        ],
       },
     ],
   };
@@ -162,7 +162,7 @@ module.exports = (env = {}) => {
    * Reference: https://webpack.js.org/configuration/dev-server
    */
   config.devServer = {
-    contentBase: path.join(__dirname, '_site'),
+    contentBase: path.join(__dirname, 'docs'),
     watchContentBase: true,
   };
 
