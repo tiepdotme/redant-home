@@ -1,6 +1,5 @@
 {
-  "non-interactive": false,
-  "dry-run": true,
+  "non-interactive": true,
   "pkgFiles": [],
   "buildCommand": "docker-compose run web yarn build",
   "dist": {
@@ -13,11 +12,11 @@
       "commit": true,
       "tag": false,
       "push": true,
-      "release": false,
+      "release": true,
       "publish": false
     },
     "dist": {
-      "status": false,
+      "status": true,
       "commit": true,
       "tag": true,
       "push": true,
