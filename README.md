@@ -64,8 +64,7 @@ container, installing the dependency then starting the container again.
 ## Release / Deploy
 
 ```
-docker-compose run web yarn build
+yarn release
 ```
 
-Webpack & Jekyll will build the site to the docs directory. Commit the files in
-`docs` then push. The docs directory will be served by github pages.
+Webpack & Jekyll will build the site commit and push to the `gh-pages` branch.

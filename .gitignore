@@ -2,9 +2,10 @@
 .sass-cache
 .asset-cache
 .jekyll-metadata
+.stage
 *.log
 *.bak
 _data/webpack.json
+_site
 node_modules
 assets
-!docs/assets

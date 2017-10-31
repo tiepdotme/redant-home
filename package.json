@@ -1,7 +1,7 @@
 {
   "name": "redant-home",
   "version": "1.0.0",
-  "description": "Redant Website.",
+  "description": "Red Ant Website.",
   "main": "src/index.js",
   "author": "Jason Taylor <jason@redant.com.au>",
   "private": true,
@@ -13,9 +13,10 @@
     "build:webpack": "NODE_ENV=production webpack -p --bail --progress --profile",
     "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml",
     "setup": "yarn clean && concurrently 'yarn install:jekyll' 'yarn install:webpack'",
-    "clean": "rimraf ./assets",
+    "clean": "rimraf ./_site ./assets",
     "install:jekyll": "bundle check || bundle install",
     "install:webpack": "yarn check || yarn install",
+    "release": "release-it",
     "lint": "yarn lint:css && yarn lint:js",
     "lint:css": "stylelint './src/**/*.scss'",
     "lint:js": "eslint ./src/**/*.js"
@@ -57,6 +58,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "prettier": "^1.7.4",
+    "release-it": "2",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0",
     "stylelint-scss": "^2.1.0"
