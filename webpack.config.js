@@ -162,7 +162,7 @@ module.exports = (env = {}) => {
    * Reference: https://webpack.js.org/configuration/dev-server
    */
   config.devServer = {
-    contentBase: path.join(__dirname, 'docs'),
+    contentBase: path.join(__dirname, '_site'),
     watchContentBase: true,
   };
 

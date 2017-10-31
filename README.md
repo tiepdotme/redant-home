@@ -1,6 +1,6 @@
-# Redant Website
+# Red Ant Website
 
-The Redant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyll-webpack).
+The Red Ant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyll-webpack).
 
 The app uses a standard Jekyll structure with all uncompiled asset source files
 located in `./src`.
