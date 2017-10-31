@@ -87,7 +87,7 @@ module.exports = (env = {}) => {
       // FILE LOADER
       // Reference: https://github.com/webpack-contrib/file-loader
       {
-        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|html)$/,
+        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|html|ico)$/,
         use: [
           {
             loader: 'file-loader',
