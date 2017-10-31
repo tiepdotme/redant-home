@@ -8,3 +8,4 @@ _site
 _data/webpack.json
 node_modules
 assets
+!docs/assets
