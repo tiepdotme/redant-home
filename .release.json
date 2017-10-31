@@ -1,0 +1,28 @@
+{
+  "non-interactive": false,
+  "dry-run": true,
+  "pkgFiles": [],
+  "buildCommand": "docker-compose run web yarn build",
+  "dist": {
+    "repo": "git@github.com:red-ant/redant-home.git#gh-pages",
+    "baseDir": "_site"
+  },
+  "prompt": {
+    "src": {
+      "status": false,
+      "commit": true,
+      "tag": false,
+      "push": true,
+      "release": false,
+      "publish": false
+    },
+    "dist": {
+      "status": false,
+      "commit": true,
+      "tag": true,
+      "push": true,
+      "release": true,
+      "publish": false
+    }
+  }
+}

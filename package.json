@@ -16,6 +16,7 @@
     "clean": "rimraf ./assets",
     "install:jekyll": "bundle check || bundle install",
     "install:webpack": "yarn check || yarn install",
+    "release": "release-it",
     "lint": "yarn lint:css && yarn lint:js",
     "lint:css": "stylelint './src/**/*.scss'",
     "lint:js": "eslint ./src/**/*.js"
@@ -57,6 +58,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "prettier": "^1.7.4",
+    "release-it": "2",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0",
     "stylelint-scss": "^2.1.0"
