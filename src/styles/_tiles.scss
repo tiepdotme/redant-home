@@ -81,3 +81,22 @@
     padding: $grid-gutter-width / 2;
   }
 }
+
+.notebox {
+  padding: $grid-gutter-width * 1.5;
+  background-color: $white;
+  border-top: 2px solid $gray-smoke;
+  border-bottom: 2px solid $gray-smoke;
+
+  &::before {
+    @include block($about-blue);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: $grid-gutter-width / 2;
+  }
+}
