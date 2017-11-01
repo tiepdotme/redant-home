@@ -23,7 +23,7 @@ brew cask install virtualbox
 Install docker requirements:
 ```
 brew tap codekitchen/dinghy
-brew install dinghy docker docker-machine
+brew install dinghy docker docker-machine docker-compose
 ```
 
 Then create dinghy with virtualbox as the provider:
