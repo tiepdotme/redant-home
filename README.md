@@ -45,6 +45,43 @@ open http://web.redanthome.docker
 The dev environment has been setup to use webpack-dev-server so livereloading
 should work with no setup.
 
+## Updating content
+
+Edit and add page or image content in the folders below
+
+```
+├── ...
+├── _pages      # Edit and add new pages here
+└── src
+    ├── ...
+    └── images  # Add images here
+```
+
+When creating new pages, be sure to set the layout and permalink at the top of the file as shown below. For further examples, have a look at the files in `/_pages`.
+
+```
+---
+layout: default
+permalink: /our-approach/
+---
+```
+
+**IMPORTANT:** Images that are added to `/src/images/` and all its subdirectories are flattened into a single folder `/assets`, so each image should have a unique name. So to avoid conflicts, prefix the folder name, for instance `/src/images/folder123/image.jpg` is best called `/src/images/folder123/folder123-image.jpg`.
+
+Inside Jekyll HTML templates, the image can be referenced like the following:
+
+```
+<img src="{{ site.data.webpack['/assets/folder123-image.jpg'] }}" />
+```
+
+Inside SASS files, the image can be referenced like the following:
+
+```
+.class-name {
+  background-image: url('/assets/folder123-image.jpg');
+}
+```
+
 ## Gems & Node Modules
 
 You can install gems and node_modules to your host machine as normal:

@@ -1,0 +1,31 @@
+.footer {
+  .socials {
+    .fa {
+      margin-right: 5px;
+      color: $black;
+      font-size: 1.4rem;
+    }
+  }
+
+  .email,
+  .phone {
+    display: inline-block;
+    font-weight: bold;
+
+    a {
+      margin-left: 5px;
+      font-weight: normal;
+    }
+  }
+
+  .copy {
+    text-align: right;
+  }
+
+  @include media-breakpoint-down(sm) {
+    &,
+    .copy {
+      text-align: center;
+    }
+  }
+}
