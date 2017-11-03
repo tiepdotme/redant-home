@@ -40,7 +40,7 @@ permalink: /portfolio/
 
       <!-- 12wbt -->
       <div class="col-md-6">
-        <a href="/project/huggies/" class="portfolio-tile bg-12wbt">
+        <a href="/project/12wbt/" class="portfolio-tile bg-12wbt">
           <div class="content">
             <h2>12WBT</h2>
             <div class="hr-wrapper"><hr class="inverse"></div>
