@@ -6,7 +6,7 @@ permalink: /project/huggies/
 <header class="project-header">
   <div class="project-header-content">
     <div class="bg-angled bg-huggies"></div>
-    {% include project-svg-reverse.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
+    {% include svg/project-header-reverse.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
   </div>
 </header>
 
@@ -56,5 +56,5 @@ permalink: /project/huggies/
   </div>
 </section>
 
-<section class="py-5" data-read-more>
+<section class="pb-5" data-read-more>
 </section>

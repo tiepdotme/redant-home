@@ -27,21 +27,21 @@ permalink: /jobs/
         <p>
           We’re looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.
         </p>
-        <a href="#">Read more</a>
+        <a href="/jobs/senior-javascript-developer/">Read more</a>
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>Senior Front Endgineer</h5>
         <p>
           We’re looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.
         </p>
-        <a href="#">Read more</a>
+        <a href="/jobs/senior-javascript-developer/">Read more</a>
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>Senior Front Endgineer</h5>
         <p>
           We’re looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.
         </p>
-        <a href="#">Read more</a>
+        <a href="/jobs/senior-javascript-developer/">Read more</a>
       </div>
     </div>
   </div>

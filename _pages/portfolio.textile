@@ -31,7 +31,7 @@ permalink: /portfolio/
           </div>
           <div class="svg-container">
             <div class="svg-wrapper">
-              {% include project-svg.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
+              {% include svg/project-header.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
             </div>
           </div>
         </a>
@@ -51,7 +51,7 @@ permalink: /portfolio/
           </div>
           <div class="svg-container">
             <div class="svg-wrapper">
-              {% include project-svg.html desktop_image="/assets/12wbt-455x719.png" mobile_image="/assets/12wbt-185x329.png" %}
+              {% include svg/project-header.html desktop_image="/assets/12wbt-455x719.png" mobile_image="/assets/12wbt-185x329.png" %}
             </div>
           </div>
         </a>

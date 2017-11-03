@@ -23,37 +23,37 @@ const init = $(() => {
     {
       title: `10 super easy ways to silence a crying child`,
       subtitle: `Parenting tips`,
-      image: `/assets/fake1.jpg`,
+      image: `/assets/fake4.jpg`,
       link: `/project/12wbt/`,
     },
     {
       title: `See who has been checking you out on Facebook`,
       subtitle: `Modern Life`,
-      image: `/assets/fake2.jpg`,
+      image: `/assets/fake5.jpg`,
       link: `/project/12wbt/`,
     },
     {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
       subtitle: `OMG`,
-      image: `/assets/fake3.jpg`,
+      image: `/assets/fake6.jpg`,
       link: `/project/`,
     },
     {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,
       subtitle: `LifeHacks`,
-      image: `/assets/fake1.jpg`,
+      image: `/assets/fake7.jpg`,
       link: `/project/12wbt/`,
     },
     {
       title: `The must have spy device every car owner should have`,
       subtitle: `OMG`,
-      image: `/assets/fake2.jpg`,
+      image: `/assets/fake8.jpg`,
       link: `/project/huggies/`,
     },
     {
       title: `You'll never believe this weight loss trick`,
       subtitle: `OMG`,
-      image: `/assets/fake3.jpg`,
+      image: `/assets/fake9.jpg`,
       link: `/project/huggies/`,
     },
   ];
@@ -81,7 +81,7 @@ const init = $(() => {
             <div class="card-img-wrapper">
               <img class="card-img-top" src="${article.image}" alt="${article.title}" />
             </div>
-            <div class="card-block p-3">
+            <div class="card-block py-3">
               <h4 class="card-title">${article.title}</h4>
               <p class="card-text">${article.subtitle}</p>
             </div>
