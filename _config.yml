@@ -14,14 +14,11 @@ google_analtyics: UA-421251-1
 # Jekyll Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-textile-converter
 
 # Include for processing.
 include:
   - _pages
-
-# Gems
-gems:
-  - jekyll-textile-converter
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

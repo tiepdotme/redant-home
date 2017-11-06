@@ -1,0 +1,29 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ page.lang | default: site.lang | default: " en " }}">
+<!--<![endif]-->
+{% include head.html %}
+
+<body class="{{ page.class }}">
+  <div class="main-layout">
+    {% include nav.html %}
+
+    <header class="project-header">
+      <div class="project-header-content">
+        <div class="bg-angled bg-{{ page.project_name }}"></div>
+        {% include svg/project-header-reverse.html project=page.project_name %}
+      </div>
+    </header>
+
+    {{ content }}
+
+    <section class="pb-5" data-read-more></section>
+
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>
