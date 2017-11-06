@@ -1,7 +1,10 @@
 ---
 layout: project
 permalink: /project/huggies/
-project_name: huggies
+slug: huggies
+title: Huggies
+tagline: A place for parents to learn &amp; share
+description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 ---
 
 <section class="pt-3 pb-5">

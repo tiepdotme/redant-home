@@ -1,7 +1,10 @@
 ---
 layout: project
 permalink: /project/12wbt/
-project_name: 12wbt
+slug: 12wbt
+title: 12WBT
+tagline: A health and fitness product
+description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 ---
 
 <section class="pt-3 pb-5">

@@ -18,45 +18,25 @@ permalink: /portfolio/
 <section class="py-5">
   <div class="container">
     <div class="row">
-      <!-- Huggies -->
-      <div class="col-md-6">
-        <a href="/project/huggies/" class="portfolio-tile bg-huggies">
-          <div class="content">
-            <h2>Huggies</h2>
-            <div class="hr-wrapper"><hr class="inverse"></div>
-            <h4>A place for parents to learn &amp; share</h4>
-            <p>
-              Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
-            </p>
+      {% for doc in site.pages %}
+        {% if doc.layout == "project" %}
+          <div class="col-md-6">
+            <a href="{{ doc.permalink }}" class="portfolio-tile bg-{{ doc.slug }}">
+              <div class="content">
+                <h2>{{ doc.title }}</h2>
+                <div class="hr-wrapper"><hr class="inverse"></div>
+                <h5 class="my-4">{{ doc.tagline }}</h5>
+                <p>{{ doc.description }}</p>
+              </div>
+              <div class="svg-container">
+                <div class="svg-wrapper">
+                  {% include svg/project-header.html project=doc.slug %}
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="svg-container">
-            <div class="svg-wrapper">
-              {% include svg/project-header.html project="huggies" %}
-            </div>
-          </div>
-        </a>
-      </div>
-      <!-- /Huggies -->
-
-      <!-- 12wbt -->
-      <div class="col-md-6">
-        <a href="/project/12wbt/" class="portfolio-tile bg-12wbt">
-          <div class="content">
-            <h2>12WBT</h2>
-            <div class="hr-wrapper"><hr class="inverse"></div>
-            <h4>A place for parents to learn &amp; share</h4>
-            <p>
-              Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
-            </p>
-          </div>
-          <div class="svg-container">
-            <div class="svg-wrapper">
-              {% include svg/project-header.html project="12wbt" %}
-            </div>
-          </div>
-        </a>
-      </div>
-      <!-- /12wbt -->
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
