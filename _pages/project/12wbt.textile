@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: project
 permalink: /project/12wbt/
+project_name: 12wbt
 ---
-
-<header class="project-header">
-  <div class="project-header-content">
-    <div class="bg-angled bg-12wbt"></div>
-    {% include svg/project-header-reverse.html desktop_image="/assets/12wbt-455x719.png" mobile_image="/assets/12wbt-185x329.png" %}
-  </div>
-</header>
 
 <section class="pt-3 pb-5">
   <div class="container">
@@ -42,7 +36,4 @@ permalink: /project/12wbt/
       </div>
     </div>
   </div>
-</section>
-
-<section class="pb-5" data-read-more>
 </section>

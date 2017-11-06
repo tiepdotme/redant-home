@@ -152,7 +152,7 @@ nav: navbar-aos
         </div>
       </div>
       <div class="svg-wrapper">
-        {% include svg/project-header.html desktop_image="/assets/12wbt-455x719.png" mobile_image="/assets/12wbt-185x329.png" %}
+        {% include svg/project-header.html project="12wbt" %}
       </div>
     </div>
 
@@ -179,7 +179,7 @@ nav: navbar-aos
         </div>
       </div>
       <div class="svg-wrapper">
-        {% include svg/project-header.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
+        {% include svg/project-header.html project="huggies" %}
       </div>
     </div>
 
@@ -203,7 +203,7 @@ nav: navbar-aos
         </div>
       </div>
       <div class="svg-wrapper">
-        {% include svg/project-header.html desktop_image="/assets/plando-455x719.png" mobile_image="/assets/plando-185x328.png" %}
+        {% include svg/project-header.html project="plando" %}
       </div>
     </div>
   </div>

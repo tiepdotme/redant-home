@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: project
 permalink: /project/huggies/
+project_name: huggies
 ---
-
-<header class="project-header">
-  <div class="project-header-content">
-    <div class="bg-angled bg-huggies"></div>
-    {% include svg/project-header-reverse.html desktop_image="/assets/huggies-455x719.png" mobile_image="/assets/huggies-185x370.png" %}
-  </div>
-</header>
 
 <section class="pt-3 pb-5">
   <div class="container">
@@ -54,7 +48,4 @@ permalink: /project/huggies/
       </div>
     </div>
   </div>
-</section>
-
-<section class="pb-5" data-read-more>
 </section>
