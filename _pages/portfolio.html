@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: /portfolio/
+---
+
+<header class="dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h1 class="text-x-large pb-3">stuff we<br />have made</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      {% for doc in site.pages %}
+        {% if doc.layout == "project" %}
+          <div class="col-md-6">
+            <a href="{{ doc.permalink }}" class="portfolio-tile bg-{{ doc.slug }}">
+              <div class="content">
+                <h2>{{ doc.title }}</h2>
+                <div class="hr-wrapper"><hr class="inverse"></div>
+                <h5 class="my-4">{{ doc.tagline }}</h5>
+                <p>{{ doc.description }}</p>
+              </div>
+              <div class="svg-container">
+                <div class="svg-wrapper">
+                  {% include svg/project-header.html project=doc.slug %}
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
