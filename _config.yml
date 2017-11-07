@@ -14,7 +14,6 @@ google_analtyics: UA-421251-1
 # Jekyll Plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-textile-converter
 
 # Include for processing.
 include:
