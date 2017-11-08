@@ -1,22 +1,16 @@
 ---
 layout: project
 permalink: /project/beautyheaven/
+theme: beautyheaven
 slug: beautyheaven
-title: beautyheaven
+title: Beautyheaven
 tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
+project_url: www.beautyheaven.com.au
+client: Beauty Heaven
+project_date:
+images:
 ---
-
-<section class="pt-3 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-x-large pb-2">Huggies</h1>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-7">
 
 Need to take your customer engagement to the next level? Take a look at how <a href="http://www.huggies.com.au/" target="_blank">Huggies</a> is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 
@@ -45,17 +39,3 @@ Vibrant community of users in forum and review areas
 Interesting tools such as Salon Directory
 
 (http://beautyheaven.com.au)
-
-      </div>
-      <div class="col-md-5">
-        <div class="section-border py-3 my-2">
-
-Client: Beauty Heaven
-			Project URL: www.beautyheaven.com.
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

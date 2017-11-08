@@ -1,22 +1,16 @@
 ---
 layout: project
 permalink: /project/huggies/
+theme: huggies
 slug: huggies
 title: Huggies
 tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
+project_url:
+client:
+project_date:
+images:
 ---
-
-<section class="pt-3 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-x-large pb-2">Huggies</h1>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-7">
 
 Need to take your customer engagement to the next level? Take a look at how <a href="http://www.huggies.com.au/" target="_blank">Huggies</a> is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 
@@ -49,10 +43,3 @@ Bits we’re especially proud of:
 
 
 Visit [Huggies](http://www.huggies.com.au/")
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

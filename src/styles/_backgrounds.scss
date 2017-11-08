@@ -7,6 +7,10 @@
   background-color: $gray-light;
 }
 
+.bg-gray {
+  background-color: $gray;
+}
+
 .bg-angled {
   position: absolute;
   width: 0;
@@ -18,14 +22,8 @@
   border-bottom-color: $white;
 }
 
-.bg-huggies {
-  background-color: $huggies-bg;
-}
-
-.bg-12wbt {
-  background-color: $mb12wbt-bg;
-}
-
-.bg-bondivet {
-  background-color: $bondivet-bg;
+@each $name, $value in $project-colors {
+  .bg-#{$name} {
+    background-color: $value;
+  }
 }
