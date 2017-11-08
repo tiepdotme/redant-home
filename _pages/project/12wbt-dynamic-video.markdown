@@ -1,25 +1,18 @@
 ---
 layout: project
 permalink: /project/12wbt-dynamic-video/
+theme: 12wbt
 slug: 12wbt-dynamic-video
-title: 12WBT dynamic video
+title: 12WBT Dynamic Video
 tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
+project_url:
+client: 12WBT
+project_date: 2015
+images:
 ---
 
-<section class="pt-3 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-x-large pb-2">12WBT dynamic-video</h1>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-7">
-
 #### Project Description
-
 
 People often talk about scaling technology (getting more traffic, doing more transactions etc). But how do you scale content?
 
@@ -35,20 +28,4 @@ Instead of shooting everything as one continuous narrative, each exercise is fil
 
 When the user gets to the page, we can present a set of HTML5 videos. Each exercise is looped for the correct number of reps. We can even use data from a user’s profile to customise the workout. So if you’re on the strength program you might be asked to do 10 pushups, but a beginner weight loss might be asked to do 5 knee push-ups instead. The end result looks like a normal video, but is actually dynamically assembled.
 
-		Taking this approach, the video content becomes scalable. Rather than just a few long videos, we can create literally millions of different workouts.
-
-      </div>
-      <div class="col-md-5">
-        <div class="section-border py-3 my-2">
-
-			####  Project Detail
-
-			Project: 12WBT Dynamic Workout Videos
-			Date: 2015
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+Taking this approach, the video content becomes scalable. Rather than just a few long videos, we can create literally millions of different workouts.

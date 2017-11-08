@@ -1,29 +1,24 @@
 ---
 layout: project
 permalink: /project/12wbt/
+theme: 12wbt
 slug: 12wbt
 title: 12WBT
 tagline: A health and fitness product
 description: 12WBT is an extremely successful online health and fitness platform
+project_url: http://www.12wbt.com
+client: 12WBT
+project_date:
+images:
 ---
 
-<section class="pt-3 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-x-large pb-2">12WBT</h1>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-7">
 
-[12WBT.com](http://www.12wbt.com) - an extremely successful online health and fitness platform. 
+[12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
 
 Unless live in a cave, or (like me) you have very few friends, you probably know someone that has done 12WBT. Or perhaps you've done it yourself. 12WBT is Australia's most successful health and fitness platform, with a large number of members coming back again and again.
 
 Here's how it works:
-It's all digital - no physical meals, meetings, DVDs etc. You join for $199, then set up your goals (eg: I'd like to lose 5kg for my wedding in March). Based on who you are and what you're trying to achieve, you can then pick from a menu of programs - weight loss, running, strength and so on. Everyone starts with a PreSeason, which is all about getting prepared. Then you go into 12 successive weeks of training and nutrition. Everyone starts together at the same time, and progresses through at the same pace. 
+It's all digital - no physical meals, meetings, DVDs etc. You join for $199, then set up your goals (eg: I'd like to lose 5kg for my wedding in March). Based on who you are and what you're trying to achieve, you can then pick from a menu of programs - weight loss, running, strength and so on. Everyone starts with a PreSeason, which is all about getting prepared. Then you go into 12 successive weeks of training and nutrition. Everyone starts together at the same time, and progresses through at the same pace.
 
 We started on this way back in 2011. Back then there was a basic MVP built with a CMS, that was having some pretty significant growing pains. Which isn't unusual - a big part of MVP is working out what you don't know. We rebuilt the tech stack in Ruby on Rails over about 10 weeks, including a new payment system and a more evolved management system.
 
@@ -44,23 +39,14 @@ Michelle Bridges is a well know Australian personal trainer. Through her books, 
 
 The Michelle Bridges 12 week body transformation (12WBT) program is a paid web based program that offers members 12 weeks of exercises, food plans, shopping lists, live chat, forum and interactive tools. Each week a new set of videos, exercises and recipes becomes available to members. Over the 12 weeks, members chart their progress and are inspired by the changes to their health and fitness. The community aspects mean members encourage each other to go that little bit further. It is a powerful and engaging 12 weeks where the results are felt personally for each member.
 
-http://www.12wbt.com" target="_blank">12WBT.com
-      </div>
-      <div class="col-md-5">
-        <div class="section-border py-3 my-2">
+[12WBT.com]({{ page.project_url }})
+
 
 #### Project Detail
 
 * __Paid membership site__ - members join and buy a subscription for a 3 month “round” &#8211; either up front or recurring weekly payments with high bursts of traffic when all members need to access the site at the same time.
 * __Content system__ - members sign up and get content &amp; tools each week. As the program progresses through the 12 weeks, different features appear.
 * __Event system__ - members can create events, RSVP to them, write reviews of events, and book tickets for paid events.
-* __Forum &amp; private messaging system__ - tightly integrated with the rest of the site.</li>
-* __Help & FAQ__ - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.</li>
+* __Forum &amp; private messaging system__ - tightly integrated with the rest of the site.
+* __Help & FAQ__ - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
 * __My Stats__ - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

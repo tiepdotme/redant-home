@@ -45,6 +45,21 @@ open http://web.redanthome.docker
 The dev environment has been setup to use webpack-dev-server so livereloading
 should work with no setup.
 
+## Updating portfolio order
+
+In the file `/_data/portfolio.json` you can change the order of the projects shown in the portfolio page by changing the order of the slugs.
+
+```
+{
+  "order": [
+    "page-slug-1",
+    "page-slug-2",
+    "page-slug-3",
+    "page-slug-4"
+  ]
+}
+```
+
 ## Updating content
 
 Edit and add page or image content in the folders below

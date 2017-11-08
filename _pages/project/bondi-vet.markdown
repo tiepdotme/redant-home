@@ -1,10 +1,15 @@
 ---
 layout: project
 permalink: /project/bondi-vet/
-slug: bondivet
+theme: bondivet
+slug: bondi-vet
 title: Bondi Vet
 tagline: Everything for your fur baby
 description: Bondivet
+project_url:
+client:
+project_date:
+images:
 ---
 
 <section class="pt-3 pb-5">

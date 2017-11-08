@@ -18,15 +18,16 @@ permalink: /portfolio/
 <section class="py-5">
   <div class="container">
     <div class="row">
-      {% for doc in site.pages %}
-        {% if doc.layout == "project" %}
-          <div class="col-md-6">
-            <a href="{{ doc.permalink }}" class="portfolio-tile bg-{{ doc.slug }}">
+      {% for slug in site.data.portfolio.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for doc in pages %}
+          <div class="col-md-6 ">
+            <a href="{{ doc.permalink }}" class="portfolio-tile bg-gray bg-{{ doc.theme }}">
               <div class="content">
                 <h2>{{ doc.title }}</h2>
                 <div class="hr-wrapper"><hr class="inverse"></div>
                 <h5 class="my-4">{{ doc.tagline }}</h5>
-                <p>{{ doc.description }}</p>
+                <p class="mb-0 description">{{ doc.description }}</p>
               </div>
               <div class="svg-container">
                 <div class="svg-wrapper">
@@ -35,7 +36,7 @@ permalink: /portfolio/
               </div>
             </a>
           </div>
-        {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
