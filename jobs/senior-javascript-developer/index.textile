@@ -1,0 +1,187 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Red Ant | Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.</title>
+<meta property="og:title" content="Red Ant" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks." />
+<meta property="og:description" content="Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks." />
+<link rel="canonical" href="/jobs/senior-javascript-developer/" />
+<meta property="og:url" content="/jobs/senior-javascript-developer/" />
+<meta property="og:site_name" content="Red Ant" />
+<script type="application/ld+json">
+{"name":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","author":null,"@type":"WebPage","url":"/jobs/senior-javascript-developer/","publisher":null,"image":null,"headline":"Red Ant","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/app.752381b8570f30977255.css" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+  <body class="">
+    <div class="main-layout">
+      
+  <nav class="navbar nav-overlay">
+
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="/assets/logo.svg" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container nav-links">
+    <ul class="links">
+      <li><a href="/about/">About Red Ant</a></li>
+      <li><a href="/our-approach/">Our approach</a></li>
+      <li><a href="/portfolio/">Stuff we&rsquo;ve made</a></li>
+      <li><a href="/jobs/">Looking for work?</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+      <header class="dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-x-large pb-3">Senior Javascript Developer</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="jumbotron bg-gray-light py-5">
+  <div class="container">
+    <p class="summary">
+      We&#8217;re looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <p>Lets go off piste here and assume that you are indeed technically awesome.</p>
+    <p>Sure, you could probably get a job at Google and impress your Mum. You could contract from a beach in Bali, live the startup dream, or be the big fish at an agency.</p>
+    <p>What we&#8217;re looking for is someone that will really dig working with us. Fit in well. You&#8217;ll love coming to work, and we&#8217;ll love working with you. We&#8217;re not going to give you a code test, since they don&#8217;t seem to matter. What we&#8217;re really interested in is you. Please don&#8217;t take that in a creepy or stalker kind of way.</p>
+    <p>How about if I explain us a bit more:</p>
+    <p>1. We&#8217;re not consultants. We don&#8217;t take on projects for a few weeks and then hand over (all the while knowing that this elegant yet fragile code will explode on Prod). We get down and dirty, because we think that is where stuff gets really interesting. We value long term projects, because we know that by refining and iterating we can continually improve an idea.</p>
+    <p>2. We all work together. To work together as a high performing team, we think meaningful conversations and interactions are important. To make great digital things, so many different parts need to come together perfectly &#8211; from UX to DevOps.</p>
+    <p>3. We&#8217;re not an ad agency &amp; we don&#8217;t outsource. We build. We&#8217;re pretty geeky, and while we have content, UX &amp; design people, we&#8217;re undeniably technical. And to be technically good you need not only good people but excellent processes and a strong tech culture. People that care. We&#8217;re not that company that seems to build things but actually gets all the work done by the offshore team in Nepal or Poland or wherever. I&#8217;m sure they&#8217;re great, but I think there are better things you could be doing with your career other than baby sitting an offshore team. Personally I&#8217;d rather clean my ears with a Dremel.</p>
+    <p>4. We work with nice people as our clients. Life is too short to work with dickheads.</p>
+    <p>OK- so that was a few general things. In terms of specifics, we:</p>
+    <ul>
+      <li>use the usual suspects of Jira, Github and Flowdock</li>
+      <li>use Travis for CI</li>
+      <li>try to find that sweet spot between too few tests and fragile over tested code</li>
+      <li>code review PRs before they are merged, and have a pretty tight release flow</li>
+      <li>aim for 12 factor in all our work</li>
+    </ul>
+    <p>In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby <span class="caps">API</span>, Angular FE). But all of this is constantly evolving &#8211; we&#8217;re also evaluating React and let&#8217;s not even bring up testing frameworks.</p>
+    <p>The things we make are typically large web applications, which we call <a href="http://www.redant.com.au/digital-products/">digital products</a>. Have a look at our <a href="http://redant.com.au/portfolio">portfolio</a> to get a better idea of the some of the projects we work on.</p>
+    <h2>Full time</h2>
+    <p>This is a full time position &#8211; all of our team work together (see the bottom of this page to get a better idea of what that looks like). Many of our team have been working together for a number of years. Red Ant itself has been around for over 20 years, and we’d love to find someone after a secure, long term gig.</p>
+    <h2>Location</h2>
+    <p>We don&#8217;t want to boast, but our office is pretty <span class="caps">FTW</span>. A light filled warehouse space, with plenty of space to help you concentrate. Have a virtual walk around and check things out.</p>
+    <p>In terms of where we are, we&#8217;re the epicentre of hipsterville in Surry Hills (<a href="/about-red-ant/map/">map here</a>). You can&#8217;t spill your Chai without hitting a man with a beard or a chick with ironic glasses and tattoos. In terms of transport options, you can park your chopper in the park over the road, or if you arrive by pony you can tie it up on the tree outside. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.</p>
+    <p>For lunch, we have probably the highest concentration of cafes, bars and restaurants in the country. You’ll need to figure out if you like your coffee pressed, cold, drawn or dripped. Are you single origin or blend? Are you craft beer or obscure import?</p>
+    <h2>Is this remote or on site?</h2>
+    <p>On site &#8211; although many of us work from home now and then. And we’re pretty flexible in terms of having time off for all the things that come up &#8211; like sick children, family emergencies etc. And sometimes you need some focussed time to get things done.<br />
+    But say you lived in a drone that flew back and forth over Peru, this would be a very unsuitable position for you. Commuting would be problematic, and it would be difficult to keep in the loop.<br />
+    Most of our team are full time, and this has worked well as we’ve been able to learn and develop the way we do stuff. Incremental improvements +1.</p>
+    <h2>How much it pays</h2>
+    <p>Really well. Probably much better than where you are right now, but not as much as that recruiter has promised you that you are really worth. But hey, if that was reality then we&#8217;d all be coming in by chopper.</p>
+    <h2>Interested?</h2>
+    <p>If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to <a href="mailto:jobs@redant.com.au">Sarah</a> with an outline of the kind of projects you’ve worked on, and some insight into who you are.</p>
+    <p>And please – no recruiters! You guys probably don&#8217;t read down this far before calling up, but really we aren&#8217;t interested. If you really do have all these incredible candidates, there is this thing called the Internet that they can use to find some great cat pictures as well as this job.</p>
+    <p>This is a full time position, for a carbon based person who lives in Sydney, Australia. While we really appreciate all the attention from recruiters, offshore teams and people living their Drone Dream, we’re only looking for applicants that live near us.</p>
+    <div class="group">
+      <h2>Have a walk around our office</h2>
+      <div id="streetview" style="height: 600px"></div>
+    </div>
+  </div>
+</section>
+
+
+      
+<section class="padded-section canvas-section">
+  <div class="container text-center">
+    <h1>work with us</h1>
+    <p>We can help you create & build exceptional digital products</p>
+    <a href="#" class="btn btn-primary">Contact Red Ant</a>
+  </div>
+
+  <div id="parallax-footer" class="parallax-container text-center">
+    <div class="parallax-layer" data-depth="0.4">
+      <div class="parallax-content">
+        <img src="/assets/grid.png" />
+      </div>
+    </div>
+    <div class="parallax-layer" data-depth="1.2">
+      <div class="parallax-content">
+        <img src="/assets/grid.png" />
+      </div>
+    </div>
+    <div class="parallax-layer" data-depth="2">
+      <div class="parallax-content">
+        <img src="/assets/grid.png" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="socials">
+          <a href="https://www.facebook.com/red.ant.3994" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://twitter.com/r_e_d_a_n_t" target="_blank"><i class="fa fa-twitter-square"></i></a>
+          <a href="https://www.linkedin.com/company/76862" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          <a href="http://www.flickr.com/photos/arigajupiki" target="_blank"><i class="fa fa-flickr"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="email mr-md-4">Email <a href="#">info@redant.com.au</a></div>
+        <div class="phone">Phone <a href="#">+61 2 9267 8300</a></div>
+      </div>
+      <div class="col-md-4 copy">
+        <span>&copy; Red Ant 2017</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/meta.a53b0558a32b6a7eaf25.js"></script>
+<script src="/assets/vendor.efb35b6667e99d9029f1.js"></script>
+<script src="/assets/app.752381b8570f30977255.js"></script>
+
+
+
+    </div>
+  </body>
+</html>
