@@ -9,7 +9,7 @@ const init = $(() => {
       link: `/project/huggies/`,
     },
     {
-      title: `Exclusive! The story that Tony Abbott hid from his wife`,
+      title: `Weird but true: see what they look like today`,
       subtitle: `Unbelievable but true`,
       image: `/assets/fake2.jpg`,
       link: `/project/12wbt/`,
@@ -24,7 +24,7 @@ const init = $(() => {
       title: `10 super easy ways to silence a crying child`,
       subtitle: `Parenting tips`,
       image: `/assets/fake4.jpg`,
-      link: `/project/12wbt/`,
+      link: `/project/huggies/`,
     },
     {
       title: `See who has been checking you out on Facebook`,
@@ -36,7 +36,7 @@ const init = $(() => {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
       subtitle: `OMG`,
       image: `/assets/fake6.jpg`,
-      link: `/project/`,
+      link: `/project/tribe`,
     },
     {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,
@@ -54,7 +54,7 @@ const init = $(() => {
       title: `You'll never believe this weight loss trick`,
       subtitle: `OMG`,
       image: `/assets/fake9.jpg`,
-      link: `/project/huggies/`,
+      link: `/project/voome/`,
     },
   ];
 

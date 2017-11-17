@@ -4,38 +4,41 @@ permalink: /project/beautyheaven/
 theme: beautyheaven
 slug: beautyheaven
 title: Beautyheaven
-tagline: A place for parents to learn &amp; share
-description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
+tagline: A leading health and beauty platform
+description: Seeded by eye-catching design, great functionality and relevant articles, Beauty Heaven has built a vibrant community of beauty addicts. A savvy membership system raises the status of contributors and gives them a reason to write reviews and give feedback. A smart way to leverage the knowledge of the community.
 project_url: www.beautyheaven.com.au
 client: Beauty Heaven
-project_date:
+project_date: 2007 - 2013
 images:
 ---
 
-Need to take your customer engagement to the next level? Take a look at how <a href="http://www.huggies.com.au/" target="_blank">Huggies</a> is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 
-We’ve been working on this site since 2005, and have recently relaunched with a new design, more features and a stronger <span class="caps">SEO</span> (Search Engine Optimisation) focus.
+Beautyheaven is a health and beauty site. More accurately, it is a really popular platform for people to review health and beauty products. Here's how it works:
 
-* Interactive tools that connect with social networks
-* Membership system that connects with competition and sampling system
-* A large and engaged online community
-* Responsive mobile design
+* BH have a database of tens of thousands of various beauty products.
+* If you're interested in that product, you can read all about it, plus read & watch in depth reviews
+* I can join and become a member. As a member, I can upvote on other member's reviews, as well as make reviews of my own
+* The more I participate, the more points I get. These points allow me to graduate to different levels. At the start, I can leave reviews. Once I've managed to get to the top level, I'm getting sent free products to review, and basically living the Life.
+* I can also use my points to (buy product in the Beautorium)[/project/beautyheaven-beautorium/], which is a points based flash store (only up for short bursts of time, since they sell out so quickly).
 
-h4. Project Description
+We worked with the BH team to take the site from a very small and basic Ruby on Rails site, to a much more stable and sophisticated platform. Traffic profiles are unusual, with large surges at various points.
 
-Beautyheaven.com.au is one of Australia’s leading independent beauty sites. The site has a thriving membership, who continually add content and reviews to the site.
+Being an advertising funded business, we needed to work with the BH team to optimise how pages worked with various ad technology. This meant coming up with ideas and approaches for new features, such as interactive quiz tools, integrated slideshows and community content. 
 
-The beautyheaven site has a very successful loyalty system, where members get points the more they participate on the site – writing reviews of products, comments, and forum postings. They review various beauty products, and there is a crack team of users that road tests various beauty products.
+* create new features or tools that a brand could sponsor
+* build tools and processes to improve efficiency - such as BrandX being able to run a campaign for all of the month on all pages in skincare, and any search result or community forum content that relates to skincare. Except those pages already sold to BrandY for the next quarter. Oh, and nothing that recommends using BrandZ.
+* come up with new ideas - such as how to monetise data reports and scaling
+
+In 2015 BH was (acquired by Bauer Media)[http://www.bauer-media.com.au/discover/press/announcements/2015/03/bauer-media-acquires-leading-digital-beauty-business-the-beautyheaven-group/], and integrated into their existing digital platform.
+
 
 Bits we’re especially proud of:
 
-slideshow tool
-quiz tool
-product & review pages
-Seeded by eye-catching design, great pictures and relevant articles, Beauty Heaven has built a vibrant community of beauty addicts. A savvy membership system raises the status of contributors and gives them a reason to write reviews and give feedback. A smart way to leverage the knowledge of the community.
-
-Editors use content tools to make feature articles stand out
-Vibrant community of users in forum and review areas
-Interesting tools such as Salon Directory
-
-(http://beautyheaven.com.au)
+* beautorium
+* integrated sponsorship CMS
+* dynamic slideshow tool
+* interactive quiz generation CMS
+* product & review pages
+* Salon directory
+* SEO structured CMS 
+* excellent platform uptime and performance
