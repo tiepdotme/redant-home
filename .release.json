@@ -1,7 +1,10 @@
 {
-  "non-interactive": true,
+  "non-interactive": false,
   "pkgFiles": [],
   "buildCommand": "docker-compose run web yarn build",
+  "src": {
+    "pushRepo": "upstream"
+  },
   "dist": {
     "repo": "git@github.com:red-ant/redant-home.git#gh-pages",
     "baseDir": "_site"
