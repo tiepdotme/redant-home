@@ -1,4 +1,5 @@
 import 'slick-carousel';
+import 'ekko-lightbox';
 
 import AOS from 'aos';
 
@@ -16,9 +17,15 @@ const init = $(function() {
 
   function init() {
     $('.carousel').slick();
+
     AOS.init({
       dataAosAnchorPlacement: 'center-bottom',
       easing: 'ease-in-out'
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
   }
 
