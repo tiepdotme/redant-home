@@ -1,0 +1,10 @@
+<div class="row">
+  {% for image in include.images %}
+    {% assign path = '/assets/' | append: image %}
+    <div class="col-md-6">
+      <a href="{{ path }}" data-toggle="lightbox">
+        <img src="{{ path }}" class="img-fluid">
+      </a>
+    </div>
+  {% endfor %}
+</div>

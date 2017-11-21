@@ -1,4 +1,5 @@
 import 'jquery';
+import 'bootstrap';
 
 import './homepage';
 import './grid';
