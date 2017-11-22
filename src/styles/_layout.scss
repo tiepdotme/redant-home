@@ -2,6 +2,10 @@ body {
   background-color: $gray-mid;
 }
 
+.container {
+  max-width: 960px;
+}
+
 .main-layout {
   position: relative;
   max-width: $layout-max-width;
@@ -10,28 +14,28 @@ body {
 }
 
 .homepage {
-  .navbar {
-    background-color: transparent;
+  // .navbar {
+  //   background-color: transparent;
 
-    .logo {
-      display: none;
-    }
+  //   .logo {
+  //     display: none;
+  //   }
 
-    &.open,
-    &.open.aos-animate {
-      background-color: rgba($black, 0.85);
-    }
+  //   &.open,
+  //   &.open.aos-animate {
+  //     background-color: rgba($black, 0.85);
+  //   }
 
-    &.aos-animate {
-      background-color: $white;
+  //   &.aos-animate {
+  //     background-color: $white;
 
-      .logo {
-        display: block;
-      }
-    }
-  }
+  //     .logo {
+  //       display: block;
+  //     }
+  //   }
+  // }
 
   header {
-    padding: 30% 0;
+    padding: 20% 0;
   }
 }
