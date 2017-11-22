@@ -1,3 +1,7 @@
+.carousel-wrapper {
+  position: relative;
+}
+
 .carousel {
   max-width: 100%;
   overflow: hidden;
@@ -11,6 +15,7 @@
     .content {
       position: relative;
       height: 550px;
+      padding-top: 80px;
       z-index: 2;
     }
 
@@ -39,6 +44,30 @@
     .slide {
       .content {
         height: 900px;
+      }
+    }
+  }
+}
+
+.carousel-nav {
+  position: absolute;
+  width: 100%;;
+  top: 0;
+  padding: $grid-gutter-width 0;
+  color: $white;
+  background-color: rgba($black, 0.8);
+  z-index: 100;
+
+  .carousel-dots {
+    position: relative;
+
+    .slick-dots {
+      li {
+        &.slick-active {
+          button::before {
+            color: $white;
+          }
+        }
       }
     }
   }

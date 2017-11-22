@@ -16,7 +16,10 @@ const init = $(function() {
   });
 
   function init() {
-    $('.carousel').slick();
+    $('.carousel').slick({
+      dots: true,
+      appendDots: '.carousel-dots'
+    });
 
     AOS.init({
       dataAosAnchorPlacement: 'center-bottom',
