@@ -10,9 +10,8 @@ project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
 project_date: 2011-2017
 images:
-  - desktop-12wbt-dynamic-video-hero.png
-  - 12wbt-gallery-1.jpg
-  - mobile-12wbt-dynamic-video-hero.png
+  - 12wbt-hero-desktop.jpg
+  - 12wbt-hero-mobile.jpg
 ---
 
 
