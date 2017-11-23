@@ -32,7 +32,7 @@
     {% for file in site.data.webpack %}
       {% assign desktop_img = '/assets/' | append: include.project | append: '-hero-desktop.jpg' %}
       {% if file contains desktop_img %}
-        <g class="big" transform="translate(0 40)">
+        <g class="big" transform="translate(0 30)">
           <g opacity="0.10" class="shadow4">
             <rect fill="#000000" width="450" height="729" transform="rotate(-30 450 0) skewX(30)"></rect>
           </g>

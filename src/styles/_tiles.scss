@@ -1,6 +1,6 @@
 .tile {
   position: relative;
-  padding: 2 * $grid-gutter-width $grid-gutter-width;
+  padding: $grid-gutter-width;
   border-left: 2px solid $red-light;
 
   &:nth-child(2n) {
@@ -104,5 +104,13 @@
 
   @include media-breakpoint-down(sm) {
     padding: $grid-gutter-width / 2;
+  }
+}
+
+.gallery-tiles {
+  .gallery-img {
+    display: block;
+    max-height: 140px;
+    overflow: hidden;
   }
 }
