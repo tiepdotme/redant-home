@@ -1,8 +1,8 @@
-<div class="row">
+<div class="row gallery-tiles">
   {% for image in include.images %}
     {% assign path = '/assets/' | append: image %}
-    <div class="col-md-6">
-      <a href="{{ path }}" data-toggle="lightbox">
+    <div class="col-6">
+      <a href="{{ path }}" class="gallery-img" data-toggle="lightbox" data-gallery="gallery-{{ include.slug }}">
         <img src="{{ path }}" class="img-fluid">
       </a>
     </div>

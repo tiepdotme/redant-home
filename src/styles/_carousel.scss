@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.slick-slider.slick-dotted {
+  margin-bottom: 0;
+}
+
 .carousel {
   max-width: 100%;
   overflow: hidden;
@@ -15,8 +19,12 @@
     .content {
       position: relative;
       height: 550px;
-      padding-top: 80px;
+      padding-top: 100px;
       z-index: 2;
+
+      h5 {
+        margin: $grid-gutter-width / 2 0;
+      }
     }
 
     .svg-wrapper {
@@ -31,19 +39,16 @@
     }
   }
 
-  @include media-breakpoint-down(md) {
-    .slide {
-      .svg-wrapper {
-        width: 100%;
-        height: 70%;
-      }
-    }
-  }
-
   @include media-breakpoint-down(sm) {
     .slide {
       .content {
-        height: 900px;
+        height: 800px;
+      }
+
+      .svg-wrapper {
+        width: 100%;
+        height: 65%;
+        margin-bottom: -100px;
       }
     }
   }
@@ -56,19 +61,42 @@
   padding: $grid-gutter-width 0;
   color: $white;
   background-color: rgba($black, 0.8);
-  z-index: 100;
+  z-index: 1;
 
   .carousel-dots {
     position: relative;
 
     .slick-dots {
+      text-align: right;
+
       li {
-        &.slick-active {
-          button::before {
-            color: $white;
+        width: initial;
+        height: initial;
+        margin-right: 5px;
+
+        button {
+          position: relative;
+          width: 40px;
+          height: 5px;
+          padding: 0;
+
+          &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: $white;
           }
         }
       }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 50px;
+
+    h2,
+    .carousel-dots .slick-dots {
+      text-align: center;
     }
   }
 }

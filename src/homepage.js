@@ -28,7 +28,11 @@ const init = $(function() {
 
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
       event.preventDefault();
-      $(this).ekkoLightbox();
+      $(this).ekkoLightbox({
+        alwaysShowClose: true,
+        leftArrow: '<i class="fa fa-chevron-left"></i>',
+        rightArrow: '<i class="fa fa-chevron-right"></i>',
+      });
     });
   }
 

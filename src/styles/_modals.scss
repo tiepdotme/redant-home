@@ -1,0 +1,60 @@
+.modal-dialog {
+  max-width: $layout-max-width !important;
+  width: 100%;
+  margin: 0;
+
+  .modal-content {
+    border: none;
+    background-color: transparent;
+
+    .modal-header {
+      padding-bottom: 0;
+      border-bottom: none;
+
+      .close {
+        color: $white;
+        text-shadow: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .modal-body {
+      padding: 0;
+    }
+  }
+}
+
+.ekko-lightbox-container {
+  .ekko-lightbox-item {
+    max-width: 540px;
+    margin: auto;
+    pointer-events: none;
+  }
+
+  .ekko-lightbox-nav-overlay {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding: 0 5px;
+
+    a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+
+      &:last-child {
+        float: right;
+      }
+
+      .fa {
+        color: $white;
+        font-size: 1.6rem;
+        text-shadow:  0 1px 2px rgba($black,.6);
+      }
+    }
+  }
+}
