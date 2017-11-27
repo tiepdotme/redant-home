@@ -106,7 +106,7 @@ module.exports = (env = {}) => {
           {
             loader: 'file-loader',
             options: {
-              name: isProd ? '[name].[hash:20].[ext]' : '[path][name].[ext]',
+              name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
             },
           },
         ],
@@ -129,7 +129,7 @@ module.exports = (env = {}) => {
     // Output the manifest for jekyll to import
     new ManifestPlugin({
       fileName: '../_data/webpack.json',
-      basePath: '/assets/',
+      publicPath: '/assets/',
       writeToFileEmit: true,
     }),
     // Reference: https://webpack.js.org/plugins/provide-plugin/
