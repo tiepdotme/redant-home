@@ -9,17 +9,17 @@
   <div id="parallax-footer" class="parallax-container text-center">
     <div class="parallax-layer" data-depth="0.4">
       <div class="parallax-content">
-        <img src="{{ site.data.webpack['/assets/grid.png'] }}" />
+        <img src="{{ site.data.webpack['grid.png'] }}" />
       </div>
     </div>
     <div class="parallax-layer" data-depth="1.2">
       <div class="parallax-content">
-        <img src="{{ site.data.webpack['/assets/grid.png'] }}" />
+        <img src="{{ site.data.webpack['grid.png'] }}" />
       </div>
     </div>
     <div class="parallax-layer" data-depth="2">
       <div class="parallax-content">
-        <img src="{{ site.data.webpack['/assets/grid.png'] }}" />
+        <img src="{{ site.data.webpack['grid.png'] }}" />
       </div>
     </div>
   </div>
@@ -47,9 +47,9 @@
   </div>
 </footer>
 
-<script src="{{ site.data.webpack['/assets/meta.js'] }}"></script>
-<script src="{{ site.data.webpack['/assets/vendor.js'] }}"></script>
-<script src="{{ site.data.webpack['/assets/app.js'] }}"></script>
+<script src="{{ site.data.webpack['meta.js'] }}"></script>
+<script src="{{ site.data.webpack['vendor.js'] }}"></script>
+<script src="{{ site.data.webpack['app.js'] }}"></script>
 
 {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}

@@ -83,11 +83,10 @@ permalink: /our-approach/
 
 **IMPORTANT:** Images that are added to `/src/images/` and all its subdirectories are flattened into a single folder `/assets`, so each image should have a unique name. So to avoid conflicts, prefix the folder name, for instance `/src/images/folder123/image.jpg` is best called `/src/images/folder123/folder123-image.jpg`.
 
-Inside Jekyll HTML templates, the image can be referenced using the flattened
-manifest path:
+Inside Jekyll HTML templates, the image can be referenced using just the image name:
 
 ```
-<img src="{{ site.data.webpack['/assets/folder123-image.jpg'] }}" />
+<img src="{{ site.data.webpack['folder123-image.jpg'] }}" />
 ```
 
 Inside SASS files, the image can be referenced with the full path from the src

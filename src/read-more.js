@@ -1,3 +1,13 @@
+import fake1 from './images/fakenews/fake1.jpg';
+import fake2 from './images/fakenews/fake2.jpg';
+import fake3 from './images/fakenews/fake3.jpg';
+import fake4 from './images/fakenews/fake4.jpg';
+import fake5 from './images/fakenews/fake5.jpg';
+import fake6 from './images/fakenews/fake6.jpg';
+import fake7 from './images/fakenews/fake7.jpg';
+import fake8 from './images/fakenews/fake8.jpg';
+import fake9 from './images/fakenews/fake9.jpg';
+
 const init = $(() => {
   const selector = `[data-read-more]`;
 
@@ -5,55 +15,55 @@ const init = $(() => {
     {
       title: `You'll never believe this weight loss trick`,
       subtitle: `LifeHacks`,
-      image: `~images/fakenews/fake1.jpg`,
+      image: fake1,
       link: `/project/huggies/`,
     },
     {
       title: `Weird but true: see what they look like today`,
       subtitle: `Unbelievable but true`,
-      image: `~images/fakenews/fake2.jpg`,
+      image: fake2,
       link: `/project/12wbt/`,
     },
     {
       title: `Every Australian born after 1905 should read this`,
       subtitle: `Tax for life`,
-      image: `~images/fakenews/fake3.jpg`,
+      image: fake3,
       link: `/project/huggies/`,
     },
     {
       title: `10 super easy ways to silence a crying child`,
       subtitle: `Parenting tips`,
-      image: `~images/fakenews/fake4.jpg`,
+      image: fake4,
       link: `/project/huggies/`,
     },
     {
       title: `See who has been checking you out on Facebook`,
       subtitle: `Modern Life`,
-      image: `~images/fakenews/fake5.jpg`,
+      image: fake5,
       link: `/project/12wbt/`,
     },
     {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
       subtitle: `OMG`,
-      image: `~images/fakenews/fake6.jpg`,
+      image: fake6,
       link: `/project/tribe`,
     },
     {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,
       subtitle: `LifeHacks`,
-      image: `~images/fakenews/fake7.jpg`,
+      image: fake7,
       link: `/project/12wbt/`,
     },
     {
       title: `The must have spy device every car owner should have`,
       subtitle: `OMG`,
-      image: `~images/fakenews/fake8.jpg`,
+      image: fake8,
       link: `/project/huggies/`,
     },
     {
       title: `You'll never believe this weight loss trick`,
       subtitle: `OMG`,
-      image: `~images/fakenews/fake9.jpg`,
+      image: fake9,
       link: `/project/voome/`,
     },
   ];
