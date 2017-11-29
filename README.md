@@ -67,6 +67,7 @@ Edit and add page or image content in the folders below
 ```
 ├── ...
 ├── _pages      # Edit and add new pages here
+├── _portfolio  # Edit and add portfolio content here
 └── src
     ├── ...
     └── images  # Add images here
@@ -83,17 +84,18 @@ permalink: /our-approach/
 
 **IMPORTANT:** Images that are added to `/src/images/` and all its subdirectories are flattened into a single folder `/assets`, so each image should have a unique name. So to avoid conflicts, prefix the folder name, for instance `/src/images/folder123/image.jpg` is best called `/src/images/folder123/folder123-image.jpg`.
 
-Inside Jekyll HTML templates, the image can be referenced like the following:
+Inside Jekyll HTML templates, the image can be referenced using just the image name:
 
 ```
-<img src="{{ site.data.webpack['/assets/folder123-image.jpg'] }}" />
+<img src="{{ site.data.webpack['folder123-image.jpg'] }}" />
 ```
 
-Inside SASS files, the image can be referenced like the following:
+Inside SASS files, the image can be referenced with the full path from the src
+directory. The `~` is a webpack shortcut which essentially expands to `./src/`:
 
 ```
 .class-name {
-  background-image: url('/assets/folder123-image.jpg');
+  background-image: url('~images/folder123/folder123-image.jpg');
 }
 ```
 

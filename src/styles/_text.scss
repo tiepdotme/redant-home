@@ -19,6 +19,7 @@ a {
 
   li {
     position: relative;
+    margin-bottom: $grid-gutter-width / 2;
 
     &::before {
       @include block();

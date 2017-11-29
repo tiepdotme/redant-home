@@ -37,11 +37,11 @@
 
   &.aos-animate {
     .one {
-      transform: translate(-80%, 0);
+      transform: translate(-200px, 0);
     }
 
     .three {
-      transform: translate(80%, 0);
+      transform: translate(200px, 0);
     }
   }
 
@@ -59,11 +59,11 @@
 
     &.aos-animate {
       .one {
-        transform: translate(0, -200%) scale(3);
+        transform: translate(0, -320px) scale(3);
       }
 
       .three {
-        transform: translate(0, 200%) scale(3);
+        transform: translate(0, 320px) scale(3);
       }
     }
   }

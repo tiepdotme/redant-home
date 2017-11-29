@@ -16,12 +16,6 @@ module.exports = (env = {}) => {
   const config = {};
 
   /**
-   * Output
-   * Reference: https://webpack.js.org/configuration/devtool/
-   */
-  config.devtool = isProd ? 'source-map' : 'eval';
-
-  /**
    * Entry
    * Reference: https://webpack.js.org/configuration/entry-context/
    */
@@ -38,6 +32,21 @@ module.exports = (env = {}) => {
     filename: isProd ? '[name].[chunkhash].js' : '[name].js',
     publicPath: '/assets/',
   };
+
+  /**
+   * Resolve
+   * Reference: https://webpack.js.org/configuration/resolve/
+   * Add paths to modules so we don't need to use relative paths
+   */
+  config.resolve = {
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+  };
+
+  /**
+   * Devtool
+   * Reference: https://webpack.js.org/configuration/devtool/
+   */
+  config.devtool = isProd ? 'source-map' : 'eval';
 
   /**
    * Loaders
@@ -79,7 +88,12 @@ module.exports = (env = {}) => {
             },
             // Reference: https://github.com/webpack-contrib/sass-loader
             // Convert scss to css
-            { loader: 'sass-loader' },
+            {
+              loader: 'sass-loader',
+              options: {
+                includePaths: [`${__dirname}/src/styles`],
+              },
+            },
           ],
         }),
       },
@@ -87,15 +101,12 @@ module.exports = (env = {}) => {
       // FILE LOADER
       // Reference: https://github.com/webpack-contrib/file-loader
       {
-        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|html|ico)$/,
+        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|ico)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              // Having and issue with the hashed name within css files, for the
-              // moment dont hash the name
-              // name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
-              name: '[name].[ext]',
+              name: isProd ? '[name].[hash:20].[ext]' : '[name].[ext]',
             },
           },
         ],
@@ -114,6 +125,13 @@ module.exports = (env = {}) => {
     new webpack.EnvironmentPlugin({
       NODE_ENV: 'development',
     }),
+    // Reference: https://github.com/danethurber/webpack-manifest-plugin
+    // Output the manifest for jekyll to import
+    new ManifestPlugin({
+      fileName: '../_data/webpack.json',
+      publicPath: '/assets/',
+      writeToFileEmit: true,
+    }),
     // Reference: https://webpack.js.org/plugins/provide-plugin/
     // Automatically load modules instead of having to import or require them everywhere.
     new webpack.ProvidePlugin({
@@ -121,13 +139,6 @@ module.exports = (env = {}) => {
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
       Popper: ['popper.js', 'default'],
-    }),
-    // Reference: https://github.com/danethurber/webpack-manifest-plugin
-    // output the manifest for jekyll to import
-    new ManifestPlugin({
-      fileName: '../_data/webpack.json',
-      basePath: '/assets/',
-      writeToFileEmit: true,
     }),
     // Reference: https://webpack.js.org/plugins/extract-text-webpack-plugin/
     // Extract css files

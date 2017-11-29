@@ -1,8 +1,8 @@
 .padded-section {
-  padding: $grid-gutter-width * 6 0;
+  padding: $grid-gutter-width * 3 0;
 
   @include media-breakpoint-down(sm) {
-    padding: $grid-gutter-width * 2 0;
+    padding: $grid-gutter-width 0;
   }
 }
 
@@ -83,27 +83,27 @@
   background-size: contain;
 
   &.step-1 {
-    background-image: url('/assets/step1-coffee.png');
+    background-image: url('~images/steps/step1-coffee.png');
   }
 
   &.step-2 {
-    background-image: url('/assets/step2-books.png');
+    background-image: url('~images/steps/step2-books.png');
   }
 
   &.step-3 {
-    background-image: url('/assets/step3-robot.png');
+    background-image: url('~images/steps/step3-robot.png');
   }
 
   &.step-4 {
-    background-image: url('/assets/step4-blocks.png');
+    background-image: url('~images/steps/step4-blocks.png');
   }
 
   &.step-5 {
-    background-image: url('/assets/step5-clock.png');
+    background-image: url('~images/steps/step5-clock.png');
   }
 
   &.step-6 {
-    background-image: url('/assets/step6-cone.png');
+    background-image: url('~images/steps/step6-cone.png');
   }
 }
 

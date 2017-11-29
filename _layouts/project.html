@@ -14,7 +14,7 @@
     <header class="project-header">
       <div class="project-header-content">
         <div class="bg-angled bg-{{ page.theme }}"></div>
-        {% include svg/project-header-reverse.html project=page.slug %}
+        {% include svg/project-header-reverse.svg project=page.slug %}
       </div>
     </header>
 
@@ -32,12 +32,17 @@
           </div>
           <div class="col-md-5">
             <div class="section-border py-3 my-2">
-              <h4>Project Detail</h4>
-              <ul class="unstyled-list">
-                <li><strong>Client:</strong> {{ page.client }}</li>
-                <li><strong>Date:</strong> {{ page.project_date }}</li>
-                <li><strong>Project URL:</strong> <a href="{{ page.project_url }}">{{ page.project_url }}</a></li>
-              </ul>
+              <div class="row">
+                <div class="col-12">
+                  <h4>Project Detail</h4>
+                  <ul class="unstyled-list">
+                    <li><strong>Client:</strong> {{ page.client }}</li>
+                    <li><strong>Date:</strong> {{ page.project_date }}</li>
+                    <li><strong>Project URL:</strong> <a href="{{ page.project_url }}">{{ page.project_url }}</a></li>
+                  </ul>
+                </div>
+              </div>
+              {% include gallery.html images=page.images slug=page.slug %}
             </div>
           </div>
         </div>
