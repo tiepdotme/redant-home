@@ -1,6 +1,6 @@
 ---
 layout: project
-theme: 12wbt
+theme: redant
 slug: project-summary-tool
 title: Project Summary Tool
 tagline: A project tracking tool
