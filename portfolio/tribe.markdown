@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/tribe/
 theme: tribe
 slug: tribe
 title: Tribe Influencer Marketplace

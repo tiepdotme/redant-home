@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/beautyheaven-beautorium/
 theme: beautyheaven
 slug: beautyheaven-beautorium
 title: Beautyheaven Beautorium Loyalty store
@@ -14,7 +13,7 @@ images:
 
 #### Project Description
 
-Beautorium is a popup / flash style store where  Beautyheaven members can buy health and beauty products using their loyalty points. To buy product, a member needs to be of (a certain points level)[/project/beautyheaven/], and then you can use your points to buy product. A member can choose to use a combination 
+Beautorium is a popup / flash style store where  Beautyheaven members can buy health and beauty products using their loyalty points. To buy product, a member needs to be of (a certain points level)[/portfolio/beautyheaven/], and then you can use your points to buy product. A member can choose to use a combination
 
 This was an interesting project, as it helped us understand the power of introducing a viable loyalty based system to members. And most importantly, having this store allowed members to be able to redeem those points to buy product
 

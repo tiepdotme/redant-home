@@ -22,7 +22,7 @@ permalink: /portfolio/
         {% assign pages = site.pages | where:'slug', slug %}
         {% for doc in pages %}
           <div class="col-md-6 ">
-            <a href="{{ doc.permalink }}" class="portfolio-tile bg-gray bg-{{ doc.theme }}">
+            <a href="{{ doc.dir }}" class="portfolio-tile bg-gray bg-{{ doc.theme }}">
               <div class="content">
                 <h2>{{ doc.title }}</h2>
                 <div class="hr-wrapper"><hr class="inverse"></div>

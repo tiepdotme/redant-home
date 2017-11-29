@@ -1,7 +1,6 @@
 ---
 layout: project
-permalink: /project/voome-chatbot/
-theme: 12wbt
+theme: voome
 slug: voome-chatbot
 title: Voome Chat Bot
 tagline: A health and fitness product

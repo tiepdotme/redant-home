@@ -1,8 +1,7 @@
 ---
 layout: project
-permalink: /project/huggies-star-rewards/
-theme: huggies
 slug: huggies-star-rewards
+theme: huggies
 title: Huggies Star Rewards
 tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.

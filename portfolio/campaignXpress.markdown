@@ -1,13 +1,12 @@
 ---
 layout: project
-permalink: /project/project-summary-tool/
 theme: 12wbt
-slug: project-summary-tool
-title: Real Pet Matcher
-tagline: A project tracking tool
+slug: campaignexpress
+title: CampaignExpress
+tagline: A media management tool
 description: Project Summary Tool
 project_url: https://pst.redant.com.au
-client: Internal tool
+client: CX
 project_date: 2017
 images:
 ---

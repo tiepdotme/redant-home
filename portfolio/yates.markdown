@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/yates/
 theme: yates
 slug: yates
 title: Yates Garden Care

@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/whats-on/
 theme: whatson
 slug: whats-on
 title: City of Sydney What's On

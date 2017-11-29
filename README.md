@@ -67,6 +67,7 @@ Edit and add page or image content in the folders below
 ```
 ├── ...
 ├── _pages      # Edit and add new pages here
+├── _portfolio  # Edit and add portfolio content here
 └── src
     ├── ...
     └── images  # Add images here
