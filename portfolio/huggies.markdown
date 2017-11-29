@@ -30,7 +30,7 @@ So, what can you do?
 
 ### Here's what we've done with Huggies
 
-First a disclaimer: this has taken us a while. It has taken literally ~~years~~ decades to get this far. 
+First a disclaimer: this has taken us a while. It has taken literally ~~years~~ decades to get this far.
 
 I won't bore you with a complete run down, but here's the gist.
 
@@ -55,7 +55,7 @@ Today, Huggies is a pretty big site. It's probably the most successful of it's k
 
 - A huge level of organic traffic (90%). Unlike many large sites that rely on network or paying for traffic, most people ending up on Huggies are there as a result of asking Google something.
 - Which adds up to stable and sustainable traffic levels:  over a million Aussie mums visit each month.
-- Many of these visitors join as members, which has resulted in a very large, segmented database. 
+- Many of these visitors join as members, which has resulted in a very large, segmented database.
 
 
 Bits we’re especially proud of:
