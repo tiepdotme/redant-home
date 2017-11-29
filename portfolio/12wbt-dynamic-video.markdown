@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/12wbt-dynamic-video/
 theme: 12wbt
 slug: 12wbt-dynamic-video
 title: 12WBT Dynamic Video
@@ -37,14 +36,14 @@ So they’re really popular, but they take a while to make. They don’t scale p
 
 To make things scale, we took a different approach. From a users point of view, they still get a stream of video on their phone or browser. But there are now HEAPS of different videos available to chose from.
 
-Instead of shooting everything as one continuous narrative, each exercise is shot separately. Say the workout starts with a push up, the talent is shot doing a single pushup. This is carefully edited so that it can loop seamlessly. We do this for each exercise. 
+Instead of shooting everything as one continuous narrative, each exercise is shot separately. Say the workout starts with a push up, the talent is shot doing a single pushup. This is carefully edited so that it can loop seamlessly. We do this for each exercise.
 
-Then when it comes time for the fitness expert to "build" a new workout, they pick out a pushup, and add in repeats. 
+Then when it comes time for the fitness expert to "build" a new workout, they pick out a pushup, and add in repeats.
 
 !(https://www.redant.com.au/assets/portfolio/12wbt-video-diagram-2.jpg)
 
 When the user gets to the page, what they are actually seeing is an array of HTML5 videos. Each exercise is looped for the correct number of reps. Just like recipes, this can be customised to the user profile: so you might get 6 pushups, but because I am just so totally buff I will get 16. If normal pushups are too hard, it can be swapped to an easier variation (knee push up).
- 
+
 The end result looks like a normal video, but is actually dynamically assembled.
 
 Taking this approach, the video content becomes scalable. Rather than just a few long videos, we can create literally millions of different workouts.

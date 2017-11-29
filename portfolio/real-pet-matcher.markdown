@@ -1,9 +1,8 @@
 ---
 layout: project
-permalink: /project/project-summary-tool/
-theme: 12wbt
-slug: project-summary-tool
-title: Project Summary Tool
+theme: petmatcher
+slug: petmatcher
+title: Real Pet Matcher
 tagline: A project tracking tool
 description: Project Summary Tool
 project_url: https://pst.redant.com.au

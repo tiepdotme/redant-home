@@ -1,13 +1,12 @@
 ---
 layout: project
-permalink: /project/campaign/
 theme: 12wbt
-slug: campaignexpress
-title: CampaignExpress
-tagline: A media management tool
+slug: project-summary-tool
+title: Project Summary Tool
+tagline: A project tracking tool
 description: Project Summary Tool
 project_url: https://pst.redant.com.au
-client: CX
+client: Internal tool
 project_date: 2017
 images:
 ---

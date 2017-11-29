@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/bondi-vet/
 theme: bondivet
 slug: bondi-vet
 title: Bondi Vet

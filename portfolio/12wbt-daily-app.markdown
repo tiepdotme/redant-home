@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/12wbt-daily-app/
 theme: 12wbt
 slug: 12wbt-daily-app
 title: 12WBT Daily App
@@ -14,7 +13,7 @@ images:
 
 #### Project Description
 
-If you haven’t heard of wildly popular fitness program 12WBT by Michelle Bridges you probably been living under a rock. If you truly don’t know how great it is, you can read more about [12WBT here](/project/12wbt/).
+If you haven’t heard of wildly popular fitness program 12WBT by Michelle Bridges you probably been living under a rock. If you truly don’t know how great it is, you can read more about [12WBT here](/portfolio/12wbt/).
 
 So they had an issue where the content on the website, whilst perfect for those users who want to workout or look up meal plans on their desktop or laptop, didn’t work so well for the many users who wanted to participate in the program on their smart phones. The autoplay videos didn’t autoplay, and even if they did the audio didn’t work. Users just weren’t able to easily engage.
 

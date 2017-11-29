@@ -8,7 +8,7 @@
   <g clip-path="url(#clip)">
     {% assign desktop_img = include.project | append: '-hero-desktop.jpg' %}
     {% assign mobile_img = include.project | append: '-hero-mobile.jpg' %}
-    {% if site.data.webpack[desktop_img] %}
+    {% if site.data.webpack[mobile_img] %}
       <g class="small" transform="translate(650 25)">
         <g opacity="0.10" class="shadow4">
           <rect fill="#000000" width="187" height="334" transform="rotate(-30 187 0) skewX(30)"></rect>
@@ -23,11 +23,11 @@
           <rect fill="#000000" width="187" height="334" transform="rotate(-30 187 0) skewX(30)"></rect>
         </g>
         <g transform="rotate(-30 187 0) skewX(30)" class="art">
-          <image overflow="visible" width="187" height="334" xlink:href="{{ site.data.webpack[desktop_img] }}"></image>
+          <image overflow="visible" width="187" height="334" xlink:href="{{ site.data.webpack[mobile_img] }}"></image>
         </g>
       </g>
     {% endif %}
-    {% if site.data.webpack[mobile_img] %}
+    {% if site.data.webpack[desktop_img] %}
       <g class="big" transform="translate(0 30)">
         <g opacity="0.10" class="shadow4">
           <rect fill="#000000" width="450" height="729" transform="rotate(-30 450 0) skewX(30)"></rect>
@@ -42,7 +42,7 @@
           <rect fill="#000000" width="450" height="729" transform="rotate(-30 450 0) skewX(30)"></rect>
         </g>
         <g transform="rotate(-30 450 0) skewX(30)" class="art">
-          <image overflow="visible" width="450" height="729" xlink:href="{{ site.data.webpack[mobile_img] }}"></image>
+          <image overflow="visible" width="450" height="729" xlink:href="{{ site.data.webpack[desktop_img] }}"></image>
         </g>
       </g>
     {% endif %}

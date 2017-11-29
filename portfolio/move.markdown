@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/project-summary-tool/
 theme: 12wbt
 slug: project-summary-tool
 title: Project Summary Tool

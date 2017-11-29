@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/selleys/
 theme: selleys
 slug: selleys
 title: Selleys DIY site

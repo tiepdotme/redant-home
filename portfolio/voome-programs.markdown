@@ -1,7 +1,6 @@
 ---
 layout: project
-permalink: /project/voome-programs/
-theme: 12wbt
+theme: voome
 slug: voome-programs
 title: Voome Programs
 tagline: A health and fitness product
@@ -20,8 +19,8 @@ Similar to Voome Weekly, we wanted to build a solution to help those who’ve fo
 
 This is how Voome Programs came to life!
 
-Working primarily with fitness and nutrition influencers to create 4 week programs, users can choose to purchase a program for a one-off fee and the beauty of it is that they can keep coming back to it over and over again. 
+Working primarily with fitness and nutrition influencers to create 4 week programs, users can choose to purchase a program for a one-off fee and the beauty of it is that they can keep coming back to it over and over again.
 
-Working with these influencers is a win win win situation. From their perspective, they gain more followers. From the user perspective, they get to work with their favourite coach. From a business perspective, Voome gains more member through the influencer’s fanbase. 
+Working with these influencers is a win win win situation. From their perspective, they gain more followers. From the user perspective, they get to work with their favourite coach. From a business perspective, Voome gains more member through the influencer’s fanbase.
 
 As time goes on more programs will be added to the list, allowing the user to filter by workout style, length, intensity, and much more.

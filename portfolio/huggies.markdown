@@ -1,6 +1,5 @@
 ---
 layout: project
-permalink: /project/huggies/
 theme: huggies
 slug: huggies
 title: Huggies
