@@ -5,22 +5,12 @@ slug: bondi-vet
 title: Bondi Vet
 tagline: Everything for your fur baby
 description: Bondivet
-project_url:
-client:
-project_date:
+project_url: https://bondivet.com
+client: Vexo Media
+project_date: 2016
 images:
 ---
 
-<section class="pt-3 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-x-large pb-2">Bondi Vet</h1>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-7">
 
 
 We’ve partnered with <a href="http://wtfn.com/" target="_blank"><span class="caps">WTFN</span></a> to bring bondivet.com to life, combining Red Ant’s technical know-how and WTFN’s extensive catalogue of content. The website aims to capitalise on the popularity of the TV show to build an active online audience.
@@ -29,9 +19,6 @@ Visitors to the site can watch pet care videos from our experts and veterinarian
 
 Every step along the user journey, there are prompts to become a member. Once the user has signed up and set up their profile (and their pet’s profile) we can use this information to customise their experience. This means tools are pre-filled with the correct breed information, forum questions can be tagged with the user’s pets and relevant promotion notifications get sent to the right users.
 
-      </div>
-      <div class="col-md-5">
-        <div class="section-border py-3 my-2">
 
 #### Project Detail
 
@@ -39,9 +26,3 @@ Every step along the user journey, there are prompts to become a member. Once th
 * content management
 * Video integration
 * Slack integration
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
