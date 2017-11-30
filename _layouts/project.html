@@ -14,7 +14,11 @@
     <header class="project-header">
       <div class="project-header-content">
         <div class="bg-angled bg-{{ page.theme }}"></div>
-        {% include svg/project-header-reverse.svg project=page.slug %}
+        {% if page.project_type == 'mobile' %}
+          {% include svg/mobile-project-header.svg project=page.slug %}
+        {% else %}
+          {% include svg/project-header-reverse.svg project=page.slug %}
+        {% endif %}
       </div>
     </header>
 

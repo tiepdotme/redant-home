@@ -20,18 +20,22 @@ permalink: /portfolio/
     <div class="row">
       {% for slug in site.data.portfolio.order %}
         {% assign pages = site.pages | where:'slug', slug %}
-        {% for doc in pages %}
+        {% for page in pages %}
           <div class="col-md-6 ">
-            <a href="{{ doc.dir }}" class="portfolio-tile bg-gray bg-{{ doc.theme }}">
+            <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
               <div class="content">
-                <h2>{{ doc.title }}</h2>
+                <h2>{{ page.title }}</h2>
                 <div class="hr-wrapper"><hr class="inverse"></div>
-                <h5 class="my-4">{{ doc.tagline }}</h5>
-                <p class="mb-0 description">{{ doc.description }}</p>
+                <h5 class="my-4">{{ page.tagline }}</h5>
+                <p class="mb-0 description">{{ page.description }}</p>
               </div>
               <div class="svg-container">
                 <div class="svg-wrapper">
-                  {% include svg/project-header.svg project=doc.slug %}
+                  {% if page.project_type == 'mobile' %}
+                    {% include svg/mobile-project-header.svg project=page.slug %}
+                  {% else %}
+                    {% include svg/project-header.svg project=page.slug %}
+                  {% endif %}
                 </div>
               </div>
             </a>
