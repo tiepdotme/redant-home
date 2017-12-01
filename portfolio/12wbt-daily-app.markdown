@@ -23,7 +23,7 @@ Now 12WBT already had this- they have a very successful digital product, with lo
 - on their desktop or laptops
 - printing out parts and using that during a workout or cooking
 
-But there were some specific user issues we needed to address for people using the product on mobile. 
+But there were some specific user issues we needed to address for people using the product on mobile.
 
 #### Workouts
 
@@ -41,9 +41,9 @@ Again, "native" functionality means we can store assets on the phone. This is wh
 
 
 
-#### í ½íº€ Pro Tip: don't try to do everything / pick your battles  í ½íº€ 
+#### Pro Tip: don't try to do everything / pick your battles
 
 Along with starting with the solution ("I need an app"), another common mistake we see is assuming 1:1 parity as a requirement: "Everything the user can do on my web platform, they should be able to do in my App. Otherwise it will suck."
-I'd challenge that- what things could be better delivered as an App? Are there steps that make sense to be different? 
+I'd challenge that- what things could be better delivered as an App? Are there steps that make sense to be different?
 
 The approach the 12WBT Daily App takes is to focus on the daily component of the  program (which takes 4+12 weeks). The role of the app is to act as a companion, rather than try to be an exact replica of what you'd get on the web version. It answers the question "what do I need to do today?". How much water, which snacks, which meals, and what does my workout look like.
