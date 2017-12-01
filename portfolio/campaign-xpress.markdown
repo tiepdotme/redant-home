@@ -1,7 +1,7 @@
 ---
 layout: project
-theme: campaignexpress
-slug: campaignexpress
+theme: campaign-xpress
+slug: campaign-xpress
 title: CAMPAIGNxpress
 tagline: A property marketing platform
 description: Helps save time and money by fully automating the process of planning a property campaign, creation and delivery to media. Used by industry leaders such as CBRE and Ray White to manage their media planning.

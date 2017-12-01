@@ -9,10 +9,16 @@ project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
 project_date: 2011-2017
 images:
-  - 12wbt-hero-desktop.jpg
-  - 12wbt-hero-mobile.jpg
+  -
+    filename: 12wbt-hero-desktop.jpg
+    title: Image 1
+  -
+    filename: 12wbt-hero-mobile.jpg
+    title: Image 2
+  -
+    filename: 12wbt-screens.jpg
+    title: Image 3
 ---
-
 
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
 

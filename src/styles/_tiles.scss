@@ -111,6 +111,11 @@
   .gallery-img {
     display: block;
     max-height: 140px;
+    margin-bottom: 10px;
     overflow: hidden;
+
+    img {
+      pointer-events: none;
+    }
   }
 }

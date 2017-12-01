@@ -1,10 +1,44 @@
 <div class="row gallery-tiles">
   {% for image in include.images %}
-    {% assign path = '/assets/' | append: image %}
+    {% assign path = '/assets/' | append: image.filename %}
     <div class="col-6">
-      <a href="{{ path }}" class="gallery-img" data-toggle="lightbox" data-gallery="gallery-{{ include.slug }}">
+      <a href="{{ path }}"
+        class="gallery-img"
+        data-index="{{ forloop.index }}"
+        data-toggle="modal"
+        data-target="#gallery-modal">
         <img src="{{ path }}" class="img-fluid">
       </a>
     </div>
   {% endfor %}
+</div>
+
+<div id="gallery-modal"
+  class="modal fade"
+  data-backdrop="static"
+  aria-labelledby="gallery-modal"
+  aria-hidden="true"
+  role="dialog"
+  tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="carousel-wrapper">
+        <div class="carousel-arrows"></div>
+        <div class="carousel">
+          {% for image in include.images %}
+            {% assign path = '/assets/' | append: image.filename %}
+            <div class="slide">
+              <img class="d-block img-fluid" src="{{ path }}" alt="{{ image.title }}">
+              <h5 class="text-center mt-3">{{ image.title }}</h5>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </div>
 </div>

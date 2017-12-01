@@ -9,7 +9,7 @@ $gray-mid: #808080;
 $project-colors: (
   beautyheaven: #00deff,
   bondivet: #2991f2,
-  campaignexpress: #00AEEB,
+  campaign-xpress: #00AEEB,
   huggies: #df4040,
   12wbt: #0047ba,
   momentum: #00deff,
@@ -32,5 +32,9 @@ $about-blue: #4040df;
 
 $layout-max-width: 1400px;
 $navbar-height: 60px;
+
+$font-size-base: 1.05rem;
+$headings-font-weight: 700;
+$font-family-sans-serif: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $fa-font-path: '~font-awesome/fonts';

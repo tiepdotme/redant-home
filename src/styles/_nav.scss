@@ -60,7 +60,6 @@
     border-bottom: 3px solid $gray;
 
     .links {
-      padding-left: 4rem;
       list-style: none;
       font-size: $font-size-base * 3;
 
@@ -69,17 +68,6 @@
       a {
         color: $white;
         transition-property: color;
-
-        &::before {
-          position: absolute;
-          content: '';
-          width: 38px;
-          height: 6px;
-          margin-left: -52px;
-          margin-top: $font-size-base * 2;
-          background-color: $red;
-          opacity: 0;
-        }
       }
 
       [data-aos='nav-link-active'],
@@ -90,10 +78,6 @@
         &:hover {
           color: $red;
           text-decoration: none;
-
-          &::before {
-            opacity: 1;
-          }
         }
       }
     }
@@ -105,6 +89,10 @@
     max-width: initial;
     left: 0;
     background-color: rgba($black, 0.9);
+
+    .navbar-brand {
+      display: none;
+    }
 
     .nav-toggle-icon {
       span {
