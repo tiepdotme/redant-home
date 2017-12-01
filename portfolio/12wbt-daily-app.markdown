@@ -25,7 +25,7 @@ Now 12WBT already had this- they have a very successful digital product, with lo
 
 But there were some specific user issues we needed to address for people using the product on mobile. 
 
-# Workouts
+#### Workouts
 
 If you take your phone to the park, you might want to prop it up and play through a workout video while you do the workout. Except that the damn thing will keep on going to sleep if you don't touch the screen. So that's a problem.
 
@@ -33,7 +33,7 @@ Another was that with 12WBT, we do some [clever things with video workouts](/por
 
 Using "native" functionality on the phone (which requires an App) allows you to get around this. Rather than code running in a browser, which then asks the underlying system (iOS) to do something like play a sound or take a photo, native app code can do this directly.
 
-# Offline
+#### Offline
 
 If you work out at the gym, there might be times when mobile data isn't available. The gym is underground or in a location where coverage isn't great. You're there to do a workout, and it is disappointing / embarrassing if it won't play or drops out half way.
 
@@ -41,16 +41,9 @@ Again, "native" functionality means we can store assets on the phone. This is wh
 
 
 
-## Pro Tip: don't try to do everything / pick your battles
+#### í ½íº€ Pro Tip: don't try to do everything / pick your battles  í ½íº€ 
 
-Along with starting with the solution ("I need an app"), another common mistake we see is assuming 1:1 parity as a requirement: "Everything the user can do on my web platform, they should be able to do in my App."
-I'd challenge that- what things could be better delivered as an App? Are there steps that make sense to be different?
+Along with starting with the solution ("I need an app"), another common mistake we see is assuming 1:1 parity as a requirement: "Everything the user can do on my web platform, they should be able to do in my App. Otherwise it will suck."
+I'd challenge that- what things could be better delivered as an App? Are there steps that make sense to be different? 
 
-The 12WBT Daily App is a streamlined version of the website, with only the most useful, mobile-optimised content available. Having taken the best bits of the fitness programs, recipes, meal plans and progress stats and adding a dash of push notifications and a smart dashboard, the user now has no excuse not to participate with the 12 week program. It tracks and motivates you to success!
-
-Now it wasnâ€™t easy. There were a couple of problems we needed to solve. A lot of UX went into the design to ensure ease of use for the health-conscious but busy 12WBT member. A 6 month long project, user testing sessions were conducted throughout the duration to make sure we were getting it right. We also wanted it to work both online and offline so users werenâ€™t chewing through their data, so we implemented syncing logic to make sure changes made when offline were updated once back online.
-
-The result is an intuitive app that looks great and works for the user.
-
-And thatâ€™s the story of the 12WBT Daily App.
-
+The approach the 12WBT Daily App takes is to focus on the daily component of the  program (which takes 4+12 weeks). The role of the app is to act as a companion, rather than try to be an exact replica of what you'd get on the web version. It answers the question "what do I need to do today?". How much water, which snacks, which meals, and what does my workout look like.
