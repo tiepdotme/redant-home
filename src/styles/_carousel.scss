@@ -16,6 +16,11 @@
     color: $white;
     overflow: hidden;
 
+    img {
+      max-height: 1000px;
+      margin: auto;
+    }
+
     .content {
       position: relative;
       height: 550px;
@@ -97,6 +102,24 @@
     h2,
     .carousel-dots .slick-dots {
       text-align: center;
+    }
+  }
+}
+
+.carousel-arrows {
+  .slick-arrow {
+    z-index: 10;
+
+    &::before {
+      font-size: 2rem;
+    }
+
+    &.slick-prev {
+      left: $grid-gutter-width / 2;
+    }
+
+    &.slick-next {
+      right: $grid-gutter-width / 2;
     }
   }
 }
