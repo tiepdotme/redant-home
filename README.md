@@ -90,6 +90,12 @@ Inside Jekyll HTML templates, the image can be referenced using just the image n
 <img src="{{ site.data.webpack['folder123-image.jpg'] }}" />
 ```
 
+Or inside Markdown files, images can be referenced like so:
+
+```
+![Alt text for Image]({{ site.data.webpack['folder123-image.jpg'] }})
+```
+
 Inside SASS files, the image can be referenced with the full path from the src
 directory. The `~` is a webpack shortcut which essentially expands to `./src/`:
 

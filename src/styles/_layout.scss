@@ -39,3 +39,9 @@ body {
     padding: 20% 0;
   }
 }
+
+.project-content {
+  img {
+    @extend .img-fluid;
+  }
+}
