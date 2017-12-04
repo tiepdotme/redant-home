@@ -29,7 +29,7 @@ But there were some specific user issues we needed to address for people using t
 
 If you take your phone to the park, you might want to prop it up and play through a workout video while you do the workout. Except that the damn thing will keep on going to sleep if you don't touch the screen. So that's a problem.
 
-![Video Workouts](/scr/images/projects/workout.jpg)
+![Video Workouts](/src/images/projects/workout.jpg)
 
 Another was that with 12WBT, we do some [clever things with video workouts](/portfolio/12wbt-dynamic-video/). Part of the reason for this is to avoid forcing mobile users to download a really long 45min video - by splitting it up and reusing, we dramatically change the bandwidth profile. The problem is when you try to synch a video snippet and some audio, it works perfectly on desktop, but on mobile (depending on your connection at the time) there is slight latency which means they can get out of whack. Which can get surprisingly irritating.
 
