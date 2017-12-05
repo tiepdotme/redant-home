@@ -10,11 +10,35 @@ client: Michelle Bridges 12WBT
 project_date: 2011-2017
 images:
   -
-    filename: 12wbt-hero-desktop.jpg
-    title: Image 1
+    filename: desktop-12wbt-1.jpg
+    title: Member Homepage (Desktop)
   -
-    filename: 12wbt-hero-mobile.jpg
-    title: Image 2
+    filename: mobile-12wbt-1.jpg
+    title: Member Homepage (Mobile)
+  -
+    filename: desktop-12wbt-2.jpg
+    title: Meal Plan (Desktop)
+  -
+    filename: mobile-12wbt-2.jpg
+    title: Meal Plan (Mobile)
+  -
+    filename: desktop-12wbt-3.jpg
+    title: Exercise Plan (Desktop)
+  -
+    filename: mobile-12wbt-3.jpg
+    title: Exercise Plan (Mobile)
+  -
+    filename: desktop-12wbt-4.jpg
+    title: Member Zone (Desktop)
+  -
+    filename: mobile-12wbt-4.jpg
+    title: Member Zone (Mobile)
+  -
+    filename: desktop-12wbt-5.jpg
+    title: My Stats (Desktop)
+  -
+    filename: mobile-12wbt-5.jpg
+    title: My Stats (Mobile)
 ---
 
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
