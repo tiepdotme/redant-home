@@ -31,17 +31,16 @@ We started on this way back in 2011. Back then there was a basic MVP built with 
 
 One of the interesting things about working on this project is that they have a very large group of highly engaged members, each of which is on a quite personal journey. There are a lot of them, they seem to use it pretty much all the time, and they are highly passionate and involved with the product.
 
+![Member Zone]({{ site.data.webpack['desktop-12wbt-4.jpg'] }})
+
 All of which means we get pretty immediate feedback. And if you're going to ask for feedback, you'd better be prepared to do something about it. I won't bore you with details, but one morning we pushed a new feature. It became quickly apparent that while they liked some parts, other bits (that we'd de-prioritised) were in fact required. We scrambled and got two teams (front end and back end) working on an update, which we pushed out later that afternoon. I'm glossing over a few things here, like the reason that we were able to build and release a significant update quickly was partly due to all the foundation work before - the boring stuff like an automated test suite, continuous integration, and seamless "no downtime" deploy flow.
 
-Anyway - back to the actual product. Probably the best way to check it out is to (sign up yourself)[https://12wbt.com]. You never know - you might really enjoy yourself! I actually was talking to a someone the other day who had signed up as a way of evaluating our work, and he ended up doing 3 rounds.
+Anyway - back to the actual product. Probably the best way to check it out is to [sign up yourself](https://12wbt.com). You never know - you might really enjoy yourself! I actually was talking to a someone the other day who had signed up as a way of evaluating our work, and he ended up doing 3 rounds.
 
 
-You [can read a bit more about](https://news.redant.com.au/michelle-bridges-12wbt-build-cace557b7f2d)  the 12WBT project on this post, and [about localisation for USA version](https://news.redant.com.au/what-weve-been-working-on-developing-12wbt-for-the-usa-e55efad40ba1) here. If you're really interested, or just bored at work and trying to fill in some time, check out the (12wbt dynamic videos project)[/portfolio/12wbt-dynamic-video/] summary or the [Daily Companion app](/portfolio/12wbt-daily-app).
+You [can read a bit more about](https://news.redant.com.au/michelle-bridges-12wbt-build-cace557b7f2d)  the 12WBT project on this post, and [about localisation for USA version](https://news.redant.com.au/what-weve-been-working-on-developing-12wbt-for-the-usa-e55efad40ba1) here. If you're really interested, or just bored at work and trying to fill in some time, check out the [12wbt dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app).
 
-
-
-
-#### Project Detail
+#### More Detail
 
 * __Paid membership site__ - members join and buy a subscription for a 3 month “round” &#8211; either up front or recurring weekly payments with high bursts of traffic when all members need to access the site at the same time.
 * __Content system__ - members sign up and get content &amp; tools each week. As the program progresses through the 12 weeks, different features appear.
