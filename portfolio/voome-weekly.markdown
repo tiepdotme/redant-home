@@ -9,6 +9,18 @@ project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2016
 images:
+  -
+    filename: desktop-voome-1.jpg
+    title: Member Homepage (Desktop)
+  -
+    filename: mobile-voome-1.jpg
+    title: Member Homepage (Mobile)
+  -
+    filename: desktop-voome-2.jpg
+    title: Meal Planner (Desktop)
+  -
+    filename: mobile-voome-2.jpg
+    title: Meal Planner (Mobile)
 ---
 
 #### Project Description
@@ -22,4 +34,3 @@ Voome has an intuitive sign up process that allows the user to respond to questi
 It goes even further! Using a Spotify style model, the meals you choose and the fitness videos you watch will personalise your experience as you interact with it. You can also pause your subscription at any time.
 
 Understanding that users may not want both the fitness AND the nutrition elements of Voome together, we’re currently updating the site to add bundles - Fitness, Nutrition, or both. More on that coming soon...
-
