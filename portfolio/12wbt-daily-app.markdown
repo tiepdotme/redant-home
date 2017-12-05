@@ -12,8 +12,6 @@ project_type: mobile
 images:
 ---
 
-#### Project Description
-
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
 
 Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they __actually__ want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.
@@ -41,8 +39,6 @@ Using "native" functionality on the phone (which requires an App) allows you to 
 If you work out at the gym, there might be times when mobile data isn't available. The gym is underground or in a location where coverage isn't great. You're there to do a workout, and it is disappointing / embarrassing if it won't play or drops out half way.
 
 Again, "native" functionality means we can store assets on the phone. This is what an app like Spotify does- when you save a track it stores the file on your phone. The first time you played it, it came off the Cloud. The second time, it plays back from your local version. We did a similar thing, but we take the step of pre-downloading all of the files a user might need for that week. Obviously Spotify can't know what you're going to listen to this week, but with 12WBT we can see from your profile and fitness plan what you'll be doing.
-
-
 
 #### Pro Tip: don't try to do everything / pick your battles
 
