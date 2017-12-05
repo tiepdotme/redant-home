@@ -1,13 +1,12 @@
 <div class="row gallery-tiles">
   {% for image in include.images %}
-    {% assign path = '/assets/' | append: image.filename %}
     <div class="col-6">
-      <a href="{{ path }}"
+      <a href="{{ site.data.webpack[image.filename] }}"
         class="gallery-img"
         data-index="{{ forloop.index }}"
         data-toggle="modal"
         data-target="#gallery-modal">
-        <img src="{{ path }}" class="img-fluid">
+        <img src="{{ site.data.webpack[image.filename] }}" class="img-fluid">
       </a>
     </div>
   {% endfor %}
@@ -31,9 +30,8 @@
         <div class="carousel-arrows"></div>
         <div class="carousel">
           {% for image in include.images %}
-            {% assign path = '/assets/' | append: image.filename %}
             <div class="slide">
-              <img class="d-block img-fluid" src="{{ path }}" alt="{{ image.title }}">
+              <img class="d-block img-fluid" src="{{ site.data.webpack[image.filename] }}" alt="{{ image.title }}">
               <h5 class="text-center mt-3">{{ image.title }}</h5>
             </div>
           {% endfor %}
