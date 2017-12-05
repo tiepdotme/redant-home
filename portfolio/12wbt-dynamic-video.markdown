@@ -40,7 +40,8 @@ Instead of shooting everything as one continuous narrative, each exercise is sho
 
 Then when it comes time for the fitness expert to "build" a new workout, they pick out a pushup, and add in repeats.
 
-!(https://www.redant.com.au/assets/portfolio/12wbt-video-diagram-2.jpg)
+![Regular Workout Videos]({{ site.data.webpack['12wbt-video-diagram-1.jpg'] }})
+![Dynamic Workout Videos]({{ site.data.webpack['12wbt-video-diagram-2.jpg'] }})
 
 When the user gets to the page, what they are actually seeing is an array of HTML5 videos. Each exercise is looped for the correct number of reps. Just like recipes, this can be customised to the user profile: so you might get 6 pushups, but because I am just so totally buff I will get 16. If normal pushups are too hard, it can be swapped to an easier variation (knee push up).
 
