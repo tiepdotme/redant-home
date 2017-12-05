@@ -15,9 +15,6 @@ images:
   -
     filename: 12wbt-hero-mobile.jpg
     title: Image 2
-  -
-    filename: 12wbt-screens.jpg
-    title: Image 3
 ---
 
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
