@@ -9,6 +9,18 @@ project_url: https://www.12wbt.com
 client: 12WBT
 project_date: 2015
 images:
+  -
+    filename: desktop-12wbtdynamicworkout-1.jpg
+    title: Exercise Plan (Desktop)
+  -
+    filename: mobile-12wbtdynamicworkout-1.jpg
+    title: Exercise Plan (Mobile)
+  -
+    filename: desktop-12wbtdynamicworkout-2.jpg
+    title: Workout Video Player (Desktop)
+  -
+    filename: mobile-12wbtdynamicworkout-2.jpg
+    title: Workout Video Player (mobile)
 ---
 
 #### Project Description
