@@ -108,6 +108,8 @@
 
 .carousel-arrows {
   .slick-arrow {
+    width: 2rem;
+    height: 2rem;
     z-index: 10;
 
     &::before {
