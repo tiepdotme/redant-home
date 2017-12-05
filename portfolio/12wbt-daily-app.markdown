@@ -5,11 +5,26 @@ slug: 12wbt-daily-app
 title: 12WBT Daily App
 tagline: A companion iOS app for this extremely successful online health and fitness platform
 description: This app is used by people doing the 12WBT program. It has workouts, recipes and daily stats.
-project_url: https://itunes.apple.com/au/app/12wbt-daily/id938486009?mt=8
+project_url: https://www.12wbt.com/features/introducing-12wbt-daily
 client: 12WBT
 project_date: 2015
 project_type: mobile
 images:
+  -
+    filename: mobile-12wbtdaily-1.jpg
+    title: Daily Tracking
+  -
+    filename: mobile-12wbtdaily-2.jpg
+    title: Daily Program
+  -
+    filename: mobile-12wbtdaily-3.jpg
+    title: Recipe
+  -
+    filename: mobile-12wbtdaily-4.jpg
+    title: My Stats
+  -
+    filename: mobile-12wbtdaily-5.jpg
+    title: Workout Video
 ---
 
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
