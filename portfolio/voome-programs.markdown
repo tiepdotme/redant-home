@@ -9,6 +9,18 @@ project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2017
 images:
+  -
+    filename: desktop-voome-program-1.jpg
+    title: Program Overview (Desktop)
+  -
+    filename: mobile-voome-program-1.jpg
+    title: Program Overview (Mobile)
+  -
+    filename: desktop-voome-program-2.jpg
+    title: Program Week (Desktop)
+  -
+    filename: mobile-voome-program-2.jpg
+    title: Program Week (Mobile)
 ---
 
 #### Project Description
