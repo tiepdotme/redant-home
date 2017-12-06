@@ -36,8 +36,6 @@ images:
     title: Forum (Mobile)
 ---
 
-#### Project Description
-
 Waterwise gardening, growing your own food, organic gardening, community – these are the themes of a new generation of gardeners. We have helped Yates to share their immense knowledge of plants and pests to develop an engaging and informative website that helps gardeners solve problems and inspires them to have a go. Garden care is specific to where you live – this site provides solutions for your region.
 
 Bits we’re especially proud of:
