@@ -10,6 +10,30 @@ client: Orica
 project_date: 2005 - present
 technologies: Ruby on Rails
 images:
+  -
+    filename: desktop-yates-1.jpg
+    title: Seed Finder (Desktop)
+  -
+    filename: mobile-yates-1.jpg
+    title: Seed Finder (Mobile)
+  -
+    filename: desktop-yates-2.jpg
+    title: Product (Desktop)
+  -
+    filename: mobile-yates-2.jpg
+    title: Product (Mobile)
+  -
+    filename: desktop-yates-3.jpg
+    title: Store Locator (Desktop)
+  -
+    filename: mobile-yates-3.jpg
+    title: Store Locator (Mobile)
+  -
+    filename: desktop-yates-4.jpg
+    title: Forum (Desktop)
+  -
+    filename: mobile-yates-4.jpg
+    title: Forum (Mobile)
 ---
 
 #### Project Description
