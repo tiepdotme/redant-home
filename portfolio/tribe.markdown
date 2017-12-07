@@ -3,22 +3,34 @@ layout: project
 theme: tribe
 slug: tribe
 title: Tribe Influencer Marketplace
-tagline: A place for parents to learn &amp; share
-description: The age of the Influencer is upon us. Over the past few months we’ve worked with Australian startup TRIBE to deliver a platform to help Brands connect with Influencers in the social space.
+tagline: An online marketplace for brands and influencers
+description: Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer's attention, you can now work directly with influential "micro influencers" using Social. Tribe is a market place tool that facilitates this.
 project_url: http://www.tribegroup.co/
-client:
-project_date: 2015
+client: Tribe Group
+project_date: 2015-2016
 images:
 ---
 
 #### Project Description
 
-The age of the Influencer is upon us. Over the past few months we’ve worked with Australian startup TRIBE to deliver a platform to help Brands connect with Influencers in the social space.
+As a heads up, I found working on this project fairly confronting. I have very few followers on social media. For me, getting to double figures would be just amazing. It turns out there are all these people out there that actually have quite a lot of followers. I'm not talking about celebrities with an impossibly large number of followers, but "micro influencers" that might be into a particular Thing, and have a healthy following of people also into that Thing. I think I need to work on finding my Thing.
 
-We were asked to build an iOS app that would let Influencers submit content to social media campaigns they were a close fit with, and to provide an interface for Brands to generate and moderate these campaigns.
+Anyway, the whole point of the Tribe Marketplace is to help brands connect with these influencers. Here's how it works:
 
-At the core of the platform, is the ability for an Influencer to get paid for posts they push to their social media platforms. As this was a fundamental part of the puzzle, our work started by building out a system to allow an Influencer to associate their social login with their TRIBE account. They can connect via FB, Twitter or Instagram, and associate all their pages into the one account.
+* say you're a small brand and you make these amazing timber keyboards
+* the way things used to work, you'd engage an agency to create some ads explaining how amazing your keyboards are. Then you'd buy media in various spots (bus shelters, magazines, TV, web sites) to show this ad to your consumers.
+* you might also engage a celebrity to help spruik your keyboards. They then get featured in kind of magazines you pick up while waiting for the doctor
+* with Tribe, it's a bit different. You post a brief, which describes your product and how it works. All these influencers then start coming up with ideas. Some of them will be in different areas - so one might have a Thing about retro timber, another might be all about cool things to have on your desk 
+* the influencers then respond with some ideas. So rather than an agency coming up with the idea, influencers will explain your product in the context of their Thing. Retro timber, saving time, cool tech devices, and so on.
+* You pick the ones you want, agree on a price and number of posts, and then these ideas are pushed onto platforms like Instagram and Twitter.
+* There are a few advantages here. First, rather than just one ad creative, you're getting at least one per group. Second, your ad is going out to these groups, with the endorsement of the influencer
 
-When a Brand makes a campaign, they determine which social networks they want to target, and by which type of Influencer. An Influencer responds to a campaign by submitting a post from the iOS app, nominating how much they would like to get paid. The Brand in turn either approves or declines the post. After a post is approved, an Influencer can publish to their social feed from within the app, and subsequently gets paid the nominated amount.
 
-As part of the project development, Red Ant pressure tested the underlying business model, helping streamline aspects of it along the way to make sure the project remained focussed on the philosophy of TRIBE, not just the technology.
+<iframe src="https://www.youtube.com/embed/bxEYt3DuLF4?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+In terms of the technical stuff:
+
+* Most of the heavy lifting is done by a Ruby on Rails backend, which has various APIs
+* There is a RoR front end, which is where users set up their accounts, load briefs etc
+* There are separate phone front ends (eg: iOS) that users can use to respond to briefs etc
+

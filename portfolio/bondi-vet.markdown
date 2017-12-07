@@ -7,11 +7,9 @@ tagline: Everything for your fur baby
 description: Bondivet
 project_url: https://bondivet.com
 client: Vexo Media
-project_date: 2016
+project_date: 2015-17
 images:
 ---
-
-
 
 We’ve partnered with <a href="http://wtfn.com/" target="_blank"><span class="caps">WTFN</span></a> to bring bondivet.com to life, combining Red Ant’s technical know-how and WTFN’s extensive catalogue of content. The website aims to capitalise on the popularity of the TV show to build an active online audience.
 

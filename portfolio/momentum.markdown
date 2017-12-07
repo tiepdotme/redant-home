@@ -2,12 +2,12 @@
 layout: project
 theme: momentum
 slug: momentum
-title: Momentum
-tagline: A project tracking tool
+title: Momentum for Business
+tagline: A financial management learning tool
 description: Project Summary Tool
-project_url: https://pst.redant.com.au
-client: Internal tool
-project_date: 2017
+project_url: https://momentumforbusiness.com.au
+client: Momentum
+project_date: 2016-17
 images:
 ---
 
