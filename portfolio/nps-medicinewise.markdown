@@ -26,13 +26,11 @@ To communicate with consumers, they needed to have a large amount of useful and 
 
 The first part of the project was to move the [Australian Prescriber to be fully digital](https://www.nps.org.au/australian-prescriber). This would be a huge cost saving by replacing the paper versions. We optimised the workflow, and also used the Scrivito Rails CMS to provide a very good editing experience:
 
-![Scrivito editing CMS](/assets/scrivito-1.gif)
-
-
+![Scrivito editing CMS]({{ site.data.webpack['scrivito-1.gif'] }})
 
 <div style="padding:20px;background:#eee;">
 	
-##### Hang on - what is this Scrivito CMS? What is Rails?
+<h4> Hang on - what is this Scrivito CMS? What is Rails?</h4>
 
 Don't worry- this can be confusing. Often when people are faced with a requirement: 
 _"I have/want a web site with lots of content that my team can edit"_
@@ -49,8 +47,7 @@ Pick your CMS by first understanding your total requirements, then determine if 
 Anyway, back to the NPS project. The next phase of the project was to update the rest of quite a large site to also be using Scrivito. This meant designing and building new templates, as well as the content team updating literally thousands of pages of content. One of the nice features was an ability to create working copies. This means anyone on a team can start working on a version of the site, and then merge their changes when they are done. This avoids the problem in many rigid publishing workflows, and follows the very efficient workflow popularised by Git for developers.
 
 
-![Scrivito working copies](/assets/scrivito-working-copy.gif)
-
+![Scrivito working copies]({{ site.data.webpack['scrivito-working-copy.gif'] }})
 
 Apart from the pages of content, there were also large areas of the site that rely on feeds of information. One of these is the [Medicine Finder](https://www.nps.org.au/medical-info/medicine-finder/), which pulls in MIMS drug data. We needed to develop a process to pull this information in, index and contextualise, and then have it appear as [search result pages like this one](https://www.nps.org.au/medical-info/medicine-finder/panadol-cold-flu-relief-original-formula-tablets).
 
