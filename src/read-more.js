@@ -19,7 +19,7 @@ const init = $(() => {
       link: `/portfolio/12wbt/`,
     },
     {
-      title: `Weird but true: see what they look like today`,
+      title: `Weird but true: How these Celebs look today`,
       subtitle: `Unbelievable but true`,
       image: fake2,
       link: `/portfolio/real-pet-matcher/`,
@@ -31,7 +31,7 @@ const init = $(() => {
       link: `/portfolio/move/`,
     },
     {
-      title: `10 super easy ways to silence a crying child`,
+      title: `10 easy ways to silence a crying child`,
       subtitle: `Parenting tips`,
       image: fake4,
       link: `/portfolio/huggies/`,
@@ -46,7 +46,7 @@ const init = $(() => {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
       subtitle: `OMG`,
       image: fake6,
-      link: `/portfolio/tribe`,
+      link: `/portfolio/tribe/`,
     },
     {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,
@@ -55,16 +55,16 @@ const init = $(() => {
       link: `/portfolio/12wbt-dynamic-video/`,
     },
     {
-      title: `The must have spy device every car owner should have`,
+      title: `The one spy device every car owner should have`,
       subtitle: `OMG`,
       image: fake8,
       link: `/portfolio/project-summary-tool/`,
     },
     {
-      title: `You'll never believe this weight loss trick`,
+      title: `You'll Never Believe What She Did Next!`,
       subtitle: `OMG`,
       image: fake9,
-      link: `/portfolio/voome/`,
+      link: `/portfolio/voome-weekly/`,
     },
   ];
 
