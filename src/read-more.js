@@ -16,19 +16,19 @@ const init = $(() => {
       title: `You'll never believe this weight loss trick`,
       subtitle: `LifeHacks`,
       image: fake1,
-      link: `/portfolio/huggies/`,
+      link: `/portfolio/12wbt/`,
     },
     {
       title: `Weird but true: see what they look like today`,
       subtitle: `Unbelievable but true`,
       image: fake2,
-      link: `/portfolio/12wbt/`,
+      link: `/portfolio/real-pet-matcher/`,
     },
     {
       title: `Every Australian born after 1905 should read this`,
       subtitle: `Tax for life`,
       image: fake3,
-      link: `/portfolio/huggies/`,
+      link: `/portfolio/move/`,
     },
     {
       title: `10 super easy ways to silence a crying child`,
@@ -40,7 +40,7 @@ const init = $(() => {
       title: `See who has been checking you out on Facebook`,
       subtitle: `Modern Life`,
       image: fake5,
-      link: `/portfolio/12wbt/`,
+      link: `/portfolio/plando/`,
     },
     {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
@@ -52,13 +52,13 @@ const init = $(() => {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,
       subtitle: `LifeHacks`,
       image: fake7,
-      link: `/portfolio/12wbt/`,
+      link: `/portfolio/12wbt-dynamic-video/`,
     },
     {
       title: `The must have spy device every car owner should have`,
       subtitle: `OMG`,
       image: fake8,
-      link: `/portfolio/huggies/`,
+      link: `/portfolio/project-summary-tool/`,
     },
     {
       title: `You'll never believe this weight loss trick`,
