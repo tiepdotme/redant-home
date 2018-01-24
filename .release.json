@@ -1,6 +1,5 @@
 {
   "non-interactive": false,
-  "pkgFiles": [],
   "buildCommand": "docker-compose run web yarn build",
   "src": {
     "pushRepo": "upstream"
