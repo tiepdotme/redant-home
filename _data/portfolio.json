@@ -1,6 +1,7 @@
 {
   "order": [
     "12wbt-daily-app",
+    "tribe-influencer-marketplace",
     "nps-medicinewise",
     "12wbt-dynamic-video",
     "plando",
@@ -22,6 +23,7 @@
     "momentum",
     "voome-weekly",
     "move",
+    "selleys",
     "yates"
   ]
 }
