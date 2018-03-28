@@ -1,15 +1,37 @@
 ---
 layout: project
 theme: tribe
-slug: tribe
+slug: tribe-influencer-marketplace
 title: Tribe Influencer Marketplace
 tagline: An online marketplace for brands and influencers
 description: Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer's attention, you can now work directly with influential "micro influencers" using Social. Tribe is a market place tool that facilitates this.
 project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
+technologies: Ruby on Rails
+team_size: 4 people
 images:
+-
+  filename: tribe-1.jpg
+  title:
+-
+  filename: tribe-2.jpg
+  title:
+-
+  filename: tribe-3.jpg
+  title:
+-
+  filename: tribe-4.jpg
+  title:
 ---
+
+#### How it works
+
+Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer’s attention, you can now work directly with influential “micro influencers” using Social. Tribe is a market place tool that facilitates this.
+
+
+Tribe is an online influencer marketplace. As a brand, you can publish a brief and influencers will respond with ideas and proposals. You pick the one(s) that best fit your message. As an influencer, you’ll get to pick who you want to work with, get paid to come up with ideas and push posts to your followers.
+We built this marketplace, which connects the two groups. It handles everything from ideation and briefing through to payment.
 
 #### Project Description
 
@@ -28,6 +50,8 @@ Anyway, the whole point of the Tribe Marketplace is to help brands connect with 
 <div class="embed-responsive embed-responsive-16by9 mb-3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bxEYt3DuLF4?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
+
+#### Tech
 
 In terms of the technical stuff:
 

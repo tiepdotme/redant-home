@@ -8,6 +8,8 @@ description: Project Summary Tool
 project_url: https://www.realpetmatcher.com.au
 client: Real Pet Food Co
 project_date: 2017
+team_size: 3 people
+key_technologies: Ruby on Rails, Google AI
 images:
 ---
 

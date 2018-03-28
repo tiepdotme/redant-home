@@ -2,12 +2,15 @@
 layout: project
 theme: 12wbt
 slug: 12wbt
-title: 12WBT
+title: Michelle Bridges 12WBT
 tagline: A health and fitness product
 description: 12WBT is an extremely successful online health and fitness platform
 project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
-project_date: 2011-2017
+project_date: 2011 - now
+team_size: 15 people
+lines_of_code: 450k+
+technologies: Ruby on Rails, Angular
 images:
   -
     filename: desktop-12wbt-1.jpg
@@ -45,7 +48,16 @@ images:
 
 Unless live in a cave, or (like me) you have very few friends, you probably know someone that has done 12WBT. Or perhaps you've done it yourself. 12WBT is Australia's most successful health and fitness platform, with a large number of members coming back again and again.
 
-Here's how it works:
+#### In a snapshot:
+
+- Really successful health & fitness platform, featuring an Australian celebrity Michelle Bridges (Biggest Loser)
+- A round takes 12 weeks to do, plus a 4 week "preseason". Total cost is $199
+- Very popular, with hundreds of thousands of people hitting the platform. Big concurrent traffic surges due to the event based nature (eg: everyone weighs in on the same day)
+- All content is personalised and delivered via web, PDF, email and mobile app
+- Connects with devices such as Fitbit, as well as other platforms like MyFitnessPal
+
+#### Here's how it works:
+
 It's all digital - no physical meals, meetings, DVDs etc. You join for $199, then set up your goals (eg: "I'd like to lose 5kg for my wedding in March"). Based on who you are and what you're trying to achieve, you can then pick from a menu of programs - weight loss, running, strength and so on. Everyone starts with 4 weeks of Pre-Season, which is all about getting prepared. Then you go into 12 successive weeks of training and nutrition. Everyone starts together at the same time, and progresses through at the same pace.
 
 We started on this way back in 2011. Back then there was a basic MVP built with a CMS, that was having some pretty significant growing pains. Which isn't unusual - a big part of MVP is working out what you don't know. We rebuilt the tech stack in Ruby on Rails over about 10 weeks, including a new payment system and a more evolved management system.

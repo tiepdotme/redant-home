@@ -1,6 +1,6 @@
 ---
 layout: project
-theme: bondivet
+theme: bondi-vet
 slug: bondi-vet
 title: Bondi Vet
 tagline: Everything for your fur baby
@@ -9,6 +9,18 @@ project_url: https://bondivet.com
 client: Vexo Media
 project_date: 2015-17
 images:
+-
+  filename: bondi-vet-1.jpg
+-
+  filename: bondi-vet-2.jpg
+-
+  filename: bondi-vet-3.jpg
+-
+  filename: bondi-vet-4.jpg
+-
+  filename: bondi-vet-5.jpg
+-
+  filename: bondi-vet-6.jpg
 ---
 
 We’ve partnered with <a href="http://wtfn.com/" target="_blank"><span class="caps">WTFN</span></a> to bring bondivet.com to life, combining Red Ant’s technical know-how and WTFN’s extensive catalogue of content. The website aims to capitalise on the popularity of the TV show to build an active online audience.

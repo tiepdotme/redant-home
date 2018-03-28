@@ -7,8 +7,8 @@ permalink: /portfolio/
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <h1 class="text-x-large pb-4">Some of our work</h1>
+      <div class="col-md-9">
+        <h1 class="text-x-large">Some of our work</h1>
         <hr>
       </div>
     </div>
@@ -18,6 +18,16 @@ permalink: /portfolio/
 <section class="py-5">
   <div class="container">
     <div class="row">
+    	<p>This is just a temp list<ol>
+			{% for slug in site.data.portfolio.order %}
+		        {% assign pages = site.pages | where:'slug', slug %}
+		        {% for page in pages %}
+            <li><a href="{{ page.dir }}">{{ page.title }}</a></li>
+	        {% endfor %}
+	      {% endfor %}
+	</ol>
+    </div>
+	    <div class="row">
       {% for slug in site.data.portfolio.order %}
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}
