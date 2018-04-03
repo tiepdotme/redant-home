@@ -19,12 +19,12 @@
 <meta property="og:url" content="/jobs/senior-javascript-developer/" />
 <meta property="og:site_name" content="Red Ant" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":null,"url":"/jobs/senior-javascript-developer/","headline":"Red Ant","name":null,"dateModified":null,"datePublished":null,"sameAs":null,"author":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","mainEntityOfPage":null,"image":null,"@context":"http://schema.org"}</script>
+{"publisher":null,"@type":"WebPage","url":"/jobs/senior-javascript-developer/","headline":"Red Ant","dateModified":null,"datePublished":null,"sameAs":null,"name":null,"mainEntityOfPage":null,"author":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","image":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.793eccb1cc9e8ed76c52.css" />
+  <link rel="stylesheet" href="/assets/app.054bbcf97f9988f1143c.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -140,10 +140,10 @@
 	<p>We use Open Source software, and apply an Agile project delivery methodology. We’re super cross functional – we firmly believe a blended team of developers, designers and strategists build the best digital products.</p>
 </div><div class="col-md-5"><h5>Some of our work</h5><hr>
 	<p><ul>
-		<li><a href="#"><strong>Tribe</strong></a>: Marketplace for influencers</li>
-		<li><a href="#"><strong>12WBT</strong></a>: Health and Fitness app</li>
-		<li><a href="#"><strong>CX</strong></a>: Real Estate advertising engine</li>
-		<li><a href="#"><strong>NPS Medicinewise:</strong></a> Govt drug information site</li>
+		<li><a href="/portfolio/tribe-influencer-marketplace/"><strong>Tribe</strong></a>: Marketplace for influencers</li>
+		<li><a href="/portfolio/12wbt/"><strong>12WBT</strong></a>: Health and Fitness app</li>
+		<li><a href="/portfolio/campaign-xpress/"><strong>CX</strong></a>: Real Estate advertising engine</li>
+		<li><a href="/portfolio/nps-medicinewise/"><strong>NPS Medicinewise:</strong></a> Govt drug information site</li>
 	</ul>
 	  </div>
 	
@@ -172,7 +172,7 @@
   <div class="container">
 	<div class="row">
 	<div class="col-md-4"><a href="https://goo.gl/maps/Wf8NtVYcw9N2">Find us on street view</a></div>
-	<div class="col-md-4"><a href="https://twitter.com/r_e_d_a_n_t" target="_blank">The most mundane Twitter ever</a></div>      
+	<div class="col-md-4"><a href="https://twitter.com/r_e_d_a_n_t" target="_blank">The most mundane Twitter, ever</a></div>      
 	<div class="col-md-3"><a href="https://www.linkedin.com/company/76862" target="_blank">Stalk us on Linkedin</a></div>
 	</div>
     <div class="row">
@@ -188,9 +188,9 @@
   </div>
 </footer>
 
-<script src="/assets/meta.f4d96766c477878a86d0.js"></script>
+<script src="/assets/meta.a718d26ddba8f77551da.js"></script>
 <script src="/assets/vendor.5b6a090d8b56e4e160fb.js"></script>
-<script src="/assets/app.793eccb1cc9e8ed76c52.js"></script>
+<script src="/assets/app.054bbcf97f9988f1143c.js"></script>
 
 
 
