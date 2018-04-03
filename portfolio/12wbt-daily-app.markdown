@@ -7,8 +7,11 @@ tagline: A companion iOS app for this extremely successful online health and fit
 description: This app is used by people doing the 12WBT program. It has workouts, recipes and daily stats.
 project_url: https://www.12wbt.com/features/introducing-12wbt-daily
 client: 12WBT
-project_date: 2015
+project_date: 2015-now
 project_type: mobile
+team_size: 6 people
+lines_of_code: 30k
+technologies: Ruby on Rails, Swift, Angular
 images:
   -
     filename: mobile-12wbtdaily-1.jpg
@@ -25,6 +28,16 @@ images:
   -
     filename: mobile-12wbtdaily-5.jpg
     title: Workout Video
+  -
+    filename: 12wbt-daily-1.jpg
+  -
+    filename: 12wbt-daily-2.jpg
+  -
+    filename: 12wbt-daily-3.jpg
+  -
+    filename: 12wbt-daily-4.jpg
+  -
+    filename: 12wbt-daily-5.jpg
 ---
 
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).

@@ -42,8 +42,39 @@ docker-compose up
 open http://web.redanthome.docker
 ```
 
-The dev environment has been setup to use webpack-dev-server so livereloading
-should work with no setup.
+
+## Problems with your VMz? :Ì†æÌ∑ü‚Äç‚ôÄÔ∏è Ì†æÌ∑ü‚Äç‚ôÇÔ∏è:
+
+Try this
+
+```
+docker-compose rm
+```
+then check to see if there are any still running
+
+```
+docker-compose ps
+docker-compose images
+```
+
+Then start up again
+```
+dinghy up
+docker-compose up
+open http://web.redanthome.docker
+```
+
+If you're still having issues, kill all the images and then
+```
+dinghy destroy
+```
+Then restart your machine, write "666" with your fingers on your screen during startup, and then when the machine comes back up
+```
+dinghy create
+dinghy up
+docker-compose up
+open http://web.redanthome.docker
+```
 
 ## Updating portfolio order
 

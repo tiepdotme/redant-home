@@ -28,7 +28,7 @@ const init = $(() => {
       title: `Every Australian born after 1905 should read this`,
       subtitle: `Tax for life`,
       image: fake3,
-      link: `/portfolio/move/`,
+      link: `/portfolio/outdoor-automated-proposal-platform/`,
     },
     {
       title: `10 easy ways to silence a crying child`,
@@ -46,7 +46,7 @@ const init = $(() => {
       title: `Hillary Clinton abducted my child and sacrificed it to an Alien master`,
       subtitle: `OMG`,
       image: fake6,
-      link: `/portfolio/tribe/`,
+      link: `/portfolio/tribe-influencer-marketplace//`,
     },
     {
       title: `Doctors Shocked By Mum's Trick To Lose 12 Kg In 2 Weeks`,

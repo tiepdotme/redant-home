@@ -8,7 +8,12 @@ description: Seeded by eye-catching design, great functionality and relevant art
 project_url: www.beautyheaven.com.au
 client: Beauty Heaven
 project_date: 2007 - 2013
+team_size: 2 people
+lines_of_code: 10k
 images:
+  -
+    filename: beautyheaven-beautorium-screens.jpg
+    title: Member Offer page (Desktop)
 ---
 
 #### Project Description
