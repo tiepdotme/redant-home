@@ -8,7 +8,7 @@ description: Need to take your customer engagement to the next level? Take a loo
 project_url: http://www.selleys.com.au/
 client: Orica
 project_date: 2012-present
-technologies: Ruby on Rails
+technologies: Ruby on Rails, Radiant
 team_size: 6 people
 lines_of_code: 30k
 images:
@@ -25,9 +25,10 @@ images:
 
 Selleys is more than just a brand website for maintenance and cleaning products. It’s a DIY-lovers one stop shop for all things home care and renovation. With thousands of pages of content on everything from how to repair holes in a plaster wall, to car care and pest control, Selleys has evolved into an extensive website with interactive tools, member exclusive content and more.
 
-Some of our biggest Selleys projects so far:
+Some of our favourite features so far:
 
-Ask an Expert tool – not sure how to stop leaks in a caravan awning? Just ask the Selleys Expert or browse existing Expert Answers.
-Handyman House – an interactive tool where users can explore the “Selleys Handyman House” and watch videos on home renovation, general maintenance and repairs.
-Selleys DIY Club – join the Selleys community to receive regular newsletter updates, competitions and promotions, plus access to exclusive areas of the website.
-Project Detail
+<ul>
+<li>Ask an Expert tool – not sure how to stop leaks in a caravan awning? Just ask the Selleys Expert or browse existing Expert Answers.</li>
+<li>Handyman House – an interactive tool where users can explore the “Selleys Handyman House” and watch videos on home renovation, general maintenance and repairs.</li>
+<li>Selleys DIY Club – join the Selleys community to receive regular newsletter updates, competitions and promotions, plus access to exclusive areas of the website.</li>
+</ul>

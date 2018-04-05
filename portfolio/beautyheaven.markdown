@@ -33,7 +33,7 @@ In 2015 BH was (acquired by Bauer Media)[http://www.bauer-media.com.au/discover/
 
 Bits we’re especially proud of:
 
-* beautorium
+* beautorium (loyalty pop up store)
 * integrated sponsorship CMS
 * dynamic slideshow tool
 * interactive quiz generation CMS

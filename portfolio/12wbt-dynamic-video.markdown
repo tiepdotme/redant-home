@@ -8,6 +8,7 @@ description: Find a pocket personal trainer
 project_url: https://www.12wbt.com
 client: 12WBT
 project_date: 2015
+technologies: Ruby, Brightcove
 images:
   -
     filename: desktop-12wbtdynamicworkout-1.jpg
