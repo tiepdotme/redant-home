@@ -8,23 +8,28 @@ description: A pet matching tool that helps connect people looking to adopt a pe
 project_url: https://www.realpetmatcher.com.au
 client: Real Pet Food Co
 project_date: 2017 - now
-team_size: 3 people
-key_technologies: Ruby on Rails, Google AI
+team_size: 2 people
+technologies: Ruby on Rails, Google AI Machine Learning
 images:
 ---
 
 #### Project Description
 <strong>A pet matching tool that helps connect people looking to adopt a pet with shelters. It brings a whole new meaning to finding love online! Swipe right to meet your perfect match.</strong>
+<hr/>
 
 Real Pet Food Co is Australia’s most successful Pet Food company. Their product is really good, and they've been very successful (read about <a href="http://www.afr.com/business/banking-and-finance/milennials-pet-spending-drives-1b-sale-20171023-gz6uey">their business here</a> ). They have several brands which they are rolling out in different countries.
 
-Here's the challenge the business and brands face. The main sales channel for in-store is either large supermarkets (in Australia there are two) or specialty pet stores. Online it is the major ecomm platforms like Amazon, Alibaba and JD Mall. Which is fine- sales channels generate sales. But it can be hard for the Brand to enage with the Consumer - and knowing who you're selling too is critical. And no one wants to share data.
+Here's the challenge the business and brands face. The main sales channel for in-store is either large supermarkets (in Australia there are two) or specialty pet stores. Online it is the major ecomm platforms like Amazon, Alibaba and JD Mall. 
 
-So what are the options? In terms of Digital, you could buy people's attention on platforms like Facebook. You could make a web site, but the audience for a site that was everything you ever wanted to know about pet food is relatively limited.
+Which is great- sales channels generate sales. But as the Brand, it is critical to know your customer. Who are they? What needs or problems are met by the Brand? What else would they like? Not having a clear idea of a customer can mean a slow death for a brand.
 
-Or we could flip things, and rather than spending money trying to broadcast to an audience, you make something where they come to you. Something interesting. Something that provides the user with utility or solves a problem.
+And no one wants to share that data. 
 
-With the Pet Matcher, the aim was to help someone that was thinking about a rescue pet find one easily. We followed the Tinder design pattern, where each animal fills the screen, and you either love or dislike. As you start making choices, the smarts start to kick in and you start to see animals that more closely match what we think you'll like. 
+So what are the options? In terms of Digital, you could buy people's attention on platforms like Facebook. You could make a web site, but the audience for a site that was everything you ever wanted to know about pet food (I am guessing here) would be relatively limited.
+
+Or we could flip things, and rather than spending money trying to broadcast to an audience, you make something where they come to you. Something interesting / useful. Something that provides the user with utility or solves a problem.
+
+With the Pet Matcher, the aim was to help someone that was thinking about a rescue pet. Help them choose and then find one easily. We followed the Tinder design pattern, where each animal fills the screen, and you either love or dislike. As you start making choices, the smarts start to kick in and you start to see animals that more closely match what we think you'll like. 
 
 Designing this algorithm is tricky - there are lots of variables with a pet beyond simple breed and size. A pet can be active or not, good around children, short or long hair which it may or may not leave all over your couch. Then there is colour (it might need to match your couch) and temperament. And a lot of other things.
 

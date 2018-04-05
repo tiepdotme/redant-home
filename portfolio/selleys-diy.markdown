@@ -8,7 +8,7 @@ description: Need to take your customer engagement to the next level? Take a loo
 project_url: http://www.selleys.com.au/
 client: Orica
 project_date: 2012-present
-technologies: Ruby on Rails
+technologies: Ruby on Rails, Radiant
 team_size: 6 people
 lines_of_code: 30k
 images:
