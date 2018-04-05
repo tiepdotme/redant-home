@@ -39,14 +39,15 @@ As a heads up, I found working on this project fairly confronting. I have very f
 
 Anyway, the whole point of the Tribe Marketplace is to help brands connect with these influencers. Here's how it works:
 
-* say you're a small brand and you make these amazing timber keyboards
-* the way things used to work, you'd engage an agency to create some ads explaining how amazing your keyboards are. Then you'd buy media in various spots (bus shelters, magazines, TV, web sites) to show this ad to your consumers.
-* you might also engage a celebrity to help spruik your keyboards. They then get featured in kind of magazines you pick up while waiting for the doctor
-* with Tribe, it's a bit different. You post a brief, which describes your product and how it works. All these influencers then start coming up with ideas. Some of them will be in different areas - so one might have a Thing about retro timber, another might be all about cool things to have on your desk
-* the influencers then respond with some ideas. So rather than an agency coming up with the idea, influencers will explain your product in the context of their Thing. Retro timber, saving time, cool tech devices, and so on.
-* You pick the ones you want, agree on a price and number of posts, and then these ideas are pushed onto platforms like Instagram and Twitter.
-* There are a few advantages here. First, rather than just one ad creative, you're getting at least one per group. Second, your ad is going out to these groups, with the endorsement of the influencer
-
+<ol> 
+	<li>say you're a small brand and you make these <a href="https://www.youtube.com/watch?v=lF3ueBIpqbY">amazing timber keyboards</a></li>
+<li> the way things used to work, you'd engage an agency to create some ads explaining how amazing your keyboards are. Then you'd buy media in various spots (bus shelters, magazines, TV, web sites) to show this ad to your consumers.</li>
+<li> you might also engage a celebrity to help spruik your keyboards. They then get featured in kind of magazines you pick up while waiting for the doctor</li>
+<li> with Tribe, it's a bit different. You post a brief, which describes your product and how it works. All these influencers then start coming up with ideas. Some of them will be in different areas - so one might have a Thing about retro timber, another might be all about cool things to have on your desk</li>
+<li> the influencers then respond with some ideas. So rather than an agency coming up with the idea, influencers will explain your product in the context of their Thing. Retro timber, saving time, cool tech devices, and so on.</li>
+<li> You pick the ones you want, agree on a price and number of posts, and then these ideas are pushed onto platforms like Instagram and Twitter.</li>
+<li> There are a few advantages here. First, rather than just one ad creative, you're getting at least one per group. Second, your ad is going out to these groups, with the endorsement of the influencer</li>
+</ol> 
 <div class="embed-responsive embed-responsive-16by9 mb-3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bxEYt3DuLF4?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>

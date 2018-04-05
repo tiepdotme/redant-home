@@ -25,7 +25,7 @@ images:
 
 #### Project Description
 
-Voome, brought to you by the team behind 12WBT! Need we say more?
+Voome, brought to you by the team behind 12WBT.
 
 Realising that the 12WBT 12 week cycle with set start dates doesn’t suit all users, Voome is a low-cost, weekly subscription based alternative that offers the same great content as 12WBT but does so with an ‘anytime, anywhere’ attitude. It’s also great for those who’ve completed the 12WBT program and feel ready for a new challenge.
 

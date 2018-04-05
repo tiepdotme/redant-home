@@ -29,7 +29,7 @@ Voome Programs. It’s for those who don’t like to commit long term, but still
 
 Similar to Voome Weekly, we wanted to build a solution to help those who’ve found 12WBT and either decided not to participate in the program, or already made it through those 12 weeks and wanted more, but not the same.
 
-This is how Voome Programs came to life!
+This is how Voome Programs came to life.
 
 Working primarily with fitness and nutrition influencers to create 4 week programs, users can choose to purchase a program for a one-off fee and the beauty of it is that they can keep coming back to it over and over again.
 

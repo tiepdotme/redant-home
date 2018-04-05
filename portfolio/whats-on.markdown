@@ -16,9 +16,10 @@ images:
 
 What’s On is no ordinary events website. To maximise engagement with the many different communities within the City of Sydney, we built a customised event listing function, allowing organisers to submit their events directly to the website. Visitors can browse events listings via a range of search tools, to find local events, free events and more.
 
-Convenient calendar interface for browsing events
-Community focus, with submit events function and social media sharing
-Meets Web Content Accessibility Guidelines 2.0 standards
-Search for specific events by location, time, keywords or category
-Fully integrated with Google maps
-http://whatson.cityofsydney.nsw.gov.au
+<ul>
+<li>Convenient calendar interface for browsing events</li>
+<li>Community focus, with submit events function and social media sharing</li>
+<li>Meets Web Content Accessibility Guidelines 2.0 standards</li>
+<li>Search for specific events by location, time, keywords or category</li>
+<li>Fully integrated with Google maps</li>
+</ul>

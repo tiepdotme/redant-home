@@ -13,10 +13,11 @@ technologies: Ruby on Rails, Google AI Machine Learning
 images:
 ---
 
-#### Project Description
+#### How it works
 <strong>A pet matching tool that helps connect people looking to adopt a pet with shelters. It brings a whole new meaning to finding love online! Swipe right to meet your perfect match.</strong>
-<hr/>
 
+
+#### Project Description
 Real Pet Food Co is Australia’s most successful Pet Food company. Their product is really good, and they've been very successful (read about <a href="http://www.afr.com/business/banking-and-finance/milennials-pet-spending-drives-1b-sale-20171023-gz6uey">their business here</a> ). They have several brands which they are rolling out in different countries.
 
 Here's the challenge the business and brands face. The main sales channel for in-store is either large supermarkets (in Australia there are two) or specialty pet stores. Online it is the major ecomm platforms like Amazon, Alibaba and JD Mall. 

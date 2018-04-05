@@ -28,7 +28,7 @@ The Outdoor Media Association (OMA) appointed us to build the Australian Out of 
 
 APP is an automated proposal booking platform for Australia’s largest outdoor advertising networks. Instead of exchanging emails and spreadsheets back and forth, media agencies can use the platform to request proposals from OMA member companies and combine these proposals into a campaign. Agencies can confirm bookings and receive billing files within the software, as well as having access to detailed demographic data from MOVE audience reports.
 
-Initially the platform will enable media agencies to request proposals from OMA member companies and combine these proposals into a campaign. Agencies will then able to confirm bookings and receive billing files within the software, as well as having access to MOVE audience reports.
+The platform will enable media agencies to request proposals from OMA member companies and combine these proposals into a campaign. Agencies will then able to confirm bookings and receive billing files within the software, as well as having access to MOVE audience reports.
 
 
 #### What is MOVE?
