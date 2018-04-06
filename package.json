@@ -1,6 +1,6 @@
 {
   "name": "redant-home",
-  "version": "1.0.15",
+  "version": null,
   "description": "Red Ant Website.",
   "main": "src/index.js",
   "author": "Jason Taylor <jason@redant.com.au>",

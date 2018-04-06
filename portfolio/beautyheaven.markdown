@@ -4,7 +4,7 @@ theme: beautyheaven
 slug: beautyheaven
 title: Beautyheaven
 tagline: A leading health and beauty platform
-description: Seeded by eye-catching design, great functionality and relevant articles, Beauty Heaven has built a vibrant community of beauty addicts. A savvy membership system raises the status of contributors and gives them a reason to write reviews and give feedback. A smart way to leverage the knowledge of the community.
+description: Seeded by eye-catching design, great functionality and relevant articles, Beauty Heaven has built a vibrant community of beauty addicts.
 project_url: www.beautyheaven.com.au
 client: Beauty Heaven
 project_date: 2007 - 2013

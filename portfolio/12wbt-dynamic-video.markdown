@@ -26,7 +26,25 @@ images:
 
 #### Project Description
 
-People often talk about scaling things - scaling ideas, technology, processes etc. In a nutshell, keeping things smooth while something grows bigger. But what about content?
+People often talk about scaling things. Scaling a business to handle more customers. Scaling a web site to handle more traffic. The site works fine even as traffic increases.
+
+But what about content? 
+
+Making content (images, words, videos) for a web site that has a few pages is relatively easy. As your site grows it gets harder - there are only so many hours in a day. 
+
+Now imagine that you decide to make each page personalised to the user. So everyone gets personalised images, content and video. You now have a content scaling issue - how on earth are you going to make all that content?
+
+By "personalised", I don't mean "Dear <FIRSTNAME>". Ironically this is where many personalisation initiatives end up - simply because they had trouble scaling meaningful content. Or the developers over promised and under delivered (I'm looking at you, Sitecore).
+
+By personalised, I mean some content that is carefully customised based on what we know about you. So if I'm pregnant, don't show me recipes with raw fish or soft cheese in them. Even better, show me an alternate recipe sans fish and/or soft cheese. If I'm injured, don't give me pushups in my workout. Swap them out for knee pushups. Yes, that would be nice.
+
+
+
+
+
+  In the case of 12WBT, we needed to create a personalised workout. 
+
+
 
 Sure- if you’re Facebook or YouTube, your content scales up as you get more users. You can add more tools or features, and your users will generate more content. But this only applies to a minority of businesses. Not everyone is Facebook. What if you need to create the content that your users consume?
 
