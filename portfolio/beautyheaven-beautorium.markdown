@@ -4,7 +4,7 @@ theme: beautyheaven
 slug: beautyheaven-beautorium
 title: Beautyheaven Beautorium Loyalty store
 tagline: A popup Flash store using points
-description: Seeded by eye-catching design, great functionality and relevant articles, Beauty Heaven has built a vibrant community of beauty addicts. A savvy membership system raises the status of contributors and gives them a reason to write reviews and give feedback. A smart way to leverage the knowledge of the community.
+description: Part of BeautyHeaven
 project_url: www.beautyheaven.com.au
 client: Beauty Heaven
 project_date: 2007 - 2013
