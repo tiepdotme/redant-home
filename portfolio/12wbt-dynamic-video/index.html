@@ -24,7 +24,7 @@
 
   <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.7d7633cc217b459237bd.css" />
+  <link rel="stylesheet" href="/assets/app.1046d48f61ce6708eb67.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -139,52 +139,34 @@
           <div class="col-md-7">
             <h4 id="project-description">Project Description</h4>
 
-<p>People often talk about scaling things. Scaling a business to handle more customers. Scaling a web site to handle more traffic. The site works fine even as traffic increases.</p>
+<p>People often talk about scaling things. Scaling a business to handle more customers. Scaling a web site to handle more traffic. A site that scales well works fine even as traffic increases.</p>
 
 <p>But what about content?</p>
 
-<p>Making content (images, words, videos) for a web site that has a few pages is relatively easy. As your site grows it gets harder - there are only so many hours in a day.</p>
+<p>Making content (images, words, videos) for a simple web site that has a few pages is relatively easy. We can set up a CMS and you can knock yourself out. This gets a bit harder as your site grows - there are only so many hours in a day.</p>
 
-<p>Now imagine that you decide to make each page personalised to the user. So everyone gets personalised images, content and video. You now have a content scaling issue - how on earth are you going to make all that content?</p>
+<p>Now imagine your site changes to that each page personalised to the user. So everyone gets personalised images, content and video. Congratulations - you now have a content scaling problem. How on earth are you going to make all that content?</p>
 
-<p>By “personalised”, I don’t mean “Dear <FIRSTNAME>". Ironically this is where many personalisation initiatives end up - simply because they had trouble scaling meaningful content. Or the developers over promised and under delivered (I'm looking at you, Sitecore).</FIRSTNAME></p>
+<p>By “personalised”, I don’t mean “Dear  FIRSTNAME “. Ironically this is where many personalisation initiatives end up - simply because they had trouble scaling meaningful content. Or the technology over promised and under delivered (I’m looking at you, Sitecore). Or a bit of both.</p>
 
-<p>By personalised, I mean some content that is carefully customised based on what we know about you. So if I’m pregnant, don’t show me recipes with raw fish or soft cheese in them. Even better, show me an alternate recipe sans fish and/or soft cheese. If I’m injured, don’t give me pushups in my workout. Swap them out for knee pushups. Yes, that would be nice.</p>
+<p>By personalised, what I actually mean is having content carefully customised based on what we know about you. If I’m pregnant, don’t start showing me recipes with raw fish or soft cheese. Even better, show me the alternate recipe sans fish and/or soft cheese. If I’m injured, don’t give me pushups in my workout. Swap them out for knee pushups. Yes, that would be nice.</p>
 
-<p>In the case of 12WBT, we needed to create a personalised workout.</p>
+<p>We started down this path with recipe content. Everyone gets their own recipe content. Each recipe is personalised, depending on who you are and what your weight loss goals are. If I’m a woman trying to lose weight, I’ll see a different version of a recipe to the man trying to gain muscle. Or vice versa.</p>
 
-<p>Sure- if you’re Facebook or YouTube, your content scales up as you get more users. You can add more tools or features, and your users will generate more content. But this only applies to a minority of businesses. Not everyone is Facebook. What if you need to create the content that your users consume?</p>
+<p>But what about video? Some of the most popular pieces of content on 12WBT are the workouts, and they all come with video. So you can watch the video and do the workout yourself. Makes sense right?</p>
 
-<p>On the 12WBT project, we faced this issue. The platform grew from a few hundred users to a few thousand, then a few hundred thousand. What started as a single product quickly split into multiple streams (weight-loss, running etc). And the whole reason for signing up and coming to the site was content.</p>
+<p>The “traditional” approach for fitness videos is to shoot the scene with say 3 instructors doing the workout. One does the easy routine, the next does a regular one, and the third does advanced moves. So the user is “personalising” by who they choose to watch. Doing a big shoot like that isn’t particularly cheap - lots of cameras, talent and editing.</p>
 
-<p>We scaled some content early on. Take recipes:</p>
-<ul>
- 	<li>many recipe sites treat a recipe as a block of content. Think of it almost like a Word doc. A title, and image, a description that contains ingredients and method.</li>
- 	<li>our first iteration changed ingredients from a block of text into a list that came out of a database. That meant we could generate a shopping list of ingredients, so the members could easily buy what they needed for the week. The devil is very much in the detail here. It needed to be smart enough to know that if you had 3 recipes with half a lime, you need to buy 2 limes. Or that eggs come in a dozen and in different weights. Or that “a slice of toast” comes in loaves of bread. Or that a spoon of honey is something we should assume you probably already have (both the spoon and the honey).</li>
- 	<li>then we made the process of building a recipe easier. Improving the UI for the editor, and helping speed up the various tasks.</li>
- 	<li>The next iteration was to connect this list of ingredients to a nutrition database. This meant that for each recipe, we could automatically (and accurately) generate a description of fibre, calories, etc. So rather than have someone spend time working that out and then typing it all in, it would just magically appear.</li>
- 	<li>Then we added personalisation: as you build a recipe, you could create variations to suit different types of users. So a pregnant person would not get the soft cheese in that recipe, while a guy on a strength program might be trying to hit 2,200 calories and needs that plus some extra protein.</li>
-</ul>
-<p>End result: we started off with not many recipes. We made them easier and faster to generate, with more accurate information. We got to a few hundred recipes. Then we made them dynamic, personalised to different user types. This got us to a few thousand recipes.</p>
-
-<p>The next content scaling issue was video. Video is really really popular on 12WBT. It makes sense – people want to watch a workout and do it at the same time. But as the member base grew, we needed a way of doing kind of what we had already done with recipes, but for video.</p>
-
-<p>To explain a bit more, the super popular videos are 45 minute workouts. This is where you have several trainers going through a workout routine. They take a while to make - you need to get lots of people involved, everyone needs to rehearse, a dedicated set, and several cameras. Then once it is shot it still needs to get edited and uploaded.</p>
-
-<p>So they’re really popular, but they take a while to make. They don’t scale particularly well.</p>
-
-<p>To make things scale, we took a different approach. From a users point of view, they still get a stream of video on their phone or browser. But there are now HEAPS of different videos available to chose from.</p>
-
-<p>Instead of shooting everything as one continuous narrative, each exercise is shot separately. Say the workout starts with a push up, the talent is shot doing a single pushup. This is carefully edited so that it can loop seamlessly. We do this for each exercise.</p>
-
-<p>Then when it comes time for the fitness expert to “build” a new workout, they pick out a pushup, and add in repeats.</p>
+<p>We took a different approach on 12WBT. Instead of shooting the workout in one long sequence, we got the video team to try shooting each routine separately. We also asked that each exercise (for example: a pushup) starts and finishes in the same position in the video frame.</p>
 
 <p><img src="/assets/12wbt-video-diagram-1.559731b36633eaff22be.jpg" alt="Regular Workout Videos" />
 <img src="/assets/12wbt-video-diagram-2.dc17a787765053b745fd.jpg" alt="Dynamic Workout Videos" /></p>
 
-<p>When the user gets to the page, what they are actually seeing is an array of HTML5 videos. Each exercise is looped for the correct number of reps. Just like recipes, this can be customised to the user profile: so you might get 6 pushups, but because I am just so totally buff I will get 16. If normal pushups are too hard, it can be swapped to an easier variation (knee push up).</p>
+<p>We created a workout design tool, which allowed the content team to build different workouts for different types of users. So they could quickly make a pushup &gt; skip &gt; burpee &gt; star &gt; etc routine, and then make another with slight variations.</p>
 
-<p>The end result looks like a normal video, but is actually dynamically assembled.</p>
+<p>Instead of a big 45min video file, we had lots of short video clips of each part of each routine. So one pushup. One burpee. When Sam watches the workout and gets to pushups, we use code to loop that one pushup 8 times. When Sally watches it, her more advanced status might cause it to loop 12 times.</p>
+
+<p>All of this dynamic content is fed into a video stream, so to the user the experience is the same as watching a regular video. It might be a short video of a few minutes, or it might run for 45 minutes.</p>
 
 <p>Taking this approach, the video content becomes scalable. Rather than just a few long videos, we can create literally millions of different workouts.</p>
 
@@ -357,9 +339,9 @@
   </div>
 </footer>
 
-<script src="/assets/meta.bf4b495fdabd2b7cf17b.js"></script>
+<script src="/assets/meta.ae7133168be862d63574.js"></script>
 <script src="/assets/vendor.d37fce818b21052c841b.js"></script>
-<script src="/assets/app.7d7633cc217b459237bd.js"></script>
+<script src="/assets/app.1046d48f61ce6708eb67.js"></script>
 
 
 
