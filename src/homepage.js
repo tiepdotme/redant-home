@@ -19,14 +19,18 @@ const init = $(function() {
 
   AOS.init({
     dataAosAnchorPlacement: 'center-bottom',
-    easing: 'ease-in-out'
+    easing: 'ease-in-out',
+    duration: 900
   });
 
   /* Carousel */
   $(carousel_selector).slick({
     dots: true,
     appendDots: '.carousel-dots',
-    appendArrows: '.carousel-arrows'
+    appendArrows: '.carousel-arrows',
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToScroll: 1
   });
 
   $('#gallery-modal').on('shown.bs.modal', function (e) {
