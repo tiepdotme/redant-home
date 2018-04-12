@@ -3,14 +3,13 @@ layout: project
 theme: selleys-diy
 slug: selleys-diy
 title: Selleys DIY site
-tagline: A place for parents to learn &amp; share
-description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
+tagline: One stop information for DIY
+description: With thousands of pages of content on everything from how to repair holes in a plaster wall, to car care and pest control
 project_url: http://www.selleys.com.au/
 client: Orica
 project_date: 2012-present
 technologies: Ruby on Rails, Radiant
-team_size: 6 people
-lines_of_code: 30k
+team_size: 2 people
 images:
 -
   filename: selleys-hero-desktop.jpg

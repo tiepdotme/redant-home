@@ -50,8 +50,8 @@ Unless live in a cave, or (like me) you have very few friends, you probably know
 
 #### In a snapshot:
 
-- Really successful health & fitness platform, featuring an Australian celebrity Michelle Bridges (Biggest Loser)
-- A round takes 12 weeks to do, plus a 4 week "preseason". Total cost is $199
+- <a href="http://www.afr.com/business/media-and-marketing/michelle-bridges-empire-of-body-transformation-20140123-jysoq">Really successful</a> health & fitness platform, featuring an Australian celebrity Michelle Bridges (Biggest Loser)
+- A round takes 12 weeks to do, plus a 4 week "preseason". All content is behind a paywall, and cost is $199
 - Very popular, with hundreds of thousands of people hitting the platform. Big concurrent traffic surges due to the event based nature (eg: everyone weighs in on the same day)
 - All content is personalised and delivered via web, PDF, email and mobile app
 - Connects with devices such as Fitbit, as well as other platforms like MyFitnessPal

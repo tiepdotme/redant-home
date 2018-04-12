@@ -4,7 +4,7 @@ theme: tribe
 slug: tribe-influencer-marketplace
 title: Tribe Influencer Marketplace
 tagline: An online marketplace for brands and influencers
-description: Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer's attention, you can now work directly with influential "micro influencers" using Social. Tribe is a market place tool that facilitates this.
+description: Marketing is changing. 
 project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
