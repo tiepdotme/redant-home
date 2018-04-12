@@ -74,6 +74,18 @@
   }
 }
 
+.hero-section {
+  background-image: url('~images/woman-scheduling-workouts.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  top: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .step-img {
   display: block;
   width: 100%;
