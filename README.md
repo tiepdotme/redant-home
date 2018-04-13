@@ -43,7 +43,7 @@ open http://web.redanthome.docker
 ```
 
 
-## Problems with your VMz? :í ¾í·Ÿâ€â™€ï¸ í ¾í·Ÿâ€â™‚ï¸:
+## Problems with your VMz? ğŸ§Ÿ
 
 Try this
 
