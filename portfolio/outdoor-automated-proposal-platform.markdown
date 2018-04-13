@@ -2,7 +2,7 @@
 layout: project
 theme: move
 slug: outdoor-automated-proposal-platform
-title: Outdoor Advertising Proposal Platform
+title: Move Outdoor Advertising proposal platform
 tagline: APP is an automated proposal booking platform for Australia’s largest outdoor advertising networks. 
 description: Instead of exchanging emails and spreadsheets back and forth, media agencies can use the platform to request proposals
 client: Move OMA

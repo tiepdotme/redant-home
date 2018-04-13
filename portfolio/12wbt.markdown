@@ -3,8 +3,8 @@ layout: project
 theme: 12wbt
 slug: 12wbt
 title: Michelle Bridges 12WBT
-tagline: A health and fitness product
-description: 12WBT is an extremely successful online health and fitness platform
+tagline: 12 week health & fitness product
+description: Australia’s most popular health platform, with incredible growth. Nutrition, fitness and mindset.
 project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
 project_date: 2011 - now
