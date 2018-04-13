@@ -49,6 +49,7 @@ Try this
 
 ```
 docker-compose rm
+docker-compose rmi
 ```
 then check to see if there are any still running
 
@@ -68,13 +69,15 @@ If you're still having issues, kill all the images and then
 ```
 dinghy destroy
 ```
-Then restart your machine, write "666" with your fingers on your screen during startup, and then when the machine comes back up
+Then restart your machine, suck your finger and write "666" with that finger on your screen during startup, and spin twice in your chair. Slowly. Then when the machine comes back up
 ```
 dinghy create
 dinghy up
 docker-compose up
 open http://web.redanthome.docker
 ```
+
+Zombies be gone
 
 ## Updating portfolio order
 
