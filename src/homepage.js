@@ -20,7 +20,8 @@ const init = $(function() {
   AOS.init({
     dataAosAnchorPlacement: 'center-bottom',
     easing: 'ease-in-out',
-    duration: 900
+    duration: 900,
+    disable: 'mobile'
   });
 
   /* Carousel */
