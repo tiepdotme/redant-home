@@ -79,6 +79,14 @@
         height: initial;
         margin-right: 5px;
 
+        // &.slick-active {
+        //   button {
+        //     &::before {
+        //       opacity: .25;
+        //     }
+        //   }
+        // }
+
         button {
           position: relative;
           width: 40px;
