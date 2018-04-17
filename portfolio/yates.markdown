@@ -7,7 +7,7 @@ tagline: Waterwise gardening, growing your own food, organic gardening, communit
 description: We have helped Yates to share their immense knowledge of plants and pests to develop an engaging and informative website that helps gardeners solve problems and inspires them to have a go
 project_url: http://www.yates.com.au
 client: Orica
-project_date: 2005 - present
+project_date: 2005 - now
 technologies: Ruby on Rails
 images:
   -
