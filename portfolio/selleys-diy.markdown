@@ -11,13 +11,12 @@ project_date: 2012-now
 technologies: Ruby on Rails, Radiant
 team_size: 2 people
 images:
--
-  filename: selleys-hero-desktop.jpg
-  title: Member Hero page (Desktop)
--
-  filename: selleys-hero-mobile.jpg
-  title: Member Hero page (Mobile)
-
+  -
+    filename: selleys-diy-1.jpg
+  -
+    filename: selleys-diy-2.jpg
+  -
+    filename: selleys-diy-3.jpg
 ---
 
 #### Project Description

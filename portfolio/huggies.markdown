@@ -9,6 +9,20 @@ project_url: https://www.huggies.com.au
 client: Kimberly Clark
 project_date: 2005-now
 images:
+  -
+    filename: huggies-1.jpg
+  -
+    filename: huggies-2.jpg
+  -
+    filename: huggies-3.jpg
+  -
+    filename: huggies-4.jpg
+  -
+    filename: huggies-5.jpg
+  -
+    filename: huggies-6.jpg
+  -
+    filename: huggies-7.jpg
 ---
 
 Running a successful consumer brand in Australia is really tough. Retailers are constantly discounting, and teach consumers to buy on discount signals rather than product quality. Then Disrupters like Amazon make it even harder.

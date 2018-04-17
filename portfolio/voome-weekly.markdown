@@ -10,17 +10,9 @@ client: 12WBT
 project_date: 2016
 images:
   -
-    filename: desktop-voome-1.jpg
-    title: Member Homepage (Desktop)
+    filename: voome-weekly-1.jpg
   -
-    filename: mobile-voome-1.jpg
-    title: Member Homepage (Mobile)
-  -
-    filename: desktop-voome-2.jpg
-    title: Meal Planner (Desktop)
-  -
-    filename: mobile-voome-2.jpg
-    title: Meal Planner (Mobile)
+    filename: voome-weekly-2.jpg
 ---
 
 #### Project Description

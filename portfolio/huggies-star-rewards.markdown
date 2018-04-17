@@ -10,6 +10,8 @@ client: Huggies
 project_date: 2016
 team_size: 4 people
 images:
+  -
+    filename: huggies-star-rewards-1.jpg
 ---
 
 #### Project Description

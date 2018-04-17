@@ -9,6 +9,8 @@ project_url: https://campaignxpress.com.au/
 client: CAMPAIGNxpress
 project_date: 2017 - now
 images:
+  -
+    filename: campaign-xpress-1.jpg
 ---
 
 #### Project Description

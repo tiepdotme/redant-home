@@ -11,17 +11,9 @@ project_date: 2015
 technologies: Ruby, Brightcove
 images:
   -
-    filename: desktop-12wbtdynamicworkout-1.jpg
-    title: Exercise Plan (Desktop)
+    filename: 12wbt-dynamic-video-1.jpg
   -
-    filename: mobile-12wbtdynamicworkout-1.jpg
-    title: Exercise Plan (Mobile)
-  -
-    filename: desktop-12wbtdynamicworkout-2.jpg
-    title: Workout Video Player (Desktop)
-  -
-    filename: mobile-12wbtdynamicworkout-2.jpg
-    title: Workout Video Player (mobile)
+    filename: 12wbt-dynamic-video-2.jpg
 ---
 
 #### Project Description

@@ -9,6 +9,8 @@ project_url: https://plando.com
 client: PlanDo
 project_date: 2013-now
 images:
+  -
+    filename: plando-1.jpg
 ---
 
 #### Project Description
