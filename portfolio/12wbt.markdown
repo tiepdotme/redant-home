@@ -13,35 +13,15 @@ lines_of_code: 450k+
 technologies: Ruby on Rails, Angular, React
 images:
   -
-    filename: desktop-12wbt-1.jpg
-    title: Member Homepage (Desktop)
+    filename: 12wbt-1.jpg
   -
-    filename: mobile-12wbt-1.jpg
-    title: Member Homepage (Mobile)
+    filename: 12wbt-2.jpg
   -
-    filename: desktop-12wbt-2.jpg
-    title: Meal Plan (Desktop)
+    filename: 12wbt-3.jpg
   -
-    filename: mobile-12wbt-2.jpg
-    title: Meal Plan (Mobile)
+    filename: 12wbt-4.jpg
   -
-    filename: desktop-12wbt-3.jpg
-    title: Exercise Plan (Desktop)
-  -
-    filename: mobile-12wbt-3.jpg
-    title: Exercise Plan (Mobile)
-  -
-    filename: desktop-12wbt-4.jpg
-    title: Member Zone (Desktop)
-  -
-    filename: mobile-12wbt-4.jpg
-    title: Member Zone (Mobile)
-  -
-    filename: desktop-12wbt-5.jpg
-    title: My Stats (Desktop)
-  -
-    filename: mobile-12wbt-5.jpg
-    title: My Stats (Mobile)
+    filename: 12wbt-5.jpg
 ---
 
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.

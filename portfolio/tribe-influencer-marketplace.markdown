@@ -12,17 +12,13 @@ technologies: Ruby on Rails
 team_size: 4 people
 images:
 -
-  filename: tribe-1.jpg
-  title:
+  filename: tribe-influencer-marketplace-1.jpg
 -
-  filename: tribe-2.jpg
-  title:
+  filename: tribe-influencer-marketplace-2.jpg
 -
-  filename: tribe-3.jpg
-  title:
+  filename: tribe-influencer-marketplace-3.jpg
 -
-  filename: tribe-4.jpg
-  title:
+  filename: tribe-influencer-marketplace-4.jpg
 ---
 
 #### How it works

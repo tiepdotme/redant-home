@@ -11,6 +11,10 @@ project_date: 2017 - now
 team_size: 2 people
 technologies: Ruby on Rails, Google AI Machine Learning
 images:
+  -
+    filename: real-pet-matcher-1.jpg
+  -
+    filename: real-pet-matcher-2.jpg
 ---
 
 #### How it works
