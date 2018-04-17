@@ -25,9 +25,13 @@
   }
 
   @include media-breakpoint-down(sm) {
+    padding-top: 0;
     padding-left: $grid-gutter-width / 2;
     padding-right: $grid-gutter-width / 2;
-    border: none;
+
+    h4 {
+      margin: 0 0 $grid-gutter-width / 2;
+    }
   }
 }
 

@@ -119,6 +119,8 @@
   }
 
   @include media-breakpoint-down(sm) {
+    top: 0;
+
     .nav-links {
       .links {
         font-size: $font-size-base * 2;
