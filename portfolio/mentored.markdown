@@ -12,7 +12,6 @@ team_size: 4 people
 technologies: Ruby on Rails
 images:
 
-
 ---
 
 #### Project Description

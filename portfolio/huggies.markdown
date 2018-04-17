@@ -7,8 +7,22 @@ tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
 project_url: https://www.huggies.com.au
 client: Kimberly Clark
-project_date: 2005-2017
+project_date: 2005-now
 images:
+  -
+    filename: huggies-1.jpg
+  -
+    filename: huggies-2.jpg
+  -
+    filename: huggies-3.jpg
+  -
+    filename: huggies-4.jpg
+  -
+    filename: huggies-5.jpg
+  -
+    filename: huggies-6.jpg
+  -
+    filename: huggies-7.jpg
 ---
 
 Running a successful consumer brand in Australia is really tough. Retailers are constantly discounting, and teach consumers to buy on discount signals rather than product quality. Then Disrupters like Amazon make it even harder.

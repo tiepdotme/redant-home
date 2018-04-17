@@ -7,33 +7,17 @@ tagline: Waterwise gardening, growing your own food, organic gardening, communit
 description: We have helped Yates to share their immense knowledge of plants and pests to develop an engaging and informative website that helps gardeners solve problems and inspires them to have a go
 project_url: http://www.yates.com.au
 client: Orica
-project_date: 2005 - present
+project_date: 2005 - now
 technologies: Ruby on Rails
 images:
   -
-    filename: desktop-yates-1.jpg
-    title: Seed Finder (Desktop)
+    filename: yates-1.jpg
   -
-    filename: mobile-yates-1.jpg
-    title: Seed Finder (Mobile)
+    filename: yates-2.jpg
   -
-    filename: desktop-yates-2.jpg
-    title: Product (Desktop)
+    filename: yates-3.jpg
   -
-    filename: mobile-yates-2.jpg
-    title: Product (Mobile)
-  -
-    filename: desktop-yates-3.jpg
-    title: Store Locator (Desktop)
-  -
-    filename: mobile-yates-3.jpg
-    title: Store Locator (Mobile)
-  -
-    filename: desktop-yates-4.jpg
-    title: Forum (Desktop)
-  -
-    filename: mobile-yates-4.jpg
-    title: Forum (Mobile)
+    filename: yates-4.jpg
 ---
 
 Waterwise gardening, growing your own food, organic gardening, community – these are the themes of a new generation of gardeners. We have helped Yates to share their immense knowledge of plants and pests to develop an engaging and informative website that helps gardeners solve problems and inspires them to have a go. Garden care is specific to where you live – this site provides solutions for your region.

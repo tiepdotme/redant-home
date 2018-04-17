@@ -14,21 +14,6 @@ lines_of_code: 30k
 technologies: Ruby on Rails, Swift, Angular
 images:
   -
-    filename: mobile-12wbtdaily-1.jpg
-    title: Daily Tracking
-  -
-    filename: mobile-12wbtdaily-2.jpg
-    title: Daily Program
-  -
-    filename: mobile-12wbtdaily-3.jpg
-    title: Recipe
-  -
-    filename: mobile-12wbtdaily-4.jpg
-    title: My Stats
-  -
-    filename: mobile-12wbtdaily-5.jpg
-    title: Workout Video
-  -
     filename: 12wbt-daily-1.jpg
   -
     filename: 12wbt-daily-2.jpg
