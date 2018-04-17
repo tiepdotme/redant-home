@@ -8,19 +8,28 @@ a {
   }
 }
 
-.text-x-large {
-  font-size: 3rem;
+h4 {
+  font-size: 1.75rem;
   font-weight: 600;
-  line-height: 0.8;
 }
 
-.text-md {
-  font-size: 1.2rem;
+hr {
+  @include block();
+
+  &.inverse {
+    @include block($white);
+  }
+
+  &.hr-thin {
+    height: 1px;
+    margin-top: -1px;
+    opacity: 0.2;
+    width: 100%;
+  }
 }
 
-.unstyled-list {
-  padding-left: 0;
-  list-style: none;
+strong {
+  font-weight: 700;
 }
 
 .about-us-list {
@@ -54,12 +63,11 @@ a {
   }
 }
 
-hr {
-  @include block();
-}
-
-hr.inverse {
-  @include block($white);
+.hero-section {
+  h1 {
+    font-size: 2.625rem;
+    font-weight: 600;
+  }
 }
 
 .hr-wrapper {
@@ -70,4 +78,20 @@ hr.inverse {
   hr {
     margin-bottom: 0;
   }
+}
+
+.text-x-large {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.text-md {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.unstyled-list {
+  padding-left: 0;
+  list-style: none;
 }

@@ -74,10 +74,101 @@
   }
 }
 
+.diamond-section {
+  width: 100%;
+
+  .diamond-1,
+  .diamond-2,
+  .diamond-3,
+  .diamond-4,
+  .diamond-5,
+  .diamond-6,
+  .diamond-7,
+  .diamond-8 {
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 164px;
+    margin: 0 15px;
+    width: 33%;
+    max-width: 280px;
+  }
+
+  .diamond-1 {
+    background-image: url('~images/home-diamonds/diamond-1.png');
+  }
+
+  .diamond-2 {
+    background-image: url('~images/home-diamonds/diamond-2.png');
+  }
+
+  .diamond-3 {
+    background-image: url('~images/home-diamonds/diamond-3.png');
+  }
+
+  .diamond-4 {
+    background-image: url('~images/home-diamonds/diamond-4.png');
+  }
+
+  .diamond-5 {
+    background-image: url('~images/home-diamonds/diamond-5.png');
+  }
+
+  .diamond-6 {
+    background-image: url('~images/home-diamonds/diamond-6.png');
+  }
+
+  .diamond-7 {
+    background-image: url('~images/home-diamonds/diamond-7.png');
+  }
+
+  .diamond-8 {
+    background-image: url('~images/home-diamonds/diamond-8.png');
+  }
+
+  .diamond-row-2,
+  .diamond-row-3 {
+    margin-top: -78px;
+  }
+}
+
+.hero-section {
+  background-image: url('~images/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $white;
+  min-height: 100vh;
+  top: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .dark-overlay {
+    background-color: $black;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.ruby {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-image: url('~images/ruby.png');
+  height: 100%;
+}
+
 .step-img {
   display: block;
   width: 100%;
-  height: 270px;
+  height: 290px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -110,6 +201,7 @@
 .section-border {
   border-top: 1px solid $gray-smoke;
   border-bottom: 1px solid $gray-smoke;
+  padding-bottom: 100px;
 }
 
 .jumbotron {
