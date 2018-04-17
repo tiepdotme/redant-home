@@ -7,7 +7,7 @@ tagline: One stop information for DIY
 description: With thousands of pages of content on everything from how to repair holes in a plaster wall, to car care and pest control
 project_url: http://www.selleys.com.au/
 client: Orica
-project_date: 2012-present
+project_date: 2012-now
 technologies: Ruby on Rails, Radiant
 team_size: 2 people
 images:
