@@ -24,7 +24,7 @@
 
   <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.db0aadb65f0b51a42729.css" />
+  <link rel="stylesheet" href="/assets/app.9dc25b20979e8efe3115.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -44,7 +44,7 @@
     <div class="row no-gutters w-100">
       <div class="col-8">
         <a href="/" class="navbar-brand">
-          <img class="logo" src="/assets/logo.5f2c38db28fb4124af2e.svg" />
+          <img class="logo" src="/assets/logo.5f2c38db28fb4124af2e.svg"/>
         </a>
       </div>
       <div class="col-4">
@@ -57,12 +57,32 @@
       </div>
     </div>
   </div>
-  <div class="container nav-links">
+
+  <div class="container nav-links mx-4 mx-md-auto">
     <ul class="links">
-      <li><a href="/about/">About Red Ant</a></li>
-      <li><a href="/our-approach/">Our approach</a></li>
-      <li><a href="/portfolio/">Stuff we&rsquo;ve made</a></li>
-      <li><a href="/jobs/">Looking for work?</a></li>
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="https://news.redant.com.au" target="_blank">
+          News &amp; Ideas
+        </a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -71,8 +91,8 @@
     <header class="project-header">
       <div class="project-header-content">
         <div class="bg-angled bg-12wbt"></div>
-        
-          <svg class="mobile-header preview" data-aos="dropshadow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          
+            <svg class="mobile-header preview" data-aos="dropshadow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   x="0px" y="0px" width="100%" height="720px" viewBox="0 0 1200 720" enable-background="new 0 0 1200 720" xml:space="preserve">
   <defs>
     <clipPath id="clip">
@@ -123,20 +143,21 @@
   </g>
 </svg>
 
-        
+          
       </div>
     </header>
 
-    <section class="project-content pt-3 pb-5">
+    <section class="project-content pt-3 pb-5 text-md">
       <div class="container">
-        <div class="row">
+        <div class="row mb-4">
           <div class="col-12">
             <h1 class="project-title pb-2">12WBT Daily App</h1>
             <hr>
           </div>
         </div>
+
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-8">
             <p>You’ve probably heard about the wildly popular fitness program <a href="/portfolio/12wbt/">12WBT by Michelle Bridges</a>. You can read a bit more about <a href="/portfolio/12wbt/">12WBT here</a>.</p>
 
 <p>Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they <strong>actually</strong> want is to connect to an audience of customers - many of which are predominantly mobile. Don’t jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.</p>
@@ -175,24 +196,52 @@ I’d challenge that- what things could be better delivered as an App? Are there
 <p>The approach the 12WBT Daily App takes is to focus on the daily component of the  program (which takes 4+12 weeks). The role of the app is to act as a companion, rather than try to be an exact replica of what you’d get on the web version. It answers the question “what do I need to do today?”. How much water, which snacks, which meals, and what does my workout look like.</p>
 
           </div>
-          <div class="col-md-5">
-            <div class="section-border py-3 my-2">
-              <div class="row">
-                <div class="col-12">
-                  <h4>Project Detail</h4>
-                  <ul class="unstyled-list">
-                    <li><strong>Client:</strong> 12WBT</li>
-                    <li><strong>Date:</strong> 2015-now</li>
-                    <li><strong>Project URL:</strong> <a href="https://www.12wbt.com/features/introducing-12wbt-daily">https://www.12wbt.com/features/introducing-12wbt-daily</a></li>
-					<li><strong>Key technology:</strong> Ruby on Rails, Swift, Angular</li>
-					<li><strong>Team Size:</strong> 6 people</li>
-					<li><strong>Lines of code:</strong> 30k</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row gallery-tiles">
+
+          <div class="col-md-4">
+            <hr class="hr-blue my-0">
+            <div class="project-detail-container section-border">
+              <h4 class="project-detail-title mb-3">Project Detail</h4>
+              <ul class="project-detail-content unstyled-list m-0">
+                
+                  <li>
+                    <strong>Client:</strong> 12WBT
+                  </li>
+                
+
+                
+                  <li>
+                    <strong>Date:</strong> 2015-now
+                  </li>
+                
+
+                
+                  <li>
+                    <strong>Project URL:</strong> <a href="https://www.12wbt.com/features/introducing-12wbt-daily">https://www.12wbt.com/features/introducing-12wbt-daily</a>
+                  </li>
+                
+
+          			
+                  <li>
+                    <strong>Key technology:</strong> Ruby on Rails, Swift, Angular
+                  </li>
+                
+
+          			
+                  <li>
+                    <strong>Team Size:</strong> 6 people
+                  </li>
+                
+
+          			
+                  <li>
+                    <strong>Lines of code:</strong> 30k
+                  </li>
+                
+              </ul>
+            </div>
+            <div class="row gallery-tiles">
   
-    <div class="col-6">
+    <div class="col-12">
       <a href=""
         class="gallery-img"
         data-index="1"
@@ -202,7 +251,7 @@ I’d challenge that- what things could be better delivered as an App? Are there
       </a>
     </div>
   
-    <div class="col-6">
+    <div class="col-12">
       <a href=""
         class="gallery-img"
         data-index="2"
@@ -212,7 +261,7 @@ I’d challenge that- what things could be better delivered as an App? Are there
       </a>
     </div>
   
-    <div class="col-6">
+    <div class="col-12">
       <a href=""
         class="gallery-img"
         data-index="3"
@@ -222,7 +271,7 @@ I’d challenge that- what things could be better delivered as an App? Are there
       </a>
     </div>
   
-    <div class="col-6">
+    <div class="col-12">
       <a href=""
         class="gallery-img"
         data-index="4"
@@ -232,7 +281,7 @@ I’d challenge that- what things could be better delivered as an App? Are there
       </a>
     </div>
   
-    <div class="col-6">
+    <div class="col-12">
       <a href=""
         class="gallery-img"
         data-index="5"
@@ -293,17 +342,15 @@ I’d challenge that- what things could be better delivered as an App? Are there
   </div>
 </div>
 
-            </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="pb-5 d-none d-sm-block" data-read-more></section>
 
-    <section class="pb-5" data-read-more></section>
-
-    <section class="py-5 canvas-section bg-gray-light">
-  <div class="container text-left">
-    <div class="row text-md">
+    <section class="py-5 bg-gray-light text-md">
+  <div class="container">
+    <div class="row">
       <div class="col-md-7">
         <p>
           Red Ant is a leading digital agency. We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore. Deliver quickly and then iterate.
@@ -336,7 +383,7 @@ I’d challenge that- what things could be better delivered as an App? Are there
 </section>
 
 <footer class="footer py-5">
-  <div class="container">
+  <div id="contact" class="container">
 	  <div class="row">
       <div class="col-md-4">
         <ul class="unstyled-list">
@@ -392,13 +439,12 @@ I’d challenge that- what things could be better delivered as an App? Are there
   </div>
 </footer>
 
-<script src="/assets/meta.aa30f1c5342cea1ca01a.js"></script>
+<script src="/assets/meta.ab2b737bcee9bd73c6b4.js"></script>
 <script src="/assets/vendor.d37fce818b21052c841b.js"></script>
-<script src="/assets/app.db0aadb65f0b51a42729.js"></script>
+<script src="/assets/app.9dc25b20979e8efe3115.js"></script>
 
 
 
   </div>
 </body>
-
 </html>
