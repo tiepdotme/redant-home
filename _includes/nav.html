@@ -1,5 +1,9 @@
 {% if page.nav == 'navbar-aos' %}
-  <nav class="navbar nav-overlay" data-aos-anchor=".navbar-aos" data-aos="navbar-aos" data-aos-anchor-placement="bottom-bottom">
+  <nav
+    class="navbar nav-overlay"
+    data-aos-anchor=".navbar-aos"
+    data-aos="navbar-aos"
+    data-aos-anchor-placement="bottom-bottom">
 {% else %}
   <nav class="navbar nav-overlay">
 {% endif %}
@@ -7,7 +11,7 @@
     <div class="row no-gutters w-100">
       <div class="col-8">
         <a href="/" class="navbar-brand">
-          <img class="logo" src="{{ site.data.webpack['logo.svg'] }}" />
+          <img class="logo" src="{{ site.data.webpack['logo.svg'] }}"/>
         </a>
       </div>
       <div class="col-4">
@@ -20,12 +24,32 @@
       </div>
     </div>
   </div>
-  <div class="container nav-links">
+
+  <div class="container nav-links mx-4 mx-md-auto">
     <ul class="links">
-      <li><a href="/about/">About Red Ant</a></li>
-      <li><a href="/our-approach/">Our approach</a></li>
-      <li><a href="/portfolio/">Stuff we&rsquo;ve made</a></li>
-      <li><a href="/jobs/">Looking for work?</a></li>
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="https://news.redant.com.au" target="_blank">
+          News &amp; Ideas
+        </a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
     </ul>
   </div>
 </nav>

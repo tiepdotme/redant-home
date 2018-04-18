@@ -61,7 +61,9 @@
 
     .links {
       list-style: none;
-      font-size: $font-size-base * 3;
+      font-size: 1.75rem;
+      font-weight: 600;
+      padding-left: 58px;
 
       [data-aos='nav-link-inactive'].aos-animate a,
       [data-aos='nav-link-active'],
@@ -79,16 +81,25 @@
           color: $red;
           text-decoration: none;
         }
+
+        &.active:before {
+          background-color: $red;
+          content: '';
+          display: block;
+          height: 4px;
+          margin-left: -54px;
+          margin-top: 18px;
+          position: absolute;
+          width: 38px;
+        }
       }
     }
   }
 
   &.open {
-    width: 100%;
-    height: 100%;
-    max-width: initial;
-    left: 0;
     background-color: rgba($black, 0.9);
+    height: 100%;
+    width: 100%;
 
     .navbar-brand {
       display: none;
@@ -119,10 +130,12 @@
   }
 
   @include media-breakpoint-down(sm) {
-    .nav-links {
-      .links {
-        font-size: $font-size-base * 2;
+    top: 0;
 
+    .nav-links {
+      padding: 15% 0;
+
+      .links {
         [data-aos='nav-link'],
         a {
           &::before {

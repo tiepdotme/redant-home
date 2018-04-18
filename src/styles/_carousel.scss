@@ -24,7 +24,7 @@
     .content {
       position: relative;
       height: 550px;
-      padding-top: 100px;
+      padding-top: 170px;
       z-index: 2;
 
       h5 {
@@ -47,7 +47,8 @@
   @include media-breakpoint-down(sm) {
     .slide {
       .content {
-        height: 800px;
+        height: 840px;
+        padding-top: 120px;
       }
 
       .svg-wrapper {
