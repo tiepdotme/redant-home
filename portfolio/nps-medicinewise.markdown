@@ -10,6 +10,10 @@ client: NPS Medicinewise
 technologies: Ruby on Rails, Scrivito
 project_date: 2015-17
 images:
+  -
+    filename: nps-medicinewise-1.jpg
+  -
+    filename: nps-medicinewise-2.jpg
 ---
 
 #### Project Description

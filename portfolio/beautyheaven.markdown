@@ -9,7 +9,12 @@ project_url: www.beautyheaven.com.au
 client: Beauty Heaven
 project_date: 2007 - 2013
 images:
+  -
+    filename: beautyheaven-1.jpg
+  -
+    filename: beautyheaven-2.jpg
 ---
+
 
 
 Beautyheaven is a health and beauty site. More accurately, it is a really popular platform for people to review health and beauty products. Here's how it works:

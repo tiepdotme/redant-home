@@ -25,9 +25,23 @@
   }
 
   @include media-breakpoint-down(sm) {
+    padding-top: 0;
     padding-left: $grid-gutter-width / 2;
     padding-right: $grid-gutter-width / 2;
-    border: none;
+
+    h4 {
+      margin: 0 0 $grid-gutter-width / 2;
+    }
+  }
+}
+
+.portfolio-cards {
+  .card-columns {
+    column-count: 1;
+
+    @include media-breakpoint-up(md) {
+      column-count: 2;
+    }
   }
 }
 
@@ -45,12 +59,24 @@
     text-decoration: none;
   }
 
+  &.bg-voome,
+  &.bg-move,
+  &.bg-beautyheaven {
+    color: #212529;
+
+    .hr-wrapper {
+      border-bottom: 1px solid rgba($black, 0.65);
+
+      hr {
+        &.hr-white {
+          @include block($black);
+        }
+      }
+    }
+  }
+
   .content {
     padding: $grid-gutter-width $grid-gutter-width 0 $grid-gutter-width;
-
-    .description {
-      min-height: 120px;
-    }
   }
 
   .svg-container {
@@ -78,10 +104,6 @@
   h4 {
     font-weight: normal;
   }
-
-  @include media-breakpoint-down(sm) {
-    padding: $grid-gutter-width / 2;
-  }
 }
 
 .notebox {
@@ -91,7 +113,7 @@
   border-bottom: 2px solid $gray-smoke;
 
   &::before {
-    @include block($about-blue);
+    @include block($blue-100);
     content: '';
     position: absolute;
     top: 0;
@@ -106,12 +128,27 @@
 .gallery-tiles {
   .gallery-img {
     display: block;
-    max-height: 140px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     overflow: hidden;
 
     img {
       pointer-events: none;
     }
   }
+}
+
+.project-title {
+  font-size: $font-size-base * 4.4;
+  font-weight: 600;
+  line-height: $font-size-base * 4.2;
+  max-width: 500px;
+
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-base * 3.4;
+    line-height: $font-size-base * 3.2;
+  }
+}
+
+.project-detail-title {
+  font-size: 1.25rem;
 }

@@ -5,10 +5,13 @@ theme: huggies
 title: Huggies Star Rewards
 tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look at how Huggies is dominating the pregnancy and parenting category by building a site with over 42,000 pages of content, plus lots of interactive tools and member features for over 600,000 members.
-project_url:
-client:
-project_date:
+project_url: https://huggies.com.au
+client: Huggies
+project_date: 2016
+team_size: 4 people
 images:
+  -
+    filename: huggies-star-rewards-1.jpg
 ---
 
 #### Project Description

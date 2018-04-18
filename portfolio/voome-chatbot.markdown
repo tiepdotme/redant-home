@@ -11,6 +11,14 @@ project_date: 2016
 technologies: Ruby, Facebook AI, FB Messenger
 project_type: mobile
 images:
+  -
+    filename: voome-chatbot-1.jpg
+  -
+    filename: voome-chatbot-2.jpg
+  -
+    filename: voome-chatbot-3.jpg
+  -
+    filename: voome-chatbot-4.jpg
 ---
 
 #### Project Description

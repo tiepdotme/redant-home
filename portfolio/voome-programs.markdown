@@ -10,17 +10,11 @@ client: 12WBT
 project_date: 2017
 images:
   -
-    filename: desktop-voome-program-1.jpg
-    title: Program Overview (Desktop)
+    filename: voome-programs-1.jpg
   -
-    filename: mobile-voome-program-1.jpg
-    title: Program Overview (Mobile)
+    filename: voome-programs-2.jpg
   -
-    filename: desktop-voome-program-2.jpg
-    title: Program Week (Desktop)
-  -
-    filename: mobile-voome-program-2.jpg
-    title: Program Week (Mobile)
+    filename: voome-programs-3.jpg
 ---
 
 #### Project Description

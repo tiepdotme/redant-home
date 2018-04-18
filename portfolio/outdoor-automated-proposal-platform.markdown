@@ -6,7 +6,7 @@ title: Move Outdoor Advertising proposal platform
 tagline: APP is an automated proposal booking platform for Australia’s largest outdoor advertising networks. 
 description: Instead of exchanging emails and spreadsheets back and forth, media agencies can use the platform to request proposals
 client: Move OMA
-project_date: 2017-current
+project_date: 2017-now
 technologies: Ruby on Rails
 team_size: 4 people
 lines_of_code: 450k
