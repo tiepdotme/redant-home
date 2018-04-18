@@ -35,6 +35,16 @@
   }
 }
 
+.portfolio-cards {
+  .card-columns {
+    column-count: 1;
+
+    @include media-breakpoint-up(md) {
+      column-count: 2;
+    }
+  }
+}
+
 .portfolio-tile {
   display: block;
   position: relative;
@@ -49,12 +59,24 @@
     text-decoration: none;
   }
 
+  &.bg-voome,
+  &.bg-move,
+  &.bg-beautyheaven {
+    color: #212529;
+
+    .hr-wrapper {
+      border-bottom: 1px solid rgba($black, 0.65);
+
+      hr {
+        &.inverse {
+          @include block($black);
+        }
+      }
+    }
+  }
+
   .content {
     padding: $grid-gutter-width $grid-gutter-width 0 $grid-gutter-width;
-
-    .description {
-      min-height: 120px;
-    }
   }
 
   .svg-container {
@@ -81,10 +103,6 @@
 
   h4 {
     font-weight: normal;
-  }
-
-  @include media-breakpoint-down(sm) {
-    padding: $grid-gutter-width / 2;
   }
 }
 

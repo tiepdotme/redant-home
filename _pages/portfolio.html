@@ -7,7 +7,7 @@ permalink: /portfolio/
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-10 py-3">
         <h1 class="text-x-large">Some of our work</h1>
         <hr>
       </div>
@@ -15,33 +15,33 @@ permalink: /portfolio/
   </div>
 </header>
 
-<section class="py-5">
-  <div class="container">
-	    <div class="row">
-      {% for slug in site.data.portfolio.order %}
-        {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
-          <div class="col-md-6 ">
-            <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
-              <div class="content">
-                <h2>{{ page.title }}</h2>
-                <div class="hr-wrapper"><hr class="inverse"></div>
-                <h5 class="my-4">{{ page.tagline }}</h5>
-                <p class="mb-0 description">{{ page.description }}</p>
+<section class="py-5 container portfolio-cards">
+  <div class="card-columns">
+    {% for slug in site.data.portfolio.order %}
+      {% assign pages = site.pages | where:'slug', slug %}
+      {% for page in pages %}
+        <div class="card mb-1">
+          <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
+            <div class="content mb-2">
+              <h2>{{ page.title }}</h2>
+              <div class="hr-wrapper">
+                <hr class="inverse">
               </div>
-              <div class="svg-container">
-                <div class="svg-wrapper">
-                  {% if page.project_type == 'mobile' %}
-                    {% include svg/mobile-project-header.svg project=page.slug %}
-                  {% else %}
-                    {% include svg/project-header.svg project=page.slug %}
-                  {% endif %}
-                </div>
+              <h5 class="my-4">{{ page.tagline }}</h5>
+              <p>{{ page.description }}</p>
+            </div>
+            <div class="svg-container">
+              <div class="svg-wrapper">
+                {% if page.project_type == 'mobile' %}
+                  {% include svg/mobile-project-header.svg project=page.slug %}
+                {% else %}
+                  {% include svg/project-header.svg project=page.slug %}
+                {% endif %}
               </div>
-            </a>
-          </div>
-        {% endfor %}
+            </div>
+          </a>
+        </div>
       {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </section>
