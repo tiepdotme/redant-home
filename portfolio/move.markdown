@@ -7,7 +7,8 @@ tagline: An automated trading platform for outdoor media trading
 description: MOVE ATP
 project_url: http://www.oma.org.au/
 client: Outdoor Media Association
-project_date: 2017
+project_date: 2017-now
+team_size: 4 people
 images:
 ---
 
