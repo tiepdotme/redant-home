@@ -12,6 +12,14 @@ const init = $(function() {
     $(overlay_selector).toggleClass('open');
   });
 
+  var path = window.location.pathname.replace(/\//g, '');
+
+  if (path.length === 0) {
+    path = 'home';
+  }
+  
+  $(`.${path}-link`).toggleClass('active');
+
   /* AOS */
   $(window).resize(function() {
     AOS.refresh();

@@ -7,7 +7,7 @@ permalink: /jobs/senior-javascript-developer/
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 py-3">
         <h1 class="text-x-large pb-3">Senior Javascript Developer</h1>
         <hr>
       </div>

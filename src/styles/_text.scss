@@ -16,8 +16,8 @@ h4 {
 hr {
   @include block();
 
-  &.inverse {
-    @include block($white);
+  &.hr-blue {
+    @include block($blue-100);
   }
 
   &.hr-thin {
@@ -25,6 +25,10 @@ hr {
     margin-top: -1px;
     opacity: 0.2;
     width: 100%;
+  }
+
+  &.hr-white {
+    @include block($white);
   }
 }
 
@@ -58,7 +62,7 @@ strong {
     }
 
     &.blue::before {
-      background-color: $about-blue;
+      background-color: $blue-100;
     }
   }
 }
@@ -80,6 +84,18 @@ strong {
   }
 }
 
+.project-detail-content {
+  font-size: 0.9375rem;
+
+  a {
+    color: $blue-100;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
 .text-x-large {
   font-size: 3rem;
   font-weight: 600;
@@ -89,6 +105,10 @@ strong {
 .text-md {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.text-white {
+  color: $white;
 }
 
 .unstyled-list {

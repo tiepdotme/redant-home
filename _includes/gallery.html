@@ -1,6 +1,6 @@
 <div class="row gallery-tiles">
   {% for image in include.images %}
-    <div class="col-6">
+    <div class="col-12">
       <a href="{{ site.data.webpack[image.filename] }}"
         class="gallery-img"
         data-index="{{ forloop.index }}"

@@ -4,9 +4,13 @@
   height: 0;
   left: 0;
   border-style: solid;
-  border-width: 0 0 620px 1400px;
+  border-width: 0 0 480px 780px;
   border-color: transparent;
   border-bottom-color: $white;
+
+  @include media-breakpoint-up(sm) {
+    border-width: 0 0 620px 1080px;
+  }
 }
 
 .bg-black {
