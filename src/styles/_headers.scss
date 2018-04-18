@@ -2,6 +2,7 @@
   position: relative;
   background-size: cover;
   color: $white;
+  margin-top: 61px;
 
   .overlay {
     position: absolute;
@@ -9,6 +10,10 @@
     height: 100%;
     top: 0;
     background-color: rgba($black, 0.8);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0px;
   }
 }
 
@@ -18,9 +23,6 @@
   padding-top: $navbar-height;
   margin-bottom: -2 * $navbar-height;
   overflow: hidden;
-
-  .project-header-content {
-  }
 
   svg {
     z-index: 5;
@@ -33,18 +35,7 @@
   }
 
   @include media-breakpoint-down(sm) {
-    height: 280px;
+    height: 350px;
     margin-bottom: 0;
-  }
-}
-
-.project-title {
-  max-width: 500px;
-  font-size: $font-size-base * 4.4;
-  line-height: $font-size-base * 4.2;
-
-  @include media-breakpoint-down(sm) {
-    font-size: $font-size-base * 3.4;
-    line-height: $font-size-base * 3.2;
   }
 }
