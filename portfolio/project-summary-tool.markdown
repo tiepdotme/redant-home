@@ -11,6 +11,14 @@ project_date: 2017
 images:
   -
     filename: pst-1.jpg
+  -
+    filename: pst-2.jpg
+  -
+    filename: pst-3.jpg
+  -
+    filename: pst-4.jpg
+  -
+    filename: pst-5.jpg
 ---
 
 #### Project Description
