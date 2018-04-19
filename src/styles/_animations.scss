@@ -70,18 +70,20 @@
 }
 
 [data-aos='dropshadow'] {
-  transform: translate(0);
+  transform: translate(0, 40px);
 
   .shadow1,
   .shadow2,
   .shadow3,
   .shadow4 {
     transform: translate(0);
-    transition-duration: 1.2s;
+    transition-duration: 1.1s;
     transition-property: transform;
   }
 
   &.aos-animate {
+    transform: translate(0, 0);
+
     .shadow1 {
       transform: translate(0, 10px);
     }

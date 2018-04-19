@@ -8,6 +8,7 @@ description: Helps save time and money by fully automating the process of planni
 project_url: https://campaignxpress.com.au/
 client: CAMPAIGNxpress
 project_date: 2017 - now
+desktop_img_height: '450'
 images:
   -
     filename: campaign-xpress-1.jpg
