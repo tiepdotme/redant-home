@@ -17,7 +17,7 @@ const init = $(function() {
   if (path.length === 0) {
     path = 'home';
   }
-  
+
   $(`.${path}-link`).toggleClass('active');
 
   /* AOS */
@@ -32,6 +32,15 @@ const init = $(function() {
     disable: 'mobile'
   });
 
+  $(document).on('click', 'a[href^="#contact"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top,
+      easing: "easein"
+     }, 500);
+  });
+
   /* Carousel */
   $(carousel_selector).slick({
     dots: true,
@@ -40,6 +49,15 @@ const init = $(function() {
     autoplay: true,
     autoplaySpeed: 4000,
     slidesToScroll: 1
+  });
+
+  $(carousel_selector).slick('slickPause');
+
+  $(document).on('scroll', function() {
+    if (($(carousel_selector).offset().top - window.innerHeight) < window.scrollY) {
+      $(carousel_selector).slick('slickPlay');
+      $(document).off('scroll');
+    }
   });
 
   $('#gallery-modal').on('shown.bs.modal', function (e) {
