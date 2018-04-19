@@ -14,6 +14,10 @@ images:
     filename: nps-medicinewise-1.jpg
   -
     filename: nps-medicinewise-2.jpg
+  -
+    filename: nps-medicinewise-3.jpg
+  -
+    filename: nps-medicinewise-4.jpg
 ---
 
 #### Project Description
