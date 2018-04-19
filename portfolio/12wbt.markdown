@@ -44,15 +44,16 @@ images:
     title: My Stats (Mobile)
 ---
 
-[12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
+[12WBT is a very successful health & fitness platform, featuring a comprehensive fitness and nutrition program created by Australian celebrity trainer Michelle Bridges (Biggest Loser). 
 
-Unless live in a cave, or (like me) you have very few friends, you probably know someone that has done 12WBT. Or perhaps you've done it yourself. 12WBT is Australia's most successful health and fitness platform, with a large number of members coming back again and again.
+What started life as a basic MVP is now a fully fledged lifestyle platform, with thousands of active members at any one time. Members sign-up for a 3 month “round” which gives them access to a personalised weekly plan for exercise, meal planning and mindset. Members feel fully supported on their transformation journey with tailored dynamic content, including a weekly motivational video session with Michelle Bridges. 
 
-#### In a snapshot:
+#### Project snapshot:
 
-- <a href="http://www.afr.com/business/media-and-marketing/michelle-bridges-empire-of-body-transformation-20140123-jysoq">Really successful</a> health & fitness platform, featuring an Australian celebrity Michelle Bridges (Biggest Loser)
-- A round takes 12 weeks to do, plus a 4 week "preseason". All content is behind a paywall, and cost is $199
-- Very popular, with hundreds of thousands of people hitting the platform. Big concurrent traffic surges due to the event based nature (eg: everyone weighs in on the same day)
+- A round takes 12 weeks to complete, plus a 4 week "preseason"
+- All workout and nutrition content is behind a paywall
+- Thousands of users login to the platform every day. There are weekly traffic surges due to the event based nature (eg: the weekly weigh in)
+- There are also transactional peak periods aligned with marketing activity, this reaches a peak prior to the closure of sign-ups for each round
 - All content is personalised and delivered via web, PDF, email and mobile app
 - Connects with devices such as Fitbit, as well as other platforms like MyFitnessPal
 
@@ -81,3 +82,5 @@ You [can read a bit more about](https://news.redant.com.au/michelle-bridges-12wb
 * __Forum &amp; private messaging system__ - tightly integrated with the rest of the site.
 * __Help & FAQ__ - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
 * __My Stats__ - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
+* __Third Party integrations__ - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.
+
