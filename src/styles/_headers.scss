@@ -29,13 +29,15 @@
   }
 
   @include media-breakpoint-down(md) {
+    height: 480px;
+
     .project-header-content {
       margin-top: -200px;
     }
   }
 
   @include media-breakpoint-down(sm) {
-    height: 350px;
+    height: 360px;
     margin-bottom: 0;
   }
 }

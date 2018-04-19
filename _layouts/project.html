@@ -17,7 +17,7 @@
           {% if page.project_type == 'mobile' %}
             {% include svg/mobile-project-header.svg project=page.slug %}
           {% else %}
-            {% include svg/project-header-reverse.svg project=page.slug %}
+            {% include svg/project-header-reverse.svg project=page.slug img_height=page.desktop_img_height %}
           {% endif %}
       </div>
     </header>
