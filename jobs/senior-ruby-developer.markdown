@@ -2,7 +2,7 @@
 layout: job
 slug: senior-ruby-developer
 title: Senior Ruby Developer
-summary: We&#8217;re looking for an experienced Ruby developer. 
+summary: We&#8217;re looking for an experienced Ruby developmenter. You really know your stuff, and you're looking for a great place to work on interesting projects. 
 ---
 
 ### Us
