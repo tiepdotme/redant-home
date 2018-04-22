@@ -8,6 +8,7 @@ description: LinkedIn is for what you’ve done. PlanDo is for managing what you
 project_url: https://plando.com
 client: PlanDo
 project_date: 2013-now
+desktop_img_height: '488'
 images:
   -
     filename: plando-1.jpg
@@ -29,4 +30,3 @@ The “easy” part of building the site is full of innovations for us as well. 
 When a user logs in to PlanDo they will be loading up an AngularJS application on their browser. We rely on GruntJS instead of Ruby on Rails and Capistrano to handle application builds. The process is kind of magical- with the Developer only needing to commit their changes with a special tag to trigger a build on our Travis continuous integration servers.
 
 If the GruntJS build succeeds, the static code is pushed back to the repository to a “release” branch. The release manager can then simply deploy the static HTML, Javascript and images from this branch, with no need for additional software on the server. At the moment this final deploy step is still a Capistrano task, but it could easily be done using GruntJS as well or some other tool. To top it all off, we run both the API and the front-end application through CodeClimate to check for any bad smells in the code.
-

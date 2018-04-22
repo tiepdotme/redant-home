@@ -116,6 +116,8 @@ permalink: /our-approach/
 ---
 ```
 
+**Project image sizes:** Project images for desktop on the project detail header might vary in size. The desktop images are recalculated to 45.92% of the original image height in pixels and the default size is 729px. If an image is to me smaller than this default size, then you will have to add the calculated pixel height (to be supplied by Kap) in the project markdown file under the parameter `desktop_img_height`.
+
 **IMPORTANT:** Images that are added to `/src/images/` and all its subdirectories are flattened into a single folder `/assets`, so each image should have a unique name. So to avoid conflicts, prefix the folder name, for instance `/src/images/folder123/image.jpg` is best called `/src/images/folder123/folder123-image.jpg`.
 
 Inside Jekyll HTML templates, the image can be referenced using just the image name:

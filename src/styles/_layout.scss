@@ -14,10 +14,6 @@ body {
 }
 
 .homepage {
-  header {
-    padding: 30% 0 5% 0;
-  }
-
   .ruby {
     background-repeat: no-repeat;
     background-position: top;
@@ -45,13 +41,5 @@ body {
 
   @include media-breakpoint-up(sm) {
     margin-top: 0px;
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  .homepage {
-    header {
-      padding: 20% 0 5% 0;
-    }
   }
 }

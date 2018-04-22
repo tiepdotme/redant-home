@@ -35,6 +35,14 @@
   background-repeat: repeat;
 }
 
+.bg-our-approach {
+  background-image: url('~images/our-approach.jpg');
+
+  &.padded-section {
+    padding: 150px 0 90px 0;
+  }
+}
+
 .bg-white {
   background-color: $white;
 }
