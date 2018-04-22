@@ -24,9 +24,13 @@ images:
     filename: 12wbt-5.jpg
 ---
 
+<<<<<<< HEAD
 12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
 
 12WBT is one of Australia's most succesful and enduring health & fitness products, featuring a comprehensive fitness and nutrition program created by celebrity trainer Michelle Bridges (Biggest Loser). 
+=======
+[12WBT is a very successful health & fitness platform, featuring a comprehensive fitness and nutrition program created by Australian celebrity trainer Michelle Bridges (Biggest Loser). 
+>>>>>>> 750f4f9706a449e61f243d8102110fa5735a2e6e
 
 What started life as a basic MVP is now a fully fledged lifestyle platform, with thousands of active members at any one time. Members sign-up for a 3 month “round” which gives them access to a personalised weekly plan for exercise, meal planning and mindset. Members feel fully supported on their transformation journey with tailored dynamic content, including a weekly motivational video session with Michelle Bridges. 
 
@@ -64,3 +68,5 @@ You [can read a bit more about](https://news.redant.com.au/michelle-bridges-12wb
 * __Forum &amp; private messaging system__ - tightly integrated with the rest of the site.
 * __Help & FAQ__ - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
 * __My Stats__ - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
+* __Third Party integrations__ - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.
+
