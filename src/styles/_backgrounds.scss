@@ -19,11 +19,15 @@
 }
 
 .bg-gray-light {
-  background-color: $gray-light;
+  background-color: $gray-100;
 }
 
 .bg-gray {
-  background-color: $gray;
+  background-color: $gray-400;
+}
+
+.bg-mac-modal {
+  background-color: $gray-200;
 }
 
 .bg-pattern-dot {
