@@ -4,7 +4,7 @@ description: >-
   Red Ant is a Technical Agency. We create & build exceptional digital products.
   These live as web sites, in mobile apps, and in social networks.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.redant.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 permalink: /:title/
@@ -14,6 +14,7 @@ google_analtyics: UA-421251-1
 # Jekyll Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Include for processing.
 include:
