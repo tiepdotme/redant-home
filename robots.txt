@@ -1,1 +1,1 @@
-Sitemap: http://www.redant.com.au/sitemap.xml
+Sitemap: https://redant.com.au/sitemap.xml
