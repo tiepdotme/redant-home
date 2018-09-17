@@ -11,7 +11,7 @@
   <div class="main-layout">
     {% include nav.html %}
 
-    <header class="project-header">
+    <header id="section-project-intro" class="ga-section project-header ">
       <div class="project-header-content">
         <div class="bg-angled bg-{{ page.theme }}"></div>
           {% if page.project_type == 'mobile' %}
@@ -22,16 +22,16 @@
       </div>
     </header>
 
-    <section id="section-project-content" class="ga-section project-content pt-3 pb-5 text-md">
+    <section class="project-content pt-3 pb-5 text-md">
       <div class="container">
         <div class="row mb-4">
           <div class="col-12">
-            <h1 class="project-title pb-2">{{ page.title }}</h1>
+            <h1 id="section-project-content" class="ga-section project-title pb-2">{{ page.title }}</h1>
             <hr>
           </div>
         </div>
 
-        <div class="row">
+        <div class="ga-section row">
           <div class="col-md-8">
             {{ content }}
           </div>
@@ -83,6 +83,7 @@
         </div>
       </div>
     </section>
+
     <section id="section-read-more" class="ga-section pb-5 d-none d-sm-block" data-read-more>
     </section>
 
