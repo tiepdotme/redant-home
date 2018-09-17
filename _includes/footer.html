@@ -92,7 +92,3 @@
 <script src="{{ site.data.webpack['meta.js'] }}"></script>
 <script src="{{ site.data.webpack['vendor.js'] }}"></script>
 <script src="{{ site.data.webpack['app.js'] }}"></script>
-
-{% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-{% endif %}
