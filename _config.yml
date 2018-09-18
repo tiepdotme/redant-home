@@ -22,6 +22,7 @@ plugins:
 # Include for processing.
 include:
   - _pages
+  - _posts
   - portfolio
 
 # Exclude from processing.
@@ -43,3 +44,5 @@ exclude:
   - legacy
   - .release-it.json
   - .stage
+  - archive
+  - drafts
