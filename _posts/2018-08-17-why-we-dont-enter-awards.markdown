@@ -25,7 +25,7 @@ And it shits Wayne no end when he learnt we had one of these London Internationa
 
 !https://cdn-images-1.medium.com/max/800/0*3G_11MCzmcU9W9Rp!
 
-London International Awards
+*London International Awards*
 We had an intern. They ran out of work, so I got them to make a list of recent work and enter it into a bunch of awards.
 
 At the time, our own site was very strange, cryptic experience, built entirely in Flash. Such things were all the rage at the time (circa 2001 dotcom). There was this looping music track, and when you rolled over parts, things popped out and it made more sounds.
