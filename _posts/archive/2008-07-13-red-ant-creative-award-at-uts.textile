@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Red Ant creative award at UTSR
+title: Red Ant creative award at UTS
 permalink: /red-ant-stuff/red-ant-creative-award-at-uts/
 type: news
 categories:

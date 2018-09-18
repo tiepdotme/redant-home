@@ -9,11 +9,11 @@ author: Ben Still
 image:
 
 meta:
-  keywords: Red Ant creative award at UTS
-  description: We’re sponsoring an award at the design school of University of Technology, Sydney.
+  keywords: Opinionated development
+  description: I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions
 excerpt:
-  short: We’re sponsoring an award at the design school of University of Technology, Sydney.
-  long: We’re sponsoring an award at the design school of University of Technology, Sydney. It’s competitive, and only the best will make the cut.
+  short: I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions
+  long: I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions
 ---
 
 I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?
@@ -24,7 +24,8 @@ Later that morning some new clients came in to meet with me. These guys wanted t
 
 Except there was no plan. They had a basic outline of the problem, and a hunch that if we made some awesome software that provided customers easy to use and powerful tools, they probably will. Which is fine - we're totally adept at designing and building out a digital product.
 
-Except for one more thing: they had no money to invest. Oh, and they didn't actually want to be involved in doing any work. Other than getting paid. I tried to explain that there is a bit more to it than just having an idea and finding a developer. 
+Except for one more thing: they had no money to invest. Oh, and they didn't actually want to be involved in doing any work. Other than getting paid. I tried to explain that there is a bit more to it than just having an idea and finding a developer.
+
 But their eyes glazed over. I realised I was probably in the same boat as that other development team - why didn't I just shut up and get on with it?
 
 I totally agree that it would be totally wonderful if Tech was just like Mining - you claim the idea (exploration license), you hire a team & trucks to dig a hole (if you don't like them, you swap them out), you pull all the stuff out and then profit.
