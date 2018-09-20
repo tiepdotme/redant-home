@@ -19,10 +19,4 @@ excerpt:
   long: Ryan Signer goes through 10 different things we can do to make sign up forms awesome. They are the entry point for conversion, so it's important to focus on visual simplicity and ease of use.
 ---
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/J00ehBG0VNg?fs=1&amp;hl=en_US">
-<param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always">
-
-<embed src="http://www.youtube.com/v/J00ehBG0VNg?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414">
-</embed>
-</object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J00ehBG0VNg?rel=0" frameborder="0" allowfullscreen></iframe>
