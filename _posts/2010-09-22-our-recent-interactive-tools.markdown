@@ -4,12 +4,12 @@ title: Our recent interactive tools
 permalink: /ruby-on-rails/our-recent-interactive-tools/
 type: news
 categories:
-- our-work
-- ruby-on-rails
+  - our-work
+  - ruby-on-rails
 author: Ben Still
 image:
-  small: /assets/uploads/2013/09/huggies-2010-baby-room-2-300x174.jpg
-  big: /assets/uploads/2013/09/yates-virtual-garden-2.jpg
+  small: /assets/2010-huggies-baby-room-2-300x174.jpg
+  big: /assets/2010-yates-virtual-garden-2.jpg
 meta:
   dsq_thread_id: '482026773'
   focus_keywords: our recent interactive tools
@@ -20,74 +20,36 @@ excerpt:
 
 #### Yates Virtual Garden
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/KHiiLHpYip4?fs=1"></param>
-<param name="allowFullScreen" value="true"></param>
-<param name="allowscriptaccess" value="always"></param>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KHiiLHpYip4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<embed src="http://www.youtube.com/v/KHiiLHpYip4?fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414">
-</embed>
-</object>
-[![](/assets/uploads/2013/09/yates-virtual-garden-1-thumb.jpg)](/assets/uploads/2013/09/yates-virtual-garden-1.jpg)
+[![Example 1]({{ site.data.webpack['2010-yates-virtual-garden-1-thumb.jpg'] }})]({{ site.data.webpack['2010-yates-virtual-garden-1.jpg'] }})
 
-[![](/assets/uploads/2013/09/yates-virtual-garden-2-thumb.jpg)](/assets/uploads/2013/09/yates-virtual-garden-2.jpg)
+[![Example 2]({{ site.data.webpack['2010-yates-virtual-garden-2-thumb.jpg'] }})]({{ site.data.webpack['2010-yates-virtual-garden-2.jpg'] }})
 
-[![](/assets/uploads/2013/09/yates-virtual-garden-3-thumb.jpg)](/assets/uploads/2013/09/yates-virtual-garden-3.jpg)
+[![Example 3]({{ site.data.webpack['2010-yates-virtual-garden-3-thumb.jpg'] }})]({{ site.data.webpack['2010-yates-virtual-garden-3.jpg'] }})
 
-Yates Virtual Garden allows you to plan out your garden and see what
-fits where. As you drag items in to your garden - like a water tank or
-some roses, the tool also updates with relevant articles, project
-ideas,
-possible problems and expert answers for water tanks or roses. [Try
-Yates Virtual
-Garden](http://www.yates.com.au/garden-club/virtual-garden/)
+Yates Virtual Garden allows you to plan out your garden and see what fits where. As you drag items in to your garden - like a water tank or some roses, the tool also updates with relevant articles, project ideas, possible problems and expert answers for water tanks or roses. [Try Yates Virtual Garden](http://www.yates.com.au/garden-club/virtual-garden/)
 
 #### Huggies Baby Room Decorator
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/SpGERxD2IAo?fs=1"></param>
-<param name="allowFullScreen" value="true"></param>
-<param name="allowscriptaccess" value="always"></param>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpGERxD2IAo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<embed src="http://www.youtube.com/v/SpGERxD2IAo?fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414">
-</embed>
-</object>
-[![](/assets/uploads/2013/09/huggies-2010-baby-room-1-thumb.jpg)](/assets/uploads/2013/09/huggies-2010-baby-room-1.jpg)
+[![Example 1]({{ site.data.webpack['2010-huggies-baby-room-1-thumb.jpg'] }})]({{ site.data.webpack['2010-huggies-baby-room-1.jpg'] }})
 
-[![](/assets/uploads/2013/09/huggies-2010-baby-room-2-thumb.jpg)](/assets/uploads/2013/09/huggies-2010-baby-room-2.jpg)
+[![Example 2]({{ site.data.webpack['2010-huggies-baby-room-2-thumb.jpg'] }})]({{ site.data.webpack['2010-huggies-baby-room-2.jpg'] }})
 
-[![](/assets/uploads/2013/09/huggies-2010-baby-room-3-thumb.jpg)](/assets/uploads/2013/09/huggies-2010-baby-room-3.jpg)
+[![Example 3]({{ site.data.webpack['2010-huggies-baby-room-3-thumb.jpg'] }})]({{ site.data.webpack['2010-huggies-baby-room-3.jpg'] }})
 
-The Baby Room decorator is a 3d modelling tool that allows you to plan
-out your new baby room. Have a look at what some different wallpaper
-would look like, or putting in another window. [Try Huggies Baby Room
-Decorator](http://www.huggies.com.au/pregnancy/baby-nursery/baby-room-decorator)
+The Baby Room decorator is a 3d modelling tool that allows you to plan out your new baby room. Have a look at what some different wallpaper would look like, or putting in another window. [Try Huggies Baby Room Decorator](http://www.huggies.com.au/pregnancy/baby-nursery/baby-room-decorator)
 
 #### Huggies Baby Eye Colour Predictor
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/fImZMJcm89M?fs=1"></param>
-<param name="allowFullScreen" value="true"></param>
-<param name="allowscriptaccess" value="always"></param>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fImZMJcm89M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<embed src="http://www.youtube.com/v/fImZMJcm89M?fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414">
-</embed>
-</object>
-Use this tool to work out what the chance is of your baby having blue,
-green or brown eyes. Or perhaps something else [Try Huggies Baby Eye
-Colour
-Predictor](http://www.huggies.com.au/pregnancy/early-stages/eye-colour)
+Use this tool to work out what the chance is of your baby having blue, green or brown eyes. Or perhaps something else [Try Huggies Baby Eye Colour Predictor](http://www.huggies.com.au/pregnancy/early-stages/eye-colour)
 
 #### Huggies Kids Height Calculator
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/Tcyk5f5NxU4?fs=1"></param>
-<param name="allowFullScreen" value="true"></param>
-<param name="allowscriptaccess" value="always"></param>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tcyk5f5NxU4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<embed src="http://www.youtube.com/v/Tcyk5f5NxU4?fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414">
-</embed>
-</object>
-Use this tool to see how tall your child will grow. [Try Huggies Kids
-Height
-Calculator](http://www.huggies.com.au/pregnancy/early-stages/height)
+Use this tool to see how tall your child will grow. [Try Huggies Kids Height Calculator](http://www.huggies.com.au/pregnancy/early-stages/height)
