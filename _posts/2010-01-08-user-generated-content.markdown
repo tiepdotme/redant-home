@@ -1,13 +1,15 @@
 ---
 layout: post
 title: User generated content
+permalink: /our-work/user-generated-content/
 type: ideas
 categories:
-- our-work
+  - our-work
 author: Ben Still
 image:
-  small: /assets/uploads/2010/01/User_generated_content-small.png
-  big: /assets/uploads/2010/01/User_generated_content-large.png
+  small: /assets/2010-user-generated-content-small.png
+  big: /assets/2010-user-generated-content-large.png
+meta:
   dsq_thread_id: '482095513'
   focus_keywords: User generated content
 excerpt:
@@ -15,9 +17,4 @@ excerpt:
   long: The "Tails for Whales" campaign was hugely popular, we were lucky enough to build their website. In the video below, Brett gives some some valuable feedback.
 ---
 
-<object width="695" height="414">
-<param name="movie" value="http://www.youtube.com/v/ORpz3K-iVx4?fs=1"/>
-<param name="allowFullScreen" value="true"/><param name="allowscriptaccess" value="always"/>
-
-<embed src="http://www.youtube.com/v/ORpz3K-iVx4?fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="695" height="414"/>
-</object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ORpz3K-iVx4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

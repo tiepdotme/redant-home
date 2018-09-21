@@ -7,7 +7,8 @@ categories:
   - software-development
 author: Ben Still
 image:
-
+  small: 
+  big: 
 meta:
   keywords: 
   description: 
