@@ -296,7 +296,7 @@ class: homepage
       </div>
 
       <div class="svg-wrapper">
-        {% include svg/project-header.svg project="12wbt" %}
+        {% include svg/project-header.svg slug="12wbt" %}
       </div>
     </div>
 
@@ -329,7 +329,7 @@ class: homepage
       </div>
 
       <div class="svg-wrapper">
-        {% include svg/project-header.svg project="huggies" %}
+        {% include svg/project-header.svg slug="huggies" %}
       </div>
     </div>
 
@@ -360,7 +360,7 @@ class: homepage
       </div>
 
       <div class="svg-wrapper">
-        {% include svg/project-header.svg project="plando" img_height="488" %}
+        {% include svg/project-header.svg slug="plando" img_height="488" %}
       </div>
     </div>
   </div>
