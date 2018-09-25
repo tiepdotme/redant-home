@@ -35,9 +35,9 @@ description: It isn't just good design, or a good user experience.  Great digita
             <div class="svg-container">
               <div class="svg-wrapper">
                 {% if page.project_type == 'mobile' %}
-                  {% include svg/mobile-project-header.svg project=page.slug %}
+                  {% include svg/mobile-project-header.svg slug=page.slug title=page.title %}
                 {% else %}
-                  {% include svg/project-header.svg project=page.slug img_height=page.desktop_img_height %}
+                  {% include svg/project-header.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}
                 {% endif %}
               </div>
             </div>
