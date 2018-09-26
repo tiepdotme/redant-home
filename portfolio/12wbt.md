@@ -54,7 +54,7 @@ All of which means we get pretty immediate feedback. And if you're going to ask 
 Anyway - back to the actual product. Probably the best way to check it out is to [sign up yourself](https://12wbt.com). You never know - you might really enjoy yourself! I actually was talking to a someone the other day who had signed up as a way of evaluating our work, and he ended up doing 3 rounds.
 
 
-You [can read a bit more about](https://news.redant.com.au/michelle-bridges-12wbt-build-cace557b7f2d)  the 12WBT project on this post, and [about localisation for USA version](https://news.redant.com.au/what-weve-been-working-on-developing-12wbt-for-the-usa-e55efad40ba1) here. If you're really interested, or just bored at work and trying to fill in some time, check out the [12wbt dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app/).
+You [can read a bit more about](/our-work/our-work-michelle-bridges-12wbt-build/) the 12WBT project on this post, and [about localisation for USA version](/our-work/developing-12wbt-usa/) here. If you're really interested, or just bored at work and trying to fill in some time, check out the [12wbt dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app/).
 
 #### More Detail
 

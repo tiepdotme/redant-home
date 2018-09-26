@@ -2,7 +2,7 @@
 layout: default
 permalink: /portfolio/
 title: Our Porfolio
-description: It isn't just good design, or a good user experience.  Great digital products come about when these blend together.
+description: It isn’t just good design, or a good user experience.  Great digital products come about when these blend together.
 ---
 
 <header class="dark-header padded-section">
