@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <!--<![endif]-->
-  {% include head.html %}
-  <body class="{{ page.class }}">
-    <div class="main-layout">
-      {% include nav.html %}
+{% include head.html %}
+<body class="{{ page.class }}">
+  <div class="main-layout">
+    {% include nav.html %}
 
-      {{ content }}
+    {{ content }}
 
-      {% include footer.html %}
-    </div>
-  </body>
+    {% include footer.html %}
+  </div>
+</body>
 </html>
