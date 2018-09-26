@@ -46,3 +46,6 @@ exclude:
   - .stage
   - archive
   - drafts
+  - _posts/archive
+  - _posts/drafts
+  - jobs/archive
