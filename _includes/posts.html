@@ -1,0 +1,11 @@
+<div class="masonry-full-width" style="border: 2px solid red">
+  <div id="blog-posts" class="container">
+    {% for post in site.posts %}
+      {% if type == nil or post.type == type %}
+        {% include post-tile.html %}
+      {% else %}
+        skipped {{ post.type }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
