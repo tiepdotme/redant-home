@@ -288,7 +288,7 @@ class: homepage
                 lives. Every second person we meet seems to either be doing it or know someone that is a raving fan.
               </p>
               <a href="/portfolio/12wbt/" class="text-white">
-                More detail. <i class="fa fa-chevron-right"></i>
+                More detail <i class="fa fa-chevron-right"></i>
               </a>
             </div>
           </div>
@@ -321,7 +321,7 @@ class: homepage
                 Yes, Huggies like in the nappies you put on babies. Try searching for anything baby or child related, and you’ll probably end up on a Huggies page. So much more than a brand site for Nappies – everything you need to know if you’re the proud owner of a 0-5 year old, or if you’re pregnant. Close to half the Mums in Australia are members, so we must be doing something right.
               </p>
               <a href="/portfolio/huggies/" class="text-white">
-                More detail. <i class="fa fa-chevron-right"></i>
+                More detail <i class="fa fa-chevron-right"></i>
               </a>
             </div>
           </div>
@@ -352,7 +352,7 @@ class: homepage
                 LinkedIn is for what you’ve done. PlanDo is for managing what you want to be. We’ve been helping Plando build a career management platform that will shakeup the world of employment and careers by giving individuals the tools to manage their own careers.
               </p>
               <a href="/portfolio/plando/" class="text-white">
-                More detail. <i class="fa fa-chevron-right"></i>
+                More detail <i class="fa fa-chevron-right"></i>
               </a>
             </div>
           </div>
