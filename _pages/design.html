@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /design/
+title: How we do stuff
+meta:
+  keywords: Design
+  description: Design
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Design</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.design %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

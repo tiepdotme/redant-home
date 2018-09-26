@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /mobile/
+title: Mobile
+meta:
+  keywords: mobile
+  description: At Red Ant, we have a “mobile first” approach to projects.
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Mobile</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container content">
+  <p>At Red Ant, we have a “mobile first” approach to projects. Mobile technology moves quickly and the number of different devices is growing. Users’ expectation of flawless, continuous service has never been higher.</p>
+  <p>To deal with this, we have been developing a mobile testing framework that allows us to test our work across a number of different devices automatically. A fresh version of the site is published, and then each of the target devices runs through a series of end-to-end browser tests using virtual users.</p>
+  <p>This testing framework allows us to quickly identify issues and manage an ever-growing list of supported devices.</p>
+</div>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.mobile %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

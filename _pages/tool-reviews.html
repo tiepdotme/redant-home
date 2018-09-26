@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /tool-reviews/
+title: Tool Reviews
+meta:
+  keywords: Tool Reviews
+  description: posts for Tool Reviews
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Tool Reviews</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.tool-reviews %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>
