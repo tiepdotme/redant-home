@@ -7,13 +7,13 @@ categories:
   - how-we-do
   - design
 author: Ben Still
+description: In several recent projects, we've experimented with extending the footer area. We've had some mixed results.
+keyword: website footer design
 image:
   small: /assets/2009-me-and-sarah-small.jpg
   big: /assets/2009-me-and-sarah.jpg
 meta:
-  description: In several recent projects, we've experimented with extending the footer area. We've had some mixed results.
   dsq_thread_id: '479978236'
-  focus_keyword: website footer design
 excerpt:
   short: There's a bit of a design trend at the moment towards making more of the footer area at the bottom of your site.
   long: There's a bit of a design trend at the moment towards making more of the footer area at the bottom of your site. Rather than just having a few links and a copyright statement, some sites are starting to add more elements to their footer area as a way of helping users navigate.

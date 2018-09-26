@@ -8,13 +8,13 @@ categories:
   - ruby-on-rails
   - ruby-on-rails-devops
 author: Ben Still
+description: Why we use Ruby on Rails
+keywords: ruby on rails
 image:
   small: /assets/2009-ruby-on-rails.png
   big: /assets/2009-ruby-on-rails.png
 meta:
   dsq_thread_id: '479978209'
-  keywords: ruby on rails
-  description: Why we use Ruby on Rails
 excerpt:
   short: We do a lot of work with a programming language called Ruby on Rails. This is why.
   long: "We do a lot of work with a programming language called Ruby on Rails. When I explain this, some people look at me blankly (disclosure: I get that a lot anyway...). Techie people usually start gushing about how great it is, or want a fight about how X is better. Many people have heard of it somewhere, but are unsure what it is all about."

@@ -7,13 +7,13 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
+description: Take a look at some of our recent projects at Red Ant.
+keywords: Red Ant projects
 image:
   small: /assets/2009-troopers-small.jpg
   big: /assets/2009-troopers-large.jpg
 meta:
-  description: Take a look at some of our recent projects at Red Ant.
   dsq_thread_id: '640409355'
-  focus_keywords: Red Ant projects
 excerpt:
   short: Would you like to see what we've been doing lately? From inspiring kids to read to launching the new Kleenex website, it's all here.
   long: We're proud of what we do, and we'd like to share that with you. It's nice to know that we get to create some wonderful sites as standalones and as part of bigger campaigns. Take a look at some of our recent projects at Red Ant below.

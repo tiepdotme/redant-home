@@ -6,13 +6,13 @@ type: news
 categories:
   - our-work
 author: Ben Still
+description: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
+keywords: huggies blog
 image:
   small: /assets/2010-huggies-blogs-1-340x340.jpg
   big: /assets/2010-huggies-blogs-1.jpg
 meta:
   dsq_thread_id: '616659968'
-  keywords: huggies blog
-  description: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
 excerpt:
   short: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
   long: The user wouldn't notice anything different about this blog, and that's exactly what we wanted. For it to seamlessly integrate and to retain all that's lovely SEO juice. That's not all that's special about it.

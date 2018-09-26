@@ -7,12 +7,12 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
+keywords: beautyheaven ruby on rails
 image:
   small: /assets/2009-beautyheaven-small.png
   big: http://farm3.static.flickr.com/2475/3641611813_0a0ab76840_o.jpg
 meta:
   dsq_thread_id: '479978238'
-  focus_keywords: beautyheaven ruby on rails
 excerpt:
   short: The latest release of Beauty Heaven is part of a number of changes that we've been making to the site to improve functionality and performance - faster, higher and that sort of stuff.
   long: One of our long-term client, Beauty Heaven, has let us make some snazzy new updates to their super popular website. Think faster, higher and that sort of stuff.

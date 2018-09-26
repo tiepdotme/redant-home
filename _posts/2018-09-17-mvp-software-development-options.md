@@ -6,12 +6,11 @@ type: news
 categories:
   - software-development
 author: Ben Still
+description: Options around developing an MVP
+keywords: MVP
 image:
   small: ...
   big: ...
-meta:
-  keywords: MVP
-  description: Options around developing an MVP
 excerpt:
   short: Options around developing an MVP
   long: Options around developing an MVP

@@ -7,13 +7,13 @@ categories:
   - strategy
   - mobile
 author: Ben Still
+description: Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.
+keywords: mobile first
 image:
   small: /assets/uploads/2012/10/20121004-IMG_3566-465x310.jpg
   big: /assets/uploads/2012/10/20121004-IMG_3566.jpg
 meta:
-  description: Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.
   dsq_thread_id: '870234496'
-  focus_keywords: mobile first
 excerpt:
   short: Get ahead by going 'mobile first'. Let's take a look at some of the challenges we face when doing so.
   long: Mobile devices are changing the way we're doing things and there are many challenges along that path to integrate them with the more traditional websites designed for desktop only. One way is to go 'mobile first' and get the simple stuff over and done with ahead of the game. Let's take a look at some of those challenges we face.

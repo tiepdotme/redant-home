@@ -6,13 +6,13 @@ type: news
 categories:
   - agile
 author: Jesse Noble
+description: The story behind our Wallboard. Who's working on what, and can I deploy yet?
+keywords: our wallboard
 image:
   small: /assets/2010-redant-wallboard-preview-350x350.jpg
   big: /assets/2010-redant-wallboard-preview.jpg
 meta:
   dsq_thread_id: '609544604'
-  keywords: our wallboard
-  description: The story behind our Wallboard. Who's working on what, and can I deploy yet?
 excerpt:
   short: Whiteboards are out, wallboards are in. Also, vote for us!
   long: Wallboards are cool, and every dev house should have one. Firstly because it provides some great information that everyone can see, and secondly because they're cool (did I mention that already?) and the developers get to have some fun in all that free time they have with the wallboard making everything much more efficient. Here's what we did with ours.

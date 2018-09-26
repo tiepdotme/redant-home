@@ -6,13 +6,13 @@ type: news
 categories:
   - tool-reviews
 author: Ben Still
+description: Clicktale review which looks at how the technology works and some real world issues that you might face when implementing Clicktale
+keywords: Clicktale review
 image:
   small: /assets/uploads/2012/01/clicktale-350x261.png
   big: /assets/uploads/2012/01/clicktale.png
 meta:
-  description: Clicktale review which looks at how the technology works and some real world issues that you might face when implementing Clicktale
   dsq_thread_id: '591731408'
-  focus_keywords: Clicktale review
 excerpt:
   short: It could be so good, but sadly Clicktale doesn't do everything it says on the box.
   long: Clicktale is a software tool which allows you to track what users are doing on your website. It is used to analyse how people behave and what they do on particular pages. we've used it on several projects to try to gain a better understanding of how users were travelling through the site. More specifically, we were trying to get a better understanding of how they were using particular pages & forms, and what steps we could take to improve our conversion rate.

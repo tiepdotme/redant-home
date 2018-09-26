@@ -2,8 +2,7 @@
 layout: default
 permalink: /about/
 title: Red Ant - Everything About Red Ant the Ruby Developers in Surry Hills Sydney Australia
-meta:
-  - description: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
+description: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
 author: Ben Still
 image:
   small: /img/layout/parallax/library-looking-east.jpg
