@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /pjax/
+title: PJAX and AngularJS
+meta:
+  keywords: PJAX AngularJS
+  description: Posts for PJAX and AngularJS
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">PJAX and AngularJS</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.pjax %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

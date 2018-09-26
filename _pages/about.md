@@ -3,14 +3,14 @@ layout: default
 permalink: /about/
 title: Red Ant - Everything About Red Ant the Ruby Developers in Surry Hills Sydney Australia
 meta:
-  - description: We're a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
+  - description: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
 author: Ben Still
 image:
   small: /img/layout/parallax/library-looking-east.jpg
   big: /img/layout/parallax/library-looking-east.jpg
 excerpt:
-  short: We're a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
-  long: We're a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
+  short: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
+  long: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
 ---
 
 <header id="section-intro" class="ga-section dark-header padded-section">
@@ -27,7 +27,7 @@ excerpt:
           To start with, we have a core team of 30 – a mix of developers, UX, design and project managers. We use Open Source software - our speciality is Ruby on Rails, Angular and React. We use an Agile project delivery methodology.
         </p>
         <p class="pb-5 pb-sm-0">
-          We’ve been around for a while (+22y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building <a href="https://news.redant.com.au/defining-a-digital-product-c8893c95983e">Digital Products</a>.
+          We’ve been around for a while (+22y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building <a href="/digital-products/defining-a-digital-product/">Digital Products</a>.
         </p>
       </div>
     </div>
@@ -48,7 +48,7 @@ excerpt:
       <div class="mac-modal-border"></div>
       <div class="content">
         <p class="p-4">
-          This page goes on for ever. No seriously, it really does. You need to be a real fan to read it all. Or maybe you've self medicated to get over a slight flu, and you don't realise you've been staring at this screen for the last hour. Yep, those are actual real flying toasters. For real. You probably shouldn't have more than two of those tablets.
+          This page goes on for ever. No seriously, it really does. You need to be a real fan to read it all. Or maybe you’ve self medicated to get over a slight flu, and you don’t realise you’ve been staring at this screen for the last hour. Yep, those are actual real flying toasters. For real. You probably shouldn’t have more than two of those tablets.
         </p>
       </div>
       <div class="mac-modal-border"></div>
@@ -74,7 +74,7 @@ excerpt:
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that Digital Agency</h5>
         <p>Because we’re very strong technically. We have a culture of making great code, with systems and tools to back this up. We won’t get some freelance kid in to build your project. Because we <strong>do</strong> know the difference between java and javascript. </p>
-        <p>We'll provide you advice and strategy based on knowledge and experience, rather than some blog we just read. And if we're not sure <a href="https://news.redant.com.au/clicktale-review-how-the-technology-really-works-and-why-it-didnt-for-us-faecddbd2b8">we take some time to actually look into how it works</a>. Rather than just trusting vendors.</p>
+        <p>We’ll provide you advice and strategy based on knowledge and experience, rather than some blog we just read. And if we’re not sure <a href="/tool-reviews/clicktale-review-technology/">we take some time to actually look into how it works</a>. Rather than just trusting vendors.</p>
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that offshore team</h5>
@@ -83,8 +83,8 @@ excerpt:
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that smaller dev team</h5>
-        <p>Because we can scale. We're not a few guys in a coworking space. And we know how to build things that do scale. Scale might mean more traffic or higher transactions. Or it might mean more features. Or it could mean different types of team resources - like more developers, more design, or more project management.</p>
-        <p>We're reliable and have super tight processes. So you don't need to worry about a change here breaking something there. Again. Or whether the next deploy is going to bring down your entire site. Again. Or that we'll just disappear. </p>
+        <p>Because we can scale. We’re not a few guys in a coworking space. And we know how to build things that do scale. Scale might mean more traffic or higher transactions. Or it might mean more features. Or it could mean different types of team resources - like more developers, more design, or more project management.</p>
+        <p>We’re reliable and have super tight processes. So you don’t need to worry about a change here breaking something there. Again. Or whether the next deploy is going to bring down your entire site. Again. Or that we’ll just disappear. </p>
       </div>
     </div>
   </div>
@@ -92,11 +92,11 @@ excerpt:
 
 <section id="section-client-relation" class="ga-section py-5">
   <div class="container">
-    <p>We like to form close relationships with our Clients. We'd like to know as much or more about the digital side of your business than you do.</p>
-    <p>To explain: we spend a lot of time understanding how your business and software works. If we can learn as much as we can about your business, we're probably going to be able to communicate pretty well. And from that we'll hopefully get some fantastic results.</p>
-    <p>To do this we set up a dedicated team. Continually changing people sucks for all concerned - it is incredibly inefficient, and if a developer needs to continually context switch, they aren't going to be particularly productive. For some projects dedicated means 5d a week, while for others it might be every Monday and Tuesday. Regardless, we try to keep the same people on a project, as experience has shown that this gives the best results.</p>
+    <p>We like to form close relationships with our Clients. We’d like to know as much or more about the digital side of your business than you do.</p>
+    <p>To explain: we spend a lot of time understanding how your business and software works. If we can learn as much as we can about your business, we’re probably going to be able to communicate pretty well. And from that we’ll hopefully get some fantastic results.</p>
+    <p>To do this we set up a dedicated team. Continually changing people sucks for all concerned - it is incredibly inefficient, and if a developer needs to continually context switch, they aren’t going to be particularly productive. For some projects dedicated means 5d a week, while for others it might be every Monday and Tuesday. Regardless, we try to keep the same people on a project, as experience has shown that this gives the best results.</p>
 
-    <p>Everyone on the team is an expert in their respective area. No passengers. The team uses the Agile methodology to deliver ideas, strategy, design and code. Let's be as efficient as we can and not waste each other’s time or money. </p>
+    <p>Everyone on the team is an expert in their respective area. No passengers. The team uses the Agile methodology to deliver ideas, strategy, design and code. Let’s be as efficient as we can and not waste each other’s time or money. </p>
 
     <p>Each of the teams focus on delivering projects quickly, that we can then iterate and improve upon.</p>
 
@@ -104,7 +104,7 @@ excerpt:
 
     <p>We share ideas and improvements via Standup sessions and Agile retrospectives. Transparency is key. Humans are particularly good at communicating complex issues quickly, rather than writing out lengthy specification docs.</p>
 
-    <p>This all might seem a bit strange if you’re used to dealing with traditional Ad Agencies or Management Consultancies. We don’t have junior account people. We don't use Powerpoint. There isn't some offshore team you'll never meet that does the actual work. And we most definitely don’t have people who cause you to wonder what exactly they do again and why are they on your project.</p>
+    <p>This all might seem a bit strange if you’re used to dealing with traditional Ad Agencies or Management Consultancies. We don’t have junior account people. We don’t use Powerpoint. There isn’t some offshore team you’ll never meet that does the actual work. And we most definitely don’t have people who cause you to wonder what exactly they do again and why are they on your project.</p>
 
   </div>
 </section>
@@ -139,7 +139,7 @@ excerpt:
         <h5>Issue tracking platform</h5>
         <div class="toggle-picture">
           <div class="toggle-content">
-            Keeps track of everything. And I do mean everything. Visualises progress of each sprint, deliverables, and forecasts where we think we'll end up.
+            Keeps track of everything. And I do mean everything. Visualises progress of each sprint, deliverables, and forecasts where we think we’ll end up.
           </div>
         </div>
       </div>
@@ -218,7 +218,7 @@ excerpt:
         <p>We weren’t using these tools out of a conscious choice. Somehow it had just become that way depending on what our clients were already using.</p>
         <p>So we stopped, thought about what we wanted, and changed tack. We had a careful look around at how other people were designing and building sites, and what kind of technologies were being used to make really big, really interesting and engaging sites. Spoiler alert: it wasn’t dotNet.</p>
         <p>We ended up choosing Ruby on Rails, as it suits the kind of stuff we like to do. Not only does it help us make highly interactive and dynamic sites, it also has a lot of really well thought out processes baked in. These lower our project risk – because no matter how awesome your rockstar developers are, they will make mistakes. Having processes, like automated tests and deployment processes, mitigates this by giving us a way of doing something right, and then repeating it flawlessly again and again.</p>
-        <p>Read more about <a href="https://news.redant.com.au/why-we-use-ruby-on-rails-4c53f17d78b7">why we use Rails</a> here</p>
+        <p>Read more about <a href="/ruby-on-rails/why-we-use-ruby-on-rails/">why we use Rails</a> here</p>
       </div>
     </div>
   </div>
@@ -256,14 +256,14 @@ excerpt:
     </div>
     <div class="row">
       <div class="col-md-6">
-        <p>You might have heard about Agile and wondered what it is all about.
+        <p>You might have heard about Agile and wondered what it is all about.</p>
         <p>Agile is a way of defining a project with the end user in mind. Say we were designing an aeroplane, the definition wouldn’t be about making an aluminium tube with flat things sticking out. Rather, it would focus on user requirement- eg something which can get 300 people from Sydney to Tokyo within a day.</p>
         <p>It also involves breaking work up into a series of “sprints” – at the end of each sprint we’re aiming to achieve certain goals.</p>
         <p>Agile also involves the client, via a technique called “showcasing”. This is where we regularly meet to review the site as it takes shape, rather than having a big “tadaaa” moment at the end. Instead of putting effort into making a big specification document at the start, we focus on having meaningful ongoing conversations about how things should work. Along with overall strategy, we know the project may change as things develop- something that seemed sensible at the start might be done better another way.</p>
       </div>
       <div class="col-md-6">
         <p>One of the best analogies I’ve heard about Agile is a military one.</p>
-        <p><strong>Non-Agile:</strong> think WWI – the Generals would plan out their campaign months in advance. Orders were written out in great detail along with intricate maps, and sent to the troops. At the designated time, thousands of troops would rally and carry out these orders. Disobeying an order will get you shot. The Generals might not hear about progress and result for hours- sometimes days later.
+        <p><strong>Non-Agile:</strong> think WWI – the Generals would plan out their campaign months in advance. Orders were written out in great detail along with intricate maps, and sent to the troops. At the designated time, thousands of troops would rally and carry out these orders. Disobeying an order will get you shot. The Generals might not hear about progress and result for hours- sometimes days later.</p>
         <p><strong>Agile:</strong> think modern warfare, with much smaller, highly trained teams that move quickly. The overall objective is defined as getting to that hill, and this is simply and clearly defined and then discussed. Everyone in the team understands the critical bits, the “nice to haves” and the overall objective. But how the team actually gets to the hill is driven by the guys on the ground. New information might come to light during the day and the situation will change. They communicate regularly between each other, and back to command- all in real time.</p>
       </div>
     </div>
@@ -298,14 +298,13 @@ excerpt:
 <section id="section-you-are-still-here" class="ga-section py-5">
   <div class="container">
     <div class="col-12 text-center" style="padding-top:60px; padding-bottom:80px;">
-      <img src="{{ site.data.webpack['macbomb.png'] }}" alt="Someone set us up the Bomb">
+      <img id="macbomb" src="{{ site.data.webpack['macbomb.png'] }}" alt="Someone set us up the Bomb">
     </div>
-
     <h4>Oh wow. You’re still here.</h4>
     <div class="row">
       <div class="col-md-12">
         <p>
-          If you’re down this far you're either lost, or you’ve fallen asleep and just woken up. Or maybe you are interested in finding out more. You can see what we look like on our
+          If you’re down this far you’re either lost, or you’ve fallen asleep and just woken up. Or maybe you are interested in finding out more. You can see what we look like on our
           <a href="http://www.flickr.com/photos/arigajupiki" target="_blank">Flickr</a>, you can stalk us on
           <a href="https://www.linkedin.com/company/76862" target="_blank">LinkedIn</a>,
           <a href="https://plus.google.com/u/0/+RedAntSurryHills/about" target="_blank">Google+</a> or follow our
@@ -313,10 +312,8 @@ excerpt:
           <a href="https://www.google.com.au/maps/@-33.879213,151.210683,3a,75y,239.76h,90t/data=!3m5!1e1!3m3!1sgDRm0kJy1SkAAAQJLkIFCw!2e0!3e2!6m1!1e1?hl=en_uk" target="_blank">walk around our office</a>. Or you can simply pick up the phone and call us on
           <a href="tel: (+61 2) 9267 8300">(+61 2) 9267 8300.
         </p>
-
         <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Cancel</a> <a class="btn btn-default" href="https://imgflip.com/s/meme/Grumpy-Cat-Not-Amused.jpg">Request a refund for time spent on this page</a></p>
       </div>
-
     </div>
   </div>
 </section>

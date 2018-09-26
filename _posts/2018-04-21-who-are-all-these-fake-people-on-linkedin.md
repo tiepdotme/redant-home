@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Who are all these fake people on LinkedIn?
-permalink: /who-are-all-these-fake-people-on-linkedin/
+permalink: /marketing/who-are-all-these-fake-people-on-linkedin/
+type: ideas
+categories:
+  - marketing
 tags:
   - Red-Ant-Marketing
   - LinkedIn

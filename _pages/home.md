@@ -132,7 +132,7 @@ class: homepage
     <div class="row">
       <div class="col-12">
         <h4 class="text-center mb-0 mt-sm-5 mb-sm-3 pt-5">
-          Some of the awesome things we've made
+          Some of the awesome things we’ve made
         </h4>
       </div>
 
@@ -220,9 +220,9 @@ class: homepage
     <div class="row mt-4 text-md">
       <div class="col-md-8">
         <p>
-          It isn't just good design, or a good user experience. It isn't just powerful technology or the right development framework. Great digital products come about when these blend together.</p>
+          It isn’t just good design, or a good user experience. It isn’t just powerful technology or the right development framework. Great digital products come about when these blend together.</p>
 
-          <p>We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore.
+          <p>We’re super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore.
         </p>
         <p>
           Our tech stack is Open Source, and we use Agile to manage projects. We also have our pretty nifty project tracking platform that we’ve created to make us more efficient. Real time progress tracking, complete sprint management and project cadence.
@@ -256,7 +256,7 @@ class: homepage
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h2>Stuff we've made</h2>
+          <h2>Stuff we’ve made</h2>
         </div>
 
         <div class="col-md-4">

@@ -51,7 +51,7 @@ description: At Red Ant we are always on a look out for a good fit to this famil
     <div class="row">
       <div class="col-8">
         <p class="h2 mb-3">
-          Didn't see what you seek?
+          Didn’t see what you seek?
         <p class="h3 mb-3">We are always open for conversation.</p>
         <p>Red Ant always looking out for valuble individual to join our team. If you think you have something special to contribute and a good fit to us, we would like to hear from you.</p>
 

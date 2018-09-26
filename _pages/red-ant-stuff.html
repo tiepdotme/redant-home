@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /red-ant-stuff/
+title: Ruby on Rails Sydney - Red Ant - Red Ant
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Red Ant stuff</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container content">
+  <p>Everything you ever wanted to know about Red Ant, plus some stuff you probably didn’t. Like what is up with the Flying Toasters?</p>
+  <p>We’ve moved office five times now, so we’re pretty adept at streamlining stuff like bike storage options, composting methods and pot plant arrangements.</p>
+  <p>We also like to stay involved with the digital industry in Australia.</p>
+</div>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.red-ant-stuff %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

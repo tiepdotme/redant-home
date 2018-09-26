@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /ideas/
+title: Ruby on Rails Sydney - Red Ant - Red Ant
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Ideas</h1>
+        <hr>
+        <p>Eureka!</p>
+        <p>(all posts where type=ideas)</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="ideas static-page">
+  <div class="container">
+    {% assign type = 'ideas' %}
+    {% include posts.html %}
+  </div>
+</div>

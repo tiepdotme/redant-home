@@ -1,0 +1,40 @@
+---
+layout: default
+permalink: /strategy/
+title: Mobile and Digital Strategy - Red Ant
+meta:
+  keywords: Mobile Digital Strategy
+  description: Mobile and Digital Strategy by Red Ant
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Digital Strategy</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="content container">
+	<p>Having a solid digital strategy is essential if your project is to be successful. At Red Ant, we like to get to know our clients and offer our technical expertise when it comes to digital strategy, planning and facilitation.</p>
+  <p>Here are some of the key things our strategy team will look at when approaching a new project:</p>
+  <ul>
+    <li>Detailed knowledge of your company and how the different areas and departments work.</li>
+    <li>In depth understanding of your target markets and how they wish to engage online – resulting in knowing what will work and what won’t work online.</li>
+    <li>Recommendations on suppliers – we’ve worked extensively with suppliers and other partner agencies for SEO, sample fulfilment, hosting and more.</li>
+    <li>Mobile First approach.</li>
+    <li>Constant tracking that allows us to improve and adjust strategies moving forward.</li>
+  </ul>
+</div>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.strategy %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

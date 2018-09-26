@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /ruby-on-rails-devops/
+title: Ruby on Rails Sydney - Red Ant
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">Devops and Ruby on Rails</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="masonry-full-width">
+  <div id="blog-posts" class="container">
+    {% for post in site.categories.ruby-on-rails-devops %}
+      {% include post-tile.html %}
+    {% endfor %}
+  </div>
+</div>

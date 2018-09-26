@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /news/
+title: News
+meta:
+  keywords: news
+  description: What’s happening in the world of Red Ant.
+---
+
+<header id="section-intro" class="ga-section dark-header padded-section">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 py-3">
+        <h1 class="text-x-large">News</h1>
+        <hr>
+        <p>What’s happening in the world of Red Ant.</p>
+        <p>(all posts where type=news)</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="news static-page">
+  <div class="container">
+    {% assign type = 'news' %}
+    {% include posts.html %}
+  </div>
+</div>
