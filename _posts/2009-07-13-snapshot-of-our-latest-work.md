@@ -8,12 +8,12 @@ categories:
   - ruby-on-rails
   - ecommerce
 author: Ben Still
+keywords: latest work
 image:
   small: /assets/2009-redant-office-300x200.jpg
   big: /assets/2009-redant-office-1000x600.jpg
 meta:
   dsq_thread_id: '479978208'
-  focus_keywords: latest work
 excerpt:
   short: Here are a few of the projects that have been keeping us busy lately
   long: Here are a few of the projects that have been keeping us busy lately. I really should get around to putting them in to our portfolio, but the army of little fairies that live in our server that do all our work (well, the hard stuff anyway) have been a bit slack lately.

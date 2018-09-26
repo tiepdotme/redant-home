@@ -6,10 +6,9 @@ type: news
 categories:
   - our-work
 author: Ben Still
+description: I have this friend. Let's call him Wayne. He works in advertising.
+keywords: Digital Awards
 image:
-meta:
-  keywords: Digital Awards
-  description: I have this friend. Let's call him Wayne. He works in advertising.
 excerpt:
   short: I have this friend. Let's call him Wayne. He works in advertising.
   long: I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.

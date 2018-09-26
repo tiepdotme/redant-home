@@ -6,12 +6,12 @@ type: news
 categories:
   - red-ant-stuff
 author: Ben Still
+keywords: uts design award
 image:
   small: /assets/2009-david-chin-uts-design-award.jpg
   big: /assets/2009-david-chin-uts-design-award.jpg
 meta:
   dsq_thread_id: '479978239'
-  focus_keywords: uts design award
 excerpt:
   short: It's been a good few years of sponsoring the UTS design awards, here's to this one, and many more!
   long: First of all, congrats to David Chin, who was this years winner. Seconds of all, well done to everyone who participated! We're so proud to be part of these awards and to be able to inspire the young 'uns into creating awesome stuff.

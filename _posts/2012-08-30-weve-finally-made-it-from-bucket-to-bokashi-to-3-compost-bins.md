@@ -6,13 +6,13 @@ type: news
 categories:
   - red-ant-stuff
 author: Ben Still
+description: A whirlwind tale of Red Ant's journey through the wonderful world of composting.
+keywords: compost bins
 image:
   small: /assets/uploads/2012/08/compost-bin-465x309.jpg
   big: /assets/uploads/2012/08/compost-bin.jpg
 meta:
-  description: A whirlwind tale of Red Ant's journey through the wonderful world of composting.
   dsq_thread_id: '824121150'
-  focus_keywords: compost bins
 excerpt:
   short: "Green offices of the present future: office composting."
   long: This week we reached a major milestone in our business - something we're all very excited about. Finally, after years of hard work and dedication, and several wrong turns along the way, we've got there.

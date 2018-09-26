@@ -7,13 +7,13 @@ categories:
   - ecommerce
   - tool-reviews
 author: Sam Bauers
+description: In which we find out which Shopify account hits the pricing sweet spot based on our monthly sales.
+keywords: shopify pricing
 image:
   small: /assets/uploads/2012/08/shopify-account-comparison-chart-350x409.png
   big: /assets/uploads/2012/08/shopify-account-comparison-chart.png
 meta:
-  description: In which we find out which Shopify account hits the pricing sweet spot based on our monthly sales.
   dsq_thread_id: '790259093'
-  focus_keywords: shopify pricing
 excerpt:
   short: Shopify for e-commerce - we looked into this as part of a recent assesment.
   long: As part of a recent assessment for a client e-commerce solution we looked into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out their prices and finding the account level which would hit the sweet spot for the clients needs. In the end we didnt go with Shopify, but this price comparison of their accounts is pretty handy to have on hand.

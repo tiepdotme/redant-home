@@ -7,13 +7,13 @@ categories:
   - how-we-do
   - strategy
 author: Sam Bauers
+description: When your users are unlikely to want to provide their email address to sign-up to your website, "Super-soft joins" may be right for you.
+keywords: super soft joins
 image:
   small: /assets/uploads/2012/03/clear-your-vision-home-465x342.jpg
   big: /assets/uploads/2012/03/clear-your-vision-home.jpg
 meta:
-  description: When your users are unlikely to want to provide their email address to sign-up to your website, "Super-soft joins" may be right for you.
   dsq_thread_id: '629807983'
-  focus_keywords: super soft joins
 excerpt:
   short: How we use super-soft joins to interact with users on personal subjects.
   long: Sometimes engaging users can be difficult if the subject matter is intensely personal. Super-soft joins helped us help people quit drugs.

@@ -6,12 +6,11 @@ type: news
 categories:
   - our-work
 author: Ben Still
+description: We're sponsoring an award at the design school of University of Technology, Sydney.
+keywords: Red Ant creative award at UTS
 image:
   small: ...
   big: ...
-meta:
-  keywords: Red Ant creative award at UTS
-  description: We're sponsoring an award at the design school of University of Technology, Sydney.
 excerpt:
   short: We're sponsoring an award at the design school of University of Technology, Sydney.
   long: We're sponsoring an award at the design school of University of Technology, Sydney. It's competitive, and only the best will make the cut.

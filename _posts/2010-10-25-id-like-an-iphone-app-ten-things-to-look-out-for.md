@@ -6,13 +6,13 @@ type: ideas
 categories:
   - mobile
 author: Ben Still
+description: considerations for your iphone app design brief
+keywords: iphone app design brief
 image:
   small: /assets/2010-iphone-app-465x310.jpg
   big: /assets/2010-iphone-app.jpg
 meta:
   dsq_thread_id: '609065827'
-  keywords: iphone app design brief
-  description: considerations for your iphone app design brief
 excerpt:
   short: "Ten quick tips: considerations for your iphone app design brief"
   long: Ten quick tips or ideas to consider before getting someone to build you an iphone app, and what to put in your design / development brief

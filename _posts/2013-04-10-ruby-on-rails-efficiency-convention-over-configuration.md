@@ -7,12 +7,11 @@ categories:
   - lean-development
   - ruby-on-rails
 author: Ben Still
+description: How we used Ruby on Rails convention over configuration to make our developers more efficient and improve quality
+keywords: ruby on rails efficient
 image:
   small: /assets/uploads/2013/10/ruby-on-rails.png
   big: /assets/uploads/2013/10/ruby-on-rails.png
-meta:
-  description: How we used Ruby on Rails convention over configuration to make our developers more efficient and improve quality
-  focus_keywords: ruby on rails efficient
 excerpt:
   short: '"convention over configuration". How to improve team effectiveness and quality.'
   long: Before we switched to Ruby on Rails, we had a small team working in Microsoft ASP and .Net. They'd butt heads all the time over seemingly trivial stuff, which had the impact of slowing us down. Once using Ruby on Rails, we started approaching these issues from a "convention over configuration" perspective, which helped us improve efficiency and quality. Here's a small example to illustrate how.

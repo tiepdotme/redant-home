@@ -7,13 +7,13 @@ categories:
   - how-we-do
   - ruby-on-rails
 author: Ben Still
+description: We've recently spent some time adding some new features to a site that we built a while back.
+keywords: refactoring
 image:
   small: /assets/2009-refactor-small.jpg
   big: /assets/2009-refactor-large.jpg
 meta:
   dsq_thread_id: '536002967'
-  keywords: refactoring
-  description: We've recently spent some time adding some new features to a site that we built a while back.
 excerpt:
   short: We've recently spent some time adding some new features to a site that we built a while back.
   long: We've recently spent some time adding some new features to a site that we built a while back. Part of this was moving it to a new CMS, and since we had the chance, we took a look at each of the templates to see where they could be improved.
