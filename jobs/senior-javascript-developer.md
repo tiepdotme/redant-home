@@ -31,7 +31,7 @@ OK- so that was a few general things. In terms of specifics, we:
 
 In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving &#8211; we&#8217;re also evaluating React and let&#8217;s not even bring up testing frameworks.
 
-The things we make are typically large web applications, which we call <a href="http://www.redant.com.au/digital-products/">digital products</a>. Have a look at our <a href="http://redant.com.au/portfolio">portfolio</a> to get a better idea of the some of the projects we work on.
+The things we make are typically large web applications, which we call digital products. Have a look at our <a href="http://redant.com.au/portfolio/">portfolio</a> to get a better idea of the some of the projects we work on.
 
 ### Full time
 

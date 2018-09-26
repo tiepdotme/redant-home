@@ -43,7 +43,7 @@ We created a new visual design and site layout to highlight the company's most i
 
 #### Huggies Jeans for Genes
 
-[![Huggies]({{ site.data.webpack['2009-aug-update-huggies.jpg'] }})](/portfolio/huggies)
+[![Huggies]({{ site.data.webpack['2009-aug-update-huggies.jpg'] }})](/portfolio/huggies/)
 
 We added some denim bling to the header area as part of Huggies support of Jeans for Genes day. We also developed a new photo upload tool that allows members to upload photos of their children wearing jeans. This is a reusable tool that will be used in other photo based competitions, and includes an extensive image moderation application.
 

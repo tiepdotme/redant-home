@@ -20,7 +20,7 @@ excerpt:
 
 One of the ways people have interacted with one another since the Internet was in Internappies is, of course, through forums. And, while many forums can lay claim to fostering community and interaction between users, just as many forums lay waste to that same idea, and leave behind only wasted time, wasted words and wasted bandwidth.
 
-When [Huggies](http://www.huggies.com.au) (did we mention it was [one of the most popular parenting sites in Australia](/portfolio/huggies/?)) asked us to rebuild their forum earlier this year, we had all of this in mind. But how's it gone so far?
+When [Huggies](http://www.huggies.com.au) (did we mention it was [one of the most popular parenting sites in Australia](/portfolio/huggies/)) asked us to rebuild their forum earlier this year, we had all of this in mind. But how's it gone so far?
 
 Well here are some stats: Over 12,000 posts have been made by over 1,200 individual members in one week. The longest post has over 2,800 replies and counting. It's had more than 600,000 posts since it was launched, and the company's experts are now receiving more than 100 questions a month.
 

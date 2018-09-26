@@ -31,7 +31,7 @@ There are [other reasons (Shopify pricing)](http://www.shopify.com/pricing) to s
 
 ### Why were we looking at Shopify, and why didn't we use it?
 
-We often have a requirement to build some kind of shop or ecommerce integration in to a site. Clearly different projects handle this differently- for a site like [12WBT (Michelle Bridges 12 Week Body Transformation)](/portfolio/12wbt), the ecomm bit isn't really a separate shop area - it needs to be very tightly integrated into the membership process. So we built that. Other projects like [beautyheaven (beautyheaven)](/portfolio/beautyheaven) have a separate shop area, which means building something isn't necessarily the best approach.
+We often have a requirement to build some kind of shop or ecommerce integration in to a site. Clearly different projects handle this differently- for a site like [12WBT (Michelle Bridges 12 Week Body Transformation)](/portfolio/12wbt/), the ecomm bit isn't really a separate shop area - it needs to be very tightly integrated into the membership process. So we built that. Other projects like [beautyheaven (beautyheaven)](/portfolio/beautyheaven/) have a separate shop area, which means building something isn't necessarily the best approach.
 
 A quick summary of the options:
 
