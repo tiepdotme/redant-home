@@ -2,7 +2,7 @@
 layout: job
 slug: qa-testing-engineer
 title: QA Testing Engineer
-summary: Manage our testing process to deliver awesomeness
+description: Manage our testing process to deliver awesomeness
 ---
 
 <div class="job-not-available">

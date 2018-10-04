@@ -2,7 +2,7 @@
 layout: job
 slug: designer
 title: Designer
-summary: We’re looking for a super special designer to join our team, and working alongside Rails developers, devops, producers and content people.
+description: We’re looking for a super special designer to join our team, and working alongside Rails developers, devops, producers and content people.
 ---
 
 <div class="job-not-available">
