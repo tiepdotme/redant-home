@@ -6,6 +6,8 @@
   padding: 14px 0;
   background-color: $white;
 
+  height: $navbar-height; // must match .nav-spacer
+
   .navbar-brand {
     padding: 0;
   }
@@ -13,6 +15,12 @@
   .logo {
     height: 32px;
   }
+}
+
+.nav-spacer {
+  // this sits directly after the position fixed navbar to fill the same space
+  // means we can avoid top padding the next element
+  height: $navbar-height;
 }
 
 .nav-toggle-icon {
