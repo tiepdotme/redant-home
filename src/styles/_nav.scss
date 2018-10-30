@@ -155,3 +155,60 @@
     }
   }
 }
+
+.blog-navbar {
+  color: #fff;
+  position: relative;
+  height: 50px;
+  .container {
+    position: relative;
+    height: 100%;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  a {
+    display: inline-block;
+    margin-right: 20px;
+    &.pri {
+      color: #fff;
+      font-size: 20px;
+      // gotham medium
+      position: relative;
+      padding-right: 20px;
+      &:after {
+        display: block;
+        content: '';
+        background: #f00;
+        height: 100%;
+        width: 1px;
+        position: absolute;
+        top: 0;
+        right: -3px;
+      }
+    }
+    &.active,
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+    color: #808080;
+    font-size: 15px;
+    // gotham book
+  }
+  &:before {
+    background-color: #000;
+    opacity: .75;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
