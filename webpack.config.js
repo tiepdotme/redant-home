@@ -21,6 +21,7 @@ module.exports = (env = {}) => {
    */
   config.entry = {
     app: path.join(__dirname, 'src', 'index.js'),
+    amp: path.join(__dirname, 'src', 'amp.js'),
   };
 
   /**
@@ -101,7 +102,7 @@ module.exports = (env = {}) => {
       // FILE LOADER
       // Reference: https://github.com/webpack-contrib/file-loader
       {
-        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|ico)$/,
+        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|ico|swf)$/,
         use: [
           {
             loader: 'file-loader',

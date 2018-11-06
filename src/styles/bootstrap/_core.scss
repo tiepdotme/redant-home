@@ -1,0 +1,7 @@
+// These imports are seperated into a different file so that components can
+// load just this file with all the functions, variables & mixins.
+
+@import './variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';

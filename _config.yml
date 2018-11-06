@@ -13,11 +13,13 @@ google_analtyics: UA-421251-1
 gtm:
   dev: GTM-P7QNBDH
   prod: GTM-N3CM249
+ampdir: amp
 
 # Jekyll Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - amp-jekyll
 
 # Include for processing.
 include:
