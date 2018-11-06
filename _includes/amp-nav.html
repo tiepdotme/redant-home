@@ -9,10 +9,10 @@
 {% endif %}
   <div class="container">
     <div class="row no-gutters w-100">
-      <div class="col-8">
+      <div class="mx-auto">
         <a href="/" class="navbar-brand">
           <amp-img
-            class="logo mt-2"
+            class="logo mt-3"
             src="{{ site.data.webpack['logo.svg'] }}"
             width="219"
             height="40"
@@ -20,40 +20,40 @@
           </amp-img>
         </a>
       </div>
-      <div class="col-4">
-        <div class="nav-toggle-icon float-right">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    </div>
+
+    <div class="row no-gutters w-100">
+      <div class="nav-links mx-auto">
+        <ul class="links list-inline mt-3">
+          <li class="list-inline-item">
+            <a href="/" class="home-link">Home</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="/about/" class="about-link">About Red Ant</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="/blog/" class="news-and-ideas-link">News &amp; Ideas</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="/jobs/" class="jobs-link">Careers</a>
+          </li>
+          <li class="list-inline-item text-gray">|</li>
+          <li class="list-inline-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-
-  <div class="container nav-links mx-4 mx-md-auto">
-    <ul class="links list-inline mt-3">
-      <li class="list-inline-item">
-        <a href="/" class="home-link">Home</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="/about/" class="about-link">About Red Ant</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="/blog/" class="news-and-ideas-link">News &amp; Ideas</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="/jobs/" class="jobs-link">Careers</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
   </div>
 </nav>
