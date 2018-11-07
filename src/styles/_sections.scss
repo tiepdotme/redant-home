@@ -198,7 +198,7 @@
 .section-border {
   border-top: 1px solid $gray-smoke;
   border-bottom: 1px solid $gray-smoke;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 
   @include media-breakpoint-up(sm) {
     padding-bottom: 100px;

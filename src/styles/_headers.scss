@@ -41,3 +41,38 @@
     margin-bottom: 0;
   }
 }
+
+.blog-header {
+  height: 400px;
+}
+.blog-header--agile {
+  background-image: url('~images/headers/agile.jpg');
+  background-size: cover;
+}
+.blog-intro {
+  height: 350px;
+  .container {
+    height: 100%;
+  }
+  .middle {
+    display: flex;
+    height: 100%;
+  }
+  .boom {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  h1 {
+    color: #fff;
+    font-size: 75px;
+    // gotham medium
+    &.slash:before {
+      content: '/';
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 18px;
+    // Gotham Book
+  }
+}
