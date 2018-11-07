@@ -6,13 +6,13 @@ type: ideas
 categories:
   - ruby-on-rails-devops
 author: Sam Bauers
+description: A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
+keywords: nginx ssl redirection
 image:
   small: /assets/uploads/2013/10/milo-on-floor-465x348.jpg
   big: /assets/uploads/2013/10/milo-on-floor-1024x768.jpg
 meta:
-  description: A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
   dsq_thread_id: '626766201'
-  focus_keywords: nginx ssl redirection
 excerpt:
   short: Solutions to simple yet common and frustrating problems. We spill the beans on how we do it.
   long: What if (block) Nginx really can do it all? It's taken a little customisation but we think we've found the solution to a simple yet common and frustrating problem with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of a cute dog!

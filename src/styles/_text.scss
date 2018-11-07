@@ -116,6 +116,10 @@ strong {
   list-style: none;
 }
 
+.white-space-normal {
+  white-space: normal;
+}
+
 @include media-breakpoint-down(sm) {
   .text-md {
     font-size: 1.25rem;

@@ -6,15 +6,14 @@ type: news
 categories:
   - our-work
 author: Ben Still
+description: Digital agency vs a Technical Agency
+keywords: Digital Agency
 image:
   small: ...
   big: ...
-meta:
-  keywords: Digital Awards
-  description: I have this friend. Let's call him Wayne. He works in advertising.
 excerpt:
-  short: I have this friend. Let's call him Wayne. He works in advertising.
-  long: I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
+  short: Digital agency vs a Technical Agency
+  long: Digital agency vs a Technical Agency
 ---
 
 Dear Mum,

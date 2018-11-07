@@ -7,13 +7,13 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
+description: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
+keywords: tails for whales
 image:
   small: /assets/2009-tails-whales-small.png
   big: /assets/2009-tails-whales-big.png
 meta:
   dsq_thread_id: '515368652'
-  keywords: tails for whales
-  description: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
 excerpt:
   short: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
   long: Tails was whales is a great campaign to raise awareness for what happens in Japan each year where they set sail and hunt these beautiful creatures. We think it's wrong, and so do a lot of you it seems too.

@@ -8,12 +8,12 @@ categories:
   - how-we-do
   - ruby-on-rails
 author: Ben Still
+keywords: multi variate testing
 image:
   small: /assets/2009-peter-465x309.jpg
   big: /assets/2009-peter-1024x682.jpg
 meta:
   dsq_thread_id: '504960434'
-  focus_keywords: multi variate testing
 excerpt:
   short: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing
   long: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing. Its quite interesting, but hard to explain. In a nutshell, MV testing means testing lots of little changes or variations to a web site to see what works. Does bold orange type work better than small grey type? Should we show the price on this page or not at all?

@@ -7,12 +7,11 @@ categories:
   - strategy
   - mobile
 author: Ben Still
+description: Fast follower is a strategy used to replicate successful products. Here are 5 reasons why it might not work out, based on our experience.
+keywords: fast follower
 image:
   small: /assets/uploads/2013/09/cat-465x290.jpg
   big: /assets/uploads/2013/09/cat-465x290.jpg
-meta:
-  description: Fast follower is a strategy used to replicate successful products. Here are 5 reasons why it might not work out, based on our experience.
-  focus_keywords: fast follower
 excerpt:
   short: Five reasons why we think your fast follower strategy might not work out so well.
   long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe the strategy</a> of some companies to look at what a rival is doing and come out quickly with a similar "follower" product, eventually overtaking the original product. It's the flip of that equally slick sounding strategy "first mover advantage", which gets used quite a bit around dotcom bubbles to justify ideas that no one needs.

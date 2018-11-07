@@ -2,7 +2,7 @@
 layout: job
 slug: designer-of-awesomeness
 title: Designer of Awesomeness
-summary: We’re looking for a super special designer to join our team, and work alongside Rails developers, front end developers, producers and content people.
+description: We’re looking for a super special designer to join our team, and work alongside Rails developers, front end developers, producers and content people.
 ---
 
 <div class="job-not-available">

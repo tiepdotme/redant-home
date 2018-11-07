@@ -7,12 +7,12 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
+keywords: our recent interactive tools
 image:
   small: /assets/2010-huggies-baby-room-2-300x174.jpg
   big: /assets/2010-yates-virtual-garden-2.jpg
 meta:
   dsq_thread_id: '482026773'
-  focus_keywords: our recent interactive tools
 excerpt:
   short: Who doesn't like to be out in the sun, gardening and getting your fingers all green? Well now you can do all that from the comfort of your living room!
   long: Do you frequently feel the need to redesign your baby room or dig up your garden? Maybe you don't even have a garden? We have some top interactive tools that will help you plan what you need to do before you do it, thus saving money and inspiring creativity.

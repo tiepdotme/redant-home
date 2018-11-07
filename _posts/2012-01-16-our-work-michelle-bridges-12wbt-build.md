@@ -7,13 +7,13 @@ categories:
   - our-work
   - digital-products
 author: Ben Still
+description: The initial build of the Michelle Bridges 12WBT project
+keywords: michelle bridges 12wbt
 image:
   small: /assets/2012-12wbt.jpg
   big: /assets/2012-12wbt.jpg
 meta:
   dsq_thread_id: '608748455'
-  keywords: michelle bridges 12wbt
-  description: The initial build of the Michelle Bridges 12WBT project
 excerpt:
   short: The initial build of the Michelle Bridges 12WBT project
   long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented us with some unique challenges to overcome. Find out how we did it.

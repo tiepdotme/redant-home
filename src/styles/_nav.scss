@@ -6,6 +6,8 @@
   padding: 14px 0;
   background-color: $white;
 
+  height: $navbar-height; // must match .nav-spacer
+
   .navbar-brand {
     padding: 0;
   }
@@ -15,12 +17,18 @@
   }
 }
 
+.nav-spacer {
+  // this sits directly after the position fixed navbar to fill the same space
+  // means we can avoid top padding the next element
+  height: $navbar-height;
+}
+
 .nav-toggle-icon {
   position: relative;
-  width: 40px;
+  width: 30px;
   height: 30px;
-  transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
+  //transform: rotate(0deg);
+  //transition: 0.5s ease-in-out;
   z-index: 101;
   cursor: pointer;
 
@@ -36,12 +44,12 @@
     transition: 0.25s ease-in-out;
 
     &:nth-child(1) {
-      top: 0px;
+      top: 2px;
     }
 
     &:nth-child(2),
     &:nth-child(3) {
-      top: 12px;
+      top: 13px;
     }
 
     &:nth-child(4) {
@@ -111,7 +119,7 @@
         &:nth-child(1),
         &:nth-child(4) {
           width: 0;
-          top: 18px;
+          top: 13px;
           left: 50%;
         }
 
@@ -145,5 +153,62 @@
         }
       }
     }
+  }
+}
+
+.blog-navbar {
+  color: #fff;
+  position: relative;
+  height: 50px;
+  .container {
+    position: relative;
+    height: 100%;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  a {
+    display: inline-block;
+    margin-right: 20px;
+    &.pri {
+      color: #fff;
+      font-size: 20px;
+      // gotham medium
+      position: relative;
+      padding-right: 20px;
+      &:after {
+        display: block;
+        content: '';
+        background: #f00;
+        height: 100%;
+        width: 1px;
+        position: absolute;
+        top: 0;
+        right: -3px;
+      }
+    }
+    &.active,
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+    color: #808080;
+    font-size: 15px;
+    // gotham book
+  }
+  &:before {
+    background-color: #000;
+    opacity: .75;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 }

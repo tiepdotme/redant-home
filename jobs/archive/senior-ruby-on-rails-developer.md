@@ -2,7 +2,7 @@
 layout: job
 slug: senior-ruby-on-rails-developer
 title: Senior Ruby Developer
-summary: Looking for a Senior Ruby developer
+description: Looking for a Senior Ruby developer
 image:
   small: /assets/uploads/2014/09/bike.jpg
 ---
@@ -31,7 +31,7 @@ Have a look at our <a href="/portfolio/">portfolio</a> to get a better idea of t
 ## Our ideal candidate
 
 We're assuming you already have:
-* Good Ruby skills 
+* Good Ruby skills
 * ... and in terms of technical skills you're pretty much off the charts (in a nice way)
 * Experience working in an Agile fashion
 * ... and using tools like Jira etc (although if you're like me you may ponder why "Jira" is sometimes described as a feature of some roles. Really? You can really use Jira? Wow you must be so smart.)
