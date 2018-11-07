@@ -4,6 +4,8 @@ const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ReplaceInFileWebpackPlugin = require('replace-in-file-webpack-plugin');
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -159,6 +161,24 @@ module.exports = (env = {}) => {
       name: 'meta',
       chunks: 'vendor',
     }),
+    // Reference: https://github.com/webpack-contrib/copy-webpack-plugin
+    // Copy AMP styles over to _includes folder
+    new CopyWebpackPlugin([
+      {
+        from: 'assets/amp.*.css',
+        to: '_includes/amp.css',
+      },
+    ], {}),
+    // Reference: https://www.npmjs.com/package/replace-in-file-webpack-plugin
+    // Remove disallowed / invalid CSS from AMP stylesheet
+    new ReplaceInFileWebpackPlugin([{
+      dir: '_includes',
+      files: ['amp.css'],
+      rules: [
+        { search: /!important/g, replace: ''},
+        { search: /@-ms-viewport/g, replace: ''},
+      ],
+    }]),
   ];
 
   if (isProd) {

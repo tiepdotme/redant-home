@@ -1,7 +1,5 @@
 ---
-layout: amp
-amphtml:
-  - link
+layout: post
 title: Why having an opinionated developer matters
 permalink: /red-ant-stuff/opinionated-development/
 type: news

@@ -18,6 +18,6 @@
   <link rel="stylesheet" href="https://use.typekit.net/apo0vqh.css" type="text/css">
 
   {% if page.path contains '_posts' %}
-    <link rel="amphtml" href="{{ page.id | prepend: '/_amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+    <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
   {% endif %}
 </head>
