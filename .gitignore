@@ -6,7 +6,7 @@
 *.log
 *.bak
 _data/webpack.json
-_includes/amp/*.css
+_includes/amp/index.css
 _site
 node_modules
 assets

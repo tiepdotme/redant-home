@@ -164,3 +164,12 @@ yarn release
 ```
 
 Webpack & Jekyll will build the site commit and push to the `gh-pages` branch.
+
+## AMP
+
+AMP requires a customised css file that requires the minimum Bootstrap required to render posts. This is handled by webpack using the amp.js entrypoint which compiles to /assets/amp.[hash].css.
+
+- script/amp is called post build which copies /assets/amp.[hash].css to `_includes/amp/index.css` for Jekyll to consume.
+- amp.html
+- whats in `_include/amp`
+- link to amp-jekyll
