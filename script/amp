@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm -f _includes/amp/index.css
+sed -E 's/(!important|@-ms-viewport)//g' assets/amp.*.css > _includes/amp/index.css

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
   <style amp-custom>
-    {% capture filename %}{{ site.data.webpack['amp.css'] | replace: '/assets/', '' }}{% endcapture %}
+    {% capture filename %}{{ site.data.webpack['amp/index.css'] | replace: '/assets/', '' }}{% endcapture %}
     {% include {{ filename }} %}
   </style>
 

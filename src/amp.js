@@ -1,2 +1,2 @@
 // Import scss for webpack compilation
-import './styles/index-amp.scss';
+import './styles/amp/index.scss';
