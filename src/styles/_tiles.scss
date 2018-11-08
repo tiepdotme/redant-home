@@ -58,6 +58,10 @@
     text-decoration: none;
   }
 
+  &.text-black {
+    color: $black;
+  }
+
   &.bg-voome,
   &.bg-move,
   &.bg-beautyheaven {
@@ -152,4 +156,18 @@
 
 .project-detail-title {
   font-size: 1.25rem;
+}
+
+.post-image-preview {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#macy-container {
+  .post-image-preview {
+    min-height: 200px;
+    width: 100%;
+  }
 }
