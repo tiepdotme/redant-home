@@ -13,6 +13,7 @@
     {{ content }}
 
     {% include footer.html %}
+    {% include scripts.html %}
   </div>
 </body>
 </html>
