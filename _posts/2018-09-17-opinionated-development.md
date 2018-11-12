@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why having an opinionated developer matters
-permalink: /red-ant-stuff/opinionated-developer/
+permalink: /red-ant-stuff/opinionated-development/
 type: news
 categories:
   - our-work
