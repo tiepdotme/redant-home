@@ -29,4 +29,8 @@
   {% if page.path contains '_posts' %}
     <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
   {% endif %}
+
+  {% if page.include_stripe == true %}
+    <script src="https://js.stripe.com/v3/"></script>
+  {% endif %}
 </head>

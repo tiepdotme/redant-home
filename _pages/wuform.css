@@ -1,0 +1,47 @@
+---
+permalink: /wuform.css
+---
+
+#logo { display:none }
+
+.wufoo input.text, .wufoo textarea.textarea { background: #FFFFFF }
+.wufoo .focused { background: transparent }
+
+.wufoo input,
+.wufoo textarea {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wufoo textarea {
+  height: 160px;
+  resize: none;
+}
+
+.wufoo input:focus,
+.wufoo textarea:focus {
+  outline: 0px;
+  -webkit-appearance: none;
+  box-shadow: 0 1px 3px 0 #dddddd;
+}
+
+.wufoo li.focused {
+  background-color: transparent !important;
+}
+
+.wufoo input[type="submit"] {
+  color: #df4040;
+  background-color: #ffffff;
+  border: 1px solid #df4040;
+  margin-bottom: 20px;
+}

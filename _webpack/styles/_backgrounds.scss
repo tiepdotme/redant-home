@@ -30,6 +30,14 @@
   background-color: $gray-200;
 }
 
+.bg-code-review {
+  background-image: url('~images/code-review.jpg');
+
+  &.padded-section {
+    padding: 150px 0 90px 0;
+  }
+}
+
 .bg-pattern-dot {
   background-image: url('~images/pattern-dot.jpg');
   background-repeat: repeat;
