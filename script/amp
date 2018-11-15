@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Executed on every build, the following script cleans the previously compiled
+# AMP styles from the _includes folder, copies over the newly compiled
+# stylesheet and removes all !important flags and the @-ms-viewport selector
+# from the CSS to avoid having invalid AMP styles
+
+rm -f _includes/amp/index.css
+sed -E 's/(!important|@-ms-viewport)//g' assets/amp*.css > _includes/amp/index.css

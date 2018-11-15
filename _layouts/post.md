@@ -40,6 +40,7 @@
     <section class="pb-5 d-none d-sm-block" data-read-more></section>
 
     {% include footer.html %}
+    {% include scripts.html %}
   </div>
 </body>
 </html>

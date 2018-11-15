@@ -4,6 +4,7 @@ const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
+const WebpackShellPlugin = require('webpack-shell-plugin');
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -21,6 +22,7 @@ module.exports = (env = {}) => {
    */
   config.entry = {
     app: path.join(__dirname, 'src', 'index.js'),
+    amp: path.join(__dirname, 'src', 'amp.js'),
   };
 
   /**
@@ -73,7 +75,7 @@ module.exports = (env = {}) => {
       // Reference: https://webpack.js.org/plugins/extract-text-webpack-plugin/
       {
         test: /\.s?css$/,
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
@@ -101,7 +103,7 @@ module.exports = (env = {}) => {
       // FILE LOADER
       // Reference: https://github.com/webpack-contrib/file-loader
       {
-        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|ico)$/,
+        test: /\.(png|jpg|jpeg|gif|mp3|svg|woff|woff2|ttf|eot|ico|swf)$/,
         use: [
           {
             loader: 'file-loader',
@@ -157,6 +159,10 @@ module.exports = (env = {}) => {
     new webpack.optimize.CommonsChunkPlugin({
       name: 'meta',
       chunks: 'vendor',
+    }),
+
+    new WebpackShellPlugin({
+      onBuildEnd: ['./script/amp']
     }),
   ];
 
