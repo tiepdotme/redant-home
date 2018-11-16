@@ -1,0 +1,68 @@
+---
+label: posts
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  default: post
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - news
+    - ideas
+  label: type
+  default: news
+- type: tag_list
+  name: categories
+  label: categories
+  default:
+  - our-work
+  - ruby-on-rails
+  - red-ant-stuff
+  - ecommerce
+  - strategy
+  - how-we-do
+  - design
+  - automated-testing
+  - ruby-on-rails-devops
+  - mobile
+  - agile
+  - digital-products
+  - tool-reviews
+  - pjax
+  - lean-development
+  - marketing
+  - software-development
+- type: text
+  name: author
+  label: author
+  config:
+    required: true
+  default: Ben Still
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
+- type: text
+  name: keywords
+  label: keywords
+- type: include
+  name: image
+  label: image
+- type: include
+  name: excerpt
+  label: excerpt
