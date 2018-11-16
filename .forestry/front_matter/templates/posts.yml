@@ -82,3 +82,5 @@ fields:
   - Startup
   - Red-Ant-Marketing
   - LinkedIn
+pages:
+- _posts/test-post.md
