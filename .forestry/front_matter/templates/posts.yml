@@ -63,6 +63,7 @@ fields:
 - type: include
   name: image
   label: image
+  template: image
 - type: include
   name: excerpt
   label: excerpt
