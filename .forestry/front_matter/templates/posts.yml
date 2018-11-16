@@ -67,3 +67,4 @@ fields:
 - type: include
   name: excerpt
   label: excerpt
+  template: excerpt
