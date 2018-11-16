@@ -2,4 +2,7 @@
 label: bla
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: text
+  name: boo
+  label: boo
