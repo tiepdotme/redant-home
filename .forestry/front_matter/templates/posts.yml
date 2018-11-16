@@ -74,3 +74,11 @@ fields:
   name: excerpt
   label: excerpt
   template: excerpt
+- type: tag_list
+  name: tags
+  label: tags
+  default:
+  - Innovation
+  - Startup
+  - Red-Ant-Marketing
+  - LinkedIn
