@@ -1,0 +1,26 @@
+---
+label: jobs
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: job
+- type: text
+  name: slug
+  label: slug
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
