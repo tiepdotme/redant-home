@@ -34,6 +34,7 @@ fields:
     - whatson
     - yates
   label: theme
+  default: 12wbt
 - type: text
   name: slug
   label: slug
