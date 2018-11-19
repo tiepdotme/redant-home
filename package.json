@@ -24,8 +24,7 @@
     "lint:js": "eslint ./src/**/*.js",
     "publish": "yarn amp:touch && yarn build:webpack && yarn build:jekyll",
     "preview": "yarn amp:touch && yarn build:webpack && yarn preview:jekyll",
-    "preview:jekyll": "bundle exec jekyll build --drafts --unpublished --future",
-
+    "preview:jekyll": "bundle exec jekyll build --drafts --unpublished --future"
   },
   "browserslist": [
     "last 2 versions"
