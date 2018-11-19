@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
@@ -10,8 +10,12 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: src/images
-public_path: "/assets"
+upload_dir: uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+build:
+   preview_command: yarn preview
+   publish_command: yarn publish
+   output_directory: _site
