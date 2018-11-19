@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmarking the perfect project- what makes one project better than another
+title: Benchmarking the perfect project - what makes one project better than another
 permalink: /how-we-do/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 type: ideas
 categories:
@@ -13,6 +13,7 @@ image:
 excerpt:
   short: A few months ago, we started working with a project management coach. Here's what happened.
   long: We were already awesome, but we wanted more. This time our project managers were in the spotlight, we hired a project management coach to refine our processes and make us and even better team. Better processes equal happy project managers, and happy project managers equal relaxed devs, and relaxed devs equal great work. Sounds alright doesn't it?
+time: 5 Mins Read
 ---
 
 A few months ago, we started working with a project management coach.

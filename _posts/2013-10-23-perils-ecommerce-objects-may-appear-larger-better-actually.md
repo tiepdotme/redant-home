@@ -15,6 +15,7 @@ image:
 excerpt:
   short: Ever bought something online that wasn't what you thought it was?
   long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping from your couch, it's also brought a boatload of potential hassle in meeting your consumer expectations for a product. Make sure you know what you're getting for your money.
+time: 5 Mins Read
 ---
 
 How I ended up here:

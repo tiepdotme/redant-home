@@ -1,0 +1,28 @@
+<div class="ga-section card mb-3">
+  <a href="{{ post.url }}" class="portfolio-tile bg-white text-black mb-0">
+    {% if post.image.small %}
+      <div
+        class="post-image-preview"
+        style="background-image: url('{{post.image.small}}')">
+      </div>
+    {% endif %}
+
+    <div class="p-3">
+      <h5>{{ post.title }}</h5>
+
+      <p class="post-content">
+        {% if post.excerpt.short %}
+          {{ post.excerpt.short }}
+        {% endif %}
+      </p>
+
+      <div class="tile-eyebrow">
+        <small class="text-muted">
+          <b>{{ post.author }}</b>
+          <br>
+          {{ post.date | date_to_string }} - {{ post.time }}
+        </small>
+      </div>
+    </div>
+  </a>
+</div>
