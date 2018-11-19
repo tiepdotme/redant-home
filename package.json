@@ -4,7 +4,6 @@
   "description": "Red Ant Website.",
   "main": "src/index.js",
   "author": "Jason Taylor <jason@redant.com.au>",
-  "private": true,
   "scripts": {
     "start": "yarn setup && concurrently 'yarn start:webpack' 'yarn start:jekyll'",
     "start:webpack": "webpack --watch",
