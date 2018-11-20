@@ -11,7 +11,7 @@ description: Google's new image caching mechanism in Gmail is an email marketer'
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
 image:
   small: /uploads/2013/somebody-set-us-up-the-bomb-small.gif
-  big: /uploads/2013/somebody-set-us-up-the-bomb.gif
+  big: /uploads/2013/somebody-set-us-up-the-bomb.jpg
 meta:
   focus_keywords: gmail
 excerpt:
