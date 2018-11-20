@@ -6,22 +6,33 @@ description: Posts for Tool Reviews
 keywords: Tool Reviews
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Tool Reviews</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <!-- <a href="/pjax">PJAX</a> -->
+        <a href="/red-ant-stuff">Red Ant Stuff</a>
+        <a href="/ruby-on-rails-devops">Ruby on Rails Devops</a>
+        <a href="/ruby-on-rails">Ruby on Rails</a>
+        <a href="/software-development">Software Development</a>
+        <a href="/strategy">Strategy</a>
+        <a href="/tool-reviews" class="active">Tool Reviews</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Tool Reviews</h1>
+          <hr>
+          <p>Description coming soon</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.tool-reviews %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="tool-reviews" %}

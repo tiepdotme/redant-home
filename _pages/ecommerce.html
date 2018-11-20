@@ -6,13 +6,30 @@ description: E-Commerce posts
 keywords: E-Commerce
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">E-Commerce</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/automated-testing">Automated Testing</a>
+        <a href="/design">Design</a>
+        <a href="/digital-products">Digital Products</a>
+        <a href="/ecommerce" class="active">E-Commerce</a>
+        <a href="/how-we-do">How We Do Stuff</a>
+        <a href="/ideas">Ideas</a>
+        <a href="/lean-development">Lean Development</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">E-Commerce</h1>
+          <hr>
+          <p>Description coming soon</p>
+        </div>
       </div>
     </div>
   </div>
@@ -27,10 +44,4 @@ keywords: E-Commerce
   <p>In addition to selling stuff, a client’s eCommerce project might involve other things like coupons, a points/rewards system, or API integration. It’s important to weigh up the benefits of building something new versus adapting a SAAS system, so often we’ll review and explore existing options before deciding on an eCommerce strategy that targets your business needs.</p>
 </div>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.ecommerce %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="ecommerce" %}

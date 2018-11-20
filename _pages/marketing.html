@@ -5,22 +5,33 @@ title: Marketing
 keywords: marketing
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Marketing</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/how-we-do">How We Do Stuff</a>
+        <a href="/ideas">Ideas</a>
+        <a href="/lean-development">Lean Development</a>
+        <a href="/marketing" class="active">Marketing</a>
+        <a href="/mobile">Mobile</a>
+        <a href="/news">News</a>
+        <a href="/our-work">Our Work</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Marketing</h1>
+          <hr>
+          <p>Description coming soon</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.marketing %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="marketing" %}
