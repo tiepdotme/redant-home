@@ -8,11 +8,14 @@ title: Ruby on Rails Sydney - Red Ant
   <div class="blog-navbar">
     <div class="container">
       <div class="links">
-        <a href="#" class="pri">News & Ideas</a>
-        <a href="#">Project Management</a>
-        <a href="#">Marketing</a>
-        <a href="#">Design</a>
-        <a href="#" class="active">Agile</a>
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/agile" class="active">Agile</a>
+        <a href="/automated-testing">Automated Testing</a>
+        <a href="/design">Design</a>
+        <a href="/digital-products">Digital Products</a>
+        <a href="/ecommerce">E-Commerce</a>
+        <a href="/how-we-do">How We Do Stuff</a>
+        <a href="/ideas">Ideas</a>
       </div>
     </div>
   </div>
@@ -80,58 +83,4 @@ title: Ruby on Rails Sydney - Red Ant
   </div>
 </div>
 
-<div class="bg-gray-light">
-  <section class="py-5 container">
-    {% for post in site.categories.agile limit:1 %}
-      <div class="ga-section card mb-3">
-        <a href="{{ post.url }}" class="portfolio-tile bg-white text-black mb-0">
-          <div class="row">
-            {% if post.image.small %}
-              <div
-                class="col-8 post-image-preview"
-                style="background-image: url('{{post.image.small}}')">
-              </div>
-
-            <div class="col-4 p-3">
-            {% else %}
-            <div class="p-3">
-            {% endif %}
-
-              <h5>{{ post.title }}</h5>
-
-              <p class="post-content">
-                {% if post.excerpt.short %}
-                  {{ post.excerpt.short }}
-                {% endif %}
-              </p>
-
-              <div class="tile-eyebrow">
-                <small class="text-muted">
-                  <b>{{ post.author }}</b>
-                  <br>
-                  {{ post.date | date_to_string }} - {{ post.time }}
-                </small>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
-
-    <div id="macy-container">
-      {% assign postLimit = 20 %}
-      {% for post in site.categories.agile offset:1 limit:postLimit %}
-        {% include post-card.html %}
-      {% endfor %}
-    </div>
-  </section>
-</div>
-
-{% assign postCount = site.categories.agile | size %}
-{% if postCount > postLimit %}
-  <div class="container text-center py-5">
-    <a href="">
-      <h5 class="mb-0">Show more posts</h5>
-    </a>
-  </div>
-{% endif %}
+{% include posts-by-category.html category="agile" %}

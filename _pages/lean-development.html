@@ -4,27 +4,34 @@ permalink: /lean-development/
 title: Ruby on Rails Sydney - Red Ant - Red Ant
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Lean Development</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/ecommerce">E-Commerce</a>
+        <a href="/how-we-do">How We Do Stuff</a>
+        <a href="/ideas">Ideas</a>
+        <a href="/lean-development" class="active">Lean Development</a>
+        <a href="/marketing">Marketing</a>
+        <a href="/mobile">Mobile</a>
+        <a href="/news">News</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Lean Development</h1>
+          <hr>
+          <p>In a nutshell, Lean Development is about eliminating waste, maximising learnings, empowering the team and building integrity into projects. Lean development and the agile methodology go hand in hand in a lot of ways. For example, lean development acknowledges that uncertainty is a natural part of development, and the agile framework allows for constant adjustments as events unfold and circumstances change. Perfect.</p>
+          <p>Ruby on Rails is also a great fit for lean development. Having a whole team working “the Rails way” and adhering to curated technology decisions means we save a lot of time and effort that used to get spent arguing over the best way to approach a task.</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="container content">
-  <p>In a nutshell, Lean Development is about eliminating waste, maximising learnings, empowering the team and building integrity into projects. Lean development and the agile methodology go hand in hand in a lot of ways. For example, lean development acknowledges that uncertainty is a natural part of development, and the agile framework allows for constant adjustments as events unfold and circumstances change. Perfect.</p>
-  <p>Ruby on Rails is also a great fit for lean development. Having a whole team working “the Rails way” and adhering to curated technology decisions means we save a lot of time and effort that used to get spent arguing over the best way to approach a task.</p>
-</div>
-
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.lean-development %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="lean-development" %}

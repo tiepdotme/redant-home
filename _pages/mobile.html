@@ -6,13 +6,30 @@ description: At Red Ant, we have a “mobile first” approach to projects.
 keywords: mobile
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Mobile</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/ideas">Ideas</a>
+        <a href="/lean-development">Lean Development</a>
+        <a href="/marketing">Marketing</a>
+        <a href="/mobile" class="active">Mobile</a>
+        <a href="/news">News</a>
+        <a href="/our-work">Our Work</a>
+        <a href="/pjax">PJAX</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Mobile</h1>
+          <hr>
+          <p>Description coming soon</p>
+        </div>
       </div>
     </div>
   </div>
@@ -24,10 +41,4 @@ keywords: mobile
   <p>This testing framework allows us to quickly identify issues and manage an ever-growing list of supported devices.</p>
 </div>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.mobile %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="mobile" %}

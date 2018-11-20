@@ -4,23 +4,34 @@ permalink: /ideas/
 title: Ruby on Rails Sydney - Red Ant - Red Ant
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Ideas</h1>
-        <hr>
-        <p>Eureka!</p>
-        <p>(all posts where type=ideas)</p>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/digital-products">Digital Products</a>
+        <a href="/ecommerce">E-Commerce</a>
+        <a href="/how-we-do">How We Do Stuff</a>
+        <a href="/ideas" class="active">Ideas</a>
+        <a href="/lean-development">Lean Development</a>
+        <a href="/marketing">Marketing</a>
+        <a href="/mobile">Mobile</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Ideas</h1>
+          <hr>
+          <p>Eureka!</p>
+          <p>(all posts where type=ideas)</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="ideas static-page">
-  <div class="container">
-    {% assign type = 'ideas' %}
-    {% include posts.html %}
-  </div>
-</div>
+{% include posts.html type="ideas" %}

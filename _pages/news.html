@@ -6,23 +6,35 @@ description: What’s happening in the world of Red Ant.
 keywords: news
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">News</h1>
-        <hr>
-        <p>What’s happening in the world of Red Ant.</p>
-        <p>(all posts where type=news)</p>
+<header class="blog-header blog-header--agile">
+  <div class="blog-navbar">
+    <div class="container">
+      <div class="links">
+        <a href="/blog" class="pri">News & Ideas</a>
+        <a href="/lean-development">Lean Development</a>
+        <a href="/marketing">Marketing</a>
+        <a href="/mobile">Mobile</a>
+        <a href="/news" class="active">News</a>
+        <a href="/our-work">Our Work</a>
+        <a href="/pjax">PJAX</a>
+        <a href="/red-ant-stuff">Red Ant Stuff</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">News</h1>
+          <hr>
+          <p>What’s happening in the world of Red Ant.</p>
+          <p>(all posts where type=news)</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="news static-page">
-  <div class="container">
-    {% assign type = 'news' %}
-    {% include posts.html %}
-  </div>
-</div>
+
+{% include posts.html type="news" %}
