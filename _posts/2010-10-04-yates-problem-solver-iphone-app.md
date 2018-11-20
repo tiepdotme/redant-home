@@ -10,8 +10,8 @@ author: Ben Still
 description: Yates Problem Solver iPhone App
 keywords: yates problem solver app
 image:
-  small: /assets/2010-yates-problem-solver-app-240x350.jpg
-  big: /assets/2010-yates-problem-solver-app.jpg
+  small: /uploads/2010/yates-problem-solver-app-small.jpg
+  big: /uploads/2010/yates-problem-solver-app.jpg
 meta:
   dsq_thread_id: '480278516'
 excerpt:

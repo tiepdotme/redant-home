@@ -8,8 +8,8 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-  small: /assets/uploads/2014/04/sing-up-header-small.jpg
-  big: /assets/uploads/2014/04/sing-up-header-small.jpg
+  small: /uploads/2009/sing-up-header-small.jpg
+  big: /uploads/2009/sing-up-header-small.jpg
 meta:
   dsq_thread_id: '594214655'
   keywords: sign up forms are tricky

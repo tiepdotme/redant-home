@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/2008-radiant-admin-465x311.png
-  big: /assets/2008-radiant-admin.png
+  small: /uploads/2008/radiant-admin-465x311.png
+  big: /uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:
@@ -44,11 +44,11 @@ So, we had a problem in that the tag cloud idea wasn't necessarily going to work
 
 To make it easy to generate a text cloud in our CMS (we're using Radiant), we thought that a simple ordered list was the most logical/semantic choice for content. We didn't want our content authors having to remember lots of markup to generate what was in essence a list of keywords describing the content. To add a text cloud, they add a cloud part to the page, and then use [Textile](http://en.wikipedia.org/wiki/Textile_%28markup_language%29) to write a list of words, starting with the most important:
 
-![radiant admin]({{ site.data.webpack['2008-radiant-admin.png'] }})
+![radiant admin](/uploads/2008/radiant-admin.png)
 
 We grab the cloud bit with this code, which could be either in the layout or as a snippet
 
-![cloud snippet]({{ site.data.webpack['2008-cloud-snippet.png'] }})
+![cloud snippet](/uploads/2008/radiant-cloud-snippet.png)
 
 But this is only half the story. Next, we could have gone 2 ways. The first would have been to simply style the content via CSS and Javascript, and the second was to use Flash. The advantage of Flash here is that it gave us a bit more freedom with regard to font, effects, and speed of production. The Javascript feeds this list of words into a Flash movie and we let Flash handle the weighting. We used [Prototype](http://prototypejs.org/) to parse the list, and added it as a variable into the embed code.
 
@@ -58,10 +58,10 @@ so.addVariable("tags", $$('div.text-cloud li').collect( function(li){return li.f
 so.write("text-cloud");
 ```
 
-<script type="text/javascript" src="/assets/uploads/2008/08/javascripts/shCore.js"></script>
-<script type="text/javascript" src="/assets/uploads/2008/08/javascripts/shBrushJScript.js"></script>
-<script type="text/javascript" src="/assets/uploads/2008/08/javascripts/shBrushXml.js"></script>
-<script type="text/javascript" src="/assets/uploads/2008/08/javascripts/dojshighlight.js"></script>
+<script type="text/javascript" src="/uploads/2008/08/javascripts/shCore.js"></script>
+<script type="text/javascript" src="/uploads/2008/08/javascripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="/uploads/2008/08/javascripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/uploads/2008/08/javascripts/dojshighlight.js"></script>
 
 From there it is pretty straight forward. Flash randomises the array, calculates relative sizes of fonts, and generates our text cloud. The only tricky thing left to do is to resize the Flash content on the page to fit the height of it's content. We didn't want to limit the content author at all- if they want 5 words or 50 words, the Flash needs to deal with it gracefully. Again, this is handled with Javascript and Prototype. This means that the content editor doesn't need to worry about passing additional arguments to make it bigger for more text, and we can be sure the text cloud will look the way it's meant to look.
 
@@ -76,10 +76,10 @@ From there it is pretty straight forward. Flash randomises the array, calculates
 	<input type="submit" value="Create Cloud" onClick="javascript:urchinTracker ('/makeacloud');"/>
 </p>
 </form>
-<script type="text/javascript" src="/assets/uploads/2008/08/javascripts/tag-cloud.js"></script>
+<script type="text/javascript" src="/uploads/2008/08/javascripts/tag-cloud.js"></script>
 
 #### Download and roll your own
 
-- [flash-resize.js](/assets/uploads/2008/08/text-cloud/flash_resize.js) - resizes the flash
-- [text-cloud.js](/assets/uploads/2008/08/text-cloud/text-cloud.js) - talks to the flash
-- [root.swf](/assets/uploads/2008/08/text-cloud/root.swf) - Flash that contains the bling. Get the [flash source here](/assets/uploads/2008/08/text-cloud/root.fla) (right click and choose Save as)
+- [flash-resize.js](/uploads/2008/08/text-cloud/flash_resize.js) - resizes the flash
+- [text-cloud.js](/uploads/2008/08/text-cloud/text-cloud.js) - talks to the flash
+- [root.swf](/uploads/2008/08/text-cloud/root.swf) - Flash that contains the bling. Get the [flash source here](/uploads/2008/08/text-cloud/root.fla) (right click and choose Save as)

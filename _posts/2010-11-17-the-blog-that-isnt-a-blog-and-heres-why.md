@@ -9,8 +9,8 @@ author: Ben Still
 description: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
 keywords: huggies blog
 image:
-  small: /assets/2010-huggies-blogs-1-340x340.jpg
-  big: /assets/2010-huggies-blogs-1.jpg
+  small: /uploads/2010/huggies-blogs-1-small.jpg
+  big: /uploads/2010/huggies-blogs-1.jpg
 meta:
   dsq_thread_id: '616659968'
 excerpt:

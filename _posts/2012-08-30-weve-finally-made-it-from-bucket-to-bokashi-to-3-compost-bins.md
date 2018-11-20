@@ -9,8 +9,8 @@ author: Ben Still
 description: A whirlwind tale of Red Ant's journey through the wonderful world of composting.
 keywords: compost bins
 image:
-  small: /assets/uploads/2012/08/compost-bin-465x309.jpg
-  big: /assets/uploads/2012/08/compost-bin.jpg
+  small: /uploads/2012/compost-bin-small.jpg
+  big: /uploads/2012/compost-bin.jpg
 meta:
   dsq_thread_id: '824121150'
 excerpt:

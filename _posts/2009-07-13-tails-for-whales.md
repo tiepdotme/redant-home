@@ -10,8 +10,8 @@ author: Ben Still
 description: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
 keywords: tails for whales
 image:
-  small: /assets/2009-tails-whales-small.png
-  big: /assets/2009-tails-whales-big.png
+  small: /uploads/2009/tails-whales-small.png
+  big: /uploads/2009/tails-whales-big.png
 meta:
   dsq_thread_id: '515368652'
 excerpt:

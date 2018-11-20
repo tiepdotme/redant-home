@@ -8,8 +8,8 @@ categories:
   - agile
 author: Ben Still
 image:
-  small: /assets/uploads/2009/07/wiki-wiki-small.jpg
-  big: /assets/uploads/2009/07/wiki-wiki-big.jpg
+  small: /uploads/2009/wiki-wiki-small.jpg
+  big: /uploads/2009/wiki-wiki-big.jpg
 meta:
   dsq_thread_id: '485952994'
   focus_keywords: confluence

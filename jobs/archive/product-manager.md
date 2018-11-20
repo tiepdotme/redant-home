@@ -3,7 +3,7 @@ layout: job
 slug: product-manager
 title: Digital Product Manager / Business Analyst
 image:
-  small: /assets/uploads/2014/05/skater_400.gif
+  small: /uploads/2014/skater.gif
 ---
 
 <div class="job-not-available">

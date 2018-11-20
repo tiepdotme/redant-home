@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/2008-kap-uts-design-award.jpg
-  big: /assets/2008-kap-uts-design-award.jpg
+  small: /uploads/2008/kap-uts-design-award.jpg
+  big: /uploads/2008/kap-uts-design-award.jpg
 meta:
   dsq_thread_id: '520515549'
   keywords: Red Ant creative award at UTS

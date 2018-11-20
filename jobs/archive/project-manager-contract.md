@@ -3,7 +3,7 @@ layout: job
 slug: project-manager-contract
 title: Account Manager / Project Manager
 image:
-  small: /assets/uploads/2014/05/skater_400.gif
+  small: /uploads/2014/skater.gif
 ---
 
 ## Overview
