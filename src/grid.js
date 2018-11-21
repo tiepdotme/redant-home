@@ -9,16 +9,18 @@ const init = $(function() {
       });
     });
 
-    var macyInstance = Macy({
-      container: '#macy-container',
-      columns: 3,
-      margin: 20,
-      breakAt: {
-        700: {
-          columns: 2
+    if ($('#macy-container').length) {
+      var macyInstance = Macy({
+        container: '#macy-container',
+        columns: 3,
+        margin: 20,
+        breakAt: {
+          700: {
+            columns: 2
+          }
         }
-      }
-    });
+      });
+    }
   }
 
   init();
