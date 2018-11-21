@@ -10,3 +10,4 @@ _includes/amp/index.css
 _site
 node_modules
 assets
+.tool-versions
