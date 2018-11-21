@@ -5,79 +5,38 @@ The Red Ant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyl
 The app uses a standard Jekyll structure with all uncompiled asset source files
 located in `./src`.
 
-## Install docker and prerequisites
-
-See the playbook for setting up a new machine, in particular the dinghy / docker section.
-
-<https://github.com/red-ant/playbooks/blob/master/new_machine/sierra.md>
-
-Or to keep it brief:
-
-Install virtualbox:
-```
-brew tap phinze/homebrew-cask
-brew install brew-cask
-brew cask install virtualbox
-```
-
-Install docker requirements:
-```
-brew tap codekitchen/dinghy
-brew install dinghy docker docker-machine docker-compose
-```
-
-Then create dinghy with virtualbox as the provider:
-```
-dinghy create --provider virtualbox
-```
-
 ## Quick start :runner:
 
 ```
 cd ~/src
 git clone git@github.com:red-ant/redant-home.git
 cd redant-home
-dinghy up
-docker-compose up
-open http://web.redanthome.docker
+```
+
+Make sure your local node & ruby are up to date:
+
+```
+rbenv install 2.5.3
+rbenv local 2.5.3
+nodenv install 8.11.3
+nodenv local 8.11.3
+```
+
+Then:
+
+```
+bundle install
+yarn install
+yarn start
+open http://localhost:4000
 ```
 
 
-## Problems with your VMz? 🧟
-
-Try this
+If nokogiri fails, add config and repeat the previous commands:
 
 ```
-docker-compose rm
-docker-compose rmi
+bundle config build.nokogiri --use-system-libraries --with-xml2-include=$(brew --prefix libxml2)/include/libxml2
 ```
-then check to see if there are any still running
-
-```
-docker-compose ps
-docker-compose images
-```
-
-Then start up again
-```
-dinghy up
-docker-compose up
-open http://web.redanthome.docker
-```
-
-If you're still having issues, kill all the images and then
-```
-dinghy destroy
-```
-Then restart your machine, suck your finger and write "666" with that finger on your screen during startup, and spin twice in your chair. Slowly. Then when the machine comes back up
-```
-dinghy create
-dinghy up
-docker-compose up
-open http://web.redanthome.docker
-```
-
-Zombies be gone
 
 ## Updating portfolio order
 
@@ -174,3 +133,10 @@ AMP requires a customised css file that requires the minimum Bootstrap styles to
 - `_layouts/amp.html` is the main template the amp-jekyll plugin uses to generate the AMP pages
 - `_includes/amp` contains the customised headers and elements AMP needs in order to be valid
 - Reference at [amp-jekyll plugin](https://github.com/juusaw/amp-jekyll) and [here](https://nbsoftsolutions.com/blog/creating-a-parallel-amp-site-with-jekyll).
+
+## Forestry
+
+Forestry front matters and settings are in the `.forestry` folder.
+Forestry uses the `yarn preview` & `yarn build` scripts.
+
+All forestry page asset uploads are set to go into the `/assets/uploads` folder.
