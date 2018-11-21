@@ -43,11 +43,10 @@ exclude:
   - webpack.config.js
   - yarn.lock
   - yarn-error.log
-  - legacy
-  - .release-it.json
-  - .stage
   - archive
   - drafts
   - _posts/archive
   - _posts/drafts
   - jobs/archive
+  - .release.json
+  - .stage

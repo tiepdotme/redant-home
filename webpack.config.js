@@ -21,8 +21,8 @@ module.exports = (env = {}) => {
    * Reference: https://webpack.js.org/configuration/entry-context/
    */
   config.entry = {
-    app: path.join(__dirname, 'src', 'index.js'),
-    amp: path.join(__dirname, 'src', 'amp.js'),
+    app: `${__dirname}/_webpack/index.js`,
+    amp: `${__dirname}/_webpack/amp.js`,
   };
 
   /**
@@ -30,9 +30,9 @@ module.exports = (env = {}) => {
    * Reference: https://webpack.js.org/configuration/output/
    */
   config.output = {
-    path: path.join(__dirname, 'assets'),
+    path: `${__dirname}/assets/webpack`,
     filename: isProd ? '[name].[chunkhash].js' : '[name].js',
-    publicPath: '/assets/',
+    publicPath: '/assets/webpack/',
   };
 
   /**
@@ -41,7 +41,7 @@ module.exports = (env = {}) => {
    * Add paths to modules so we don't need to use relative paths
    */
   config.resolve = {
-    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+    modules: [`${__dirname}/_webpack`, 'node_modules'],
   };
 
   /**
@@ -84,10 +84,10 @@ module.exports = (env = {}) => {
       // CSS LOADER
       // Reference: https://webpack.js.org/plugins/extract-text-webpack-plugin/
       {
-        test: /\.s?css$/,
+        test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
         use: [
-          MiniCssExtractPlugin.loader,
+          isProd ? MiniCssExtractPlugin.loader : 'style-loader',
           'css-loader',
           // Reference: https://github.com/postcss/postcss-loader
           // Postprocess your css with PostCSS plugins
@@ -100,10 +100,10 @@ module.exports = (env = {}) => {
           {
             loader: 'sass-loader',
             options: {
-              includePaths: [`${__dirname}/src/styles`],
+              includePaths: [`${__dirname}/_webpack/styles`],
             },
           },
-        ]
+        ],
       },
 
       // FILE LOADER
@@ -131,8 +131,8 @@ module.exports = (env = {}) => {
     // Reference: https://github.com/danethurber/webpack-manifest-plugin
     // Output the manifest for jekyll to import
     new ManifestPlugin({
-      fileName: '../_data/webpack.json',
-      publicPath: '/assets/',
+      fileName: `${__dirname}/_data/webpack.json`,
+      publicPath: '/assets/webpack/',
       writeToFileEmit: true,
     }),
 
