@@ -7,8 +7,8 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-  small: /uploads/2008/space-small.png
-  big: /uploads/2008/space-large.jpg
+  small: /assets/uploads/2008/space-small.png
+  big: /assets/uploads/2008/space-large.jpg
 meta:
   dsq_thread_id: '621262000'
 excerpt:

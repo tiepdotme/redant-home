@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /uploads/2008/ant-small.jpg
-  big: /uploads/2008/ant-large.jpg
+  small: /assets/uploads/2008/ant-small.jpg
+  big: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
 excerpt:
@@ -18,7 +18,7 @@ excerpt:
 
 ## Huggies Baby Name Finder
 
-[![Baby Name finder](/uploads/2008/bnf.jpg)](http://huggies.com.au/babynames/)
+[![Baby Name finder](/assets/uploads/2008/bnf.jpg)](http://huggies.com.au/babynames/)
 
 The Baby Name finder is an AJAX tool that helps you look up baby names, as well as create a list of favourites to share. We referenced these names against names that members had already chosen for their children - so if you're thinking about Joshua, we can show you the ten most popular sibling names from families that already have a Joshua.
 
@@ -26,7 +26,7 @@ The Baby Name finder is an AJAX tool that helps you look up baby names, as well 
 
 ## Ultraserve
 
-[![Ultraserve](/uploads/2008/ultraserve.jpg)](http://www.ultraserve.com.au/)
+[![Ultraserve](/assets/uploads/2008/ultraserve.jpg)](http://www.ultraserve.com.au/)
 
 A redesign project for the mighty Ultraserve, done in Ruby using Radiant as the CMS.
 
@@ -34,7 +34,7 @@ A redesign project for the mighty Ultraserve, done in Ruby using Radiant as the 
 
 ## Mums & Bubs TV
 
-[![Mums and Bubs](/uploads/2008/mumsandbubs.jpg)](http://huggies.com.au/MumsAndBubsTV/)
+[![Mums and Bubs](/assets/uploads/2008/mumsandbubs.jpg)](http://huggies.com.au/MumsAndBubsTV/)
 
 Another Huggies project- This has been / is quite a large project, involving the coordination of web site content and a TV schedule, as well as live chat and regular updates. Also includes a large consumer promotion, where you can win a pretty nice looking Volvo.
 
@@ -42,7 +42,7 @@ Another Huggies project- This has been / is quite a large project, involving the
 
 ## Orix
 
-[![Orix web site](/uploads/2008/orix.jpg)](http://www.orix.com.au/)
+[![Orix web site](/assets/uploads/2008/orix.jpg)](http://www.orix.com.au/)
 
 We're thrilled to see this project go live! With operations in 23 countries and regions worldwide, ORIX's activities include leasing, corporate finance, real estate-related finance and development, life insurance, and investment and retail banking.
 
@@ -52,7 +52,7 @@ Please be sure to stop by the [Novated Lease Calculator](http://www.orix.com.au/
 
 ## Oxfam Trailwalker
 
-[![Oxfam Trailwalker](/uploads/2008/oxfam.jpg)](http://www2.oxfam.org.au/trailwalker/Melbourne)
+[![Oxfam Trailwalker](/assets/uploads/2008/oxfam.jpg)](http://www2.oxfam.org.au/trailwalker/Melbourne)
 
 A dotNet project with extensive javascript and AJAX, we're working together with the Oxfam team to build this application for the Trailwalker project.
 
@@ -60,7 +60,7 @@ A dotNet project with extensive javascript and AJAX, we're working together with
 
 ## Kleenex Cottonelle
 
-[![Kleenex Cottonelle site](/uploads/2008/cottonelle.jpg)](http://www.kleenexpuppy.com.au/)
+[![Kleenex Cottonelle site](/assets/uploads/2008/cottonelle.jpg)](http://www.kleenexpuppy.com.au/)
 
 The Puppy gets a new site!
 
@@ -68,7 +68,7 @@ The Puppy gets a new site!
 
 ## INO Therapeutics Clinical Trial Site
 
-[![INO Therapeutics site](/uploads/2008/ino.jpg)](http://clinicaltrials.inotherapeutics.com/)
+[![INO Therapeutics site](/assets/uploads/2008/ino.jpg)](http://clinicaltrials.inotherapeutics.com/)
 
 An extranet application for managing clinical trials for INO Therapeutics, with secure document library and user management. This was built with [Ruby on Rails](/ruby-on-rails/why-we-use-ruby-on-rails/), with a design by our award winning Mr Kap.
 
@@ -76,7 +76,7 @@ An extranet application for managing clinical trials for INO Therapeutics, with 
 
 ## Wondersoft Design Competition
 
-[![Wondersoft site](/uploads/2008/wondersoft.jpg)](http://www.wondersoft.com.au/)
+[![Wondersoft site](/assets/uploads/2008/wondersoft.jpg)](http://www.wondersoft.com.au/)
 
 Voting has just finished on this small interactive tool that we created to allow people to vote on their favourite design by primary school children- something which turned out to be incredibly popular with tens of thousands of people voting in a day.
 
@@ -84,7 +84,7 @@ Voting has just finished on this small interactive tool that we created to allow
 
 ## Books Alive
 
-[![Books Alive site](/uploads/2008/books-alive.jpg)](http://www.booksalive.com.au/)
+[![Books Alive site](/assets/uploads/2008/books-alive.jpg)](http://www.booksalive.com.au/)
 
 Another [Ruby on Rails](http://www.rubyonrails.org/) and [Radiant](http://radiantcms.org/) project, but this one is just a prelude to the much larger site that we're beavering away at right now. The preview site contains a useful countdown, so you know exactly how many sleeps to go until the big site goes live.
 

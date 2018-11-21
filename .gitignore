@@ -9,4 +9,4 @@ _data/webpack.json
 _includes/amp/index.css
 _site
 node_modules
-assets
+assets/webpack

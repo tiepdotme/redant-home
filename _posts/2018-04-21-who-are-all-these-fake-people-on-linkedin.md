@@ -10,7 +10,7 @@ tags:
   - LinkedIn
 ---
 
-![](/uploads/2018/linkedin1.png)
+![](/assets/uploads/2018/linkedin1.png)
 
 # Who are all these fake people on LinkedIn?
 
@@ -22,19 +22,19 @@ My way of checking bona fides goes like this:
 
 1. Click on the profile link in the invite email
 
-![](/uploads/2018/linkedin2.png)
+![](/assets/uploads/2018/linkedin2.png)
 
 2. **copy image URL** for their photo
 
-![](/uploads/2018/linkedin3.png)
+![](/assets/uploads/2018/linkedin3.png)
 
 3. Go to [Google image search](https://www.google.com.au/imghp?safe=off&biw=1440&bih=725&site=webhp&tbm=isch), and **search by image**
 
-![](/uploads/2018/linkedin4.png)
+![](/assets/uploads/2018/linkedin4.png)
 
 4. Paste the image URL in and **presto**
 
-![](/uploads/2018/linkedin5.png)
+![](/assets/uploads/2018/linkedin5.png)
 
 Now maybe the Laura that contacted me is the Real Laura, and her image has been stolen. Or maybe the real person is Morag, Aline or Imogen. Are identical quadruplets even a thing? I’m pretty sure Gavin is a fake.
 

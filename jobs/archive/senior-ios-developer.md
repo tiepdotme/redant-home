@@ -3,7 +3,7 @@ layout: job
 slug: senior-ios-developer
 title: Senior iOS Developer - Swift/Objective-C
 image:
-  small: /uploads/2014/yoyo.png
+  small: /assets/uploads/2014/yoyo.png
 ---
 
 <div class="job-not-available">

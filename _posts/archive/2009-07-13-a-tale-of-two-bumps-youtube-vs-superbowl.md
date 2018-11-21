@@ -7,8 +7,8 @@ categories:
   - how-we-do
 author: Ben Still
 image:
-  small: /uploads/2009/alexa.png
-  big: /uploads/2009/alexa.png
+  small: /assets/uploads/2009/alexa.png
+  big: /assets/uploads/2009/alexa.png
 meta:
   dsq_thread_id: '610081084'
   focus_keywords: youtube vs superbowl
@@ -19,7 +19,7 @@ excerpt:
 
 [Adage](http://adage.com/article?article_id=112835) has published an article that looks at the current Evolution campaign for Dove, and compares the traffic resulting from a Youtube spot vs a Superbowl ad. Here are the statistics from Alexa, showing performance:
 
-[![alexa graph showing site traffic on www.campaignforrealbeauty.com site](/uploads/2009/alexa.png)](http://www.alexa.com/data/details/traffic_details?&compare_sites=&y=p&q=&size=medium&range=1y&url=www.campaignforrealbeauty.com)
+[![alexa graph showing site traffic on www.campaignforrealbeauty.com site](/assets/uploads/2009/alexa.png)](http://www.alexa.com/data/details/traffic_details?&compare_sites=&y=p&q=&size=medium&range=1y&url=www.campaignforrealbeauty.com)
 
 The **first bump** is traffic from the Superbowl ad, which cost around $3.75 million to run. The **second bump** is from this ad on Youtube, which ran for free:
 

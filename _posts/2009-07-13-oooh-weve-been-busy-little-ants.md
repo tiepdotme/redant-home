@@ -10,8 +10,8 @@ author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
 image:
-  small: /uploads/2009/troopers-small.jpg
-  big: /uploads/2009/troopers-large.jpg
+  small: /assets/uploads/2009/troopers-small.jpg
+  big: /assets/uploads/2009/troopers-large.jpg
 meta:
   dsq_thread_id: '640409355'
 excerpt:
@@ -25,7 +25,7 @@ Here are a few of the projects that have been keeping us busy lately:
 
 #### Books Alive
 
-![Books Alive](/uploads/2009/aug-update-books-alive.jpg)
+![Books Alive](/assets/uploads/2009/aug-update-books-alive.jpg)
 
 The Books Alive site is an Australian Government initiative to encourage people to read. Rather than listing thousands of titles you **could** read, the Books Alive site is all about 50 really great books that you **should** read!
 
@@ -35,7 +35,7 @@ Your personal guide to 50 books so good, everyone will want to read them.
 
 #### Broadcast Australia
 
-![Broadcast Australia](/uploads/2009/aug-update-broadcast-australia.jpg)
+![Broadcast Australia](/assets/uploads/2009/aug-update-broadcast-australia.jpg)
 
 We created a new visual design and site layout to highlight the company's most important marketing messages and make it easier for potential customers to find information relevant to them. We also set up a new Content Management System so that content owners inside the business can update pages almost as easily as updating a document on their desktop.
 
@@ -43,7 +43,7 @@ We created a new visual design and site layout to highlight the company's most i
 
 #### Huggies Jeans for Genes
 
-[![Huggies](/uploads/2009/aug-update-huggies.jpg)](/portfolio/huggies/)
+[![Huggies](/assets/uploads/2009/aug-update-huggies.jpg)](/portfolio/huggies/)
 
 We added some denim bling to the header area as part of Huggies support of Jeans for Genes day. We also developed a new photo upload tool that allows members to upload photos of their children wearing jeans. This is a reusable tool that will be used in other photo based competitions, and includes an extensive image moderation application.
 
@@ -51,7 +51,7 @@ We added some denim bling to the header area as part of Huggies support of Jeans
 
 #### Kleenex Wipes
 
-![Kleenex Wipes](/uploads/2009/aug-update-kleenex-wipes.jpg)
+![Kleenex Wipes](/assets/uploads/2009/aug-update-kleenex-wipes.jpg)
 
 A brand new site for Kleenex Wipes. Watch for the closing doors!
 
@@ -59,7 +59,7 @@ A brand new site for Kleenex Wipes. Watch for the closing doors!
 
 #### Snugglers
 
-![Snugglers](/uploads/2009/aug-update-snugglers.jpg)
+![Snugglers](/assets/uploads/2009/aug-update-snugglers.jpg)
 
 A brand new site for Snugglers
 
@@ -67,13 +67,13 @@ A brand new site for Snugglers
 
 #### KCP4u extranet
 
-![kcp4u](/uploads/2009/aug-update-kcp4u.jpg)
+![kcp4u](/assets/uploads/2009/aug-update-kcp4u.jpg)
 
 A new extranet application for KC Professional, which contains sales material and product information for internal staff and distributors.
 
 #### Oxfam Trailwalker
 
-[![Trailwalker](/uploads/2009/aug-update-trailwalker.jpg)](http://www2.oxfam.org.au/trailwalker/Sydney)
+[![Trailwalker](/assets/uploads/2009/aug-update-trailwalker.jpg)](http://www2.oxfam.org.au/trailwalker/Sydney)
 
 The Melbourne walk has come and gone, and just a few more sleeps until the Sydney event. This is a .net project that we've been working on with the Oxfam team.
 

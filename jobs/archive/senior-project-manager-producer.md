@@ -3,7 +3,7 @@ layout: job
 slug: senior-project-manager-producer
 title: Senior Account Manager / Project Manager / Producer
 image:
-  small: /uploads/2014/skater.gif
+  small: /assets/uploads/2014/skater.gif
 ---
 
 ## Overview

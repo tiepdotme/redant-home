@@ -9,8 +9,8 @@ categories:
 author: Ben Still
 keywords: beautyheaven ruby on rails
 image:
-  small: /uploads/2009/beautyheaven-small.png
-  big: /uploads/2009/beautyheaven-redesigned-home-page.png
+  small: /assets/uploads/2009/beautyheaven-small.png
+  big: /assets/uploads/2009/beautyheaven-redesigned-home-page.png
 meta:
   dsq_thread_id: '479978238'
 excerpt:
@@ -30,16 +30,16 @@ Here are some screens:
 
 Redesigned home page
 
-[![Redesigned home page](/uploads/2009/beautyheaven-redesigned-home-page.png)](http://www.flickr.com/photos/39680059@N08/3641611813/)
+[![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.png)](http://www.flickr.com/photos/39680059@N08/3641611813/)
 
 The new feature that pulls in the latest articles on the home page (javascript)
 
-[![Home page feed](/uploads/2009/beautyheaven-home-page-feed.jpg)](http://www.flickr.com/photos/39680059@N08/3642419864/)
+[![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg)](http://www.flickr.com/photos/39680059@N08/3642419864/)
 
 Latest video widget thing that pulls in video and story excerpts (flash)
 
-[![Video preview widget](/uploads/2009/beautyheaven-video-preview-widget.jpg)](http://www.flickr.com/photos/39680059@N08/3642419752/)
+[![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg)](http://www.flickr.com/photos/39680059@N08/3642419752/)
 
 Salon directory application
 
-[![Salon directory](/uploads/2009/beautyheaven-salon-directory.jpg)](http://www.flickr.com/photos/39680059@N08/3642419644/)
+[![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg)](http://www.flickr.com/photos/39680059@N08/3642419644/)

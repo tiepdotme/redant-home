@@ -7,8 +7,8 @@ categories:
   - strategy
 author: Ben Still
 image:
-  small: /uploads/2009/viral-small.png
-  big: /uploads/2009/viral-large.jpg
+  small: /assets/uploads/2009/viral-small.png
+  big: /assets/uploads/2009/viral-large.jpg
 meta:
   dsq_thread_id: '497268647'
   keywords: viral marketing
@@ -30,9 +30,9 @@ Increasingly we are seeing companies trying to make it viral for their online an
 
 ### The contenders
 
-[![](/uploads/2009/realestate_vs_threadless_01.jpg)](/uploads/2009/realestate_do_big.jpg)
+[![](/assets/uploads/2009/realestate_vs_threadless_01.jpg)](/assets/uploads/2009/realestate_do_big.jpg)
 
-[![](/uploads/2009/realestate_vs_threadless_02.jpg)](/uploads/2009/threadless_big.jpg)
+[![](/assets/uploads/2009/realestate_vs_threadless_02.jpg)](/assets/uploads/2009/threadless_big.jpg)
 
 ### The approach: RealEstate
 
@@ -40,13 +40,13 @@ RealEstate's concept is to donate space on a big billboard that lots of people d
 
 The proposition is that they have hired this billboard. If 100,000 people hit the Do Something Big page on their site by Nov 14, they will donate the billboard space for the remaining rental period. Get your friends to come and click on the page to get to the target earlier.
 
-![Real Estate](/uploads/2009/realestate_do_something.jpg)
+![Real Estate](/assets/uploads/2009/realestate_do_something.jpg)
 
 ### The approach: Threadless
 
 Threadless's concept is nothing new : give something away to reward ongoing patronage. If you're a member, you see the [Loves](http://www.threadless.com/loves) page, where all the current promotions are. The latest of which is 550 free tshirts. For every tshirt you buy, you get an extra entry into the draw. If you take a photo of yourself wearing one of the shirts, you can upload it to the site and earn money towards your next purchase. And if that wasn't enough, if you refer a friend to the site, and they buy a tshirt, you get even more money off your next shirt.
 
-![Threadless](/uploads/2009/threadless.jpg)
+![Threadless](/assets/uploads/2009/threadless.jpg)
 
 ### What worked, what didn't: RealEstate
 

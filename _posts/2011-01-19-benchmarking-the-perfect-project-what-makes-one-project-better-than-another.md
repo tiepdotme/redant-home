@@ -8,8 +8,8 @@ categories:
 author: Jesse Noble
 keywords: project management benchmarking
 image:
-  small: /uploads/2011/benchmark-small.jpg
-  big: /uploads/2011/benchmark-large.jpg
+  small: /assets/uploads/2011/benchmark-small.jpg
+  big: /assets/uploads/2011/benchmark-large.jpg
 excerpt:
   short: A few months ago, we started working with a project management coach. Here's what happened.
   long: We were already awesome, but we wanted more. This time our project managers were in the spotlight, we hired a project management coach to refine our processes and make us and even better team. Better processes equal happy project managers, and happy project managers equal relaxed devs, and relaxed devs equal great work. Sounds alright doesn't it?

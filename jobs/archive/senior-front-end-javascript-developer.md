@@ -3,7 +3,7 @@ layout: job
 slug: senior-front-end-javascript-developer
 title: Senior Front End Javascript Developer
 image:
-  small: /uploads/2014/yoyo.png
+  small: /assets/uploads/2014/yoyo.png
 ---
 
 <div class="job-not-available">

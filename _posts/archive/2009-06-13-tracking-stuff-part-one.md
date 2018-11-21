@@ -8,8 +8,8 @@ categories:
   - agile
 author: Ben Still
 image:
-  small: /uploads/2009/track-small.jpg
-  big: /uploads/2009/track-large.jpg
+  small: /assets/uploads/2009/track-small.jpg
+  big: /assets/uploads/2009/track-large.jpg
 meta:
   dsq_thread_id: '631372738'
   focus_keywords: tracking bugs

@@ -3,7 +3,7 @@ layout: job
 slug: digital-business-analyst
 title: Digital Business Analyst
 image:
-  small: /uploads/2014/skater.gif
+  small: /assets/uploads/2014/skater.gif
 ---
 
 <div class="job-not-available">

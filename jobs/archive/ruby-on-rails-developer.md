@@ -4,7 +4,7 @@ slug: ruby-on-rails-developer
 title: 'Hey Ruby Developer Yes You'
 description: Senior Ruby Developer
 image:
-  small: /uploads/2014/bike.jpg
+  small: /assets/uploads/2014/bike.jpg
 ---
 
 ## Who we’re looking for

@@ -9,8 +9,8 @@ author: Jesse Noble
 description: The story behind our Wallboard. Who's working on what, and can I deploy yet?
 keywords: our wallboard
 image:
-  small: /uploads/2010/redant-wallboard-preview-small.jpg
-  big: /uploads/2010/redant-wallboard-preview.jpg
+  small: /assets/uploads/2010/redant-wallboard-preview-small.jpg
+  big: /assets/uploads/2010/redant-wallboard-preview.jpg
 meta:
   dsq_thread_id: '609544604'
 excerpt:
@@ -19,7 +19,7 @@ excerpt:
 time: 10 Mins Read
 ---
 
-[![Red Ant Wallboard](/uploads/2010/redant-wallboard-preview.jpg)](/uploads/2010/redant-wallboard-preview.jpg)
+[![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)](/assets/uploads/2010/redant-wallboard-preview.jpg)
 
 **click on this image to get a bigger version**
 

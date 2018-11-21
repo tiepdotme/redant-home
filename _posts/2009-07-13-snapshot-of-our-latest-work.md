@@ -10,8 +10,8 @@ categories:
 author: Ben Still
 keywords: latest work
 image:
-  small: /uploads/2009/redant-office-300x200.jpg
-  big: /uploads/2009/redant-office-1000x600.jpg
+  small: /assets/uploads/2009/redant-office-300x200.jpg
+  big: /assets/uploads/2009/redant-office-1000x600.jpg
 meta:
   dsq_thread_id: '479978208'
 excerpt:

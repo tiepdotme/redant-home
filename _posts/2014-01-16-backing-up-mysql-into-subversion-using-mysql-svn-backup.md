@@ -11,8 +11,8 @@ author: Sam Bauers
 description: Introducing a simple tool for backing up small MySQL databases to Subversion. The open source script MySQL SVN Backup. Now featuring dolphins with lasers.
 keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphin with lasers
 image:
-  small: /uploads/2014/dolphins-with-lasers-small.jpg
-  big: /uploads/2014/dolphins-with-lasers.jpg
+  small: /assets/uploads/2014/dolphins-with-lasers-small.jpg
+  big: /assets/uploads/2014/dolphins-with-lasers.jpg
 meta:
   focus_keywords: mysql svn backup
 excerpt:
@@ -45,4 +45,4 @@ It can be configured to backup only specific databases and it can also exclude s
 
 We have been using MySQL SVN Backup for about two years and tweaked it over that time to make it more reliable. The code can be found at the [project page on GitHub](https://github.com/red-ant/mysql-svn-backup) and no, the irony of hosting a Subversion based tool on GitHub is not lost on us. Git support may just be a [future feature](https://github.com/red-ant/mysql-svn-backup/issues/1) (pull requests are welcome!)
 
-![Dolphins with lasers](/uploads/2014/dolphins-with-lasers.jpg)
+![Dolphins with lasers](/assets/uploads/2014/dolphins-with-lasers.jpg)
