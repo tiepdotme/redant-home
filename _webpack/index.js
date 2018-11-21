@@ -6,7 +6,6 @@ import './screensaver';
 import './grid';
 import './read-more';
 import './slick';
-// import './stripe';
 
 // Import scss for webpack compilation
 import './styles/index.scss';
