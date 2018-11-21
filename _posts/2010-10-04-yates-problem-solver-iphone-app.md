@@ -11,7 +11,7 @@ description: Yates Problem Solver iPhone App
 keywords: yates problem solver app
 image:
   small: /assets/uploads/2010/yates-problem-solver-app-small.jpg
-  big: /assets/uploads/2010/yates-problem-solver-app.jpg
+  large: /assets/uploads/2010/yates-problem-solver-app.jpg
 meta:
   dsq_thread_id: '480278516'
 excerpt:

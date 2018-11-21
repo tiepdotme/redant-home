@@ -10,7 +10,7 @@ description: Find out how we use Jira priorities at Red Ant to manage developmen
 keywords: Jira priorities
 image:
   small: /assets/uploads/2012/jira-screenshot-small.jpg
-  big: /assets/uploads/2012/jira-screenshot.jpg
+  large: /assets/uploads/2012/jira-screenshot.jpg
 meta:
   dsq_thread_id: '591731563'
 excerpt:

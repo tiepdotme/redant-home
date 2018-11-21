@@ -10,7 +10,7 @@ description: A whirlwind tale of Red Ant's journey through the wonderful world o
 keywords: compost bins
 image:
   small: /assets/uploads/2012/compost-bin-small.jpg
-  big: /assets/uploads/2012/compost-bin.jpg
+  large: /assets/uploads/2012/compost-bin.jpg
 meta:
   dsq_thread_id: '824121150'
 excerpt:

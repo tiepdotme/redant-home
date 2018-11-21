@@ -10,7 +10,7 @@ author: Ben Still
 keywords: tails for whales webby awards
 image:
   small: /assets/uploads/2010/whale-small.jpg
-  big: /assets/uploads/2010/whales-large.jpg
+  large: /assets/uploads/2010/whales-large.jpg
 meta:
   dsq_thread_id: '507088020'
 excerpt:

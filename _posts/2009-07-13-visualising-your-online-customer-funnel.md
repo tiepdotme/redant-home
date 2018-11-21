@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2009/funnel-small.png
-  big: /assets/uploads/2009/funnel-large.png
+  large: /assets/uploads/2009/funnel-large.png
 meta:
   dsq_thread_id: '479978220'
 excerpt:

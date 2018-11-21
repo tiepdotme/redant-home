@@ -10,7 +10,7 @@ description: Have you noticed that some sites are insanely fast these days? The 
 keywords: fast asynchronous javascript frameworks
 image:
   small: /assets/uploads/2012/google-angular-small.png
-  big: /assets/uploads/2012/angularjs.png
+  large: /assets/uploads/2012/angularjs.png
 excerpt:
   short: Have you noticed that some of the sites you use have been getting super fast lately?
   long: Have you noticed that some of the sites you use have been getting super fast lately? Web pages seem to respond almost too quickly. Try typing a search term into Google and see how quickly the suggested results come back.

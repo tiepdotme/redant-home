@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2008/radiant-admin-465x311.png
-  big: /assets/uploads/2008/radiant-admin.png
+  large: /assets/uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:

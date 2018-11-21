@@ -11,7 +11,7 @@ description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
 image:
   small: /assets/uploads/2009/troopers-small.jpg
-  big: /assets/uploads/2009/troopers-large.jpg
+  large: /assets/uploads/2009/troopers-large.jpg
 meta:
   dsq_thread_id: '640409355'
 excerpt:

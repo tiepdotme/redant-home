@@ -9,7 +9,7 @@ author: Ben Still
 description: A quick outline of how we're using Jenkins and the Pipeline view to visualise where our builds are up to
 image:
   small: /assets/uploads/2012/jenkins-pipeline-start-small.png
-  big: /assets/uploads/2012/jenkins-pipeline-start.png
+  large: /assets/uploads/2012/jenkins-pipeline-start.png
 excerpt:
   short: How we build relational trust; our integrated testing pipeline
   long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous Integration to visualise our automated tests and builds, and understand how close different tests are to completion.

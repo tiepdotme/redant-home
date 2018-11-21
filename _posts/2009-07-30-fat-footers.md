@@ -11,7 +11,7 @@ description: In several recent projects, we've experimented with extending the f
 keyword: website footer design
 image:
   small: /assets/uploads/2009/me-and-sarah-small.jpg
-  big: /assets/uploads/2009/me-and-sarah.jpg
+  large: /assets/uploads/2009/me-and-sarah.jpg
 meta:
   dsq_thread_id: '479978236'
 excerpt:

@@ -10,7 +10,7 @@ author: Ben Still
 keywords: our recent interactive tools
 image:
   small: /assets/uploads/2010/huggies-baby-room-2-small.jpg
-  big: /assets/uploads/2010/yates-virtual-garden-2.jpg
+  large: /assets/uploads/2010/yates-virtual-garden-2.jpg
 meta:
   dsq_thread_id: '482026773'
 excerpt:

@@ -10,7 +10,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2008/brief-small.jpg
-  big: /assets/uploads/2008/brief-large.jpg
+  large: /assets/uploads/2008/brief-large.jpg
 meta:
   dsq_thread_id: '480001859'
 excerpt:

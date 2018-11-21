@@ -10,7 +10,7 @@ description: Clicktale review which looks at how the technology works and some r
 keywords: Clicktale review
 image:
   small: /assets/uploads/2012/clicktale-small.png
-  big: /assets/uploads/2012/clicktale.png
+  large: /assets/uploads/2012/clicktale.png
 meta:
   dsq_thread_id: '591731408'
 excerpt:

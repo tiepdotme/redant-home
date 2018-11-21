@@ -12,7 +12,7 @@ description: We've been working on building the Michelle Bridges 12WBT platform 
 keywords: 12wbt
 image:
   small: /assets/uploads/2014/mish-adelaide-finale-small.jpg
-  big: /assets/uploads/2014/mish-adelaide-finale.jpg
+  large: /assets/uploads/2014/mish-adelaide-finale.jpg
 meta:
   focus_keywords: 12wbt
 excerpt:

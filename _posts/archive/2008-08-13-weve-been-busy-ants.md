@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2008/ant-small.jpg
-  big: /assets/uploads/2008/ant-large.jpg
+  large: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
 excerpt:

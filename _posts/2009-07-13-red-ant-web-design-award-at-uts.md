@@ -9,7 +9,7 @@ author: Ben Still
 keywords: uts design award
 image:
   small: /assets/uploads/2009/david-chin-uts-design-award.jpg
-  big: /assets/uploads/2009/david-chin-uts-design-award.jpg
+  large: /assets/uploads/2009/david-chin-uts-design-award.jpg
 meta:
   dsq_thread_id: '479978239'
 excerpt:

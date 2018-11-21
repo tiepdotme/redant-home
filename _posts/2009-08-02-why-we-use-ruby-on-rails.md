@@ -12,7 +12,7 @@ description: Why we use Ruby on Rails
 keywords: ruby on rails
 image:
   small: /assets/uploads/2009/ruby-on-rails.png
-  big: /assets/uploads/2009/ruby-on-rails.png
+  large: /assets/uploads/2009/ruby-on-rails.png
 meta:
   dsq_thread_id: '479978209'
 excerpt:

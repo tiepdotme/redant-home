@@ -10,7 +10,7 @@ description: We've recently launched a new blog feature on the Huggies site. But
 keywords: huggies blog
 image:
   small: /assets/uploads/2010/huggies-blogs-1-small.jpg
-  big: /assets/uploads/2010/huggies-blogs-1.jpg
+  large: /assets/uploads/2010/huggies-blogs-1.jpg
 meta:
   dsq_thread_id: '616659968'
 excerpt:

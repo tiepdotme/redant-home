@@ -10,7 +10,7 @@ description: The story behind our Wallboard. Who's working on what, and can I de
 keywords: our wallboard
 image:
   small: /assets/uploads/2010/redant-wallboard-preview-small.jpg
-  big: /assets/uploads/2010/redant-wallboard-preview.jpg
+  large: /assets/uploads/2010/redant-wallboard-preview.jpg
 meta:
   dsq_thread_id: '609544604'
 excerpt:

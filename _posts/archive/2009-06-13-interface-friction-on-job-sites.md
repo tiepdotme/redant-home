@@ -9,7 +9,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2009/ui-friction-small.jpg
-  big: /assets/uploads/2009/ui-friction.jpg
+  large: /assets/uploads/2009/ui-friction.jpg
 meta:
   dsq_thread_id: '485220609'
 excerpt:

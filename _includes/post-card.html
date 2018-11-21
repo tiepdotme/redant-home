@@ -3,19 +3,16 @@
     {% if post.image.small %}
       <div
         class="post-image-preview"
-        style="background-image: url('{{post.image.small}}')">
+        style="background-image: url('{{ post.image.small }}')">
       </div>
     {% endif %}
-
     <div class="p-3">
       <h5>{{ post.title }}</h5>
-
       <p class="post-content">
         {% if post.excerpt.short %}
           {{ post.excerpt.short }}
         {% endif %}
       </p>
-
       <div class="tile-eyebrow">
         <small class="text-muted">
           <b>{{ post.author }}</b>

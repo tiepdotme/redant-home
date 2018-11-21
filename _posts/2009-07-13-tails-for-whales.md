@@ -11,7 +11,7 @@ description: Tails was whales has been a huge success, and we've loved working o
 keywords: tails for whales
 image:
   small: /assets/uploads/2009/tails-whales-small.png
-  big: /assets/uploads/2009/tails-whales-big.png
+  large: /assets/uploads/2009/tails-whales-big.png
 meta:
   dsq_thread_id: '515368652'
 excerpt:

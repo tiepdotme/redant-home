@@ -7,5 +7,5 @@ fields:
   name: small
   label: small
 - type: file
-  name: big
-  label: big
+  name: large
+  label: large

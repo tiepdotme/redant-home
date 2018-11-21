@@ -11,7 +11,7 @@ description: The growth of WordPress has turned the web development market on it
 keywords: wordpress
 image:
   small: /assets/uploads/2013/canyon-small.jpg
-  big: /assets/uploads/2013/canyon-small.jpg
+  large: /assets/uploads/2013/canyon-small.jpg
 meta:
   focus_keywords: wordpress
 excerpt:

@@ -11,7 +11,7 @@ description: In which we find out which Shopify account hits the pricing sweet s
 keywords: shopify pricing
 image:
   small: /assets/uploads/2012/shopify-account-comparison-chart-small.png
-  big: /assets/uploads/2012/shopify-account-comparison-chart.png
+  large: /assets/uploads/2012/shopify-account-comparison-chart.png
 meta:
   dsq_thread_id: '790259093'
 excerpt:

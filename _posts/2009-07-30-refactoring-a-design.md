@@ -11,7 +11,7 @@ description: We've recently spent some time adding some new features to a site t
 keywords: refactoring
 image:
   small: /assets/uploads/2009/refactor-small.jpg
-  big: /assets/uploads/2009/refactor-large.jpg
+  large: /assets/uploads/2009/refactor-large.jpg
 meta:
   dsq_thread_id: '536002967'
 excerpt:

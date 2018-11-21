@@ -11,7 +11,7 @@ author: Ben Still
 keywords: multi variate testing
 image:
   small: /assets/uploads/2009/peter-small.jpg
-  big: /assets/uploads/2009/peter.jpg
+  large: /assets/uploads/2009/peter.jpg
 meta:
   dsq_thread_id: '504960434'
 excerpt:

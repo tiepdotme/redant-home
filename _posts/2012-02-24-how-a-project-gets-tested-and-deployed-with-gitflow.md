@@ -9,7 +9,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2012/github-small.jpg
-  big: /assets/uploads/2012/github.jpg
+  large: /assets/uploads/2012/github.jpg
 meta:
   dsq_thread_id: '608783675'
 excerpt:

@@ -9,7 +9,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2009/forum-small.png
-  big: /assets/uploads/2009/forum-large.png
+  large: /assets/uploads/2009/forum-large.png
 meta:
   dsq_thread_id: '522891991'
   focus_keywords: meaningful forum

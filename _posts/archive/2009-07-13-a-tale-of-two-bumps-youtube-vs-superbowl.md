@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2009/alexa.png
-  big: /assets/uploads/2009/alexa.png
+  large: /assets/uploads/2009/alexa.png
 meta:
   dsq_thread_id: '610081084'
   focus_keywords: youtube vs superbowl

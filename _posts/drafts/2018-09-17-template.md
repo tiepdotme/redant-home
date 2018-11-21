@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: 
-  big: 
+  large: 
 meta:
   keywords: 
   description: 

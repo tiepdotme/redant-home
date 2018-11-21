@@ -10,7 +10,7 @@ description: A simple tutorial showing how to manage a large list of rewrite rul
 keywords: nginx ssl redirection
 image:
   small: /assets/uploads/2012/milo-on-floor-small.jpg
-  big: /assets/uploads/2012/milo-on-floor.jpg
+  large: /assets/uploads/2012/milo-on-floor.jpg
 meta:
   dsq_thread_id: '626766201'
 excerpt:

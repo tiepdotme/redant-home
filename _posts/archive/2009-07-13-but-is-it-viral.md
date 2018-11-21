@@ -8,7 +8,7 @@ categories:
 author: Ben Still
 image:
   small: /assets/uploads/2009/viral-small.png
-  big: /assets/uploads/2009/viral-large.jpg
+  large: /assets/uploads/2009/viral-large.jpg
 meta:
   dsq_thread_id: '497268647'
   keywords: viral marketing

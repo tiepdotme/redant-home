@@ -11,7 +11,7 @@ description: When your users are unlikely to want to provide their email address
 keywords: super soft joins
 image:
   small: /assets/uploads/2012/clear-your-vision-home-small.jpg
-  big: /assets/uploads/2012/clear-your-vision-home.jpg
+  large: /assets/uploads/2012/clear-your-vision-home.jpg
 meta:
   dsq_thread_id: '629807983'
 excerpt:

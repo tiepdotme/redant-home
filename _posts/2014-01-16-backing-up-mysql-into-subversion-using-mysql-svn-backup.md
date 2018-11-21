@@ -12,7 +12,7 @@ description: Introducing a simple tool for backing up small MySQL databases to S
 keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphin with lasers
 image:
   small: /assets/uploads/2014/dolphins-with-lasers-small.jpg
-  big: /assets/uploads/2014/dolphins-with-lasers.jpg
+  large: /assets/uploads/2014/dolphins-with-lasers.jpg
 meta:
   focus_keywords: mysql svn backup
 excerpt:

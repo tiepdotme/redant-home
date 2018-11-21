@@ -11,7 +11,7 @@ description: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
 image:
   small: /assets/uploads/2012/12wbt.jpg
-  big: /assets/uploads/2012/12wbt.jpg
+  large: /assets/uploads/2012/12wbt.jpg
 meta:
   dsq_thread_id: '608748455'
 excerpt:

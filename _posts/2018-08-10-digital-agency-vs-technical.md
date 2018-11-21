@@ -9,8 +9,8 @@ author: Ben Still
 description: Digital agency vs a Technical Agency
 keywords: Digital Agency
 image:
-  small: ...
-  big: ...
+  small:
+  large:
 excerpt:
   short: Digital agency vs a Technical Agency
   long: Digital agency vs a Technical Agency

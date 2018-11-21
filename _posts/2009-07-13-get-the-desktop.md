@@ -10,7 +10,7 @@ description: Download your Red Ant desktop wallpaper today.
 keywords: red ant desktop wallpapers
 image:
   small: /assets/uploads/2009/redant-wallpaper-small.png
-  big: /assets/uploads/2009/redant-wallpaper-preview.jpg
+  large: /assets/uploads/2009/redant-wallpaper-preview.jpg
 meta:
   dsq_thread_id: '492702880'
 excerpt:

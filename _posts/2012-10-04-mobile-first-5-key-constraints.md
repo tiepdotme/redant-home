@@ -11,7 +11,7 @@ description: Instead of designing for a desktop screen and then hacking on the m
 keywords: mobile first
 image:
   small: /assets/uploads/2012/iphone-small.jpg
-  big: /assets/uploads/2012/iphone.jpg
+  large: /assets/uploads/2012/iphone.jpg
 meta:
   dsq_thread_id: '870234496'
 excerpt:

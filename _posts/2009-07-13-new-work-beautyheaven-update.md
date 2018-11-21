@@ -10,7 +10,7 @@ author: Ben Still
 keywords: beautyheaven ruby on rails
 image:
   small: /assets/uploads/2009/beautyheaven-small.png
-  big: /assets/uploads/2009/beautyheaven-redesigned-home-page.png
+  large: /assets/uploads/2009/beautyheaven-redesigned-home-page.png
 meta:
   dsq_thread_id: '479978238'
 excerpt:

@@ -9,8 +9,8 @@ author: Ben Still
 description: Options around developing an MVP
 keywords: MVP
 image:
-  small: ...
-  big: ...
+  small:
+  large:
 excerpt:
   short: Options around developing an MVP
   long: Options around developing an MVP
