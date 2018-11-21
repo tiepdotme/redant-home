@@ -6,7 +6,6 @@
 <html class="no-js" lang="{{ page.lang | default: site.lang | default: " en " }}">
 <!--<![endif]-->
 {% include head.html %}
-
 <body class="{{ page.class }}">
   <div class="main-layout">
     {% include nav.html %}
@@ -21,19 +20,16 @@
         </div>
       </div>
     </header>
-
     <section id="section-job-summary"  class="ga-section jumbotron bg-gray-light py-5">
       <div class="container">
         <p class="summary">{{ page.summary }}</p>
       </div>
     </section>
-
     <section id="section-job-content" class="ga-section py-5">
       <div class="container">
         {{ content }}
       </div>
     </section>
-
     {% include footer.html %}
     {% include scripts.html %}
   </div>
