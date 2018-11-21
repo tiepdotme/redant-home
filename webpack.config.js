@@ -87,7 +87,7 @@ module.exports = (env = {}) => {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
         use: [
-          isProd ? MiniCssExtractPlugin.loader : 'style-loader',
+          MiniCssExtractPlugin.loader,
           'css-loader',
           // Reference: https://github.com/postcss/postcss-loader
           // Postprocess your css with PostCSS plugins
