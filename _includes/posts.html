@@ -2,7 +2,7 @@
   <section class="py-5 container">
     <div id="macy-container">
       {% for post in site.posts %}
-        {% if include.type == nil or post.type == include.type %}
+        {% if include.type == nil or include.type == post.type  %}
           {% include post-card.html %}
         {% else %}
           <!-- skipped {{ post.type }} -->

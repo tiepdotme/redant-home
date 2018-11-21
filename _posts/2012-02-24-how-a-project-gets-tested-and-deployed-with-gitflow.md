@@ -8,8 +8,8 @@ categories:
   - ruby-on-rails-devops
 author: Ben Still
 image:
-  small: /assets/uploads/2013/09/github-465x331.jpg
-  big: /assets/uploads/2013/09/github.jpg
+  small: /assets/uploads/2012/github-small.jpg
+  large: /assets/uploads/2012/github.jpg
 meta:
   dsq_thread_id: '608783675'
 excerpt:

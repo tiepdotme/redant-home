@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 keywords: uts design award
 image:
-  small: /assets/2009-david-chin-uts-design-award.jpg
-  big: /assets/2009-david-chin-uts-design-award.jpg
+  small: /assets/uploads/2009/david-chin-uts-design-award.jpg
+  large: /assets/uploads/2009/david-chin-uts-design-award.jpg
 meta:
   dsq_thread_id: '479978239'
 excerpt:
@@ -25,6 +25,6 @@ The award is made available to the student(s) who are judged through their portf
 
 This years winner is **David Chin** - congratulations from everyone at Red Ant!
 
-![Ben Still and David Chin](http://farm4.static.flickr.com/3297/3541382416_3baa816422.jpg)
+![Ben Still and David Chin](/assets/uploads/2009/ben-still-and-david-chin.jpg)
 
 Ben Still and David Chin at University of Technology, Sydney

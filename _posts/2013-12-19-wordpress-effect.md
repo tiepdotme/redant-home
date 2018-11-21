@@ -10,8 +10,8 @@ author: Ben Still
 description: The growth of WordPress has turned the web development market on its head. But does this apply to all web development?
 keywords: wordpress
 image:
-  small: /assets/uploads/2013/12/canyon-465x337.jpeg
-  big: /assets/uploads/2013/12/canyon-465x337.jpeg
+  small: /assets/uploads/2013/canyon-small.jpg
+  large: /assets/uploads/2013/canyon-small.jpg
 meta:
   focus_keywords: wordpress
 excerpt:
@@ -31,7 +31,7 @@ This has turned web design into a product - one you can buy instantly for $40. T
 
 Economically this works too - the company making the theme might have spent say $40k designing, developing and testing the theme. But at $40 a pop they are nominally ahead after 1000 customers.
 
-![flip](/assets/uploads/2013/12/flip.gif)
+![flip](/assets/uploads/2013/flip.gif)
 
 #### The CMS is free
 

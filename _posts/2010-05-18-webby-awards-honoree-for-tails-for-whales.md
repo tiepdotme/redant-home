@@ -9,8 +9,8 @@ categories:
 author: Ben Still
 keywords: tails for whales webby awards
 image:
-  small: /assets/2010-whale-small.jpg
-  big: /assets/2010-whales-large.jpg
+  small: /assets/uploads/2010/whale-small.jpg
+  large: /assets/uploads/2010/whales-large.jpg
 meta:
   dsq_thread_id: '507088020'
 excerpt:
@@ -20,7 +20,7 @@ excerpt:
 
 The Tails for Whales site has been selected as an honoree for [the Webby Awards](http://www.webbyawards.com/webbys/current_honorees.php?media_id=96&season=14)
 
-![2010 Webby Awards Official Honoree]({{ site.data.webpack['2010-webby-awards-official-honoree.jpg'] }})
+![2010 Webby Awards Official Honoree](/assets/uploads/2010/webby-awards-official-honoree.jpg)
 
 We designed and built the site, all based on the awesome idea from Ben at Republic. Here is his explanation of the Tails for Whales campaign. A great example of what you can do with a good idea.
 

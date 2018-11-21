@@ -9,8 +9,8 @@ author: Ben Still
 description: considerations for your iphone app design brief
 keywords: iphone app design brief
 image:
-  small: /assets/2010-iphone-app-465x310.jpg
-  big: /assets/2010-iphone-app.jpg
+  small: /assets/uploads/2010/iphone-app-small.jpg
+  large: /assets/uploads/2010/iphone-app.jpg
 meta:
   dsq_thread_id: '609065827'
 excerpt:

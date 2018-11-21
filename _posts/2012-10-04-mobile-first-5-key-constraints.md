@@ -10,8 +10,8 @@ author: Ben Still
 description: Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.
 keywords: mobile first
 image:
-  small: /assets/uploads/2012/10/20121004-IMG_3566-465x310.jpg
-  big: /assets/uploads/2012/10/20121004-IMG_3566.jpg
+  small: /assets/uploads/2012/iphone-small.jpg
+  large: /assets/uploads/2012/iphone.jpg
 meta:
   dsq_thread_id: '870234496'
 excerpt:

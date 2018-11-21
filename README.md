@@ -79,6 +79,39 @@ open http://web.redanthome.docker
 
 Zombies be gone
 
+## Quick start with yarn :runner:
+
+```
+cd ~/src
+git clone git@github.com:red-ant/redant-home.git
+cd redant-home
+```
+
+Make sure your local node & ruby are up to date:
+
+```
+rbenv install 2.5.3
+rbenv local 2.5.3
+nodenv install 8.11.3
+nodenv local 8.11.3
+```
+
+Then:
+
+```
+bundle install
+yarn install
+yarn start
+open http://localhost:4000
+```
+
+
+If nokogiri fails, add config and repeat the previous commands:
+
+```
+bundle config build.nokogiri --use-system-libraries --with-xml2-include=$(brew --prefix libxml2)/include/libxml2
+```
+
 ## Updating portfolio order
 
 In the file `/_data/portfolio.json` you can change the order of the projects shown in the portfolio page by changing the order of the slugs.
@@ -174,3 +207,10 @@ AMP requires a customised css file that requires the minimum Bootstrap styles to
 - `_layouts/amp.html` is the main template the amp-jekyll plugin uses to generate the AMP pages
 - `_includes/amp` contains the customised headers and elements AMP needs in order to be valid
 - Reference at [amp-jekyll plugin](https://github.com/juusaw/amp-jekyll) and [here](https://nbsoftsolutions.com/blog/creating-a-parallel-amp-site-with-jekyll).
+
+## Forestry
+
+Forestry front matters and settings are in the `.forestry` folder.
+Forestry uses the `yarn preview` & `yarn build` scripts.
+
+All forestry page asset uploads are set to go into the `/assets/uploads` folder.
