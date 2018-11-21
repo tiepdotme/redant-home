@@ -3,7 +3,7 @@ layout: job
 slug: project-manager
 title: Digital Project Manager
 image:
-  small: /assets/uploads/2014/05/skater_400.gif
+  small: /assets/uploads/2014/skater.gif
 ---
 
 <div class="job-not-available">

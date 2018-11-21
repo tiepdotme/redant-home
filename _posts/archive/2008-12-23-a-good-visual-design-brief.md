@@ -9,8 +9,8 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-  small: /assets/uploads/2008/12/brief-small.jpg
-  big: /assets/uploads/2008/12/brief-large.jpg
+  small: /assets/uploads/2008/brief-small.jpg
+  big: /assets/uploads/2008/brief-large.jpg
 meta:
   dsq_thread_id: '480001859'
 excerpt:
@@ -46,6 +46,6 @@ Web sites can perform many business functions, from basic branding to serving as
 
 Finally, it's important not to commit yourself to more than you can handle. If you launch a large site or a busy user forum, make sure you have the resources to maintain the content and keep it fresh. There's nothing worse on a web site than News that is a few months - or years! - old. Customers will assume that you'll look after them with just as much attention and promptness. So if you don't have a dedicated content manager or the resources to update news and blogs frequently, it's probably better to leave them out and stick with more timeless material.
 
-- [Red Ant has created a sample brief document which you can download here.](/assets/uploads/2008/12/redant_visualdesignbrief.doc)
+- [Red Ant has created a sample brief document which you can download here.](/assets/uploads/2008/redant_visualdesignbrief.doc)
 
 *image credit: [Expert Infantry](https://www.flickr.com/photos/expertinfantry/)*

@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/2008-radiant-admin-465x311.png
-  big: /assets/2008-radiant-admin.png
+  small: /assets/uploads/2008/radiant-admin-465x311.png
+  big: /assets/uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:
@@ -44,11 +44,11 @@ So, we had a problem in that the tag cloud idea wasn't necessarily going to work
 
 To make it easy to generate a text cloud in our CMS (we're using Radiant), we thought that a simple ordered list was the most logical/semantic choice for content. We didn't want our content authors having to remember lots of markup to generate what was in essence a list of keywords describing the content. To add a text cloud, they add a cloud part to the page, and then use [Textile](http://en.wikipedia.org/wiki/Textile_%28markup_language%29) to write a list of words, starting with the most important:
 
-![radiant admin]({{ site.data.webpack['2008-radiant-admin.png'] }})
+![radiant admin](/assets/uploads/2008/radiant-admin.png)
 
 We grab the cloud bit with this code, which could be either in the layout or as a snippet
 
-![cloud snippet]({{ site.data.webpack['2008-cloud-snippet.png'] }})
+![cloud snippet](/assets/uploads/2008/radiant-cloud-snippet.png)
 
 But this is only half the story. Next, we could have gone 2 ways. The first would have been to simply style the content via CSS and Javascript, and the second was to use Flash. The advantage of Flash here is that it gave us a bit more freedom with regard to font, effects, and speed of production. The Javascript feeds this list of words into a Flash movie and we let Flash handle the weighting. We used [Prototype](http://prototypejs.org/) to parse the list, and added it as a variable into the embed code.
 

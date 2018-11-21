@@ -7,8 +7,8 @@ categories:
   - strategy
 author: Ben Still
 image:
-  small: /assets/uploads/2009/07/funnel-small.png
-  big: /assets/uploads/2009/07/funnel-large.png
+  small: /assets/uploads/2009/funnel-small.png
+  big: /assets/uploads/2009/funnel-large.png
 meta:
   dsq_thread_id: '479978220'
 excerpt:
@@ -41,10 +41,10 @@ One of the big challenges is communicating what this customer funnel looks like,
 Here is how we've explained it as an overview:
 
 <object width="490" height="370">
-  <param name="movie" value="{{ site.data.webpack['2009-funnel.swf'] }}" />
+  <param name="movie" value="/assets/uploads/2009/funnel.swf" />
   <param name="allowFullScreen" value="true" />
   <param name="allowscriptaccess" value="always" />
-  <embed src="{{ site.data.webpack['2009-funnel.swf'] }}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="490" height="370" />
+  <embed src="/assets/uploads/2009/funnel.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="490" height="370" />
 </object>
 
 *image credit: [Scott Ableman](https://www.flickr.com/photos/ableman/)*

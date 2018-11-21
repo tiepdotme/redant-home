@@ -10,8 +10,8 @@ author: Ben Still
 description: In several recent projects, we've experimented with extending the footer area. We've had some mixed results.
 keyword: website footer design
 image:
-  small: /assets/2009-me-and-sarah-small.jpg
-  big: /assets/2009-me-and-sarah.jpg
+  small: /assets/uploads/2009/me-and-sarah-small.jpg
+  big: /assets/uploads/2009/me-and-sarah.jpg
 meta:
   dsq_thread_id: '479978236'
 excerpt:

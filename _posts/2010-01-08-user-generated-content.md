@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 keywords: User generated content
 image:
-  small: /assets/2010-user-generated-content-small.png
-  big: /assets/2010-user-generated-content-large.png
+  small: /assets/uploads/2010/user-generated-content-small.png
+  big: /assets/uploads/2010/user-generated-content-large.png
 meta:
   dsq_thread_id: '482095513'
 excerpt:

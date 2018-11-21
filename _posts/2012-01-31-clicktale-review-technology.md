@@ -9,8 +9,8 @@ author: Ben Still
 description: Clicktale review which looks at how the technology works and some real world issues that you might face when implementing Clicktale
 keywords: Clicktale review
 image:
-  small: /assets/uploads/2012/01/clicktale-350x261.png
-  big: /assets/uploads/2012/01/clicktale.png
+  small: /assets/uploads/2012/clicktale-small.png
+  big: /assets/uploads/2012/clicktale.png
 meta:
   dsq_thread_id: '591731408'
 excerpt:
@@ -71,9 +71,9 @@ None of these are particularly obscure or unusual elements for a web site to hav
 
 If it's still unclear as to why this would be a problem, here is what I'd see if I used Clicktale to analyse how people are using the [Bookdepository checkout process](http://www.bookdepository.com/basket). As you can see the two screens are quite different. The Clicktale playback will still merrily animate a mouse cursor moving around, but as you can see the image would be completely wrong and misleading. Likewise for the various heatmaps and reports.
 
-What a real user sees: ![](/assets/uploads/2012/01/clicktale-basket.png)
+What a real user sees: ![](/assets/uploads/2012/clicktale-basket.png)
 
-and what you'll see in the Clicktale report: ![](/assets/uploads/2012/01/clicktale-basket-none.png)
+and what you'll see in the Clicktale report: ![](/assets/uploads/2012/clicktale-basket-none.png)
 
 Which is puzzling, because on the Clicktale site there are a lot of testimonials gushing about this amazing insight into behaviour which improves shopping and conversions. I'm not really sure how many of these sites don't use some sort of cookie or session information to facilitate a checkout process.
 

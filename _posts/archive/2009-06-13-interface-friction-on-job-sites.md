@@ -8,8 +8,8 @@ categories:
   - tool-reviews
 author: Ben Still
 image:
-  small: /assets/uploads/2009/06/03-300x259.jpg
-  big: /assets/uploads/2009/06/03.jpg
+  small: /assets/uploads/2009/ui-friction-small.jpg
+  big: /assets/uploads/2009/ui-friction.jpg
 meta:
   dsq_thread_id: '485220609'
 excerpt:
@@ -26,52 +26,52 @@ In the past 6 months, we've advertised for three different positions: a designer
 	<td>**[Seek.com.au](http://www.seek.com.au**)</td>
 </tr>
 <tr>
-	<td>[![step 1](/assets/uploads/2009/06/37s-small/1.png)](/assets/uploads/2009/06/37s-large/1.png)</td>
-	<td>[![step 1](/assets/uploads/2009/06/seek-small/01.jpg)</td>
+	<td>[![step 1](/assets/uploads/2009/37s-small/1.png)](/assets/uploads/2009/37s-large/1.png)</td>
+	<td>[![step 1](/assets/uploads/2009/seek-small/01.jpg)</td>
 </tr>
 <tr>
-	<td>[![step 2](/assets/uploads/2009/06/37s-small/2.png)](/assets/uploads/2009/06/seek-large/01.jpg)</td>
-	<td>[![step 2](/assets/uploads/2009/06/seek-small/02.jpg](/assets/uploads/2009/06/seek-large/02.jpg)</td>
+	<td>[![step 2](/assets/uploads/2009/37s-small/2.png)](/assets/uploads/2009/seek-large/01.jpg)</td>
+	<td>[![step 2](/assets/uploads/2009/seek-small/02.jpg]/assets/uploads/2009/seek-large/02.jpg)</td>
 </tr>
 <tr>
-	<td>[![step 3](/assets/uploads/2009/06/37s-small/3.png)](/assets/uploads/2009/06/37s-large/3.png)</td>
-	<td>[![step 3](/assets/uploads/2009/06/seek-small/03.jpg)](/assets/uploads/2009/06/seek-large/03.jpg)</td>
+	<td>[![step 3](/assets/uploads/2009/37s-small/3.png)](/assets/uploads/2009/37s-large/3.png)</td>
+	<td>[![step 3](/assets/uploads/2009/seek-small/03.jpg)](/assets/uploads/2009/seek-large/03.jpg)</td>
 </tr>
 <tr>
-	<td>[![step 4](/assets/uploads/2009/06/37s-small/4.png)](/assets/uploads/2009/06/37s-large/4.png)</td>
-	<td>[![step 4](/assets/uploads/2009/06/seek-small/04.jpg)](/assets/uploads/2009/06/seek-large/04.jpg)</td>
+	<td>[![step 4](/assets/uploads/2009/37s-small/4.png)](/assets/uploads/2009/37s-large/4.png)</td>
+	<td>[![step 4](/assets/uploads/2009/seek-small/04.jpg)](/assets/uploads/2009/seek-large/04.jpg)</td>
 </tr>
 <tr>
-	<td>[![step 5](/assets/uploads/2009/06/37s-small/5.png)](/assets/uploads/2009/06/37s-large/5.png)</td>
-	<td>[![step 5](/assets/uploads/2009/06/seek-small/05.jpg)](/assets/uploads/2009/06/seek-large/05.jpg)</td>
-</tr>
-<tr>
-	<td>&nbsp;</td>
-	<td>[![step 6](/assets/uploads/2009/06/seek-small/06.jpg)](/assets/uploads/2009/06/seek-large/06.jpg)</td>
+	<td>[![step 5](/assets/uploads/2009/37s-small/5.png)](/assets/uploads/2009/37s-large/5.png)</td>
+	<td>[![step 5](/assets/uploads/2009/seek-small/05.jpg)](/assets/uploads/2009/seek-large/05.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 7](/assets/uploads/2009/06/seek-small/07.jpg)](/assets/uploads/2009/06/seek-large/07.jpg)</td>
+	<td>[![step 6](/assets/uploads/2009/seek-small/06.jpg)](/assets/uploads/2009/seek-large/06.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 8](/assets/uploads/2009/06/seek-small/08.jpg)](/assets/uploads/2009/06/seek-large/08.jpg)</td>
+	<td>[![step 7](/assets/uploads/2009/seek-small/07.jpg)](/assets/uploads/2009/seek-large/07.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 9](/assets/uploads/2009/06/seek-small/09.jpg)](/assets/uploads/2009/06/seek-large/09.jpg)</td>
+	<td>[![step 8](/assets/uploads/2009/seek-small/08.jpg)](/assets/uploads/2009/seek-large/08.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 10](/assets/uploads/2009/06/seek-small/10.jpg)](/assets/uploads/2009/06/seek-large/10.jpg)</td>
+	<td>[![step 9](/assets/uploads/2009/seek-small/09.jpg)](/assets/uploads/2009/seek-large/09.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 11](/assets/uploads/2009/06/seek-small/11.jpg)](/assets/uploads/2009/06/seek-large/11.jpg)</td>
+	<td>[![step 10](/assets/uploads/2009/seek-small/10.jpg)](/assets/uploads/2009/seek-large/10.jpg)</td>
 </tr>
 <tr>
 	<td>&nbsp;</td>
-	<td>[![step 12](/assets/uploads/2009/06/seek-small/12.jpg)](/assets/uploads/2009/06/seek-large/12.jpg)</td>
+	<td>[![step 11](/assets/uploads/2009/seek-small/11.jpg)](/assets/uploads/2009/seek-large/11.jpg)</td>
+</tr>
+<tr>
+	<td>&nbsp;</td>
+	<td>[![step 12](/assets/uploads/2009/seek-small/12.jpg)](/assets/uploads/2009/seek-large/12.jpg)</td>
 </tr>
 </table>
 

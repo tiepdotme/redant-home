@@ -10,8 +10,8 @@ author: Sam Bauers
 description: Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
 image:
-  small: /assets/uploads/2013/12/somebody-set-us-up-the-bomb-465x232.gif
-  big: /assets/uploads/2013/12/somebody-set-us-up-the-bomb.gif
+  small: /assets/uploads/2013/somebody-set-us-up-the-bomb-small.gif
+  big: /assets/uploads/2013/somebody-set-us-up-the-bomb.jpg
 meta:
   focus_keywords: gmail
 excerpt:
@@ -90,20 +90,20 @@ The result looks a bit like this:
 </tr>
 <tr>
 	<td>Filename always the same</td>
-	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/12/different-always-1.png" width="30" height="30"></td>
+	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30"></td>
 </tr>
 <tr>
 	<td>Filename always the same, querystring unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/12/different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/12/different-always-2.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30"></td>
 </tr>
 <tr>
 	<td>Filename always unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/12/different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/12/different-always-3.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30"></td>
 </tr>
 </tbody>
 </table>
@@ -146,4 +146,4 @@ Losing the IP address means losing the closest thing we have to geographic data 
 
 #### Try it yourself
 
-The log entries generated from the testing we did and the code used to generate our random images are available [here (Gmail caching test - code and results)](/assets/uploads/2013/12/gmail-caching-test.zip) (MIT License). If you're miffed and puzzled by the image at the top of this post, we're just trying to get all that [long tail gmail using AYB fan](http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us) traffic. Don't tell me image SEO doesn't work.
+The log entries generated from the testing we did and the code used to generate our random images are available [here (Gmail caching test - code and results)](/assets/uploads/2013/gmail-caching-test.zip) (MIT License). If you're miffed and puzzled by the image at the top of this post, we're just trying to get all that [long tail gmail using AYB fan](http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us) traffic. Don't tell me image SEO doesn't work.

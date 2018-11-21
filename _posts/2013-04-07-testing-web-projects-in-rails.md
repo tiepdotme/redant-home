@@ -10,8 +10,8 @@ author: Ben Still
 description: As web projects grow in complexity, the testing process gets more and more difficult. Introducing, Automated Testing and Test Driven Development (TDD).
 keywords: automated testing web projects
 image:
-  small: /assets/uploads/2013/10/milo-closeup-465x348.jpg
-  big: /assets/uploads/2013/10/milo-closeup-465x348.jpg
+  small: /assets/uploads/2013/milo-closeup-small.jpg
+  big: /assets/uploads/2013/milo-closeup-small.jpg
 excerpt:
   short: One of the things we've started doing quite differently over the last few years is how we test our web projects
   long: One of the things we've started doing quite differently over the last few years is how we test our web projects. Now, most people would (rightly) assume we actually check or test our work before sending it live. But **how** we do this testing has changed drastically.
@@ -50,7 +50,7 @@ Imagine a scale, with a really simple project on one end, and a really hairy com
 
 ## Meet my little friend, Automated Testing
 
-![my little friend](/assets/uploads/2013/04/my-little-friend.jpg)
+![my little friend](/assets/uploads/2013/my-little-friend.jpg)
 
 As you can imagine, lots of people have had this problem, and they've come solved it in various imaginative ways to avoid being that boiled frog.
 

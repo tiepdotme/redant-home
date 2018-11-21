@@ -11,8 +11,8 @@ author: Ben Still
 description: Why we use Ruby on Rails
 keywords: ruby on rails
 image:
-  small: /assets/2009-ruby-on-rails.png
-  big: /assets/2009-ruby-on-rails.png
+  small: /assets/uploads/2009/ruby-on-rails.png
+  big: /assets/uploads/2009/ruby-on-rails.png
 meta:
   dsq_thread_id: '479978209'
 excerpt:

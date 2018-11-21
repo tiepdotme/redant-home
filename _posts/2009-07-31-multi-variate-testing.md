@@ -10,8 +10,8 @@ categories:
 author: Ben Still
 keywords: multi variate testing
 image:
-  small: /assets/2009-peter-465x309.jpg
-  big: /assets/2009-peter-1024x682.jpg
+  small: /assets/uploads/2009/peter-small.jpg
+  big: /assets/uploads/2009/peter.jpg
 meta:
   dsq_thread_id: '504960434'
 excerpt:
