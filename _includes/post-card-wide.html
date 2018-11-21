@@ -1,10 +1,10 @@
 <div class="ga-section card mb-3">
   <a href="{{ post.url }}" class="portfolio-tile bg-white text-black mb-0">
     <div class="row">
-      {% if post.image.small %}
+      {% if post.image-small %}
         <div
           class="col-8 post-image-preview"
-          style="background-image: url('{{post.image.small}}')">
+          style="background-image: url('{{post.image-small}}')">
         </div>
 
       <div class="col-4 p-3">
@@ -15,8 +15,8 @@
         <h5>{{ post.title }}</h5>
 
         <p class="post-content">
-          {% if post.excerpt.short %}
-            {{ post.excerpt.short }}
+          {% if post.excerpt-short %}
+            {{ post.excerpt-short }}
           {% endif %}
         </p>
 

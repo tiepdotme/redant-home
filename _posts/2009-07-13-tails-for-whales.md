@@ -9,14 +9,12 @@ categories:
 author: Ben Still
 description: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
 keywords: tails for whales
-image:
-  small: /assets/uploads/2009/tails-whales-small.png
-  large: /assets/uploads/2009/tails-whales-big.png
+image-small: /assets/uploads/2009/tails-whales-small.png
+image-large: /assets/uploads/2009/tails-whales-big.png
 meta:
   dsq_thread_id: '515368652'
-excerpt:
-  short: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
-  long: Tails was whales is a great campaign to raise awareness for what happens in Japan each year where they set sail and hunt these beautiful creatures. We think it's wrong, and so do a lot of you it seems too.
+excerpt-short: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
+excerpt-long: Tails was whales is a great campaign to raise awareness for what happens in Japan each year where they set sail and hunt these beautiful creatures. We think it's wrong, and so do a lot of you it seems too.
 ---
 
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).

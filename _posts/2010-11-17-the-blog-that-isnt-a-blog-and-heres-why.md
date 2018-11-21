@@ -8,14 +8,12 @@ categories:
 author: Ben Still
 description: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
 keywords: huggies blog
-image:
-  small: /assets/uploads/2010/huggies-blogs-1-small.jpg
-  large: /assets/uploads/2010/huggies-blogs-1.jpg
+image-small: /assets/uploads/2010/huggies-blogs-1-small.jpg
+image-large: /assets/uploads/2010/huggies-blogs-1.jpg
 meta:
   dsq_thread_id: '616659968'
-excerpt:
-  short: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
-  long: The user wouldn't notice anything different about this blog, and that's exactly what we wanted. For it to seamlessly integrate and to retain all that's lovely SEO juice. That's not all that's special about it.
+excerpt-short: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
+excerpt-long: The user wouldn't notice anything different about this blog, and that's exactly what we wanted. For it to seamlessly integrate and to retain all that's lovely SEO juice. That's not all that's special about it.
 ---
 
 We've recently launched a [new blog feature](http://www.huggies.com.au/blog) on the Huggies site. A blog is a blog, you say. Well, blogs are a pretty standard bit of the web, and there are lots of great blog tools already out there like Wordpress and Posterous. But this one had a few unique requirements. We built this blog as a custom Rails app, and here's why:

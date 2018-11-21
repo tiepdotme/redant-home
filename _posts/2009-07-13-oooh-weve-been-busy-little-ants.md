@@ -9,14 +9,12 @@ categories:
 author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
-image:
-  small: /assets/uploads/2009/troopers-small.jpg
-  large: /assets/uploads/2009/troopers-large.jpg
+image-small: /assets/uploads/2009/troopers-small.jpg
+image-large: /assets/uploads/2009/troopers-large.jpg
 meta:
   dsq_thread_id: '640409355'
-excerpt:
-  short: Would you like to see what we've been doing lately? From inspiring kids to read to launching the new Kleenex website, it's all here.
-  long: We're proud of what we do, and we'd like to share that with you. It's nice to know that we get to create some wonderful sites as standalones and as part of bigger campaigns. Take a look at some of our recent projects at Red Ant below.
+excerpt-short: Would you like to see what we've been doing lately? From inspiring kids to read to launching the new Kleenex website, it's all here.
+excerpt-long: We're proud of what we do, and we'd like to share that with you. It's nice to know that we get to create some wonderful sites as standalones and as part of bigger campaigns. Take a look at some of our recent projects at Red Ant below.
 ---
 
 We've been super busy over the last month or so, counting down the days to our [APEC lockdown](http://www.theaustralian.news.com.au/story/0,,22145672-28737,00.html). We're going to stock up on coffee big time just in case George decides he likes it here and chooses to [stay a bit longer](http://www.smh.com.au/news/national/bush-may-stay-in-town-longer/2007/08/09/1186530533168.html).

@@ -1,7 +1,7 @@
 <div class="tile tile-text tile-article" style="border: 2px solid blue">
   <a href="{{ post.url }}">
-    {% if post.image.small %}
-      <div class="post-image-preview" style="background-image: url('{{post.image.small}}')"></div>
+    {% if post.image-small %}
+      <div class="post-image-preview" style="background-image: url('{{post.image-small}}')"></div>
     {% endif %}
 
     <p class="tile-eyebrow">
@@ -13,10 +13,8 @@
     <h4>{{ post.title }}</h4>
 
     <p class="post-content">
-      {% if post.excerpt.short %}
-        {{ post.excerpt.short }}
-      {% else %}
-        {{ post.excerpt }}
+      {% if post.excerpt-short %}
+        {{ post.excerpt-short }}
       {% endif %}
     </p>
   </a>

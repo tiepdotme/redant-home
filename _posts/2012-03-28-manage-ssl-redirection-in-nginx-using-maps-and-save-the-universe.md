@@ -8,14 +8,12 @@ categories:
 author: Sam Bauers
 description: A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
 keywords: nginx ssl redirection
-image:
-  small: /assets/uploads/2012/milo-on-floor-small.jpg
-  large: /assets/uploads/2012/milo-on-floor.jpg
+image-small: /assets/uploads/2012/milo-on-floor-small.jpg
+image-large: /assets/uploads/2012/milo-on-floor.jpg
 meta:
   dsq_thread_id: '626766201'
-excerpt:
-  short: Solutions to simple yet common and frustrating problems. We spill the beans on how we do it.
-  long: What if (block) Nginx really can do it all? It's taken a little customisation but we think we've found the solution to a simple yet common and frustrating problem with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of a cute dog!
+excerpt-short: Solutions to simple yet common and frustrating problems. We spill the beans on how we do it.
+excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation but we think we've found the solution to a simple yet common and frustrating problem with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of a cute dog!
 ---
 
 ## The problem

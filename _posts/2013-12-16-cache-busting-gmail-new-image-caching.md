@@ -9,14 +9,12 @@ categories:
 author: Sam Bauers
 description: Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
-image:
-  small: /assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg
-  large: /assets/uploads/2013/somebody-set-us-up-the-bomb.jpg
+image-small: /assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg
+image-large: /assets/uploads/2013/somebody-set-us-up-the-bomb.jpg
 meta:
   focus_keywords: gmail
-excerpt:
-  short: This week, GMail announced images are on by default. If you're a marketer, you might have seen some posts about how exciting this is that we can now track emails again. #fail
-  long: If you're a GMail user, you've probably seen an update explaining that <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images are now on by default</a>. If you're a marketer, you might have seen some posts saying how exciting this is that email companies can now start tracking email opens again. (Un)fortunately this is a bit of wishful thinking or misinformation.
+excerpt-short: This week, GMail announced images are on by default. If you're a marketer, you might have seen some posts about how exciting this is that we can now track emails again. #fail
+excerpt-long: If you're a GMail user, you've probably seen an update explaining that <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images are now on by default</a>. If you're a marketer, you might have seen some posts saying how exciting this is that email companies can now start tracking email opens again. (Un)fortunately this is a bit of wishful thinking or misinformation.
 ---
 
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.

@@ -9,14 +9,12 @@ categories:
 author: Sam Bauers
 description: When your users are unlikely to want to provide their email address to sign-up to your website, "Super-soft joins" may be right for you.
 keywords: super soft joins
-image:
-  small: /assets/uploads/2012/clear-your-vision-home-small.jpg
-  large: /assets/uploads/2012/clear-your-vision-home.jpg
+image-small: /assets/uploads/2012/clear-your-vision-home-small.jpg
+image-large: /assets/uploads/2012/clear-your-vision-home.jpg
 meta:
   dsq_thread_id: '629807983'
-excerpt:
-  short: How we use super-soft joins to interact with users on personal subjects.
-  long: Sometimes engaging users can be difficult if the subject matter is intensely personal. Super-soft joins helped us help people quit drugs.
+excerpt-short: How we use super-soft joins to interact with users on personal subjects.
+excerpt-long: Sometimes engaging users can be difficult if the subject matter is intensely personal. Super-soft joins helped us help people quit drugs.
 ---
 
 Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program _[Clear Your Vision (Clear Your Vision)](http://clearyourvision.org.au/_) had a few hurdles it had to overcome when it came to translating it to the web.

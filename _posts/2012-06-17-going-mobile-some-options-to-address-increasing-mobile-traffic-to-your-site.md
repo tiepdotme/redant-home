@@ -8,14 +8,12 @@ categories:
 author: Ben Still
 description: Here are four approaches for improving mobile experience on your site. These aren't exclusive, our recommendation is to adopt all four if you can.
 keywords: responsive mobile experience
-image:
-  small: /assets/uploads/2012/traffic-small.jpg
-  large: /assets/uploads/2012/traffic.jpg
+image-small: /assets/uploads/2012/traffic-small.jpg
+image-large: /assets/uploads/2012/traffic.jpg
 meta:
   dsq_thread_id: '729115847'
-excerpt:
-  short: Mobile traffic is growing crazy like. If you're addressing this already by thinking about a mobile aspect of your website, great! If not, read on…
-  long: Mobile traffic is growing crazy like, in some instances it's doubling year on year. If you're addressing this already by thinking about a mobile aspect of your website, great! If not, read on to get an idea of what you can be doing to make the most of the traffic you're getting and to make yours a user experience to remember.
+excerpt-short: Mobile traffic is growing crazy like. If you're addressing this already by thinking about a mobile aspect of your website, great! If not, read on…
+excerpt-long: Mobile traffic is growing crazy like, in some instances it's doubling year on year. If you're addressing this already by thinking about a mobile aspect of your website, great! If not, read on to get an idea of what you can be doing to make the most of the traffic you're getting and to make yours a user experience to remember.
 ---
 
 What started at 5% grew to 10% the next year, then doubled again, and now some of our sites are over 40%. Email is even more interesting - checking an email from your phone is now pretty easy, which drives the mobile vs PC rate right up. Campaign Monitor is [predicting this month (Mobile set to surpass desktop and webmail email client usage by July)](http://bit.ly/LzpeKE) over half of their emails will get opened on a mobile device.

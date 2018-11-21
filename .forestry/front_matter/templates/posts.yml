@@ -34,24 +34,10 @@ fields:
 - type: tag_list
   name: categories
   label: categories
-  default:
-  - our-work
-  - ruby-on-rails
-  - red-ant-stuff
-  - ecommerce
-  - strategy
-  - how-we-do
-  - design
-  - automated-testing
-  - ruby-on-rails-devops
-  - mobile
-  - agile
-  - digital-products
-  - tool-reviews
-  - pjax
-  - lean-development
-  - marketing
-  - software-development
+  default: []
+  description: 'Example categories: our-work; ruby-on-rails; red-ant-stuff; ecommerce;
+    strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile;
+    agile; digital-products; tool-reviews; pjax; lean-development; marketing; software-development;'
 - type: text
   name: author
   label: author
@@ -66,21 +52,22 @@ fields:
 - type: text
   name: keywords
   label: keywords
-- type: include
-  name: image
-  label: image
-  template: image
-- type: include
-  name: excerpt
-  label: excerpt
-  template: excerpt
 - type: tag_list
   name: tags
   label: tags
-  default:
-  - Innovation
-  - Startup
-  - Red-Ant-Marketing
-  - LinkedIn
+  default: []
+  description: 'Tags in use: Innovation; Startup; Red-Ant-Marketing; LinkedIn'
+- type: file
+  name: image-small
+  label: image-small
+- type: file
+  name: image-large
+  label: image-large
+- type: textarea
+  name: excerpt-short
+  label: excerpt-short
+- type: textarea
+  name: excerpt-long
+  label: excerpt-long
 pages:
 - _posts/test-images.md

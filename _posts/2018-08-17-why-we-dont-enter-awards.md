@@ -8,10 +8,8 @@ categories:
 author: Ben Still
 description: I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
-image:
-excerpt:
-  short: I have this friend. Let's call him Wayne. He works in advertising.
-  long: I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
+excerpt-short: I have this friend. Let's call him Wayne. He works in advertising.
+excerpt-long: I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
 ---
 
 Why we don't enter awards… And why I irritate Wayne. I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
@@ -33,7 +31,7 @@ So our intern entered that site, along with some other much better projects, int
 
 Several months after that, we got an email asking how many people would be attending the award ceremony. In London. Next week.
 
-I thought it was a joke. Turns out it wasn't. And they strongly hinted that it would be worthwhile that someone was there. So I scrambled around to try to find anyone that could attend at short notice. To cut a long story   short: one of the team had an ex boyfriend who happened to be in London. But they'd only just broken up, so it could be tricky. Nice Ex Boyfriend finally agreed, and was kind enough to turn up in a tuxedo to accept this award. Which at this stage I still thought might be some elaborate joke.
+I thought it was a joke. Turns out it wasn't. And they strongly hinted that it would be worthwhile that someone was there. So I scrambled around to try to find anyone that could attend at short notice. To cut a long story short: one of the team had an ex boyfriend who happened to be in London. But they'd only just broken up, so it could be tricky. Nice Ex Boyfriend finally agreed, and was kind enough to turn up in a tuxedo to accept this award. Which at this stage I still thought might be some elaborate joke.
 
 A few months later Nice Ex Boyfriend came back to Sydney, and we got our award. And this big glossy photo of him accepting the award. Weird.
 
