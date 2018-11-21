@@ -3,6 +3,7 @@
 .asset-cache
 .jekyll-metadata
 .stage
+.tool-versions
 *.log
 *.bak
 _data/webpack.json

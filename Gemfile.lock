@@ -73,6 +73,7 @@ DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-seo-tag
   jekyll-sitemap
+  public_suffix
   tzinfo-data
 
 BUNDLED WITH
