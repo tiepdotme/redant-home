@@ -9,12 +9,10 @@ categories:
 author: Ben Still
 description: An example of when you think you know what you're buying, but end up with something quite different.
 keywords: ecommerce
-image:
-  small: /assets/uploads/2013/danger-small.jpg
-  large: /assets/uploads/2013/danger.jpg
-excerpt:
-  short: Ever bought something online that wasn't what you thought it was?
-  long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping from your couch, it's also brought a boatload of potential hassle in meeting your consumer expectations for a product. Make sure you know what you're getting for your money.
+image-small: /assets/uploads/2013/danger-small.jpg
+image-large: /assets/uploads/2013/danger.jpg
+excerpt-short: Ever bought something online that wasn't what you thought it was?
+excerpt-long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping from your couch, it's also brought a boatload of potential hassle in meeting your consumer expectations for a product. Make sure you know what you're getting for your money.
 time: 5 Mins Read
 ---
 

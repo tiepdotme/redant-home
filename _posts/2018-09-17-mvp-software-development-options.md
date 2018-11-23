@@ -8,12 +8,10 @@ categories:
 author: Ben Still
 description: Options around developing an MVP
 keywords: MVP
-image:
-  small:
-  large:
-excerpt:
-  short: Options around developing an MVP
-  long: Options around developing an MVP
+image-small:
+image-large:
+excerpt-short: Options around developing an MVP
+excerpt-long: Options around developing an MVP
 ---
 
 A really common scenario: You’ve had some code developed, but now you’re feeling a bit stuck. Does that sound like you? Typically:
@@ -29,7 +27,7 @@ The first is whether you want to keep working with your existing developer or no
 
 Or these might not be reasons for you.
 
-To fix delivery timeframe and quality, (in my experience) you typically need to increase team size. Developers are usually pretty lousy at accurately estimating effort. Let's be honest here- they are terrible. Especially on larger projects. And especially if they’re the one working on it. 
+To fix delivery timeframe and quality, (in my experience) you typically need to increase team size. Developers are usually pretty lousy at accurately estimating effort. Let's be honest here- they are terrible. Especially on larger projects. And especially if they’re the one working on it.
 
 Sure, you just may luck out and get that one "10X" developer that can not only do everything brilliantly, but very quickly. But back here on Earth, a typical project takes at least a few people with different skill sets.
 

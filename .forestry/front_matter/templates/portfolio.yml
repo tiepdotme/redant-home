@@ -97,18 +97,9 @@ fields:
 - type: tag_list
   name: technologies
   label: technologies
-  default:
-  - Ruby on Rails
-  - Swift
-  - Angular
-  - Ruby
-  - Brightcove
-  - React
-  - Scrivito
-  - Google AI Machine Learning
-  - Radiant
-  - Facebook AI
-  - FB Messenger
+  default: []
+  description: 'Currently used tags: Ruby on Rails; Swift; Angular; Ruby; Brightcove;
+    React; Scrivito; Google AI Machine Learning; Radiant; Facebook AI; FB Messenger;'
 - type: image_gallery
   name: images
   label: images
