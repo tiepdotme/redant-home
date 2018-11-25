@@ -2,7 +2,7 @@ version: '3'
 
 services:
   webpack: &default
-    command: yarn webpack --mode development --watch
+    command: yarn start:webpack
     build: .
     volumes:
       - .:/usr/local/app
@@ -11,7 +11,7 @@ services:
 
   jekyll:
     <<: *default
-    command: jekyll serve --livereload --host 0.0.0.0
+    command: yarn start:jekyll --host 0.0.0.0
     ports:
       - 4000:4000
       - 35729:35729

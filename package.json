@@ -5,9 +5,9 @@
   "main": "_webpack/index.js",
   "author": "Jason Taylor <jason@redant.com.au>",
   "scripts": {
-    "start": "touch ./_includes/amp/index.css && concurrently 'yarn start:webpack' 'yarn start:jekyll'",
+    "start": "concurrently 'yarn start:webpack' 'yarn start:jekyll'",
     "start:webpack": "webpack --mode development --watch",
-    "start:jekyll": "bundle exec jekyll serve --livereload",
+    "start:jekyll": "touch ./_includes/amp/index.css && bundle exec jekyll serve --livereload",
     "build": "yarn build:webpack && yarn build:jekyll",
     "build:webpack": "rimraf ./assets/webpack && webpack --mode production",
     "build:jekyll": "bundle exec jekyll build --destination _site",
