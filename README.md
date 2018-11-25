@@ -3,7 +3,7 @@
 The Red Ant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyll-webpack).
 
 The app uses a standard Jekyll structure with all uncompiled asset source files
-located in `./src`.
+located in `./_webpack`.
 
 ## Quick start with yarn :runner:
 
@@ -22,6 +22,12 @@ If nokogiri fails, then try:
 
 ```
 bundle config build.nokogiri --use-system-libraries --with-xml2-include=$(brew --prefix libxml2)/include/libxml2
+```
+
+Alternatively you can use the supplied docker-compose to get up and running:
+
+```
+docker-compose up
 ```
 
 ## Updating portfolio order
@@ -43,7 +49,7 @@ In the file `/_data/portfolio.json` you can change the order of the projects sho
 
 Use forestry.io -> https://redant.com.au/admin
 
-**Project image sizes:** Project images for desktop on the project detail header might vary in size. The desktop images are recalculated to 45.92% of the original image height in pixels and the default size is 729px. If an image is to me smaller than this default size, then you will have to add the calculated pixel height (to be supplied by Kap) in the project markdown file under the parameter `desktop_img_height`.
+**Project image sizes:** Project images for desktop on the project detail header might vary in size. The desktop images are recalculated to 45.92% of the original image height in pixels and the default size is 729px. If an image is smaller than this default size, then you will have to add the calculated pixel height (to be supplied by Kap) in the project markdown file under the parameter `desktop_img_height`.
 
 Generally all images for posts / pages should be uploaded and handled through the forestry cms. Uploaded images live in `/assets/uploads`.
 
@@ -57,29 +63,15 @@ Assets loaded within js or css are handled by webpack and should reside in `_web
 }
 ```
 
-## Gems & Node Modules
-
-You can install gems and node_modules to your host machine as normal:
-```
-gem install <name>
-yarn add <name>
-```
-
-However they won't be available within the container till you run:
-```
-docker-compose up
-```
-
-So installing Gems or Node Modules generally requires stopping the docker
-container, installing the dependency then starting the container again.
-
 ## Release / Deploy
+
+Forestry will compile and deploy the site when saving changes or pushing.
+
+The site can be deployed to gh-pages manually with:
 
 ```
 yarn release
 ```
-
-Webpack & Jekyll will build the site commit and push to the `gh-pages` branch.
 
 ## AMP
 
