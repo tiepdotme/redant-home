@@ -7,13 +7,13 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-  small: /assets/uploads/2008/space-small.png
-  large: /assets/uploads/2008/space-large.jpg
+image-small: /assets/uploads/2008/space-small.png
+image-large: /assets/uploads/2008/space-large.jpg
 meta:
   dsq_thread_id: '621262000'
 excerpt:
-  short: Are any humans still actually using IE5? Or is it just bots
-  long: Are any humans still actually using IE5? Or is it just bots
+excerpt-short: Are any humans still actually using IE5? Or is it just bots
+excerpt-long: Are any humans still actually using IE5? Or is it just bots
 ---
 
 As part of our development process, we test our work on a set of different web browsers. The browser list varies on different projects depending on client requirements - current versions only for technology sites because their visitors tend to have up-to-date systems, some older versions too for sites targeting a more mainstream audience.

@@ -10,10 +10,10 @@ description: Clicktale review which looks at how the technology works and some r
 keywords: Clicktale review
 image-small: /assets/uploads/2012/clicktale-small.png
 image-large: /assets/uploads/2012/clicktale.png
-meta:
-  dsq_thread_id: '591731408'
 excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says on the box.
 excerpt-long: Clicktale is a software tool which allows you to track what users are doing on your website. It is used to analyse how people behave and what they do on particular pages. we've used it on several projects to try to gain a better understanding of how users were travelling through the site. More specifically, we were trying to get a better understanding of how they were using particular pages & forms, and what steps we could take to improve our conversion rate.
+tags:
+time:
 ---
 
 This Clicktale review is completely independent. We've used it on several projects where we wanted to better understand user interactions. In doing this we had a chance to look at both the way it collects data and how it reports this information. We've also had the opportunity to compare the results against other other software tracking tools, as well as other approaches to the same task such as physical eye tracking. We started using Clicktale based on many of the positive reviews we'd read, but on further investigation many of these were paid reviews (via affiliate commission).

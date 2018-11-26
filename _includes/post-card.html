@@ -17,7 +17,10 @@
         <small class="text-muted">
           <b>{{ post.author }}</b>
           <br>
-          {{ post.date | date_to_string }} - {{ post.time }}
+          {{ post.date | date_to_string }}
+          {% if post.time.size > 1 %}
+            - {{ post.time }}
+          {% endif %}
         </small>
       </div>
     </div>

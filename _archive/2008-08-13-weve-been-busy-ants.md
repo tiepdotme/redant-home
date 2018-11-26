@@ -7,13 +7,13 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/uploads/2008/ant-small.jpg
-  large: /assets/uploads/2008/ant-large.jpg
+image-small: /assets/uploads/2008/ant-small.jpg
+image-large: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
 excerpt:
-  short: We've been busy little ants over the last few months
-  long: "We've been busy little ants over the last few months *.here .posts .blog .of .flurry .the .from .tell .probably .can .you .as*. There have been quite a few that have launched in the last weeks - here are some:"
+excerpt-short: We've been busy little ants over the last few months
+excerpt-long: "We've been busy little ants over the last few months *.here .posts .blog .of .flurry .the .from .tell .probably .can .you .as*. There have been quite a few that have launched in the last weeks - here are some:"
 ---
 
 ## Huggies Baby Name Finder

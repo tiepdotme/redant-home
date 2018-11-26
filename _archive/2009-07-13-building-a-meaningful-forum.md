@@ -8,14 +8,14 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-  small: /assets/uploads/2009/forum-small.png
-  large: /assets/uploads/2009/forum-large.png
+image-small: /assets/uploads/2009/forum-small.png
+image-large: /assets/uploads/2009/forum-large.png
 meta:
   dsq_thread_id: '522891991'
   focus_keywords: meaningful forum
 excerpt:
-  short: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
-  long: Forums have been around for an age, and there's a reason why. They bring people together, allow them to communicate and express thoughts and feelings behind a layer of anonymity, a face to face conversation doesn't always protect one in their most vunerable times. Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
+excerpt-short: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
+excerpt-long: Forums have been around for an age, and there's a reason why. They bring people together, allow them to communicate and express thoughts and feelings behind a layer of anonymity, a face to face conversation doesn't always protect one in their most vunerable times. Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
 ---
 
 One of the ways people have interacted with one another since the Internet was in Internappies is, of course, through forums. And, while many forums can lay claim to fostering community and interaction between users, just as many forums lay waste to that same idea, and leave behind only wasted time, wasted words and wasted bandwidth.

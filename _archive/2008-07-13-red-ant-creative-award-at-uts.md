@@ -7,15 +7,15 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/uploads/2008/kap-uts-design-award.jpg
-  large: /assets/uploads/2008/kap-uts-design-award.jpg
+image-small: /assets/uploads/2008/kap-uts-design-award.jpg
+image-large: /assets/uploads/2008/kap-uts-design-award.jpg
 meta:
   dsq_thread_id: '520515549'
   keywords: Red Ant creative award at UTS
   description: We're sponsoring an award at the design school of University of Technology, Sydney.
 excerpt:
-  short: We're sponsoring an award at the design school of University of Technology, Sydney.
-  long: We're sponsoring an award at the design school of University of Technology, Sydney. It's competitive, and only the best will make the cut.
+excerpt-short: We're sponsoring an award at the design school of University of Technology, Sydney.
+excerpt-long: We're sponsoring an award at the design school of University of Technology, Sydney. It's competitive, and only the best will make the cut.
 ---
 
 The award is made available to the student(s) who are judged through their portfolio and interview to have the most creative and practical approach to design for web media.

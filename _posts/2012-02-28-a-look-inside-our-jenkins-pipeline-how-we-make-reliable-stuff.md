@@ -7,10 +7,13 @@ categories:
   - automated-testing
 author: Ben Still
 description: A quick outline of how we're using Jenkins and the Pipeline view to visualise where our builds are up to
+keywords:
 image-small: /assets/uploads/2012/jenkins-pipeline-start-small.png
 image-large: /assets/uploads/2012/jenkins-pipeline-start.png
 excerpt-short: How we build relational trust; our integrated testing pipeline
 excerpt-long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous Integration to visualise our automated tests and builds, and understand how close different tests are to completion.
+tags:
+time:
 ---
 
 It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else's code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.
