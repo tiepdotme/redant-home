@@ -1,22 +1,25 @@
 ---
 layout: post
 title: Michelle Bridges 12WBT build
-permalink: /our-work/our-work-michelle-bridges-12wbt-build/
+permalink: "/our-work/our-work-michelle-bridges-12wbt-build/"
 type: news
 categories:
-  - our-work
-  - digital-products
+- our-work
+- digital-products
+- ruby-on-rails
 author: Ben Still
 description: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
-image-small: /assets/uploads/2012/12wbt.jpg
-image-large: /assets/uploads/2012/12wbt.jpg
+image-small: "/assets/uploads/2012/12wbt.jpg"
+image-large: "/assets/uploads/2012/12wbt.jpg"
 excerpt-short: The initial build of the Michelle Bridges 12WBT project
-excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented us with some unique challenges to overcome. Find out how we did it.
-tags:
-time:
----
+excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
+  Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented
+  us with some unique challenges to overcome. Find out how we did it.
+tags: 
+time: 
 
+---
 The site has a few interesting technical challenges:
 
 - **lots of traffic** needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time
