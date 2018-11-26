@@ -7,7 +7,7 @@ tagline: A project tracking tool
 description: Project Summary Tool
 project_url: ''
 client: Internal tool
-project_date: 2017
+project_date: 2017-now
 images:
 - filename: pst-1.jpg
 - filename: pst-2.jpg
