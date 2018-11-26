@@ -14,6 +14,12 @@ fields:
   label: title
   config:
     required: true
+- type: text
+  name: permalink
+  label: permalink
+  config:
+    required: true
+  default: "/"
 - type: select
   name: type
   config:
@@ -25,12 +31,6 @@ fields:
     - ideas
   label: type
   default: news
-- type: text
-  name: permalink
-  label: permalink
-  config:
-    required: true
-  default: "/"
 - type: tag_list
   name: categories
   label: categories
@@ -52,11 +52,6 @@ fields:
 - type: text
   name: keywords
   label: keywords
-- type: tag_list
-  name: tags
-  label: tags
-  default: []
-  description: 'Tags in use: Innovation; Startup; Red-Ant-Marketing; LinkedIn'
 - type: file
   name: image-small
   label: image-small
@@ -69,5 +64,14 @@ fields:
 - type: textarea
   name: excerpt-long
   label: excerpt-long
+- type: tag_list
+  name: tags
+  label: tags
+  default: []
+  description: 'Tags in use: Innovation; Startup; Red-Ant-Marketing; LinkedIn'
+- type: text
+  name: time
+  label: time
+  default: 5 Mins Read
 pages:
 - _posts/test-images.md
