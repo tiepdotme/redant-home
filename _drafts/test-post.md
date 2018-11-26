@@ -23,3 +23,17 @@ Before you start pitching to your investors about how amazing the world will be 
 > Unfortunately, the conversations didn't stay playful for long. Pretty soon after Tay launched, people starting tweeting the bot with all sorts of misogynistic, racist, and Donald Trumpist remarks. And Tay — being essentially a robot parrot with an internet connection — started repeating these sentiments back to users
 
 AI technology is amazing, and it's changing and evolving at a rapid pace. It's gone from a hard, obscure technology to a simple service that you can quickly integrate into your product. 
+
+But it can often be quite hard to get a handle on how well it's working. Or if it is actually working at all. In a recent project, we decided to use AI to help us choose a good pet to adopt.
+
+So if you looked at this dog 
+
+# 🐕
+
+and liked it, should we show you
+
+# 🐩 
+
+or
+
+# 🐈
