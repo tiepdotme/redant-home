@@ -74,5 +74,4 @@ fields:
   label: time
   default: 5 Mins Read
 pages:
-- _posts/test-post.md
 - _posts/test-images.md
