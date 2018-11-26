@@ -5,7 +5,8 @@ permalink: "/software-development/mvp-software-development-options/"
 type: news
 categories:
 - software-development
-- mvp-development
+- strategy
+- lean-development
 author: Ben Still
 description: Feeling stuck on your MVP development process? Some options to get unstuck
 keywords: MVP development
