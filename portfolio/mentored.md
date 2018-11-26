@@ -22,9 +22,7 @@ Think of it like LinkedIn but focussed on Aussie small business. Mentored is all
 
 The main features of the site are:
 
-TV Show content - videos and behind the scenes from the Channel 7 TV show
-Listings portal - a free business listings portal for Aussie small business to gain exposure or attract investment
-Deals - exclusive offers for Mentored members to get the best deal on business essentials
-Q&A - a panel of experts, combined with members expertise, to answer burning business questions 
-
-With the show launching in 2018 on Channel 7, we look forward to expanding the platform in coming months with new features and a growing business community.
+* TV Show content - videos and behind the scenes from the Channel 7 TV show
+* Listings portal - a free business listings portal for Aussie small business to gain exposure or attract investment 
+* Deals - exclusive offers for Mentored members to get the best deal on business essentials 
+* Q&A - a panel of experts, combined with members expertise, to answer burning business questions
