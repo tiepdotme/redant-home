@@ -10,10 +10,10 @@ description: A whirlwind tale of Red Ant's journey through the wonderful world o
 keywords: compost bins
 image-small: /assets/uploads/2012/compost-bin-small.jpg
 image-large: /assets/uploads/2012/compost-bin.jpg
-meta:
-  dsq_thread_id: '824121150'
 excerpt-short: "Green offices of the present future: office composting."
 excerpt-long: This week we reached a major milestone in our business - something we're all very excited about. Finally, after years of hard work and dedication, and several wrong turns along the way, we've got there.
+tags:
+time:
 ---
 
 We've just bought our second compost bin, to sit alongside our existing bin and worm farm.

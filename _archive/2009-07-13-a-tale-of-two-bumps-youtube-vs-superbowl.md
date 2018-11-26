@@ -7,14 +7,14 @@ categories:
   - how-we-do
 author: Ben Still
 image:
-  small: /assets/uploads/2009/alexa.png
-  large: /assets/uploads/2009/alexa.png
+image-small: /assets/uploads/2009/alexa.png
+image-large: /assets/uploads/2009/alexa.png
 meta:
   dsq_thread_id: '610081084'
   focus_keywords: youtube vs superbowl
 excerpt:
-  short: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
-  long: We look at the Superbowl ad on TV vs. the Dove ad on YouTube. One was exxy to broadcast, the other was free. Guess which one did better in terms of traffic to their respective websites? Yup, you got it.
+excerpt-short: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
+excerpt-long: We look at the Superbowl ad on TV vs. the Dove ad on YouTube. One was exxy to broadcast, the other was free. Guess which one did better in terms of traffic to their respective websites? Yup, you got it.
 ---
 
 [Adage](http://adage.com/article?article_id=112835) has published an article that looks at the current Evolution campaign for Dove, and compares the traffic resulting from a Youtube spot vs a Superbowl ad. Here are the statistics from Alexa, showing performance:

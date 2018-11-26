@@ -10,12 +10,15 @@ description: ...
 keywords: ...
 image-small:
 image-large:
+
+
 excerpt-short: ...
 excerpt-long: ...
 tags:
   - Innovation
   - Startup
   - Red-Ant-Marketing
+time:
 ---
 
 The Australian Tax Office has signalled changes to the R&D Tax incentive for software development — which really goes to the heart of what it means to be technically innovative.

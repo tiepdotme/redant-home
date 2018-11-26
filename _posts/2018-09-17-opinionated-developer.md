@@ -7,10 +7,15 @@ categories:
   - our-work
 author: Ben Still
 description: Execution matters. There are plenty of great ideas, but you need an experienced and opinionated development team to help you execute
+keywords:
 image-small:
 image-large:
+
+
 excerpt-short: Execution matters. Your development team matters.
 excerpt-long: Execution matters. There are plenty of great ideas, but you need an experienced and opinionated development team to help you execute
+tags:
+time:
 ---
 
 I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?

@@ -11,8 +11,12 @@ description: If you're making stuff for the web, mobile is a really big deal. It
 keywords: mobile app
 image-small: /assets/uploads/2013/mobile-join-small.jpg
 image-large: /assets/uploads/2013/mobile-join.jpg
+
+
 excerpt-short: Most of our projects now have over 50% mobile traffic. So mobile strategy is becoming increasingly important
 excerpt-long: If you're making stuff for the web, mobile is a really big deal. Most of our projects have over 50% of visits from mobile, so it's really important to form and execute a mobile strategy well. Which can be hard.
+tags:
+time:
 ---
 
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?

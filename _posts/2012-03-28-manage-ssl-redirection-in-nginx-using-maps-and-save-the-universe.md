@@ -10,10 +10,10 @@ description: A simple tutorial showing how to manage a large list of rewrite rul
 keywords: nginx ssl redirection
 image-small: /assets/uploads/2012/milo-on-floor-small.jpg
 image-large: /assets/uploads/2012/milo-on-floor.jpg
-meta:
-  dsq_thread_id: '626766201'
 excerpt-short: Solutions to simple yet common and frustrating problems. We spill the beans on how we do it.
 excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation but we think we've found the solution to a simple yet common and frustrating problem with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of a cute dog!
+tags:
+time:
 ---
 
 ## The problem

@@ -1,25 +1,25 @@
 ---
+layout: post
 title: The hard thing about AI isn't making it. It's testing it to see if it actually
   works
-layout: post
 type: news
 permalink: "/automated-testing/ai-development-testing"
 categories:
 - automated-testing
 - software-development
 author: Ben Still
-tags: []
-date: 2018-11-26 02:31:36 +0000
 description: AI and Machine Learning are amazing technologies. But in some cases it
   can be hard to know when they are actually working
 keywords: ai development, machine learning, automated tests
+date: 2018-11-26 02:31:36 +0000
 image-small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
 image-large: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
 excerpt-short: Testing Machine Learning or AI powered features is often trickier than
   it seems
 excerpt-long: Testing Machine Learning or AI powered features is often trickier than
   it seems
-
+tags: []
+time:
 ---
 Before you start pitching to your investors about how amazing the world will be once you get some AI in your product, spare a thought for the engineering team behind Tay, [the Microsoft AI chatbot](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist).
 
@@ -53,17 +53,17 @@ To explain: when we write code, it's good practice to also write some test code 
 
 These tests get fed into Continuous Integration, and get run each time a developer makes changes or deploys code. They can even be run in the live environment to monitor ongoing performance. That's how we can be certain that our code is working as planned.
 
-But how do you create a test to see if the recommendation you've made is the right one? We've asked the AI engine 
+But how do you create a test to see if the recommendation you've made is the right one? We've asked the AI engine
 
-_"Hey - what should we recommend now?"_ 
+_"Hey - what should we recommend now?"_
 
-and the AI has replied 
+and the AI has replied
 
-_"42"_. 
+_"42"_.
 
 It can be hard to understand if pet id#42 is in fact the right pet to show for this person or not.
 
-ML works really well in some situations. Say you needed to make a recommendation on what I should watch next on Netflix. You could test to see if I started watching the recommended show. Even better would be to test if I watched to the end. Gave it a thumbs up. 
+ML works really well in some situations. Say you needed to make a recommendation on what I should watch next on Netflix. You could test to see if I started watching the recommended show. Even better would be to test if I watched to the end. Gave it a thumbs up.
 
 To explain why this works well:
 

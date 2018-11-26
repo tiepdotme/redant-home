@@ -8,14 +8,14 @@ categories:
   - agile
 author: Ben Still
 image:
-  small: /assets/uploads/2009/track-small.jpg
-  large: /assets/uploads/2009/track-large.jpg
+image-small: /assets/uploads/2009/track-small.jpg
+image-large: /assets/uploads/2009/track-large.jpg
 meta:
   dsq_thread_id: '631372738'
   focus_keywords: tracking bugs
 excerpt:
-  short: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
-  long: Excel can be great for so many things, we have a go at using it to track bugs that come up within the development process. Read on to see an easy-to-digest review of how it went for us.
+excerpt-short: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
+excerpt-long: Excel can be great for so many things, we have a go at using it to track bugs that come up within the development process. Read on to see an easy-to-digest review of how it went for us.
 ---
 
 The basic problem; you have a project where there are lots of things that you need to write down and keep track of. These need to get resolved before the project can wrap up.
