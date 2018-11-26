@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Digital agency vs a Technical Agency
-permalink: "/red-ant-stuff/digital-agency-vs-technical/"
+permalink: "/software-development/digital-agency-vs-technical/"
 type: news
 categories:
 - our-work
+- software-development
 author: Ben Still
 description: Seems like all the cool kids are Digital Agencies these days
 keywords: Digital Agencys
