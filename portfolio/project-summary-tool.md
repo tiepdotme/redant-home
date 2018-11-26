@@ -5,22 +5,17 @@ slug: project-summary-tool
 title: Project Summary Tool
 tagline: A project tracking tool
 description: Project Summary Tool
-project_url: https://projectsummaryapp.com/
+project_url: ''
 client: Internal tool
-project_date: 2017
+project_date: 2017-now
 images:
-  -
-    filename: pst-1.jpg
-  -
-    filename: pst-2.jpg
-  -
-    filename: pst-3.jpg
-  -
-    filename: pst-4.jpg
-  -
-    filename: pst-5.jpg
----
+- filename: pst-1.jpg
+- filename: pst-2.jpg
+- filename: pst-3.jpg
+- filename: pst-4.jpg
+- filename: pst-5.jpg
 
+---
 #### Project Description
 
 Project Summary is a tool we've created to use internally, but we now sell as a Saas product. It’s a tool that came about quite indulgently - we wanted to be better at what we do, and we decided to build something to help with that. What happened next will blow your mind.
