@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Options for developing a viable MVP
-permalink: /red-ant-stuff/mvp-software-development-options/
+title: Feeling a bit stuck on your MVP development?
+permalink: "/red-ant-stuff/mvp-software-development-options/"
 type: news
 categories:
-  - software-development
+- software-development
 author: Ben Still
 image:
   small: 
@@ -15,20 +15,26 @@ meta:
 excerpt:
   short: 
   long: 
+
 ---
-
 A really common scenario: you've had some code developed, but now you're feeling a bit stuck. Typically:
-- your developer doesn't get what you're trying to do
-- they are unavailable to do further work
-- you need to move faster
-- concerns about the work being good enough to commercialise or scale
 
+* your developer doesn't get what you're trying to do
+* they are unavailable to do further work
+* you need to move faster
+* concerns about the work being good enough to commercialise or scale
 
-I think there are a few key decisions you need to work out.
+Don't stress - lots of people are in exactly the same situation. There are a few key decisions you need to work out.
 
-The first is whether you want to keep working with your existing developer or not. There might be reasons you’d want to - like they are an investor, a really good friend, they’ve already been paid in equity, you think they understand everything and don’t want to lose that etc etc.
+The first is whether you want to keep working with your existing developer or not. There might be reasons you'd like to keep working with them - such as they've already been paid, you think they understand everything and you don't want to lose that etc.
 
-Or these might not be reasons for you.
+Or not. There might not be any reason to persist. But be clear in your own mind as to why. This helps repeating mistakes going forward.
+
+Now if you want to keep working with your existing team, it would be a Bad Idea™️ to engage a dev team like Red Ant to do the work but at the same time also having your existing developer also committing work. I realise this might seem to make sense, but it rarely works out. 
+
+What can work is if there is a natural segmentation in your project like APIs or delivery formats (eg: native phone app that consumes an API) - so each team can work pretty much independently. And most importantly take responsibility and ownership for delivery. 
+
+Another option is to pad your team with freelancers, but this is not without it's challenges. The first is surprise at how hard it is to find developers. The second is joy when you finally find someone available. And the third is despair when you realise they are way more junior than you need and you're now a bit further behind.
 
 To address delivery timeframe and quality, (in my opinion) you need to increase team size. Looking at what you’re trying to build, it is outside the scope of a single developer. I’d estimate that as a 3-4 person team project. That is not to say that a developer won’t say they can do it all - it is just in my experience the type of developer that would is exactly the type of developer you don’t want. They’ll typically make the early decisions and chose shiny technology that will mire you in technical debt for many years.
 
