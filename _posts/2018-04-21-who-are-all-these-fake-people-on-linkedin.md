@@ -5,9 +5,17 @@ permalink: /marketing/who-are-all-these-fake-people-on-linkedin/
 type: ideas
 categories:
   - marketing
+author:
+description:
+keywords:
+image-small:
+image-large:
+excerpt-short:
+excerpt-long:
 tags:
   - Red-Ant-Marketing
   - LinkedIn
+time:
 ---
 
 ![](/assets/uploads/2018/linkedin1.png)

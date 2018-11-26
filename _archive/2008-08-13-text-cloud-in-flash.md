@@ -7,13 +7,13 @@ categories:
   - our-work
 author: Ben Still
 image:
-  small: /assets/uploads/2008/radiant-admin-465x311.png
-  large: /assets/uploads/2008/radiant-admin.png
+image-small: /assets/uploads/2008/radiant-admin-465x311.png
+image-large: /assets/uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:
-  short: Visualising a list of information in interesting ways
-  long: Visualising a list of information in interesting ways
+excerpt-short: Visualising a list of information in interesting ways
+excerpt-long: Visualising a list of information in interesting ways
 ---
 
 This post outlines an idea that we've come up with for visualising a list of information in interesting ways. We've included some code examples, a live example, and you can download the source code to roll your own.

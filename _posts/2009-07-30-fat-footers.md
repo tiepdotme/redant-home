@@ -8,13 +8,13 @@ categories:
   - design
 author: Ben Still
 description: In several recent projects, we've experimented with extending the footer area. We've had some mixed results.
-keyword: website footer design
+keywords: website footer design
 image-small: /assets/uploads/2009/me-and-sarah-small.jpg
 image-large: /assets/uploads/2009/me-and-sarah.jpg
-meta:
-  dsq_thread_id: '479978236'
 excerpt-short: There's a bit of a design trend at the moment towards making more of the footer area at the bottom of your site.
 excerpt-long: There's a bit of a design trend at the moment towards making more of the footer area at the bottom of your site. Rather than just having a few links and a copyright statement, some sites are starting to add more elements to their footer area as a way of helping users navigate.
+tags:
+time:
 ---
 
 In several recent projects, we've experimented with extending the footer area. We've had some mixed results. It certainly seems like a good idea- the theory being that the user scrolls to the bottom of the page and gets a prompt or call to action to go to another page. There is a good summary of why on [Web Designers Wall (Benefits of Placing a Sitemap in the Footer)](http://www.webdesignerwall.com/trends/modern-sitemap-and-footer/) that I've summarised here:

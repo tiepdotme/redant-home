@@ -8,13 +8,14 @@ categories:
   - how-we-do
   - ruby-on-rails
 author: Ben Still
+description:
 keywords: multi variate testing
 image-small: /assets/uploads/2009/peter-small.jpg
 image-large: /assets/uploads/2009/peter.jpg
-meta:
-  dsq_thread_id: '504960434'
 excerpt-short: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing
 excerpt-long: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing. Its quite interesting, but hard to explain. In a nutshell, MV testing means testing lots of little changes or variations to a web site to see what works. Does bold orange type work better than small grey type? Should we show the price on this page or not at all?
+tags:
+time:
 ---
 
 Traditionally, to find out how you should best design and structure your site you might do some testing on a sample of users. There's lots of ways of doing this, from giving them a set of thing to find on your site and timing this through to tracking users eye movements as they look at different pages. If you feel a strong, overwhelming desire to irritate, you could always set up an entry and exit survey on your site.

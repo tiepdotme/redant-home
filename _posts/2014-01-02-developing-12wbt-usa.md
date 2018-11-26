@@ -12,10 +12,10 @@ description: We've been working on building the Michelle Bridges 12WBT platform 
 keywords: 12wbt
 image-small: /assets/uploads/2014/mish-adelaide-finale-small.jpg
 image-large: /assets/uploads/2014/mish-adelaide-finale.jpg
-meta:
-  focus_keywords: 12wbt
 excerpt-short: We've been working on building the Michelle Bridges 12WBT platform in Australia for several years. A shiny new US version of the platform which launched this week.
 excerpt-long: We've been working on building the <a href="/portfolio/12wbt/">Michelle Bridges 12WBT</a> platform in Australia for several years. In that time it has grown massively. For the last few months we've been busy on a shiny new US version of the platform which launched this week.
+tags:
+time:
 ---
 
 From NYTimes article:

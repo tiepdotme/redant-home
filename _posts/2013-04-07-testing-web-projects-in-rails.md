@@ -11,8 +11,12 @@ description: As web projects grow in complexity, the testing process gets more a
 keywords: automated testing web projects
 image-small: /assets/uploads/2013/milo-closeup-small.jpg
 image-large: /assets/uploads/2013/milo-closeup-small.jpg
+
+
 excerpt-short: One of the things we've started doing quite differently over the last few years is how we test our web projects
 excerpt-long: One of the things we've started doing quite differently over the last few years is how we test our web projects. Now, most people would (rightly) assume we actually check or test our work before sending it live. But **how** we do this testing has changed drastically.
+tags:
+time:
 ---
 
 ## For testing a web project, there are four key things:

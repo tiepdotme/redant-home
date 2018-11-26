@@ -8,14 +8,14 @@ categories:
   - agile
 author: Ben Still
 image:
-  small: /assets/uploads/2009/wiki-wiki-small.jpg
-  large: /assets/uploads/2009/wiki-wiki-big.jpg
+image-small: /assets/uploads/2009/wiki-wiki-small.jpg
+image-large: /assets/uploads/2009/wiki-wiki-big.jpg
 meta:
   dsq_thread_id: '485952994'
   focus_keywords: confluence
 excerpt:
-  short: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
-  long: A Wiki is a place for storing information, it's a collaboration tool, and it's a space for sharing. Everyone's involved, no one sits on the sidelines. If something needs updating you have the power to do it, and so you should. This makes it's a pretty reliable platform for retrieving up to date knowledge. We talk about how that works with our clients in the mix too.
+excerpt-short: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
+excerpt-long: A Wiki is a place for storing information, it's a collaboration tool, and it's a space for sharing. Everyone's involved, no one sits on the sidelines. If something needs updating you have the power to do it, and so you should. This makes it's a pretty reliable platform for retrieving up to date knowledge. We talk about how that works with our clients in the mix too.
 ---
 
 To do this, we use a type of software called a Wiki. A Wiki is what you'd get if you had a virtual cocktail blender and mixed Word with a Blog and then threw in a Content Management System. And yes, Wiki like in Wikipedia.
