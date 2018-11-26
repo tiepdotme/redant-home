@@ -1,5 +1,0 @@
-#!/bin/sh
-
-bundle check || bundle install
-yarn check || yarn install
-yarn start

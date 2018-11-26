@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Why having an opinionated developer matters
-permalink: /red-ant-stuff/opinionated-development/
+permalink: /red-ant-stuff/opinionated-developer/
 type: news
 categories:
   - our-work
 author: Ben Still
 description: Execution matters. There are plenty of great ideas, but you need an experienced and opinionated development team to help you execute
-image:
-  small: ...
-  big: ...
-excerpt:
-  short: Execution matters. Your development team matters.
-  long: Execution matters. There are plenty of great ideas, but you need an experienced and opinionated development team to help you execute
+image-small:
+image-large:
+excerpt-short: Execution matters. Your development team matters.
+excerpt-long: Execution matters. There are plenty of great ideas, but you need an experienced and opinionated development team to help you execute
 ---
 
 I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?

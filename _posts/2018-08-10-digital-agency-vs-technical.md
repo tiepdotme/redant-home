@@ -7,13 +7,11 @@ categories:
   - our-work
 author: Ben Still
 description: Digital agency vs a Technical Agency
-keywords: Digital Agency
-image:
-  small: ...
-  big: ...
-excerpt:
-  short: Digital agency vs a Technical Agency
-  long: Digital agency vs a Technical Agency
+keywords: Digital Agencys
+image-small:
+image-large:
+excerpt-short: Digital agency vs a Technical Agency
+excerpt-long: Digital agency vs a Technical Agency
 ---
 
 Dear Mum,

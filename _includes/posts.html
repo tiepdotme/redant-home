@@ -1,11 +1,13 @@
-<div class="masonry-full-width" style="border: 2px solid red">
-  <div id="blog-posts" class="container">
-    {% for post in site.posts %}
-      {% if type == nil or post.type == type %}
-        {% include post-tile.html %}
-      {% else %}
-        skipped {{ post.type }}
-      {% endif %}
-    {% endfor %}
-  </div>
+<div class="bg-gray-light">
+  <section class="py-5 container">
+    <div id="macy-container">
+      {% for post in site.posts %}
+        {% if include.type == nil or include.type == post.type  %}
+          {% include post-card.html %}
+        {% else %}
+          <!-- skipped {{ post.type }} -->
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 </div>

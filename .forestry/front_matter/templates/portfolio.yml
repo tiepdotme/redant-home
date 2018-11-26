@@ -1,0 +1,105 @@
+---
+label: portfolio
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: project
+- type: select
+  name: theme
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - 12wbt
+    - beautyheaven
+    - bondi-vet
+    - campaign-express
+    - huggies
+    - mentor
+    - momentum
+    - redant
+    - nps
+    - move
+    - plando
+    - petmatcher
+    - sellers-diy
+    - tribe
+    - voome
+    - whatson
+    - yates
+  label: theme
+  default: 12wbt
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: tagline
+  label: tagline
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: project_url
+  label: project_url
+  default: https://
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - 12WBT
+    - Michelle Bridges 12WBT
+    - Beauty Heaven
+    - Vexo Media
+    - CAMPAIGNxpress
+    - Huggies
+    - Kimberly Clark
+    - The Mentor Platform
+    - Outdoor Media Association
+    - NPS Medicinewise
+    - Move OMA
+    - PlanDo
+    - Internal tool
+    - Real Pet Food Co
+    - Orica
+    - Tribe Group
+    - City Of Sydney
+  label: client
+  name: client
+- type: text
+  name: project_date
+  label: project_date
+  default: '2013 - '
+- type: select
+  name: project_type
+  config:
+    source:
+      type: simple
+    options:
+    - mobile
+  label: project_type
+- type: text
+  name: team_size
+  label: team_size
+  default: 0 people
+- type: text
+  name: lines_of_code
+  label: lines_of_code
+- type: tag_list
+  name: technologies
+  label: technologies
+  default: []
+  description: 'Currently used tags: Ruby on Rails; Swift; Angular; Ruby; Brightcove;
+    React; Scrivito; Google AI Machine Learning; Radiant; Facebook AI; FB Messenger;'
+- type: image_gallery
+  name: images
+  label: images

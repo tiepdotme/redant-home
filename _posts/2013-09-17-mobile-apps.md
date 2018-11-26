@@ -9,12 +9,10 @@ categories:
 author: Ben Still
 description: If you're making stuff for the web, mobile is a really big deal. It's really important to form and execute a mobile strategy well. Which can be hard.
 keywords: mobile app
-image:
-  small: /assets/uploads/2013/09/mobile-join-465x305.jpg
-  big: /assets/uploads/2013/09/mobile-join.jpg
-excerpt:
-  short: Most of our projects now have over 50% mobile traffic. So mobile strategy is becoming increasingly important
-  long: If you're making stuff for the web, mobile is a really big deal. Most of our projects have over 50% of visits from mobile, so it's really important to form and execute a mobile strategy well. Which can be hard.
+image-small: /assets/uploads/2013/mobile-join-small.jpg
+image-large: /assets/uploads/2013/mobile-join.jpg
+excerpt-short: Most of our projects now have over 50% mobile traffic. So mobile strategy is becoming increasingly important
+excerpt-long: If you're making stuff for the web, mobile is a really big deal. Most of our projects have over 50% of visits from mobile, so it's really important to form and execute a mobile strategy well. Which can be hard.
 ---
 
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
@@ -35,7 +33,7 @@ Some people just expect that there is an App available. And there is definitely 
 
 If the icon on their home screen is what theyre after- great news: that takes about 10 min to set up. If they really want an App, take some time to research exactly what they'd like in it vs what you might already have available. You might find that they're asking for features you don't provide. So delivering those features via the App Store or via carrier pigeon is kind of irrelevant- you need to do some product planning.
 
-[![tom_selleck_01](/assets/uploads/2013/09/tom_selleck_01-237x300.jpg)](/assets/uploads/2013/09/tom_selleck_01.jpg)
+[![tom_selleck_01](/assets/uploads/2013/tom_selleck_01-small.jpg)](/assets/uploads/2013/tom_selleck_01.jpg)
 
 Dont get me wrong- \*\*creating a mobile App can be a perfect strategic fit. But taking a look at many of the current apps created by brands and products to support their product/service, it is puzzling as to why they just didnt make a really good mobile web site.
 

@@ -1,0 +1,131 @@
+a {
+  color: $red;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: rgba($red, 0.75);
+  }
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+hr {
+  @include block();
+
+  &.hr-blue {
+    @include block($blue-100);
+  }
+
+  &.hr-thin {
+    height: 1px;
+    margin-top: -1px;
+    opacity: 0.2;
+    width: 100%;
+  }
+
+  &.hr-white {
+    @include block($white);
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+.about-us-list {
+  padding-left: 62px;
+  list-style: none;
+
+  li {
+    position: relative;
+    margin-bottom: $grid-gutter-width / 2;
+
+    &::before {
+      @include block();
+      content: '';
+      display: block;
+      position: absolute;
+      left: -62px;
+      top: 10px;
+    }
+
+    &.red::before {
+      background-color: $about-red;
+    }
+
+    &.green::before {
+      background-color: $about-green;
+    }
+
+    &.blue::before {
+      background-color: $blue-100;
+    }
+  }
+}
+
+.hero-section {
+  h1 {
+    font-size: 2.625rem;
+    font-weight: 600;
+  }
+}
+
+.hr-wrapper {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba($white, 0.65);
+
+  hr {
+    margin-bottom: 0;
+  }
+}
+
+.project-detail-content {
+  font-size: 0.9375rem;
+
+  a {
+    color: $blue-100;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.text-xl {
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.text-md {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.text-gray {
+  color: $gray-200;
+}
+
+.text-white {
+  color: $white;
+}
+
+.unstyled-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.white-space-normal {
+  white-space: normal;
+}
+
+@include media-breakpoint-down(sm) {
+  .text-md {
+    font-size: 1.25rem;
+  }
+}

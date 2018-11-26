@@ -4,13 +4,17 @@ permalink: /automated-testing/
 title: Ruby on Rails Sydney - Red Ant
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Automated Testing</h1>
-        <hr>
+<header class="blog-header blog-header--agile">
+  {% include blog-nav.html active="automated-testing" %}
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">automated testing</h1>
+          <hr>
+          <p>...</p>
+        </div>
       </div>
     </div>
   </div>
@@ -28,10 +32,4 @@ title: Ruby on Rails Sydney - Red Ant
   <p>Each time a developer makes a change, it is sent to the lead developer for peer review. Once approved it is added to the GitHub code repository, which triggers a series of automated tests to check against all of the above criteria. By carefully describing how the site should function and then testing those functions, any issues are immediately picked up and resolved.</p>
 </div>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.automated-testing %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="automated-testing" %}

@@ -5,60 +5,69 @@ title: Ruby on Rails Sydney - Red Ant
 ---
 
 <header class="blog-header blog-header--agile">
-  <div class="blog-navbar">
-    <div class="container">
-      <div class="links">
-        <a href="#" class="pri">News & Ideas</a>
-        <a href="#">Project Management</a>
-        <a href="#">Marketing</a>
-        <a href="#">Design</a>
-        <a href="#" class="active">Agile</a>
-      </div>
-    </div>
-  </div>
+  {% include blog-nav.html active="agile" %}
+
   <div class="blog-intro">
     <div class="container">
       <div class="middle">
         <div class="boom">
           <h1 class="slash">agile</h1>
           <hr>
-          <p>Agile is a project management and development process that promotes adaptive planning, evolutionary development and delivery, and rapid flexible response to change. We think it’s pretty great.</p>
+          <p>
+            Agile is a project management and development process that promotes adaptive planning, evolutionary development and delivery, and rapid flexible response to change. We think it’s pretty great.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<header id="section-intro" class="ga-section dark-header padded-section" style="display:none">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-x-large">Agile Project Management<br>and Development</h1>
-        <hr>
-      </div>
+<div class="py-5 container content">
+  <p>
+    Agile is a project management and development process that promotes adaptive planning, evolutionary development and delivery, and rapid flexible response to change. We think it’s pretty great.
+  </p>
+  <p>
+    As an Agile team, we focus on delivering working software rather than comprehensive documentation (because let’s be honest, there’s no point in creating massive spec documents that no one reads). Agile also gives us a mechanism for ongoing collaboration with our customers.
+  </p>
+  <h5>Some of our favourite Agile processes and tools include:</h5>
+
+  <div class="row pt-3">
+    <div class="col-6 col-md-4">
+      <p>
+        <b>Roadmapping</b> - to map out features, goals and timeframes for projects.
+      </p>
+    </div>
+
+    <div class="col-6 col-md-4">
+      <p>
+        <b>Standup</b> - if these don't happen, the project probably won't.
+      </p>
+    </div>
+
+    <div class="col-6 col-md-4">
+      <p>
+        <b>JIRA</b> - to keep track of all our tasks and assign priorities to them.
+      </p>
+    </div>
+
+    <div class="col-6 col-md-4">
+      <p>
+        <b>Sprints</b> - breaking down larger projects into smaller chunks of work means we can release more features more frequently.
+      </p>
+    </div>
+
+    <div class="col-6 col-md-4">
+      <p>
+        <b>Wallboards</b> - these tell us, at a glance, who’s working on what this week and whether any release deadlines are coming up.
+      </p>
+    </div>
+
+    <div class="col-6 col-md-4">
+      <p>
+        <b>Retrospectives</b> - we do a quick review at the end of each sprint or project and make any necessary adjustments for the next sprint.
+      </p>
     </div>
   </div>
-</header>
-
-<div class="container content">
-  <p>Agile is a project management and development process that promotes adaptive planning, evolutionary development and delivery, and rapid flexible response to change. We think it’s pretty great.</p>
-  <p>As an Agile team, we focus on delivering working software rather than comprehensive documentation (because let’s be honest, there’s no point in creating massive spec documents that no one reads). Agile also gives us a mechanism for ongoing collaboration with our customers.</p>
-  <p>Some of our favourite Agile processes and tools include:</p>
-  <ul>
-    <li>Roadmapping – to map out features, goals and timeframes for projects.</li>
-    <li>Standup - if these don't happen, the project probably won't.</li>
-    <li>JIRA – to keep track of all our tasks and assign priorities to them.</li>
-    <li>Sprints – breaking down larger projects into smaller chunks of work means we can release more features more frequently.</li>
-    <li>Wallboards – these tell us, at a glance, who’s working on what this week and whether any release deadlines are coming up.</li>
-    <li>Retrospectives – we do a quick review at the end of each sprint or project and make any necessary adjustments for the next sprint.</li>
-  </ul>
 </div>
 
-<div class="masonry-full-width">
-  <div id="blog-posts" class="container">
-    {% for post in site.categories.agile %}
-      {% include post-tile.html %}
-    {% endfor %}
-  </div>
-</div>
+{% include posts-by-category.html category="agile" %}

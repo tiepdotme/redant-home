@@ -1,21 +1,17 @@
-# Look into using Alpine. Issue at the moment is installing ffi
-# RUN apk --update add build-base libffi-dev
+FROM starefossen/ruby-node:2-8-alpine
 
-FROM starefossen/ruby-node:latest
-MAINTAINER Jason Taylor <jason@redant.com.au>
+# Minimum requirements to run jekyll / webpack
+RUN apk add --no-cache --update bash \
+                                build-base \
+                                yarn
 
-ENV APP_PATH /app
-ENV BUNDLE_GEMFILE=$APP_PATH/Gemfile \
-    BUNDLE_JOBS=2 \
-    BUNDLE_PATH=/bundle
+WORKDIR /usr/local/app
+ENV PATH ${WORKDIR}/node_modules/.bin:$PATH
 
-RUN mkdir $APP_PATH
-WORKDIR $APP_PATH
-
-ADD Gemfile* $APP_PATH/
+ADD Gemfile* ./
 RUN bundle install
 
-ADD package.json yarn.lock $APP_PATH/
-RUN yarn install
+ADD package.json yarn.lock ./
+RUN yarn install --pure-lockfile
 
-ADD . $APP_PATH
+COPY . ./

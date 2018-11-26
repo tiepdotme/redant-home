@@ -9,12 +9,10 @@ categories:
 author: Ben Still
 description: Defining a Digital Product
 keywords: Digital Product
-image:
-  small: /assets/uploads/2014/03/digital-product-400.jpg
-  big: /assets/uploads/2014/03/digital-product-1600.jpg
-excerpt:
-  short: One of the things we focus on is developing Digital Products. These are websites that provide some form of utility to users - these allow people to "do" stuff
-  long: One of the things we focus on is developing Digital Products. These are websites that provide some form of utility to users - these allow people to "do" stuff. Unlike a static site, which might be used for marketing a product or service, these sites <strong>are themselves</strong> the product or service.
+image-small: /assets/uploads/2014/digital-product-small.jpg
+image-large: /assets/uploads/2014/digital-product.jpg
+excerpt-short: One of the things we focus on is developing Digital Products. These are websites that provide some form of utility to users - these allow people to "do" stuff
+excerpt-long: One of the things we focus on is developing Digital Products. These are websites that provide some form of utility to users - these allow people to "do" stuff. Unlike a static site, which might be used for marketing a product or service, these sites <strong>are themselves</strong> the product or service.
 ---
 
 A static site usually consists of a number of pages, which might have a CMS to allow you to edit content and make new pages. Each page is essentially static - each visitor gets the same content. Sure, there might be some multivariate testing running over the top so some visitors get different messages, but the core experience is the same.

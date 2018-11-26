@@ -9,12 +9,10 @@ categories:
 author: Ben Still
 description: Fast follower is a strategy used to replicate successful products. Here are 5 reasons why it might not work out, based on our experience.
 keywords: fast follower
-image:
-  small: /assets/uploads/2013/09/cat-465x290.jpg
-  big: /assets/uploads/2013/09/cat-465x290.jpg
-excerpt:
-  short: Five reasons why we think your fast follower strategy might not work out so well.
-  long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe the strategy</a> of some companies to look at what a rival is doing and come out quickly with a similar "follower" product, eventually overtaking the original product. It's the flip of that equally slick sounding strategy "first mover advantage", which gets used quite a bit around dotcom bubbles to justify ideas that no one needs.
+image-small: /assets/uploads/2013/cat-small.jpg
+image-large: /assets/uploads/2013/cat.jpg
+excerpt-short: Five reasons why we think your fast follower strategy might not work out so well.
+excerpt-long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe the strategy</a> of some companies to look at what a rival is doing and come out quickly with a similar "follower" product, eventually overtaking the original product. It's the flip of that equally slick sounding strategy "first mover advantage", which gets used quite a bit around dotcom bubbles to justify ideas that no one needs.
 ---
 
 There's an [interesting discussion by Hunter Walk](http://hunterwalk.com/2013/09/09/has-mobile-killed-the-fast-follower-strategy-sure-looks-that-way/) about fast follower strategy and whether mobile has been instrumental in killing it off. He outlines four reasons (which are mobile iOS centric) that make the whole fast follower approach a bit redundant.
@@ -49,7 +47,7 @@ Looking at an online product from the outside, its easy to miss the things which
 
 If you've had the idea, how many other people are working on the same fast follow strategy already?
 
-[![you are not alone](/assets/uploads/2013/09/cat.jpg)](/assets/uploads/2013/09/cat.jpg)
+[![you are not alone](/assets/uploads/2013/cat.jpg)](/assets/uploads/2013/cat.jpg)
 
 **Groupon** launched. Six different companies asked us to build a Groupon clone (which we didn't end up doing). Three of those went live, and I think only one is kind of hanging in there. The market has a way of sorting this stuff out. Google [groupon clone](https://www.google.com.au/search?&q=groupon+clone) to see just how many different types of clones you can buy now. Weve had similar requests for Gilt, Airbnb, Airtasker and others.
 

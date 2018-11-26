@@ -9,14 +9,12 @@ categories:
 author: Sam Bauers
 description: Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
-image:
-  small: /assets/uploads/2013/12/somebody-set-us-up-the-bomb-465x232.gif
-  big: /assets/uploads/2013/12/somebody-set-us-up-the-bomb.gif
+image-small: /assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg
+image-large: /assets/uploads/2013/somebody-set-us-up-the-bomb.jpg
 meta:
   focus_keywords: gmail
-excerpt:
-  short: This week, GMail announced images are on by default. If you're a marketer, you might have seen some posts about how exciting this is that we can now track emails again. #fail
-  long: If you're a GMail user, you've probably seen an update explaining that <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images are now on by default</a>. If you're a marketer, you might have seen some posts saying how exciting this is that email companies can now start tracking email opens again. (Un)fortunately this is a bit of wishful thinking or misinformation.
+excerpt-short: This week, GMail announced images are on by default. If you're a marketer, you might have seen some posts about how exciting this is that we can now track emails again. #fail
+excerpt-long: If you're a GMail user, you've probably seen an update explaining that <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images are now on by default</a>. If you're a marketer, you might have seen some posts saying how exciting this is that email companies can now start tracking email opens again. (Un)fortunately this is a bit of wishful thinking or misinformation.
 ---
 
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.
@@ -90,20 +88,20 @@ The result looks a bit like this:
 </tr>
 <tr>
 	<td>Filename always the same</td>
-	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/12/different-always-1.png" width="30" height="30"></td>
+	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30"></td>
 </tr>
 <tr>
 	<td>Filename always the same, querystring unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/12/different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/12/different-always-2.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30"></td>
 </tr>
 <tr>
 	<td>Filename always unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/12/same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/12/different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/12/different-always-3.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30"></td>
 </tr>
 </tbody>
 </table>
@@ -146,4 +144,4 @@ Losing the IP address means losing the closest thing we have to geographic data 
 
 #### Try it yourself
 
-The log entries generated from the testing we did and the code used to generate our random images are available [here (Gmail caching test - code and results)](/assets/uploads/2013/12/gmail-caching-test.zip) (MIT License). If you're miffed and puzzled by the image at the top of this post, we're just trying to get all that [long tail gmail using AYB fan](http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us) traffic. Don't tell me image SEO doesn't work.
+The log entries generated from the testing we did and the code used to generate our random images are available [here (Gmail caching test - code and results)](/assets/uploads/2013/gmail-caching-test.zip) (MIT License). If you're miffed and puzzled by the image at the top of this post, we're just trying to get all that [long tail gmail using AYB fan](http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us) traffic. Don't tell me image SEO doesn't work.

@@ -6,14 +6,12 @@ permalink: /strategy/visualising-your-online-customer-funnel/
 categories:
   - strategy
 author: Ben Still
-image:
-  small: /assets/uploads/2009/07/funnel-small.png
-  big: /assets/uploads/2009/07/funnel-large.png
+image-small: /assets/uploads/2009/funnel-small.png
+image-large: /assets/uploads/2009/funnel-large.png
 meta:
   dsq_thread_id: '479978220'
-excerpt:
-  short: Refine your user experience and create better ROI by taking an internal look at what happens when your customer visits your site.
-  long: Here we look at converting customers from their first visit to your website to the end point at which they either purchase or become fully engaged with what you're offering. By visualising this you can refine the process and create a better user experience and increase your ROI.
+excerpt-short: Refine your user experience and create better ROI by taking an internal look at what happens when your customer visits your site.
+excerpt-long: Here we look at converting customers from their first visit to your website to the end point at which they either purchase or become fully engaged with what you're offering. By visualising this you can refine the process and create a better user experience and increase your ROI.
 ---
 
 One of the ways that you can track customer interaction is through a conversion funnel approach, which will be familiar to anyone with a sales background. Coming in at the top of the funnel you have new customers. In the sales model, you communicate with them in various ways by sending them brochures and proposals, and in turn they express an increased interest in your offering. At the bottom of the funnel are the customers that actually commit to your offering. The whole point is to measure how many people you convert from newbies to customers - your conversion ratio.
@@ -41,10 +39,10 @@ One of the big challenges is communicating what this customer funnel looks like,
 Here is how we've explained it as an overview:
 
 <object width="490" height="370">
-  <param name="movie" value="{{ site.data.webpack['2009-funnel.swf'] }}" />
+  <param name="movie" value="/assets/uploads/2009/funnel.swf" />
   <param name="allowFullScreen" value="true" />
   <param name="allowscriptaccess" value="always" />
-  <embed src="{{ site.data.webpack['2009-funnel.swf'] }}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="490" height="370" />
+  <embed src="/assets/uploads/2009/funnel.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="490" height="370" />
 </object>
 
 *image credit: [Scott Ableman](https://www.flickr.com/photos/ableman/)*

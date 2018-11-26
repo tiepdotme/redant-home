@@ -8,14 +8,12 @@ categories:
   - ruby-on-rails
 author: Ben Still
 keywords: beautyheaven ruby on rails
-image:
-  small: /assets/2009-beautyheaven-small.png
-  big: http://farm3.static.flickr.com/2475/3641611813_0a0ab76840_o.jpg
+image-small: /assets/uploads/2009/beautyheaven-small.png
+image-large: /assets/uploads/2009/beautyheaven-redesigned-home-page.png
 meta:
   dsq_thread_id: '479978238'
-excerpt:
-  short: The latest release of Beauty Heaven is part of a number of changes that we've been making to the site to improve functionality and performance - faster, higher and that sort of stuff.
-  long: One of our long-term client, Beauty Heaven, has let us make some snazzy new updates to their super popular website. Think faster, higher and that sort of stuff.
+excerpt-short: The latest release of Beauty Heaven is part of a number of changes that we've been making to the site to improve functionality and performance - faster, higher and that sort of stuff.
+excerpt-long: One of our long-term client, Beauty Heaven, has let us make some snazzy new updates to their super popular website. Think faster, higher and that sort of stuff.
 ---
 
 Beauty Heaven is the leading independent Beauty site in Australia, and we're thrilled to be working with them. The site has a thriving membership, who continually add content and reviews to the site. They have a really neat-o loyalty system, where members get points the more they participate on the site- writing reviews of products, comments, and forum postings. Members review beauty products, and there is a crack team of users to that road test various lotions and potions.
@@ -30,16 +28,16 @@ Here are some screens:
 
 Redesigned home page
 
-[![Redesigned home page](http://farm3.static.flickr.com/2475/3641611813_0a0ab76840_o.jpg)](http://www.flickr.com/photos/39680059@N08/3641611813/)
+[![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.png)](http://www.flickr.com/photos/39680059@N08/3641611813/)
 
 The new feature that pulls in the latest articles on the home page (javascript)
 
-[![Home page feed](http://farm4.static.flickr.com/3334/3642419864_9a551acfde_o.jpg)](http://www.flickr.com/photos/39680059@N08/3642419864/)
+[![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg)](http://www.flickr.com/photos/39680059@N08/3642419864/)
 
 Latest video widget thing that pulls in video and story excerpts (flash)
 
-[![Video preview widget](http://farm4.static.flickr.com/3351/3642419752_07879b46c9_o.jpg)](http://www.flickr.com/photos/39680059@N08/3642419752/)
+[![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg)](http://www.flickr.com/photos/39680059@N08/3642419752/)
 
 Salon directory application
 
-[![Salon directory](http://farm4.static.flickr.com/3031/3642419644_c61fd082bc_o.jpg)](http://www.flickr.com/photos/39680059@N08/3642419644/)
+[![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg)](http://www.flickr.com/photos/39680059@N08/3642419644/)

@@ -8,14 +8,12 @@ categories:
 author: Ben Still
 description: Clicktale review which looks at how the technology works and some real world issues that you might face when implementing Clicktale
 keywords: Clicktale review
-image:
-  small: /assets/uploads/2012/01/clicktale-350x261.png
-  big: /assets/uploads/2012/01/clicktale.png
+image-small: /assets/uploads/2012/clicktale-small.png
+image-large: /assets/uploads/2012/clicktale.png
 meta:
   dsq_thread_id: '591731408'
-excerpt:
-  short: It could be so good, but sadly Clicktale doesn't do everything it says on the box.
-  long: Clicktale is a software tool which allows you to track what users are doing on your website. It is used to analyse how people behave and what they do on particular pages. we've used it on several projects to try to gain a better understanding of how users were travelling through the site. More specifically, we were trying to get a better understanding of how they were using particular pages & forms, and what steps we could take to improve our conversion rate.
+excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says on the box.
+excerpt-long: Clicktale is a software tool which allows you to track what users are doing on your website. It is used to analyse how people behave and what they do on particular pages. we've used it on several projects to try to gain a better understanding of how users were travelling through the site. More specifically, we were trying to get a better understanding of how they were using particular pages & forms, and what steps we could take to improve our conversion rate.
 ---
 
 This Clicktale review is completely independent. We've used it on several projects where we wanted to better understand user interactions. In doing this we had a chance to look at both the way it collects data and how it reports this information. We've also had the opportunity to compare the results against other other software tracking tools, as well as other approaches to the same task such as physical eye tracking. We started using Clicktale based on many of the positive reviews we'd read, but on further investigation many of these were paid reviews (via affiliate commission).
@@ -71,9 +69,9 @@ None of these are particularly obscure or unusual elements for a web site to hav
 
 If it's still unclear as to why this would be a problem, here is what I'd see if I used Clicktale to analyse how people are using the [Bookdepository checkout process](http://www.bookdepository.com/basket). As you can see the two screens are quite different. The Clicktale playback will still merrily animate a mouse cursor moving around, but as you can see the image would be completely wrong and misleading. Likewise for the various heatmaps and reports.
 
-What a real user sees: ![](/assets/uploads/2012/01/clicktale-basket.png)
+What a real user sees: ![](/assets/uploads/2012/clicktale-basket.png)
 
-and what you'll see in the Clicktale report: ![](/assets/uploads/2012/01/clicktale-basket-none.png)
+and what you'll see in the Clicktale report: ![](/assets/uploads/2012/clicktale-basket-none.png)
 
 Which is puzzling, because on the Clicktale site there are a lot of testimonials gushing about this amazing insight into behaviour which improves shopping and conversions. I'm not really sure how many of these sites don't use some sort of cookie or session information to facilitate a checkout process.
 

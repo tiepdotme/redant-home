@@ -1,0 +1,73 @@
+---
+label: posts
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  default: post
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - news
+    - ideas
+  label: type
+  default: news
+- type: text
+  name: permalink
+  label: permalink
+  config:
+    required: true
+  default: "/"
+- type: tag_list
+  name: categories
+  label: categories
+  default: []
+  description: 'Example categories: our-work; ruby-on-rails; red-ant-stuff; ecommerce;
+    strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile;
+    agile; digital-products; tool-reviews; pjax; lean-development; marketing; software-development;'
+- type: text
+  name: author
+  label: author
+  config:
+    required: true
+  default: Ben Still
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
+- type: text
+  name: keywords
+  label: keywords
+- type: tag_list
+  name: tags
+  label: tags
+  default: []
+  description: 'Tags in use: Innovation; Startup; Red-Ant-Marketing; LinkedIn'
+- type: file
+  name: image-small
+  label: image-small
+- type: file
+  name: image-large
+  label: image-large
+- type: textarea
+  name: excerpt-short
+  label: excerpt-short
+- type: textarea
+  name: excerpt-long
+  label: excerpt-long
+pages:
+- _posts/test-images.md

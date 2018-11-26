@@ -10,14 +10,12 @@ categories:
 author: Sam Bauers
 description: Introducing a simple tool for backing up small MySQL databases to Subversion. The open source script MySQL SVN Backup. Now featuring dolphins with lasers.
 keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphin with lasers
-image:
-  small: /assets/uploads/2014/01/dolphins-with-lasers-465x302.jpg
-  big: /assets/uploads/2014/01/dolphins-with-lasers.jpg
+image-small: /assets/uploads/2014/dolphins-with-lasers-small.jpg
+image-large: /assets/uploads/2014/dolphins-with-lasers.jpg
 meta:
   focus_keywords: mysql svn backup
-excerpt:
-  short: A common pain point when using databases like MySQL on small projects is a simple way of managing backups. Here is a solution we've created.
-  long: A common pain point when using <a href="http://www.mysql.com">MySQL</a> <a href="https://mariadb.org">and</a> <a href="http://www.percona.com/software">friends</a> is managing backups. Generally the solutions on offer are focused on huge databases and are overly complex or time-consuming to setup. For small databases - like a database behind a content managed website - the overhead of setting up and maintaining MySQL backups can be disproportionate.
+excerpt-short: A common pain point when using databases like MySQL on small projects is a simple way of managing backups. Here is a solution we've created.
+excerpt-long: A common pain point when using <a href="http://www.mysql.com">MySQL</a> <a href="https://mariadb.org">and</a> <a href="http://www.percona.com/software">friends</a> is managing backups. Generally the solutions on offer are focused on huge databases and are overly complex or time-consuming to setup. For small databases - like a database behind a content managed website - the overhead of setting up and maintaining MySQL backups can be disproportionate.
 ---
 
 The other issue is that monolithic MySQL dumps tend to add up in size. The usual solution is to rotate out the backups and discard old ones based on what is ultimately an arbitrary schedule. When the backup you need is from eight days ago, you can be sure that you have only kept them for the last seven days. This problem can also be solved by implementing complex incremental backups or by shunting files off to cheaper storage like Amazon, but then every new step in the backup path is a new dependency or point of failure just waiting to ruin your day. Tools like [rdiff-backup](http://www.nongnu.org/rdiff-backup/) (sometimes via [Backupninja](https://labs.riseup.net/code/projects/backupninja)) are also used, but the stored diffs are hard to manually verify.
@@ -45,4 +43,4 @@ It can be configured to backup only specific databases and it can also exclude s
 
 We have been using MySQL SVN Backup for about two years and tweaked it over that time to make it more reliable. The code can be found at the [project page on GitHub](https://github.com/red-ant/mysql-svn-backup) and no, the irony of hosting a Subversion based tool on GitHub is not lost on us. Git support may just be a [future feature](https://github.com/red-ant/mysql-svn-backup/issues/1) (pull requests are welcome!)
 
-![Dolphins with lasers](/assets/uploads/2014/01/dolphins-with-lasers.jpg)
+![Dolphins with lasers](/assets/uploads/2014/dolphins-with-lasers.jpg)

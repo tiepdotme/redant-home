@@ -7,14 +7,12 @@ categories:
   - automated-testing
   - ruby-on-rails-devops
 author: Ben Still
-image:
-  small: /assets/uploads/2013/09/github-465x331.jpg
-  big: /assets/uploads/2013/09/github.jpg
+image-small: /assets/uploads/2012/github-small.jpg
+image-large: /assets/uploads/2012/github.jpg
 meta:
   dsq_thread_id: '608783675'
-excerpt:
-  short: GitFlow is the way of the future. Find out why and how here.
-  long: As our projects have grown larger, so has the complexity of testing and deploying work. We've started moving projects over to GitFlow in order to simplify this process, read on to see how we do it.
+excerpt-short: GitFlow is the way of the future. Find out why and how here.
+excerpt-long: As our projects have grown larger, so has the complexity of testing and deploying work. We've started moving projects over to GitFlow in order to simplify this process, read on to see how we do it.
 ---
 
 How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We've gradually changed this as weve started making bigger sites with more complex requirements.

@@ -9,14 +9,12 @@ categories:
 author: Ben Still
 description: The growth of WordPress has turned the web development market on its head. But does this apply to all web development?
 keywords: wordpress
-image:
-  small: /assets/uploads/2013/12/canyon-465x337.jpeg
-  big: /assets/uploads/2013/12/canyon-465x337.jpeg
+image-small: /assets/uploads/2013/canyon-small.jpg
+image-large: /assets/uploads/2013/canyon-small.jpg
 meta:
   focus_keywords: wordpress
-excerpt:
-  short: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between.
-  long: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between. One side are marketing sites. These have become very easy to make, and can be set up now in hours rather than months. On the other side are the "digital products" - sites which provide some form of utility and/or data. With these the options and possibilities are endless, and if anything complexity and effort to create \*\*has actually increased.
+excerpt-short: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between.
+excerpt-long: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between. One side are marketing sites. These have become very easy to make, and can be set up now in hours rather than months. On the other side are the "digital products" - sites which provide some form of utility and/or data. With these the options and possibilities are endless, and if anything complexity and effort to create \*\*has actually increased.
 ---
 
 ## On one side are the Marketers
@@ -31,7 +29,7 @@ This has turned web design into a product - one you can buy instantly for $40. T
 
 Economically this works too - the company making the theme might have spent say $40k designing, developing and testing the theme. But at $40 a pop they are nominally ahead after 1000 customers.
 
-![flip](/assets/uploads/2013/12/flip.gif)
+![flip](/assets/uploads/2013/flip.gif)
 
 #### The CMS is free
 
