@@ -14,15 +14,15 @@ lines_of_code: 30k
 technologies: Ruby on Rails, Swift, Angular
 images:
   -
-    filename: 12wbt-daily-1.jpg
+    filename: 12wbt-daily-app-1.jpg
   -
-    filename: 12wbt-daily-2.jpg
+    filename: 12wbt-daily-app-2.jpg
   -
-    filename: 12wbt-daily-3.jpg
+    filename: 12wbt-daily-app-3.jpg
   -
-    filename: 12wbt-daily-4.jpg
+    filename: 12wbt-daily-app-4.jpg
   -
-    filename: 12wbt-daily-5.jpg
+    filename: 12wbt-daily-app-5.jpg
 ---
 
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
