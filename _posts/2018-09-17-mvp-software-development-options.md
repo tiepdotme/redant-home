@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feeling a bit stuck on your MVP development?
-permalink: "/red-ant-stuff/mvp-software-development-options/"
+permalink: "/software-development/mvp-software-development-options/"
 type: news
 categories:
 - software-development
