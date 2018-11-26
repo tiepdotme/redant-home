@@ -1,23 +1,21 @@
 ---
 layout: post
-title: Why we don't enter awards… And why I irritate Wayne.
-permalink: /red-ant-stuff/digital-agency-vs-technical/
+title: Digital agency vs a Technical Agency
+permalink: "/red-ant-stuff/digital-agency-vs-technical/"
 type: news
 categories:
-  - our-work
+- our-work
 author: Ben Still
-description: Digital agency vs a Technical Agency
+description: Seems like all the cool kids are Digital Agencies these days
 keywords: Digital Agencys
-image-small:
-image-large:
-
-
+image-small: 
+image-large: 
 excerpt-short: Digital agency vs a Technical Agency
 excerpt-long: Digital agency vs a Technical Agency
-tags:
-time:
----
+tags: 
+time: 
 
+---
 Dear Mum,
 
 I know you still don't understand what I do. After all these years. And I really appreciate that you took the time to explain to your Book Club what you think I do and ask them. And even though they told you it sounds like we are a Digital Agency —- we're not.
