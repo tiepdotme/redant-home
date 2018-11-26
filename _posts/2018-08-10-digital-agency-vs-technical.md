@@ -8,11 +8,12 @@ categories:
 - software-development
 author: Ben Still
 description: Seems like all the cool kids are Digital Agencies these days
-keywords: Digital Agencys
+keywords: Digital Agency, technical agency
 image-small: 
 image-large: 
 excerpt-short: Digital agency vs a Technical Agency
-excerpt-long: Digital agency vs a Technical Agency
+excerpt-long: Seems like all the cool kids are Digital Agencies these days. What exactly
+  is the difference (as explained to my Mum)
 tags: 
 time: 
 
