@@ -7,14 +7,13 @@ tagline: Mentored is the digital side of Mark Bouris’s Ch7 TV series The Mento
 description: Mentor Q&A, Content, deals and business listings
 project_url: https://www.mentored.com.au
 client: The Mentor Platform
-project_date: 2018-now
+project_date: 2017-2018
 team_size: 4 people
 technologies: Ruby on Rails
-desktop_img_height: '463'
-images:
+desktop_img_height: 463
+images: 
 
 ---
-
 #### Project Description
 
 Mentored is the digital side of Mark Bouris’s Channel 7 TV series The Mentor. A Mentor is a trusted advisor, someone you can turn to for advice and guidance, especially in business. Mentored.com.au is scaling that notion for the Australian small business community.
