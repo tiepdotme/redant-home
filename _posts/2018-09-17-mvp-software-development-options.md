@@ -8,8 +8,8 @@ categories:
 - mvp-development
 author: Ben Still
 image:
-  small: 
-  large: 
+  small: husky-stuck-in-vent.jpg
+  large: husky-stuck-in-vent.jpg
 meta:
   keywords: 'MVP '
   description: Feeling stuck on your MVP development process? Some options to get
