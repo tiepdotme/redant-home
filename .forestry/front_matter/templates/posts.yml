@@ -70,4 +70,5 @@ fields:
   name: excerpt-long
   label: excerpt-long
 pages:
+- _posts/test-post.md
 - _posts/test-images.md
