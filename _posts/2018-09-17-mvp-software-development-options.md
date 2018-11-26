@@ -52,7 +52,7 @@ To address delivery timeframe and quality, you typically need to increase team s
 
 To compound the problem, the type of developer personality that will tell you they can build everything is probably exactly the type of developer you don’t want. They'll typically make the early decisions and chose shiny technology that is interesting to them but will mire you in technical debt for many years.
 
-You also need a well rounded team. You've probably heard from people that you just need these mythical "full stack" developers. They only exist in the parallel universe that recruiters live. Which I can totally understand and relate to- it must be really easy to place someone that can do anything. How cool would that be? When we recruit people, if they use the term "full stack" they probably won't get an interview. It implies a lack of experience to know what you don't know.
+You also need a well rounded team. You've probably heard from people that you just need these mythical "Full Stack" developers. They only exist in the parallel universe that recruiters live. Which I can totally understand and relate to. It must be really easy to place someone that can do anything. How cool would that be? When we recruit people, if they use the term "full stack" they probably won't get an interview. It implies a lack of experience to know what you don't know.
 
 What you do need is a functional MVP that is commercial. To get to that point you're going to need quite a few things:
 
@@ -65,6 +65,8 @@ You need a well rounded team that can work together to deliver each of those asp
 
 The next decision is around existing code. Of course it would be sensible to build on top of what you already have. Sometimes this makes sense, sometimes it can actually slow you down. It isn't black and white, and there are probably some compromises you need to understand and then decide on. We'd need to do a code review first, and then discuss options around what to keep, fix and redo.
 
-Getting a team like Red Ant to deliver your MVP has arguably the lowest risk / best return. You’re getting a more stable product and more predictable outcome. However, this all costs money, and might be more money than you have/want to spend. My advice would be to keep in mind that more effort = more code = more/better features.
+Getting a team like Red Ant to deliver your MVP has arguably the lowest risk / best return. You’re getting a more stable product and more predictable outcome. However, this all costs money, and might be more money than you have/want to spend. My advice would be to keep in mind that 
 
-Just like any other constraints in an Agile project - you’ve got quality, specific features, budget and delivery date that can all move up and down. If you fix one you might need to compromise on another(s). Also consider things like R&D grants that offset costs, and eventual sale. Working with reputable team like Red Ant does make this a lot easier - it is hard to justify good valuation if your underlying tech is wonky.
+> _more effort = more code = more/better features._
+
+Just like any other constraints in an Agile project - you’ve got quality, specific features, budget and delivery date that can all move up and down. If you make one fixed, you'll probably need to compromise on another. Also consider things like R&D and Government Innovation grants that can offset costs, and eventual sale. Working with reputable team like Red Ant does make this a lot easier - it is hard to justify good valuation if your underlying tech is wonky.
