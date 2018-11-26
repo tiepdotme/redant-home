@@ -27,7 +27,7 @@ Before you start pitching to your investors about how amazing the world will be 
 
 AI/ML technology is amazing, and it's changing and evolving at a rapid pace. It's gone from a hard, obscure technology to a simple service that you can quickly integrate into your product.
 
-But it can often be quite hard to get a handle on how well it's working. Or if it is actually working at all. In a recent project, we decided to use AI to help us choose a good rescue pet to adopt. Basically a recommendation engine that was driven by which animals you liked or didn't.
+But it can often be quite hard to get a handle on how well it's working. Or if it is actually working at all. In a recent project, we decided to use AI to help us [choose a good rescue pet](/portfolio/real-pet-matcher/) to adopt. Basically a recommendation engine that was driven by which animals you liked or didn't.
 
 So if you looked at this dog
 
@@ -53,16 +53,32 @@ To explain: when we write code, it's good practice to also write some test code 
 
 These tests get fed into Continuous Integration, and get run each time a developer makes changes or deploys code. They can even be run in the live environment to monitor ongoing performance. That's how we can be certain that our code is working as planned.
 
-But how do you create a test to see if the recommendation you've made is the right one? We've asked the AI engine "Hey - what should we recommend now?" and the AI has replied "42". It can be hard to understand if pet id#42 is in fact the right pet to show for this person or not.
+But how do you create a test to see if the recommendation you've made is the right one? We've asked the AI engine 
 
-It works in some situations. Say you needed to make a recommendation on what I should watch next on Netflix. You could test to see if I started watching the recommended show. Even better would be to test if I watched to the end. Gave it a thumbs up. Netflix has a massive data set of both users and content, it doesn't change that much as well as clear user signals to watch.
+_"Hey - what should we recommend now?"_ 
+
+and the AI has replied 
+
+_"42"_. 
+
+It can be hard to understand if pet id#42 is in fact the right pet to show for this person or not.
+
+ML works really well in some situations. Say you needed to make a recommendation on what I should watch next on Netflix. You could test to see if I started watching the recommended show. Even better would be to test if I watched to the end. Gave it a thumbs up. 
+
+To explain why this works well:
+
+1. Netflix has a massive data set of both users and content
+2. A user on one side of the country is just as interested in something as on the other
+3. Neither the users nor the actual content changes that much
+4. There are clear signals by the user as to whether the recommendation was suitable or not
+5. Large external references such as IMDB and Rotten Tomatoes
 
 The data set we were working with was quite different
 
-* The data changed a lot - new pets (unfortunately) come into the system all the time. 
+* The data changed a lot - new pets (unfortunately) come into the system all the time.
 * The entire set churns every few months
 * the data set itself (pets available) is a few thousand. Once we apply preferences (the kind of pet you're after) and location (only show pets in shelters close to you) it gets much smaller.
-* Very difficult to set success criteria. There is no clear data about whether user#123 actually went on to adopt pet#42. What if they did and it didn't work out (the recommendation was bad)?
+* Very difficult to set success criteria. There is no clear data about whether a user actually went on to adopt pet#42. What if they did and it didn't work out (the recommendation was bad)?
 
 The problem we faced was not knowing if our fancy AI based Machine Learning <insert trendy keyword here> recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
 
