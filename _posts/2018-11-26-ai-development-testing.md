@@ -3,13 +3,13 @@ title: The hard thing about AI isn't making it. It's testing it to see if it act
   works
 layout: post
 type: news
-permalink: "/ai-development-testing"
+permalink: "/automated-testing/ai-development-testing"
 categories:
 - automated-testing
 - software-development
 author: Ben Still
 tags: []
-date: 2018-11-26 13:31:36 +1100
+date: 2018-11-26 02:31:36 +0000
 description: AI and Machine Learning are amazing technologies. But in some cases it
   can be hard to know when they are actually working
 keywords: ai development, machine learning, automated tests
