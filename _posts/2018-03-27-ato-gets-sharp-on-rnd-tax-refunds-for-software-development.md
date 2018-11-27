@@ -10,8 +10,8 @@ author: Ben Still
 description: R&D grants can help offset the cost of development. But you need to make
   sure you're actually innovating.
 keywords: research and development grants
-image-small: 
-image-large: 
+image-small: ''
+image-large: ''
 excerpt-short: R&D grants can help offset the cost of development. But you need to
   make sure you're actually innovating.
 excerpt-long: R&D innovation grants can help offset the cost of development. But you
