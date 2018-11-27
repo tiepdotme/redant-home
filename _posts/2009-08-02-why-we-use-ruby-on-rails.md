@@ -1,24 +1,29 @@
 ---
 layout: post
 title: Why we use Ruby on Rails
-permalink: /ruby-on-rails/why-we-use-ruby-on-rails/
+permalink: "/ruby-on-rails/why-we-use-ruby-on-rails/"
 type: ideas
 categories:
-  - how-we-do
-  - ruby-on-rails
-  - ruby-on-rails-devops
+- how-we-do
+- ruby-on-rails
+- ruby-on-rails-devops
 author: Ben Still
 description: Why we use Ruby on Rails
 keywords: ruby on rails
-image-small: /assets/uploads/2009/ruby-on-rails.png
-image-large: /assets/uploads/2009/ruby-on-rails.png
-excerpt-short: We do a lot of work with a programming language called Ruby on Rails. This is why.
-excerpt-long: "We do a lot of work with a programming language called Ruby on Rails. When I explain this, some people look at me blankly (disclosure: I get that a lot anyway...). Techie people usually start gushing about how great it is, or want a fight about how X is better. Many people have heard of it somewhere, but are unsure what it is all about."
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2009/ruby-on-rails.png"
+image-large: "/assets/uploads/2009/ruby-on-rails.png"
+excerpt-short: We do a lot of work with a programming language called Ruby on Rails.
+  This is why.
+excerpt-long: 'We do a lot of work with a programming language called Ruby on Rails.
+  When I explain this, some people look at me blankly (disclosure: I get that a lot
+  anyway...). Techie people usually start gushing about how great it is, or want a
+  fight about how X is better. Many people have heard of it somewhere, but are unsure
+  what it is all about.'
+tags: 
+time: 
+redirect_from: 
 
+---
 Heres my summary of what Rails is and why we use it.
 
 The Ruby bit is a programming language called Ruby that was developed in the early 1990's, while Rails is the framework bit. It can run on all different types of servers, and has been used to build a few high profile sites such as Twitter.
@@ -83,6 +88,6 @@ Twitter have had some well publicised scaling issues, and this has been taken as
 
 First off, Twitter deals with a fairly unusual traffic profile. Their scaling issues are sudden, massive surges in messages that need to get queued and delivered. The engineering issues they face are relatively unusual- where they've faced scaling problems with pretty standard/mature technologies such as MySQL and Memcache. So they've discovered they need to solve these issues in quite specific ways.
 
-Second, these specific scaling issues are to do with parts of their system, such as the messaging service. There is a [good discussion and great comments from the Twitter team here](http://unlimitednovelty.com/2009/04/twitter-blaming-ruby-for-their-mistakes.html)
+Second, these specific scaling issues are to do with parts of their system, such as the messaging service. There is a [good discussion and great comments from the Twitter team here](https://unlimitednovelty.com/2009/04/twitter-blaming-ruby-for-their-mistakes.html)
 
-My example of Twitter might not be the best - as far as I understand they use Rails on the front, and they've recently switched to Scala for their back end. Perhaps better examples of popular sites using Rails are [Hulu.com](hulu.com) (a video portal by Fox & NBC Universal) and [NYTimes.com](nytimes.com). Any others you think are good examples please drop me a line :)
+My example of Twitter might not be the best - as far as I understand they use Rails on the front, and they've recently switched to Scala for their back end. Perhaps better examples of popular sites using Rails are [Hulu.com](https://hulu.com) (a video portal by Fox & NBC Universal) and [NYTimes.com](https://nytimes.com). Any others you think are good examples please drop me a line :)
