@@ -6,7 +6,7 @@ title: Beautyheaven
 tagline: A leading health and beauty platform
 description: Seeded by eye-catching design, great functionality and relevant articles,
   Beauty Heaven has built a vibrant community of beauty addicts.
-project_url: www.beautyheaven.com.au
+project_url: https://www.beautyheaven.com.au
 client: Beauty Heaven
 project_date: 2007 - 2013
 images:
