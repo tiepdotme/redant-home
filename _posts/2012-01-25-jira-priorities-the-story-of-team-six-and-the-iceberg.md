@@ -1,21 +1,25 @@
 ---
 layout: post
 title: Jira priorities - the story of Team Six and The Iceberg
-permalink: /agile/jira-priorities-the-story-of-team-six-and-the-iceberg/
+permalink: "/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/"
 type: ideas
 categories:
-  - agile
+- agile
+- software-development
 author: Ben Still
-description: Find out how we use Jira priorities at Red Ant to manage development workflows and make sure nobody gets hurt.
+description: Find out how we use Jira priorities at Red Ant to manage development
+  workflows and make sure nobody gets hurt.
 keywords: Jira priorities
-image-small: /assets/uploads/2012/jira-screenshot-small.jpg
-image-large: /assets/uploads/2012/jira-screenshot.jpg
+image-small: "/assets/uploads/2012/jira-screenshot-small.jpg"
+image-large: "/assets/uploads/2012/jira-screenshot.jpg"
 excerpt-short: Seal teams, titanic sinkers and our prioritization ratings.
-excerpt-long: We use Jira to keep track of all of our tasks - without it we'd be overwhelmed with the sheer volume of "stuff" you need to keep track of on a typical digital project.
-tags:
+excerpt-long: We use Jira to keep track of all of our tasks - without it we'd be overwhelmed
+  with the sheer volume of "stuff" you need to keep track of on a typical digital
+  project.
+tags: 
 time: 10 Mins Read
----
 
+---
 We use [Jira](https://www.atlassian.com/software/jira) to keep track of all of our tasks - without it wed be overwhelmed with the sheer volume of stuff you need to keep track of on a typical project. For each of our projects, the client can email in issues to our team via a project email address. These emails don't come directly to us - first they're processed by Jira, which then transforms them into an issue in Jira. One of our Project Managers then picks this up, clarifying the task if necessary, and then assigns it to the right team or person.
 
 Part of this clarification is **assigning a priority**. Sure - we know that some people would like everything to be drop everything OMG high priority (they also enjoy the caps lock key). But it helps to be a bit objective - so that the super important stuff stands out from the normal important stuff.
