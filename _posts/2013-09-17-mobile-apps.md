@@ -1,24 +1,27 @@
 ---
 layout: post
-title: Doing it on the small screen doesn't always mean a mobile App. Actually it probably shouldn't.
-permalink: /mobile/mobile-apps-vs-mobile-site/
+title: If my customers mainly use mobile devices, doesn't that mean I should be building
+  a phone app?
+permalink: "/mobile/mobile-apps-vs-mobile-site/"
 type: ideas
 categories:
-  - mobile
-  - strategy
+- mobile
+- strategy
 author: Ben Still
-description: If you're making stuff for the web, mobile is a really big deal. It's really important to form and execute a mobile strategy well. Which can be hard.
+description: If you're making stuff for the web, mobile is a really big deal. It's
+  really important to form and execute a mobile strategy well. Which can be hard.
 keywords: mobile app
-image-small: /assets/uploads/2013/mobile-join-small.jpg
-image-large: /assets/uploads/2013/mobile-join.jpg
+image-small: "/assets/uploads/2013/mobile-join-small.jpg"
+image-large: "/assets/uploads/2013/mobile-join.jpg"
+excerpt-short: Most of our projects now have over 50% mobile traffic. So mobile strategy
+  is becoming increasingly important
+excerpt-long: If you're making stuff for the web, mobile is a really big deal. Most
+  of our projects have over 50% of visits from mobile, so it's really important to
+  form and execute a mobile strategy well. Which can be hard.
+tags: 
+time: 
 
-
-excerpt-short: Most of our projects now have over 50% mobile traffic. So mobile strategy is becoming increasingly important
-excerpt-long: If you're making stuff for the web, mobile is a really big deal. Most of our projects have over 50% of visits from mobile, so it's really important to form and execute a mobile strategy well. Which can be hard.
-tags:
-time:
 ---
-
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
 
 In my experience this simplification can stem from two factors. The first is a misunderstanding about the differences between an App and a mobile site. The second is what I call the Digital Marketing Bucket List of having an App.

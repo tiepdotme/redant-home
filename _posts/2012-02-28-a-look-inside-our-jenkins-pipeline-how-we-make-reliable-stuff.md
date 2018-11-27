@@ -5,7 +5,6 @@ permalink: "/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-re
 type: ideas
 categories:
 - automated-testing
-- lean-development
 author: Ben Still
 description: A quick outline of how we're using Jenkins and the Pipeline view to visualise
   where our builds are up to

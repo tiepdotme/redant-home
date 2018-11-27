@@ -1,21 +1,24 @@
 ---
 layout: post
-title: I'd like an iPhone app. Ten tips for your iphone app design brief
-permalink: /mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
+title: 10 ways to improve your phone app development brief
+permalink: "/mobile/id-like-an-iphone-app-ten-things-to-look-out-for/"
 type: ideas
 categories:
-  - mobile
+- mobile
+- software-development
+- strategy
 author: Ben Still
 description: considerations for your iphone app design brief
 keywords: iphone app design brief
-image-small: /assets/uploads/2010/iphone-app-small.jpg
-image-large: /assets/uploads/2010/iphone-app.jpg
-excerpt-short: "Ten quick tips: considerations for your iphone app design brief"
-excerpt-long: Ten quick tips or ideas to consider before getting someone to build you an iphone app, and what to put in your design / development brief
-tags:
-time:
----
+image-small: "/assets/uploads/2010/iphone-app-small.jpg"
+image-large: "/assets/uploads/2010/iphone-app.jpg"
+excerpt-short: 'Ten quick tips: considerations for your iphone app design brief'
+excerpt-long: Ten quick tips or ideas to consider before getting someone to build
+  you an iphone app, and what to put in your design / development brief
+tags: 
+time: 
 
+---
 There are lots of things to consider when making a native mobile app like an iPhone app. Here are ten tips for your iPhone app design or development brief that will hopefully make things a bit easier. Don't worry- this can be quite a perplexing thing to brief, with lots of different technologies and solutions.
 
 ## 1. Don't just make an iPhone version of a web page

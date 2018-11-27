@@ -1,25 +1,33 @@
 ---
 layout: post
 title: The WordPress Effect
-permalink: /strategy/wordpress-effect/
+permalink: "/strategy/wordpress-effect/"
 type: ideas
 categories:
-  - strategy
-  - ruby-on-rails
+- strategy
+- ruby-on-rails
 author: Ben Still
-description: The growth of WordPress has turned the web development market on its head. But does this apply to all web development?
+description: The growth of WordPress has turned the web development market on its
+  head. But does this apply to all web development?
 keywords: wordpress
-image-small: /assets/uploads/2013/canyon-small.jpg
-image-large: /assets/uploads/2013/canyon-small.jpg
-excerpt-short: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between.
-excerpt-long: The growth of tools like Wordpress have had a massive impact on the web development market. It's created two very distinct areas with a huge gap between. One side are marketing sites. These have become very easy to make, and can be set up now in hours rather than months. On the other side are the "digital products" - sites which provide some form of utility and/or data. With these the options and possibilities are endless, and if anything complexity and effort to create \*\*has actually increased.
-tags:
-time:
----
+image-small: "/assets/uploads/2013/canyon-small.jpg"
+image-large: "/assets/uploads/2013/canyon-small.jpg"
+excerpt-short: The growth of tools like Wordpress have had a massive impact on the
+  web development market. It's created two very distinct areas with a huge gap between.
+excerpt-long: The growth of tools like Wordpress have had a massive impact on the
+  web development market. It's created two very distinct areas with a huge gap between.
+  One side are marketing sites. These have become very easy to make, and can be set
+  up now in hours rather than months. On the other side are the "digital products"
+  - sites which provide some form of utility and/or data. With these the options and
+  possibilities are endless, and if anything complexity and effort to create \*\*has
+  actually increased.
+tags: 
+time: 
 
+---
 ## On one side are the Marketers
 
-Not so long ago, getting a well designed marketing web site which allowed you to manage content would take a few months and cost say $40,000. This would involve some design and planning, content, and then the technical build - ending up with a site where you could manage content and add new pages.
+Not so long ago, getting a well designed marketing web site which allowed you to manage content would take a few months and cost say $40k or even $400k. This would involve some design and planning, content, and then the technical build - ending up with a site where you could manage content and add new pages.
 
 Today, there are thousands of theme sites. These allow you to browse different site designs. Pick a design you like, buy it, grab a hosting package and install your theme into Wordpress. You can even tweak the theme to use a different colour palette. All that is left is to add your logo and write some content.
 
