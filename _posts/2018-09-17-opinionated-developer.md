@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why having an opinionated developer matters
+title: The problem with great startup ideas is that everyone has one
 permalink: "/red-ant-stuff/opinionated-developer/"
 type: news
 categories:
