@@ -20,6 +20,7 @@ excerpt-long: Testing Machine Learning or AI powered features is often trickier 
   it seems
 tags: []
 time:
+redirect_from:
 ---
 Before you start pitching to your investors about how amazing the world will be once you get some AI in your product, spare a thought for the engineering team behind Tay, [the Microsoft AI chatbot](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist).
 

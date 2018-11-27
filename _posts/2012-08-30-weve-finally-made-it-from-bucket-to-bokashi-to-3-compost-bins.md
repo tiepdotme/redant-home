@@ -14,6 +14,7 @@ excerpt-short: "Green offices of the present future: office composting."
 excerpt-long: This week we reached a major milestone in our business - something we're all very excited about. Finally, after years of hard work and dedication, and several wrong turns along the way, we've got there.
 tags:
 time:
+redirect_from:
 ---
 
 We've just bought our second compost bin, to sit alongside our existing bin and worm farm.

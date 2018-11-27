@@ -9,15 +9,15 @@ categories:
 author: Ben Still
 description: Execution matters. There are plenty of great ideas, but you need an experienced
   and opinionated development team to help you execute
-keywords: 
+keywords:
 image-small: "/assets/uploads/2012/milo-on-floor.jpg"
 image-large: "/assets/uploads/2012/milo-on-floor-small.jpg"
 excerpt-short: Execution matters. Your development team matters.
 excerpt-long: Execution matters. There are plenty of great ideas, but you need an
   experienced and opinionated development team to help you execute
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 I had one of those unfortunate meetings the other day. The kind of meeting that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?
 
@@ -25,7 +25,7 @@ My day started bad. I should have just turned around. I was on my commute in, an
 
 Later that morning some new clients came in to meet with me. These guys wanted to tell us about their business, and then see if we were a good fit in terms of building out the technology side. They went through a typical startup pitch - the problem, the addressable market, and what their plan was.
 
-Except there was no plan. Apart from making lots of money. 
+Except there was no plan. Apart from making lots of money.
 
 They had a basic outline of the problem, and a hunch that if we made some awesome software that provided customers easy to use and powerful tools, they probably will use that software. Which is fine - we're totally adept at designing and building out a digital product.
 

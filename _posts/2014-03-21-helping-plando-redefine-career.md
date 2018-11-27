@@ -7,7 +7,7 @@ categories:
 - digital-products
 - our-work
 author: Sam Bauers
-keywords: 
+keywords:
 image-small: "/assets/uploads/2014/plando-small.png"
 image-large: "/assets/uploads/2014/plando-wide.png"
 excerpt-short: The world of employment and careers is due for a shakeup. We've been
@@ -19,9 +19,9 @@ excerpt-long: We've been helping Plando build a career management platform that 
   HR practices and tools to successfully map their career path. Plando changes all
   this. The project has been chock full of innovative ideas and code, with the whole
   project being built on the Grape API micro-framework
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 PlanDo are accommodating for and promoting the shift in the professional workplace towards career mobility by building a platform which will allow for individuals to manage their own careers. That means that instead of an employee being reliant on their employer's HR practices and tools, they will be able to take control of their performance review cycles and independently map out their career path both within an organisation and beyond.
 

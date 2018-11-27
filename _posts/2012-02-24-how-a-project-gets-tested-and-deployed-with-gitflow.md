@@ -15,6 +15,7 @@ excerpt-short: GitFlow is the way of the future. Find out why and how here.
 excerpt-long: As our projects have grown larger, so has the complexity of testing and deploying work. We've started moving projects over to GitFlow in order to simplify this process, read on to see how we do it.
 tags:
 time:
+redirect_from:
 ---
 
 How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We've gradually changed this as weve started making bigger sites with more complex requirements.

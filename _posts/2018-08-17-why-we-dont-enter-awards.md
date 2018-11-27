@@ -14,9 +14,9 @@ excerpt-short: I have this friend. Let's call him Wayne. He works in advertising
 excerpt-long: I have this friend. Let's call him Wayne. He works in advertising. I
   don't think I'm being unkind if I were to describe him as being a bit preoccupied
   with status. Obsessed would be more accurate.
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 Why we don't enter awards… And why I irritate Wayne. I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
 
