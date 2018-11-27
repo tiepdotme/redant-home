@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jira priorities - Team Six and The Iceberg
+title: Setting Jira priorities - Team Six and The Iceberg
 permalink: "/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/"
 type: ideas
 categories:
