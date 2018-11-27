@@ -10,8 +10,8 @@ author: Ben Still
 description: Execution matters. There are plenty of great ideas, but you need an experienced
   and opinionated development team to help you execute
 keywords: 
-image-small: 
-image-large: 
+image-small: ''
+image-large: ''
 excerpt-short: Execution matters. Your development team matters.
 excerpt-long: Execution matters. There are plenty of great ideas, but you need an
   experienced and opinionated development team to help you execute
