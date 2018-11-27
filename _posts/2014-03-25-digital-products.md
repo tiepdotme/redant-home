@@ -20,9 +20,7 @@ excerpt-long: One of the things we focus on is developing Digital Products. Thes
   service, these sites <strong>are themselves</strong> the product or service.
 tags: []
 time: ''
-redirect_from: |-
-  /digital-products/
-  /digital-products
+redirect_from: "/digital-product"
 
 ---
 A static site usually consists of a number of pages, which might have a CMS to allow you to edit content and make new pages. Each page is essentially static - each visitor gets the same content. Sure, there might be some multivariate testing running over the top so some visitors get different messages, but the core experience is the same.
