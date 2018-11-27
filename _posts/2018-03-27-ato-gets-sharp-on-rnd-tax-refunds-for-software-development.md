@@ -1,26 +1,27 @@
 ---
 layout: post
 title: ATO gets sharp on R&D Tax refunds for software development
-permalink: /marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
+permalink: "/marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/"
 type: news
 categories:
-  - marketing
+- marketing
 author: Ben Still
-description: ...
-keywords: ...
-image-small:
-image-large:
-
-
-excerpt-short: ...
-excerpt-long: ...
+description: R&D grants can help offset the cost of development. But you need to make
+  sure you're actually innovating.
+keywords: research and development grants
+image-small: 
+image-large: 
+excerpt-short: R&D grants can help offset the cost of development. But you need to
+  make sure you're actually innovating.
+excerpt-long: R&D innovation grants can help offset the cost of development. But you
+  need to make sure you're actually innovating and creating something new.
 tags:
-  - Innovation
-  - Startup
-  - Red-Ant-Marketing
-time:
----
+- Innovation
+- Startup
+- Red-Ant-Marketing
+time: 
 
+---
 The Australian Tax Office has signalled changes to the R&D Tax incentive for software development — which really goes to the heart of what it means to be technically innovative.
 
 Let’s have a look at the recent history of the R&D Tax Refund, and how it’s changing and what this means for your technical innovation.
