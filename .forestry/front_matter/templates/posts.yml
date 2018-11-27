@@ -73,5 +73,8 @@ fields:
   name: time
   label: time
   default: 5 Mins Read
+- type: textarea
+  label: redirect_from
+  name: redirect_from
 pages:
 - _posts/2018-08-10-digital-agency-vs-technical.md
