@@ -1,22 +1,28 @@
 ---
 layout: post
 title: Have you noticed how fast some sites are these days?
-permalink: /pjax/asynchronous-javascript-frameworks-like-angular-js/
+permalink: "/pjax/asynchronous-javascript-frameworks-like-angular-js/"
 type: ideas
 categories:
-  - pjax
+- pjax
 author: Ben Still
-description: Have you noticed that some sites are insanely fast these days? The new generation of Javascript Frameworks are powering a new change in the way pages work.
+description: Have you noticed that some sites are insanely fast these days? The new
+  generation of Javascript Frameworks are powering a new change in the way pages work.
 keywords: fast asynchronous javascript frameworks
-image-small: /assets/uploads/2012/google-angular-small.png
-image-large: /assets/uploads/2012/angularjs.png
-excerpt-short: Have you noticed that some of the sites you use have been getting super fast lately?
-excerpt-long: Have you noticed that some of the sites you use have been getting super fast lately? Web pages seem to respond almost too quickly. Try typing a search term into Google and see how quickly the suggested results come back.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2012/google-angular-small.png"
+image-large: "/assets/uploads/2012/angularjs.png"
+excerpt-short: Have you noticed that some of the sites you use have been getting super
+  fast lately?
+excerpt-long: Have you noticed that some of the sites you use have been getting super
+  fast lately? Web pages seem to respond almost too quickly. Try typing a search term
+  into Google and see how quickly the suggested results come back.
+tags: []
+time: ''
+redirect_from: |-
+  /pjax/
+  /pjax
 
+---
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.
 
 ## A quick summary of what makes these pages so damn fast
