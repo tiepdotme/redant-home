@@ -77,4 +77,5 @@ fields:
   label: redirect_from
   name: redirect_from
 pages:
+- _posts/2014-03-25-digital-products.md
 - _posts/2018-08-10-digital-agency-vs-technical.md
