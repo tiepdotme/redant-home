@@ -1,21 +1,23 @@
 ---
 layout: post
 title: Why we don't enter awards… And why I irritate Wayne.
-permalink: /red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
+permalink: "/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/"
 type: news
 categories:
-  - our-work
+- our-work
 author: Ben Still
 description: I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
-image-small: ''
-image-large: ''
+image-small: "/assets/uploads/2018/test-image.jpg"
+image-large: "/assets/uploads/2018/test-image.jpg"
 excerpt-short: I have this friend. Let's call him Wayne. He works in advertising.
-excerpt-long: I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
-tags:
-time:
----
+excerpt-long: I have this friend. Let's call him Wayne. He works in advertising. I
+  don't think I'm being unkind if I were to describe him as being a bit preoccupied
+  with status. Obsessed would be more accurate.
+tags: 
+time: 
 
+---
 Why we don't enter awards… And why I irritate Wayne. I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.
 
 Wayne has this thing about titles. It is Very Important to him that everyone knows what his title is, and that is he is an Executive Creative Director. Not a designer, not a writer, not an art director. Oh, and what is also Very Important is that he is an Award Winning Executive Creative Director. With all these awards, you see. Hundreds of them.
