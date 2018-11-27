@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +19,13 @@
 <meta property="og:url" content="https://redant.com.au/404.html" />
 <meta property="og:site_name" content="Red Ant" />
 <script type="application/ld+json">
-{"@type":"WebPage","image":null,"mainEntityOfPage":null,"url":"https://redant.com.au/404.html","name":null,"author":null,"publisher":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","headline":"Red Ant","dateModified":null,"datePublished":null,"sameAs":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","author":null,"@type":"WebPage","url":"https://redant.com.au/404.html","publisher":null,"image":null,"headline":"Red Ant","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
+  <link rel="icon" href="/assets/webpack/favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.933ecda44573f7825939.css" />
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -32,18 +33,44 @@
   <!-- Fonts -->
   <script src="//use.typekit.net/apo0vqh.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
 </head>
 
-  <body class="">
-    <div class="main-layout">
-      
+<body class="">
+  <div class="main-layout">
+    
   <nav class="navbar nav-overlay">
 
   <div class="container">
     <div class="row no-gutters w-100">
       <div class="col-8">
         <a href="/" class="navbar-brand">
-          <img class="logo" src="/assets/logo.5f2c38db28fb4124af2e.svg"/>
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
         </a>
       </div>
       <div class="col-4">
@@ -72,9 +99,7 @@
         <a href="/portfolio/" class="portfolio-link">Portfolio</a>
       </li>
       <li>
-        <a href="https://news.redant.com.au" target="_blank">
-          News &amp; Ideas
-        </a>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
       </li>
       <li>
         <a href="/jobs/" class="jobs-link">Careers</a>
@@ -85,18 +110,18 @@
     </ul>
   </div>
 </nav>
+<div class="nav-spacer"></div>
 
-
-      <header class="padded-section">
+    <header class="padded-section">
   <div class="container">
     <h1 class="h1">This is not the page you were looking for.</h1>
     <p>Move along</p>
     <p>Move along</p>
-    <img class="logo img-fluid" src="/assets/stormtrooper.ced5ddb8eb0a6140ea0b.png">
+    <img class="logo img-fluid" src="/assets/webpack/stormtrooper.png" alt="Page not found" />
   </div>
 </header>
 
-      <section class="py-5 bg-gray-light text-md">
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
   <div class="container">
     <div class="row">
       <div class="col-md-7">
@@ -155,7 +180,7 @@
         <ul class="unstyled-list icon-list">
           <li>
             <i class="fa fa-map-marker"></i>
-            <a href="https://goo.gl/maps/Wf8NtVYcw9N2" target="_blank">
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
               Find us on street view
             </a>
           </li>
@@ -179,7 +204,27 @@
         <br>
         ABN 87 081 223 252
       </div>
-
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
       <div class="col text-center mt-3">
         &copy; Red Ant 2018
       </div>
@@ -187,12 +232,9 @@
   </div>
 </footer>
 
-<script src="/assets/meta.f5d82d89c178e70a2f2b.js"></script>
-<script src="/assets/vendor.a63a5ea94b97c933d98f.js"></script>
-<script src="/assets/app.933ecda44573f7825939.js"></script>
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
 
-
-
-    </div>
-  </body>
+  </div>
+</body>
 </html>

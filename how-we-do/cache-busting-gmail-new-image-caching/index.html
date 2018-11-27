@@ -1,0 +1,439 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Cache busting Gmail’s new image caching | Red Ant</title>
+<meta property="og:title" content="Cache busting Gmail’s new image caching" />
+<meta name="author" content="Sam Bauers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Google’s new image caching mechanism in Gmail is an email marketer’s nightmare come true. Here’s how to keep tracking your email opens in Gmail." />
+<meta property="og:description" content="Google’s new image caching mechanism in Gmail is an email marketer’s nightmare come true. Here’s how to keep tracking your email opens in Gmail." />
+<link rel="canonical" href="https://redant.com.au/how-we-do/cache-busting-gmail-new-image-caching/" />
+<meta property="og:url" content="https://redant.com.au/how-we-do/cache-busting-gmail-new-image-caching/" />
+<meta property="og:site_name" content="Red Ant" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-12-16T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Google’s new image caching mechanism in Gmail is an email marketer’s nightmare come true. Here’s how to keep tracking your email opens in Gmail.","author":{"@type":"Person","name":"Sam Bauers"},"@type":"BlogPosting","url":"https://redant.com.au/how-we-do/cache-busting-gmail-new-image-caching/","publisher":null,"image":null,"headline":"Cache busting Gmail’s new image caching","dateModified":"2013-12-16T00:00:00+00:00","datePublished":"2013-12-16T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/how-we-do/cache-busting-gmail-new-image-caching/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="icon" href="/assets/webpack/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!-- Fonts -->
+  <script src="//use.typekit.net/apo0vqh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
+    <link rel="amphtml" href="https://redant.com.au/amp/how-we-do/cache-busting-gmail-new-image-caching.html">
+  
+</head>
+
+<body class="">
+  <div class="main-layout">
+    
+  <nav class="navbar nav-overlay">
+
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container nav-links mx-4 mx-md-auto">
+    <ul class="links">
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="nav-spacer"></div>
+
+    <section class="project-contentpt-3 pb-5 text-md">
+      <div class="container">
+        <div class="row mb-4">
+          <div id="breadcrumbs" class="text-capitalize mt-5">
+  
+  <a href="/">Home</a>
+  
+    
+      / <a href="/how-we-do/">How we do</a>
+    
+  
+    
+      / Cache busting gmail new image caching
+    
+  
+</div>
+
+          <div class="col-12 mt-3 pt-5">
+            <h1 class="project-title pb-2">Cache busting Gmail's new image caching</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <p>The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it <strong>breaks</strong> tracking.</p>
+
+<p>A common practice in email marketing is to place “tracking” images inside html emails in order to measure who opened which email when. A very important piece of information, which can be used both legitimately and nefariously. Google sunk this practice by turning images off by default. <a href="http://arstechnica.com/information-technology/2013/12/gmail-blows-up-e-mail-marketing-by-caching-all-images-on-google-servers/">Ars Technica has a good write up of the implications (Ars Technica: Gmail blows up e-mail marketing by caching all images on Google servers)</a> for email marketers (and illegitimate spammers). But it doesn’t try to answer any questions about how the image caching works, and how to get around it.</p>
+
+<p>So that’s what I’ll try to do here.</p>
+
+<h3 id="how-google-email-image-caching-actually-works-rather-than-how-email-vendors-would-prefer-to-believe-it-works">How Google email image caching actually works (rather than how email vendors would prefer to believe it works)</h3>
+
+<p>To investigate how it actually works, we created some code to generate random images and send these in emails. We then measured when and how the image was retrieved from the host server. In other words, we didn’t just make stuff up. You can download the source file at the end of this post.</p>
+
+<p>To start with we need to build out all the potential ways a tracking image could be served. This is a matrix of the construction of the URL:</p>
+
+<ul>
+  <li>Filename always the same - e.g. http://example.com/images/same.png</li>
+  <li>Filename always the same, querystring unique between emails - e.g. http://example.com/images/same.png?12345</li>
+  <li>Filename unique between emails- e.g. http://example.com/images/same-12345.png</li>
+</ul>
+
+<p>Also we need to consider the actual content of the image. Usually the images used for tracking are 1 pixel by 1 pixel transparent GIFs, but maybe the caching behaves differently depending on the actual content of the request, here are our variables:</p>
+
+<ul>
+  <li>File content always the same</li>
+  <li>
+    <p>i.e. http://example.com/images/same.png always returns the same content</p>
+  </li>
+  <li>File content different between emails</li>
+  <li>
+    <p>i.e. http://example.com/images/different.png always returns the same content for that particular email</p>
+  </li>
+  <li>File content always different</li>
+  <li>i.e. http://example.com/images/different.png always returns different content for any email</li>
+</ul>
+
+<p>This gives us a matrix of 9 different scenarios (well 8 actually, because 2 of them are effectively the same). We can determine our file naming for the tests from the matrix. It looks like this:</p>
+
+<table class="table table-bordered matrix">
+<tbody>
+<tr>
+	<td></td>
+	<td>File content always the same</td>
+	<td>File content different between emails</td>
+	<td>File content always different</td>
+</tr>
+<tr>
+	<td>Filename always the same</td>
+	<td class="active text-center" colspan="2">same.png</td>
+	<td class="active text-center">different-always.png</td>
+</tr>
+<tr>
+	<td>Filename always the same, querystring unique between emails</td>
+	<td class="active text-center">same.png?r=12345</td>
+	<td class="active text-center">different.png?r=12345</td>
+	<td class="active text-center">different.png?r=12345&amp;a=1</td>
+</tr>
+<tr>
+	<td>Filename always unique between emails</td>
+	<td class="active text-center">same-12345.png</td>
+	<td class="active text-center">different-12345.png</td>
+	<td class="active text-center">different-always-12345.png</td>
+</tr>
+</tbody>
+</table>
+
+<p>To generate the files which need to be generated is reasonably simple, I created a short script which created a 3 by 3 grid of random colour squares. Depending on the request, the colours would either always be the same, always be the same based on a token that is unique for each email, or always be different regardless of the unique token.</p>
+
+<p>The result looks a bit like this:</p>
+
+<table class="table table-bordered matrix">
+<tbody>
+<tr>
+	<td></td>
+	<td>File content always the same</td>
+	<td>File content different between emails</td>
+	<td>File content always different</td>
+</tr>
+<tr>
+	<td>Filename always the same</td>
+	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" /></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30" /></td>
+</tr>
+<tr>
+	<td>Filename always the same, querystring unique between emails</td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" /></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30" /></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30" /></td>
+</tr>
+<tr>
+	<td>Filename always unique between emails</td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" /></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30" /></td>
+	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>The left-hand column never changes its content between unique emails, the middle column should always be different for different emails, and without caching the column on the right should change on every “refresh” or open of the same email.</p>
+
+<p>The test emails contained this matrix of images with the same random token for that email inserted for each image in the table. The emails were then sent to an existing email account hosted on Gmail. Server logs were watched for the image requests.</p>
+
+<p>It was immediately apparent that the images were not cached on email receipt, that is Google does not fetch the images at the time it receives the email. Which makes sense emails opened would be less than emails received, and even Google would want to take steps to reduce the burden on their cache.</p>
+
+<p>This was observed from 5 minutes up to 48 hours between send and open.</p>
+
+<p>So the images load on open, that’s a huge relief for a start, but what images will be fetched uniquely for each recipient?</p>
+
+<p>We tested separate and unique sends, with combinations of page reload with and without browser cache clearing. The result was that the most reliably re-fetched file versions were ones which included a querystring, regardless of their content.</p>
+
+<p>Those were the files of the form:</p>
+
+<ul>
+  <li>same.png?r=12345</li>
+  <li>different.png?r=12345</li>
+  <li>different.png?r=12345&amp;a=1</li>
+</ul>
+
+<h2 id="results-in-a-nutshell">Results in a nutshell</h2>
+
+<h4 id="1-images-are-retrieved-for-first-user-and-then-cached">1. Images are retrieved for first user and then cached</h4>
+
+<p>When you send the email, nothing happens (which is unlike other systems like Facebook, where their bots behave proactively to retrieve images). When your email is opened the first time, the image is retrieved and then shown. From that point, every other request for the image is served off the Google image cache. Which is a good thing unless you’re a spammer or an email tracking company. Or unless you make the image unique (see #2)</p>
+
+<h4 id="2-use-a-querystring">2. Use a querystring</h4>
+
+<p>It seems that at this time simply including a querystring on the image request is enough to force the file to be refetched. Browser cache does get in the way of this though, so these images were re-fetched only if they were not in the browser cache.</p>
+
+<h4 id="3-the-fetching-ip-will-be-google-rather-than-your-user">3. The fetching IP will be Google rather than your user</h4>
+
+<p>So the first two points are not really much different from before as most tracking tags work this way. But all is not rosy. Because of Gmail’s caching, certain information we used to get for free from un-cached image tag requests will be lost. The IP address of the request will now always be one of Google’s caching servers, and the user agent will always be whatever Google decide they want it to be. Currently the user agent string for Gmail’s caching servers is:</p>
+
+<p>Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)</p>
+
+<p>Losing the IP address means losing the closest thing we have to geographic data on email opens. There is no solution that I can think of which will allow you to obtain this information by other means directly. Javascript injection into the querystring certainly won’t work in Gmail, as their security process justifiably strips out Javascript. It may be possible to marry geographic data from clicks on the email to the open retrospectively if both the open and the click carry a common unique identifier.</p>
+
+<h4 id="try-it-yourself">Try it yourself</h4>
+
+<p>The log entries generated from the testing we did and the code used to generate our random images are available <a href="/assets/uploads/2013/gmail-caching-test.zip">here (Gmail caching test - code and results)</a> (MIT License). If you’re miffed and puzzled by the image at the top of this post, we’re just trying to get all that <a href="http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us">long tail gmail using AYB fan</a> traffic. Don’t tell me image SEO doesn’t work.</p>
+
+          </div>
+          <div class="col-md-4">
+            <hr class="hr-blue my-0">
+            
+              <div class="project-detail-container section-border">
+                <p>Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.</p>
+              </div>
+            
+            <div class="row gallery-tiles">
+  
+</div>
+
+<div id="gallery-modal"
+  class="modal fade"
+  data-backdrop="static"
+  aria-labelledby="gallery-modal"
+  aria-hidden="true"
+  role="dialog"
+  tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="carousel-wrapper">
+        <div class="carousel-arrows"></div>
+        <div class="carousel">
+          
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 d-none d-sm-block" data-read-more>
+    </section>
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <p>
+          Red Ant is a leading digital agency. We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore. Deliver quickly and then iterate.
+        </p>
+  	    <p>
+          We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <strong>Some of our work</strong>
+
+        <ul class="unstyled-list mt-2">
+  	      <li>
+            <a href="/portfolio/tribe-influencer-marketplace/">Tribe</a>: Marketplace for influencers
+          </li>
+      		<li>
+            <a href="/portfolio/12wbt/">12WBT</a>: Health and Fitness app
+          </li>
+      		<li>
+            <a href="/portfolio/campaign-xpress/">CX</a>: Real Estate advertising engine
+          </li>
+      		<li>
+            <a href="/portfolio/nps-medicinewise/">NPS Medicinewise:</a> Govt drug information site
+          </li>
+      	</ul>
+  	  </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-5">
+  <div id="contact" class="container">
+	  <div class="row">
+      <div class="col-md-4">
+        <ul class="unstyled-list">
+          <li>
+            <strong>Email </strong>
+            <a href="mailto:info@redant.com.au">info@redant.com.au</a>
+          </li>
+          <li>
+            <strong>Phone </strong>
+            <a href="tel:+61292678300">+61 2 9267 8300</a>
+          </li>
+          <li>
+            <a href="https://red-ant.github.io/codepact-agreements/privacy-f6855e8d5e271a3c942ad9ef47ffac5a.html">
+              Red Ant Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    	<div class="col-md-4">
+        <ul class="unstyled-list icon-list">
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
+              Find us on street view
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/r_e_d_a_n_t" target="_blank">
+              The most mundane Twitter, ever
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/company/76862" target="_blank">
+              Stalk us on Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        493 Bourke St, Surry Hills Sydney NSW 2010 Australia
+        <br>
+        ABN 87 081 223 252
+      </div>
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
+      <div class="col text-center mt-3">
+        &copy; Red Ant 2018
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
+
+  </div>
+</body>
+</html>

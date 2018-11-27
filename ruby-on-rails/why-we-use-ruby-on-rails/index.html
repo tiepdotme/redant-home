@@ -1,0 +1,370 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Why we use Ruby on Rails | Red Ant</title>
+<meta property="og:title" content="Why we use Ruby on Rails" />
+<meta name="author" content="Ben Still" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Why we use Ruby on Rails" />
+<meta property="og:description" content="Why we use Ruby on Rails" />
+<link rel="canonical" href="https://redant.com.au/ruby-on-rails/why-we-use-ruby-on-rails/" />
+<meta property="og:url" content="https://redant.com.au/ruby-on-rails/why-we-use-ruby-on-rails/" />
+<meta property="og:site_name" content="Red Ant" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-08-02T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Why we use Ruby on Rails","author":{"@type":"Person","name":"Ben Still"},"@type":"BlogPosting","url":"https://redant.com.au/ruby-on-rails/why-we-use-ruby-on-rails/","publisher":null,"image":null,"headline":"Why we use Ruby on Rails","dateModified":"2009-08-02T00:00:00+00:00","datePublished":"2009-08-02T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/ruby-on-rails/why-we-use-ruby-on-rails/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="icon" href="/assets/webpack/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!-- Fonts -->
+  <script src="//use.typekit.net/apo0vqh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
+    <link rel="amphtml" href="https://redant.com.au/amp/ruby-on-rails/why-we-use-ruby-on-rails.html">
+  
+</head>
+
+<body class="">
+  <div class="main-layout">
+    
+  <nav class="navbar nav-overlay">
+
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container nav-links mx-4 mx-md-auto">
+    <ul class="links">
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="nav-spacer"></div>
+
+    <section class="project-contentpt-3 pb-5 text-md">
+      <div class="container">
+        <div class="row mb-4">
+          <div id="breadcrumbs" class="text-capitalize mt-5">
+  
+  <a href="/">Home</a>
+  
+    
+      / <a href="/ruby-on-rails/">Ruby on rails</a>
+    
+  
+    
+      / Why we use ruby on rails
+    
+  
+</div>
+
+          <div class="col-12 mt-3 pt-5">
+            <h1 class="project-title pb-2">Why we use Ruby on Rails</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <p>Heres my summary of what Rails is and why we use it.</p>
+
+<p>The Ruby bit is a programming language called Ruby that was developed in the early 1990’s, while Rails is the framework bit. It can run on all different types of servers, and has been used to build a few high profile sites such as Twitter.</p>
+
+<p>The framework is a term to describe a way of working. It’s a set of tools and methods that speed up the routine stuff and increase productivity. They allow developers to spend more time on the problem at hand. To use a cheesey metaphor- say you need to drive from Sydney to Melbourne.</p>
+
+<p>A framework means you can start your trip straight away without needing to build the car and find some wheels. You still have to drive the car, but you don’t need to do all the painful stuff around making the car. Someone before you has already made a perfectly good car as part of the framework - in fact they’ve probably made a few. You can get straight into the driving. If for some reason you need a different car, you can always get under the hood and bling that car, or you might want to make a new one.</p>
+
+<p>Frameworks are relatively new on the scene. Rails is one that gets lots of buzz (but it isnt the only one). it’s been used to build lots of different things, including very popular, high traffic sites. what’s attractive (for us) about Rails is that some pretty clever people have spent time working out the best way to make things for the web.</p>
+
+<p>Why Rails and not something else? There are thousands of different languages and ways you could build a web site. Some are more popular than others, and some require specific tools or technologies. Some cost a lot to license, while others are free. While I can’t say we’ve tried them all, over the past 12 years we’ve been in business we’ve certainly tested and kicked the tyres on a few.</p>
+
+<p>What I’ve learnt is that it is quite difficult to manage a team that covers several languages. Each language and tool has some unique way of doing things. So running different projects made in different ways can be (was) a bit of a handful. Supporting and maintaining them is even harder. Maybe my mind doesn’t work that way (another disclaimer: I can’t juggle balls or spin plates either). Some development teams go with three or four, while we’ve found it better to focus on one.</p>
+
+<p>We’ve specialised in Rails as we’ve found it makes us more efficient. It helps us develop things faster, and our team collaborates more. it’s also introduced a bundle of ideas and ways of working - from how we make things to testing and publishing.</p>
+
+<h3 id="1-rails-really-suits-making-websites">1. Rails <strong>really</strong> suits making websites</h3>
+
+<p>It’s popularity has a lot to do with Rails being particularly well suited to building web sites. You can make a working prototype of an idea pretty quickly, and then build out from that. It has addressed a lot of the problems you can run into on a large web project. Sudden changes in scope, new/better ideas, changes to functionality and design. It comes with lots of goodies that help you make interfaces that are pleasant to use. there’s a lot of satisfaction with making something that is, well, nice.</p>
+
+<h3 id="2-rails-is-a-bit-of-a-gateway-drug">2. Rails is a bit of a gateway drug</h3>
+
+<p>Think of Rails as a gateway drug - you play around, build a few things, and get into Ruby- which is a very that makes sense language. Suddenly you’re onto the hard stuff and you realise that it’s going to be tricky to go back to the old way you were doing things.</p>
+
+<p>It encourages you to make stuff in an Agile way, which is a Good Thing.</p>
+
+<h3 id="3-stop-developers-peeing-on-trees">3. Stop developers peeing on trees</h3>
+
+<p>One of the little problems that we run into is getting another developer to take over a project already started by someone else. Invariably, they seem to spend their first hours/days/weeks adjusting things so that they make sense to them. Much like a cat or dog in new surrounds, a bit of pee on a few trees says you mean business.</p>
+
+<p>This is usually petty stuff, like using underscores rather than dashes or renaming a few database tables. Sounds small, but this can then snowball when it then needs to be applied everywhere else. Frustrating when it wasnt really required, but the developer felt compelled to pee.</p>
+
+<p>Rails has this thing called convention over configuration, which avoids all the peeing. Rather than starting from scratch, there are all these conventions that make a lot of sense. Say I was making a list of these blog posts that you’re reading now. The list would be called posts. Each item on my list would be a post.</p>
+
+<p>Make sense? Not BlogPost, blog_item or myblog89-entry. This saves time in simple ways- like once you see post, you can assume it belongs to posts.</p>
+
+<h3 id="4-model-view-controller">4. Model View Controller</h3>
+
+<p>The Model View Controller (MVC) principle is a big part of Rails. In a nutshell it means that you break up your data and logic (the Model), what it looks like (the View), and how it interacts with the user (the Controller) into separate areas.</p>
+
+<p>If you’re familiar with HTML, it’s kind of like using CSS to separate your layout and your content. At first, it might not have seemed that useful to separate layout and content, but it gives the developer an extraordinary amount of flexibility. Everything is in nice neat compartments, so you can fiddle around with your layout (the View) without breaking other stuff. Same language across all of them.</p>
+
+<h3 id="5-active-record--database-esperanto">5. Active Record- database Esperanto</h3>
+
+<p>One of the pains with web development is Choosing Your Database. You might start off development with a simple database system. Later on you might want to upgrade for whatever reason (say more data, higher traffic). Who knew that changing between two flavours would mean subtle but critical changes to most of your code?</p>
+
+<p>Active Record is like database Esperanto. You can write everything in Active Record, and it no longer matters what database you use. As always, if you want to get under the hood and write specific code for your database, you’re free to do so.</p>
+
+<h3 id="6-ruby-gems">6. Ruby Gems</h3>
+
+<p>What you get as part of the Rails is pretty good, but it also has this tool called Ruby Gems. This allows you to download things that add to what Rails can do. You can grab a database, a tool for testing your code, or something that will add cool little graphs to your page.</p>
+
+<h3 id="7-capistrano">7. Capistrano</h3>
+
+<p>Capistrano is a tool that helps you publish sites. For a simple site with just a few pages, this isnt much of an issue- just copy the files onto the server. But as soon as your site becomes a bit more advanced, you’ll need to update several things at once. When you update, you might have changed how a few things work- which might mean an extra column to your database, deleting some images, and replacing some files. This can be a real pain to do by hand. Prone to error in fact.</p>
+
+<p>Capistrano automates this process- we tell it wed like a current version of projectX on our testing server, and it works out the rest for us. When this has tested OK, Capistrano then plonks the tested version onto the live server. It can even do stuff like roll the current live site back to yesterdays version.</p>
+
+<h3 id="but-hang-on---twitter-is-always-crashing-does-that-mean-ruby-doesnt-scale">But hang on - Twitter is always crashing. Does that mean Ruby doesn’t scale?</h3>
+
+<p>Twitter have had some well publicised scaling issues, and this has been taken as evidence of scaling problems with Ruby. Which is why they’ve changed to other languages. This isn’t as straight forward as it might sound - here’s why.</p>
+
+<p>First off, Twitter deals with a fairly unusual traffic profile. Their scaling issues are sudden, massive surges in messages that need to get queued and delivered. The engineering issues they face are relatively unusual- where they’ve faced scaling problems with pretty standard/mature technologies such as MySQL and Memcache. So they’ve discovered they need to solve these issues in quite specific ways.</p>
+
+<p>Second, these specific scaling issues are to do with parts of their system, such as the messaging service. There is a <a href="http://unlimitednovelty.com/2009/04/twitter-blaming-ruby-for-their-mistakes.html">good discussion and great comments from the Twitter team here</a></p>
+
+<p>My example of Twitter might not be the best - as far as I understand they use Rails on the front, and they’ve recently switched to Scala for their back end. Perhaps better examples of popular sites using Rails are <a href="hulu.com">Hulu.com</a> (a video portal by Fox &amp; NBC Universal) and <a href="nytimes.com">NYTimes.com</a>. Any others you think are good examples please drop me a line :)</p>
+
+          </div>
+          <div class="col-md-4">
+            <hr class="hr-blue my-0">
+            
+              <div class="project-detail-container section-border">
+                <p>Why we use Ruby on Rails</p>
+              </div>
+            
+            <div class="row gallery-tiles">
+  
+</div>
+
+<div id="gallery-modal"
+  class="modal fade"
+  data-backdrop="static"
+  aria-labelledby="gallery-modal"
+  aria-hidden="true"
+  role="dialog"
+  tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="carousel-wrapper">
+        <div class="carousel-arrows"></div>
+        <div class="carousel">
+          
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 d-none d-sm-block" data-read-more>
+    </section>
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <p>
+          Red Ant is a leading digital agency. We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore. Deliver quickly and then iterate.
+        </p>
+  	    <p>
+          We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <strong>Some of our work</strong>
+
+        <ul class="unstyled-list mt-2">
+  	      <li>
+            <a href="/portfolio/tribe-influencer-marketplace/">Tribe</a>: Marketplace for influencers
+          </li>
+      		<li>
+            <a href="/portfolio/12wbt/">12WBT</a>: Health and Fitness app
+          </li>
+      		<li>
+            <a href="/portfolio/campaign-xpress/">CX</a>: Real Estate advertising engine
+          </li>
+      		<li>
+            <a href="/portfolio/nps-medicinewise/">NPS Medicinewise:</a> Govt drug information site
+          </li>
+      	</ul>
+  	  </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-5">
+  <div id="contact" class="container">
+	  <div class="row">
+      <div class="col-md-4">
+        <ul class="unstyled-list">
+          <li>
+            <strong>Email </strong>
+            <a href="mailto:info@redant.com.au">info@redant.com.au</a>
+          </li>
+          <li>
+            <strong>Phone </strong>
+            <a href="tel:+61292678300">+61 2 9267 8300</a>
+          </li>
+          <li>
+            <a href="https://red-ant.github.io/codepact-agreements/privacy-f6855e8d5e271a3c942ad9ef47ffac5a.html">
+              Red Ant Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    	<div class="col-md-4">
+        <ul class="unstyled-list icon-list">
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
+              Find us on street view
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/r_e_d_a_n_t" target="_blank">
+              The most mundane Twitter, ever
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/company/76862" target="_blank">
+              Stalk us on Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        493 Bourke St, Surry Hills Sydney NSW 2010 Australia
+        <br>
+        ABN 87 081 223 252
+      </div>
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
+      <div class="col text-center mt-3">
+        &copy; Red Ant 2018
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
+
+  </div>
+</body>
+</html>

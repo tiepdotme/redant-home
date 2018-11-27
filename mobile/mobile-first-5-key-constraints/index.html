@@ -1,0 +1,342 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Mobile first - 5 key constraints on mobile devices | Red Ant</title>
+<meta property="og:title" content="Mobile first - 5 key constraints on mobile devices" />
+<meta name="author" content="Ben Still" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there." />
+<meta property="og:description" content="Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there." />
+<link rel="canonical" href="https://redant.com.au/mobile/mobile-first-5-key-constraints/" />
+<meta property="og:url" content="https://redant.com.au/mobile/mobile-first-5-key-constraints/" />
+<meta property="og:site_name" content="Red Ant" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-10-04T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.","author":{"@type":"Person","name":"Ben Still"},"@type":"BlogPosting","url":"https://redant.com.au/mobile/mobile-first-5-key-constraints/","publisher":null,"image":null,"headline":"Mobile first - 5 key constraints on mobile devices","dateModified":"2012-10-04T00:00:00+00:00","datePublished":"2012-10-04T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/mobile/mobile-first-5-key-constraints/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="icon" href="/assets/webpack/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!-- Fonts -->
+  <script src="//use.typekit.net/apo0vqh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
+    <link rel="amphtml" href="https://redant.com.au/amp/mobile/mobile-first-5-key-constraints.html">
+  
+</head>
+
+<body class="">
+  <div class="main-layout">
+    
+  <nav class="navbar nav-overlay">
+
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container nav-links mx-4 mx-md-auto">
+    <ul class="links">
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="nav-spacer"></div>
+
+    <section class="project-contentpt-3 pb-5 text-md">
+      <div class="container">
+        <div class="row mb-4">
+          <div id="breadcrumbs" class="text-capitalize mt-5">
+  
+  <a href="/">Home</a>
+  
+    
+      / <a href="/mobile/">Mobile</a>
+    
+  
+    
+      / Mobile first 5 key constraints
+    
+  
+</div>
+
+          <div class="col-12 mt-3 pt-5">
+            <h1 class="project-title pb-2">Mobile first - 5 key constraints on mobile devices</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <p>No, this isn’t as simple as adding a responsive layout (simple being the operative word there). Responsive is great since it will work across a number of devices (tip: resize your browser while you’re reading this to see responsive in action). A separate mobile site is also good way of delivering mobile views of existing content, plus giving the option of customising (so taking advantage of better geo-location for example). Or you might want to take a mix of the two (use responsive for some, and a separate m.site to deliver a super fast version)</p>
+
+<p>There are five key technical constraints:</p>
+
+<h2 id="1-size-of-screen">1. size of screen</h2>
+
+<p>Obviously the screens are different, and smaller screens means less pixels to work with. A typical desktop is a few thousand pixels wide, but a typical mobile device is in the hundreds. Desktops tend to be landscape, while mobile is often portrait.</p>
+
+<p><strong>this means:</strong> consider whether delivering the same content and functionality makes sense - perhaps the smaller screen provides other opportunities</p>
+
+<h2 id="2-slow-network">2. slow network</h2>
+
+<p>Compared to typical desktop speeds, mobile networks are relatively slow. So the bigger the page and graphics your site sends to a mobile user, the longer it takes.</p>
+
+<p><strong>this means:</strong> small payload is really important</p>
+
+<h2 id="3-small-cache">3. small cache</h2>
+
+<p>Compared to a desktop computer, mobile devices typically have very small memory caches - which means they can’t remember much. Send it too much data and this fills up. This in turn slows things down as the information needs to get reloaded.</p>
+
+<p><strong>this means:</strong> again, small payload is really important</p>
+
+<h2 id="4-low-performance">4. low performance</h2>
+
+<p>The processing power of a mobile device is relatively low - so a page that might load in 5 sec on a desktop might take 10 sec on mobile. This can have an interesting side effect - using tools like <a href="http://newrelic.com">New Relic (New Relic)</a> weve seen page render times mysteriously keep on climbing even when we’ve made no changes. The reason turned out to be a gradual increase in mobile traffic, which pushes the average up.</p>
+
+<p><strong>this means:</strong> not to harp on, but a small payload is really important</p>
+
+<h2 id="5-existing-code">5. existing code</h2>
+
+<p>If you’re just starting a site you can probably do anything you want vs dealing with existing code, there are probably some things which are easier than others.</p>
+
+<p><strong>this means:</strong> it is worth fleshing out a few different approaches to see which makes sense</p>
+
+<h2 id="building-things-mobile-first">Building things mobile first</h2>
+
+<p>How we’ve approached this problem is to focus on trying to build things mobile first. Instead of designing for a desktop screen and then hacking on the mobile version, start with the mobile version and then flesh it out from there. But it is much more than just the visual design process- mobile first has meant thinking differently about how we re-use code and being clever about asset management.</p>
+
+<p>It takes a while to bed this process down, but we’re starting to see more significant changes in how we’re approaching projects - from how things look to how they are architected.</p>
+
+          </div>
+          <div class="col-md-4">
+            <hr class="hr-blue my-0">
+            
+              <div class="project-detail-container section-border">
+                <p>Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.</p>
+              </div>
+            
+            <div class="row gallery-tiles">
+  
+</div>
+
+<div id="gallery-modal"
+  class="modal fade"
+  data-backdrop="static"
+  aria-labelledby="gallery-modal"
+  aria-hidden="true"
+  role="dialog"
+  tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="carousel-wrapper">
+        <div class="carousel-arrows"></div>
+        <div class="carousel">
+          
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 d-none d-sm-block" data-read-more>
+    </section>
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <p>
+          Red Ant is a leading digital agency. We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore. Deliver quickly and then iterate.
+        </p>
+  	    <p>
+          We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <strong>Some of our work</strong>
+
+        <ul class="unstyled-list mt-2">
+  	      <li>
+            <a href="/portfolio/tribe-influencer-marketplace/">Tribe</a>: Marketplace for influencers
+          </li>
+      		<li>
+            <a href="/portfolio/12wbt/">12WBT</a>: Health and Fitness app
+          </li>
+      		<li>
+            <a href="/portfolio/campaign-xpress/">CX</a>: Real Estate advertising engine
+          </li>
+      		<li>
+            <a href="/portfolio/nps-medicinewise/">NPS Medicinewise:</a> Govt drug information site
+          </li>
+      	</ul>
+  	  </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-5">
+  <div id="contact" class="container">
+	  <div class="row">
+      <div class="col-md-4">
+        <ul class="unstyled-list">
+          <li>
+            <strong>Email </strong>
+            <a href="mailto:info@redant.com.au">info@redant.com.au</a>
+          </li>
+          <li>
+            <strong>Phone </strong>
+            <a href="tel:+61292678300">+61 2 9267 8300</a>
+          </li>
+          <li>
+            <a href="https://red-ant.github.io/codepact-agreements/privacy-f6855e8d5e271a3c942ad9ef47ffac5a.html">
+              Red Ant Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    	<div class="col-md-4">
+        <ul class="unstyled-list icon-list">
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
+              Find us on street view
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/r_e_d_a_n_t" target="_blank">
+              The most mundane Twitter, ever
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/company/76862" target="_blank">
+              Stalk us on Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        493 Bourke St, Surry Hills Sydney NSW 2010 Australia
+        <br>
+        ABN 87 081 223 252
+      </div>
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
+      <div class="col text-center mt-3">
+        &copy; Red Ant 2018
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
+
+  </div>
+</body>
+</html>

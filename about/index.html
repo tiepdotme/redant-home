@@ -5,27 +5,28 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Red Ant - Everything About Red Ant the Ruby Developers in Surry Hills Sydney Australia | Red Ant</title>
-<meta property="og:title" content="Red Ant - Everything About Red Ant the Ruby Developers in Surry Hills Sydney Australia" />
+<title>Everything About the Ruby Developers in Sydney Australia | Red Ant</title>
+<meta property="og:title" content="Everything About the Ruby Developers in Sydney Australia" />
 <meta name="author" content="Ben Still" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="{“short”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”, “long”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”}" />
-<meta property="og:description" content="{“short”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”, “long”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”}" />
+<meta name="description" content="We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us." />
+<meta property="og:description" content="We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us." />
 <link rel="canonical" href="https://redant.com.au/about/" />
 <meta property="og:url" content="https://redant.com.au/about/" />
 <meta property="og:site_name" content="Red Ant" />
 <script type="application/ld+json">
-{"@type":"WebSite","image":null,"mainEntityOfPage":null,"url":"https://redant.com.au/about/","name":"Red Ant","author":{"@type":"Person","name":"Ben Still"},"publisher":null,"description":"{“short”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”, “long”=&gt;”We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.”}","headline":"Red Ant - Everything About Red Ant the Ruby Developers in Surry Hills Sydney Australia","dateModified":null,"datePublished":null,"sameAs":null,"@context":"http://schema.org"}</script>
+{"name":"Red Ant","description":"We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.","author":{"@type":"Person","name":"Ben Still"},"@type":"WebSite","url":"https://redant.com.au/about/","publisher":null,"image":null,"headline":"Everything About the Ruby Developers in Sydney Australia","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
+  <link rel="icon" href="/assets/webpack/favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.933ecda44573f7825939.css" />
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -33,18 +34,44 @@
   <!-- Fonts -->
   <script src="//use.typekit.net/apo0vqh.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
 </head>
 
-  <body class="">
-    <div class="main-layout">
-      
+<body class="">
+  <div class="main-layout">
+    
   <nav class="navbar nav-overlay">
 
   <div class="container">
     <div class="row no-gutters w-100">
       <div class="col-8">
         <a href="/" class="navbar-brand">
-          <img class="logo" src="/assets/logo.5f2c38db28fb4124af2e.svg"/>
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
         </a>
       </div>
       <div class="col-4">
@@ -73,9 +100,7 @@
         <a href="/portfolio/" class="portfolio-link">Portfolio</a>
       </li>
       <li>
-        <a href="https://news.redant.com.au" target="_blank">
-          News &amp; Ideas
-        </a>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
       </li>
       <li>
         <a href="/jobs/" class="jobs-link">Careers</a>
@@ -86,9 +111,9 @@
     </ul>
   </div>
 </nav>
+<div class="nav-spacer"></div>
 
-
-      <header class="dark-header padded-section">
+    <header id="section-intro" class="ga-section dark-header padded-section">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -101,15 +126,15 @@
         <p>
           To start with, we have a core team of 30 – a mix of developers, UX, design and project managers. We use Open Source software - our speciality is Ruby on Rails, Angular and React. We use an Agile project delivery methodology.
         </p>
-        <p class="pb-5 pb-sm-0">
-          We’ve been around for a while (+22y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building <a href="https://news.redant.com.au/defining-a-digital-product-c8893c95983e">Digital Products</a>.
+        <p class="pb-0 pb-md-3">
+          We’ve been around for a while (+22y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building <a href="/digital-products/defining-a-digital-product/">Digital Products</a>.
         </p>
       </div>
     </div>
   </div>
 </header>
 
-<section class="bg-gray-light px-5 pt-5 d-flex flex-column">
+<section id="section-spoiler-alert" class="ga-section bg-gray-light px-5 pt-5 d-flex flex-column">
   <div class="mac-modal-container mx-auto">
     <div class="mac-modal-header bg-mac-modal d-flex flex-row">
       <div class="left-corner"></div>
@@ -123,7 +148,7 @@
       <div class="mac-modal-border"></div>
       <div class="content">
         <p class="p-4">
-          This page goes on for ever. No seriously, it really does. You need to be a real fan to read it all. Or maybe you've self medicated to get over a slight flu, and you don't realise you've been staring at this screen for the last hour. Yep, those are actual real flying toasters. For real. You probably shouldn't have more than two of those tablets.
+          This page goes on for ever. No seriously, it really does. You need to be a real fan to read it all. Or maybe you’ve self medicated to get over a slight flu, and you don’t realise you’ve been staring at this screen for the last hour. Yep, those are actual real flying toasters. For real. You probably shouldn’t have more than two of those tablets.
         </p>
       </div>
       <div class="mac-modal-border"></div>
@@ -143,13 +168,13 @@
   </div>
 </section>
 
-<section class="section-border">
+<section id="section-we-are-different" class="ga-section section-border">
   <div class="container">
     <div class="row no-gutters">
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that Digital Agency</h5>
         <p>Because we’re very strong technically. We have a culture of making great code, with systems and tools to back this up. We won’t get some freelance kid in to build your project. Because we <strong>do</strong> know the difference between java and javascript. </p>
-        <p>We'll provide you advice and strategy based on knowledge and experience, rather than some blog we just read. And if we're not sure <a href="https://news.redant.com.au/clicktale-review-how-the-technology-really-works-and-why-it-didnt-for-us-faecddbd2b8">we take some time to actually look into how it works</a>. Rather than just trusting vendors.</p>
+        <p>We’ll provide you advice and strategy based on knowledge and experience, rather than some blog we just read. And if we’re not sure <a href="/tool-reviews/clicktale-review-technology/">we take some time to actually look into how it works</a>. Rather than just trusting vendors.</p>
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that offshore team</h5>
@@ -158,20 +183,20 @@
       </div>
       <div class="col-md-4 px-4 tile">
         <h5>We’re different from that smaller dev team</h5>
-        <p>Because we can scale. We're not a few guys in a coworking space. And we know how to build things that do scale. Scale might mean more traffic or higher transactions. Or it might mean more features. Or it could mean different types of team resources - like more developers, more design, or more project management.</p>
-        <p>We're reliable and have super tight processes. So you don't need to worry about a change here breaking something there. Again. Or whether the next deploy is going to bring down your entire site. Again. Or that we'll just disappear. </p>
+        <p>Because we can scale. We’re not a few guys in a coworking space. And we know how to build things that do scale. Scale might mean more traffic or higher transactions. Or it might mean more features. Or it could mean different types of team resources - like more developers, more design, or more project management.</p>
+        <p>We’re reliable and have super tight processes. So you don’t need to worry about a change here breaking something there. Again. Or whether the next deploy is going to bring down your entire site. Again. Or that we’ll just disappear. </p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="py-5">
+<section id="section-client-relation" class="ga-section py-5">
   <div class="container">
-    <p>We like to form close relationships with our Clients. We'd like to know as much or more about the digital side of your business than you do.</p>
-    <p>To explain: we spend a lot of time understanding how your business and software works. If we can learn as much as we can about your business, we're probably going to be able to communicate pretty well. And from that we'll hopefully get some fantastic results.</p>
-    <p>To do this we set up a dedicated team. Continually changing people sucks for all concerned - it is incredibly inefficient, and if a developer needs to continually context switch, they aren't going to be particularly productive. For some projects dedicated means 5d a week, while for others it might be every Monday and Tuesday. Regardless, we try to keep the same people on a project, as experience has shown that this gives the best results.</p>
+    <p>We like to form close relationships with our Clients. We’d like to know as much or more about the digital side of your business than you do.</p>
+    <p>To explain: we spend a lot of time understanding how your business and software works. If we can learn as much as we can about your business, we’re probably going to be able to communicate pretty well. And from that we’ll hopefully get some fantastic results.</p>
+    <p>To do this we set up a dedicated team. Continually changing people sucks for all concerned - it is incredibly inefficient, and if a developer needs to continually context switch, they aren’t going to be particularly productive. For some projects dedicated means 5d a week, while for others it might be every Monday and Tuesday. Regardless, we try to keep the same people on a project, as experience has shown that this gives the best results.</p>
 
-    <p>Everyone on the team is an expert in their respective area. No passengers. The team uses the Agile methodology to deliver ideas, strategy, design and code. Let's be as efficient as we can and not waste each other’s time or money. </p>
+    <p>Everyone on the team is an expert in their respective area. No passengers. The team uses the Agile methodology to deliver ideas, strategy, design and code. Let’s be as efficient as we can and not waste each other’s time or money. </p>
 
     <p>Each of the teams focus on delivering projects quickly, that we can then iterate and improve upon.</p>
 
@@ -179,12 +204,12 @@
 
     <p>We share ideas and improvements via Standup sessions and Agile retrospectives. Transparency is key. Humans are particularly good at communicating complex issues quickly, rather than writing out lengthy specification docs.</p>
 
-    <p>This all might seem a bit strange if you’re used to dealing with traditional Ad Agencies or Management Consultancies. We don’t have junior account people. We don't use Powerpoint. There isn't some offshore team you'll never meet that does the actual work. And we most definitely don’t have people who cause you to wonder what exactly they do again and why are they on your project.</p>
+    <p>This all might seem a bit strange if you’re used to dealing with traditional Ad Agencies or Management Consultancies. We don’t have junior account people. We don’t use Powerpoint. There isn’t some offshore team you’ll never meet that does the actual work. And we most definitely don’t have people who cause you to wonder what exactly they do again and why are they on your project.</p>
 
   </div>
 </section>
 
-<section class="bg-gray-light py-5">
+<section id="section-meet-the-team" class="ga-section bg-gray-light py-5">
   <h3 class="text-center">Meet the Team</h3>
 </section>
 
@@ -214,7 +239,7 @@
         <h5>Issue tracking platform</h5>
         <div class="toggle-picture">
           <div class="toggle-content">
-            Keeps track of everything. And I do mean everything. Visualises progress of each sprint, deliverables, and forecasts where we think we'll end up.
+            Keeps track of everything. And I do mean everything. Visualises progress of each sprint, deliverables, and forecasts where we think we’ll end up.
           </div>
         </div>
       </div>
@@ -222,7 +247,7 @@
   </div>
 </section>
 
-<section class="bg-gray-light py-5">
+<section id="section-our-tech" class="ga-section bg-gray-light py-5">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
@@ -268,7 +293,7 @@
   </div>
 </section>
 
-<section class="py-5">
+<section id="section-ruby-rails" class="ga-section py-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -293,13 +318,13 @@
         <p>We weren’t using these tools out of a conscious choice. Somehow it had just become that way depending on what our clients were already using.</p>
         <p>So we stopped, thought about what we wanted, and changed tack. We had a careful look around at how other people were designing and building sites, and what kind of technologies were being used to make really big, really interesting and engaging sites. Spoiler alert: it wasn’t dotNet.</p>
         <p>We ended up choosing Ruby on Rails, as it suits the kind of stuff we like to do. Not only does it help us make highly interactive and dynamic sites, it also has a lot of really well thought out processes baked in. These lower our project risk – because no matter how awesome your rockstar developers are, they will make mistakes. Having processes, like automated tests and deployment processes, mitigates this by giving us a way of doing something right, and then repeating it flawlessly again and again.</p>
-        <p>Read more about <a href="https://news.redant.com.au/why-we-use-ruby-on-rails-4c53f17d78b7">why we use Rails</a> here</p>
+        <p>Read more about <a href="/ruby-on-rails/why-we-use-ruby-on-rails/">why we use Rails</a> here</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-gray-light py-5">
+<section id="section-ideas" class="ga-section bg-gray-light py-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -322,7 +347,7 @@
   </div>
 </section>
 
-<section class="py-5">
+<section id="section-agile" class="ga-section py-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -331,21 +356,21 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <p>You might have heard about Agile and wondered what it is all about.
+        <p>You might have heard about Agile and wondered what it is all about.</p>
         <p>Agile is a way of defining a project with the end user in mind. Say we were designing an aeroplane, the definition wouldn’t be about making an aluminium tube with flat things sticking out. Rather, it would focus on user requirement- eg something which can get 300 people from Sydney to Tokyo within a day.</p>
         <p>It also involves breaking work up into a series of “sprints” – at the end of each sprint we’re aiming to achieve certain goals.</p>
         <p>Agile also involves the client, via a technique called “showcasing”. This is where we regularly meet to review the site as it takes shape, rather than having a big “tadaaa” moment at the end. Instead of putting effort into making a big specification document at the start, we focus on having meaningful ongoing conversations about how things should work. Along with overall strategy, we know the project may change as things develop- something that seemed sensible at the start might be done better another way.</p>
       </div>
       <div class="col-md-6">
         <p>One of the best analogies I’ve heard about Agile is a military one.</p>
-        <p><strong>Non-Agile:</strong> think WWI – the Generals would plan out their campaign months in advance. Orders were written out in great detail along with intricate maps, and sent to the troops. At the designated time, thousands of troops would rally and carry out these orders. Disobeying an order will get you shot. The Generals might not hear about progress and result for hours- sometimes days later.
+        <p><strong>Non-Agile:</strong> think WWI – the Generals would plan out their campaign months in advance. Orders were written out in great detail along with intricate maps, and sent to the troops. At the designated time, thousands of troops would rally and carry out these orders. Disobeying an order will get you shot. The Generals might not hear about progress and result for hours- sometimes days later.</p>
         <p><strong>Agile:</strong> think modern warfare, with much smaller, highly trained teams that move quickly. The overall objective is defined as getting to that hill, and this is simply and clearly defined and then discussed. Everyone in the team understands the critical bits, the “nice to haves” and the overall objective. But how the team actually gets to the hill is driven by the guys on the ground. New information might come to light during the day and the situation will change. They communicate regularly between each other, and back to command- all in real time.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-gray-light py-5">
+<section id="section-automated-test" class="ga-section bg-gray-light py-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -370,17 +395,16 @@
   </div>
 </section>
 
-<section class="py-5">
+<section id="section-you-are-still-here" class="ga-section py-5">
   <div class="container">
     <div class="col-12 text-center" style="padding-top:60px; padding-bottom:80px;">
-      <img src="/assets/macbomb.59034bab8c88624305a5.png" alt="Someone set us up the Bomb">
+      <img id="macbomb" class="img-fluid" src="/assets/webpack/macbomb.png" alt="Someone set us up the Bomb">
     </div>
-
     <h4>Oh wow. You’re still here.</h4>
     <div class="row">
       <div class="col-md-12">
         <p>
-          If you’re down this far you're either lost, or you’ve fallen asleep and just woken up. Or maybe you are interested in finding out more. You can see what we look like on our
+          If you’re down this far you’re either lost, or you’ve fallen asleep and just woken up. Or maybe you are interested in finding out more. You can see what we look like on our
           <a href="http://www.flickr.com/photos/arigajupiki" target="_blank">Flickr</a>, you can stalk us on
           <a href="https://www.linkedin.com/company/76862" target="_blank">LinkedIn</a>,
           <a href="https://plus.google.com/u/0/+RedAntSurryHills/about" target="_blank">Google+</a> or follow our
@@ -388,16 +412,16 @@
           <a href="https://www.google.com.au/maps/@-33.879213,151.210683,3a,75y,239.76h,90t/data=!3m5!1e1!3m3!1sgDRm0kJy1SkAAAQJLkIFCw!2e0!3e2!6m1!1e1?hl=en_uk" target="_blank">walk around our office</a>. Or you can simply pick up the phone and call us on
           <a href="tel: (+61 2) 9267 8300">(+61 2) 9267 8300.
         </p>
-
-        <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Cancel</a> <a class="btn btn-default" href="https://imgflip.com/s/meme/Grumpy-Cat-Not-Amused.jpg">Request a refund for time spent on this page</a></p>
+        <p class="d-flex w-100">
+          <a class="btn btn-default" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Cancel</a>
+          <a class="btn btn-default white-space-normal ml-2" href="https://imgflip.com/s/meme/Grumpy-Cat-Not-Amused.jpg">Request a refund for time spent on this page</a>
+        </p>
       </div>
-
     </div>
   </div>
 </section>
 
-
-      <section class="py-5 bg-gray-light text-md">
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
   <div class="container">
     <div class="row">
       <div class="col-md-7">
@@ -456,7 +480,7 @@
         <ul class="unstyled-list icon-list">
           <li>
             <i class="fa fa-map-marker"></i>
-            <a href="https://goo.gl/maps/Wf8NtVYcw9N2" target="_blank">
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
               Find us on street view
             </a>
           </li>
@@ -480,7 +504,27 @@
         <br>
         ABN 87 081 223 252
       </div>
-
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
       <div class="col text-center mt-3">
         &copy; Red Ant 2018
       </div>
@@ -488,12 +532,9 @@
   </div>
 </footer>
 
-<script src="/assets/meta.f5d82d89c178e70a2f2b.js"></script>
-<script src="/assets/vendor.a63a5ea94b97c933d98f.js"></script>
-<script src="/assets/app.933ecda44573f7825939.js"></script>
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
 
-
-
-    </div>
-  </body>
+  </div>
+</body>
 </html>

@@ -13,18 +13,19 @@
 <title>Senior Ruby Developer | Red Ant</title>
 <meta property="og:title" content="Senior Ruby Developer" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks." />
-<meta property="og:description" content="Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks." />
+<meta name="description" content="We’re looking for an experienced Ruby developmenter. You really know your stuff, and you’re looking for a great place to work on interesting projects." />
+<meta property="og:description" content="We’re looking for an experienced Ruby developmenter. You really know your stuff, and you’re looking for a great place to work on interesting projects." />
 <link rel="canonical" href="https://redant.com.au/jobs/senior-ruby-developer/" />
 <meta property="og:url" content="https://redant.com.au/jobs/senior-ruby-developer/" />
 <meta property="og:site_name" content="Red Ant" />
 <script type="application/ld+json">
-{"@type":"WebPage","image":null,"mainEntityOfPage":null,"url":"https://redant.com.au/jobs/senior-ruby-developer/","name":null,"author":null,"publisher":null,"description":"Red Ant is a Technical Agency. We create &amp; build exceptional digital products. These live as web sites, in mobile apps, and in social networks.","headline":"Senior Ruby Developer","dateModified":null,"datePublished":null,"sameAs":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"We’re looking for an experienced Ruby developmenter. You really know your stuff, and you’re looking for a great place to work on interesting projects.","author":null,"@type":"WebPage","url":"https://redant.com.au/jobs/senior-ruby-developer/","publisher":null,"image":null,"headline":"Senior Ruby Developer","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link rel="icon" href="/assets/favicon.f6ca223af6a4fa1fb307.ico">
+  <link rel="icon" href="/assets/webpack/favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/app.933ecda44573f7825939.css" />
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -32,8 +33,33 @@
   <!-- Fonts -->
   <script src="//use.typekit.net/apo0vqh.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
-</head>
 
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
+</head>
 
 <body class="">
   <div class="main-layout">
@@ -44,7 +70,7 @@
     <div class="row no-gutters w-100">
       <div class="col-8">
         <a href="/" class="navbar-brand">
-          <img class="logo" src="/assets/logo.5f2c38db28fb4124af2e.svg"/>
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
         </a>
       </div>
       <div class="col-4">
@@ -73,9 +99,7 @@
         <a href="/portfolio/" class="portfolio-link">Portfolio</a>
       </li>
       <li>
-        <a href="https://news.redant.com.au" target="_blank">
-          News &amp; Ideas
-        </a>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
       </li>
       <li>
         <a href="/jobs/" class="jobs-link">Careers</a>
@@ -86,9 +110,9 @@
     </ul>
   </div>
 </nav>
+<div class="nav-spacer"></div>
 
-
-    <header class="dark-header padded-section">
+    <header id="section-intro" class="ga-section dark-header padded-section">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -99,14 +123,12 @@
         </div>
       </div>
     </header>
-
-    <section class="jumbotron bg-gray-light py-5">
+    <section id="section-job-summary"  class="ga-section jumbotron bg-gray-light py-5">
       <div class="container">
-        <p class="summary">We&#8217;re looking for an experienced Ruby developmenter. You really know your stuff, and you're looking for a great place to work on interesting projects.</p>
+        <p class="summary"></p>
       </div>
     </section>
-
-    <section class="py-5">
+    <section id="section-job-content" class="ga-section py-5">
       <div class="container">
         <h3 id="us">Us</h3>
 
@@ -124,13 +146,13 @@
 
 <ol>
   <li>
-    <p><strong>We’re not Consultants.</strong> We don’t take on projects for a few months and then hand over (all the while knowing that this elegant yet fragile code is pretty much impossible to maintain). We like where the tyre hits the road, because we think that is where stuff gets really interesting. We value long term projects, because we know that by refining and iterating we can continually improve an idea.</p>
+    <p><strong>We’re not consultants.</strong> We don’t take on projects for a few months and then hand over (all the while knowing that this elegant yet fragile code is pretty much impossible to maintain). We like where the tyre hits the road, because we think that is where stuff gets really interesting. We value long term projects, because we know that by refining and iterating we can continually improve an idea.</p>
   </li>
   <li>
-    <p><strong>We all work together</strong>. To work together as a high performing team, we think meaningful conversations and interactions are important. To make great digital things, so many different parts need to come together perfectly – from UX to DevOps.</p>
+    <p><strong>We all work together.</strong> To work together as a high performing team, we think meaningful conversations and interactions are important. To make great digital things, so many different parts need to come together perfectly - from UX to DevOps.</p>
   </li>
   <li>
-    <p><strong>We’re not an ad agency &amp; we don’t outsource</strong>. We build. We’re pretty geeky, and while we have content, UX &amp; design people, we’re undeniably technical. And to be technically good you need not only good people but excellent processes and a strong tech culture. People that care. We’re not that company that seems to build things but actually gets all the work done by the offshore team in Nepal or Poland or wherever. I’m sure they’re great, but I think there are better things you could be doing with your career other than baby sitting an offshore team. Personally I’d rather clean my ears with a Dremel.</p>
+    <p><strong>We’re not an ad agency &amp; we don’t outsource.</strong> We build. We’re pretty geeky, and while we have content, UX &amp; design people, we’re undeniably technical. And to be technically good you need not only good people but excellent processes and a strong tech culture. People that care. We’re not that company that seems to build things but actually gets all the work done by the offshore team in Nepal or Poland or wherever. I’m sure they’re great, but I think there are better things you could be doing with your career other than baby sitting an offshore team. Personally I’d rather clean my ears with a Dremel.</p>
   </li>
   <li>
     <p><strong>We work with nice people</strong> as our clients. Life is too short to work with dickheads.</p>
@@ -139,7 +161,7 @@
 
 <h3 id="full-time">Full time</h3>
 
-<p>This is a full time position – just in case you are working on your side hustle.</p>
+<p>This is a full time position - just in case you are working on your side hustle.</p>
 
 <h3 id="location">Location</h3>
 
@@ -149,7 +171,7 @@
 
 <h3 id="is-this-remote-or-on-site">Is this remote or on site?</h3>
 
-<p>On site – although many of us work from home now and then. And we’re pretty flexible in terms of having time off for all the things that come up – like sick children, family emergencies etc. And sometimes you need some focussed time to get things done.</p>
+<p>On site - although many of us work from home now and then. And we’re pretty flexible in terms of having time off for all the things that come up - like sick children, family emergencies etc. And sometimes you need some focussed time to get things done.</p>
 
 <p>But say you lived in a drone that flew back and forth over Peru, this would be a very unsuitable position for you. Commuting would be problematic, and it would be difficult to keep in the loop.</p>
 
@@ -159,13 +181,11 @@
 
 <h3 id="interested">Interested?</h3>
 
-<p>If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to Sarah@redant.com.au with an outline of the kind of projects you’ve worked on, and some insight into who you are. We would love to hear from you.</p>
-
+<p>If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to <a href="mailto:jobs@redant.com.au">Sarah</a> with an outline of the kind of projects you’ve worked on, and some insight into who you are. We would love to hear from you.</p>
 
       </div>
     </section>
-
-    <section class="py-5 bg-gray-light text-md">
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
   <div class="container">
     <div class="row">
       <div class="col-md-7">
@@ -224,7 +244,7 @@
         <ul class="unstyled-list icon-list">
           <li>
             <i class="fa fa-map-marker"></i>
-            <a href="https://goo.gl/maps/Wf8NtVYcw9N2" target="_blank">
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
               Find us on street view
             </a>
           </li>
@@ -248,7 +268,27 @@
         <br>
         ABN 87 081 223 252
       </div>
-
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
       <div class="col text-center mt-3">
         &copy; Red Ant 2018
       </div>
@@ -256,11 +296,8 @@
   </div>
 </footer>
 
-<script src="/assets/meta.f5d82d89c178e70a2f2b.js"></script>
-<script src="/assets/vendor.a63a5ea94b97c933d98f.js"></script>
-<script src="/assets/app.933ecda44573f7825939.js"></script>
-
-
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
 
   </div>
 </body>

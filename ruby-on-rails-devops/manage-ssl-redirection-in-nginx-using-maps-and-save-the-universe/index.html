@@ -1,0 +1,409 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Manage SSL redirection in Nginx using maps, and save the universe | Red Ant</title>
+<meta property="og:title" content="Manage SSL redirection in Nginx using maps, and save the universe" />
+<meta name="author" content="Sam Bauers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx." />
+<meta property="og:description" content="A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx." />
+<link rel="canonical" href="https://redant.com.au/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/" />
+<meta property="og:url" content="https://redant.com.au/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/" />
+<meta property="og:site_name" content="Red Ant" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-03-28T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.","author":{"@type":"Person","name":"Sam Bauers"},"@type":"BlogPosting","url":"https://redant.com.au/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/","publisher":null,"image":null,"headline":"Manage SSL redirection in Nginx using maps, and save the universe","dateModified":"2012-03-28T00:00:00+00:00","datePublished":"2012-03-28T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="icon" href="/assets/webpack/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/webpack/vendor.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.css" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!-- Fonts -->
+  <script src="//use.typekit.net/apo0vqh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  
+    <style>.async-hide { opacity: 0 !important} </style>
+
+<script>
+  var gtmId = window.location.host === "https://redant.com.au"
+    ? "GTM-N3CM249"
+    : "GTM-P7QNBDH";
+
+  // Google Optimize page hiding snippet
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{[gtmId]:true});
+
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmId);
+</script>
+
+  
+
+  
+    <link rel="amphtml" href="https://redant.com.au/amp/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe.html">
+  
+</head>
+
+<body class="">
+  <div class="main-layout">
+    
+  <nav class="navbar nav-overlay">
+
+  <div class="container">
+    <div class="row no-gutters w-100">
+      <div class="col-8">
+        <a href="/" class="navbar-brand">
+          <img class="logo" src="/assets/webpack/logo.svg" alt="Red Ant logo" />
+        </a>
+      </div>
+      <div class="col-4">
+        <div class="nav-toggle-icon float-right">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container nav-links mx-4 mx-md-auto">
+    <ul class="links">
+      <li>
+        <a href="/" class="home-link">Home</a>
+      </li>
+      <li>
+        <a href="/about/" class="about-link">About Red Ant</a>
+      </li>
+      <li>
+        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+      </li>
+      <li>
+        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="/blog/" class="news-and-ideas-link">Blog</a>
+      </li>
+      <li>
+        <a href="/jobs/" class="jobs-link">Careers</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="nav-spacer"></div>
+
+    <section class="project-contentpt-3 pb-5 text-md">
+      <div class="container">
+        <div class="row mb-4">
+          <div id="breadcrumbs" class="text-capitalize mt-5">
+  
+  <a href="/">Home</a>
+  
+    
+      / <a href="/ruby-on-rails-devops/">Ruby on rails devops</a>
+    
+  
+    
+      / Manage ssl redirection in nginx using maps and save the universe
+    
+  
+</div>
+
+          <div class="col-12 mt-3 pt-5">
+            <h1 class="project-title pb-2">Manage SSL redirection in Nginx using maps, and save the universe</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <h2 id="the-problem">The problem</h2>
+
+<p>We need to be able to enforce SSL connections (HTTPS) on some URLs. We also need to be able to enforce PLAIN connections (HTTP) on others. Further, there are some URLs which we want to just stay with whatever protocol they were requested on so they won’t redirect at all.</p>
+
+<p>One approach is to use a great big series of rewrite rules, but that would be pretty unwieldy, would involve a bunch of regular expression variable capturing, and likely also mean using more than a couple of if blocks (which I have been told are <a href="http://wiki.nginx.org/IfIsEvil">evil (Nginx wiki - if is evil)</a> and slow, even if few people have the sort of traffic where that really matters). We also may have to maintain them across two virtual hosts, making it hard to check for conflicts between the two lists. In cases where the virtual host pulls double duty serving HTTP on port 80 and HTTPS on port 443 simultaneously, we would have to check the protocol first as well, further confusing the config. There has to be a better way.</p>
+
+<p>We already use <a href="http://wiki.nginx.org/HttpMapModule">Nginx maps (Nginx HttpMapModule)</a> to create standard redirect lists on some sites, but mostly these are static lists which are used to redirect old URLs to new ones. We do this so that when we rebuild sites using Ruby on Rails they don’t loose the Google juice that is already attached to all those horrible, horrible <code class="highlighter-rouge">default.aspx?foo=bar&amp;578432754230</code> URLs…</p>
+
+<p>Yes, I’m looking at <strong>you</strong> .NET developers.</p>
+
+<p><img src="/assets/uploads/2012/milo-on-floor.jpg" width="100%" /></p>
+
+<p>The wiki page on <a href="http://wiki.nginx.org/HttpMapModule">Nginx maps (Nginx HttpMapModule)</a> gives a basic example of using a map to redirect request URLs to new locations. But that is no good for us, because we explicitly want to redirect only if the protocol is not our preferred one. We also only want to redirect to the same URL, albeit over a different protocol. A basic map like that will send our client into a redirect loop. We would need two separate maps and that kind of takes us back to square one. There is also potentially a problem with making matches too broad in separate maps and causing redirect loops again, whereas a single map will match only one value. Using one map we can also take advantage of the map default. It’s complicated, so just trust me <strong>separate maps = do not want!</strong></p>
+
+<h2 id="the-solution">The solution</h2>
+
+<p>Rather than build a map of request URIs to redirect locations, we are instead going to build a map of request URIs and their preferred protocols http, https, or none.</p>
+
+<p>Here’s what a really simple example of that might look like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>map $uri $example_org_preferred_proto {
+default "http";
+~^/(images|css|javascript)/ "none";
+~^/sign-up/ "https";
+~^/account/ "https";
+}
+</code></pre></div></div>
+
+<p>The first line defines the <code class="highlighter-rouge">map</code> block. The first variable <code class="highlighter-rouge">$uri</code> is what we are checking against in our case the incoming request URL without the protocol, host name or query string. The second variable <code class="highlighter-rouge">$example_org_preferred_proto</code> is what we will map the result of the match to.</p>
+
+<p>The second line is a special default case inside the map. Most of our URLs should always be HTTP, so if none of the patterns in the block match the requested URL, then the result will default to this value of http. You may want to default to one of the other values depending on which will save you more rules and give you the shortest list.</p>
+
+<p>The third line is matching our static assets directories which we need to be available over both HTTP and HTTPS. So we assign them a value of none. Since Nginx 0.9.6 you can use regular expressions inside maps. The tilde character <code class="highlighter-rouge">~</code> at the start of this line indicates that this is a regular expression. These work like other regular expressions in Nginx which I <strong>wont</strong> explain here.</p>
+
+<p>The fourth and fifth lines make sure that our sign ups and account management pages are always HTTPS. This could have been done in one line like the previous one, but part of the point of doing this is to create logical and readable groupings of URLs to ease ongoing maintenance. In a much longer list, this will matter more.</p>
+
+<p>Inside our virtual host configuration we can apply the map like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>map $uri $example_org_preferred_proto {
+  default "http";
+  ~^/(images|css|javascript)/ "none";
+  ~^/sign-up/ "https";
+  ~^/account/ "https";
+}
+server {
+  listen 80;
+  server_name example.org;
+  root /var/www/example.org/htdocs;
+  if ($example_org_preferred_proto = "https") {
+    return 301 https://example.org$request_uri;
+  }
+}
+server {
+  listen 443 ssl;
+  server_name example.org;
+  ssl_certificate /var/ssl/example.org.crt;
+  ssl_certificate_key /var/ssl/example.org.key;
+  root /var/www/example.org/htdocs;
+  if ($example_org_preferred_proto = "http") {
+    return 301 http://example.org$request_uri;
+  }
+}
+</code></pre></div></div>
+
+<p>Note that the map is defined outside of the <code class="highlighter-rouge">server</code> blocks. That’s one of the advantages of this method over a series of rewrites the map is setup when Nginx starts and is available globally throughout the configuration. This is supposed to improve performance but I don’t know why exactly as the mapping itself occurs on demand. I’m happy to remain ignorant of the specifics here. It also is a bit easier on the readability of your logs if you are debugging your Nginx configuration as it outputs less debug lines.</p>
+
+<p>The real payoff is in those <code class="highlighter-rouge">if</code> blocks, we simply query the preferred scheme for this request and if it doesn’t match, then we redirect to it. Here Ive used permanent redirects by indicating 301, but during testing it is wise to use temporary redirects by indicating 302 instead.</p>
+
+<h2 id="but-im-behind-a-load-balancer-which-handles-the-ssl-so-this-wont-work-for-me">But I’m behind a load balancer which handles the SSL, so this won’t work for me!</h2>
+
+<p>True, very true. Some people are behind load balancers which do SSL termination for the incoming requests. This means that they are usually utilising a single <code class="highlighter-rouge">server</code> block for their virtual host configuration and that virtual host is set to only listen on port 80, because everything being passed to it is in PLAIN/HTTP.</p>
+
+<p>For these cases we need to make a couple of adjustments to use the X-Forwarded-Proto header that is usually sent by the load balancer. By doing so we can detect the incoming request’s original protocol, a task which was done automatically in the previous example due to the separate server blocks listening on different ports.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>map $uri $example_org_preferred_proto {
+  default "http";
+  ~^/(images|css|javascript)/ "none";
+  ~^/sign-up/ "https";
+  ~^/account/ "https";
+}
+server {
+  listen 80;
+  server_name example.org;
+  root /var/www/example.org/htdocs;
+  # If there is no preferred protocol, then prefer the current protocol
+  if ($example_org_preferred_proto = "none") {
+    set $example_org_preferred_proto $http_x_forwarded_proto;
+  }
+  # Redirect if the forwarded protocol doesn't match the preferred scheme
+  if ($example_org_preferred_proto != $http_x_forwarded_proto) {
+    return 301 $example_org_preferred_proto://example.org$request_uri;
+  }
+}
+</code></pre></div></div>
+
+<p>We have to add an additional <code class="highlighter-rouge">if</code> block here so that our URLs that prefer none don’t go into redirect loops. It simply re-maps the URLs preferred protocol to whatever the forwarded protocol was. For those URLs, the next <code class="highlighter-rouge">if</code> block will never be true, so no redirect occurs for none. Great!</p>
+
+<p>It might be possible to map the none URLs directly to <code class="highlighter-rouge">$http_x_forwarded_proto</code> in the map itself, but my guess is that doing so would be slower for large lists due to the variable requiring expansion several times.</p>
+
+<p>In the second <code class="highlighter-rouge">if</code> block we simply redirect to the preferred protocol if it doesn’t match the forwarded protocol from the load balancer. That covers both the remaining http and https cases.</p>
+
+<p>If you aren’t behind a load balancer, but use a single server block listening on port 80 and 443 for HTTP and HTTPS traffic, you can probably use a similar method, substituting <code class="highlighter-rouge">$http_x_forwarded_proto</code> with <code class="highlighter-rouge">$scheme</code>.</p>
+
+<p>If you have a big map, then you may hit Nginx’s memory limit for map hashes. This can be increased using the directives <a href="http://wiki.nginx.org/HttpMapModule#map_hash_max_size">map_hash_max_size (Nginx HttpMapModule map_hash_max_size)</a> and <a href="http://wiki.nginx.org/HttpMapModule#map_hash_bucket_size">map_hash_bucket_size (Nginx HttpMapModule map_hash_bucket_size)</a>. In any case, Nginx will tell you what’s up when you try to restart it.</p>
+
+<p>If you have any questions specific to your setup, or any suggestions for improving these methods then drop a comment here.</p>
+
+          </div>
+          <div class="col-md-4">
+            <hr class="hr-blue my-0">
+            
+              <div class="project-detail-container section-border">
+                <p>A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.</p>
+              </div>
+            
+            <div class="row gallery-tiles">
+  
+</div>
+
+<div id="gallery-modal"
+  class="modal fade"
+  data-backdrop="static"
+  aria-labelledby="gallery-modal"
+  aria-hidden="true"
+  role="dialog"
+  tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="carousel-wrapper">
+        <div class="carousel-arrows"></div>
+        <div class="carousel">
+          
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 d-none d-sm-block" data-read-more>
+    </section>
+    <section id="footer" class="ga-section py-5 bg-gray-light text-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <p>
+          Red Ant is a leading digital agency. We're super cross functional. We provide a blended team of UX, strategy and technology. Local not offshore. Deliver quickly and then iterate.
+        </p>
+  	    <p>
+          We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <strong>Some of our work</strong>
+
+        <ul class="unstyled-list mt-2">
+  	      <li>
+            <a href="/portfolio/tribe-influencer-marketplace/">Tribe</a>: Marketplace for influencers
+          </li>
+      		<li>
+            <a href="/portfolio/12wbt/">12WBT</a>: Health and Fitness app
+          </li>
+      		<li>
+            <a href="/portfolio/campaign-xpress/">CX</a>: Real Estate advertising engine
+          </li>
+      		<li>
+            <a href="/portfolio/nps-medicinewise/">NPS Medicinewise:</a> Govt drug information site
+          </li>
+      	</ul>
+  	  </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-5">
+  <div id="contact" class="container">
+	  <div class="row">
+      <div class="col-md-4">
+        <ul class="unstyled-list">
+          <li>
+            <strong>Email </strong>
+            <a href="mailto:info@redant.com.au">info@redant.com.au</a>
+          </li>
+          <li>
+            <strong>Phone </strong>
+            <a href="tel:+61292678300">+61 2 9267 8300</a>
+          </li>
+          <li>
+            <a href="https://red-ant.github.io/codepact-agreements/privacy-f6855e8d5e271a3c942ad9ef47ffac5a.html">
+              Red Ant Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    	<div class="col-md-4">
+        <ul class="unstyled-list icon-list">
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <a href="https://goo.gl/maps/aecDcCLqKCm" target="_blank">
+              Find us on street view
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/r_e_d_a_n_t" target="_blank">
+              The most mundane Twitter, ever
+            </a>
+          </li>
+          <li>
+            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/company/76862" target="_blank">
+              Stalk us on Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        493 Bourke St, Surry Hills Sydney NSW 2010 Australia
+        <br>
+        ABN 87 081 223 252
+      </div>
+<div class="col-md-12 text-center">
+  <div class="links">
+      <p><a href="/blog" class="pri">Blog</a> | 
+      <a href="/design">Design</a> | 
+      <a href="/automated-testing">Automated Testing</a> | 
+      <a href="/marketing">Marketing</a> | 
+      <a href="/mobile">Mobile</a> | 
+      <a href="/software-development">Development</a> | 
+      <a href="/our-work">Our Work</a> | 
+      <a href="/red-ant-stuff">Red Ant</a> | 
+      <a href="/ruby-on-rails-devops">Devops</a> | 
+      <a href="/ruby-on-rails">Ruby on Rails</a> | 
+      <a href="/ruby-on-rails-devops">DevOps</a> | 
+      <a href="/software-development">Software Dev</a> | 
+      <a href="/strategy">Strategy</a> | 
+      <a href="/our-work">Work updates</a> | 
+      <a href="/tool-reviews">Tool Reviews</a> | <br/>
+	<a href="/portfolio">Our Portfolio</a> | 
+	<a href="/about-red-ant">About Red Ant</a> | 
+	<a href="/our-approach">Our Approach</a> | </p>
+    </div></div>
+      <div class="col text-center mt-3">
+        &copy; Red Ant 2018
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/webpack/vendor.js"></script>
+<script src="/assets/webpack/app.js"></script>
+
+  </div>
+</body>
+</html>
