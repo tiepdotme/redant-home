@@ -1,22 +1,26 @@
 ---
 layout: post
 title: Refactoring a design
-permalink: /ruby-on-rails/refactoring-a-design/
+permalink: "/ruby-on-rails/refactoring-a-design/"
 type: ideas
 categories:
-  - how-we-do
-  - ruby-on-rails
+- ruby-on-rails
+- design
 author: Ben Still
-description: We've recently spent some time adding some new features to a site that we built a while back.
+description: We've recently spent some time adding some new features to a site that
+  we built a while back.
 keywords: refactoring
-image-small: /assets/uploads/2009/refactor-small.jpg
-image-large: /assets/uploads/2009/refactor-large.jpg
-excerpt-short: We've recently spent some time adding some new features to a site that we built a while back.
-excerpt-long: We've recently spent some time adding some new features to a site that we built a while back. Part of this was moving it to a new CMS, and since we had the chance, we took a look at each of the templates to see where they could be improved.
-tags:
-time:
----
+image-small: "/assets/uploads/2009/refactor-small.jpg"
+image-large: "/assets/uploads/2009/refactor-large.jpg"
+excerpt-short: We've recently spent some time adding some new features to a site that
+  we built a while back.
+excerpt-long: We've recently spent some time adding some new features to a site that
+  we built a while back. Part of this was moving it to a new CMS, and since we had
+  the chance, we took a look at each of the templates to see where they could be improved.
+tags: 
+time: 
 
+---
 I won't bore you with all the various tweaks and changes, but one page in particular was interesting in terms of refactoring a design. The page was a product menu. It lists several product groups and the products within each. Each product menu has between two and seven groups of products.
 
 Need to cut to the chase? Here is our original version (Content Management System), which we redesigned it to be faster and more useful. You can [play with the new version here](http://yates.co.nz/products/fertilising/).
