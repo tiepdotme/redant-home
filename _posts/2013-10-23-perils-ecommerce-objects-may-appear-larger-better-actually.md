@@ -1,24 +1,28 @@
 ---
 layout: post
-title: The perils of ecommerce. Objects may appear larger and better than they actually are
-permalink: /ecommerce/perils-ecommerce-objects-may-appear-larger-better-actually/
+title: The perils of ecommerce. Objects may appear larger and better than they actually
+  are
+permalink: "/strategy/perils-ecommerce-objects-may-appear-larger-better-actually/"
 type: ideas
 categories:
-  - ecommerce
-  - agile
+- ecommerce
+- agile
+- strategy
 author: Ben Still
-description: An example of when you think you know what you're buying, but end up with something quite different.
+description: An example of when you think you know what you're buying, but end up
+  with something quite different.
 keywords: ecommerce
-image-small: /assets/uploads/2013/danger-small.jpg
-image-large: /assets/uploads/2013/danger.jpg
-
-
+image-small: "/assets/uploads/2013/danger-small.jpg"
+image-large: "/assets/uploads/2013/danger.jpg"
 excerpt-short: Ever bought something online that wasn't what you thought it was?
-excerpt-long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping from your couch, it's also brought a boatload of potential hassle in meeting your consumer expectations for a product. Make sure you know what you're getting for your money.
-tags:
+excerpt-long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping
+  from your couch, it's also brought a boatload of potential hassle in meeting your
+  consumer expectations for a product. Make sure you know what you're getting for
+  your money.
+tags: 
 time: 5 Mins Read
----
 
+---
 How I ended up here:
 
 - I go to a shopping mall, try to buy shoes for my 9yo son
