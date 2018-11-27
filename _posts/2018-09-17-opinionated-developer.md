@@ -25,7 +25,9 @@ My day started bad. I should have just turned around. I was on my commute in, an
 
 Later that morning some new clients came in to meet with me. These guys wanted to tell us about their business, and then see if we were a good fit in terms of building out the technology side. They went through a typical startup pitch - the problem, the addressable market, and what their plan was.
 
-Except there was no plan. Apart from them making lots of money. They had a basic outline of the problem, and a hunch that if we made some awesome software that provided customers easy to use and powerful tools, they probably will use that software. Which is fine - we're totally adept at designing and building out a digital product.
+Except there was no plan. Apart from making lots of money. 
+
+They had a basic outline of the problem, and a hunch that if we made some awesome software that provided customers easy to use and powerful tools, they probably will use that software. Which is fine - we're totally adept at designing and building out a digital product.
 
 One problem: they had no money to invest. Oh, and they didn't actually want to be involved in doing any work. Other than getting paid. I tried to explain that there is a bit more to it than just having an idea and finding a developer. But their eyes glazed over. I realised I was probably in the same boat as that other development team - why didn't we just shut up and get on with it?
 
