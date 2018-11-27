@@ -8,8 +8,8 @@ categories:
 author:
 description:
 keywords:
-image-small:
-image-large:
+image-small: '/assets/uploads/2018/linkedin2.png'
+image-large: '/assets/uploads/2018/linkedin2.png'
 excerpt-short:
 excerpt-long:
 tags:
