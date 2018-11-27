@@ -12,6 +12,9 @@ project_date: 2007 - 2013
 images:
 - filename: beautyheaven-1.jpg
 - filename: beautyheaven-2.jpg
+team_size: 4 people
+technologies: []
+lines_of_code: 3000
 
 ---
 Beautyheaven is a health and beauty site. More accurately, it is a really popular platform for people to review health and beauty products. Here's how it works:
