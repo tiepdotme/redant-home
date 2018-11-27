@@ -16,6 +16,7 @@ excerpt-short: We do a lot of work with a programming language called Ruby on Ra
 excerpt-long: "We do a lot of work with a programming language called Ruby on Rails. When I explain this, some people look at me blankly (disclosure: I get that a lot anyway...). Techie people usually start gushing about how great it is, or want a fight about how X is better. Many people have heard of it somewhere, but are unsure what it is all about."
 tags:
 time:
+redirect_from:
 ---
 
 Heres my summary of what Rails is and why we use it.

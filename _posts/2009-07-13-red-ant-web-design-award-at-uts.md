@@ -7,7 +7,7 @@ categories:
 - red-ant-stuff
 - design
 author: Ben Still
-description: 
+description:
 keywords: uts design award
 image-small: "/assets/uploads/2009/david-chin-uts-design-award.jpg"
 image-large: "/assets/uploads/2009/david-chin-uts-design-award.jpg"
@@ -16,9 +16,9 @@ excerpt-short: It's been a good few years of sponsoring the UTS design awards, h
 excerpt-long: First of all, congrats to David Chin, who was this years winner. Seconds
   of all, well done to everyone who participated! We're so proud to be part of these
   awards and to be able to inspire the young 'uns into creating awesome stuff.
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 We've been sponsoring a design award at our local university - UTS. We've been involved with UTS for a few years now, including doing studio visits and professional practice talks.
 

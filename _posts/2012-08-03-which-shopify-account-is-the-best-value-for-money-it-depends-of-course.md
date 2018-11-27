@@ -15,6 +15,7 @@ excerpt-short: Shopify for e-commerce - we looked into this as part of a recent 
 excerpt-long: As part of a recent assessment for a client e-commerce solution we looked into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out their prices and finding the account level which would hit the sweet spot for the clients needs. In the end we didnt go with Shopify, but this price comparison of their accounts is pretty handy to have on hand.
 tags:
 time:
+redirect_from:
 ---
 
 [![](/assets/uploads/2012/shopify-account-comparison-chart.png)](/assets/uploads/2012/shopify-account-comparison-chart.png)

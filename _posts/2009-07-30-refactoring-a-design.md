@@ -17,9 +17,9 @@ excerpt-short: We've recently spent some time adding some new features to a site
 excerpt-long: We've recently spent some time adding some new features to a site that
   we built a while back. Part of this was moving it to a new CMS, and since we had
   the chance, we took a look at each of the templates to see where they could be improved.
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 I won't bore you with all the various tweaks and changes, but one page in particular was interesting in terms of refactoring a design. The page was a product menu. It lists several product groups and the products within each. Each product menu has between two and seven groups of products.
 

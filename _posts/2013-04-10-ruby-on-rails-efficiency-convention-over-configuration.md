@@ -19,9 +19,9 @@ excerpt-long: Before we switched to Ruby on Rails, we had a small team working i
   which had the impact of slowing us down. Once using Ruby on Rails, we started approaching
   these issues from a "convention over configuration" perspective, which helped us
   improve efficiency and quality. Here's a small example to illustrate how.
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 ## The problem
 

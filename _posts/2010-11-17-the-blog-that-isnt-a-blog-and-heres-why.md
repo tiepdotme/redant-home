@@ -14,6 +14,7 @@ excerpt-short: We've recently launched a new blog feature on the Huggies site. B
 excerpt-long: The user wouldn't notice anything different about this blog, and that's exactly what we wanted. For it to seamlessly integrate and to retain all that's lovely SEO juice. That's not all that's special about it.
 tags:
 time:
+redirect_from:
 ---
 
 We've recently launched a [new blog feature](http://www.huggies.com.au/blog) on the Huggies site. A blog is a blog, you say. Well, blogs are a pretty standard bit of the web, and there are lots of great blog tools already out there like Wordpress and Posterous. But this one had a few unique requirements. We built this blog as a custom Rails app, and here's why:

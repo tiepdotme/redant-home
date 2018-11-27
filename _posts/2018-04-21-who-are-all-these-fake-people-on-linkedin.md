@@ -16,6 +16,7 @@ tags:
   - Red-Ant-Marketing
   - LinkedIn
 time:
+redirect_from:
 ---
 
 ![](/assets/uploads/2018/linkedin1.png)

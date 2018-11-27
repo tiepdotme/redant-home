@@ -15,6 +15,7 @@ excerpt-short: Who doesn't like to be out in the sun, gardening and getting your
 excerpt-long: Do you frequently feel the need to redesign your baby room or dig up your garden? Maybe you don't even have a garden? We have some top interactive tools that will help you plan what you need to do before you do it, thus saving money and inspiring creativity.
 tags:
 time:
+redirect_from:
 ---
 
 #### Yates Virtual Garden

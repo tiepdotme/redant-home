@@ -15,6 +15,7 @@ excerpt-short: How we use super-soft joins to interact with users on personal su
 excerpt-long: Sometimes engaging users can be difficult if the subject matter is intensely personal. Super-soft joins helped us help people quit drugs.
 tags:
 time:
+redirect_from:
 ---
 
 Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program _[Clear Your Vision (Clear Your Vision)](http://clearyourvision.org.au/_) had a few hurdles it had to overcome when it came to translating it to the web.

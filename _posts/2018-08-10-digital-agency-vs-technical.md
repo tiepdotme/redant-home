@@ -15,7 +15,7 @@ excerpt-long: Seems like all the cool kids are Digital Agencies these days. What
   is the difference (as explained to my Mum)
 tags: []
 time: ''
-
+redirect_from:
 ---
 Dear Mum,
 

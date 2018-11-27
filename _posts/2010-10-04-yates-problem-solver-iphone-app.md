@@ -15,6 +15,7 @@ excerpt-short: We take you through our great new iPhone app designed to help sol
 excerpt-long: The Yates Problem Solver is a handy iPhone app that you can take with you into the garden. You can browse through some common (and some unusual) **problems, pests and diseases** that you find in an Australian garden. You can search via plant type, or category (pest, disease or weed). Once you've seen your problem, you can click through to get detailed information.
 tags:
 time:
+redirect_from:
 ---
 
 Most problems have something from Yates that can fix it, and these are listed with the problem as well. You can read a bit more about how to apply the solution, as well as **add it to a wish list** if you need to duck off to your local hardware store to buy it.

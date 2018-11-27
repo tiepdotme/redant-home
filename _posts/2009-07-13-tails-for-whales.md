@@ -15,6 +15,7 @@ excerpt-short: Tails was whales has been a huge success, and we've loved working
 excerpt-long: Tails was whales is a great campaign to raise awareness for what happens in Japan each year where they set sail and hunt these beautiful creatures. We think it's wrong, and so do a lot of you it seems too.
 tags:
 time:
+redirect_from:
 ---
 
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).

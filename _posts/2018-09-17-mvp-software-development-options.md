@@ -20,9 +20,9 @@ excerpt-long: 'A really common scenario: you''ve had some code developed, but no
   about the work being good enough to commercialise or scale  Don''t stress - lots
   of people are in exactly the same situation. There are a few key decisions you need
   to work out.'
-tags: 
-time: 
-
+tags:
+time:
+redirect_from:
 ---
 A really common scenario: you've had some code developed, but now you're feeling a bit stuck. Typically:
 
@@ -66,7 +66,7 @@ You need a well rounded team that can work together to deliver each of those asp
 
 The next decision is around existing code. Of course it would be sensible to build on top of what you already have. Sometimes this makes sense, sometimes it can actually slow you down. It isn't black and white, and there are probably some compromises you need to understand and then decide on. We'd need to do a code review first, and then discuss options around what to keep, fix and redo.
 
-Getting a team like Red Ant to deliver your MVP has arguably the lowest risk / best return. You’re getting a more stable product and more predictable outcome. However, this all costs money, and might be more money than you have/want to spend. My advice would be to keep in mind that 
+Getting a team like Red Ant to deliver your MVP has arguably the lowest risk / best return. You’re getting a more stable product and more predictable outcome. However, this all costs money, and might be more money than you have/want to spend. My advice would be to keep in mind that
 
 > _more effort = more code = more/better features._
 
