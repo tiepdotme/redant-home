@@ -5,6 +5,7 @@ permalink: "/marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-developmen
 type: news
 categories:
 - marketing
+- strategy
 author: Ben Still
 description: R&D grants can help offset the cost of development. But you need to make
   sure you're actually innovating.
