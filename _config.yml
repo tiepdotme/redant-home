@@ -20,6 +20,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - amp-jekyll
+  - jekyll-redirect-from
 
 # Include for processing.
 include:
