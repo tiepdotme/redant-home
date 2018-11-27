@@ -1,21 +1,22 @@
 ---
 layout: post
 title: Get the Red Ant desktop wallpaper
-permalink: /our-work/get-the-desktop/
+permalink: "/our-work/get-the-desktop/"
 type: news
 categories:
-  - our-work
+- our-work
+- design
 author: Ben Still
 description: Download your Red Ant desktop wallpaper today.
 keywords: red ant desktop wallpapers
-image-small: /assets/uploads/2009/redant-wallpaper-small.png
-image-large: /assets/uploads/2009/redant-wallpaper-preview.jpg
+image-small: "/assets/uploads/2009/redant-wallpaper-small.png"
+image-large: "/assets/uploads/2009/redant-wallpaper-preview.jpg"
 excerpt-short: Download your Red Ant desktop wallpaper today.
 excerpt-long: Download your Red Ant desktop wallpaper today.
-tags:
-time:
----
+tags: 
+time: 
 
+---
 ![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg)
 
 It's been a few months now since we redesigned our website, and we're thrilled with the responses we've had. We've created a set of desktop wallpapers based on the design. It comes in a range of sizes, and we think it looks pretty neat. Download yours today!
