@@ -77,5 +77,6 @@ fields:
   label: redirect_from
   name: redirect_from
 pages:
+- _posts/2012-09-25-vulnerability-scanning-ruby-on-rails.md
 - _posts/2014-03-25-digital-products.md
 - _posts/2018-08-10-digital-agency-vs-technical.md
