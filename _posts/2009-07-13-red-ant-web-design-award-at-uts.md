@@ -1,21 +1,25 @@
 ---
 layout: post
 title: Red Ant web design award at UTS
-permalink: /red-ant-stuff/red-ant-web-design-award-at-uts/
+permalink: "/red-ant-stuff/red-ant-web-design-award-at-uts/"
 type: news
 categories:
-  - red-ant-stuff
+- red-ant-stuff
+- design
 author: Ben Still
-description:
+description: 
 keywords: uts design award
-image-small: /assets/uploads/2009/david-chin-uts-design-award.jpg
-image-large: /assets/uploads/2009/david-chin-uts-design-award.jpg
-excerpt-short: It's been a good few years of sponsoring the UTS design awards, here's to this one, and many more!
-excerpt-long: First of all, congrats to David Chin, who was this years winner. Seconds of all, well done to everyone who participated! We're so proud to be part of these awards and to be able to inspire the young 'uns into creating awesome stuff.
-tags:
-time:
----
+image-small: "/assets/uploads/2009/david-chin-uts-design-award.jpg"
+image-large: "/assets/uploads/2009/david-chin-uts-design-award.jpg"
+excerpt-short: It's been a good few years of sponsoring the UTS design awards, here's
+  to this one, and many more!
+excerpt-long: First of all, congrats to David Chin, who was this years winner. Seconds
+  of all, well done to everyone who participated! We're so proud to be part of these
+  awards and to be able to inspire the young 'uns into creating awesome stuff.
+tags: 
+time: 
 
+---
 We've been sponsoring a design award at our local university - UTS. We've been involved with UTS for a few years now, including doing studio visits and professional practice talks.
 
 The prize is for excellence in web design, and is open to any design student at UTS, but appears to be popular for the Visual Communication department. The Design school already has quite a strong web design component, and we thought that sponsoring an award would be an effective way of encouraging this.
