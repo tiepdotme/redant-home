@@ -11,19 +11,15 @@ project_date: 2016
 technologies: Ruby, Facebook AI, FB Messenger
 project_type: mobile
 images:
-  -
-    filename: voome-chatbot-1.jpg
-  -
-    filename: voome-chatbot-2.jpg
-  -
-    filename: voome-chatbot-3.jpg
-  -
-    filename: voome-chatbot-4.jpg
----
+- filename: voome-chatbot-1.jpg
+- filename: voome-chatbot-2.jpg
+- filename: voome-chatbot-3.jpg
+- filename: voome-chatbot-4.jpg
 
+---
 #### Project Description
 
-Voome, it’s the gift that keeps on giving. If you’ve already read through [Voome Weekly]/projects/voome-weekly) and [Voome Programs](/projects/voome-programs), you’ll know what a gem of a product this is. And the Voome Ingredient Chatbot really takes the cake.
+If you’ve already read through [Voome Weekly](/portfolio/voome-weekly) and [Voome Programs](/portfolio/voome-programs), you’ll know what a gem of a product this is. And the Voome Ingredient Chatbot really takes the cake.
 
 Here’s how it works.
 
@@ -33,7 +29,7 @@ You’re given two options. You can either ‘Find a Recipe’ or ‘Ask a Quest
 
 Using WIT AI, a tool which allows developers to build applications and devices that you can talk or text to, the user can begin to have a conversation with a bot to help them find a recipe they might like. You can type in multiple ingredients, in a number of different ways, and the bot will interpret what you want and come back with recipe options for you. If you see one you like, it’s yours, for free! A taster if you will.
 
-![Voome Facebook Chat]({{ site.data.webpack['voome-chatbot-chat.jpg'] }})
+!\[Voome Facebook Chat\]({{ site.data.webpack\['voome-chatbot-chat.jpg'\] }})
 
 Following on from that, you’re also offered a 7 day meal plan, and if this tickles the tastebuds then you’ll be sent over to the website where you’ll need to subscribe to Voome in order to get your 1 week meal plan for free. If you’re already subscribed it’ll be added to your profile, just like that.
 
