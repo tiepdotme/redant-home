@@ -73,7 +73,7 @@ fields:
   name: time
   label: time
   default: 5 Mins Read
-- type: textarea
+- type: tag_list
   label: redirect_from
   name: redirect_from
 pages:
