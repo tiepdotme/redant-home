@@ -18,7 +18,10 @@ excerpt-long: Have you noticed that some of the sites you use have been getting 
   into Google and see how quickly the suggested results come back.
 tags: []
 time: ''
-redirect_from: "/pjax/;/pjax"
+redirect_from: |-
+  /pjax/
+  pjax
+  pjax/
 
 ---
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.
