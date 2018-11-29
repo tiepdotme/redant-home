@@ -24,3 +24,15 @@ fields:
   label: description
   config:
     required: true
+- type: text
+  name: keywords
+  label: keywords
+- type: file
+  name: image-small
+  label: image-small
+- type: file
+  name: image-large
+  label: image-large
+- type: tag_list
+  label: redirect_from
+  name: redirect_from
