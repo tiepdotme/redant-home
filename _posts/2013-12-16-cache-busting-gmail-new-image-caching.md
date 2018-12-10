@@ -1,23 +1,30 @@
 ---
 layout: post
 title: Cache busting Gmail's new image caching
-permalink: /how-we-do/cache-busting-gmail-new-image-caching/
+permalink: "/how-we-do/cache-busting-gmail-new-image-caching/"
 type: ideas
 categories:
-  - how-we-do
-  - tool-reviews
+- how-we-do
+- tool-reviews
 author: Sam Bauers
-description: Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.
+description: Google's new image caching mechanism in Gmail is an email marketer's
+  nightmare come true. Here's how to keep tracking your email opens in Gmail.
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
-image-small: /assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg
-image-large: /assets/uploads/2013/somebody-set-us-up-the-bomb.jpg
-excerpt-short: This week, GMail announced images are on by default. If you're a marketer, you might have seen some posts about how exciting this is that we can now track emails again. #fail
-excerpt-long: If you're a GMail user, you've probably seen an update explaining that <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images are now on by default</a>. If you're a marketer, you might have seen some posts saying how exciting this is that email companies can now start tracking email opens again. (Un)fortunately this is a bit of wishful thinking or misinformation.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
+image-large: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
+excerpt-short: This week, GMail announced images are on by default. If you're a marketer,
+  you might have seen some posts about how exciting this is that we can now track
+  emails again.
+excerpt-long: If you're a GMail user, you've probably seen an update explaining that
+  <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images
+  are now on by default</a>. If you're a marketer, you might have seen some posts
+  saying how exciting this is that email companies can now start tracking email opens
+  again. (Un)fortunately this is a bit of wishful thinking or misinformation.
+tags: 
+time: 
+redirect_from: 
 
+---
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.
 
 A common practice in email marketing is to place "tracking" images inside html emails in order to measure who opened which email when. A very important piece of information, which can be used both legitimately and nefariously. Google sunk this practice by turning images off by default. [Ars Technica has a good write up of the implications (Ars Technica: Gmail blows up e-mail marketing by caching all images on Google servers)](http://arstechnica.com/information-technology/2013/12/gmail-blows-up-e-mail-marketing-by-caching-all-images-on-google-servers/) for email marketers (and illegitimate spammers). But it doesn't try to answer any questions about how the image caching works, and how to get around it.
@@ -30,47 +37,45 @@ To investigate how it actually works, we created some code to generate random im
 
 To start with we need to build out all the potential ways a tracking image could be served. This is a matrix of the construction of the URL:
 
-- Filename always the same - e.g. http://example.com/images/same.png
-- Filename always the same, querystring unique between emails - e.g. http://example.com/images/same.png?12345
-- Filename unique between emails- e.g. http://example.com/images/same-12345.png
+* Filename always the same - e.g. http://example.com/images/same.png
+* Filename always the same, querystring unique between emails - e.g. http://example.com/images/same.png?12345
+* Filename unique between emails- e.g. http://example.com/images/same-12345.png
 
 Also we need to consider the actual content of the image. Usually the images used for tracking are 1 pixel by 1 pixel transparent GIFs, but maybe the caching behaves differently depending on the actual content of the request, here are our variables:
 
-- File content always the same
-- i.e. http://example.com/images/same.png always returns the same content
-
-- File content different between emails
-- i.e. http://example.com/images/different.png always returns the same content for that particular email
-
-- File content always different
-- i.e. http://example.com/images/different.png always returns different content for any email
+* File content always the same
+* i.e. http://example.com/images/same.png always returns the same content
+* File content different between emails
+* i.e. http://example.com/images/different.png always returns the same content for that particular email
+* File content always different
+* i.e. http://example.com/images/different.png always returns different content for any email
 
 This gives us a matrix of 9 different scenarios (well 8 actually, because 2 of them are effectively the same). We can determine our file naming for the tests from the matrix. It looks like this:
 
 <table class="table table-bordered matrix">
 <tbody>
 <tr>
-	<td></td>
-	<td>File content always the same</td>
-	<td>File content different between emails</td>
-	<td>File content always different</td>
+<td></td>
+<td>File content always the same</td>
+<td>File content different between emails</td>
+<td>File content always different</td>
 </tr>
 <tr>
-	<td>Filename always the same</td>
-	<td class="active text-center" colspan="2">same.png</td>
-	<td class="active text-center">different-always.png</td>
+<td>Filename always the same</td>
+<td class="active text-center" colspan="2">same.png</td>
+<td class="active text-center">different-always.png</td>
 </tr>
 <tr>
-	<td>Filename always the same, querystring unique between emails</td>
-	<td class="active text-center">same.png?r=12345</td>
-	<td class="active text-center">different.png?r=12345</td>
-	<td class="active text-center">different.png?r=12345&amp;a=1</td>
+<td>Filename always the same, querystring unique between emails</td>
+<td class="active text-center">same.png?r=12345</td>
+<td class="active text-center">different.png?r=12345</td>
+<td class="active text-center">different.png?r=12345&a=1</td>
 </tr>
 <tr>
-	<td>Filename always unique between emails</td>
-	<td class="active text-center">same-12345.png</td>
-	<td class="active text-center">different-12345.png</td>
-	<td class="active text-center">different-always-12345.png</td>
+<td>Filename always unique between emails</td>
+<td class="active text-center">same-12345.png</td>
+<td class="active text-center">different-12345.png</td>
+<td class="active text-center">different-always-12345.png</td>
 </tr>
 </tbody>
 </table>
@@ -82,27 +87,27 @@ The result looks a bit like this:
 <table class="table table-bordered matrix">
 <tbody>
 <tr>
-	<td></td>
-	<td>File content always the same</td>
-	<td>File content different between emails</td>
-	<td>File content always different</td>
+<td></td>
+<td>File content always the same</td>
+<td>File content different between emails</td>
+<td>File content always different</td>
 </tr>
 <tr>
-	<td>Filename always the same</td>
-	<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30"></td>
+<td>Filename always the same</td>
+<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30"></td>
 </tr>
 <tr>
-	<td>Filename always the same, querystring unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&amp;a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30"></td>
+<td>Filename always the same, querystring unique between emails</td>
+<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30"></td>
 </tr>
 <tr>
-	<td>Filename always unique between emails</td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
-	<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30"></td>
+<td>Filename always unique between emails</td>
+<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
+<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
+<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30"></td>
 </tr>
 </tbody>
 </table>
@@ -142,7 +147,3 @@ So the first two points are not really much different from before as most tracki
 Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)
 
 Losing the IP address means losing the closest thing we have to geographic data on email opens. There is no solution that I can think of which will allow you to obtain this information by other means directly. Javascript injection into the querystring certainly won't work in Gmail, as their security process justifiably strips out Javascript. It may be possible to marry geographic data from clicks on the email to the open retrospectively if both the open and the click carry a common unique identifier.
-
-#### Try it yourself
-
-The log entries generated from the testing we did and the code used to generate our random images are available [here (Gmail caching test - code and results)](/assets/uploads/2013/gmail-caching-test.zip) (MIT License). If you're miffed and puzzled by the image at the top of this post, we're just trying to get all that [long tail gmail using AYB fan](http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us) traffic. Don't tell me image SEO doesn't work.
