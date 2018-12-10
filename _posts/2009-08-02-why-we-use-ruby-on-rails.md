@@ -25,6 +25,7 @@ redirect_from:
 - "/blog/why-we-use-ruby-on-rails/"
 - "/blog/why-we-use-ruby-on-rails"
 - "/blog/"
+- "/blog/text-cloud-in-flash/"
 
 ---
 Heres my summary of what Rails is and why we use it.
