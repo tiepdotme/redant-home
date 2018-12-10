@@ -8,7 +8,7 @@ categories:
 - marketing
 author: Ben Still
 description: Online visualisation of your customer funnel
-keywords: 
+keywords: ''
 image-small: "/assets/uploads/2009/funnel-small.png"
 image-large: "/assets/uploads/2009/funnel-large.jpg"
 excerpt-short: Refine your user experience and create better ROI by taking an internal
@@ -17,8 +17,8 @@ excerpt-long: Here we look at converting customers from their first visit to you
   website to the end point at which they either purchase or become fully engaged with
   what you're offering. By visualising this you can refine the process and create
   a better user experience and increase your ROI.
-tags: 
-time: 
+tags: []
+time: ''
 redirect_from:
 - "/blog/visualising-your-online-customer-funnel/"
 - "/blog/visualising-your-online-customer-funnel"
@@ -30,7 +30,7 @@ One of the ways that you can track customer interaction is through a conversion 
 
 For a site or web application that sells a product or service, the traditional funnel approach works well since it's relatively easy to track user interaction on the web. Not only can we track things by looking at server logs & and page analytics, we can also use database analysis to gain a much deeper understanding of the interaction.
 
-There is an article by Michael McDerment from [Freshbooks](http://www.freshbooks.com/) (a web site that allows you to manage your invoices) on this subject: [How to measure the success of your web app](http://www.thinkvitamin.com/features/webapps/how-to-measure-the-success-of-your-web-app). In it, he describes a simple model (visit &gt; trial &gt; buy) as well as a more sophisticated approach (visit &gt; trial &gt; active &gt; pay). He goes on to discuss ways you can go about measuring your conversion funnel.
+There is an article by Michael McDerment from [Freshbooks](http://www.freshbooks.com/) (a web site that allows you to manage your invoices) on this subject: [How to measure the success of your web app](http://www.thinkvitamin.com/features/webapps/how-to-measure-the-success-of-your-web-app). In it, he describes a simple model (visit > trial > buy) as well as a more sophisticated approach (visit > trial > active > pay). He goes on to discuss ways you can go about measuring your conversion funnel.
 
 Michael also makes the point that the initial funnel is important, however how a customer behaves once signed up is actually more important. Do they stay signed up for the next month? Do they even use the service, or do they find it not useful or too hard, and do they upgrade to a bigger package?
 
@@ -48,11 +48,6 @@ One of the big challenges is communicating what this customer funnel looks like,
 
 Here is how we've explained it as an overview:
 
-<object width="490" height="370">
-  <param name="movie" value="/assets/uploads/2009/funnel.swf" />
-  <param name="allowFullScreen" value="true" />
-  <param name="allowscriptaccess" value="always" />
-  <embed src="/assets/uploads/2009/funnel.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="490" height="370" />
-</object>
+_(Flash removed)_
 
-*image credit: [Scott Ableman](https://www.flickr.com/photos/ableman/)*
+_image credit:_ [_Scott Ableman_](https://www.flickr.com/photos/ableman/)
