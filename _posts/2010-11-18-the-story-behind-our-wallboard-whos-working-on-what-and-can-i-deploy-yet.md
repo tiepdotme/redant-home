@@ -18,9 +18,12 @@ excerpt-long: Wallboards are cool, and every dev house should have one. Firstly 
   cool (did I mention that already?) and the developers get to have some fun in all
   that free time they have with the wallboard making everything much more efficient.
   Here's what we did with ours.
-tags: 
+tags: []
 time: 10 Mins Read
-redirect_from: "/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
+redirect_from:
+- "/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
+- "/blog/the-story-behind-our-wallboard"
+- blog/the-story-behind-our-wallboard/
 
 ---
 [![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)](/assets/uploads/2010/redant-wallboard-preview.jpg)
