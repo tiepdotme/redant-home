@@ -4,7 +4,7 @@ theme: voome
 slug: voome-programs
 title: Voome Programs
 tagline: A health and fitness product
-description: Voome is an extremely successful online health and fitness platform
+description: Voome Programs. It’s for those who don’t like to commit long term, but still need a bit of guidance and enjoy working out to the dulcet tones of their favourite fitness and nutrition experts.
 project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2017

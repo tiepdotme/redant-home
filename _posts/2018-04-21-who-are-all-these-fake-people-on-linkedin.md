@@ -6,7 +6,7 @@ type: ideas
 categories:
   - marketing
 author:
-description:
+description: Who are all these fake people on LinkedIn?
 keywords:
 image-small: '/assets/uploads/2018/linkedin2.png'
 image-large: '/assets/uploads/2018/linkedin2.png'
