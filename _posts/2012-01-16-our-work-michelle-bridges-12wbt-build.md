@@ -16,15 +16,16 @@ excerpt-short: The initial build of the Michelle Bridges 12WBT project
 excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
   Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented
   us with some unique challenges to overcome. Find out how we did it.
-tags:
-time:
-redirect_from:
+tags: 
+time: 
+redirect_from: 
+
 ---
 The site has a few interesting technical challenges:
 
-- **lots of traffic** needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time
-- **lots of dynamic/interactive content** on pages like member weights & fitness results. This can make page caching tricky
-- **different content on different days** each day new content or functionality appears, like a new video, tool or forum area
+* **lots of traffic** needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time
+* **lots of dynamic/interactive content** on pages like member weights & fitness results. This can make page caching tricky
+* **different content on different days** each day new content or functionality appears, like a new video, tool or forum area
 
 We used Agile methods such as stories and sprints to help with the initial build, and then tools like New Relic and Jenkins to deliver a fast and reliable site.
 
@@ -36,18 +37,18 @@ Second was the time frame- the 12WBT program runs several times each year, and s
 
 We approached this in an Agile fashion and broke the project up into a series of 1-2 week sprints:
 
-- basic content- exercises & recipes
-- forum & membership
-- nutrition & exercise plans (grouping of content), charging members
-- dynamic shopping lists, user profiles
-- event system, private messaging, comments & reviews
-- caching, server performance
+* basic content- exercises & recipes
+* forum & membership
+* nutrition & exercise plans (grouping of content), charging members
+* dynamic shopping lists, user profiles
+* event system, private messaging, comments & reviews
+* caching, server performance
 
 Each sprint consisted of:
 
-- defining what we needed to do: acceptance criteria and key features
-- designing and building these features
-- showcasing what wed done to the 12WBT team and incorporating feedback
+* defining what we needed to do: acceptance criteria and key features
+* designing and building these features
+* showcasing what wed done to the 12WBT team and incorporating feedback
 
 We needed to hit a specific time for release, so there was constant negotiation around what would be in the final release vs post launch. We used [Jira](http://www.atlassian.com/software/jira/overview) and [Greenhopper](http://www.atlassian.com/software/greenhopper/overview) to prioritise each item and keep track of these as feature stories and requests.
 
@@ -101,19 +102,19 @@ One of the unusual things about this project was that a separate team had alread
 
 To explain why, here is how the business process for the 12WBT site works:
 
-- There are a series of rounds eg: Spring 2012, which start and end on particular days.
-- Within each round there are 16 weeks. On each day within each week, different content and tools become available- so a video might appear on one day, new recipes on another.
-- A user signs up and pays for Spring 2012, and then gets access to Spring 2012 content & tools
-- The content in the site is broken into video, information pages, interactive tools (eg: graphs of my weight), lists (eg: recipes), events (user generated) and forum (user generated)
+* There are a series of rounds eg: Spring 2012, which start and end on particular days.
+* Within each round there are 16 weeks. On each day within each week, different content and tools become available- so a video might appear on one day, new recipes on another.
+* A user signs up and pays for Spring 2012, and then gets access to Spring 2012 content & tools
+* The content in the site is broken into video, information pages, interactive tools (eg: graphs of my weight), lists (eg: recipes), events (user generated) and forum (user generated)
 
 Taking a CMS approach has some definite advantages - for example you've already got a way of authors to edit content, and you can schedule pages for when they should appear - you don't need to develop anything. We often take a CMS approach for sites that have a lot of static pages or a mix of CMS and framework.
 
 However a CMS also introduces limitations. For example everything becomes quite page centric - all the data is tied to which page it is on. Which is fine if your site is a blog or a series of content pages. But lets say in your site you have a bunch of recipes. Each recipe has pictures, some instructions, ingredients and how long it will take to cook, and each recipe lives on its own page. You might want to show your recipes in a list, but then you might also show them in ways that make things easier for your user - like:
 
-- show me only those recipes that Ben likes
-- I have some chick peas - what can I cook?
-- I like this recipe, but flip to the vegetarian version (and from now only show me vegetarian recipes)
-- or show me a shopping list of what I need to make this weeks recipes
+* show me only those recipes that Ben likes
+* I have some chick peas - what can I cook?
+* I like this recipe, but flip to the vegetarian version (and from now only show me vegetarian recipes)
+* or show me a shopping list of what I need to make this weeks recipes
 
 …then having recipes as pages in a CMS becomes hard. Since all the information for each recipe is inside a CMS page in a particular section, the code has to hunt around and do quite a bit of work to grab that list of chick pea recipes or generate a dynamic shopping list. The code has to deal with all the artefacts or "code dags" that need to be there for the CMS, rather than grabbing the information directly from the database.
 
@@ -127,23 +128,23 @@ One of the things that we identified as a priority was to look after members- to
 
 Online companies like Zappos have grown massively not because they sell cheap shoes, but because they [excel at customer service](http://www.deliveringhappiness.com/). To try to deliver awesome member service we used:
 
-- **Assistly** - all questions and emails come through to a member service queue that uses [Assistly](http://www.assistly.com/). Common questions get pushed to an FAQ answers page. The end users never actually see Assistly - it just hums away in the background. The 12WBT team log in and answer the questions inside Assistly, and this content then gets pushed out to the front end of the site.
-- **New Relic** tracks the [performance of the site](http://newrelic.com/), from the amount of requests that the main application is handling through to browser load times. Anything unusual and we get an alert in Campfire and via Jira email - so we often know about issues before they get reported. We can spot trends with slow code or database queries and pick up recurring errors. This has meant site performance has been quite smooth.
-- **Jira** - any payment or technical issue that does come through goes straight into [Jira](http://www.atlassian.com/software/jira/overview) via email. Having Jira doesnt mean we solve it faster, but it does make our process more transparent and reliable. Issues get picked up quickly, and once resolved the member service team can respond immediately.
+* **Assistly** - all questions and emails come through to a member service queue that uses Assistly. Common questions get pushed to an FAQ answers page. The end users never actually see Assistly - it just hums away in the background. The 12WBT team log in and answer the questions inside Assistly, and this content then gets pushed out to the front end of the site.
+* **New Relic** tracks the [performance of the site](http://newrelic.com/), from the amount of requests that the main application is handling through to browser load times. Anything unusual and we get an alert in Campfire and via Jira email - so we often know about issues before they get reported. We can spot trends with slow code or database queries and pick up recurring errors. This has meant site performance has been quite smooth.
+* **Jira** - any payment or technical issue that does come through goes straight into [Jira](http://www.atlassian.com/software/jira/overview) via email. Having Jira doesnt mean we solve it faster, but it does make our process more transparent and reliable. Issues get picked up quickly, and once resolved the member service team can respond immediately.
 
 ## Server performance & testing
 
 Another area that we thought was important to address was speed. This site gets quite busy, so keeping page load times as quick as possible was critical. First of all we needed to do extensive load testing to simulate high load scenarios- and there were two we were worried about:
 
-- what would happen when a gazillion people tried to sign up and pay at once? Would our background_jobs be able to process them fast enough?
-- how would the forums feel when that horde then jumped into the forum or started a live chat?
+* what would happen when a gazillion people tried to sign up and pay at once? Would our background_jobs be able to process them fast enough?
+* how would the forums feel when that horde then jumped into the forum or started a live chat?
 
 There are lots of load testing sites and software out there, but some can give misleading results. We needed to find a load testing solution that could
 
-- **generate lots of traffic** that could go through the site and follow a path through the site. Many load tools will send traffic which is all hitting the same version of the page (which is then cached), so reporting good results. Meanwhile real users with real cookies & browsers might be getting unique pages, which generates a lot more load- so the load testing is pointless. We needed something which was as close as possible to real users using real browsers.
-- **network bottlenecks** - load tests might be restrained by connection speed - particularly if sending the load test off a single computer. Your connection might only allow 100 users through- which means that will be all that get tested (even though you might think youve sent 10k users)
-- **transactions** - we needed a tool that would allow us to have virtual users that would sign up and pay with a credit card, and then wait around to get the confirmation email. Ideally these transactions could be via Selenium scripts, as wed already created these.
-- **dynamic attributes** - we wanted our virtual users to log in with their own email & password, update avatars, and write unique posts on the forum, comments and reviews. In other words behave like real people would.
+* **generate lots of traffic** that could go through the site and follow a path through the site. Many load tools will send traffic which is all hitting the same version of the page (which is then cached), so reporting good results. Meanwhile real users with real cookies & browsers might be getting unique pages, which generates a lot more load- so the load testing is pointless. We needed something which was as close as possible to real users using real browsers.
+* **network bottlenecks** - load tests might be restrained by connection speed - particularly if sending the load test off a single computer. Your connection might only allow 100 users through- which means that will be all that get tested (even though you might think youve sent 10k users)
+* **transactions** - we needed a tool that would allow us to have virtual users that would sign up and pay with a credit card, and then wait around to get the confirmation email. Ideally these transactions could be via Selenium scripts, as wed already created these.
+* **dynamic attributes** - we wanted our virtual users to log in with their own email & password, update avatars, and write unique posts on the forum, comments and reviews. In other words behave like real people would.
 
 We used [Browsermob](https://browsermob.com/performance-testing) to simulate this load, using dynamic Selenium scripts to describe different paths through the site. Thousands of users created accounts, paid with test credit cards, logged in and used the site - just like normal users do.
 
@@ -159,21 +160,21 @@ Using a bare metal server that is physically close to most of your audience make
 
 What we used:
 
-- Ruby on Rails 3
-- Beast (heavily modified) - Forum
-- Devise - user authentication
-- Cucumber - stories
-- Jira & Greenhopper - issue tracking
-- Jenkins - Continuous Integration server
-- Capistrano - automated deployment
+* Ruby on Rails 3
+* Beast (heavily modified) - Forum
+* Devise - user authentication
+* Cucumber - stories
+* Jira & Greenhopper - issue tracking
+* Jenkins - Continuous Integration server
+* Capistrano - automated deployment
 
 3rd party services:
 
-- [Chargify](http://chargify.com/) - recurring billing management
-- [Chatroll](http://chatroll.com/) - live chat
-- [Assistly](http://assistly.com/) - customer service
-- [Campaign Monitor](http://campaignmonitor.com/) - emails
-- [New Relic](http://newrelic.com/) - application monitoring
-- [Browsermob](http://www.browsermob.com) - load testing and browser simulation
-- [Brightcove](http://www.brightcove.com/) - video CDN
-- [Cachefly](http://cachefly.com/) - Content cache and delivery network (CDN)
+* [Chargify](http://chargify.com/) - recurring billing management
+* [Chatroll](http://chatroll.com/) - live chat
+* [Assistly](http://assistly.com/) - customer service
+* [Campaign Monitor](http://campaignmonitor.com/) - emails
+* [New Relic](http://newrelic.com/) - application monitoring
+* [Browsermob](http://www.browsermob.com) - load testing and browser simulation
+* [Brightcove](http://www.brightcove.com/) - video CDN
+* [Cachefly](http://cachefly.com/) - Content cache and delivery network (CDN)
