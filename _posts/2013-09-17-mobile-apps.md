@@ -1,7 +1,6 @@
 ---
 layout: post
-title: If my customers mainly use mobile devices, doesn't that mean I should be building
-  a phone app?
+title: If my customers mainly use mobile devices, should I be building a phone app?
 permalink: "/mobile/mobile-apps-vs-mobile-site/"
 type: ideas
 categories:

@@ -4,7 +4,7 @@ theme: voome
 slug: voome-chatbot
 title: Voome Chat Bot
 tagline: A health and fitness product
-description: Voome is an extremely successful online health and fitness platform
+description: Using WIT AI, a tool which allows developers to build applications and devices that you can talk or text to, the user can begin to have a conversation with a bot to help them find a recipe they might like.
 project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2016

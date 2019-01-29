@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clicktale Review - how the technology really works and why it didn't for us
+title: Clicktale Review - how the technology works and why it didn't for us
 permalink: /tool-reviews/clicktale-review-technology/
 type: news
 categories:

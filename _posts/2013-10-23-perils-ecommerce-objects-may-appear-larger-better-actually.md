@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The perils of ecommerce. Objects may appear larger and better than they actually
-  are
+title: The perils of ecommerce and how objects may appear larger and better
 permalink: "/strategy/perils-ecommerce-objects-may-appear-larger-better-actually/"
 type: ideas
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmarking the perfect project - what makes one project better than another
+title: Benchmarking the perfect project - what makes a better project
 permalink: "/our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/"
 type: ideas
 categories:

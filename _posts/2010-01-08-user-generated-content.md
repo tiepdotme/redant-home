@@ -6,7 +6,7 @@ type: ideas
 categories:
   - our-work
 author: Ben Still
-description:
+description: User generated content
 keywords: User generated content
 image-small: /assets/uploads/2010/user-generated-content-small.png
 image-large: /assets/uploads/2010/user-generated-content-large.png

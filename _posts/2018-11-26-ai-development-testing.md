@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The hard thing about AI isn't making it. It's testing it to see if it actually
-  works
+title: The hard thing about AI isn't making it - it's testing that it works
 type: news
 permalink: "/automated-testing/ai-development-testing"
 categories:
