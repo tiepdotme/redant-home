@@ -4,11 +4,13 @@ const path = require('path');
 const webpack = require('webpack');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const WebpackShellPlugin = require('webpack-shell-plugin');
 
-const isProd = process.env.NODE_ENV === 'production';
+module.exports = (env, argv) => {
+  const isProd = argv.mode === 'production';
 
-module.exports = (env = {}) => {
   /**
    * Config
    * Reference: https://webpack.js.org/configuration/
@@ -57,7 +59,15 @@ module.exports = (env = {}) => {
           chunks: 'all',
         },
       },
-    }
+    },
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true // set to true if you want JS source maps
+      }),
+      new OptimizeCSSAssetsPlugin({})
+    ]
   }
 
   /**
