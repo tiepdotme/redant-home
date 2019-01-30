@@ -79,4 +79,4 @@ The Melbourne walk has come and gone, and just a few more sleeps until the Sydne
 
 [Visit the site](http://www2.oxfam.org.au/trailwalker/Sydney)
 
-*image credit: [Myrrh Ahn](https://www.flickr.com/photos/ahnmyrrh/)*
+*image credit: Myrrh Ahn*

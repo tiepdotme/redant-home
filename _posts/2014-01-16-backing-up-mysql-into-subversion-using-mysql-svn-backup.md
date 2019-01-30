@@ -36,7 +36,7 @@ So the world needs a solution for MySQL which satisfies the 5 golden rules for s
 * Restoring backups from any point in time should be easy
 * Backups should not be stored in proprietary data formats
 
-A couple of years ago we created a tool which satisfies these requirements and is easy to understand, run, and modify for your own needs. Introducing [MySQL SVN Backup (MySQL SVN Backup)](http://mysql-svn-backup.redant.com.au). The name says it all really MySQL SVN Backup is a shell script that uses a combination of the "mysqldump" tool and the Subversion command-line client to backup MySQL databases to a Subversion repository.
+A couple of years ago we created a tool which satisfies these requirements and is easy to understand, run, and modify for your own needs. Introducing MySQL SVN Backup. The name says it all really MySQL SVN Backup is a shell script that uses a combination of the "mysqldump" tool and the Subversion command-line client to backup MySQL databases to a Subversion repository.
 
 The reasoning behind this approach is simple:
 

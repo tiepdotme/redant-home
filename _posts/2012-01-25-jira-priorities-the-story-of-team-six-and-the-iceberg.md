@@ -86,4 +86,4 @@ Occasionally we'll have a situation where a feature or a bug issue needs to get 
 
 The deploy blocker comes up on our [interactive wallboard](/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/) so everyone is aware. Our Capistrano deployment process also won't allow anything to be deployed to the Production servers until this issue is closed.
 
-[Icons from Cuberto](http://cuberto-ru.deviantart.com/d2ux9pv)
+[Icons from Cuberto](https://www.deviantart.com/cuberto-ru)
