@@ -1,9 +1,10 @@
 {% include head.html %}
 <body class="{{ page.class }}">
-  <div class="main-layout">
+  <div class="main-layout default-layout">
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
+    {% include slidedown-container.html %}
     {% include scripts.html %}
   </div>
 </body>
