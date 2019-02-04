@@ -24,7 +24,6 @@ time: ''
 redirect_from:
 - "/blog/why-we-use-ruby-on-rails/"
 - "/blog/why-we-use-ruby-on-rails"
-- "/blog/"
 - "/blog/text-cloud-in-flash/"
 
 ---
