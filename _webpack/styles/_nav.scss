@@ -1,12 +1,17 @@
 .navbar {
   position: fixed;
+  display: flex;
+  align-items: center;
   width: 100%;
   max-width: $layout-max-width;
-
   padding: 14px 0;
   background-color: $white;
-
   height: $navbar-height; // must match .nav-spacer
+  z-index: 100;
+
+  > .container {
+    display: block;
+  }
 
   .navbar-brand {
     padding: 0;
@@ -59,8 +64,40 @@
 }
 
 .nav-overlay {
-  align-items: flex-start;
-  z-index: 100;
+  &.open {
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba($black, 0.9);
+
+    .navbar-brand {
+      display: none;
+    }
+
+    .nav-toggle-icon {
+      span {
+        &:nth-child(1),
+        &:nth-child(4) {
+          width: 0;
+          top: 13px;
+          left: 50%;
+        }
+
+        &:nth-child(2) {
+          transform: rotate(45deg);
+        }
+
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+
+    .nav-links {
+      display: block;
+    }
+  }
 
   .nav-links {
     display: none;
@@ -102,39 +139,6 @@
           width: 38px;
         }
       }
-    }
-  }
-
-  &.open {
-    background-color: rgba($black, 0.9);
-    height: 100%;
-    width: 100%;
-
-    .navbar-brand {
-      display: none;
-    }
-
-    .nav-toggle-icon {
-      span {
-        &:nth-child(1),
-        &:nth-child(4) {
-          width: 0;
-          top: 13px;
-          left: 50%;
-        }
-
-        &:nth-child(2) {
-          transform: rotate(45deg);
-        }
-
-        &:nth-child(3) {
-          transform: rotate(-45deg);
-        }
-      }
-    }
-
-    .nav-links {
-      display: block;
     }
   }
 

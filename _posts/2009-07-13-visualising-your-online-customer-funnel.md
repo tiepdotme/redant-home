@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Visualising your online customer funnel
 permalink: "/strategy/visualising-your-online-customer-funnel/"
 type: ideas

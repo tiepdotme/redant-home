@@ -33,7 +33,7 @@ Here are some screens:
 
 Redesigned home page
 
-[![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.png)](http://www.flickr.com/photos/39680059@N08/3641611813/)
+[![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg)](http://www.flickr.com/photos/39680059@N08/3641611813/)
 
 The new feature that pulls in the latest articles on the home page (javascript)
 
