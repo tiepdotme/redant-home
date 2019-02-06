@@ -43,10 +43,21 @@
 // Customise container height to fit form
 #hire-us-form {
   .smcx-embed {
-    height: 900px;
+    height: 880px;
 
     .smcx-iframe-container {
-      height: 900px;
+      height: 880px;
+      margin-top: -100px !important;
+    }
+  }
+}
+
+#consult-form {
+  .smcx-embed {
+    height: 980px;
+
+    .smcx-iframe-container {
+      height: 980px;
       margin-top: -100px !important;
     }
   }
