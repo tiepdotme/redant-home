@@ -11,6 +11,32 @@ body {
   max-width: $layout-max-width;
   margin: auto;
   background-color: $white;
+
+  &.default-layout {
+    padding-bottom: $slide-footer-height;
+
+    > header,
+    > section,
+    > footer,
+    > .container,
+    > .bg-gray-light {
+      z-index: 2;
+      position: relative;
+      background-color: $white;
+    }
+  }
+}
+
+.slidedown-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: $layout-max-width;
+  min-height: $slide-footer-height;
+  bottom: 0;
+  background: $gray-100;
 }
 
 .homepage {
