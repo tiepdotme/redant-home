@@ -1,6 +1,15 @@
 .btn-primary {
+  color: $white;
   background-color: $red;
   border: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $white;
+    background-color: rgba($red, 0.9) !important;
+    transition: 0.2s;
+  }
 }
 
 .btn-default {
