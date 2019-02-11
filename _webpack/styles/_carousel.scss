@@ -6,7 +6,8 @@
   margin-bottom: 0;
 }
 
-.carousel {
+.carousel,
+.carousel-layout {
   max-width: 100%;
   overflow: hidden;
 
@@ -131,6 +132,32 @@
 
     &.slick-next {
       right: $grid-gutter-width / 2;
+    }
+  }
+}
+
+// Carousel slide-like styling
+.carousel-layout {
+  .slide {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 380px;
+      padding-top: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .slide {
+      .content {
+        justify-content: flex-start;
+        height: 420px;
+      }
+
+      .svg-wrapper {
+        margin-bottom: -120px;
+      }
     }
   }
 }
