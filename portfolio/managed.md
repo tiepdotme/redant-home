@@ -14,46 +14,50 @@ lines_of_code: 250k+
 images:
 ---
 
-**What makes property management so hard?**
-Like a few industries we’ve worked in, from the outside looking in, the property management business looks pretty simple.
+Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
 
-Here’s how I thought it worked: A tenant signs a lease, and then sets up regular rent payments. These payments go to the owner’s bank account. The property manager gets paid a fee, and everything is pretty simple and sweet.
+In broad terms it covers
+1. The initial setup of a lease and onboarding of a new tenant or owner
+2. Setting up and processing regular rent payments
+3. Irregular payments such as maintenance and utilities
+4. Inspections, condition reports and property maintenance
 
-It’s once you take a look under the hood that you see how messy and hard things can be. In no particular order:
+The “special sauce” is that it removes the need for an Agent to maintain a Trust Account. This is where rent is paid into, and any costs are paid from. By using modern payment technologies, the money can get routed instantly to where it needs to go. Faster, cheaper and completely automated.
 
-**Problem 1:** Trust accounts
-Turns out the money doesn’t just go to the owner. It first goes into a Trust account, which is a special type of bank account the agency must have. This Trust costs the Agency - they need to employ people to manage and audit the account - while at the same time the law prevents them from earning any interest on funds held.
+Benefits for each of the key user groups:
 
+**For Property Managers**
 
-**Problem 2:** Fraud
-So you’ve got this big pool of money, and lots of money going in and out. Guess what happens? Obviously this is only in a small percentage of cases, but there are two types of fraud.
+Managing a large property portfolio is extremely time consuming. We’ve seen many that have 50 Post-it notes and 10 different browser tabs open at once to manage everything. Things get missed, and there is never enough time in the day.
+The Managed platform automates tasks and payments. Payments are instant, so there is no audit burden of a Trust account. This allows PMs to move into an investment manager role and provide real value and efficiency. Some agencies have changed to become completely virtual, running a nation wide portfolio just using this platform.
 
-The first is money coming in for PropertyA, which is used to pay for a cost on PropertyB. PropertyB’s rent hasn’t yet come in, but the cost needs to get paid. Sure, it will probably all even out, but it does mean the owner of PropertyA won’t get paid straight away.
+**For Landlords**
 
-Very hard to detect, and this might occur deliberately or by accident.
-The second type is more straight up fraud:
+A common thread we heard from owners was around transparency. They don’t want to actively manage their investment property, but many felt a bit in the dark about what their Property Manager is doing.
+The Managed platform strengthens the connection between owner and PM. They get paid immediately, and can get a real time view of incoming and outgoing payments. Key information like benchmarking
 
-- NSW real estate agent [Daniel Nicholson](http://www.realestatebusiness.com.au/breaking-news/11202-agent-jailed-over-trust-account-fraud) was prosecuted after he failed to lodge almost $93,000 in trust funds
-- [One agent who fraudulently used the funds](https://www.smh.com.au/business/consumer-affairs/millions-in-nsw-real-estate-fraud-prompts-raft-of-new-regulations-20161124-gsx3gf.html) to purchase illegal drugs used by his wife.
-- Another [whose father reported her to Fair Trading](https://www.illawarramercury.com.au/story/1982022/warilla-agent-feeds-101m-into-pokies/) after she stole more than $1.5 million from her real estate agency to use on poker machines.
-- Gambling addiction is identified as a common motivator for trust account fraud, as was the case for one agent who bet $77,000 of trust funds in one day.
+<div class="alert alert-info">
+  <i class="fa fa-bar-chart mr-2"></i> Similar properties to yours are getting 10% more rent
+</div>
 
-**Problem 3:** Margins and outsourcing
-Managing a portfolio of rental properties can be very time consuming, and the wage cost might not always align with revenue. This is in contrast to the Sales side of an agency, where new sales align with commissions paid to agents.
+and improvements based on condition report data
 
-This drives a desire to keep costs down, and so some agencies explore outsourcing options such as using staff in offshore centres to manage trust funds. The regulator (eg: Office of Fair Trading in NSW) doesn’t look kindly on this, and processing data in this way would make it difficult to meet the tougher new Data and Privacy obligations.
-
-**Problem 4:** Speed of payments
+<div class="alert alert-info">
+  <i class="fa fa-line-chart mr-2"></i> If you put in a new kitchen, it would cost around $10k but with the increased rent you’d make that back in 8 months
+</div>
 
 
-**Problem 5:** Complexity of payments
+**For Tenants**
 
-- Overdue payments
-- Everyone has a different POV
-- rocessing time of transactions
-- Variations of a lease
-- Change frequency
-- Apply credit
-- Overpaid
-- Money not available
-- Details change
+Once a property is set up in Managed, the onboarding experience for a tenant is pretty smooth. They can set up different bank accounts and payment methods, as well as control how and when payments get made. Often at the start of a lease there are some irregular payments (like paying the first 4 days, and then fortnightly after that but less your deposit) - these are now clear and easy to understand.
+
+A tenant might want to buy something that will improve the property - like a new fridge or air conditioning. The platform helps them negotiate this - so the owner can pay half and reduce rent, or the agent organises and tenant pays over the next 3 rent cycles, etc.
+
+A tenant can also make maintenance or repair requests. These go through a workflow, including instant payment to a Tradesperson
+
+**For Tradespersons**
+
+Doing work for Property Managers is often a bugbear for Tradespeople. They might not get paid for a while, the work required can be unclear, and they might turn up to a property and the tenant doesn’t know anything about the work.
+The Managed platform allows Tradespeople to set up their payment preferences and get paid immediately. They get simple and qualified work orders, with all of the information that they need to do the job.
+
+Also read our post about [What makes property management so hard](/what-makes-property-management-so-hard)?
