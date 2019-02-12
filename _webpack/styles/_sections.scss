@@ -2,7 +2,7 @@
   padding: 0;
 
   @include media-breakpoint-up(sm) {
-    padding: $grid-gutter-width * 3 0;
+    padding: $grid-gutter-width * 2.5 0;
   }
 }
 

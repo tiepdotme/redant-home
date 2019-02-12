@@ -15,6 +15,7 @@ body {
   &.default-layout {
     padding-bottom: $slide-footer-height;
 
+    // CSS for containers to hide the slidedown element
     > header,
     > section,
     > footer,
@@ -22,7 +23,17 @@ body {
     > .bg-gray-light {
       z-index: 2;
       position: relative;
+    }
+
+    > header,
+    > section,
+    > footer,
+    > .container {
       background-color: $white;
+    }
+
+    > .bg-gray-light {
+      background-color: $gray-100;
     }
   }
 }

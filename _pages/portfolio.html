@@ -19,33 +19,35 @@ redirect_from:
   </div>
 </header>
 
-<section class="py-5 container portfolio-cards">
-  <div class="card-columns">
-    {% for slug in site.data.portfolio.order %}
-      {% assign pages = site.pages | where:'slug', slug %}
-      {% for page in pages %}
-        <div id="section-card-{{ page.title | downcase | replace: ' ', '-' }}" class="ga-section card mb-1">
-          <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
-            <div class="content mb-2">
-              <h2>{{ page.title }}</h2>
-              <div class="hr-wrapper">
-                <hr class="hr-white">
+<section class="py-5">
+  <div class="container portfolio-cards">
+    <div class="card-columns">
+      {% for slug in site.data.portfolio.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for page in pages %}
+          <div id="section-card-{{ page.title | downcase | replace: ' ', '-' }}" class="ga-section card mb-1">
+            <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
+              <div class="content mb-2">
+                <h2>{{ page.title }}</h2>
+                <div class="hr-wrapper">
+                  <hr class="hr-white">
+                </div>
+                <h3 class="h5 my-4">{{ page.tagline }}</h3>
+                <p>{{ page.description }}</p>
               </div>
-              <h3 class="h5 my-4">{{ page.tagline }}</h3>
-              <p>{{ page.description }}</p>
-            </div>
-            <div class="svg-container">
-              <div class="svg-wrapper">
-                {% if page.project_type == 'mobile' %}
-                  {% include svg/mobile-project-header.svg slug=page.slug title=page.title %}
-                {% else %}
-                  {% include svg/project-header.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}
-                {% endif %}
+              <div class="svg-container">
+                <div class="svg-wrapper">
+                  {% if page.project_type == 'mobile' %}
+                    {% include svg/mobile-project-header.svg slug=page.slug title=page.title %}
+                  {% else %}
+                    {% include svg/project-header.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}
+                  {% endif %}
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+    </div>
   </div>
 </section>

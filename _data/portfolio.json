@@ -1,6 +1,7 @@
 {
   "order": [
-    "12wbt",
+		"12wbt",
+  	"managed",
     "tribe-influencer-marketplace",
   	"outdoor-automated-proposal-platform",
   	"12wbt-daily-app",
