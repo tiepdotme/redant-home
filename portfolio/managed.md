@@ -11,12 +11,13 @@ project_date: 2017-now
 technologies: Ruby on Rails, React
 team_size: 4 people
 lines_of_code: 250k+
-images:
----
+images: 
 
+---
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
 
 In broad terms it covers
+
 1. The initial setup of a lease and onboarding of a new tenant or owner
 2. Setting up and processing regular rent payments
 3. Irregular payments such as maintenance and utilities
@@ -37,27 +38,25 @@ A common thread we heard from owners was around transparency. They don’t want 
 The Managed platform strengthens the connection between owner and PM. They get paid immediately, and can get a real time view of incoming and outgoing payments. Key information like benchmarking
 
 <div class="alert alert-info">
-  <i class="fa fa-bar-chart mr-2"></i> Similar properties to yours are getting 10% more rent
+<i class="fa fa-bar-chart mr-2"></i> Similar properties to yours are getting 10% more rent
 </div>
 
 and improvements based on condition report data
 
-<div class="alert alert-info">
-  <i class="fa fa-line-chart mr-2"></i> If you put in a new kitchen, it would cost around $10k but with the increased rent you’d make that back in 8 months
-</div>
-
+<div class="alert alert-info"> <i class="fa fa-line-chart mr-2"></i> If you put in a new kitchen, it would cost between $8-12k but with the increased rent you’d make that back in around 8 months </div>
 
 **For Tenants**
 
-Once a property is set up in Managed, the onboarding experience for a tenant is pretty smooth. They can set up different bank accounts and payment methods, as well as control how and when payments get made. Often at the start of a lease there are some irregular payments (like paying the first 4 days, and then fortnightly after that but less your deposit) - these are now clear and easy to understand.
+Once a property is set up in Managed, the on-boarding experience for a tenant is pretty smooth. They can set up different bank accounts and payment methods, as well as control how and when payments get made. Often at the start of a lease there are some irregular payments (like paying the first 4 days, and then fortnightly after that but less your deposit) - these are now clear and easy to understand.
 
-A tenant might want to buy something that will improve the property - like a new fridge or air conditioning. The platform helps them negotiate this - so the owner can pay half and reduce rent, or the agent organises and tenant pays over the next 3 rent cycles, etc.
+A tenant might want to buy something that will improve the property - like a new fridge or air conditioning. The platform helps them negotiate this - so perhaps owner can pay half and reduce rent, or the agent organises and tenant pays over the next 3 rent cycles, etc.
 
-A tenant can also make maintenance or repair requests. These go through a workflow, including instant payment to a Tradesperson
+A tenant can also make maintenance or repair requests. Once approved, these go through a workflow so the PM can organise a convenient time with the Tenant etc.
 
-**For Tradespersons**
+**For Tradespeople**
 
-Doing work for Property Managers is often a bugbear for Tradespeople. They might not get paid for a while, the work required can be unclear, and they might turn up to a property and the tenant doesn’t know anything about the work.
-The Managed platform allows Tradespeople to set up their payment preferences and get paid immediately. They get simple and qualified work orders, with all of the information that they need to do the job.
+Doing work for Property Managers is often a bugbear for Tradespeople. They might do the job but not get paid for ages, the work required can be unclear or garbled, or they might turn up to a property and the tenant doesn’t know anything about the work or didn't know they were coming. 
+
+The Managed platform allows Tradespeople to set up their payment preferences and get paid immediately. They get simple and qualified work orders, with all of the information that they need to do the job. Once the job is done they post a photo and get paid.
 
 Also read our post about [What makes property management so hard](/what-makes-property-management-so-hard)?
