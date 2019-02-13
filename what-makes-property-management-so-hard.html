@@ -172,19 +172,23 @@
 
 <p><strong>Problem 4: Speed of payments</strong></p>
 
+<p>There is a general user expectation that payments happen in the blink of an eye. And they can - except when they don’t. It’s all to do with the method (or the “rails” if you want to use fancy FinTech talk).</p>
+
+<p>A credit card is easy - as the vendor I can even check your account to make sure you have enough money before the transaction occurs. The transaction itself happens pretty much straight away.</p>
+
+<p>But other methods like Direct Debit or BPay are much slower, and confusingly there are faster and slower flavours of each. At it’s slowest, a DD takes 3 days to go from a tenant’s account to the platform (eg: Managed). And then another 3 days to go from Managed to the owner. Oh, and if on that first day you did it after the 2pm cutoff, then you need to wait another day. Computer says no. So that means it can be up to 7 business days.</p>
+
+<p>So there is tension here: the consumer expectation is that it happens straight away, and the reality is that sometimes it does (“see - it works!”) and other times takes ages (“this is broken! I want my money back”). It’s tough to explain.</p>
+
+<p>The good news is that there has been significant innovation, with NPP and OpenBanking. Our banks are finally moving out of the Mainframe age to a Cloud one, where automation is used to drive down time and improve flexibility.</p>
+
 <p><strong>Problem 5: Complexity of payments</strong></p>
 
-<ul>
-  <li>Overdue payments</li>
-  <li>Everyone has a different POV</li>
-  <li>rocessing time of transactions</li>
-  <li>Variations of a lease</li>
-  <li>Change frequency</li>
-  <li>Apply credit</li>
-  <li>Overpaid</li>
-  <li>Money not available</li>
-  <li>Details change</li>
-</ul>
+<p>The payment workflow itself is relatively complex. You’d think its simple - tenant is due to pay rent on a certain day, the owner gets the rent. All done.</p>
+
+<p>Let’s take timing of payments - from the Tenant’s point of view, as soon as they’ve hit the “pay” button, their rent is paid. But maybe there was insufficient funds, maybe it takes a few days. From the Property Manager’s point of view they haven’t paid rent and they are overdue. From the owners point of view, that rent is only paid once it has arrived in his/her account - which could be another few days after that.</p>
+
+<p>The payment amounts can change - the rent amount isn’t always the same. A lease might be varied, a tenant might need to get reimbursed or pay more. The rental amount might need to get split up to cover costs or outstanding bills. The tenant might want to change frequency from weekly to fortnightly, but only starting from the week after next - and so on.</p>
 
           </div>
           <div class="col-md-4">
