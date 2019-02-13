@@ -2,13 +2,13 @@
 layout: post
 title: What makes property management so hard?
 type: news
-permalink: software-development/what-makes-property-management-so-hard
+permalink: "/software-development/what-makes-property-management-so-hard"
 categories:
 - software-development
 author: Ben Still
 description: From the outside looking in, the property management business looks pretty
   simple.
-keywords: ai development, machine learning, automated tests
+keywords: property management, payments
 date: 2019-02-12 02:31:36 +0000
 image-small: "/assets/uploads/2019/managed.png"
 image-large: "/assets/uploads/2019/managed.png"

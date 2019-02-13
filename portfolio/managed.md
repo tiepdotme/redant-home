@@ -55,8 +55,8 @@ A tenant can also make maintenance or repair requests. Once approved, these go t
 
 **For Tradespeople**
 
-Doing work for Property Managers is often a bugbear for Tradespeople. They might do the job but not get paid for ages, the work required can be unclear or garbled, or they might turn up to a property and the tenant doesn’t know anything about the work or didn't know they were coming. 
+Doing work for Property Managers is often a bugbear for Tradespeople. They might do the job but not get paid for ages, the work required can be unclear or garbled, or they might turn up to a property and the tenant doesn’t know anything about the work or didn't know they were coming.
 
 The Managed platform allows Tradespeople to set up their payment preferences and get paid immediately. They get simple and qualified work orders, with all of the information that they need to do the job. Once the job is done they post a photo and get paid.
 
-Also read our post about [What makes property management so hard](/what-makes-property-management-so-hard)?
+Also read our post about [What makes property management so hard](/software-development/what-makes-property-management-so-hard)?
