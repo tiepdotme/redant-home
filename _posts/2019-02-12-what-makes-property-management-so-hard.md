@@ -2,7 +2,7 @@
 layout: post
 title: What makes property management so hard?
 type: news
-permalink: "/what-makes-property-management-so-hard"
+permalink: software-development/what-makes-property-management-so-hard
 categories:
 - software-development
 author: Ben Still
@@ -17,7 +17,8 @@ excerpt-short: From the outside looking in, the property management business loo
 excerpt-long: From the outside looking in, the property management business looks
   pretty simple. Turns out there are quite a few things that make it trickier than
   you might expect.
-tags: []
+tags:
+- software-development
 time: 
 redirect_from: 
 
