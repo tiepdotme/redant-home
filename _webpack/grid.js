@@ -3,13 +3,15 @@ import Macy from 'macy';
 const init = $(function() {
   function init() {
     if ($('#macy-container').length) {
+      var columns = $('#macy-container').data('columns');
+      var columnsSmall = $('#macy-container').data('columns-small');
       var macyInstance = Macy({
         container: '#macy-container',
-        columns: 3,
+        columns: columns,
         margin: 20,
         breakAt: {
           700: {
-            columns: 2
+            columns: columnsSmall
           }
         }
       });

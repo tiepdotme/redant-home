@@ -1,0 +1,44 @@
+---
+layout: default
+permalink: /technology/
+title: Technologies we work in
+description: Technologies we work in - Ruby on Rails, React, Javascript, Swift iOS
+keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
+---
+<header id="section-intro" class="ga-section dark-header padded-section bg-code-review">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 py-3">
+        <h1 class="text-xl py-3">Technology</h1>
+        <hr>
+        <p class="text-md">
+          Technologies we work in lorem ipsum bla bla bla cenas cenas cenas
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="ga-section py-5">
+  <div class="container">
+    <div class="row">
+      {% for slug in site.data.technology.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for page in pages %}
+          <div class="col-md-3">
+            <a href="{{ page.url }}" class="portfolio-tile text-black mb-0">
+              <div class="content px-2 mb-2">
+                <div
+                  class="technology-image-preview rounded-circle mb-4"
+                  style="background-image: url('{{ page.image }}')">
+                </div>
+                <h5>{{ page.title }}</h5>
+                <p class="post-content">{{ page.subtitle }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

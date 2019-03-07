@@ -8,7 +8,7 @@ description: Marketing is changing.
 project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
-technologies: Ruby on Rails
+technologies: Ruby on Rails, Swift
 team_size: 4 people
 desktop_img_height: '646'
 images:
