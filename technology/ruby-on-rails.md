@@ -1,7 +1,8 @@
 ---
 layout: technology
 title: Ruby on Rails
-subtitle: Lots of people start digital projects by listing an App as one of their requirements
+subtitle: We’re Ruby on Rails Experts
+description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups to build out their Ruby on Rails apps.
 slug: ruby-on-rails
 projects:
   - 12wbt
@@ -13,14 +14,32 @@ projects:
   - selleys-diy
   - tribe-influencer-marketplace
   - yates
+  - beautyheaven
+  - blitzem
+  - bondi-vet
+  - whats-on
+  - campaign-xpress
+  - hortico
+  - huggies
+  - huggies-star-rewards
+  - huggies-sample-request
+  - huggies-reports
+  - momentum
+  - move
+  - nikon
+  - project-summary-tool
+  - ray-white-accelerate
+  - rotacota
+  - voome-weekly
+  - voome-programs
 image: "/assets/uploads/2019/rails.png"
-how_title: How we do it
-how_description: We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences. We use Open Source software, and apply an Agile project delivery methodology. We firmly believe in a blended team of designers, developers and strategists building the best digital experiences.
+how_title: Ruby developers
 how_bulletpoints:
-  - Bulletpoint one
-  - Bulletpoint two
+  - We’ve got a ton of Ruby on Rails experience
+  - Ruby on Rails is a very reliable and flexible framework
+  - Ruby can also be integrated with other APIs and frameworks such as React and Angular
 ---
 
-Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they **actually** want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.
-
-Now 12WBT already had this- they have a very successful digital product, with lots of engaged customers. We had already developed the main product so that it was optimised for how their audience was using the product.
+We started providing professional Ruby development services in 2005, so we’ve got some experience. Ruby is our core technology stack, and we’ve found it to be incredibly flexible and reliable. Technologies come and go, and it can be easy to get left behind. We’ve got some projects that are over 10y old that haven’t missed a beat.
+Ruby allows a developer to quickly build out a prototype which can then be scaled up to Production level code. The framework structure encourages clear thinking and planning, and automated tests, security and privacy come by default.
+Ruby on Rails is often used with other frameworks. A typical combination is to use Ruby for the backend and API, and build a web frontend in React. It really comes down to the kind of interface and interactions your project requires.

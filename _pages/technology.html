@@ -12,7 +12,7 @@ keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
         <h1 class="text-xl py-3">Technology</h1>
         <hr>
         <p class="text-md">
-          Technologies we work in lorem ipsum bla bla bla cenas cenas cenas
+          Technologies we work in
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@ keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
     <div class="row">
       {% for slug in site.data.technology.order %}
         {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
+        {% for page in pages limit:8 %}
           <div class="col-md-3">
             <a href="{{ page.url }}" class="portfolio-tile text-black mb-0">
               <div class="content px-2 mb-2">
@@ -33,7 +33,7 @@ keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
                   style="background-image: url('{{ page.image }}')">
                 </div>
                 <h5>{{ page.title }}</h5>
-                <p class="post-content">{{ page.subtitle }}</p>
+                <p class="post-content">{{ page.description }}</p>
               </div>
             </a>
           </div>

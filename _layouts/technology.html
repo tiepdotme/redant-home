@@ -15,8 +15,9 @@
         <div class="row mt-4">
           <div class="col-md-8">
             <h1 class="project-title pb-4">{{ page.title }}</h1>
+            <h5>{{ page.subtitle}}</h5>
             <div class="col p-md-0">
-              {{ content }}
+              {{ page.description }}
             </div>
             <div class="row text-center pt-4">
               <div class="col-sm-6">
@@ -58,7 +59,7 @@
         </div>
         <div class="row mt-4 text-md">
           <div class="col-md-8">
-            <p>{{ page.how_description }}</p>
+            <p>{{ content }}</p>
           </div>
           <div class="col-md-4">
             <ul class="about-us-list">
