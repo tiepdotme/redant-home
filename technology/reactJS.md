@@ -3,7 +3,7 @@ layout: technology
 title: ReactJS
 subtitle: We’re experts with ReactJS
 description: Red Ant is a leading, Australian based team of React Developers. We’ve worked with hundreds of companies and startups to integrate javascript frameworks like React and Angular into APIs and Server side platforms.
-slug: reactJS
+slug: reactjs
 projects:
   - managed
 image: "/assets/uploads/2019/reactjs.png"

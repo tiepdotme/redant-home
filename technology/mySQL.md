@@ -3,7 +3,7 @@ layout: technology
 title: MySQL
 subtitle: MySQL database experience
 description: Red Ant is a leading, Australian based team of Developers. We’ve worked with hundreds of companies and startups to build APIs and server side platforms that depend on database technologies such as MySQL and MySQL Percona.
-slug: mySQL
+slug: mysql
 projects:
   - beautyheaven
   - bubs-australia
