@@ -14,6 +14,16 @@ fields:
   config:
     required: true
 - type: text
+  name: subtitle
+  label: subtitle
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
+- type: text
   name: slug
   label: slug
   config:
@@ -33,11 +43,6 @@ fields:
 - type: text
   name: how_title
   label: how_title
-  config:
-    required: true
-- type: textarea
-  name: how_description
-  label: how_description
   config:
     required: true
 - type: list
