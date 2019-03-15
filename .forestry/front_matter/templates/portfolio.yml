@@ -94,11 +94,27 @@ fields:
   name: lines_of_code
   label: lines_of_code
 - type: tag_list
-  name: technologies
-  label: technologies
+  name: technolog
+  label: technolog
   default: []
   description: 'Currently used tags: Ruby on Rails; Swift; Angular; Ruby; Brightcove;
     React; Scrivito; Google AI Machine Learning; Radiant; Facebook AI; FB Messenger;'
+- type: list
+  name: technologies
+  label: technologies
+  description: 'Currently used strings: Ruby on Rails, MySQL, Radiant CMS, Kubernetes
+    on AWS, PostgreSQL, Salesforce Marketing Cloud, Stripe, AngularJS, Brightcove,
+    Postgres, Sidekiq, Swift, Wordpress, AWS S3, Chargify, Comfy CMS, Elastic Search,
+    Facebook, Fastly, Google BigQuery, Locomotive CMS, Memcached, Paperclip, Paypal,
+    ReactJS, Redis, SendGrid, Shopify, ABC / VFX signs API integration, Angular JS,
+    Assembly, Carrierwave, Channel Advisor price data, Cloudinary, CoreData, Delayed
+    Job, DocuSign, FB Authentication, FB authentication, Facebook Messenger, Facebook
+    authentication, Fitbit, Google Machine Learning, Grape API, Grape Ruby API, Indesign
+    Server, MoneyTech, MongoDB, MyDesktop API integration, MyFitnessPal, Node server,
+    Omniauth, PHP, Rack API, Reactful, Refile, Salesforce Predictive Intelligence,
+    Scrivito CMS, Sendgrid, Social API integrations (Twitter, FB, Instagram), Tableau,
+    Vue.js, Vzaar, WAVE (visually impaired testing tool) as part of CI build chain,
+    Websockets, Wistia, Wit.ai API, Withings, YesMail, iOS Push'
 - type: list
   name: technology_slugs
   label: technology_slugs
