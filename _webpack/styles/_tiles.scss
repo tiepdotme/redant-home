@@ -167,3 +167,9 @@
     width: 100%;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .technology-image-preview {
+    margin: auto;
+  }
+}
