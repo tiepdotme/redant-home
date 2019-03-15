@@ -8,6 +8,8 @@ description: Bondivet
 project_url: https://bondivet.com
 client: Vexo Media
 project_date: 2015-now
+technologies:
+technology_slugs:
 images:
 -
   filename: bondi-vet-1.jpg

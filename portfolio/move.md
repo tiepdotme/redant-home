@@ -9,7 +9,9 @@ project_url: http://www.oma.org.au/
 client: Outdoor Media Association
 project_date: 2017-now
 team_size: 4 people
-images: 
+technologies:
+technology_slugs:
+images:
 
 ---
 From the press release:

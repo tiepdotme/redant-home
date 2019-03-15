@@ -13,7 +13,14 @@ project_date: 2015-now
 project_type: mobile
 team_size: 6 people
 lines_of_code: 30k
-technologies: Ruby on Rails, Swift, Angular
+technologies:
+  - Ruby on Rails
+  - Swift
+  - AngularJS
+technology_slugs:
+  - ruby-on-rails
+  - swift
+  - angularjs
 images:
 - filename: 12wbt-daily-app-1.jpg
 - filename: 12wbt-daily-app-2.jpg

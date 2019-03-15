@@ -8,6 +8,8 @@ description: Voome is an extremely successful online health and fitness platform
 project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2016
+technologies:
+technology_slugs:
 images:
   -
     filename: voome-weekly-1.jpg

@@ -8,6 +8,12 @@ description: Making Australia more medicine wise, through digital health and dat
 project_url: https://www.nps.org.au/
 client: NPS Medicinewise
 technologies: Ruby on Rails, Scrivito
+technologies:
+  - Ruby on Rails
+  - Sctrivito
+technology_slugs:
+  - ruby-on-rails
+  - scrivito
 project_date: 2015-17
 images:
   -

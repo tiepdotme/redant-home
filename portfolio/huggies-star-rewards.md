@@ -9,6 +9,8 @@ project_url: https://huggies.com.au
 client: Huggies
 project_date: 2016
 team_size: 4 people
+technologies:
+technology_slugs:
 images:
   -
     filename: huggies-star-rewards-1.jpg

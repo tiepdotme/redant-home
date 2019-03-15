@@ -8,6 +8,8 @@ description: Projectt Summary Tool
 project_url: ''
 client: Internal tool
 project_date: 2017-now
+technologies:
+technology_slugs:
 images:
 - filename: pst-1.jpg
 - filename: pst-2.jpg

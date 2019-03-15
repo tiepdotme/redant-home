@@ -8,7 +8,10 @@ description: We have helped Yates to share their immense knowledge of plants and
 project_url: http://www.yates.com.au
 client: Orica
 project_date: 2005 - now
-technologies: Ruby on Rails
+technologies:
+  - Ruby on Rails
+technology_slugs:
+  - ruby-on-rails
 images:
   -
     filename: yates-1.jpg

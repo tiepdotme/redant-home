@@ -8,7 +8,14 @@ description: Using WIT AI, a tool which allows developers to build applications 
 project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2016
-technologies: Ruby, Facebook AI, FB Messenger
+technologies:
+  - Ruby on Rails
+  - Facebook AI
+  - FB Messenger
+technology_slugs:
+  - ruby-on-rails
+  - facebook-ai
+  - fb-messenger
 project_type: mobile
 images:
 - filename: voome-chatbot-1.jpg

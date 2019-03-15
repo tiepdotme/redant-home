@@ -48,35 +48,37 @@
       </div>
     </section>
 
-    <section
-      id="section-how-we-do-it"
-      class="ga-section navbar-aos padded-section how-section">
-      <div class="container py-5 py-sm-0">
-        <div class="row">
-          <div class="col">
-            <h4>{{ page.how_title }}</h4>
+    {% if page.content != "" %}
+      <section
+        id="section-how-we-do-it"
+        class="ga-section navbar-aos padded-section how-section">
+        <div class="container py-5 py-sm-0">
+          <div class="row">
+            <div class="col">
+              <h4>{{ page.how_title }}</h4>
+            </div>
+          </div>
+          <div class="row mt-4 text-md">
+            <div class="col-md-8">
+              <p>{{ content }}</p>
+            </div>
+            <div class="col-md-4">
+              <ul class="about-us-list">
+                {% for bulletpoint in page.how_bulletpoints %}
+                  <li
+                    class="red"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-delay="{{ index }}00">
+                    {{ bulletpoint }}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row mt-4 text-md">
-          <div class="col-md-8">
-            <p>{{ content }}</p>
-          </div>
-          <div class="col-md-4">
-            <ul class="about-us-list">
-              {% for bulletpoint in page.how_bulletpoints %}
-                <li
-                  class="red"
-                  data-aos="fade-up"
-                  data-aos-once="true"
-                  data-aos-delay="{{ index }}00">
-                  {{ bulletpoint }}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    {% endif %}
 
     {% include section-companies.html %}
     {% include section-engagement-models.html %}

@@ -8,6 +8,8 @@ description: Need to take your customer engagement to the next level? Take a loo
 project_url: https://www.huggies.com.au
 client: Kimberly Clark
 project_date: 2005-now
+technologies:
+technology_slugs:
 images:
   -
     filename: huggies-1.jpg

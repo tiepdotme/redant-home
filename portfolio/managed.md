@@ -8,10 +8,15 @@ description: A property management platform
 project_url: https://www.managedapp.com
 client: Managed Platforms
 project_date: 2017-now
-technologies: Ruby on Rails, React
 team_size: 6 people
 lines_of_code: 400k+
-images: 
+technologies:
+  - Ruby on Rails
+  - ReactJS
+technology_slugs:
+  - ruby-on-rails
+  - reactjs
+images:
 
 ---
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
