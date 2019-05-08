@@ -9,9 +9,12 @@ project_url: https://www.mentored.com.au
 client: The Mentor Platform
 project_date: 2017-2018
 team_size: 4 people
-technologies: Ruby on Rails
+technologies:
+  - Ruby on Rails
+technology_slugs:
+  - ruby-on-rails
 desktop_img_height: 463
-images: 
+images:
 
 ---
 #### Project Description
@@ -23,6 +26,6 @@ Think of it like LinkedIn but focussed on Aussie small business. Mentored is all
 The main features of the site are:
 
 * TV Show content - videos and behind the scenes from the Channel 7 TV show
-* Listings portal - a free business listings portal for Aussie small business to gain exposure or attract investment 
-* Deals - exclusive offers for Mentored members to get the best deal on business essentials 
+* Listings portal - a free business listings portal for Aussie small business to gain exposure or attract investment
+* Deals - exclusive offers for Mentored members to get the best deal on business essentials
 * Q&A - a panel of experts, combined with members expertise, to answer burning business questions

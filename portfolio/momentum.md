@@ -8,10 +8,12 @@ description: A platform to help small businesses learn about sales and business 
 project_url: https://momentumforbusiness.com.au
 project_date: 2017-now
 team_size: 2 people
+technologies:
+technology_slugs:
 images:
 ---
 
 #### Project Description
 
 
-A learning platform targetted at small business. There are a series of courses that help them improve their business. 
+A learning platform targetted at small business. There are a series of courses that help them improve their business.

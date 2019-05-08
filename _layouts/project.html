@@ -51,12 +51,6 @@
                   </li>
                 {% endif %}
 
-          			{% if page.technologies.size > 1 %}
-                  <li>
-                    <strong>Key technology:</strong> {{ page.technologies }}
-                  </li>
-                {% endif %}
-
           			{% if page.team_size.size > 1 %}
                   <li>
                     <strong>Team Size:</strong> {{ page.team_size }}
@@ -66,6 +60,20 @@
           			{% if page.lines_of_code.size > 1 %}
                   <li>
                     <strong>Lines of code:</strong> {{ page.lines_of_code }}
+                  </li>
+                {% endif %}
+
+                {% if page.technologies.size > 1 %}
+                  <li>
+                    <strong>Key technology:</strong>
+                    {% for technology in page.technologies %}
+                      {% assign techPage = site.pages | where: 'slug', page.technology_slugs[forloop.index0] %}
+                      {% if techPage.size > 0 %}
+                        <a href="/technology/{{page.technology_slugs[forloop.index0]}}">{{ technology }}</a>,
+                      {% else %}
+                        {{ technology }},
+                      {% endif %}
+                    {% endfor %}
                   </li>
                 {% endif %}
               </ul>

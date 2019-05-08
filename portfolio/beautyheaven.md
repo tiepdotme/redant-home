@@ -13,7 +13,8 @@ images:
 - filename: beautyheaven-1.jpg
 - filename: beautyheaven-2.jpg
 team_size: 4 people
-technologies: []
+technologies:
+technology_slugs:
 lines_of_code: 3000
 redirect_from: "/portfolio/beautyheaven-beautorium/www.beautyheaven.com.au"
 ---

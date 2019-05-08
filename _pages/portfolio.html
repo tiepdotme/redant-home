@@ -20,8 +20,8 @@ redirect_from:
 </header>
 
 <section class="py-5">
-  <div class="container portfolio-cards">
-    <div class="card-columns">
+  <div class="container">
+    <div id="macy-container" data-columns="2" data-columns-small="1">
       {% for slug in site.data.portfolio.order %}
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}

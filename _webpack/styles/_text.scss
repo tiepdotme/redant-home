@@ -140,6 +140,10 @@ strong {
   font-weight: 300;
 }
 
+.text-blue {
+  color: $blue-100;
+}
+
 .text-gray {
   color: $gray-200;
 }
@@ -160,5 +164,9 @@ strong {
 @include media-breakpoint-down(sm) {
   .text-md {
     font-size: 1.25rem;
+  }
+
+  .text-xl {
+    font-size: 4rem;
   }
 }

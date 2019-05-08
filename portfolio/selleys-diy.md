@@ -8,7 +8,12 @@ description: With thousands of pages of content on everything from how to repair
 project_url: http://www.selleys.com.au/
 client: Orica
 project_date: 2012-now
-technologies: Ruby on Rails, Radiant
+technologies:
+  - Ruby on Rails
+  - Radiant
+technology_slugs:
+  - ruby-on-rails
+  - radiant
 team_size: 2 people
 images:
   -

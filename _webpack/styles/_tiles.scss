@@ -34,16 +34,6 @@
   }
 }
 
-.portfolio-cards {
-  .card-columns {
-    column-count: 1;
-
-    @include media-breakpoint-up(md) {
-      column-count: 2;
-    }
-  }
-}
-
 .portfolio-tile {
   display: block;
   position: relative;
@@ -158,16 +148,28 @@
   font-size: 1.25rem;
 }
 
-.post-image-preview {
+.post-image-preview,
+.technology-image-preview {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.technology-image-preview {
+  height: 140px;
+  width: 140px;
+}
+
 #macy-container {
   .post-image-preview {
     min-height: 200px;
     width: 100%;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .technology-image-preview {
+    margin: auto;
   }
 }

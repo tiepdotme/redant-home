@@ -10,7 +10,14 @@ client: Michelle Bridges 12WBT
 project_date: 2011 - now
 team_size: 15 people
 lines_of_code: 450k+
-technologies: Ruby on Rails, Angular, React
+technologies:
+  - Ruby on Rails
+  - AngularJS
+  - ReactJS
+technology_slugs:
+  - ruby-on-rails
+  - angularjs
+  - reactjs
 images:
   -
     filename: 12wbt-1.jpg
