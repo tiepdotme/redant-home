@@ -5,18 +5,18 @@ slug: managed
 title: Managed
 tagline: Payment and management platform
 description: A property management platform
-project_url: https://www.managedapp.com
+project_url: https://www.managedapp.com.au
 client: Managed Platforms
 project_date: 2017-now
 team_size: 6 people
 lines_of_code: 400k+
 technologies:
-  - Ruby on Rails
-  - ReactJS
+- Ruby on Rails
+- ReactJS
 technology_slugs:
-  - ruby-on-rails
-  - reactjs
-images:
+- ruby-on-rails
+- reactjs
+images: 
 
 ---
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
