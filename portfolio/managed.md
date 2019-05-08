@@ -34,8 +34,7 @@ Benefits for each of the key user groups:
 
 **For Property Managers**
 
-Managing a large property portfolio is extremely time consuming. We’ve seen many that have 50 Post-it notes and 10 different browser tabs open at once to manage everything. Things get missed, and there is never enough time in the day.
-The Managed platform automates tasks and payments. Payments are instant, so there is no audit burden of a Trust account. This allows PMs to move into an investment manager role and provide real value and efficiency. Some agencies have changed to become completely virtual, running a nation wide portfolio just using this platform.
+Managing a large property portfolio is extremely time consuming. We’ve seen many managers who have 50 Post-it notes and 10 different browser tabs open at once to manage everything. Things get missed, and there is never enough time in the day. The Managed platform automates tasks and payments. Payments are instant, so there is no audit burden of a Trust account. This allows PMs to move into an investment manager role and provide real value and efficiency. Some agencies have changed to become completely virtual, running a nation wide portfolio just using this platform.
 
 **For Landlords**
 
