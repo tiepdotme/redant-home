@@ -8,7 +8,7 @@ description: A property management platform
 project_url: https://www.managedapp.com.au
 client: Managed Platforms
 project_date: 2017-now
-team_size: 6 people
+team_size: 5 people
 lines_of_code: 400k+
 technologies:
 - Ruby on Rails
