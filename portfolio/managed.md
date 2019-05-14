@@ -14,9 +14,9 @@ technologies:
 - Ruby on Rails
 - ReactJS
 technology_slugs:
-- ReactJS
 - ruby-on-rails
-images: 
+- reactjs
+images:
 
 ---
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
