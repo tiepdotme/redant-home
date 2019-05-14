@@ -4,33 +4,29 @@ theme: 12wbt
 slug: 12wbt
 title: Michelle Bridges 12WBT
 tagline: 12 week health & fitness product
-description: Australia’s most popular health platform, with incredible growth. Nutrition, fitness and mindset.
+description: Australia’s most popular health platform, with incredible growth. Nutrition,
+  fitness and mindset.
 project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
 project_date: 2011 - now
 team_size: 15 people
 lines_of_code: 450k+
 technologies:
-  - Ruby on Rails
-  - AngularJS
-  - ReactJS
+- Ruby on Rails
+- AngularJS
+- ReactJS
 technology_slugs:
-  - ruby-on-rails
-  - angularjs
-  - reactjs
+- ReactJS
+- ruby-on-rails
+- angularjs
 images:
-  -
-    filename: 12wbt-1.jpg
-  -
-    filename: 12wbt-2.jpg
-  -
-    filename: 12wbt-3.jpg
-  -
-    filename: 12wbt-4.jpg
-  -
-    filename: 12wbt-5.jpg
----
+- filename: 12wbt-1.jpg
+- filename: 12wbt-2.jpg
+- filename: 12wbt-3.jpg
+- filename: 12wbt-4.jpg
+- filename: 12wbt-5.jpg
 
+---
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
 
 12WBT is one of Australia's most successful and enduring health & fitness products, featuring a comprehensive fitness and nutrition program created by celebrity trainer Michelle Bridges (Biggest Loser).
