@@ -10,8 +10,6 @@ client: Orica
 project_date: 2005 - now
 technologies:
   - Ruby on Rails
-technology_slugs:
-  - ruby-on-rails
 images:
   -
     filename: yates-1.jpg

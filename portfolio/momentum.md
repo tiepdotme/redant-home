@@ -9,7 +9,6 @@ project_url: https://momentumforbusiness.com.au
 project_date: 2017-now
 team_size: 2 people
 technologies:
-technology_slugs:
 images:
 ---
 

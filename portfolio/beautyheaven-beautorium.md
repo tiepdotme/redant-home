@@ -11,7 +11,6 @@ project_date: 2007 - 2013
 team_size: 2 people
 lines_of_code: 10k
 technologies:
-technology_slugs:
 images:
 - filename: beautyheaven-beautorium-screens.jpg
   title: Member Offer page (Desktop)

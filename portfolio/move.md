@@ -10,7 +10,6 @@ client: Outdoor Media Association
 project_date: 2017-now
 team_size: 4 people
 technologies:
-technology_slugs:
 images:
 
 ---

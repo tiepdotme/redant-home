@@ -11,8 +11,6 @@ project_date: 2017-2018
 team_size: 4 people
 technologies:
   - Ruby on Rails
-technology_slugs:
-  - ruby-on-rails
 desktop_img_height: 463
 images:
 

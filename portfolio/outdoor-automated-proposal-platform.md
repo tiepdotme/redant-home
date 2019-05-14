@@ -9,8 +9,6 @@ client: Move OMA
 project_date: 2017-now
 technologies:
   - Ruby on Rails
-technology_slugs:
-  - ruby-on-rails
 team_size: 4 people
 lines_of_code: 450k
 images:

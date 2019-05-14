@@ -11,9 +11,6 @@ technologies: Ruby on Rails, Scrivito
 technologies:
   - Ruby on Rails
   - Sctrivito
-technology_slugs:
-  - ruby-on-rails
-  - scrivito
 project_date: 2015-17
 images:
   -

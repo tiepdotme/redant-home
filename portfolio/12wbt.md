@@ -15,10 +15,6 @@ technologies:
 - Ruby on Rails
 - AngularJS
 - ReactJS
-technology_slugs:
-- ruby-on-rails
-- angularjs
-- reactjs
 images:
 - filename: 12wbt-1.jpg
 - filename: 12wbt-2.jpg

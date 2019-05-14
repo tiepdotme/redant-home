@@ -13,9 +13,6 @@ lines_of_code: 400k+
 technologies:
 - Ruby on Rails
 - ReactJS
-technology_slugs:
-- ruby-on-rails
-- reactjs
 images:
 
 ---

@@ -12,10 +12,6 @@ technologies:
   - Ruby on Rails
   - Facebook AI
   - FB Messenger
-technology_slugs:
-  - ruby-on-rails
-  - facebook-ai
-  - fb-messenger
 project_type: mobile
 images:
 - filename: voome-chatbot-1.jpg

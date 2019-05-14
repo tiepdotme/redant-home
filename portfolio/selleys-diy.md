@@ -11,9 +11,6 @@ project_date: 2012-now
 technologies:
   - Ruby on Rails
   - Radiant
-technology_slugs:
-  - ruby-on-rails
-  - radiant
 team_size: 2 people
 images:
   -

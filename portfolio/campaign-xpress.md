@@ -10,7 +10,6 @@ client: CAMPAIGNxpress
 project_date: 2017 - now
 desktop_img_height: '450'
 technologies:
-technology_slugs:
 images:
   -
     filename: campaign-xpress-1.jpg

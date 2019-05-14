@@ -9,7 +9,6 @@ project_url: http://whatson.cityofsydney.nsw.gov.au
 client: City Of Sydney
 project_date: 2013
 technologies:
-technology_slugs:
 images:
   -
     filename: whats-on-1.jpg

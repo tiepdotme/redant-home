@@ -12,9 +12,6 @@ team_size: 2 people
 technologies:
   - Ruby on Rails
   - Google AI Machine Learning
-technology_slugs:
-  - ruby-on-rails
-  - google-ai-machine-learning
 images:
   -
     filename: real-pet-matcher-1.jpg
