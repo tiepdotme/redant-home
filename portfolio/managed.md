@@ -14,8 +14,8 @@ technologies:
 - Ruby on Rails
 - ReactJS
 technology_slugs:
+- ReactJS
 - ruby-on-rails
-- reactjs
 images: 
 
 ---
