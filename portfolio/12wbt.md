@@ -12,6 +12,17 @@ project_date: 2011 - now
 team_size: 15 people
 lines_of_code: 450k+
 technologies:
+- Brightcove
+- Withings
+- FitBit
+- MyFitnessPal
+- Chargify
+- MongoDB
+- BigQuery
+- Elastic Search
+- Redis
+- Salesforce Marketing Cloud
+- PostgreSQL
 - Ruby on Rails
 - AngularJS
 images:
