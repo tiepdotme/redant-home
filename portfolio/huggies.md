@@ -55,7 +55,7 @@ So, what can you do?
 * **Always On** - move away from campaign based planning. It isn’t where your customers are any more
 * **Value relationships & Data** - know your customer better than anyone else. Know your LTV. Don’t just say it- put a value on that data.
 * **Be useful not irritating** - stop interrupting them with TVCs and popups. Provide something genuinely useful. Be authentic. Provide utility.
-* **No! Not an infomercial!** -  doesn’t mean doing an infomercial or a brochureware web site.
+* **No! Not an infomercial!** -  digital doesn’t mean doing an infomercial or a brochureware web site.
 
 ### Here's what we've done with Huggies
 
