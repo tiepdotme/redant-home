@@ -7,7 +7,7 @@ tagline: A place for parents to learn &amp; share
 description: Need to take your customer engagement to the next level? Take a look
   at how Huggies is dominating the pregnancy and parenting category by building a
   site with over 42,000 pages of content, plus lots of interactive tools and member
-  features for over 600,000 members.
+  features for almost 2M members.
 project_url: https://www.huggies.com.au
 client: Kimberly Clark
 project_date: 2005-now
