@@ -14,17 +14,19 @@ project_type: mobile
 team_size: 6 people
 lines_of_code: 30k
 technologies:
-  - Ruby on Rails
-  - Swift
-  - AngularJS
+- iOS Push
+- CoreData
+- Ruby on Rails
+- Swift
+- AngularJS
 images:
 - filename: 12wbt-daily-app-1.jpg
 - filename: 12wbt-daily-app-2.jpg
 - filename: 12wbt-daily-app-3.jpg
 - filename: 12wbt-daily-app-4.jpg
 - filename: 12wbt-daily-app-5.jpg
----
 
+---
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
 
 Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they **actually** want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.

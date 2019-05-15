@@ -4,25 +4,23 @@ theme: nps
 slug: nps-medicinewise
 title: NPS Medicinewise
 tagline: A reliable online resource for drug and health information
-description: Making Australia more medicine wise, through digital health and data insights, health professional education and reliable health information for consumers.
+description: Making Australia more medicine wise, through digital health and data
+  insights, health professional education and reliable health information for consumers.
 project_url: https://www.nps.org.au/
 client: NPS Medicinewise
-technologies: Ruby on Rails, Scrivito
 technologies:
-  - Ruby on Rails
-  - Sctrivito
+- WAVE visually impaired testing tool as part of CI build chain
+- PostgreSQL
+- Scrivito CMS
+- Ruby on Rails
 project_date: 2015-17
 images:
-  -
-    filename: nps-medicinewise-1.jpg
-  -
-    filename: nps-medicinewise-2.jpg
-  -
-    filename: nps-medicinewise-3.jpg
-  -
-    filename: nps-medicinewise-4.jpg
----
+- filename: nps-medicinewise-1.jpg
+- filename: nps-medicinewise-2.jpg
+- filename: nps-medicinewise-3.jpg
+- filename: nps-medicinewise-4.jpg
 
+---
 #### Project Description
 NPS provides free, independent, evidence-based info on medicines, health conditions & medical tests for health professionals & consumers. Over 7 million Australians are aware of NPS MedicineWise, and the website had 13 million visits in the 2016-17 financial year.
 
