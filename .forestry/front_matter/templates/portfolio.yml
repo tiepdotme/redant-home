@@ -119,5 +119,6 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/campaign-xpress.md
 - technology/ruby-on-rails-development-team-for-hire.md
 - portfolio/beautyheaven.md

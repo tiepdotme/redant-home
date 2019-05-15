@@ -1,20 +1,30 @@
 ---
 layout: project
-theme: campaign-xpress
+theme: 12wbt
 slug: campaign-xpress
 title: CAMPAIGNxpress
 tagline: A property marketing platform
-description: Helps save time and money by fully automating the process of planning a property campaign, creation and delivery to media. Used by industry leaders such as CBRE and Ray White to manage their media planning.
+description: Helps save time and money by fully automating the process of planning
+  a property campaign, creation and delivery to media. Used by industry leaders such
+  as CBRE and Ray White to manage their media planning.
 project_url: https://campaignxpress.com.au/
 client: CAMPAIGNxpress
 project_date: 2017 - now
-desktop_img_height: '450'
+desktop_img_height: 450
 technologies:
+- Indesign Server
+- Angular JS
+- Kubernetes on AWS
+- PostgreSQL
+- Ruby on Rails
 images:
-  -
-    filename: campaign-xpress-1.jpg
----
+- filename: campaign-xpress-1.jpg
+team_size: 0 people
+technolog: []
+project_type: ''
+lines_of_code: ''
 
+---
 #### Project Description
 
 Campaignxpress is a software platform that helps automate the process of developing and placing advertising for the real estate industry. Like many things, this all seems quite simple from the outside, but it's actually quite involved. There is the workflow of getting photography through to a trackable ad placement that needs to run in multiple publications (both print and online). Then you need to manage costs, who needs artwork when, and what the market exposure is.
