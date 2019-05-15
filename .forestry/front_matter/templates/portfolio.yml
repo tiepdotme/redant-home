@@ -93,12 +93,6 @@ fields:
 - type: text
   name: lines_of_code
   label: lines_of_code
-- type: tag_list
-  name: technolog
-  label: technolog
-  default: []
-  description: 'Currently used tags: Ruby on Rails; Swift; Angular; Ruby; Brightcove;
-    React; Scrivito; Google AI Machine Learning; Radiant; Facebook AI; FB Messenger;'
 - type: list
   name: technologies
   label: technologies
