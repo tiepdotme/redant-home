@@ -19,10 +19,10 @@ technologies:
 - Ruby on Rails
 images:
 - filename: campaign-xpress-1.jpg
-team_size: 0 people
+team_size: 4 people
 technolog: []
 project_type: ''
-lines_of_code: ''
+lines_of_code: 450k+
 
 ---
 #### Project Description
