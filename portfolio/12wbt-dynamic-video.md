@@ -11,9 +11,6 @@ project_date: 2015
 technologies:
   - Ruby
   - Brightcove
-technology_slugs:
-  - ruby
-  - brightcove
 images:
   -
     filename: 12wbt-dynamic-video-1.jpg

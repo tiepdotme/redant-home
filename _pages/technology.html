@@ -24,16 +24,22 @@ keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
     <div class="row">
       {% for slug in site.data.technology.order %}
         {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages limit:8 %}
+        {% for page in pages %}
           <div class="col-md-3">
             <a href="{{ page.url }}" class="portfolio-tile text-black mb-0">
               <div class="content px-2 mb-2">
-                <div
-                  class="technology-image-preview rounded-circle mb-4"
-                  style="background-image: url('{{ page.image }}')">
+                <div class="row">
+                  <div class="col-4 col-md-12">
+                    <div
+                      class="technology-image-preview rounded-circle mb-4"
+                      style="background-image: url('{{ page.image }}')">
+                    </div>
+                  </div>
+                  <div class="col-8 col-md-12">
+                    <h5>{{ page.title }}</h5>
+                    <p class="post-content">{{ page.description }}</p>
+                  </div>
                 </div>
-                <h5>{{ page.title }}</h5>
-                <p class="post-content">{{ page.description }}</p>
               </div>
             </a>
           </div>

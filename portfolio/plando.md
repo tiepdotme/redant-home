@@ -10,7 +10,6 @@ client: PlanDo
 project_date: 2013-now
 desktop_img_height: '488'
 technologies:
-technology_slugs:
 images:
   -
     filename: plando-1.jpg

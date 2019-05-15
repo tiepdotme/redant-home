@@ -9,7 +9,6 @@ project_url: https://www.voome.com.au
 client: 12WBT
 project_date: 2017
 technologies:
-technology_slugs:
 images:
   -
     filename: voome-programs-1.jpg
