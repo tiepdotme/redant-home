@@ -14,7 +14,6 @@ lines_of_code: 450k+
 technologies:
 - Ruby on Rails
 - AngularJS
-- ReactJS
 images:
 - filename: 12wbt-1.jpg
 - filename: 12wbt-2.jpg
