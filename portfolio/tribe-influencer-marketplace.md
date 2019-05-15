@@ -9,21 +9,21 @@ project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
 technologies:
-  - Ruby on Rails
-  - Swift
+- Stripe
+- Social API integrations
+- Sendgrid
+- PostgreSQL
+- Ruby on Rails
+- Swift
 team_size: 4 people
-desktop_img_height: '646'
+desktop_img_height: "646"
 images:
--
-  filename: tribe-influencer-marketplace-1.jpg
--
-  filename: tribe-influencer-marketplace-2.jpg
--
-  filename: tribe-influencer-marketplace-3.jpg
--
-  filename: tribe-influencer-marketplace-4.jpg
----
+- filename: tribe-influencer-marketplace-1.jpg
+- filename: tribe-influencer-marketplace-2.jpg
+- filename: tribe-influencer-marketplace-3.jpg
+- filename: tribe-influencer-marketplace-4.jpg
 
+---
 #### How it works
 
 Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer’s attention, you can now work directly with influential “micro influencers” using Social. Tribe is a market place tool that facilitates this.
