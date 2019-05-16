@@ -9,7 +9,7 @@ description: A pet matching tool that helps connect people looking to adopt a pe
   to meet your perfect match.
 project_url: https://www.realpetmatcher.com.au
 client: Real Pet Food Co
-project_date: 2017 - now
+project_date: 2017 - 2018
 team_size: 2 people
 technologies:
 - Kubernetes on AWS
