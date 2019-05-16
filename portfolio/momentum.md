@@ -9,9 +9,18 @@ project_url: https://momentumforbusiness.com.au
 project_date: 2017-now
 team_size: 2 people
 technologies:
-images:
----
+- PostgreSQL
+- Ruby on Rails
+- Memcached
+- Sendgrid
+- Wistia
+- Kubernetes on AWS
+images: []
+client: ''
+project_type: ''
+lines_of_code: ''
 
+---
 #### Project Description
 
 
