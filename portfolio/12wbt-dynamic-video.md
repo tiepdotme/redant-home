@@ -9,7 +9,6 @@ project_url: https://www.12wbt.com
 client: 12WBT
 project_date: "2015"
 technologies:
-- Ruby
 - Brightcove
 images:
 - filename: 12wbt-dynamic-video-1.jpg
