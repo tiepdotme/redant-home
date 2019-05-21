@@ -12,21 +12,23 @@ project_url: https://www.huggies.com.au
 client: Kimberly Clark
 project_date: 2005-now
 technologies:
-- Omniauth
+- Ruby on Rails
+- MySQL
+- Comfy CMS
+- Radiant CMS
 - Grape API
 - Rack API
 - Memcached
+- Salesforce Marketing Cloud
+- Salesforce Predictive Intelligence
+- Vzaar
+- Fastly
+- Sidekiq
+- Omniauth
 - YesMail
 - Reactful
-- Sidekiq
-- Fastly
-- Vzaar
-- Salesforce Marketing Cloud
-- Tableau
-- Salesforce Predictive Intelligence
-- Radiant CMS
-- MySQL
-- Ruby on Rails
+- 'Channel Advisor price data '
+- Facebook authentication
 images:
 - filename: huggies-1.jpg
 - filename: huggies-2.jpg
