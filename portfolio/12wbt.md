@@ -12,25 +12,31 @@ project_date: 2011 - now
 team_size: 15 people
 lines_of_code: 450k+
 technologies:
-- Brightcove
-- Withings
-- FitBit
-- MyFitnessPal
-- Chargify
-- MongoDB
-- BigQuery
-- Elastic Search
-- Redis
-- Salesforce Marketing Cloud
-- PostgreSQL
 - Ruby on Rails
+- PostgreSQL
 - AngularJS
+- Salesforce Marketing Cloud
+- Redis
+- Elastic Search
+- Google BigQuery
+- Wordpress
+- Locomotive CMS
+- MongoDB
+- Chargify
+- Paypal
+- Facebook
+- MyFitnessPal
+- Fitbit
+- Withings
+- Brightcove
+- Online Payment Systems
 images:
 - filename: 12wbt-1.jpg
 - filename: 12wbt-2.jpg
 - filename: 12wbt-3.jpg
 - filename: 12wbt-4.jpg
 - filename: 12wbt-5.jpg
+project_type: ''
 
 ---
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
