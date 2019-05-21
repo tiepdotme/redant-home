@@ -25,6 +25,11 @@ images:
 - filename: 12wbt-daily-app-3.jpg
 - filename: 12wbt-daily-app-4.jpg
 - filename: 12wbt-daily-app-5.jpg
+subtitle: ''
+projects: []
+image: ''
+how_title: ''
+how_bulletpoints: []
 
 ---
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).

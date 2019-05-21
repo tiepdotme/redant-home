@@ -53,4 +53,5 @@ fields:
     source:
       type: documents
 pages:
+- portfolio/12wbt-daily-app.md
 - technology/salesforce-marketing-cloud.md
