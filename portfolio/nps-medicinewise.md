@@ -9,16 +9,19 @@ description: Making Australia more medicine wise, through digital health and dat
 project_url: https://www.nps.org.au/
 client: NPS Medicinewise
 technologies:
-- WAVE visually impaired testing tool as part of CI build chain
-- PostgreSQL
-- Scrivito CMS
 - Ruby on Rails
+- Scrivito CMS
+- PostgreSQL
+- WAVE visually impaired testing tool as part of CI build chain
 project_date: 2015-17
 images:
 - filename: nps-medicinewise-1.jpg
 - filename: nps-medicinewise-2.jpg
 - filename: nps-medicinewise-3.jpg
 - filename: nps-medicinewise-4.jpg
+team_size: 0 people
+project_type: ''
+lines_of_code: ''
 
 ---
 #### Project Description
