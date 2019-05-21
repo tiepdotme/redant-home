@@ -12,11 +12,16 @@ client: CAMPAIGNxpress
 project_date: 2017 - now
 desktop_img_height: 450
 technologies:
-- Indesign Server
-- Angular JS
 - Kubernetes on AWS
-- PostgreSQL
 - Ruby on Rails
+- Delayed Job
+- MyDesktop API integration
+- ABC / VFX signs API integration
+- Indesign Server
+- Node server
+- DocuSign
+- Paypal
+- Paperclip
 images:
 - filename: campaign-xpress-1.jpg
 team_size: 4 people
