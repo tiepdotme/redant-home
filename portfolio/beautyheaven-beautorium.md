@@ -11,9 +11,11 @@ project_date: 2007 - 2013
 team_size: 2 people
 lines_of_code: 10k
 technologies:
+- Ruby on Rails
 images:
 - filename: beautyheaven-beautorium-screens.jpg
   title: Member Offer page (Desktop)
+project_type: ''
 
 ---
 #### Project Description

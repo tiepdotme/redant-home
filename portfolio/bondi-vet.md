@@ -9,11 +9,11 @@ project_url: https://bondivet.com
 client: Vexo Media
 project_date: 2015-now
 technologies:
-- Wistia
-- Fastly
-- Sendgrid
-- PostgreSQL
 - Ruby on Rails
+- PostgreSQL
+- Sendgrid
+- Fastly
+- Wistia
 images:
 - filename: bondi-vet-1.jpg
 - filename: bondi-vet-2.jpg
