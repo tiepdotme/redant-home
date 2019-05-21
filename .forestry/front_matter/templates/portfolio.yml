@@ -113,6 +113,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/voome-programs.md
 - portfolio/voome-chatbot.md
 - portfolio/tribe-influencer-marketplace.md
 - portfolio/selleys-diy.md
