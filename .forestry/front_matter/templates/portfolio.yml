@@ -113,6 +113,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/yates.md
 - portfolio/voome-weekly.md
 - portfolio/voome-programs.md
 - portfolio/voome-chatbot.md
