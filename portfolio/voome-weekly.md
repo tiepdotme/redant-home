@@ -9,15 +9,17 @@ project_url: https://www.voome.com.au
 client: 12WBT
 project_date: "2016"
 technologies:
-- Brightcove
-- Chargify
-- BigQuery
-- Elastic Search
-- Redis
-- Salesforce Marketing Cloud
-- AngularJS
-- PostgreSQL
 - Ruby on Rails
+- PostgreSQL
+- AngularJS
+- Salesforce Marketing Cloud
+- Redis
+- Elastic Search
+- BigQuery
+- Chargify
+- Wordpress
+- Facebook
+- Brightcove
 images:
 - filename: voome-weekly-1.jpg
 - filename: voome-weekly-2.jpg
