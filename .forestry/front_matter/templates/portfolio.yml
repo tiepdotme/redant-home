@@ -113,6 +113,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/whats-on.md
 - portfolio/beautyheaven-beautorium.md
 - portfolio/12wbt-dynamic-video.md
 - portfolio/12wbt-daily-app.md
