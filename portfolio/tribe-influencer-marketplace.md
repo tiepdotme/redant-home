@@ -9,19 +9,21 @@ project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
 technologies:
-- Stripe
-- Social API integrations
-- Sendgrid
-- PostgreSQL
 - Ruby on Rails
+- PostgreSQL
 - Swift
+- Sendgrid
+- Social API integrations
+- Stripe
 team_size: 4 people
-desktop_img_height: "646"
+desktop_img_height: 646
 images:
 - filename: tribe-influencer-marketplace-1.jpg
 - filename: tribe-influencer-marketplace-2.jpg
 - filename: tribe-influencer-marketplace-3.jpg
 - filename: tribe-influencer-marketplace-4.jpg
+project_type: ''
+lines_of_code: ''
 
 ---
 #### How it works
