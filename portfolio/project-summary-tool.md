@@ -9,12 +9,19 @@ project_url: ''
 client: Internal tool
 project_date: 2017-now
 technologies:
+- Ruby on Rails
+- Postgres
+- Kubernetes on AWS
+- Stripe
 images:
 - filename: pst-1.jpg
 - filename: pst-2.jpg
 - filename: pst-3.jpg
 - filename: pst-4.jpg
 - filename: pst-5.jpg
+team_size: 0 people
+project_type: ''
+lines_of_code: ''
 
 ---
 #### Project Description
