@@ -7,17 +7,18 @@ tagline: A health and fitness product
 description: Find a pocket personal trainer
 project_url: https://www.12wbt.com
 client: 12WBT
-project_date: 2015
+project_date: "2015"
 technologies:
-  - Ruby
-  - Brightcove
+- Ruby
+- Brightcove
 images:
-  -
-    filename: 12wbt-dynamic-video-1.jpg
-  -
-    filename: 12wbt-dynamic-video-2.jpg
----
+- filename: 12wbt-dynamic-video-1.jpg
+- filename: 12wbt-dynamic-video-2.jpg
+team_size: 0 people
+project_type: ''
+lines_of_code: ''
 
+---
 #### Project Description
 
 People often talk about scaling things. Scaling a business to handle more customers. Scaling a web site to handle more traffic. A site that scales well works fine even as traffic increases.
