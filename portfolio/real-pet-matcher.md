@@ -12,12 +12,14 @@ client: Real Pet Food Co
 project_date: 2017 - 2018
 team_size: 2 people
 technologies:
-- Kubernetes on AWS
 - Ruby on Rails
+- Kubernetes on AWS
 - Google AI Machine Learning
 images:
 - filename: real-pet-matcher-1.jpg
 - filename: real-pet-matcher-2.jpg
+project_type: ''
+lines_of_code: ''
 
 ---
 #### How it works
