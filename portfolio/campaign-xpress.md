@@ -23,6 +23,7 @@ technologies:
 - Paypal
 - Paperclip
 images:
+- "/assets/uploads/2019/cx-1.jpg"
 - filename: campaign-xpress-1.jpg
 team_size: 4 people
 technolog: []
