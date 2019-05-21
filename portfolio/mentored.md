@@ -10,9 +10,14 @@ client: The Mentor Platform
 project_date: 2017-2018
 team_size: 4 people
 technologies:
-  - Ruby on Rails
+- Ruby on Rails
+- Postgres
+- Kubernetes on AWS
+- Stripe
 desktop_img_height: 463
-images:
+images: []
+project_type: ''
+lines_of_code: ''
 
 ---
 #### Project Description

@@ -14,24 +14,10 @@ project_type: mobile
 team_size: 6 people
 lines_of_code: 30k
 technologies:
-- Ruby on Rails
-- PostgreSQL
-- AngularJS
-- Salesforce Marketing Cloud
-- Redis
-- Elastic Search
-- Google BigQuery
-- Wordpress
-- Locomotive CMS
-- MongoDB
-- Chargify
-- Paypal
-- Facebook
-- MyFitnessPal
-- Fitbit
-- Withings
-- Brightcove
-- Online Payment Systems
+- Swift
+- FB authentication
+- iOS Push
+- CoreData
 images:
 - filename: 12wbt-daily-app-1.jpg
 - filename: 12wbt-daily-app-2.jpg
