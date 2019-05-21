@@ -113,6 +113,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/managed.md
 - portfolio/huggies-star-rewards.md
 - portfolio/huggies.md
 - portfolio/whats-on.md

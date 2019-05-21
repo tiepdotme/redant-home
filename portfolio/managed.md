@@ -1,25 +1,27 @@
 ---
 layout: project
-theme: managed
+theme: 12wbt
 slug: managed
 title: Managed
 tagline: Payment and management platform
 description: A property management platform
 project_url: https://www.managedapp.com.au
-client: Managed Platforms
+client: 12WBT
 project_date: 2017-now
 team_size: 5 people
 lines_of_code: 400k+
 technologies:
-- Refile
-- MoneyTech
-- Assembly
-- Sidekiq
-- Sendgrid
 - Kubernetes on AWS
+- Sendgrid
 - Ruby on Rails
+- React
+- Sidekiq
+- Assembly
+- MoneyTech
 - ReactJS
-images: 
+- Refile
+images: []
+project_type: ''
 
 ---
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
