@@ -53,4 +53,5 @@ fields:
     source:
       type: documents
 pages:
+- _posts/finding-the-right-development-option-offshore-vs-agency-vs-freelance-vs-team.md
 - technology/salesforce-marketing-cloud.md
