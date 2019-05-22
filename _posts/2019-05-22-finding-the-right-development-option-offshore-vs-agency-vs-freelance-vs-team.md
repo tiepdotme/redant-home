@@ -4,12 +4,7 @@ title: Finding the right development option - offshore vs agency vs freelance vs
 subtitle: We've integrated many different types of payment systems
 description: Finding the right developer is a challenge. 4 options to consider
 slug: online-payment-systems
-projects:
-- campaign-xpress
-- mentored
-- managed
-- voome-weekly
-- 12wbt
+projects: []
 image: ''
 how_title: Online Payment System integration
 how_bulletpoints:
@@ -20,6 +15,12 @@ excerpt-short: Finding the right developer is a challenge. 4 options to consider
 excerpt-long: Finding the right developer is a challenge. 4 options to consider
 time: ''
 author: Ben
+categories: []
+tags: []
+keywords: ''
+image-small: ''
+image-large: ''
+redirect_from: []
 
 ---
 Designing and building new ideas out as apps and platforms has become a massive industry. Whether you’re a startup with a great idea, or an established company, everyone is looking for good development talent.
