@@ -37,19 +37,19 @@ There are four basic options to consider:
 
 It can be easy to be a bit overwhelmed - how do you make the right call? You’ll no doubt run into people that have had both positive and negative experiences with each of these. There is no “right” here- and it will change as your business evolves.
 
-> _OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a local agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision._
+> _OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a Local Agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision._
 
 Having been on this Rodeo a few times, here’s how I’d suggest you approach the problem.
 
-Step one is about clarity. Don’t bullshit yourself. Know what you’re trying to achieve, and what you’re prepared to invest to achieve that. Be able to clearly explain your business, and what you’re prepared to spend to build it.
+Step one is about **clarity**. Don’t bullshit yourself. Know what you’re trying to achieve, and what you’re prepared to invest to achieve that. Be able to clearly explain your business, and what you’re prepared to spend to build it.
 
-Step two is having a plan. The technical build is just one part - depending on the size and type of your project, you’ll also need marketing, operations and support.
+Step two is **having a plan**. The technical build is just one part - depending on the size and type of your project, you’ll also need marketing, operations and support.
 
-Step three is revenue. This doesn’t just happen. What revenue, at what point, and what features are required to make this happen? Make sure you factor in some scenarios (rather than just the most optimistic one).
+Step three is **revenue**. This doesn’t just happen. What revenue, at what point, and what features are required to make this happen? Make sure you factor in some scenarios (rather than just the most optimistic one).
 
 Once you’re solid on that, you need to find your developers.
 
-> But first, let’s talk money. How much you’re prepared to spend, and the outcome. If funds are tight, find a freelancer rather than wasting time trying to recruit a full time team or an agency. Likewise, if you’re expecting to raise a big investment round based on an amazing MVP, your freelancer probably won’t cut it.
+> But first, let’s talk money. Not revenue, but how much you’re prepared to spend, and the outcome. If funds are tight, find a freelancer rather than wasting time trying to recruit a full time team or an agency. Likewise, if you’re expecting to raise a big investment round based on an amazing MVP, your freelancer probably won’t cut it.
 
 Remember - you’re getting what you pay for. This is something which is often misunderstood. If you spent $X on a freelancer rather than $XX on an agency, you probably got less. You didn’t get anything cheaper - you got less development.
 
@@ -96,7 +96,7 @@ The final option is building **your own team**. Some companies transition to thi
 
 A word of caution: people often assume this option will be cheapest, but that isn’t typically the case. Unless your project is super simple (in which case stick with freelance!), your team will need to match the skill sets in an agency - a project manager, a tech lead, product, UX, frontend, backend. It isn't one person (no matter what super powers they claim on their CV).
 
-The efficiency of your first few hires will probably be quite low relative to an existing team (eg: offshore or local agency). Don’t be dejected- it will take a while to get a cadence going. People will probably quit sooner than you were expecting, need more stuff (equipment, management, training etc). 
+The efficiency of your first few hires will probably be quite low relative to an existing team (eg: offshore or local agency). Don’t be dejected- it will take a while to get a cadence going. People will probably quit sooner than you were expecting, need more stuff (equipment, management, training etc).
 
 Chin up- it will get better! Once you get to a stable team size, this should settle down.
 
