@@ -16,7 +16,8 @@ excerpt-short: Finding the right developer is a challenge. 4 options to consider
 excerpt-long: Finding the right developer is a challenge. 4 options to consider
 time: ''
 author: Ben
-categories: []
+categories:
+- software-development
 tags: []
 keywords: ''
 image-small: "/assets/uploads/2019/crowd.jpg"
