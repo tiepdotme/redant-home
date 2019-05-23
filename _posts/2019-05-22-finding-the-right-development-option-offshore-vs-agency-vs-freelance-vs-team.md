@@ -2,7 +2,8 @@
 layout: post
 title: Finding the right development option - offshore vs agency vs freelance vs team
 subtitle: We've integrated many different types of payment systems
-description: Finding the right developer is a challenge. 4 options to consider
+description: Working out the best way to resource the development of your project
+  can be hard. It's super competitive, and can be hard to compare apples with apples.
 slug: online-payment-systems
 projects: []
 image: ''
@@ -34,7 +35,7 @@ There are four basic options to consider:
 
 It can be easy to be a bit overwhelmed - how do you make the right call? You’ll no doubt run into people that have had both positive and negative experiences with each of these. There is no “right” here- and it will change as your business evolves.
 
-_OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a local agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision._
+> _OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a local agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision._
 
 Having been on this Rodeo a few times, here’s how I’d suggest you approach the problem.
 
@@ -49,6 +50,8 @@ Once you’re solid on that, you need to find your developers.
 > But first, let’s talk money. How much you’re prepared to spend, and the outcome. If funds are tight, find a freelancer rather than wasting time trying to recruit a full time team or an agency. Likewise, if you’re expecting to raise a big investment round based on an amazing MVP, your freelancer probably won’t cut it.
 
 Remember - you’re getting what you pay for. This is something which is often misunderstood. If you spent $X on a freelancer rather than $XX on an agency, you probably got less. You didn’t get anything cheaper - you got less development.
+
+<hr />
 
 Lots of people start off with a **Freelancer**. Key advantages are low obligations in terms of cost, and commitment. You might need this flexibility as you roll out your business.
 
