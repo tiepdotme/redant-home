@@ -1,6 +1,6 @@
 ---
 layout: project
-theme: 12wbt
+theme: managed
 slug: managed
 title: Managed
 tagline: Payment and management platform
