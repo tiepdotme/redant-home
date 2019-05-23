@@ -19,7 +19,7 @@ author: Ben
 categories: []
 tags: []
 keywords: ''
-image-small: ''
+image-small: "/assets/uploads/2019/crowd.jpg"
 image-large: ''
 redirect_from: []
 
