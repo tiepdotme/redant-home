@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Finding the right development option - offshore vs agency vs freelance vs team
+title: Finding the right development option - offshore vs local agency vs freelance
+  vs team
 subtitle: We've integrated many different types of payment systems
 description: Working out the best way to resource the development of your project
   can be hard. It's super competitive, and can be hard to compare apples with apples.
