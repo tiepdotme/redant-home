@@ -6,7 +6,7 @@ title: Managed
 tagline: Payment and management platform
 description: A property management platform
 project_url: https://www.managedapp.com.au
-client: 12WBT
+client: Managed Platforms
 project_date: 2017-now
 team_size: 5 people
 lines_of_code: 400k+
