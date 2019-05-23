@@ -98,7 +98,7 @@ The efficiency of your first few hires will probably be quite low relative to an
 
 Chin up- it will get better! Once you get to a stable team size, this should settle down.
 
-Pro tip: It's much easier to transition to a team gradually, and planning this out with your agency or freelancer.
+> `pro tip:` It's much easier to transition to a team gradually, and plan this out with your existing agency or freelancer.
 
 `PROS:` You’ll have control over team hires. Better control over security related issues such as IP, security and privacy. Raising money from investors is easier if it is to build your team.
 
