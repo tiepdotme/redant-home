@@ -32,6 +32,7 @@ fields:
     - voome
     - whatson
     - yates
+    - managed
   label: theme
   default: 12wbt
 - type: text
