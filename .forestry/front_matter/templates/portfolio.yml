@@ -73,6 +73,7 @@ fields:
     - Orica
     - Tribe Group
     - City Of Sydney
+    - Managed Platforms
   label: client
   name: client
 - type: text
