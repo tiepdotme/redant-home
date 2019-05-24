@@ -2,6 +2,7 @@
 const autoprefixer = require('autoprefixer');
 const path = require('path');
 const webpack = require('webpack');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const ManifestPlugin = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
@@ -138,6 +139,15 @@ module.exports = (env, argv) => {
    * List: https://webpack.js.org/plugins/
    */
   config.plugins = [
+    // Reference: https://github.com/Klathmon/imagemin-webpack-plugin
+    // Optimize all project images
+    new ImageminPlugin({
+      disable: isProd, // Disable during development
+      pngquant: {
+        quality: '95-100'
+      }
+    }),
+
     // Reference: https://github.com/danethurber/webpack-manifest-plugin
     // Output the manifest for jekyll to import
     new ManifestPlugin({
