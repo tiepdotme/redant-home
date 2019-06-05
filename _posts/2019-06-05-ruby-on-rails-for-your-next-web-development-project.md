@@ -1,13 +1,13 @@
 ---
 layout: post
-permalink: "/software-development/ruby-on-rails"
+permalink: "/software-development/ruby-on-rails-for-your-web-development"
 type: news
 categories:
 - software-development
 author: Ben Still
 tags: []
 time: 15 Mins Read
-title: Ruby on Rails for your next web development project
+title: Why choose Ruby on Rails for your next web development project
 description: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ''
@@ -50,18 +50,18 @@ Ruby creator, [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/\~matz/), b
 
 **_What are the features that make Ruby attractive to developers?_**
 
-1. **Everything can be an object**  
-   In Ruby, everything is an object. Every bit of information and code can be given their own properties and actions. Object-oriented programming calls properties by the name _instance variables_ and actions are known as _methods_. Ruby’s pure object-oriented approach is most commonly demonstrated by a bit of code which applies an action to a number.
+**1 Everything can be an object**  
+In Ruby, everything is an object. Every bit of information and code can be given their own properties and actions. Object-oriented programming calls properties by the name _instance variables_ and actions are known as _methods_. Ruby’s pure object-oriented approach is most commonly demonstrated by a bit of code which applies an action to a number.
 
-    5.times { print "We *love* Ruby -- it's outrageous!" }
+    5.times { print "We love Ruby -- it's outrageous!" }
 
 In many languages, numbers and other primitive types are not objects. Ruby follows the influence of the Smalltalk language by giving methods and instance variables to all of its types. This eases one’s use of Ruby, since rules applying to objects apply to all of Ruby.
 
-2. **Flexibility**
+**2 Flexibility**
 
 Ruby is seen as a flexible language, since it allows its users to freely alter its parts. Essential parts of Ruby can be removed or redefined, at will. Existing parts can be added upon. Ruby tries not to restrict the coder.
 
-3\. **Blocks**
+**3 Blocks**
 
 Ruby’s block are also seen as a source of great flexibility. A programmer can attach a closure to any method, describing how that method should act. The closure is called a block and has become one of the most popular features for newcomers to Ruby from other imperative languages like PHP or Visual Basic.
 
@@ -82,7 +82,7 @@ Another way is **Gems**, which are code libraries that provide specific function
 
 **Methodology for picking the right technology stack**
 
-_Pro tip: look for a mature, stable core team, and an engaged community_
+> _Pro tip: look for a mature, stable core team, and an engaged community_
 
 Like in many other areas, trends come and go in web development technologies. We’re at the forefront of an endless drive for innovation, and it’s accelerating. And like all innovation, there are bumps along the way. Sometimes it works and sometimes it ends in a dead end.
 
