@@ -11,7 +11,7 @@ projects:
 - beautyheaven
 - 12wbt
 - huggies
-image: "/assets/uploads/2019/download.png"
+image: "/assets/uploads/2019/salesforce.png"
 how_title: Salesforce Marketing Cloud Integration
 how_bulletpoints:
 - Using tools like Predictive Intelligence
