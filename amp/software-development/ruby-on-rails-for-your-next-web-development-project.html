@@ -111,9 +111,9 @@ Ruby on Rails (also referred to as “Rails” or “RoR”) is an open source d
 
 Ruby on Rails helps developers create web applications quickly, much faster and more reliably than if they wrote the code directly in a programming language like Ruby or PHP. This saves time and money, and improves ongoing maintenance.
 
-<div style="border:1px solid #eee; padding:20px;">
+<div style="border:2px solid #999;background-color:#eee;padding:20px;">
 
-**Hang on - that sounds just like something else I heard about**
+<strong> Hang on - that sounds just like something else I heard about</strong> 
 
 Ruby on Rails has been incredibly successful. It came onto the development scene around 2005, and introduced all these new concepts and ways of working. Things like separating code into data, logic and visual layer (MVC), which radically changed the way we worked.
 
@@ -159,7 +159,9 @@ Another way is **Gems**, which are code libraries that provide specific function
 
 **Scaffolding** is a way of quickly building out functionality. Work out some basic data, and Ruby on Rails is smart enough to automatically build out a “scaffolded” version of your site. This saves a lot of time when you’re sketching out an idea or concept.
 
-**Some backstory - our first Red Ant product and how we got to Rails**  
+<div style="border:2px solid #999;background-color:#eee;padding:20px;">
+
+<strong>Some backstory - our first Red Ant product and how we got to Rails</strong>  
 Back around 2002, we were building a lot of websites that required some form of content management. There were options available, but they were expensive and pretty inflexible. This was a dark time in the history of web development, where Flash was still the “Go To”.
 
 We decided to package up the content management system that we’d been creating into a re-usable tool. It had some features that we thought were pretty cool - such as generating a static version of a site, xml data stores and a handy templating system.
@@ -170,7 +172,9 @@ To make things worse, for each customer we made customisations. So each version 
 
 At about this time, we discovered Rails. It was quite the epiphany - an opinionated framework that set clear conventions. It was fast, and was a pleasure to work in. Automated testing baked in. Clear separation of logic, data and presentation views. Minds were blown.
 
-**Methodology for picking the right technology stack**
+</div>
+
+## **Methodology for picking the right technology stack**
 
 > _Pro tip: look for a mature, stable core team, and an engaged community_
 
@@ -184,32 +188,47 @@ Other people face this by choosing an “enterprise” solution - typically some
 
 There is a middle ground here. Picking Open Source makes a lot of sense- the rate of innovation and reliability is far better than a closed source approach. But it pays to look at the core development team, and how well they are working together. Do they have a solid record of releasing reliable updates? How engaged is the developer community? Are they helping the core team find and address issues, or is there a lot of inane squabbling and flame wars?
 
-**A short history of some recent technology dead ends**
+<div style="border:1px dashed #999;background-color:#eee;padding:20px;">
 
-**Mambo**
+<h3>A short history of some recent technology dead ends</h3>
 
-* Released in 2001 - became a very popular open source CMS using PHP.
-* Various awards such as best open source software, best CMS
-* Hit with IP infringement lawsuits and security issues
-* Internal squabble and Mambo splits into “Jango” and then “Joomla”. They start the same but begin to diverge.
-* If your project was on Mambo, you’d need to get significant parts updated or rebuilt to keep up with all the changes.
-* Mambo fizzles out in 2008, Jango in 2011 and Joomla is still going.
+<h4>Mambo</h4>
 
-**Angular**
+<ul><li>Released in 2001 - became a very popular open source CMS using PHP.</li>
 
-* Released in 2010, Angular was a very popular technology that helped developers create “front end” apps. These used asynchronous javascript to make changes happen in the browser incredibly quickly. This made user interfaces very responsive and fast.
-* There were several similar projects, but Angular had the support of Google so it seemed like a solid technology.
-* Version 2 came out in 2016 with all these cool new features, but with one drawback. No backward compatibility. So anything you had before had to be completely redone. Sticking on the old version means you’ll eventually fail security audits and have grumpy devs that don’t want to work on “old tech”.
-* Angular skipped v3 (because) and went to v4, and then v5, which also failed to support much of an upgrade path.
+<li>Various awards and accolades such as best open source software, best CMS</li>
 
-**Ember**
+<li>Hit with IP infringement lawsuits and security issues</li>
 
-* First released in 2011, Ember is a javascript framework ideally suited to building single page applications that scale well.
-* For the first few years, Ember was quite popular and used on a lot of different apps from Groupon to Linkedin. However the core development team seemed to have lost focus, and became slow in releasing updates.
-* Open Source can be a fickle thing - and this one seems to have become like a party where everyone is thinking about going home. The community wasn’t particularly driven in one direction, and as a result not much changed. Developers stopped using it.
-* In some ways Ember has the reverse of Angular’s problem - it has a stable code base but with no innovation. The rate of change has fallen well behind other similar javascript projects. If you’re the owner of an Ember project, you’re probably facing a complete rewrite in React or similar.
+<li>Internal squabble and Mambo splits into “Jango” and then “Joomla”. They start the same but begin to diverge.</li>
 
-**Ruby on Rails release history**
+<li>If your project was on Mambo, you’d need to get significant parts updated or rebuilt to keep up with all the changes.</li>
+
+<li>Mambo fizzles out in 2008, Jango in 2011 and Joomla is still going.</li></ul>
+
+<h4>Angular</h4>
+
+<ul><li>Released in 2010, Angular was a very popular technology that helped developers create “front end” apps. These used asynchronous javascript to make changes happen in the browser incredibly quickly. This made user interfaces very responsive and fast.</li>
+
+<li>There were several similar projects, but Angular had the support of Google so it seemed like a solid technology.</li>
+
+<li>Version 2 came out in 2016 with all these cool new features, but with one drawback. No backward compatibility. So anything you had before had to be completely redone. Sticking on the old version means you’ll eventually fail security audits and have grumpy devs that don’t want to work on “old tech”.</li>
+
+<li>Angular skipped v3 (because) and went to v4, and then v5, which also failed to support much of an upgrade path.</li></ul>
+
+<h4>Ember</h4>
+
+<ul><li>First released in 2011, Ember is a javascript framework ideally suited to building single page applications that scale well.</li>
+
+<li>For the first few years, Ember was quite popular and used on a lot of different apps from Groupon to Linkedin. However the core development team seemed to have lost focus, and became slow in releasing updates.</li>
+
+<li>Open Source can be a fickle thing - and this one seems to have become like a party where everyone is thinking about going home. The community wasn’t particularly driven in one direction, and as a result not much changed. Developers stopped using it.</li>
+
+<li>In some ways Ember has the reverse of Angular’s problem - it has a stable code base but with no innovation. The rate of change has fallen well behind other similar javascript projects. If you’re the owner of an Ember project, you’re probably facing a complete rewrite in React or similar.</li></ul>
+
+</div>
+
+### **Ruby on Rails release history**
 
 The core Ruby on Rails team is remarkably stable, both in makeup and their release schedule. Since v1 in 2005 they have kept to a reliable schedule of significant version updates around every 2-3 years, releasing smaller “dot point” upgrades along the way.
 
@@ -222,7 +241,7 @@ The core Ruby on Rails team is remarkably stable, both in makeup and their relea
 5. 2016
 6. 2019
 
-**Support for older versions**
+#### **Support for older versions**
 
 A lot of effort and planning goes into providing backward compatibility and support for older versions. The code base is remarkably stable, and the various changes between each version are clearly explained and reasoned. This is in contrast to some open source projects where a small, immature core team decided to “flip the table” and do radical change.</div>
           </div>
