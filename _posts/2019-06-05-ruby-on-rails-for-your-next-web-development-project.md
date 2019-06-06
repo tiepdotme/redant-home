@@ -27,13 +27,13 @@ After reading this guide, you’ll have a better understanding of
 * How Rails stacks up against other development options
 * When it makes sense to use Ruby vs another option
 
-**What is Ruby on Rails?**
+### **What is Ruby on Rails?**
 
 Ruby on Rails (also referred to as “Rails” or “RoR”) is an open source development framework. The “Ruby” part refers to the Ruby programming language. The “Rails” part is the framework (more on that shortly).
 
 Ruby on Rails helps developers create web applications quickly, much faster and more reliably than if they wrote the code directly in a programming language like Ruby or PHP. This saves time and money, and improves ongoing maintenance.
 
-<div style="border:1px solid #eee">
+<div style="border:1px solid #eee; padding:20px;">
 
 **Hang on - that sounds just like something else I heard about**
 
@@ -43,7 +43,7 @@ Many of these ideas have since been applied to other frameworks - from Microsoft
 
 </div>
 
-**So what’s Ruby then?**
+### **So what’s Ruby then?**
 
 Ruby is a programming language. First released in 1995, Ruby is ranked among the top 10 on most of the indices that measure the growth and popularity of programming languages worldwide (such as the [TIOBE index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)). Ruby is also [completely free](https://www.ruby-lang.org/en/about/license.txt). Not only free of charge, but also free to use, copy, modify, and distribute.
 
@@ -51,9 +51,9 @@ Ruby is a programming language. First released in 1995, Ruby is ranked among the
 
 Ruby creator, [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/\~matz/), blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and Lisp) to form a new language that balanced functional programming with imperative programming.
 
-**_What are the features that make Ruby attractive to developers?_**
+## **_What are the features that make Ruby attractive to developers?_**
 
-**1 Everything can be an object**
+#### **1 Everything can be an object**
 
 In Ruby, everything is an object. Every bit of information and code can be given their own properties and actions. Object-oriented programming calls properties by the name _instance variables_ and actions are known as _methods_. Ruby’s pure object-oriented approach is most commonly demonstrated by a bit of code which applies an action to a number.
 
@@ -61,15 +61,15 @@ In Ruby, everything is an object. Every bit of information and code can be given
 
 In many languages, numbers and other primitive types are not objects. Ruby follows the influence of the Smalltalk language by giving methods and instance variables to all of its types. This eases one’s use of Ruby, since rules applying to objects apply to all of Ruby.
 
-**2 Flexibility**
+#### **2 Flexibility**
 
 Ruby is seen as a flexible language, since it allows its users to freely alter its parts. Essential parts of Ruby can be removed or redefined, at will. Existing parts can be added upon. Ruby tries not to restrict the coder.
 
-**3 Blocks**
+#### **3 Blocks**
 
 Ruby’s block are also seen as a source of great flexibility. A programmer can attach a closure to any method, describing how that method should act. The closure is called a block and has become one of the most popular features for newcomers to Ruby from other imperative languages like PHP or Visual Basic.
 
-**OK- so what’s the Rails part then?**
+### **OK- so what’s the Rails part then?**
 
 “Rails” is the framework that sits on top of Ruby. The intention of Ruby on Rails is to maximise Developer happiness, by providing them with a tool that is both natural to use and incredibly efficient.
 
