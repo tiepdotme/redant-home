@@ -51,6 +51,11 @@ body {
 }
 
 .homepage {
+  .canvas-section {
+    .container {
+      pointer-events: auto;
+    }
+  }
   .code-review,
   .ruby {
     background-repeat: no-repeat;
