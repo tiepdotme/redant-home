@@ -20,10 +20,6 @@ excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners 
 redirect_from: []
 
 ---
-# 
-
-**_The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options._**
-
 After reading this guide, you’ll have a better understanding of
 
 * What Ruby on Rails actually is
@@ -37,11 +33,15 @@ Ruby on Rails (also referred to as “Rails” or “RoR”) is an open source d
 
 Ruby on Rails helps developers create web applications quickly, much faster and more reliably than if they wrote the code directly in a programming language like Ruby or PHP. This saves time and money, and improves ongoing maintenance.
 
+<div style="border:1px solid #eee">
+
 **Hang on - that sounds just like something else I heard about**
 
 Ruby on Rails has been incredibly successful. It came onto the development scene around 2005, and introduced all these new concepts and ways of working. Things like separating code into data, logic and visual layer (MVC), which radically changed the way we worked.
 
 Many of these ideas have since been applied to other frameworks - from Microsoft dotNet to PHP frameworks. Which can make things a bit fuzzy - there is a huge amount of cross over between different open source frameworks.
+
+</div>
 
 **So what’s Ruby then?**
 
