@@ -83,16 +83,18 @@ Another way is **Gems**, which are code libraries that provide specific function
 
 <div style="border:2px solid #999;background-color:#eee;padding:20px;">
 
-<strong>Some backstory - our first Red Ant product and how we got to Rails</strong><br/>  
-Back around 2002, we were building a lot of websites that required some form of content management. There were options available, but they were expensive and pretty inflexible. This was a dark time in the history of web development, where Flash was still the “Go To”.
+<h4>Some backstory - our first Red Ant product and how we got to Rails</h4><br/>  
+<p>Back around 2002, we were building a lot of websites that required some form of content management. There were options available, but they were expensive and pretty inflexible. This was a dark time in the history of web development, where Flash was still the “Go To”.</p>
 
-We decided to package up the content management system that we’d been creating into a re-usable tool. It had some features that we thought were pretty cool - such as generating a static version of a site, xml data stores and a handy templating system.
+<p>We decided to package up the content management system that we’d been creating into a re-usable tool. It had some features that we thought were pretty cool - such as generating a static version of a site, xml data stores and a handy templating system.</p>
 
-Looking back, it’s clear we had no idea. We’d used the Microsoft ASP language, which was slow even then. We’d created a library system, but we never properly considered dependency. Each module relied on others, so it was like going to a book library and having to check out the entire library if you wanted to read one of the books. Our XML system ground to a halt once a certain size limit was reached.
+<p>Looking back, it’s clear we had no idea. We’d used the Microsoft ASP language, which was slow even then. We’d created a library system, but we never properly considered dependency. Each module relied on others, so it was like going to a book library and having to check out the entire library if you wanted to read one of the books. Our XML system ground to a halt once a certain size limit was reached.</p>
 
-To make things worse, for each customer we made customisations. So each version was slightly different, and each developer had started to use different conventions. As we made updates, the task to update each got bigger. Some of our changes weren’t backwards compatible. Our team started having long squabbles over variable naming. One developer ran out crying when another renamed his code to be all lowercase.Our CMS was a great example of an immature platform - it looked great, but under the hood was based on a slow tech stack that was poorly thought out. Nothing was scaling, and things only kept working if no one touched them.
+<p>To make things worse, for each customer we made customisations. So each version was slightly different, and each developer had started to use different conventions. As we made updates, the task to update each got bigger. Some of our changes weren’t backwards compatible. Our team started having long squabbles over variable naming. </p>
 
-At about this time, we discovered Rails. It was quite the epiphany - an opinionated framework that set clear conventions. It was fast, and was a pleasure to work in. Automated testing baked in. Clear separation of logic, data and presentation views. Minds were blown.
+<p>One developer ran out crying when another renamed his code to be all lowercase.Our CMS was a great example of an immature platform - it looked great, but under the hood was based on a slow tech stack that was poorly thought out. Nothing was scaling, and things only kept working if no one touched them.</p>
+
+<p>At about this time, we discovered Rails. It was quite the epiphany - an opinionated framework that set clear conventions. It was fast, and was a pleasure to work in. Automated testing baked in. Clear separation of logic, data and presentation views. Minds were blown.</p>
 
 </div>
 
