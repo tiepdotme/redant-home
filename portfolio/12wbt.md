@@ -8,7 +8,7 @@ description: Australia’s most popular health platform, with incredible growth.
   fitness and mindset.
 project_url: https://www.12wbt.com
 client: Michelle Bridges 12WBT
-project_date: 2011 - now
+project_date: 2011 - 2019
 team_size: 15 people
 lines_of_code: 450k+
 technologies:
@@ -47,12 +47,12 @@ What started life as a basic MVP is now a fully fledged lifestyle platform, with
 
 #### Project snapshot:
 
-- A round takes 12 weeks to complete, plus a 4 week "preseason"
-- All workout and nutrition content is behind a paywall
-- Thousands of users login to the platform every day. There are weekly traffic surges due to the event based nature (eg: the weekly weigh in)
-- There are also transactional peak periods aligned with marketing activity, this reaches a peak prior to the closure of sign-ups for each round
-- All content is personalised and delivered via web, PDF, email and mobile app
-- Connects with devices such as Fitbit, as well as other platforms like MyFitnessPal
+* A round takes 12 weeks to complete, plus a 4 week "preseason"
+* All workout and 12wbt recipe content is behind a paywall
+* Thousands of users login to the platform every day. There are weekly traffic surges due to the event based nature (eg: the weekly weigh in)
+* There are also transactional peak periods aligned with marketing activity, this reaches a peak prior to the closure of sign-ups for each round
+* All content is personalised and delivered via web, PDF, email and mobile app
+* Connects with devices such as Fitbit, as well as other platforms like MyFitnessPal
 
 #### Here's how it works:
 
@@ -62,21 +62,20 @@ We started on this way back in 2011. Back then there was a basic MVP built with 
 
 One of the interesting things about working on this project is that they have a very large group of highly engaged members, each of which is on a quite personal journey. There are a lot of them, they seem to use it pretty much all the time, and they are highly passionate and involved with the product.
 
-![Member Zone]({{ site.data.webpack['desktop-12wbt-4.jpg'] }})
+!\[Member Zone\]({{ site.data.webpack\['desktop-12wbt-4.jpg'\] }})
 
 All of which means we get pretty immediate feedback. And if you're going to ask for feedback, you'd better be prepared to do something about it. I won't bore you with details, but one morning we pushed a new feature. It became quickly apparent that while they liked some parts, other bits (that we'd de-prioritised) were in fact required. We scrambled and got two teams (front end and back end) working on an update, which we pushed out later that afternoon. I'm glossing over a few things here, like the reason that we were able to build and release a significant update quickly was partly due to all the foundation work before - the boring stuff like an automated test suite, continuous integration, and seamless "no downtime" deploy flow.
 
 Anyway - back to the actual product. Probably the best way to check it out is to [sign up yourself](https://12wbt.com). You never know - you might really enjoy yourself! I actually was talking to a someone the other day who had signed up as a way of evaluating our work, and he ended up doing 3 rounds.
 
-
 You [can read a bit more about](/our-work/our-work-michelle-bridges-12wbt-build/) the 12WBT project on this post, and [about localisation for USA version](/our-work/developing-12wbt-usa/) here. If you're really interested, or just bored at work and trying to fill in some time, check out the [12wbt dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app/).
 
 #### More Detail
 
-* __Paid membership site__ - members join and buy a subscription for a 3 month “round” &#8211; either up front or recurring weekly payments with high bursts of traffic when all members need to access the site at the same time.
-* __Content system__ - members sign up and get content &amp; tools each week. As the program progresses through the 12 weeks, different features appear.
-* __Event system__ - members can create events, RSVP to them, write reviews of events, and book tickets for paid events.
-* __Forum &amp; private messaging system__ - tightly integrated with the rest of the site.
-* __Help & FAQ__ - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
-* __My Stats__ - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
-* __Third Party integrations__ - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.
+* **Paid membership site** - members join and buy a subscription for a 3 month “round” – either up front or recurring weekly payments with high bursts of traffic when all members need to access the site at the same time.
+* **Content system** - members sign up and get content & tools each week. As the program progresses through the 12 weeks, different features appear.
+* **Event system** - members can create events, RSVP to them, write reviews of events, and book tickets for paid events.
+* **Forum & private messaging system** - tightly integrated with the rest of the site.
+* **Help & FAQ** - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
+* **My Stats** - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
+* **Third Party integrations** - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.
