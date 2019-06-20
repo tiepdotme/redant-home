@@ -38,9 +38,9 @@
     <style>.async-hide { opacity: 0 !important} </style>
 
 <script>
-  var gtmId = window.location.host === "https://redant.com.au"
-    ? "GTM-N3CM249"
-    : "GTM-P7QNBDH";
+  var gtmId = window.location.host.includes("redant.com.au")
+    ? "GTM-P7QNBDH"
+    : "GTM-N3CM249";
 
   // Google Optimize page hiding snippet
   (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
