@@ -5,14 +5,15 @@ description: >-
   These live as web sites, in mobile apps, and in social networks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://redant.com.au" # the base hostname & protocol for your site, e.g. http://example.com
+url_host: "redant.com.au"
 
 # Build settings
 permalink: /:title/
 markdown: kramdown
 google_analtyics: UA-421251-1
 gtm:
-  dev: GTM-P7QNBDH
-  prod: GTM-N3CM249
+  dev: GTM-N3CM249
+  prod: GTM-P7QNBDH
 ampdir: amp
 
 # Jekyll Plugins

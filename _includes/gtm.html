@@ -1,7 +1,7 @@
 <style>.async-hide { opacity: 0 !important} </style>
 
 <script>
-  var gtmId = window.location.host === "{{site.url}}"
+  var gtmId = window.location.host.includes("{{site.url_host}}")
     ? "{{ site.gtm.prod }}"
     : "{{ site.gtm.dev }}";
 
