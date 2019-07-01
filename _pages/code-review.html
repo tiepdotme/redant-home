@@ -9,25 +9,22 @@ keywords: Code Review Ruby on Rails
   <div class="container">
     <div class="row">
       <div class="col-md-9 py-3">
-        <h1 class="text-xl py-3">Ruby on Rails Code review and checkup</h1>
+        <h1 class="text-xl py-3">Ruby on Rails Code Review and checkup</h1>
         <hr>
-        <p class="text-md">
-         Just like checking your own health, it is useful to get your code reviewed and checked out by a different set of eyes. We can give you a better idea of the good and the bad, and help you understand technical debt. 
+        <p class="text-md">Just like checking your own health, it is useful to get your code reviewed and checked out by a different set of eyes. We can give you a better idea of the good and the bad, and help you understand technical debt. 
         </p>
-        <p class="text-md">
-          We’ll perform an expert review of your code for security issues, performance problems and a quality analysis. You’ll get a good idea of how your code benchmarks against industry standards. 
+        <p class="text-md">We’ll perform an expert review of your code for security issues, performance problems and a quality analysis. You’ll get a good idea of how your code benchmarks against industry standards. 
         </p>
       </div>
     </div>
   </div>
 </header>
 
-
 <section id="core-review-questions" class="bg-gray-light py-5 text-md">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Our Ruby on Rails Code Review will answers these questions</h2>
+        <h2>Common questions people want answers to</h2>
         <ul>
           <li>How good/reliable is the code we already have?</li>
           <li>Is it ready to go live?</li>
@@ -119,11 +116,115 @@ keywords: Code Review Ruby on Rails
   </div>
 </section>
 
-<section>
-  <div class="container">
+<section id="faqs" class="py-5" >
+  <div class="container ">
     <div class="row">
       <div class="col">
-        <h2>FAQs</h2>
+        <h2>Ruby on Rails Code Review FAQs</h2>
+      </div>
+    </div>
+    <div class="row mt-3d">
+      <div class="col">
+        <div class="accordion theme-red" id="review-faqs" >
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">
+                  Who does the review?
+                </button>
+              </h2>
+            </div>
+            <div id="a1" class="collapse" data-parent="#review-faqs">
+              <div class="card-body ">
+                <p>One of our experienced engineers will conduct the review. The findings are then peer reviewed by a second engineer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">
+                  What do we check?
+                </button>
+              </h2>
+            </div>
+            <div id="a2" class="collapse" data-parent="#review-faqs">
+              <div class="card-body">
+                <p>Everything to do with your code. We’ll look for problems - like repeating lines of code that could be a single function. Or unnecessary complexity. Or bits of code that never actually get called. We’ll look for strengths - what we think is done well or documented clearly.</p>
+                <p>An in-depth code review can also include User Experience Design, Product Development, Payment flow. Just ask us. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed " type="button" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">
+                  What’s the cost of a code review?
+                </button>
+              </h2>
+            </div>
+            <div id="a4" class="collapse" data-parent="#review-faqs">
+              <div class="card-body">
+                <p>We offer 3 levels of code review depending upon your needs and size of code base: </p>
+                <ul>
+                  <li>A free Coach review </li>
+                  <li>A $600 standard code review cover a single code base </li>
+                  <li>A detailed in-depth code review for more complex code bases. These cost is estimated based on your App and needs for review. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link  collapsed" type="button" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">
+                  What’s involved? 
+                </button>
+              </h2>
+            </div>
+            <div id="a5" class="collapse" data-parent="#review-faqs">
+              <div class="card-body">
+                <p>Once we have access to your code based via GitHub we will run a series of standardised tests to check performance, security penetration and code analysis. At the same time, our senior developers will analyse the code code for it’s strengths and weaknesses. We’ll perform an expert review of your code for security issues, performance problems and a quality analysis. You’ll get a good idea of how your code benchmarks against industry standards and how to prioritise remedial  issues to move forward. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#a6" aria-expanded="true" aria-controls="a6">
+                  My code development is critical to my business - can you sign a Non-disclosure Agreement ?
+                </button>
+              </h2>
+            </div>
+            <div id="a6" class="collapse" data-parent="#review-faqs">
+              <div class="card-body">
+                <p>Yes. We like to sign a non-disclosure agreement (NDA) with all our clients. It’s just good business practice. We have deep experience in providing advice on pre-market applications and our team is ready to manage your application in confidence. We have a standard NDA we like to use but please contact us if you have a specific agreement you would like to use. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" >
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#a7" aria-expanded="true" aria-controls="a7">
+                  How to get started?
+                </button>
+              </h2>
+            </div>
+            <div id="a7" class="collapse" data-parent="#review-faqs">
+              <div class="card-body">
+                <p>Select the right level of code review for your needs and complete the form. If you are unsure please contact us [Link to Form] directly and we can talk through your needs. </p>
+                <p>Once you have submitted a code-review form we will be in touch within 24 hours. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>

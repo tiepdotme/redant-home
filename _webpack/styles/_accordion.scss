@@ -1,0 +1,30 @@
+.accordion {
+	&.theme-red {
+		.card-header {
+			@extend .pl-0;
+			background: none;
+			border-color: $gray-200;
+
+			.btn {
+			 width: 100%;
+			 text-align: left;
+			 padding-left: 0;
+			 cursor: pointer;
+
+			 font-weight: bold;
+			 font-size: $font-size-base;
+			 color: $red;
+			 white-space: normal;
+			 &.collapsed {
+			 	color: #343a40;
+			 }
+			}
+		}
+
+		.card-body {
+			@extend .px-2;
+			@extend .pb-0;
+			border-bottom: 1px solid $gray-200;
+		}
+	}
+}
