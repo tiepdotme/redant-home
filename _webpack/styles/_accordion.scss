@@ -12,11 +12,25 @@
 			 cursor: pointer;
 
 			 font-weight: bold;
-			 font-size: $font-size-base;
+			 font-size: $font-size-base * 1.1;
 			 color: $red;
 			 white-space: normal;
+			 position: relative;
+
+			 &:after {
+				content: '\f107';
+				font-family: FontAwesome;
+				position: absolute;
+				top: 50%;
+				right: 0;
+				margin-top: -12px;
+			 }
+
 			 &.collapsed {
 			 	color: #343a40;
+					&:after {
+						content : '\f106';
+					}
 			 }
 			}
 		}
