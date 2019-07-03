@@ -41,17 +41,20 @@
 }
 
 .blog-header {
-  height: 400px;
+
 }
 .blog-header--agile {
   background-image: url('~images/headers/agile.jpg');
   background-size: cover;
 }
 .blog-intro {
-  height: 350px;
+  @extend .py-3;
+  @extend .py-sm-5;
+
   .container {
     height: 100%;
   }
+
   .middle {
     display: flex;
     height: 100%;
@@ -66,6 +69,10 @@
     // gotham medium
     &.slash:before {
       content: '/';
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 40px;
     }
   }
   p {
