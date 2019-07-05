@@ -142,7 +142,7 @@ module.exports = (env, argv) => {
     // Reference: https://github.com/Klathmon/imagemin-webpack-plugin
     // Optimize all project images
     new ImageminPlugin({
-      disable: isProd, // Disable during development
+      disable: !isProd, // Disable during development
       pngquant: {
         quality: '95-100'
       }
