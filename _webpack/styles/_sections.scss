@@ -171,6 +171,11 @@
   border-bottom: 1px solid $gray-smoke;
   padding-bottom: 30px;
 
+  &.border-red {
+    border-top: 1px solid $red;
+    border-bottom: 1px solid $red;
+  }
+
   @include media-breakpoint-up(sm) {
     padding-bottom: 100px;
   }
