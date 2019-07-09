@@ -1,5 +1,6 @@
 // Modules
 const autoprefixer = require('autoprefixer');
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const path = require('path');
 const webpack = require('webpack');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
@@ -143,9 +144,8 @@ module.exports = (env, argv) => {
     // Optimize all project images
     new ImageminPlugin({
       disable: !isProd, // Disable during development
-      pngquant: {
-        quality: '95-100'
-      }
+      pngquant: { quality: '65-95' },
+      plugins: [ imageminMozjpeg({ quality: 75 })]
     }),
 
     // Reference: https://github.com/danethurber/webpack-manifest-plugin
