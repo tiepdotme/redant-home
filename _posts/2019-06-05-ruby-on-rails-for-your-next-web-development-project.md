@@ -11,7 +11,7 @@ title: Why choose Ruby on Rails for your next web development project
 description: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ''
-image-small: ''
+image-small: "/assets/uploads/2019/why-choose-ruby.jpg"
 image-large: ''
 excerpt-short: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
@@ -22,7 +22,7 @@ redirect_from: []
 ---
 
 
-<header id="section-intro" class="ga-section dark-header bg-code-review">
+<div id="section-intro" class="bg-black">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12">
@@ -35,7 +35,10 @@ redirect_from: []
         <hr>
       </div>
       <div class="col-md-4">
-        <img class="img-fluid" src="{{ site.data.webpack['ruby-bg.png'] }}" alt="Ruby" />
+        <img
+          class="img-fluid"
+          src="{{ site.data.webpack['ruby-bg.png'] }}"
+          alt="Ruby" />
       </div>
       <div class="col-12 pt-3 pb-5">
         <p class="text-lg">
@@ -44,7 +47,7 @@ redirect_from: []
       </div>
     </div>
   </div>
-</header>
+</div>
 
 <section class="bg-gray-light py-5 text-md">
   <div class="container">
