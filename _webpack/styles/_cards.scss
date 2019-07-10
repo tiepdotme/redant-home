@@ -23,4 +23,57 @@
   &:focus {
     text-decoration: none;
   }
+
+  &--review {
+    border: 1px solid $red-light;
+
+    .card-header {
+      background: $red;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-color: $red-light;
+      
+      .card-title {
+        color: $white;
+        font-size: 1.3rem;
+        font-weight: normal;
+      }
+    }
+
+    .card-body {
+      > ul {
+        margin-left: -20px;
+
+        ul li {
+          font-size: 0.95rem;
+          margin-left: -20px;
+
+        }
+      }
+
+      .card-label {
+        font-size: 0.95em;
+        font-weight: bold;
+      }
+    }
+
+    .card-footer {
+      padding: 0;
+      background: none;
+      border: none;
+
+      a {
+        display: block;
+        border-radius: 0;
+        background: $red;
+        text-align: center;
+        color: $white;
+        font-size: 1.1em;
+
+        &:hover {
+          background: darken($red,15%);
+        }
+      }
+    }
+  }
 }

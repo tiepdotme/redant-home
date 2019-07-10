@@ -34,7 +34,11 @@
   background-image: url('~images/code-review.jpg');
 
   &.padded-section {
-    padding: 150px 0 90px 0;
+    padding: 130px 0 90px 0;
+
+    @include media-breakpoint-down(sm) {
+      padding: 30px 0;
+    }
   }
 }
 

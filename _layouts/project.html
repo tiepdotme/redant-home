@@ -69,7 +69,7 @@
                     {% for technology in page.technologies %}
                       {% assign techPage = site.pages | where: 'title', page.technologies[forloop.index0] %}
                       {% if techPage.size > 0 %}
-                        <a href="{{techPage[0].url]}}">{{ technology }}</a>,
+                        <a href="{{techPage[0].url}}">{{ technology }}</a>,
                       {% else %}
                         {{ technology }},
                       {% endif %}
