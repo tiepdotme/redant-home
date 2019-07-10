@@ -115,6 +115,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/12wbt.md
 - portfolio/huggies-star-rewards.md
 - portfolio/voome-programs.md
 - portfolio/yates.md
@@ -127,7 +128,6 @@ pages:
 - portfolio/plando.md
 - portfolio/nps-medicinewise.md
 - portfolio/outdoor-automated-proposal-platform.md
-- portfolio/12wbt.md
 - portfolio/mentored.md
 - portfolio/managed.md
 - portfolio/huggies.md
