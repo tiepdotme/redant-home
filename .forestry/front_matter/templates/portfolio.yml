@@ -115,6 +115,7 @@ fields:
   name: images
   label: images
 pages:
+- portfolio/12wbt-recipes.md
 - portfolio/12wbt.md
 - portfolio/huggies-star-rewards.md
 - portfolio/voome-programs.md
