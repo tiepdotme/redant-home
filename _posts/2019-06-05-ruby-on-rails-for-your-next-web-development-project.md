@@ -22,7 +22,7 @@ redirect_from: []
 ---
 
 
-<div id="section-intro" class="bg-black">
+<section id="section-intro" class="bg-black">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12">
@@ -34,7 +34,7 @@ redirect_from: []
         </h1>
         <hr>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <img
           class="img-fluid"
           src="{{ site.data.webpack['ruby-bg.png'] }}"
@@ -47,7 +47,7 @@ redirect_from: []
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <section class="bg-gray-light py-5 text-md">
   <div class="container">

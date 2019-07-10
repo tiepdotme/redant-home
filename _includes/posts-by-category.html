@@ -1,8 +1,10 @@
 <div class="bg-gray-light">
-  <section class="py-5 container">
-    {% for post in site.categories[include.category] limit:1 %}
-      {% include post-card-wide.html %}
-    {% endfor %}
+  <section class="py-3 py-sm-5 container">
+    <div class="macy-container">
+      {% for post in site.categories[include.category] limit:1 %}
+        {% include post-card-wide.html %}
+      {% endfor %}
+    </div>
 
     <div id="macy-container" data-columns="3" data-columns-small="2">
       {% assign postLimit = 20 %}
