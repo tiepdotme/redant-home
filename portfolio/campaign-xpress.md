@@ -1,6 +1,6 @@
 ---
 layout: project
-theme: campaign-express
+theme: campaign-xpress
 slug: campaign-xpress
 title: CAMPAIGNxpress
 tagline: A property marketing platform
