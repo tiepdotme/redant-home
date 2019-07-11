@@ -78,6 +78,40 @@ body {
   img {
     @extend .img-fluid;
   }
+
+  .12wbt-recipes {
+    ol {
+      list-style: none;
+      counter-reset: li;
+      padding-inline-start: 0px;
+
+      li {
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        counter-increment: li;
+        margin-bottom: 10px;
+        padding: 10px;
+
+        &::before {
+          background-color: #00AEEB;
+          border-radius: 100%;
+          background-position: center;
+          background-size: cover;
+          color: $white;
+          content: counter(li);
+          display: inline-block;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 21px;
+          margin: 5px 10px 0 0;
+          padding: 0 5px 0 5px;
+          text-align: center;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
 }
 
 .project-detail-container {
