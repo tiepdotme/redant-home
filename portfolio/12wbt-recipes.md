@@ -55,7 +55,7 @@ Each ingredient is a separate piece of data
    The quick & easy version
 
 **Live shopping integration**  
-Each ingredient can also be sent through to a shop API
+Each ingredient can also be sent through to a shop API.
 
 **Which then allows**
 
