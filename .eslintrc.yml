@@ -1,0 +1,10 @@
+---
+extends: eslint:recommended
+globals:
+  $: readonly
+  clearTimeout: readonly
+  document: readonly
+  require: readonly
+  setTimeout: readonly
+  window: readonly
+parser: babel-eslint
