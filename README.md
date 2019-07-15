@@ -1,5 +1,7 @@
 # Red Ant Website
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 The Red Ant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyll-webpack).
 
 The app uses a standard Jekyll structure with all uncompiled asset source files
@@ -33,11 +35,18 @@ docker-compose up
 ## Commiting
 
 In order to keep code style minimally consistent this project has stylelint for SCSS, eslint for JS and [prettier](https://github.com/prettier/eslint-config-prettier) configured.
+Linting will run automatically when attempting to add a new commit
 
-Before commiting, run linting manually:
+Run linting manually:
 
 ```bash
 $ yarn lint
+```
+
+Bypass pre-commit linting:
+
+```bash
+$ git commit -m "<YOUR COMMIT MESSAGE>" --no-verify
 ```
 
 ## Updating portfolio order
