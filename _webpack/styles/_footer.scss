@@ -5,18 +5,8 @@
     padding-left: $grid-gutter-width / 2 + 10 ;
 
     .fa {
-      left: $grid-gutter-width / 2;
+      margin-left: -20px;
       position: absolute;
-    }
-  }
-
-  @include media-breakpoint-up(sm) {
-    .icon-list {
-      padding-left: 10px;
-
-      .fa {
-        left: 0;
-      }
     }
   }
 }
