@@ -5,7 +5,7 @@ const init = $(function() {
     if ($('#macy-container').length) {
       var columns = $('#macy-container').data('columns');
       var columnsSmall = $('#macy-container').data('columns-small');
-      var macyInstance = Macy({
+      Macy({
         container: '#macy-container',
         columns: columns,
         margin: 20,
