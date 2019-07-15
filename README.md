@@ -1,5 +1,7 @@
 # Red Ant Website
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 The Red Ant Website based on [Jekyll + Webpack](https://github.com/red-ant/jekyll-webpack).
 
 The app uses a standard Jekyll structure with all uncompiled asset source files
@@ -28,6 +30,23 @@ Alternatively you can use the supplied docker-compose to get up and running:
 
 ```
 docker-compose up
+```
+
+## Commiting
+
+In order to keep code style minimally consistent this project has stylelint for SCSS, eslint for JS and [prettier](https://github.com/prettier/eslint-config-prettier) configured.
+Linting will run automatically when attempting to add a new commit
+
+Run linting manually:
+
+```bash
+$ yarn lint
+```
+
+Bypass pre-commit linting:
+
+```bash
+$ git commit -m "<YOUR COMMIT MESSAGE>" --no-verify
 ```
 
 ## Updating portfolio order
@@ -63,6 +82,13 @@ Assets loaded within js or css are handled by webpack and should reside in `_web
 }
 ```
 
+### Forestry
+
+Forestry front matters and settings are in the `.forestry` folder.
+Forestry uses the `yarn preview` & `yarn build` scripts.
+
+All forestry page asset uploads are set to go into the `/assets/uploads` folder.
+
 ## Release / Deploy
 
 Forestry will compile and deploy the site when saving changes or pushing.
@@ -82,10 +108,3 @@ AMP requires a customised css file that requires the minimum Bootstrap styles to
 - `_layouts/amp.html` is the main template the amp-jekyll plugin uses to generate the AMP pages
 - `_includes/amp` contains the customised headers and elements AMP needs in order to be valid
 - Reference at [amp-jekyll plugin](https://github.com/juusaw/amp-jekyll) and [here](https://nbsoftsolutions.com/blog/creating-a-parallel-amp-site-with-jekyll).
-
-## Forestry
-
-Forestry front matters and settings are in the `.forestry` folder.
-Forestry uses the `yarn preview` & `yarn build` scripts.
-
-All forestry page asset uploads are set to go into the `/assets/uploads` folder.

@@ -49,7 +49,8 @@ const init = $(function() {
       appendArrows: '.carousel-arrows',
       autoplay: true,
       autoplaySpeed: 4000,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      initialSlide: 0
     });
 
     $carousel_selector.slick('slickPause');
@@ -64,7 +65,7 @@ const init = $(function() {
 
 
   $('#gallery-modal').on('shown.bs.modal', function (e) {
-    var $carousel = $(this).find(carousel_selector);
+    var $carousel = $(this).find($carousel_selector);
     var index = $(e.relatedTarget).data('index');
     $carousel.resize();
 
