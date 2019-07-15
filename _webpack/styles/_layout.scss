@@ -50,12 +50,17 @@ body {
   background: $gray-100;
 }
 
+.ruby {
+  background-image: url("~images/ruby.png");
+}
+
 .homepage {
   .canvas-section {
     .container {
       pointer-events: auto;
     }
   }
+
   .code-review,
   .ruby {
     background-repeat: no-repeat;
@@ -66,12 +71,8 @@ body {
   }
 
   .code-review {
-    background-image: url('~images/code-review.png');
+    background-image: url("~images/code-review.png");
   }
-}
-
-.ruby {
-  background-image: url('~images/ruby.png');
 }
 
 .project-content {
@@ -83,7 +84,7 @@ body {
     ol {
       list-style: none;
       counter-reset: li;
-      padding-inline-start: 0px;
+      padding-inline-start: 0;
 
       li {
         background-color: #f7f7f7;
@@ -93,7 +94,7 @@ body {
         padding: 10px;
 
         &::before {
-          background-color: #00AEEB;
+          background-color: #00aeeb;
           border-radius: 100%;
           background-position: center;
           background-size: cover;
@@ -124,6 +125,6 @@ body {
   }
 
   @include media-breakpoint-up(sm) {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }

@@ -12,7 +12,7 @@
   }
 
   @include media-breakpoint-up(md) {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 
@@ -40,12 +40,8 @@
   }
 }
 
-.blog-header {
-
-}
-
 .blog-header--agile {
-  background-image: url('~images/headers/agile.jpg');
+  background-image: url("~images/headers/agile.jpg");
   background-size: cover;
 }
 
@@ -70,8 +66,8 @@
     color: #fff;
     font-size: 75px;
     // gotham medium
-    &.slash:before {
-      content: '/';
+    &.slash::before {
+      content: "/";
     }
 
     @include media-breakpoint-down(sm) {

@@ -108,11 +108,12 @@
   border-bottom: 2px solid $gray-smoke;
 
   &::before {
-    @include block($blue-100);
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
+
+    @include block($blue-100);
   }
 
   @include media-breakpoint-down(sm) {
@@ -161,7 +162,7 @@
 }
 
 .rounded {
-  border-radius: 1.25rem !important
+  border-radius: 1.25rem !important;
 }
 
 .technology-image-preview {
@@ -169,8 +170,8 @@
   width: 140px;
 }
 
-#macy-container,
-.macy-container {
+.macy-container,
+#macy-container {
   .post-image-preview {
     min-height: 200px;
     width: 100%;
