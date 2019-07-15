@@ -4,6 +4,7 @@
   "description": "Red Ant Website.",
   "main": "_webpack/index.js",
   "author": "Jason Taylor <jason@redant.com.au>",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "concurrently 'yarn start:webpack' 'yarn start:jekyll'",
     "start:webpack": "webpack --mode development --watch",
