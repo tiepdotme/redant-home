@@ -18,46 +18,75 @@ images:
 published: false
 
 ---
-**Many recipe sites use this format**
+**Backround**
+_BEN, PLEASE EDIT THIS CONTNENT_
+With the 12WBT recipes section we aimed to modernise the old recipe template that has been used on countless recipe websites since the dawn of the internet. It's important that we stress the modernisation approach because the tried and true structure has a trump card: user familiarity.
+
+We wanted to distinguish ourselves without imposing on our users the need to learn how to interpret online recipes.
+
+**Typical recipe sites**
+A single block of content with an image as part of the page layout, with ingredient measures (eg: 2 teaspoons) plus preparation instructions (eg: thinly sliced avocado). Often ingredient measures are intermixed with preparation instructions, making them hard to separate. eg: add 1 cup of rice.
 
 ![](/assets/uploads/2019/tasty.jpg)
 
-1. **Ingredients**  
-   A single block of content, with measures (eg: 2 teaspoons) as part of the content. Also includes preparation instructins (eg: thinly sliced avocado).
-2. **Instructions**  
-   Also a single block of content, with an image as part of the page layout. Often ingredient sizes are intermixed with this content, making them hard to separate. eg: add 1 cup of rice.
+**Issues with these sites**
 
-**The problems with this are**
+1. **No localisation**  
+   ![](/assets/uploads/2019/tasty.jpg)
+   Content content content content content content content content content content content content content content content.
+2. **Not scalable**  
+   ![](/assets/uploads/2019/tasty.jpg)
+   Content content content content content content content content content content content content content content content.
+3. **Not customisable**
+   ![](/assets/uploads/2019/tasty.jpg)
+   Content content content content content content content content content content content content content content content.
 
-![](/assets/uploads/2019/recipe-1.png)
+**What we did**
 
-**Splitting up recipe data**
-
-![](/assets/uploads/2019/12wbt.jpg)
-
-**Ingredients**  
-Each ingredient is a separate piece of data
-
-![](/assets/uploads/2019/database.png)
-
-1. **Ingredient database**  
+1. **Splitting up recipe data**  
+    ![](/assets/uploads/2019/database.png)
    One central source for all ingredients
-2. **Meta data**  
+   <div class="row">
+    <div class="col-8">
+2. **Ingredient database**  
+    ![](/assets/uploads/2019/database.png)
+   One central source for all ingredients
+   </div>
+   <div class="col-8">
+3. **Add metadata**
+   ![](/assets/uploads/2019/database.png)
    Preparation time  
-   Is this a quick and easy?  
-   Type of meal  
-   Can it be frozen?  
-   Will it work as a leftover?
-3. **Method**  
+    Is this a quick and easy?  
+    Type of meal  
+    Can it be frozen?  
+    Will it work as a leftover?
+   </div>
+   <div class="col-8">
+4. **Update cooking method**  
+   ![](/assets/uploads/2019/database.png)
    The method describes how to make the recipe. It refers to ingredients without describing sizes. The name of each ingredient can be localised if required.
-4. **Similar content**  
+   </div>
+   <div class="col-8">
+5. **Live shopping integration**  
+    ![](/assets/uploads/2019/database.png)
    The vegetarian version  
-   The gluten free version  
-   The quick & easy version
+    The gluten free version  
+    The quick & easy version
+     </div>
+   </div>
 
-**Live shopping integration**  
-Each ingredient can also be sent through to a shop API.
+**The result**  
+![](/assets/uploads/2019/12wbt-recipes-hero.jpg)
 
-**Which then allows**
-
-![](/assets/uploads/2019/recipe-2.png)
+<div class="row">
+  <div class="col-8">
+    **Belefit for members**
+    Content content content content content content content content content content content content content content content.
+    Content content content content content content content content content content content content content content content.
+  </div>
+  <div class="col-8">
+    **Belefit for 12WBT**
+    Content content content content content content content content content content content content content content content.
+    Content content content content content content content content content content content content content content content.
+  </div>
+</div>
