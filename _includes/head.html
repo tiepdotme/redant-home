@@ -1,32 +1,33 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" lang="{{ page.lang | default: site.lang | default: "en" }}"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="{{ page.lang | default: site.lang | default: 'en' }}">
-<!--<![endif]-->
+<!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% seo %}
-  <link rel="icon" href="{{ site.data.webpack['favicon.ico'] }}">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="{{ site.data.webpack['favicon.ico'] }}" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="stylesheet" href="{{ site.data.webpack['vendor.css'] }}" />
   <link rel="stylesheet" href="{{ site.data.webpack['app.css'] }}" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
-<meta name="google-site-verification" content="uky3VJEeD3NAFHIK0V4KLdxlYF7fGGXJYyyt96LLe78" />
+  <meta
+    name="google-site-verification"
+    content="uky3VJEeD3NAFHIK0V4KLdxlYF7fGGXJYyyt96LLe78"
+  />
   <!-- Fonts -->
   <script src="//use.typekit.net/apo0vqh.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script>
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
 
-  {% if site.gtm %}
-    {% include gtm.html %}
-  {% endif %}
-
-  {% if page.path contains '_posts' %}
-    <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+  {% if site.gtm %} {% include gtm.html %} {% endif %} {% if page.path contains
+  '_posts' %}
+  <link
+    rel="amphtml"
+    href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}"
+  />
   {% endif %}
 </head>
