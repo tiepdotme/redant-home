@@ -11,7 +11,7 @@ how_title: Online Payment System integration
 how_bulletpoints:
 - Online systems can range from simple to complex
 type: news
-permalink: software-development/finding-the-right-developer-offshore-local-freelance
+permalink: software-development/hiring-a-web-development-team
 excerpt-short: Finding the right developer is a challenge. 4 options to consider
 excerpt-long: Finding the right developer is a challenge. 4 options to consider
 time: ''
