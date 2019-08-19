@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 4 web development team options
+title: 'Your options for hiring a web development team you''ll love '
 subtitle: We've integrated many different types of payment systems
-description: Working out the best way to resource the development of your project
-  can be hard. It's super competitive, and can be hard to compare apples with apples.
+description: 'Working out the best way to resource the development of your project
+  can be hard. It''s super competitive, and can be hard to compare apples with apples.
+  Contact Us for a review of your existing situation and options for next steps. '
 slug: online-payment-systems
 projects: []
 image: ''
@@ -68,7 +69,7 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 
 ***
 
-Option 2. Choose an Offshore Team 
+## Option 2. Choose an Offshore Team 
 
 Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at $5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
 
@@ -82,7 +83,7 @@ The other reality check is the globalised nature of tech. Imagine a Rock Star de
 
 ***
 
-Option 3. Choose a local Technical Agency 
+## Option 3. Choose a local Technical Agency 
 
 The next option is using a **Local Agency** like Red Ant. The first question to ask is to meet their devs - if the response is that you can’t because they are offshore, then stop and consider option 2 instead. Unless you enjoy the process of asking someone a question, and that person needs to ask someone else, and that person asks the dev actually doing the work.
 
