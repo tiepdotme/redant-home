@@ -29,7 +29,7 @@ Designing and building new ideas out as apps and platforms has become a massive 
 
 There are four basic options to consider:
 
-1. \[Freelance - use a freelance developer or designer\](#anchor-1)
+1. \[Freelance - use a freelance developer or designer}(#anchor-1)
 2. \[Offshore Agency - engage with an offshore agency where salaries are lower\](#anchor-2)
 3. \[Local Agency - engage an agency team\](#anchor-3)
 4. \[Your own development team - start building up your own team of developers\](#anchor-4)
@@ -72,7 +72,11 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 
 ***
 
+<div id="anchor-2">
+
 ## Option 2. Choose an Offshore Team
+
+</div>
 
 Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at $5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
 
@@ -86,7 +90,11 @@ The other reality check is the globalised nature of tech. Imagine a Rock Star de
 
 ***
 
+<div id="anchor-3">
+
 ## Option 3. Choose a local Technical Agency
+
+</div>
 
 The next option is using a **Local Agency** like Red Ant. The first question to ask is to meet their devs - if the response is that you can’t because they are offshore, then stop and consider option 2 instead. Unless you enjoy the process of asking someone a question, and that person needs to ask someone else, and that person asks the dev actually doing the work.
 
@@ -103,7 +111,11 @@ The cost of offshore vs local can hard to evaluate - the local agency might do i
 
 ***
 
+<div id="anchor-4">
+
 ## Option 4. Build you own Web Development Team
+
+</div>
 
 The final option is building **your own team**. Some companies transition to this option after building out part of the project already.
 
@@ -121,6 +133,6 @@ Chin up- it will get better! Once you get to a stable team size, this should set
 
 You'll need to be patient, and have enough runway to make this work.
 
-Need advice? 
+Need advice?
 
-We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ "Free Initial Consult ") or [Code Review](https://redant.com.au/ruby-on-rails-code-review/ "Code Review ") to discuss your options. 
+We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ "Free Initial Consult ") or [Code Review](https://redant.com.au/ruby-on-rails-code-review/ "Code Review ") to discuss your options.
