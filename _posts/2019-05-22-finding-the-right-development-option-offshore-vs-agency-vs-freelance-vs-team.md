@@ -56,11 +56,11 @@ Remember - you’re getting what you pay for. This is something which is often m
 
 ***
 
-    <div id="anchor-1">
+<div id="anchor-1">
 
 ## Option 1. Choose a Freelancer
 
-    </div>
+</div>
 
 Lots of people start off with a **Freelancer**. Key advantages are low obligations in terms of cost, and commitment. You might need this flexibility as you roll out your business.
 
