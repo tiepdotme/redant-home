@@ -29,10 +29,10 @@ Designing and building new ideas out as apps and platforms has become a massive 
 
 There are four basic options to consider:
 
-1. Freelance - use a freelance developer or designer
-2. Offshore Agency - engage with an offshore agency where salaries are lower
-3. Local Agency - engage an agency team
-4. Your own development team - start building up your own team of developers
+1. \[Freelance - use a freelance developer or designer\](#anchor-1)
+2. \[Offshore Agency - engage with an offshore agency where salaries are lower\](#anchor-2)
+3. \[Local Agency - engage an agency team\](#anchor-3)
+4. \[Your own development team - start building up your own team of developers\](#anchor-4)
 
 It can be easy to be a bit overwhelmed - how do you make the right call? You’ll no doubt run into people that have had both positive and negative experiences with each of these. There is no “right” here- and it will change as your business evolves.
 
@@ -56,7 +56,11 @@ Remember - you’re getting what you pay for. This is something which is often m
 
 ***
 
+    <div id="anchor-1">
+
 ## Option 1. Choose a Freelancer
+
+    </div>
 
 Lots of people start off with a **Freelancer**. Key advantages are low obligations in terms of cost, and commitment. You might need this flexibility as you roll out your business.
 
