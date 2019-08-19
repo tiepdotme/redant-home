@@ -68,7 +68,7 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 
 ***
 
-## Option 2. Choose an Offshore Team 
+## Option 2. Choose an Offshore Team
 
 Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at $5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
 
@@ -82,7 +82,7 @@ The other reality check is the globalised nature of tech. Imagine a Rock Star de
 
 ***
 
-## Option 3. Choose a local Technical Agency 
+## Option 3. Choose a local Technical Agency
 
 The next option is using a **Local Agency** like Red Ant. The first question to ask is to meet their devs - if the response is that you can’t because they are offshore, then stop and consider option 2 instead. Unless you enjoy the process of asking someone a question, and that person needs to ask someone else, and that person asks the dev actually doing the work.
 
@@ -116,3 +116,7 @@ Chin up- it will get better! Once you get to a stable team size, this should set
 `CONS:` You’re now responsible for driving this bus. Unless you’re experienced, you may end up hiring some lemons. Or a loud, opinionated developer might make poor choices that end up costing you a lot of money and time.
 
 You'll need to be patient, and have enough runway to make this work.
+
+Need advice? 
+
+We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ "Free Initial Consult ") or [Code Review]() to discuss your options. 
