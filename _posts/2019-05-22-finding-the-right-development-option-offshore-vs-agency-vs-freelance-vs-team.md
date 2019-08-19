@@ -11,7 +11,7 @@ how_title: Online Payment System integration
 how_bulletpoints:
 - Online systems can range from simple to complex
 type: news
-permalink: software-development/hiring-a-web-development-team
+permalink: software-development/hiring-a-web-development-team/
 excerpt-short: Finding the right developer is a challenge. 4 options to consider
 excerpt-long: Finding the right developer is a challenge. 4 options to consider
 time: ''
@@ -57,7 +57,9 @@ Remember - you’re getting what you pay for. This is something which is often m
 ***
 
 <div id="anchor-1">
-<h2>Option 1. Choose a Freelancer</h2>
+
+## Option 1. Choose a Freelancer
+
 </div>
 
 Lots of people start off with a **Freelancer**. Key advantages are low obligations in terms of cost, and commitment. You might need this flexibility as you roll out your business.
@@ -71,7 +73,9 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 ***
 
 <div id="anchor-2">
-<h2>Option 2. Choose an Offshore Team</h2>
+
+## Option 2. Choose an Offshore Team
+
 </div>
 
 Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at $5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
@@ -87,7 +91,8 @@ The other reality check is the globalised nature of tech. Imagine a Rock Star de
 ***
 
 <div id="anchor-3">
-<h2>Option 3. Choose a local Technical Agency<h2>
+
+## Option 3. Choose a local Technical Agency
 
 </div>
 
@@ -107,7 +112,8 @@ The cost of offshore vs local can hard to evaluate - the local agency might do i
 ***
 
 <div id="anchor-4">
-<h2>Option 4. Build you own Web Development Team</h2>
+
+## Option 4. Build you own Web Development Team
 
 </div>
 
