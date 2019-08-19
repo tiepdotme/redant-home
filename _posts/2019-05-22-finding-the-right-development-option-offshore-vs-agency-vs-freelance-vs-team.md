@@ -57,8 +57,7 @@ Remember - you’re getting what you pay for. This is something which is often m
 ***
 
 <div id="anchor-1">
-
-## Option 1. Choose a Freelancer
+ Option 1. Choose a Freelancer
 
 </div>
 
@@ -74,7 +73,7 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 
 <div id="anchor-2">
 
-## Option 2. Choose an Offshore Team
+<h2>Option 2. Choose an Offshore Team</h2>
 
 </div>
 
