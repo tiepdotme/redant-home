@@ -7,7 +7,7 @@ categories:
 author: Ben Still
 tags: []
 time: 15 Mins Read
-title: Why choose Ruby on Rails for your next web development project
+title: Why choose Ruby on Rails?
 description: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ''
@@ -20,8 +20,6 @@ excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners 
 redirect_from: []
 
 ---
-
-
 <section id="section-intro" class="bg-black">
   <div class="container">
     <div class="row align-items-center">
