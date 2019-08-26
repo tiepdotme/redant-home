@@ -20,32 +20,7 @@ excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners 
 redirect_from: []
 
 ---
-<section id="section-intro" class="bg-black">
-<div class="container">
-<div class="row align-items-center">
-<div class="col-12">
-{% include breadcrumbs.html %}
-</div>
-<div class="col-md-8 pt-5">
-<h1 class="project-title pb-2 mw-100">
-Why choose Ruby on Rails for your next web development project
-</h1>
-<hr>
-</div>
-<div class="col-md-4 text-center">
-<img
-class="img-fluid"
-src="{{ site.data.webpack\['ruby-bg.png'\] }}"
-alt="Ruby" />
-</div>
-<div class="col-12 pt-3 pb-5">
-<p class="text-lg">
-The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options.
-</p>
-</div>
-</div>
-</div>
-</section>
+<section id="section-intro" class="bg-black"> <div class="container"> <div class="row align-items-center"> <div class="col-12"> {% include breadcrumbs.html %} </div> <div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center"> <img class="img-fluid" src="{{ site.data.webpack\['ruby-bg.png'\] }}" alt="Ruby" /> </div> <div class="col-12 pt-3 pb-5"> <p class="text-lg"> The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options. </p> </div> </div> </div> </section>
 
 <section class="bg-gray-light py-5 text-md">
 <div class="container">
