@@ -1,57 +1,71 @@
 {% if page.nav == 'navbar-aos' %}
-  <nav
-    class="navbar nav-overlay"
-    data-aos-anchor=".navbar-aos"
-    data-aos="navbar-aos"
-    data-aos-anchor-placement="bottom-bottom">
-{% else %}
+<nav
+  class="navbar nav-overlay"
+  data-aos-anchor=".navbar-aos"
+  data-aos="navbar-aos"
+  data-aos-anchor-placement="bottom-bottom"
+>
+  {% else %}
   <nav class="navbar nav-overlay">
-{% endif %}
-  <div class="container">
-    <div class="d-flex w-100">
-      <div class="">
-        <a href="/" class="navbar-brand">
-          <img class="logo" src="{{ site.data.webpack['logo.svg'] }}" alt="Red Ant logo" />
-        </a>
-      </div>
-      <div class="w-100">
-        <div class="d-flex justify-content-end align-items-center">
-          <a class="contact-us mr-3 text-sm" href="tel:+61292678300">Contact Us <strong class="d-block d-sm-inline-block">(02) 9267 8300</strong></a>
-          <div class="nav-toggle-icon float-right">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    {% endif %}
+    <div class="container">
+      <div class="d-flex w-100">
+        <div class="">
+          <a href="/" class="navbar-brand">
+            <img
+              class="logo"
+              src="{{ site.data.webpack['logo.svg'] }}"
+              alt="Red Ant logo"
+            />
+          </a>
+        </div>
+        <div class="w-100">
+          <div class="d-flex justify-content-end align-items-center">
+            <a class="contact-us mr-3 text-sm" href="tel:+61292678300"
+              >Contact Us
+              <strong class="d-block d-sm-inline-block"
+                >(02) 9267 8300</strong
+              ></a
+            >
+            <div class="nav-toggle-icon float-right">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container nav-links mx-4 mx-md-auto">
-    <ul class="links">
-      <li>
-        <a href="/" class="home-link">Home</a>
-      </li>
-      <li>
-        <a href="/about/" class="about-link">About Red Ant</a>
-      </li>
-      <li>
-        <a href="/our-approach/" class="our-approach-link">Our Approach</a>
-      </li>
-      <li>
-        <a href="/portfolio/" class="portfolio-link">Portfolio</a>
-      </li>
-      <li>
-        <a href="/blog/" class="news-and-ideas-link">Blog</a>
-      </li>
-      <li>
-        <a href="/jobs/" class="jobs-link">Careers</a>
-      </li>
-      <li>
-        <a href="/contact-us/">Contact</a>
-      </li>
-    </ul>
-  </div>
+    <div class="container nav-links mx-4 mx-md-auto">
+      <ul class="links">
+        <li>
+          <a href="/" class="home-link">Home</a>
+        </li>
+        <li>
+          <a href="/about/" class="about-link">About Red Ant</a>
+        </li>
+        <li>
+          <a href="/our-approach/" class="our-approach-link">Our Approach</a>
+        </li>
+        <li>
+          <a href="/portfolio/" class="portfolio-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="/technology/">Technology and Integrations</a>
+        </li>
+        <li>
+          <a href="/blog/" class="news-and-ideas-link">Blog</a>
+        </li>
+        <li>
+          <a href="/jobs/" class="jobs-link">Careers</a>
+        </li>
+        <li>
+          <a href="/contact-us/">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="nav-spacer"></div>
 </nav>
-<div class="nav-spacer"></div>
