@@ -23,10 +23,10 @@ $project-colors: (
   tribe: #b0f,
   move: #bdd736,
   voome: #00ffa8,
-  whats-on: #00a1df,
+  whats-on: #666,
   mentor: #ba0970,
   yates: #8cc63f,
-  managed: #7109d2
+  managed: #7109d2,
 );
 
 $about-red: #df4040;
@@ -39,7 +39,7 @@ $slide-footer-height: 400px;
 
 $font-size-base: 1.05rem;
 $headings-font-weight: 700;
-$font-family-sans-serif: proxima-nova, "Helvetica Neue", Helvetica, Arial,
+$font-family-sans-serif: proxima-nova, 'Helvetica Neue', Helvetica, Arial,
   sans-serif;
 
-$fa-font-path: "~font-awesome/fonts";
+$fa-font-path: '~font-awesome/fonts';
