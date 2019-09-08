@@ -37,6 +37,7 @@
 .portfolio-tile {
   display: block;
   position: relative;
+  margin-bottom: $grid-gutter-width / 2;
   color: $white;
   overflow: hidden;
 
@@ -53,8 +54,7 @@
 
   &.bg-voome,
   &.bg-move,
-  &.bg-beautyheaven,
-  &.bg-momentum {
+  &.bg-beautyheaven {
     color: #212529;
 
     .hr-wrapper {
@@ -108,7 +108,7 @@
   border-bottom: 2px solid $gray-smoke;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
