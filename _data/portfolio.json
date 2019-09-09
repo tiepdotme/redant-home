@@ -1,5 +1,7 @@
 {
   "order": [
+    "matrix-education",
+    "sydney-trains",
     "12wbt",
     "managed",
     "tribe-influencer-marketplace",
@@ -31,6 +33,6 @@
     "move",
     "nikon",
     "ray-white-accelerate",
-    "rotacota",
+    "rotacota"
   ]
 }
