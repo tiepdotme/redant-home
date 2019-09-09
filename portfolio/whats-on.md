@@ -1,25 +1,25 @@
 ---
 layout: project
-theme: whatson
+theme: whats-on
 slug: whats-on
 title: City of Sydney What's On
 tagline: Whats On in Sydney
 description: An events site for our local City of Sydney council.
 project_url: http://whatson.cityofsydney.nsw.gov.au
 client: City Of Sydney
-project_date: "2013"
+project_date: '2013'
 technologies:
-- Ruby on Rails
-- MySQL
+  - Ruby on Rails
+  - MySQL
 images:
-- filename: whats-on-1.jpg
-- filename: whats-on-2.jpg
-- filename: whats-on-3.jpg
+  - filename: whats-on-1.jpg
+  - filename: whats-on-2.jpg
+  - filename: whats-on-3.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
 ---
+
 #### Project Description
 
 What’s On is no ordinary events website. To maximise engagement with the many different communities within the City of Sydney, we built a customised event listing function, allowing organisers to submit their events directly to the website. Visitors can browse events listings via a range of search tools, to find local events, free events and more.
