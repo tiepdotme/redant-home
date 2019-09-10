@@ -23,6 +23,15 @@ fields:
   label: description
   config:
     required: true
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short_description
 - type: text
   name: slug
   label: slug
