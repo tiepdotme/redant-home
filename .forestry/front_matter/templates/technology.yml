@@ -8,6 +8,22 @@ fields:
   config:
     required: true
   default: technology
+- name: type
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - technology
+    - integration
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+  description: Determines which subcategory this item belongs to in the technology
+    list
 - type: text
   name: title
   label: title
