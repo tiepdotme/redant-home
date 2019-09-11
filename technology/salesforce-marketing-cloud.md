@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Integration
 title: Salesforce Marketing Cloud
 subtitle: We're experts in integrating Salesforce
 description: Salesforce Marketing Cloud is a powerful messaging platform that can be used to create customer journeys or send specific messages. It can do pretty much anything in terms of customer engagement.

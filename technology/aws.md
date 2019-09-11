@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Integration
 title: Amazon Web Services (AWS)
 subtitle: We’re AWS integration Experts
 description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups integrate their apps with AWS.

@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Integration
 title: Projectt
 subtitle: We’re Projectt integration Experts
 description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups to integrate their apps with Projectt.

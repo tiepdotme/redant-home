@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Technology
 title: Kubernetes
 subtitle: We’re Kubernetes Experts
 description: Red Ant is a leading, Australian based team of Docker Developers. We’ve worked with hundreds of companies and startups to build out their Ruby on Rails apps.

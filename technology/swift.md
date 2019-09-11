@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Technology
 title: Swift
 subtitle: We’re native iOS development experts
 description: Red Ant is a leading, Australian based team of Swift iOS Developers. We’ve worked with multiple companies and startups to build out their native Swift iOS apps.

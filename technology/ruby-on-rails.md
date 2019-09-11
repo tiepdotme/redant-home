@@ -1,5 +1,6 @@
 ---
 layout: technology
+type: Technology
 title: Ruby on Rails
 subtitle: We’re Ruby on Rails Experts
 description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups to build out their Ruby on Rails apps.
