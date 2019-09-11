@@ -10,10 +10,13 @@ const init = $(function() {
         columns: columns,
         margin: 20,
         breakAt: {
-          700: {
-            columns: columnsSmall
-          }
-        }
+          768: {
+            columns: parseInt(columnsSmall),
+          },
+          576: {
+            columns: 1,
+          },
+        },
       });
     }
   }

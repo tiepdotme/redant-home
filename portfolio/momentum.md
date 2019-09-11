@@ -9,16 +9,16 @@ project_url: https://momentumforbusiness.com.au
 project_date: 2017-now
 team_size: 2 people
 technologies:
-- Kubernetes on AWS
-- Ruby on Rails
-- Stripe
+  - Kubernetes
+  - Amazon Web Services (AWS)
+  - Ruby on Rails
+  - Stripe Payments
 images: []
 client: ''
 project_type: ''
 lines_of_code: ''
-
 ---
-#### Project Description
 
+#### Project Description
 
 A learning platform targetted at small business. There are a series of courses that help them improve their business.

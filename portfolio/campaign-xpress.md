@@ -13,7 +13,8 @@ client: CAMPAIGNxpress
 project_date: 2017 - now
 desktop_img_height: 450
 technologies:
-  - Kubernetes on AWS
+  - Kubernetes
+  - Amazon Web Services (AWS)
   - Ruby on Rails
   - Delayed Job
   - MyDesktop API integration

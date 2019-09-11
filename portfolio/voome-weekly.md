@@ -14,7 +14,7 @@ technologies:
 - AngularJS
 - Salesforce Marketing Cloud
 - Redis
-- Elastic Search
+- Elasticsearch
 - BigQuery
 - Chargify
 - Wordpress

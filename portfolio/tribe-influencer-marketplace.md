@@ -9,27 +9,26 @@ project_url: http://www.tribegroup.co/
 client: Tribe Group
 project_date: 2015-2016
 technologies:
-- Ruby on Rails
-- PostgreSQL
-- Swift
-- Sendgrid
-- Social API integrations
-- Stripe
+  - Ruby on Rails
+  - PostgreSQL
+  - Swift
+  - Sendgrid
+  - Social API integrations
+  - Stripe Payments
 team_size: 4 people
 desktop_img_height: 646
 images:
-- filename: tribe-influencer-marketplace-1.jpg
-- filename: tribe-influencer-marketplace-2.jpg
-- filename: tribe-influencer-marketplace-3.jpg
-- filename: tribe-influencer-marketplace-4.jpg
+  - filename: tribe-influencer-marketplace-1.jpg
+  - filename: tribe-influencer-marketplace-2.jpg
+  - filename: tribe-influencer-marketplace-3.jpg
+  - filename: tribe-influencer-marketplace-4.jpg
 project_type: ''
 lines_of_code: ''
-
 ---
+
 #### How it works
 
 Marketing is changing. If you have something to sell, rather than engaging a media agency to buy consumer’s attention, you can now work directly with influential “micro influencers” using Social. Tribe is a market place tool that facilitates this.
-
 
 Tribe is an online influencer marketplace. As a brand, you can publish a brief and influencers will respond with ideas and proposals. You pick the one(s) that best fit your message. As an influencer, you’ll get to pick who you want to work with, get paid to come up with ideas and push posts to your followers.
 We built this marketplace, which connects the two groups. It handles everything from ideation and briefing through to payment.
@@ -57,6 +56,6 @@ Anyway, the whole point of the Tribe Marketplace is to help brands connect with 
 
 In terms of the technical stuff:
 
-* Most of the heavy lifting is done by a Ruby on Rails backend, which has various APIs
-* There is a RoR front end, which is where users set up their accounts, load briefs etc
-* There are separate phone front ends (eg: iOS) that users can use to respond to briefs etc
+- Most of the heavy lifting is done by a Ruby on Rails backend, which has various APIs
+- There is a RoR front end, which is where users set up their accounts, load briefs etc
+- There are separate phone front ends (eg: iOS) that users can use to respond to briefs etc

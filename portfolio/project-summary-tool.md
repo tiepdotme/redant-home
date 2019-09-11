@@ -9,21 +9,23 @@ project_url: ''
 client: Internal tool
 project_date: 2017-now
 technologies:
-- Ruby on Rails
-- Postgres
-- Kubernetes on AWS
-- Stripe
+  - Ruby on Rails
+  - Postgres
+  - Kubernetes
+  - Amazon Web Services (AWS)
+  - Stripe Payments
+  - Jira
 images:
-- filename: pst-1.jpg
-- filename: pst-2.jpg
-- filename: pst-3.jpg
-- filename: pst-4.jpg
-- filename: pst-5.jpg
+  - filename: pst-1.jpg
+  - filename: pst-2.jpg
+  - filename: pst-3.jpg
+  - filename: pst-4.jpg
+  - filename: pst-5.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
 ---
+
 #### Project Description
 
 Projectt is a tool we've created to use internally, but we now sell as a Saas product. It’s a tool that came about as a bit of an indulgence - we wanted to be better at what we do, and we decided to build something to help with that. What happened next will blow your mind.

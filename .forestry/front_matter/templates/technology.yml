@@ -18,11 +18,12 @@ fields:
     - Integration
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: type
-  description: Determines which subcategory this item belongs to in the technology
+  description:
+    Determines which subcategory this item belongs to in the technology
     list
 - type: text
   name: title
@@ -39,7 +40,7 @@ fields:
   label: description
   config:
     required: true
-- name: short_description
+- name: listing_description
   type: textarea
   default: ''
   config:
@@ -47,7 +48,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: short_description
+  label: listing_description
 - type: text
   name: slug
   label: slug
@@ -78,4 +79,19 @@ fields:
     source:
       type: documents
 pages:
-- technology/salesforce-marketing-cloud.md
+  - technology/assembly.md
+  - technology/aws.md
+  - technology/docker.md
+  - technology/elastic-search.md
+  - technology/heroku.md
+  - technology/jira.md
+  - technology/kubernetes.md
+  - technology/mySQL.md
+  - technology/projectt.md
+  - technology/reactJS.md
+  - technology/ruby-on-rails.md
+  - technology/salesforce-marketing-cloud.md
+  - technology/stripe-payments.md
+  - technology/swift.md
+  - technology/tableau.md
+  - technology/twilio.md

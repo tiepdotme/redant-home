@@ -4,30 +4,31 @@ theme: nps
 slug: nps-medicinewise
 title: NPS Medicinewise
 tagline: A reliable online resource for drug and health information
-description: Making Australia more medicine wise, through digital health and data
-  insights, health professional education and reliable health information for consumers.
+description: Making Australia more medicine wise, through digital health and data insights, health professional education and reliable health information for consumers.
 project_url: https://www.nps.org.au/
 client: NPS Medicinewise
 technologies:
-- Ruby on Rails
-- Scrivito CMS
-- PostgreSQL
-- WAVE visually impaired testing tool as part of CI build chain
+  - Amazon Web Services (AWS)
+  - Ruby on Rails
+  - Scrivito CMS
+  - PostgreSQL
+  - WAVE visually impaired testing tool as part of CI build chain
 project_date: 2015-17
 images:
-- filename: nps-medicinewise-1.jpg
-- filename: nps-medicinewise-2.jpg
-- filename: nps-medicinewise-3.jpg
-- filename: nps-medicinewise-4.jpg
+  - filename: nps-medicinewise-1.jpg
+  - filename: nps-medicinewise-2.jpg
+  - filename: nps-medicinewise-3.jpg
+  - filename: nps-medicinewise-4.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
 ---
+
 #### Project Description
+
 NPS provides free, independent, evidence-based info on medicines, health conditions & medical tests for health professionals & consumers. Over 7 million Australians are aware of NPS MedicineWise, and the website had 13 million visits in the 2016-17 financial year.
 
-Red Ant were engaged by NPS in 2015 as part of their wider digital transformation.  Our task was to automate the process of ingesting data into the system, allowing the process to scale, as well fast tracking turnaround time on content updates to minutes rather than days.
+Red Ant were engaged by NPS in 2015 as part of their wider digital transformation. Our task was to automate the process of ingesting data into the system, allowing the process to scale, as well fast tracking turnaround time on content updates to minutes rather than days.
 
 The NPS site relies on several sources of data including the Australian Prescriber journal, the [Medicine Finder](https://www.nps.org.au/medical-info/medicine-finder/), and MedicineInsight data.
 
@@ -49,7 +50,7 @@ Often when people are faced with a requirement:
 _"I have/want a web site with lots of content that my team can edit"_
 they start looking for the best CMS. Google that and you'll get a billion options and opinions. Some are free, while others are eye-watering-ly expensive. What about Wordpress, what about Adobe, what about SiteCore? Move past the hype, and they are all remarkably similar- you edit some content, click save, and it appears on a page.
 
-One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of __CMS platforms__ - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
+One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of **CMS platforms** - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
 
 There is another type of CMS, sometimes called <i>Headless CMS</i>. Examples being <a href="https://scrivito.com/features">Scrivito</a> and <a href="https://www.contentful.com/">Contentful</a>. These are a bit more flexible (and we are big fans). You develop your code to do whatever it needs to do, and then sprinkle some CMS on pages or blocks of content as required.
 

@@ -11,19 +11,20 @@ project_date: 2017-now
 team_size: 5 people
 lines_of_code: 400k+
 technologies:
-- Kubernetes on AWS
-- Sendgrid
-- Ruby on Rails
-- React
-- Sidekiq
-- Assembly
-- MoneyTech
-- ReactJS
-- Refile
+  - Kubernetes
+  - Amazon Web Services (AWS)
+  - Sendgrid
+  - Ruby on Rails
+  - React
+  - Sidekiq
+  - Assembly
+  - MoneyTech
+  - ReactJS
+  - Refile
 images: []
 project_type: ''
-
 ---
+
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.
 
 In broad terms the platform covers
