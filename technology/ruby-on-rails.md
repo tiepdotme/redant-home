@@ -3,6 +3,7 @@ layout: technology
 title: Ruby on Rails
 subtitle: We’re Ruby on Rails Experts
 description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups to build out their Ruby on Rails apps.
+listing_description: 'Ruby on Rails is an open source development framework. Ruby on Rails helps developers create web applications quickly, much faster and more reliably. This saves time and money, and improves ongoing maintenance. We’re well known for our Ruby on Rails work - we’ve worked with hundreds of companies and startups to build out their Ruby on Rails apps.'
 slug: ruby-on-rails
 projects:
   - 12wbt
@@ -32,7 +33,7 @@ projects:
   - rotacota
   - voome-weekly
   - voome-programs
-image: "/assets/uploads/2019/rails.png"
+image: '/assets/uploads/2019/rails.png'
 how_title: Ruby developers
 how_bulletpoints:
   - We’ve got a ton of Ruby on Rails experience

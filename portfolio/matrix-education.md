@@ -15,6 +15,7 @@ technologies:
   - ReactJS
   - CSS
   - HTML
+  - Stripe Payments
 images:
   - filename: matrix-education-1.jpg
 project_type: ''

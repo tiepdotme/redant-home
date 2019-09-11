@@ -27,20 +27,16 @@ How about if I explain us a bit more:
 
 4. We work with nice people as our clients. Life is too short to work with dickheads.
 
-
 OK- so that was a few general things. In terms of specifics, we:
 
-* use the usual suspects of Jira, Github and Flowdock
-* use Travis for CI
-* use things like Redis, Elastic Search, and Neo-4J quite a bit
-* try to find that sweet spot between too few tests and fragile over tested code
-* code review PRs before they are merged, and have a pretty tight release flow
-* aim for 12 factor in all our work
-
+- use the usual suspects of Jira, Github and Flowdock
+- use Travis for CI
+- use things like Redis, Elasticsearch, and Neo-4J quite a bit
+- try to find that sweet spot between too few tests and fragile over tested code
+- code review PRs before they are merged, and have a pretty tight release flow
+- aim for 12 factor in all our work
 
 In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
-
-
 
 The things we make are typically large web applications, which we call <a href="/digital-products/">digital products</a>. Have a look at our <a href="/portfolio/">portfolio</a> to get a better idea of the some of the projects we work on.
 

@@ -1,18 +1,22 @@
 ---
 layout: default
 permalink: /technology/
-title: Technologies we work in
+title: Technologies and Integrations we work with
 description: Technologies we work in - Ruby on Rails, React, Javascript, Swift iOS
 keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
 ---
-<header id="section-intro" class="ga-section dark-header padded-section bg-code-review">
+
+<header
+  id="section-intro"
+  class="ga-section dark-header padded-section bg-code-review"
+>
   <div class="container">
     <div class="row">
       <div class="col-md-9 py-3">
-        <h1 class="text-xl py-3">Technology</h1>
-        <hr>
+        <h1 class="text-xl py-3">Technology and Integrations</h1>
+        <hr />
         <p class="text-md">
-          Technologies we work in
+          Technologies and Integrations we work with
         </p>
       </div>
     </div>
@@ -21,30 +25,28 @@ keywords: Technologies, Ruby on Rails, React, Javascript, Swift iOS
 
 <section class="ga-section py-5">
   <div class="container">
-    <div class="row">
-      {% for slug in site.data.technology.order %}
-        {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
-          <div class="col-md-3">
-            <a href="{{ page.url }}" class="portfolio-tile text-black mb-0">
-              <div class="content px-2 mb-2">
-                <div class="row">
-                  <div class="col-4 col-md-12">
-                    <div
-                      class="technology-image-preview rounded-circle mb-4"
-                      style="background-image: url('{{ page.image }}')">
-                    </div>
-                  </div>
-                  <div class="col-8 col-md-12">
-                    <h5>{{ page.title }}</h5>
-                    <p class="post-content">{{ page.description }}</p>
-                  </div>
-                </div>
-              </div>
+    <div id="macy-container" data-columns="3" data-columns-small="2">
+      {% for slug in site.data.technology.order %} {% assign pages = site.pages
+      | where:'slug', slug %} {% for page in pages %}
+      <div class="portfolio-tile text-black mb-0">
+        <div class="row content px-2 mb-2">
+          <div class="col-4 col-sm-12">
+            <a href="{{ page.url }}" class="mb-0">
+              <div
+                class="technology-image-preview rounded-circle mb-4"
+                style="background-image: url('{{ page.image }}'); margin: auto"
+              ></div>
             </a>
           </div>
-        {% endfor %}
-      {% endfor %}
+          <div class="col-8 col-sm-12">
+            <a href="{{ page.url }}" class="portfolio-tile text-black mb-0">
+              <h5>{{ page.title }}</h5>
+            </a>
+            <p>{{ page.listing_description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </section>

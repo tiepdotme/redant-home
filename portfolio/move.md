@@ -10,17 +10,18 @@ client: Outdoor Media Association
 project_date: 2017-now
 team_size: 4 people
 technologies:
-- lastic Search
-- Sidekiq
-- PostgeSQL
-- Ruby on Rails
-- Kubernetes on AWS
+  - lastic Search
+  - Sidekiq
+  - PostgeSQL
+  - Ruby on Rails
+  - Kubernetes
+  - Amazon Web Services (AWS)
 images: []
 project_type: ''
 lines_of_code: ''
 published: false
-
 ---
+
 From the press release:
 
 #### Development of Out of Home Industry’s Automated Proposal Platform commences

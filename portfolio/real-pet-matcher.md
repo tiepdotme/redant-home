@@ -4,29 +4,29 @@ theme: petmatcher
 slug: real-pet-matcher
 title: Real Pet Matcher
 tagline: Find your ideal fur baby
-description: A pet matching tool that helps connect people looking to adopt a pet
-  with shelters. It brings a whole new meaning to finding love online! Swipe right
-  to meet your perfect match.
+description: A pet matching tool that helps connect people looking to adopt a pet with shelters. It brings a whole new meaning to finding love online! Swipe right to meet your perfect match.
 project_url: https://www.realpetmatcher.com.au
 client: Real Pet Food Co
 project_date: 2017 - 2018
 team_size: 2 people
 technologies:
-- Ruby on Rails
-- Kubernetes on AWS
-- Google AI Machine Learning
+  - Ruby on Rails
+  - Kubernetes
+  - Amazon Web Services (AWS)
+  - Google AI Machine Learning
 images:
-- filename: real-pet-matcher-1.jpg
-- filename: real-pet-matcher-2.jpg
+  - filename: real-pet-matcher-1.jpg
+  - filename: real-pet-matcher-2.jpg
 project_type: ''
 lines_of_code: ''
-
 ---
+
 #### How it works
+
 <strong>A pet matching tool that helps connect people looking to adopt a pet with shelters. It brings a whole new meaning to finding love online! Swipe right to meet your perfect match.</strong>
 
-
 #### Project Description
+
 Real Pet Food Co is Australia’s most successful Pet Food company. Their product is really good, and they've been very successful (read about <a href="http://www.afr.com/business/banking-and-finance/milennials-pet-spending-drives-1b-sale-20171023-gz6uey">their business here</a> ). They have several brands which they are rolling out in different countries.
 
 Here's the challenge the business and brands face. The main sales channel for in-store is either large supermarkets (in Australia there are two) or specialty pet stores. Online it is the major ecomm platforms like Amazon, Alibaba and JD Mall.
