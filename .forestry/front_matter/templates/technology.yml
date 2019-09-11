@@ -14,8 +14,8 @@ fields:
   config:
     required: true
     options:
-    - technology
-    - integration
+    - Technology
+    - Integration
     source:
       type: simple
       section: 
