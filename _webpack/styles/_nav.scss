@@ -204,10 +204,7 @@
 
   @include media-breakpoint-down(sm) {
     top: 0;
-
-    &.navbar {
-      height: $navbar-height-sm;
-    }
+    height: $navbar-height-sm;
 
     .nav-links {
       padding: 15% 0;
