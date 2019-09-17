@@ -28,7 +28,7 @@
 
       &::after {
         display: block;
-        content: "";
+        content: '';
         background: #f00;
         height: 100%;
         width: 1px;
@@ -52,7 +52,7 @@
     background-color: #000;
     opacity: 0.75;
     display: block;
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -153,7 +153,7 @@
 
         &.active::before {
           background-color: $red;
-          content: "";
+          content: '';
           display: block;
           height: 4px;
           margin-left: -54px;
@@ -175,7 +175,7 @@
 
     .navbar-brand,
     .contact-us {
-      display: none;
+      display: none !important;
     }
 
     .nav-toggle-icon {
@@ -205,11 +205,15 @@
   @include media-breakpoint-down(sm) {
     top: 0;
 
+    &.navbar {
+      height: $navbar-height-sm;
+    }
+
     .nav-links {
       padding: 15% 0;
 
       .links {
-        [data-aos="nav-link"],
+        [data-aos='nav-link'],
         a {
           &::before {
             margin-top: $font-size-base * 1.4;
