@@ -22,7 +22,7 @@
   <link rel="icon" href="/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="stylesheet" href="/assets/webpack/vendor.9ab886372a49df2db72a.css" />
-  <link rel="stylesheet" href="/assets/webpack/app.cc435ceede916f7eaddf.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.bae5410ac654874d375b.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -72,8 +72,8 @@
   <nav class="navbar nav-overlay">
     
     <div class="container">
-      <div class="d-flex w-100">
-        <div class="">
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-between">
           <a href="/" class="navbar-brand">
             <img
               class="logo"
@@ -81,22 +81,41 @@
               alt="Red Ant logo"
             />
           </a>
-        </div>
-        <div class="w-100">
-          <div class="d-flex justify-content-end align-items-center">
-            <a class="contact-us mr-3 text-sm" href="tel:+61292678300"
-              >Contact Us
-              <strong class="d-block d-sm-inline-block"
-                >(02) 9267 8300</strong
-              ></a
+          <div class="d-flex justify-content-end align-items-center w-100">
+            <a
+              class="d-none d-sm-block mr-3 contact-us"
+              href="/ruby-on-rails-code-review/"
             >
-            <div class="nav-toggle-icon float-right">
+              <i class="fa fa-code"></i> Code review
+            </a>
+            <a
+              class="pl-3 mr-3 border-danger border-left d-none d-sm-block contact-us"
+              href="tel:+61292678300"
+            >
+              <i class="fa fa-phone"></i> Contact Us
+              <strong class="d-block d-sm-inline-block text-sm"
+                >(02) 9267 8300
+              </strong>
+            </a>
+            <div class="nav-toggle-icon">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
             </div>
           </div>
+        </div>
+        <div class="d-flex d-sm-none flex-row justify-content-center mt-3">
+          <a class="contact-us mr-3 text-sm" href="/ruby-on-rails-code-review/">
+            <i class="fa fa-code"></i> Code review
+          </a>
+          <a
+            class="contact-us pl-3 mr-3 border-danger border-left text-sm"
+            href="tel:+61292678300"
+          >
+            <i class="fa fa-phone"></i> Contact Us
+            <strong class="d-inline-block text-sm">(02) 9267 8300</strong>
+          </a>
         </div>
       </div>
     </div>
@@ -117,6 +136,9 @@
         </li>
         <li>
           <a href="/technology/">Technology and Integrations</a>
+        </li>
+        <li>
+          <a href="/ruby-on-rails-code-review/">Code Review</a>
         </li>
         <li>
           <a href="/blog/" class="news-and-ideas-link">Blog</a>
@@ -318,7 +340,7 @@
 </footer>
 
     <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
-<script src="/assets/webpack/app.cc435ceede916f7eaddf.js"></script>
+<script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
   </div>
 </body>
