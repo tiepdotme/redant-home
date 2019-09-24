@@ -70,7 +70,7 @@
         font-size: 1.1em;
 
         &:hover {
-          background: darken($red, 15%);
+          background: $red-dark;
         }
       }
     }
