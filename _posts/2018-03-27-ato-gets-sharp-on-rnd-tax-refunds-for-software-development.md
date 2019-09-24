@@ -59,6 +59,6 @@ Here’s another gotcha — It’s also unlikely to encompass the entirety o
 
 Think of your software as one of the “moats” around your business. Flip the problem around — if you are investing to build your business/software, and you’re **not** innovating, how will your business be sustainable?
 
-<http://www.afr.com/leadership/entrepreneur/industry-of-ripoffs-ato-warns-on-software-development-rd-claims-20170222-guijm5>
+[http://www.afr.com/leadership/entrepreneur/industry-of-ripoffs-ato-warns-on-software-development-rd-claims-20170222-guijm5](http://www.afr.com/leadership/entrepreneur/industry-of-ripoffs-ato-warns-on-software-development-rd-claims-20170222-guijm5)
 
-<https://www.ato.gov.au/Business/Research-and-development-tax-incentive/>
+[https://www.ato.gov.au/Business/Research-and-development-tax-incentive/](https://www.ato.gov.au/Business/Research-and-development-tax-incentive/)

@@ -23,7 +23,7 @@ excerpt-long: We look at the Superbowl ad on TV vs. the Dove ad on YouTube. One 
 
 The **first bump** is traffic from the Superbowl ad, which cost around $3.75 million to run. The **second bump** is from this ad on Youtube, which ran for free:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iYhCn0jf46U?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iYhCn0jf46U?rel=0" frameborder="0" allowfullscreen layout="responsive"></iframe>
 
 The results are pretty compelling- the first spike jumps and then falters, but the Youtube is massive initially, and then appears to be gradually tapering. Keep in mind that this isn't traffic watching the video itself (that is handled on the Youtube site) - this second bump is clickthroughs from people that have seen the video, and then are interested enough to click through to the site itself.
 
