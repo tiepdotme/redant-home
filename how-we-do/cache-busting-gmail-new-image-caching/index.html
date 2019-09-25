@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,9 +67,9 @@
   
 </head>
 
-<body class="">
-  <div class="main-layout">
-    
+  <body class="">
+    <div class="main-layout">
+      
   <nav class="navbar nav-overlay">
     
     <div class="container">
@@ -155,10 +156,10 @@
   <div class="nav-spacer"></div>
 </nav>
 
-    <section class="project-content pt-3 pb-5 text-md">
-      <div class="container">
-        <div class="row mb-4">
-          <div id="breadcrumbs" class="text-capitalize mt-5">
+      <section class="project-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-4">
+            <div id="breadcrumbs" class="text-capitalize mt-5">
   
   <a href="/">Home</a>
   
@@ -172,14 +173,14 @@
   
 </div>
 
-          <div class="col-12 mt-3 pt-5">
-            <h1 class="post-title pb-2">Cache busting Gmail's new image caching</h1>
-            <hr>
+            <div class="col-12 mt-3 pt-5">
+              <h1 class="post-title pb-2">Cache busting Gmail's new image caching</h1>
+              <hr>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it <strong>breaks</strong> tracking.</p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it <strong>breaks</strong> tracking.</p>
 
 <p>A common practice in email marketing is to place “tracking” images inside html emails in order to measure who opened which email when. A very important piece of information, which can be used both legitimately and nefariously. Google sunk this practice by turning images off by default. <a href="http://arstechnica.com/information-technology/2013/12/gmail-blows-up-e-mail-marketing-by-caching-all-images-on-google-servers/">Ars Technica has a good write up of the implications (Ars Technica: Gmail blows up e-mail marketing by caching all images on Google servers)</a> for email marketers (and illegitimate spammers). But it doesn’t try to answer any questions about how the image caching works, and how to get around it.</p>
 
@@ -308,15 +309,15 @@
 
 <p>Losing the IP address means losing the closest thing we have to geographic data on email opens. There is no solution that I can think of which will allow you to obtain this information by other means directly. Javascript injection into the querystring certainly won’t work in Gmail, as their security process justifiably strips out Javascript. It may be possible to marry geographic data from clicks on the email to the open retrospectively if both the open and the click carry a common unique identifier.</p>
 
-          </div>
-          <div class="col-md-4">
-            <hr class="hr-blue my-0">
-            
-              <div class="project-detail-container section-border">
-                <p>Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.</p>
-              </div>
-            
-            <div class="row gallery-tiles">
+            </div>
+            <div class="col-md-4">
+              <hr class="hr-blue my-0">
+              
+                <div class="project-detail-container section-border">
+                  <p>Google's new image caching mechanism in Gmail is an email marketer's nightmare come true. Here's how to keep tracking your email opens in Gmail.</p>
+                </div>
+              
+              <div class="row gallery-tiles">
   
 </div>
 
@@ -344,13 +345,13 @@
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="pb-5 d-none d-sm-block" data-read-more>
-    </section>
-    
+      </section>
+      <section class="pb-5 d-none d-sm-block" data-read-more>
+      </section>
+      
   <section id="footer" class="ga-section py-5 bg-gray-light text-md">
     <div class="container">
       <div class="row">
@@ -460,9 +461,9 @@
   </div>
 </footer>
 
-    <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
+      <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
 <script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,9 +67,9 @@
   
 </head>
 
-<body class="">
-  <div class="main-layout">
-    
+  <body class="">
+    <div class="main-layout">
+      
   <nav class="navbar nav-overlay">
     
     <div class="container">
@@ -155,10 +156,10 @@
   <div class="nav-spacer"></div>
 </nav>
 
-    <section class="project-content pt-3 pb-5 text-md">
-      <div class="container">
-        <div class="row mb-4">
-          <div id="breadcrumbs" class="text-capitalize mt-5">
+      <section class="project-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-4">
+            <div id="breadcrumbs" class="text-capitalize mt-5">
   
   <a href="/">Home</a>
   
@@ -172,14 +173,14 @@
   
 </div>
 
-          <div class="col-12 mt-3 pt-5">
-            <h1 class="post-title pb-2">Manage SSL redirection in Nginx using maps, and save the universe</h1>
-            <hr>
+            <div class="col-12 mt-3 pt-5">
+              <h1 class="post-title pb-2">Manage SSL redirection in Nginx using maps, and save the universe</h1>
+              <hr>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <h2 id="the-problem">The problem</h2>
+          <div class="row">
+            <div class="col-md-8">
+              <h2 id="the-problem">The problem</h2>
 
 <p>We need to be able to enforce SSL connections (HTTPS) on some URLs. We also need to be able to enforce PLAIN connections (HTTP) on others. Further, there are some URLs which we want to just stay with whatever protocol they were requested on so they won’t redirect at all.</p>
 
@@ -189,7 +190,7 @@
 
 <p>Yes, I’m looking at <strong>you</strong> .NET developers.</p>
 
-<p><img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="100%" /></p>
+<p><img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="100%" flex-item="" /></p>
 
 <p>The wiki page on <a href="http://wiki.nginx.org/HttpMapModule">Nginx maps (Nginx HttpMapModule)</a> gives a basic example of using a map to redirect request URLs to new locations. But that is no good for us, because we explicitly want to redirect only if the protocol is not our preferred one. We also only want to redirect to the same URL, albeit over a different protocol. A basic map like that will send our client into a redirect loop. We would need two separate maps and that kind of takes us back to square one. There is also potentially a problem with making matches too broad in separate maps and causing redirect loops again, whereas a single map will match only one value. Using one map we can also take advantage of the map default. It’s complicated, so just trust me <strong>separate maps = do not want!</strong></p>
 
@@ -286,15 +287,15 @@ server {
 
 <p>If you have any questions specific to your setup, or any suggestions for improving these methods then drop a comment here.</p>
 
-          </div>
-          <div class="col-md-4">
-            <hr class="hr-blue my-0">
-            
-              <div class="project-detail-container section-border">
-                <p>A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.</p>
-              </div>
-            
-            <div class="row gallery-tiles">
+            </div>
+            <div class="col-md-4">
+              <hr class="hr-blue my-0">
+              
+                <div class="project-detail-container section-border">
+                  <p>A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.</p>
+                </div>
+              
+              <div class="row gallery-tiles">
   
 </div>
 
@@ -322,13 +323,13 @@ server {
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="pb-5 d-none d-sm-block" data-read-more>
-    </section>
-    
+      </section>
+      <section class="pb-5 d-none d-sm-block" data-read-more>
+      </section>
+      
   <section id="footer" class="ga-section py-5 bg-gray-light text-md">
     <div class="container">
       <div class="row">
@@ -438,9 +439,9 @@ server {
   </div>
 </footer>
 
-    <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
+      <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
 <script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>

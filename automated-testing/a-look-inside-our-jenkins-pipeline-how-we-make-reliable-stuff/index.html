@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,9 +67,9 @@
   
 </head>
 
-<body class="">
-  <div class="main-layout">
-    
+  <body class="">
+    <div class="main-layout">
+      
   <nav class="navbar nav-overlay">
     
     <div class="container">
@@ -155,10 +156,10 @@
   <div class="nav-spacer"></div>
 </nav>
 
-    <section class="project-content pt-3 pb-5 text-md">
-      <div class="container">
-        <div class="row mb-4">
-          <div id="breadcrumbs" class="text-capitalize mt-5">
+      <section class="project-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-4">
+            <div id="breadcrumbs" class="text-capitalize mt-5">
   
   <a href="/">Home</a>
   
@@ -172,14 +173,14 @@
   
 </div>
 
-          <div class="col-12 mt-3 pt-5">
-            <h1 class="post-title pb-2">A look inside our Jenkins Pipeline - how we make reliable stuff</h1>
-            <hr>
+            <div class="col-12 mt-3 pt-5">
+              <h1 class="post-title pb-2">A look inside our Jenkins Pipeline - how we make reliable stuff</h1>
+              <hr>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else’s code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.</p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else’s code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.</p>
 
 <p>Jenkins sees a change has been made, and then grabs that version of the project, builds a completely new version of the site and content, and then starts running some automated tests. These tests make sure that each of the parts of the project work properly. Once everything passes, it gets a green light and Jenkins publishes this version of the code to a server (so us humans can take a look).</p>
 
@@ -231,15 +232,15 @@
 
 <p>Overall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with <a href="/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/">Gitflow</a></p>
 
-          </div>
-          <div class="col-md-4">
-            <hr class="hr-blue my-0">
-            
-              <div class="project-detail-container section-border">
-                <p>A quick outline of how we're using Jenkins and the Pipeline view to visualise where our builds are up to</p>
-              </div>
-            
-            <div class="row gallery-tiles">
+            </div>
+            <div class="col-md-4">
+              <hr class="hr-blue my-0">
+              
+                <div class="project-detail-container section-border">
+                  <p>A quick outline of how we're using Jenkins and the Pipeline view to visualise where our builds are up to</p>
+                </div>
+              
+              <div class="row gallery-tiles">
   
 </div>
 
@@ -267,13 +268,13 @@
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="pb-5 d-none d-sm-block" data-read-more>
-    </section>
-    
+      </section>
+      <section class="pb-5 d-none d-sm-block" data-read-more>
+      </section>
+      
   <section id="footer" class="ga-section py-5 bg-gray-light text-md">
     <div class="container">
       <div class="row">
@@ -383,9 +384,9 @@
   </div>
 </footer>
 
-    <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
+      <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
 <script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>

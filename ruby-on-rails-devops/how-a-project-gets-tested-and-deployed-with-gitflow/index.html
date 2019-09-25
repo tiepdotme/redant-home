@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,9 +67,9 @@
   
 </head>
 
-<body class="">
-  <div class="main-layout">
-    
+  <body class="">
+    <div class="main-layout">
+      
   <nav class="navbar nav-overlay">
     
     <div class="container">
@@ -155,10 +156,10 @@
   <div class="nav-spacer"></div>
 </nav>
 
-    <section class="project-content pt-3 pb-5 text-md">
-      <div class="container">
-        <div class="row mb-4">
-          <div id="breadcrumbs" class="text-capitalize mt-5">
+      <section class="project-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-4">
+            <div id="breadcrumbs" class="text-capitalize mt-5">
   
   <a href="/">Home</a>
   
@@ -172,14 +173,14 @@
   
 </div>
 
-          <div class="col-12 mt-3 pt-5">
-            <h1 class="post-title pb-2">How a project gets tested and deployed with GitFlow</h1>
-            <hr>
+            <div class="col-12 mt-3 pt-5">
+              <h1 class="post-title pb-2">How a project gets tested and deployed with GitFlow</h1>
+              <hr>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We’ve gradually changed this as weve started making bigger sites with more complex requirements.</p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We’ve gradually changed this as weve started making bigger sites with more complex requirements.</p>
 
 <p>We still check things manually in a browser, but most of the heavy lifting is done via automated tests to check each aspect of the site. Once weve published a new version, it’s hard not to have a poke around to make sure everything is there- but we’re really relying on an automated deploy process to move that from the developers desktop, through staging and on to the production server.</p>
 
@@ -224,11 +225,11 @@
 
 <p>As features are completed, they are merged back into the Develop branch, which <a href="/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/">Jenkins then automatically deploys</a> to a development server for review. Once these are all approved, we make a release and these changes get added to the master version. These then get pushed up to the live production site.</p>
 
-          </div>
-          <div class="col-md-4">
-            <hr class="hr-blue my-0">
-            
-            <div class="row gallery-tiles">
+            </div>
+            <div class="col-md-4">
+              <hr class="hr-blue my-0">
+              
+              <div class="row gallery-tiles">
   
 </div>
 
@@ -256,13 +257,13 @@
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="pb-5 d-none d-sm-block" data-read-more>
-    </section>
-    
+      </section>
+      <section class="pb-5 d-none d-sm-block" data-read-more>
+      </section>
+      
   <section id="footer" class="ga-section py-5 bg-gray-light text-md">
     <div class="container">
       <div class="row">
@@ -372,9 +373,9 @@
   </div>
 </footer>
 
-    <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
+      <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
 <script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>

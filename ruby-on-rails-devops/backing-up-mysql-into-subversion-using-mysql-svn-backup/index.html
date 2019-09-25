@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,9 +67,9 @@
   
 </head>
 
-<body class="">
-  <div class="main-layout">
-    
+  <body class="">
+    <div class="main-layout">
+      
   <nav class="navbar nav-overlay">
     
     <div class="container">
@@ -155,10 +156,10 @@
   <div class="nav-spacer"></div>
 </nav>
 
-    <section class="project-content pt-3 pb-5 text-md">
-      <div class="container">
-        <div class="row mb-4">
-          <div id="breadcrumbs" class="text-capitalize mt-5">
+      <section class="project-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-4">
+            <div id="breadcrumbs" class="text-capitalize mt-5">
   
   <a href="/">Home</a>
   
@@ -172,14 +173,14 @@
   
 </div>
 
-          <div class="col-12 mt-3 pt-5">
-            <h1 class="post-title pb-2">MySQL SVN Backup- A simple solution for small databases</h1>
-            <hr>
+            <div class="col-12 mt-3 pt-5">
+              <h1 class="post-title pb-2">MySQL SVN Backup- A simple solution for small databases</h1>
+              <hr>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>The other issue is that monolithic MySQL dumps tend to add up in size. The usual solution is to rotate out the backups and discard old ones based on what is ultimately an arbitrary schedule. When the backup you need is from eight days ago, you can be sure that you have only kept them for the last seven days. This problem can also be solved by implementing complex incremental backups or by shunting files off to cheaper storage like Amazon, but then every new step in the backup path is a new dependency or point of failure just waiting to ruin your day. Tools like <a href="http://www.nongnu.org/rdiff-backup/">rdiff-backup</a> (sometimes via <a href="https://labs.riseup.net/code/projects/backupninja">Backupninja</a>) are also used, but the stored diffs are hard to manually verify.</p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>The other issue is that monolithic MySQL dumps tend to add up in size. The usual solution is to rotate out the backups and discard old ones based on what is ultimately an arbitrary schedule. When the backup you need is from eight days ago, you can be sure that you have only kept them for the last seven days. This problem can also be solved by implementing complex incremental backups or by shunting files off to cheaper storage like Amazon, but then every new step in the backup path is a new dependency or point of failure just waiting to ruin your day. Tools like <a href="http://www.nongnu.org/rdiff-backup/">rdiff-backup</a> (sometimes via <a href="https://labs.riseup.net/code/projects/backupninja">Backupninja</a>) are also used, but the stored diffs are hard to manually verify.</p>
 
 <p>So the world needs a solution for MySQL which satisfies the 5 golden rules for simple and effective backup solutions, which I just made up:</p>
 
@@ -210,15 +211,15 @@
 
 <p><img src="/assets/uploads/2014/dolphins-with-lasers.jpg" alt="Dolphins with lasers" /></p>
 
-          </div>
-          <div class="col-md-4">
-            <hr class="hr-blue my-0">
-            
-              <div class="project-detail-container section-border">
-                <p>Introducing a simple tool for backing up small MySQL databases to Subversion. The open source script MySQL SVN Backup. Now featuring dolphins with lasers.</p>
-              </div>
-            
-            <div class="row gallery-tiles">
+            </div>
+            <div class="col-md-4">
+              <hr class="hr-blue my-0">
+              
+                <div class="project-detail-container section-border">
+                  <p>Introducing a simple tool for backing up small MySQL databases to Subversion. The open source script MySQL SVN Backup. Now featuring dolphins with lasers.</p>
+                </div>
+              
+              <div class="row gallery-tiles">
   
 </div>
 
@@ -246,13 +247,13 @@
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="pb-5 d-none d-sm-block" data-read-more>
-    </section>
-    
+      </section>
+      <section class="pb-5 d-none d-sm-block" data-read-more>
+      </section>
+      
   <section id="footer" class="ga-section py-5 bg-gray-light text-md">
     <div class="container">
       <div class="row">
@@ -362,9 +363,9 @@
   </div>
 </footer>
 
-    <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
+      <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
 <script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>
