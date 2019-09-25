@@ -20,9 +20,9 @@ excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners 
 redirect_from: []
 
 ---
-<section id="section-intro" class="bg-black"> <div class="container"> <div class="row align-items-center"> <div class="col-12"> {% include breadcrumbs.html %} </div> <div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center"> 
+<section id="section-intro" class="bg-black"> <div class="container"> <div class="row align-items-center"> <div class="col-12"> {% include breadcrumbs.html %} </div> <div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center">
 
-<img class="img-fluid" src="{{ site.data.webpack['ruby-bg.png'] }}" alt="Ruby" /> </div> <div class="col-12 pt-3 pb-5"> <p class="text-lg"> The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options. </p> </div> </div> </div> </section>
+<img class="img-fluid" src="{{ site.data.webpack['ruby-bg.png'] }}" alt="Ruby" flex-item/> </div> <div class="col-12 pt-3 pb-5"> <p class="text-lg"> The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options. </p> </div> </div> </div> </section>
 
 <section class="bg-gray-light py-5 text-md">
 <div class="container">
@@ -278,19 +278,19 @@ The core Ruby on Rails team is remarkably stable, both in makeup and their relea
 A lot of effort and planning goes into providing backward compatibility and support for older versions. The code base is remarkably stable, and the various changes between each version are clearly explained and reasoned. This is in contrast to some open source projects where a small, immature core team decided to “flip the table” and do radical change.
 </p>
 
-<h4 id="Is Ruby right for you?">Is Ruby right for you?</h4> 
+<h4 id="Is Ruby right for you?">Is Ruby right for you?</h4>
 
-<p> 
+<p>
 
-You're probably wondering if Ruby is right for your project. While there are many good reasons to choose Ruby it will ultimately depend on your specific goals and resources. If you're just getting started why not book in for a <a href="https://redant.com.au/free-initial-consult-code-review/" title="https://redant.com.au/free-initial-consult-code-review/">free initial consultation</a> to talk about your plans. If you already have an existing website, book in for a <a href="https://redant.com.au/ruby-on-rails-code-review/" title="https://redant.com.au/ruby-on-rails-code-review/">code review</a> to explore the strengths and options for your existing development. Helping start ups and existing companies understand their development options is what we do best. 
+You're probably wondering if Ruby is right for your project. While there are many good reasons to choose Ruby it will ultimately depend on your specific goals and resources. If you're just getting started why not book in for a <a href="https://redant.com.au/free-initial-consult-code-review/" title="https://redant.com.au/free-initial-consult-code-review/">free initial consultation</a> to talk about your plans. If you already have an existing website, book in for a <a href="https://redant.com.au/ruby-on-rails-code-review/" title="https://redant.com.au/ruby-on-rails-code-review/">code review</a> to explore the strengths and options for your existing development. Helping start ups and existing companies understand their development options is what we do best.
 
 </p>
 
-</div> 
+</div>
 
-</div> 
+</div>
 
-</div> 
+</div>
 
 </section>
 

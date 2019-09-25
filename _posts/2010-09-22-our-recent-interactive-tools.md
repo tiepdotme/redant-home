@@ -20,7 +20,7 @@ redirect_from:
 
 #### Yates Virtual Garden
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KHiiLHpYip4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KHiiLHpYip4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
 [![Example 1](/assets/uploads/2010/yates-virtual-garden-1-thumb.jpg)](/assets/uploads/2010/yates-virtual-garden-1.jpg)
 
@@ -32,7 +32,7 @@ Yates Virtual Garden allows you to plan out your garden and see what fits where.
 
 #### Huggies Baby Room Decorator
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SpGERxD2IAo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpGERxD2IAo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
 [![Example 1](/assets/uploads/2010/huggies-baby-room-1-thumb.jpg)](/assets/uploads/2010/huggies-baby-room-1.jpg)
 
@@ -44,12 +44,12 @@ The Baby Room decorator is a 3d modelling tool that allows you to plan out your 
 
 #### Huggies Baby Eye Colour Predictor
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fImZMJcm89M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fImZMJcm89M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
 Use this tool to work out what the chance is of your baby having blue, green or brown eyes. Or perhaps something else [Try Huggies Baby Eye Colour Predictor](https://www.huggies.com.au/pregnancy/early-stages/eye-colour)
 
 #### Huggies Kids Height Calculator
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tcyk5f5NxU4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tcyk5f5NxU4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
 Use this tool to see how tall your child will grow. [Try Huggies Kids Height Calculator](https://www.huggies.com.au/pregnancy/early-stages/height)
