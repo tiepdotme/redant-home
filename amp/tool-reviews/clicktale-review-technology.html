@@ -161,23 +161,31 @@
 <p>A few of the ways it can be different:</p>
 
 <ul>
-  <li><strong>Prompts or hints:</strong> if your site has forms with validation or prompts using javascript, these won’t appear (so like we did, you’ll think something has broken for that user when you see the replay)</li>
-  <li><strong>Conditional fields:</strong> (eg: if I have children, ask how many) if the form shows or hides questions based on what you’ve filled in this will seem like the logic doesn’t work</li>
-  <li><strong>Menus:</strong> your site might use menus that expand out from the top of the page. These won’t appear since they use javascript, and your user will look like they are clicking on whatever is directly below the top of the page- which can be misleading.</li>
-  <li><strong>AJAX:</strong> if the form uses Ajax to check something (eg: test if that username already exists), this won’t appear. So the user might be seeing a message, but when you’re looking over their shoulder with Clicktale, all you’ll see is a mysterious blank space and a pause. Or possibly a completely different screen.</li>
-  <li><strong>Prefilling some fields:</strong> if your form is prefilled based on information from a previous screen, this just won’t appear. In the <a href="http://twitter.com">Twitter example</a> , the user fills out name and email on the first page, and then goes to a signup page. Via Clicktale youll get the impression that somehow a user is able to submit the signup page without adding name and email</li>
-  <li><strong>POST forms:</strong> a form can use either POST or GET. POST is generally used for sensitive information like name, email etc, but Clicktale can only use GET. Clicktales (very lean) help document most helpfully suggests as a way of resolving this to simply convert your forms to GET (at which point I was thinking of a word beginning with F that I could tell them to put after get).</li>
-  <li><strong>Multiple step forms:</strong> you might have your form split over several pages, and POST information from one page to the next. This is pretty common, but it seems to completely confuse Clicktale and mouse tracking data from one page will appear on another</li>
-  <li><strong>Cookies:</strong> if your process uses cookies or session information, this won’t come through. Clicktale will show you a cookie-less version, which might be radically different to what your user was served.</li>
+  <li>
+<strong>Prompts or hints:</strong> if your site has forms with validation or prompts using javascript, these won’t appear (so like we did, you’ll think something has broken for that user when you see the replay)</li>
+  <li>
+<strong>Conditional fields:</strong> (eg: if I have children, ask how many) if the form shows or hides questions based on what you’ve filled in this will seem like the logic doesn’t work</li>
+  <li>
+<strong>Menus:</strong> your site might use menus that expand out from the top of the page. These won’t appear since they use javascript, and your user will look like they are clicking on whatever is directly below the top of the page- which can be misleading.</li>
+  <li>
+<strong>AJAX:</strong> if the form uses Ajax to check something (eg: test if that username already exists), this won’t appear. So the user might be seeing a message, but when you’re looking over their shoulder with Clicktale, all you’ll see is a mysterious blank space and a pause. Or possibly a completely different screen.</li>
+  <li>
+<strong>Prefilling some fields:</strong> if your form is prefilled based on information from a previous screen, this just won’t appear. In the <a href="http://twitter.com">Twitter example</a> , the user fills out name and email on the first page, and then goes to a signup page. Via Clicktale youll get the impression that somehow a user is able to submit the signup page without adding name and email</li>
+  <li>
+<strong>POST forms:</strong> a form can use either POST or GET. POST is generally used for sensitive information like name, email etc, but Clicktale can only use GET. Clicktales (very lean) help document most helpfully suggests as a way of resolving this to simply convert your forms to GET (at which point I was thinking of a word beginning with F that I could tell them to put after get).</li>
+  <li>
+<strong>Multiple step forms:</strong> you might have your form split over several pages, and POST information from one page to the next. This is pretty common, but it seems to completely confuse Clicktale and mouse tracking data from one page will appear on another</li>
+  <li>
+<strong>Cookies:</strong> if your process uses cookies or session information, this won’t come through. Clicktale will show you a cookie-less version, which might be radically different to what your user was served.</li>
 </ul>
 
 <p>None of these are particularly obscure or unusual elements for a web site to have- in fact I’d be surprised if most sites other than a basic static brochureware site wouldn’t use at least a few of these.</p>
 
 <p>If it’s still unclear as to why this would be a problem, here is what I’d see if I used Clicktale to analyse how people are using the <a href="http://www.bookdepository.com/basket">Bookdepository checkout process</a>. As you can see the two screens are quite different. The Clicktale playback will still merrily animate a mouse cursor moving around, but as you can see the image would be completely wrong and misleading. Likewise for the various heatmaps and reports.</p>
 
-<p>What a real user sees: <img src="/assets/uploads/2012/clicktale-basket.png" alt="" /></p>
+<p>What a real user sees: <amp-img src="/assets/uploads/2012/clicktale-basket.png" alt="" layout="responsive"><noscript><img src="/assets/uploads/2012/clicktale-basket.png" alt=""></noscript></amp-img></p>
 
-<p>and what you’ll see in the Clicktale report: <img src="/assets/uploads/2012/clicktale-basket-none.png" alt="" /></p>
+<p>and what you’ll see in the Clicktale report: <amp-img src="/assets/uploads/2012/clicktale-basket-none.png" alt="" layout="responsive"><noscript><img src="/assets/uploads/2012/clicktale-basket-none.png" alt=""></noscript></amp-img></p>
 
 <p>Which is puzzling, because on the Clicktale site there are a lot of testimonials gushing about this amazing insight into behaviour which improves shopping and conversions. I’m not really sure how many of these sites don’t use some sort of cookie or session information to facilitate a checkout process.</p>
 
@@ -202,10 +210,14 @@
 <p>Other issues we hit:</p>
 
 <ul>
-  <li><strong>privacy:</strong> this is essentially a <a href="http://en.wikipedia.org/wiki/Keystroke_logging">key stroke logger</a>. Yes, the same thing that evil hackers use to discover peoples passwords. Every key stroke is captured and stored in Clicktale. There is an option to hide data like credit cards, but from what we’ve been able to gather this doesn’t mean it isn’t collected, only that it can be hidden during playback. The data is still sent and stored. If people can buy things or submit sensitive information on your site, then it is worth understanding the implications of tracking and storing this kind of information (more <a href="http://chargify.com/blog/what-you-need-to-know-about-pci/">information on PCI here</a> ). At the very least you should adjust your site privacy policy and make sure you are covered- your lawyer may well have a hissy fit when you explain that all customer data is being copied to some 3rd party server.</li>
-  <li><strong>speed:</strong> remember that every additional tag you add slows your site down. Some tags are faster (eg: Google Analytics) than others. If you think asynch solves this you’re not getting the problem. Not only does it fire off some javascript each time, Clicktale has the added bonus of then triggering a bot visit. If speed is important, avoid sticking these tags everywhere.</li>
-  <li><strong>averages which aren’t:</strong> depending on the budget you’ve allocated, Clicktale will only record a certain number of visits a day. Once this runs out, the results won’t appear in your report. So if you’re trying to look at average behaviour, time of day may influence your findings.</li>
-  <li><strong>tracking where people click:</strong> there are lots of tools out there that do this pretty well. Google Analytics anyone?</li>
+  <li>
+<strong>privacy:</strong> this is essentially a <a href="http://en.wikipedia.org/wiki/Keystroke_logging">key stroke logger</a>. Yes, the same thing that evil hackers use to discover peoples passwords. Every key stroke is captured and stored in Clicktale. There is an option to hide data like credit cards, but from what we’ve been able to gather this doesn’t mean it isn’t collected, only that it can be hidden during playback. The data is still sent and stored. If people can buy things or submit sensitive information on your site, then it is worth understanding the implications of tracking and storing this kind of information (more <a href="http://chargify.com/blog/what-you-need-to-know-about-pci/">information on PCI here</a> ). At the very least you should adjust your site privacy policy and make sure you are covered- your lawyer may well have a hissy fit when you explain that all customer data is being copied to some 3rd party server.</li>
+  <li>
+<strong>speed:</strong> remember that every additional tag you add slows your site down. Some tags are faster (eg: Google Analytics) than others. If you think asynch solves this you’re not getting the problem. Not only does it fire off some javascript each time, Clicktale has the added bonus of then triggering a bot visit. If speed is important, avoid sticking these tags everywhere.</li>
+  <li>
+<strong>averages which aren’t:</strong> depending on the budget you’ve allocated, Clicktale will only record a certain number of visits a day. Once this runs out, the results won’t appear in your report. So if you’re trying to look at average behaviour, time of day may influence your findings.</li>
+  <li>
+<strong>tracking where people click:</strong> there are lots of tools out there that do this pretty well. Google Analytics anyone?</li>
 </ul>
 
 <p>At the end of the day, Clicktale wasn’t really a great fit. Were trying a more pragmatic approach - solve real problems rather than using a tool to find problems. Some examples:</p>
@@ -214,7 +226,8 @@
   <li>using <strong>Event tracking</strong> in Google Analytics to track behaviour in the areas that were interested in (a much lighter approach, tracking what we’re specifically interested in rather than the shotgun approach of recording everything)</li>
   <li>develop scenarios or hypotheses for what a problem might be, and then ways we could work out if it actually is occurring (looking at logs and New Relic)</li>
   <li>if we see some people are having trouble with a particular the password reset, use events in GAnalytics to track frequency and evaluate that.</li>
-  <li><strong>Is there a pattern</strong> that a user in trouble might follow, eg: I’ve tried to buy the same item 5 times. When this happens maybe we could be more helpful and trigger a can we help? message or email to get more information? Or at least help the user feel that someone is there to help them.</li>
+  <li>
+<strong>Is there a pattern</strong> that a user in trouble might follow, eg: I’ve tried to buy the same item 5 times. When this happens maybe we could be more helpful and trigger a can we help? message or email to get more information? Or at least help the user feel that someone is there to help them.</li>
   <li>use physical user testing and eye tracking to understand what people are doing and where they are looking</li>
 </ul>
 

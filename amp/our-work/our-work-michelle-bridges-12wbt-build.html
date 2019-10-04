@@ -119,9 +119,12 @@
             <div class="col-12"><p>The site has a few interesting technical challenges:</p>
 
 <ul>
-  <li><strong>lots of traffic</strong> needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time</li>
-  <li><strong>lots of dynamic/interactive content</strong> on pages like member weights &amp; fitness results. This can make page caching tricky</li>
-  <li><strong>different content on different days</strong> each day new content or functionality appears, like a new video, tool or forum area</li>
+  <li>
+<strong>lots of traffic</strong> needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time</li>
+  <li>
+<strong>lots of dynamic/interactive content</strong> on pages like member weights &amp; fitness results. This can make page caching tricky</li>
+  <li>
+<strong>different content on different days</strong> each day new content or functionality appears, like a new video, tool or forum area</li>
 </ul>
 
 <p>We used Agile methods such as stories and sprints to help with the initial build, and then tools like New Relic and Jenkins to deliver a fast and reliable site.</p>
@@ -163,7 +166,7 @@
 
 <p>If today is weigh in day, this is what you should see on your dashboard:</p>
 
-<p><img src="/assets/uploads/2012/mb-weigh-in-day.png" alt="weigh in day popup image" /></p>
+<p><amp-img src="/assets/uploads/2012/mb-weigh-in-day.png" alt="weigh in day popup image" layout="responsive"><noscript><img src="/assets/uploads/2012/mb-weigh-in-day.png" alt="weigh in day popup image"></noscript></amp-img></p>
 
 <p>Here is the story:</p>
 
@@ -236,9 +239,12 @@
 <p>Online companies like Zappos have grown massively not because they sell cheap shoes, but because they <a href="http://www.deliveringhappiness.com/">excel at customer service</a>. To try to deliver awesome member service we used:</p>
 
 <ul>
-  <li><strong>Assistly</strong> - all questions and emails come through to a member service queue that uses Assistly. Common questions get pushed to an FAQ answers page. The end users never actually see Assistly - it just hums away in the background. The 12WBT team log in and answer the questions inside Assistly, and this content then gets pushed out to the front end of the site.</li>
-  <li><strong>New Relic</strong> tracks the <a href="http://newrelic.com/">performance of the site</a>, from the amount of requests that the main application is handling through to browser load times. Anything unusual and we get an alert in Campfire and via Jira email - so we often know about issues before they get reported. We can spot trends with slow code or database queries and pick up recurring errors. This has meant site performance has been quite smooth.</li>
-  <li><strong>Jira</strong> - any payment or technical issue that does come through goes straight into <a href="http://www.atlassian.com/software/jira/overview">Jira</a> via email. Having Jira doesnt mean we solve it faster, but it does make our process more transparent and reliable. Issues get picked up quickly, and once resolved the member service team can respond immediately.</li>
+  <li>
+<strong>Assistly</strong> - all questions and emails come through to a member service queue that uses Assistly. Common questions get pushed to an FAQ answers page. The end users never actually see Assistly - it just hums away in the background. The 12WBT team log in and answer the questions inside Assistly, and this content then gets pushed out to the front end of the site.</li>
+  <li>
+<strong>New Relic</strong> tracks the <a href="http://newrelic.com/">performance of the site</a>, from the amount of requests that the main application is handling through to browser load times. Anything unusual and we get an alert in Campfire and via Jira email - so we often know about issues before they get reported. We can spot trends with slow code or database queries and pick up recurring errors. This has meant site performance has been quite smooth.</li>
+  <li>
+<strong>Jira</strong> - any payment or technical issue that does come through goes straight into <a href="http://www.atlassian.com/software/jira/overview">Jira</a> via email. Having Jira doesnt mean we solve it faster, but it does make our process more transparent and reliable. Issues get picked up quickly, and once resolved the member service team can respond immediately.</li>
 </ul>
 
 <h2 id="server-performance--testing">Server performance &amp; testing</h2>
@@ -253,10 +259,14 @@
 <p>There are lots of load testing sites and software out there, but some can give misleading results. We needed to find a load testing solution that could</p>
 
 <ul>
-  <li><strong>generate lots of traffic</strong> that could go through the site and follow a path through the site. Many load tools will send traffic which is all hitting the same version of the page (which is then cached), so reporting good results. Meanwhile real users with real cookies &amp; browsers might be getting unique pages, which generates a lot more load- so the load testing is pointless. We needed something which was as close as possible to real users using real browsers.</li>
-  <li><strong>network bottlenecks</strong> - load tests might be restrained by connection speed - particularly if sending the load test off a single computer. Your connection might only allow 100 users through- which means that will be all that get tested (even though you might think youve sent 10k users)</li>
-  <li><strong>transactions</strong> - we needed a tool that would allow us to have virtual users that would sign up and pay with a credit card, and then wait around to get the confirmation email. Ideally these transactions could be via Selenium scripts, as wed already created these.</li>
-  <li><strong>dynamic attributes</strong> - we wanted our virtual users to log in with their own email &amp; password, update avatars, and write unique posts on the forum, comments and reviews. In other words behave like real people would.</li>
+  <li>
+<strong>generate lots of traffic</strong> that could go through the site and follow a path through the site. Many load tools will send traffic which is all hitting the same version of the page (which is then cached), so reporting good results. Meanwhile real users with real cookies &amp; browsers might be getting unique pages, which generates a lot more load- so the load testing is pointless. We needed something which was as close as possible to real users using real browsers.</li>
+  <li>
+<strong>network bottlenecks</strong> - load tests might be restrained by connection speed - particularly if sending the load test off a single computer. Your connection might only allow 100 users through- which means that will be all that get tested (even though you might think youve sent 10k users)</li>
+  <li>
+<strong>transactions</strong> - we needed a tool that would allow us to have virtual users that would sign up and pay with a credit card, and then wait around to get the confirmation email. Ideally these transactions could be via Selenium scripts, as wed already created these.</li>
+  <li>
+<strong>dynamic attributes</strong> - we wanted our virtual users to log in with their own email &amp; password, update avatars, and write unique posts on the forum, comments and reviews. In other words behave like real people would.</li>
 </ul>
 
 <p>We used <a href="https://browsermob.com/performance-testing">Browsermob</a> to simulate this load, using dynamic Selenium scripts to describe different paths through the site. Thousands of users created accounts, paid with test credit cards, logged in and used the site - just like normal users do.</p>
@@ -269,7 +279,7 @@
 
 <p>Using a bare metal server that is physically close to most of your audience makes sense if you need speed- it certainly means a far snappier response rate. This <a href="http://vimeo.com/12814529">James Gollick presentation</a> has some interesting bits on this (he calculated the impact of server speed to his site revenue). Here is our Google speed report on average server response comparing the old site to the new one (hosting was US Cloud now AU bare metal running Ruby on Rails).</p>
 
-<p><a href="/assets/uploads/2012/mb-google.png"><img src="/assets/uploads/2012/mb-google.png" alt="google report showing average speed change old vs new server" /></a></p>
+<p><a href="/assets/uploads/2012/mb-google.png"><amp-img src="/assets/uploads/2012/mb-google.png" alt="google report showing average speed change old vs new server" layout="responsive"><noscript><img src="/assets/uploads/2012/mb-google.png" alt="google report showing average speed change old vs new server"></noscript></amp-img></a></p>
 
 <p>What we used:</p>
 
@@ -286,14 +296,22 @@
 <p>3rd party services:</p>
 
 <ul>
-  <li><a href="http://chargify.com/">Chargify</a> - recurring billing management</li>
-  <li><a href="http://chatroll.com/">Chatroll</a> - live chat</li>
-  <li><a href="http://assistly.com/">Assistly</a> - customer service</li>
-  <li><a href="http://campaignmonitor.com/">Campaign Monitor</a> - emails</li>
-  <li><a href="http://newrelic.com/">New Relic</a> - application monitoring</li>
-  <li><a href="http://www.browsermob.com">Browsermob</a> - load testing and browser simulation</li>
-  <li><a href="http://www.brightcove.com/">Brightcove</a> - video CDN</li>
-  <li><a href="http://cachefly.com/">Cachefly</a> - Content cache and delivery network (CDN)</li>
+  <li>
+<a href="http://chargify.com/">Chargify</a> - recurring billing management</li>
+  <li>
+<a href="http://chatroll.com/">Chatroll</a> - live chat</li>
+  <li>
+<a href="http://assistly.com/">Assistly</a> - customer service</li>
+  <li>
+<a href="http://campaignmonitor.com/">Campaign Monitor</a> - emails</li>
+  <li>
+<a href="http://newrelic.com/">New Relic</a> - application monitoring</li>
+  <li>
+<a href="http://www.browsermob.com">Browsermob</a> - load testing and browser simulation</li>
+  <li>
+<a href="http://www.brightcove.com/">Brightcove</a> - video CDN</li>
+  <li>
+<a href="http://cachefly.com/">Cachefly</a> - Content cache and delivery network (CDN)</li>
 </ul>
 </div>
           </div>

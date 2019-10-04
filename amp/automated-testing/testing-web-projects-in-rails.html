@@ -132,10 +132,14 @@
 <p>This approach works well in a few conditions:</p>
 
 <ul>
-  <li><strong>Limited features</strong> - there aren’t that many of these “features” to test. The variations can be feasibly tested by someone within say an hour or so</li>
-  <li><strong>Single developer</strong> - only one person has been working on this, so no chance that another developer will unknowingly add something which will break something else</li>
-  <li><strong>Waterfall</strong> - the project is following a “waterfall” release process. The way that the feature should work has been extensively documented, and any changes will be in a completely separate future release</li>
-  <li><strong>Infrequent deploys</strong> - this gets deployed to the live site once, and then won’t need to get updated for a while (so we can comfortably assume nothing will change)</li>
+  <li>
+<strong>Limited features</strong> - there aren’t that many of these “features” to test. The variations can be feasibly tested by someone within say an hour or so</li>
+  <li>
+<strong>Single developer</strong> - only one person has been working on this, so no chance that another developer will unknowingly add something which will break something else</li>
+  <li>
+<strong>Waterfall</strong> - the project is following a “waterfall” release process. The way that the feature should work has been extensively documented, and any changes will be in a completely separate future release</li>
+  <li>
+<strong>Infrequent deploys</strong> - this gets deployed to the live site once, and then won’t need to get updated for a while (so we can comfortably assume nothing will change)</li>
 </ul>
 
 <p>As web projects grow in complexity, the testing process gets more and more difficult. Imagine the frog in the hot water - at a certain point he has a desire to jump out.</p>
@@ -155,7 +159,7 @@
 
 <h2 id="meet-my-little-friend-automated-testing">Meet my little friend, Automated Testing</h2>
 
-<p><img src="/assets/uploads/2013/my-little-friend.jpg" alt="my little friend" /></p>
+<p><amp-img src="/assets/uploads/2013/my-little-friend.jpg" alt="my little friend" layout="responsive"><noscript><img src="/assets/uploads/2013/my-little-friend.jpg" alt="my little friend"></noscript></amp-img></p>
 
 <p>As you can imagine, lots of people have had this problem, and they’ve come solved it in various imaginative ways to avoid being that boiled frog.</p>
 
@@ -178,8 +182,10 @@
 <p>Automated testing has two main flavours:</p>
 
 <ul>
-  <li><strong>unit tests</strong> - check very specific things within the code. So taking our Contact Us example, it could check that fields are validating correctly and that the email address is set up OK</li>
-  <li><strong>end to end tests</strong> - using a “headless” browser, this mimics the way a real user goes through the site - filling out fields and clicking on buttons, and then checking that the right layout and text is appearing on the thank you page.</li>
+  <li>
+<strong>unit tests</strong> - check very specific things within the code. So taking our Contact Us example, it could check that fields are validating correctly and that the email address is set up OK</li>
+  <li>
+<strong>end to end tests</strong> - using a “headless” browser, this mimics the way a real user goes through the site - filling out fields and clicking on buttons, and then checking that the right layout and text is appearing on the thank you page.</li>
 </ul>
 
 <p>We can use a combination of these to test a project. End to end is useful as they test what a real user sees, but they tend to take a relatively long time to run. As a project grows, they have a tendency to overlap (so you can be testing a log in step in several different tests).</p>

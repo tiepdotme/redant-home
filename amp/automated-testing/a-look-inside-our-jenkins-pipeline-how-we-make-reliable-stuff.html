@@ -132,39 +132,39 @@
 
 <p>This is what the Jenkins Pipeline looks like when there are no tests running for our <a href="/portfolio/12wbt/">Michelle Bridges 12WBT project</a>. Each row is a build that relates directly to a commit, and the columns are steps in the process. Green is good, and it means that test group has all passed. You can see in this screenshot that there was a build which failed the Cucumber tests (the big red box) earlier today, followed by another which then passed.</p>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-start.png" alt="Jenkins Pipeline before a build has been kicked off" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-start.png" alt="Jenkins Pipeline before a build has been kicked off" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-start.png" alt="Jenkins Pipeline before a build has been kicked off"></noscript></amp-img></p>
 
 <h2 id="step-1-rspec">Step 1: rspec</h2>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-rspec.png" alt="Jenkins Pipeline showing RSpec test running" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-rspec.png" alt="Jenkins Pipeline showing RSpec test running" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-rspec.png" alt="Jenkins Pipeline showing RSpec test running"></noscript></amp-img></p>
 
 <p>This is what the pipeline looks like when Ive just kicked off a build. A new row appears for my test. Everything goes blue and the active step is yellow. The Rspec tests are the various code tests which check to see if specific functionality is working.</p>
 
 <h2 id="step-2-cucumber">Step 2: cucumber</h2>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-cucumber.png" alt="Jenkins Pipeline showing Cucumber test running" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-cucumber.png" alt="Jenkins Pipeline showing Cucumber test running" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-cucumber.png" alt="Jenkins Pipeline showing Cucumber test running"></noscript></amp-img></p>
 
 <p>Once the Rspec tests pass, that box turns green, and then the next step starts - in this case Cucumber. This is running through all of the Cucumber stories that we use to describe how different features work.</p>
 
 <h2 id="step-3-metrics">Step 3: metrics</h2>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-metrics.png" alt="Pipeline showing MetricFu test running" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-metrics.png" alt="Pipeline showing MetricFu test running" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-metrics.png" alt="Pipeline showing MetricFu test running"></noscript></amp-img></p>
 
 <p>The Cucumber tests all get completed, and that box turns green. The next box is metrics, which we check with a set of tools called <a href="http://metric-fu.rubyforge.org/">MetricFu (MetricFu Ruby Gem)</a>. These run checks to test quality in the code- looking for telltale signs like two parts of code that do the exact same thing. While this might not be the final word on whether code is in fact good, we can pick up sudden spikes in complexity or a drop in code test coverage. We’ve also added in Breakman to check for security flaws.</p>
 
 <h2 id="step-4-deploy--check">Step 4: deploy &amp; check</h2>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-deploy.png" alt="Jenkins Pipeline showing final post deploy test running" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-deploy.png" alt="Jenkins Pipeline showing final post deploy test running" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-deploy.png" alt="Jenkins Pipeline showing final post deploy test running"></noscript></amp-img></p>
 
 <p>Finally, the tested code is then deployed to the server using Capistrano. In this example (development pipeline) the version is pushed to our development server. There are a few checks that need to get done once everything is in place- for example a credit card payment process that relies on a 3rd party payment service. These are difficult to do inside the virtual environment of the CI server, so they get done on an actual server.</p>
 
 <h2 id="step-5-all-green---release-the-pandas">Step 5: All green - release the Pandas</h2>
 
-<p><img src="/assets/uploads/2012/jenkins-pipeline-end.png" alt="Jenkins Pipeline once a build is complete" /></p>
+<p><amp-img src="/assets/uploads/2012/jenkins-pipeline-end.png" alt="Jenkins Pipeline once a build is complete" layout="responsive"><noscript><img src="/assets/uploads/2012/jenkins-pipeline-end.png" alt="Jenkins Pipeline once a build is complete"></noscript></amp-img></p>
 
 <p>Once all the steps are done, everything goes green. You might notice that this screenshot of the Jenkins Pipeline has a different release number- that is because I am slow and Jenkins is fast. It started on another build before I had a chance to screenshot. I am learning to live with my various shortcomings and deficiencies.</p>
 
-<p>Next steps are to keep on <a href="http://arrrrcamp.be/videos/2011/corey-haines—-fast-rails-tests/">improving our test times</a>, since the faster these tests can run the sooner we can publish changes. When were busy well occasionally get a backlog of changes, Jenkins becomes Jerkins and it can take a while for all of the builds to push through.</p>
+<p>Next steps are to keep on <a href="http://arrrrcamp.be/videos/2011/corey-haines%E2%80%94-fast-rails-tests/">improving our test times</a>, since the faster these tests can run the sooner we can publish changes. When were busy well occasionally get a backlog of changes, Jenkins becomes Jerkins and it can take a while for all of the builds to push through.</p>
 
 <p>Overall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with <a href="/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/">Gitflow</a></p>
 </div>
