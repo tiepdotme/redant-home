@@ -28,7 +28,7 @@ We've tried a number of different priorities - here's what works for us and what
 
 ## Low priority
 
-![Low priority](/assets/uploads/2012/panda.png)
+![Low priority](/assets/uploads/2012/panda.png){:height="256" width="256"}
 
 ---
 
@@ -37,7 +37,7 @@ Usually assigned to a task where something isn't working or needs to get updated
 
 ## Normal (Default)
 
-![Normal](/assets/uploads/2012/panda.png)
+![Normal](/assets/uploads/2012/panda.png){:height="256" width="256"}
 
 ---
 
@@ -46,7 +46,7 @@ This is our default priority, and covers most things. Each task also gets a time
 
 ## High priority
 
-![High priority](/assets/uploads/2012/panda.png)
+![High priority](/assets/uploads/2012/panda.png){:height="256" width="256"}
 
 Please look at this issue before any of the other Pandas on your list. We're not seeing fire, but can smell smoke.
 
@@ -54,13 +54,13 @@ Note that there is a naughty step for any PMs who get caught making too many of 
 
 ## Rainy day
 
-![Rainy day](/assets/uploads/2012/possum.png)
+![Rainy day](/assets/uploads/2012/possum.png){:height="256" width="256"}
 
 A relatively minor improvement that can be done when there is time. Some of our projects operate on a monthly retainer, so if there is time remaining this month, the possum gets got.
 
 ## The Iceberg
 
-![The Iceberg](/assets/uploads/2012/fat-cat.png)
+![The Iceberg](/assets/uploads/2012/fat-cat.png){:height="256" width="256"}
 
 An often misunderstood fellow: The Iceberg. Before we used to spot these lurking around, but they'd get a low priority and then slowly slip off the bottom of our development list. Until that Titanic moment and everyone suddenly remembers The Iceberg as the ship goes down.An example might be a bad server configuration- it works fine now but the next restart it will fail. So we don't need to do anything right away, but we'd better do something before that next restart, or it will be a cold night in the lifeboat.
 
@@ -68,7 +68,7 @@ Now, we identify these as they come up. They arent urgent right now, but neither
 
 ## Team Six
 
-![Team Six](/assets/uploads/2012/team6.png)
+![Team Six](/assets/uploads/2012/team6.png){:height="256" width="256"}
 
 We used to describe our super duper high priority issues as (wait for it) very high priority. This didn't seem apt, as it was a bit higher than high priority - and if you're going to make something high priority you may as well make it very high priority…
 
@@ -78,7 +78,7 @@ Everyone on the team drops what they're on to resolve this. Again, any PM that m
 
 ## Deploy blocker
 
-![Deploy blocker](/assets/uploads/2012/monkey.png)
+![Deploy blocker](/assets/uploads/2012/monkey.png){:height="256" width="256"}
 
 This isn't really a priority, but something that can be flipped on for any issue.
 

@@ -17,7 +17,7 @@ tags:
 time:
 redirect_from:
 ---
-![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg)
+![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg){:height="371" width="495"}
 
 It's been a few months now since we redesigned our website, and we're thrilled with the responses we've had. We've created a set of desktop wallpapers based on the design. It comes in a range of sizes, and we think it looks pretty neat. Download yours today!
 
