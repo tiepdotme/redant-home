@@ -51,7 +51,7 @@ Imagine a scale, with a really simple project on one end, and a really hairy com
 
 ## Meet my little friend, Automated Testing
 
-![my little friend](/assets/uploads/2013/my-little-friend.jpg)
+![my little friend](/assets/uploads/2013/my-little-friend.jpg){:height="259" width="610"}
 
 As you can imagine, lots of people have had this problem, and they've come solved it in various imaginative ways to avoid being that boiled frog.
 

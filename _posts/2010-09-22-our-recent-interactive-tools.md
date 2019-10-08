@@ -22,11 +22,11 @@ redirect_from:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KHiiLHpYip4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
-[![Example 1](/assets/uploads/2010/yates-virtual-garden-1-thumb.jpg)](/assets/uploads/2010/yates-virtual-garden-1.jpg)
+![Example 1](/assets/uploads/2010/yates-virtual-garden-1-thumb.jpg){:height="70" width="70"}
 
-[![Example 2](/assets/uploads/2010/yates-virtual-garden-2-thumb.jpg)](/assets/uploads/2010/yates-virtual-garden-2.jpg)
+![Example 2](/assets/uploads/2010/yates-virtual-garden-2-thumb.jpg){:height="70" width="70"}
 
-[![Example 3](/assets/uploads/2010/yates-virtual-garden-3-thumb.jpg)](/assets/uploads/2010/yates-virtual-garden-3.jpg)
+![Example 3](/assets/uploads/2010/yates-virtual-garden-3-thumb.jpg){:height="70" width="70"}
 
 Yates Virtual Garden allows you to plan out your garden and see what fits where. As you drag items in to your garden - like a water tank or some roses, the tool also updates with relevant articles, project ideas, possible problems and expert answers for water tanks or roses. [Try Yates Virtual Garden](http://www.yates.com.au/garden-club/virtual-garden/)
 
@@ -34,11 +34,11 @@ Yates Virtual Garden allows you to plan out your garden and see what fits where.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SpGERxD2IAo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
-[![Example 1](/assets/uploads/2010/huggies-baby-room-1-thumb.jpg)](/assets/uploads/2010/huggies-baby-room-1.jpg)
+![Example 1](/assets/uploads/2010/huggies-baby-room-1-thumb.jpg){:height="70" width="70"}
 
-[![Example 2](/assets/uploads/2010/huggies-baby-room-2-thumb.jpg)](/assets/uploads/2010/huggies-baby-room-2.jpg)
+![Example 2](/assets/uploads/2010/huggies-baby-room-2-thumb.jpg){:height="70" width="70"}
 
-[![Example 3](/assets/uploads/2010/huggies-baby-room-3-thumb.jpg)](/assets/uploads/2010/huggies-baby-room-3.jpg)
+![Example 3](/assets/uploads/2010/huggies-baby-room-3-thumb.jpg){:height="70" width="70"}
 
 The Baby Room decorator is a 3d modelling tool that allows you to plan out your new baby room. Have a look at what some different wallpaper would look like, or putting in another window. [Try Huggies Baby Room Decorator](http://www.huggies.com.au/pregnancy/baby-nursery/baby-room-decorator)
 

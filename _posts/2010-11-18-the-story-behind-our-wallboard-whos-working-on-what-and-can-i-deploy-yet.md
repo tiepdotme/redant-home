@@ -26,7 +26,7 @@ redirect_from:
 - blog/the-story-behind-our-wallboard/
 
 ---
-[![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)](/assets/uploads/2010/redant-wallboard-preview.jpg)
+![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg){:height="343" width="610"}
 
 **click on this image to get a bigger version**
 
