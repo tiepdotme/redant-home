@@ -52,14 +52,15 @@
     <div class="row no-gutters w-100">
       <div class="mx-auto">
         <a href="/" class="navbar-brand">
-          <img
+          <amp-img
             class="logo mt-4"
             src="/assets/webpack/logo.5f2c38db28fb4124af2e.svg"
             width="219"
             height="40"
             alt="Red Ant logo"
-            flex-item
-          />
+            layout="responsive"
+          >
+          </amp-img>
         </a>
       </div>
     </div>
@@ -126,7 +127,7 @@
 
 <p>Yes, I’m looking at <strong>you</strong> .NET developers.</p>
 
-<p><amp-img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="100%" flex-item="" layout="responsive"><noscript><img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="100%" flex-item=""></noscript></amp-img></p>
+<p><amp-img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="610" height="457" layout="responsive"><noscript><img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="610" height="457"></noscript></amp-img></p>
 
 <p>The wiki page on <a href="http://wiki.nginx.org/HttpMapModule">Nginx maps (Nginx HttpMapModule)</a> gives a basic example of using a map to redirect request URLs to new locations. But that is no good for us, because we explicitly want to redirect only if the protocol is not our preferred one. We also only want to redirect to the same URL, albeit over a different protocol. A basic map like that will send our client into a redirect loop. We would need two separate maps and that kind of takes us back to square one. There is also potentially a problem with making matches too broad in separate maps and causing redirect loops again, whereas a single map will match only one value. Using one map we can also take advantage of the map default. It’s complicated, so just trust me <strong>separate maps = do not want!</strong></p>
 

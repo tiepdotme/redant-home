@@ -52,14 +52,15 @@
     <div class="row no-gutters w-100">
       <div class="mx-auto">
         <a href="/" class="navbar-brand">
-          <img
+          <amp-img
             class="logo mt-4"
             src="/assets/webpack/logo.5f2c38db28fb4124af2e.svg"
             width="219"
             height="40"
             alt="Red Ant logo"
-            flex-item
-          />
+            layout="responsive"
+          >
+          </amp-img>
         </a>
       </div>
     </div>
@@ -122,13 +123,13 @@
 
 <p>When a user clicks on a normal web page, it works something like this:</p>
 
-<p><a href="/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png"><amp-img src="/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png" alt="" layout="responsive"><noscript><img src="/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png" alt=""></noscript></amp-img></a></p>
+<p><amp-img src="/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png" alt="non-angularjs-rails-asynchrous-diagram1" height="269" width="610" layout="responsive"><noscript><img src="/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png" alt="non-angularjs-rails-asynchrous-diagram1" height="269" width="610"></noscript></amp-img></p>
 
 <p>Each time a user goes from page to page, pretty much the entire page gets sent back with new content. Some of this is remembered by the browser and doesn’t need to come back, but a significant part needs to come back down from the server each time.</p>
 
 <p>When a user hits an Angular page, the process is a bit different:</p>
 
-<p><a href="/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png"><amp-img src="/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png" alt="" layout="responsive"><noscript><img src="/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png" alt=""></noscript></amp-img></a></p>
+<p><amp-img src="/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png" alt="angularjs-rails-asynchrous-diagram1" height="366" width="610" layout="responsive"><noscript><img src="/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png" alt="angularjs-rails-asynchrous-diagram1" height="366" width="610"></noscript></amp-img></p>
 
 <p>The result? Instead of getting a new page every time, only the bits that change need to come from the web site. So the header, footer and navigation is loaded the first time. After that, the new content is squirted in as you move from page to page. Even this can get done in the background- so the page appears in the browser and then the content appears. What this means is that page loads are in milliseconds rather than seconds.</p>
 
