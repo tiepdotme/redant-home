@@ -70,9 +70,13 @@ None of these are particularly obscure or unusual elements for a web site to hav
 
 If it's still unclear as to why this would be a problem, here is what I'd see if I used Clicktale to analyse how people are using the [Bookdepository checkout process](http://www.bookdepository.com/basket). As you can see the two screens are quite different. The Clicktale playback will still merrily animate a mouse cursor moving around, but as you can see the image would be completely wrong and misleading. Likewise for the various heatmaps and reports.
 
-What a real user sees: ![clicktale-basket](/assets/uploads/2012/clicktale-basket.png){:height="461" width="610"}
+What a real user sees:
 
-and what you'll see in the Clicktale report: ![clicktale-basket-none](/assets/uploads/2012/clicktale-basket-none.png){:height="434" width="610"}
+![clicktale-basket](/assets/uploads/2012/clicktale-basket.png){:height="461" width="610"}
+
+and what you'll see in the Clicktale report:
+
+![clicktale-basket-none](/assets/uploads/2012/clicktale-basket-none.png){:height="434" width="610"}
 
 Which is puzzling, because on the Clicktale site there are a lot of testimonials gushing about this amazing insight into behaviour which improves shopping and conversions. I'm not really sure how many of these sites don't use some sort of cookie or session information to facilitate a checkout process.
 
