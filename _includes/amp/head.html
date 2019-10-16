@@ -28,4 +28,41 @@
   {% if page.path contains '_posts' %}
     <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
   {% endif %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "url": "{{ site.url }}{{ page.url }}",
+      "name": {{ page.title | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.excerpt-short | strip_newlines | strip | jsonify }},
+      "articleBody": {{ page.content | strip_html | jsonify }},
+      "datePublished": {{ page.date | jsonify }},
+      "author": {
+        "@type": "Person",
+        "name": {{ page.author | jsonify }},
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Red Ant",
+        "url": "{{ site.url }}",
+        "logo": {
+          "@type": "ImageObject",
+          "width": 48,
+          "height": 48,
+          "url": "{{ site.data.webpack['favicon.ico'] }}"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "width": {{ page.img_width | default: site.img_width }},
+        "height": {{ page.img_height | default: site.img_height }},
+        "url": [
+          "{{ page.image-small }}",
+          "{{ page.image-large }}"
+        ]
+      }
+    }
+  </script>
 </head>
