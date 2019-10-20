@@ -1,23 +1,31 @@
 ---
 layout: post
 title: Mobile first - 5 key constraints on mobile devices
-permalink: /mobile/mobile-first-5-key-constraints/
+permalink: "/mobile/mobile-first-5-key-constraints/"
 type: ideas
 categories:
-  - strategy
-  - mobile
+- strategy
+- mobile
 author: Ben Still
-description: Instead of designing for a desktop screen and then hacking on the mobile version, mobile first means start with the mobile version and then flesh it out from there.
+description: Instead of designing for a desktop screen and then hacking on the mobile
+  version, mobile first means start with the mobile version and then flesh it out
+  from there.
 keywords: mobile first
-image-small: /assets/uploads/2012/iphone-small.jpg
-image-large: /assets/uploads/2012/iphone.jpg
-excerpt-short: Get ahead by going 'mobile first'. Let's take a look at some of the challenges we face when doing so.
-excerpt-long: Mobile devices are changing the way we're doing things and there are many challenges along that path to integrate them with the more traditional websites designed for desktop only. One way is to go 'mobile first' and get the simple stuff over and done with ahead of the game. Let's take a look at some of those challenges we face.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2012/iphone-small.jpg"
+image-large: "/assets/uploads/2012/iphone.jpg"
+excerpt-short: Get ahead by going 'mobile first'. Let's take a look at some of the
+  challenges we face when doing so.
+excerpt-long: Mobile devices are changing the way we're doing things and there are
+  many challenges along that path to integrate them with the more traditional websites
+  designed for desktop only. One way is to go 'mobile first' and get the simple stuff
+  over and done with ahead of the game. Let's take a look at some of those challenges
+  we face.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 No, this isn't as simple as adding a responsive layout (simple being the operative word there). Responsive is great since it will work across a number of devices (tip: resize your browser while you're reading this to see responsive in action). A separate mobile site is also good way of delivering mobile views of existing content, plus giving the option of customising (so taking advantage of better geo-location for example). Or you might want to take a mix of the two (use responsive for some, and a separate m.site to deliver a super fast version)
 
 There are five key technical constraints:

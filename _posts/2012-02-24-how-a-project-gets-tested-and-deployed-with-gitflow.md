@@ -1,23 +1,26 @@
 ---
 layout: post
 title: How a project gets tested and deployed with GitFlow
-permalink: /ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
+permalink: "/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/"
 type: ideas
 categories:
-  - automated-testing
-  - ruby-on-rails-devops
+- automated-testing
+- ruby-on-rails-devops
 author: Ben Still
-keywords:
-description:
-image-small: /assets/uploads/2012/github-small.jpg
-image-large: /assets/uploads/2012/github.jpg
+keywords: ''
+description: ''
+image-small: "/assets/uploads/2012/github-small.jpg"
+image-large: "/assets/uploads/2012/github.jpg"
 excerpt-short: GitFlow is the way of the future. Find out why and how here.
-excerpt-long: As our projects have grown larger, so has the complexity of testing and deploying work. We've started moving projects over to GitFlow in order to simplify this process, read on to see how we do it.
-tags:
-time:
-redirect_from:
----
+excerpt-long: As our projects have grown larger, so has the complexity of testing
+  and deploying work. We've started moving projects over to GitFlow in order to simplify
+  this process, read on to see how we do it.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We've gradually changed this as weve started making bigger sites with more complex requirements.
 
 We still check things manually in a browser, but most of the heavy lifting is done via automated tests to check each aspect of the site. Once weve published a new version, it's hard not to have a poke around to make sure everything is there- but we're really relying on an automated deploy process to move that from the developers desktop, through staging and on to the production server.

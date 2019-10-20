@@ -1,23 +1,29 @@
 ---
 layout: post
 title: Which Shopify account is the best value for money?
-permalink: /tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
+permalink: "/tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/"
 type: ideas
 categories:
-  - ecommerce
-  - tool-reviews
+- ecommerce
+- tool-reviews
 author: Sam Bauers
-description: In which we find out which Shopify account hits the pricing sweet spot based on our monthly sales.
+description: In which we find out which Shopify account hits the pricing sweet spot
+  based on our monthly sales.
 keywords: shopify pricing
-image-small: /assets/uploads/2012/shopify-account-comparison-chart-small.png
-image-large: /assets/uploads/2012/shopify-account-comparison-chart.png
+image-small: "/assets/uploads/2012/shopify-account-comparison-chart-small.png"
+image-large: "/assets/uploads/2012/shopify-account-comparison-chart.png"
 excerpt-short: Shopify for e-commerce - we looked into this as part of a recent assesment.
-excerpt-long: As part of a recent assessment for a client e-commerce solution we looked into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out their prices and finding the account level which would hit the sweet spot for the clients needs. In the end we didnt go with Shopify, but this price comparison of their accounts is pretty handy to have on hand.
-tags:
-time:
-redirect_from:
----
+excerpt-long: As part of a recent assessment for a client e-commerce solution we looked
+  into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out
+  their prices and finding the account level which would hit the sweet spot for the
+  clients needs. In the end we didnt go with Shopify, but this price comparison of
+  their accounts is pretty handy to have on hand.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 [![](/assets/uploads/2012/shopify-account-comparison-chart.png)](/assets/uploads/2012/shopify-account-comparison-chart.png)
 
 The graph above charts monthly sales to monthly costs for all four account levels at Shopify. What it gives us is a pretty straight-forward answer to which account is best for anybody who is planning on using the service.

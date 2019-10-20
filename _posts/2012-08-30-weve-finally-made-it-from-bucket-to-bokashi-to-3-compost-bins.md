@@ -1,22 +1,26 @@
 ---
 layout: post
 title: We've finally made it - from bucket to bokashi to 3 compost bins
-permalink: /red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
+permalink: "/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/"
 type: news
 categories:
-  - red-ant-stuff
+- red-ant-stuff
 author: Ben Still
-description: A whirlwind tale of Red Ant's journey through the wonderful world of composting.
+description: A whirlwind tale of Red Ant's journey through the wonderful world of
+  composting.
 keywords: compost bins
-image-small: /assets/uploads/2012/compost-bin-small.jpg
-image-large: /assets/uploads/2012/compost-bin.jpg
-excerpt-short: "Green offices of the present future: office composting."
-excerpt-long: This week we reached a major milestone in our business - something we're all very excited about. Finally, after years of hard work and dedication, and several wrong turns along the way, we've got there.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2012/compost-bin-small.jpg"
+image-large: "/assets/uploads/2012/compost-bin.jpg"
+excerpt-short: 'Green offices of the present future: office composting.'
+excerpt-long: This week we reached a major milestone in our business - something we're
+  all very excited about. Finally, after years of hard work and dedication, and several
+  wrong turns along the way, we've got there.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 We've just bought our second compost bin, to sit alongside our existing bin and worm farm.
 
 To put this in perspective, some history. Like most good things, it starts with coffee.
