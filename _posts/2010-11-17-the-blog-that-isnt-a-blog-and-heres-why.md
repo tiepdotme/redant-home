@@ -1,22 +1,27 @@
 ---
 layout: post
 title: The blog that isn't a blog - and here's why
-permalink: /our-work/the-blog-that-isnt-a-blog-and-heres-why/
+permalink: "/our-work/the-blog-that-isnt-a-blog-and-heres-why/"
 type: news
 categories:
-  - our-work
+- our-work
 author: Ben Still
-description: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
+description: We've recently launched a new blog feature on the Huggies site. But it's
+  a blog with a difference.
 keywords: huggies blog
-image-small: /assets/uploads/2010/huggies-blogs-1-small.jpg
-image-large: /assets/uploads/2010/huggies-blogs-1.jpg
-excerpt-short: We've recently launched a new blog feature on the Huggies site. But it's a blog with a difference.
-excerpt-long: The user wouldn't notice anything different about this blog, and that's exactly what we wanted. For it to seamlessly integrate and to retain all that's lovely SEO juice. That's not all that's special about it.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2010/huggies-blogs-1-small.jpg"
+image-large: "/assets/uploads/2010/huggies-blogs-1.jpg"
+excerpt-short: We've recently launched a new blog feature on the Huggies site. But
+  it's a blog with a difference.
+excerpt-long: The user wouldn't notice anything different about this blog, and that's
+  exactly what we wanted. For it to seamlessly integrate and to retain all that's
+  lovely SEO juice. That's not all that's special about it.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 We've recently launched a [new blog feature](http://www.huggies.com.au/blog) on the Huggies site. A blog is a blog, you say. Well, blogs are a pretty standard bit of the web, and there are lots of great blog tools already out there like Wordpress and Posterous. But this one had a few unique requirements. We built this blog as a custom Rails app, and here's why:
 
 - **It needed to fit in**: we needed the blog to fit in seamlessly with the existing site. This can be hard to do- which is why a lot of sites will use subdomains like forum.mysite.com and blog.mysite.com. We needed to have common URLs, dynamic content and member login sessions.
