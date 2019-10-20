@@ -18,9 +18,11 @@ excerpt-long: Whilst the advent of ecommerce has brought about the 24/7 ease of 
   from your couch, it's also brought a boatload of potential hassle in meeting your
   consumer expectations for a product. Make sure you know what you're getting for
   your money.
-tags:
+tags: []
 time: 5 Mins Read
-redirect_from:
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 How I ended up here:
 

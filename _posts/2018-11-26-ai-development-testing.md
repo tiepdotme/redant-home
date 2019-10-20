@@ -10,7 +10,7 @@ author: Ben Still
 description: AI and Machine Learning are amazing technologies. But in some cases it
   can be hard to know when they are actually working
 keywords: ai development, machine learning, automated tests
-date: 2018-11-26 02:31:36 +0000
+date: '2018-11-26T02:31:36.000+00:00'
 image-small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
 image-large: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
 excerpt-short: Testing Machine Learning or AI powered features is often trickier than
@@ -18,8 +18,10 @@ excerpt-short: Testing Machine Learning or AI powered features is often trickier
 excerpt-long: Testing Machine Learning or AI powered features is often trickier than
   it seems
 tags: []
-time:
-redirect_from:
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 Before you start pitching to your investors about how amazing the world will be once you get some AI in your product, spare a thought for the engineering team behind Tay, [the Microsoft AI chatbot](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist).
 

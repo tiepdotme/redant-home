@@ -9,7 +9,7 @@ author: Ben Still
 description: From the outside looking in, the property management business looks pretty
   simple.
 keywords: property management, payments
-date: 2019-02-12 02:31:36 +0000
+date: '2019-02-12T02:31:36.000+00:00'
 image-small: "/assets/uploads/2019/managed.png"
 image-large: "/assets/uploads/2019/managed.png"
 excerpt-short: From the outside looking in, the property management business looks
@@ -19,8 +19,9 @@ excerpt-long: From the outside looking in, the property management business look
   you might expect.
 tags:
 - software-development
-time: 
-redirect_from: 
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
 ---
 Before we started working on the [Managed Platform](/portfolio/managed/), I’d made some assumptions about how Property Management works. In a nutshell, my impression was that things were pretty basic. Easy, even.

@@ -17,9 +17,11 @@ excerpt-short: Most of our projects now have over 50% mobile traffic. So mobile 
 excerpt-long: If you're making stuff for the web, mobile is a really big deal. Most
   of our projects have over 50% of visits from mobile, so it's really important to
   form and execute a mobile strategy well. Which can be hard.
-tags:
-time:
-redirect_from:
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
 

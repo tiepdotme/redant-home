@@ -1,24 +1,30 @@
 ---
 layout: post
 title: Multi-variate testing
-permalink: /how-we-do/multi-variate-AB-testing/
+permalink: "/how-we-do/multi-variate-AB-testing/"
 type: ideas
 categories:
-  - automated-testing
-  - how-we-do
-  - ruby-on-rails
+- automated-testing
+- how-we-do
+- ruby-on-rails
 author: Ben Still
-description:
+description: ''
 keywords: multi variate testing
-image-small: /assets/uploads/2009/peter-small.jpg
-image-large: /assets/uploads/2009/peter.jpg
-excerpt-short: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing
-excerpt-long: Lately, we've been doing quite a bit of work on sites which involve multi-variate (MV) testing. Its quite interesting, but hard to explain. In a nutshell, MV testing means testing lots of little changes or variations to a web site to see what works. Does bold orange type work better than small grey type? Should we show the price on this page or not at all?
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2009/peter-small.jpg"
+image-large: "/assets/uploads/2009/peter.jpg"
+excerpt-short: Lately, we've been doing quite a bit of work on sites which involve
+  multi-variate (MV) testing
+excerpt-long: Lately, we've been doing quite a bit of work on sites which involve
+  multi-variate (MV) testing. Its quite interesting, but hard to explain. In a nutshell,
+  MV testing means testing lots of little changes or variations to a web site to see
+  what works. Does bold orange type work better than small grey type? Should we show
+  the price on this page or not at all?
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 Traditionally, to find out how you should best design and structure your site you might do some testing on a sample of users. There's lots of ways of doing this, from giving them a set of thing to find on your site and timing this through to tracking users eye movements as they look at different pages. If you feel a strong, overwhelming desire to irritate, you could always set up an entry and exit survey on your site.
 
 The weird thing about humans is that `<shock horror>` what they **say** they would do and what they **actually** think and do might be quite different. Coca Cola [found this out with New Coke](http://en.wikipedia.org/wiki/New_Coke).

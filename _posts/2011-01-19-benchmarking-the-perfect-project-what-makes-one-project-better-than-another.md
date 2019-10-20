@@ -7,7 +7,7 @@ categories:
 - agile
 - our-work
 author: Jesse Noble
-description:
+description: ''
 keywords: project management benchmarking
 image-small: "/assets/uploads/2011/benchmark-small.jpg"
 image-large: "/assets/uploads/2011/benchmark-large.jpg"
@@ -18,9 +18,11 @@ excerpt-long: We were already awesome, but we wanted more. This time our project
   and make us and even better team. Better processes equal happy project managers,
   and happy project managers equal relaxed devs, and relaxed devs equal great work.
   Sounds alright doesn't it?
-tags:
+tags: []
 time: 5 Mins Read
-redirect_from:
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 A few months ago, we started working with a project management coach.
 
