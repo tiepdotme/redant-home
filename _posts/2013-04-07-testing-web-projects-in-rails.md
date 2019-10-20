@@ -1,23 +1,29 @@
 ---
 layout: post
 title: Testing web projects
-permalink: /automated-testing/testing-web-projects-in-rails/
+permalink: "/automated-testing/testing-web-projects-in-rails/"
 type: ideas
 categories:
-  - automated-testing
-  - ruby-on-rails-devops
+- automated-testing
+- ruby-on-rails-devops
 author: Ben Still
-description: As web projects grow in complexity, the testing process gets more and more difficult. Introducing, Automated Testing and Test Driven Development (TDD).
+description: As web projects grow in complexity, the testing process gets more and
+  more difficult. Introducing, Automated Testing and Test Driven Development (TDD).
 keywords: automated testing web projects
-image-small: /assets/uploads/2013/milo-closeup-small.jpg
-image-large: /assets/uploads/2013/milo-closeup-small.jpg
-excerpt-short: One of the things we've started doing quite differently over the last few years is how we test our web projects
-excerpt-long: One of the things we've started doing quite differently over the last few years is how we test our web projects. Now, most people would (rightly) assume we actually check or test our work before sending it live. But **how** we do this testing has changed drastically.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2013/milo-closeup-small.jpg"
+image-large: "/assets/uploads/2013/milo-closeup-small.jpg"
+excerpt-short: One of the things we've started doing quite differently over the last
+  few years is how we test our web projects
+excerpt-long: One of the things we've started doing quite differently over the last
+  few years is how we test our web projects. Now, most people would (rightly) assume
+  we actually check or test our work before sending it live. But **how** we do this
+  testing has changed drastically.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 ## For testing a web project, there are four key things:
 
 1. does it work OK?

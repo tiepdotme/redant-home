@@ -1,23 +1,27 @@
 ---
 layout: post
 title: Webby awards honoree for tails for whales
-permalink: /ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
+permalink: "/ruby-on-rails/webby-awards-honoree-for-tails-for-whales/"
 type: news
 categories:
-  - our-work
-  - ruby-on-rails
+- our-work
+- ruby-on-rails
 author: Ben Still
-description:
+description: ''
 keywords: tails for whales webby awards
-image-small: /assets/uploads/2010/whale-small.jpg
-image-large: /assets/uploads/2010/whales-large.jpg
-excerpt-short: The Tails for Whales site has been selected as an honoree for the Webby Awards.
-excerpt-long: The ever-so-popular Tails for Whales website has been selected as an honoree for the Webby Awards and we coudn't be more excited. Here's a video showing you what's possible when great minds and awesome skills come together.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2010/whale-small.jpg"
+image-large: "/assets/uploads/2010/whales-large.jpg"
+excerpt-short: The Tails for Whales site has been selected as an honoree for the Webby
+  Awards.
+excerpt-long: The ever-so-popular Tails for Whales website has been selected as an
+  honoree for the Webby Awards and we coudn't be more excited. Here's a video showing
+  you what's possible when great minds and awesome skills come together.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 The Tails for Whales site has been selected as an honoree for [the Webby Awards](http://www.webbyawards.com/webbys/current_honorees.php?media_id=96&season=14)
 
 ![2010 Webby Awards Official Honoree](/assets/uploads/2010/webby-awards-official-honoree.jpg)

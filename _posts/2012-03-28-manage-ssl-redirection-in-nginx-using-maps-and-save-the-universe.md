@@ -1,22 +1,28 @@
 ---
 layout: post
 title: Manage SSL redirection in Nginx using maps, and save the universe
-permalink: /ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
+permalink: "/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/"
 type: ideas
 categories:
-  - ruby-on-rails-devops
+- ruby-on-rails-devops
 author: Sam Bauers
-description: A simple tutorial showing how to manage a large list of rewrite rules to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
+description: A simple tutorial showing how to manage a large list of rewrite rules
+  to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
 keywords: nginx ssl redirection
-image-small: /assets/uploads/2012/milo-on-floor-small.jpg
-image-large: /assets/uploads/2012/milo-on-floor.jpg
-excerpt-short: Solutions to simple yet common and frustrating problems. We spill the beans on how we do it.
-excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation but we think we've found the solution to a simple yet common and frustrating problem with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of a cute dog!
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2012/milo-on-floor-small.jpg"
+image-large: "/assets/uploads/2012/milo-on-floor.jpg"
+excerpt-short: Solutions to simple yet common and frustrating problems. We spill the
+  beans on how we do it.
+excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation
+  but we think we've found the solution to a simple yet common and frustrating problem
+  with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of
+  a cute dog!
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 ## The problem
 
 We need to be able to enforce SSL connections (HTTPS) on some URLs. We also need to be able to enforce PLAIN connections (HTTP) on others. Further, there are some URLs which we want to just stay with whatever protocol they were requested on so they won't redirect at all.
