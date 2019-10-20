@@ -85,7 +85,7 @@ fields:
     display_utc: false
     export_format: " YYYY-MM-DD"
   label: date_published
-  hidden: true
+  hidden: false
   default: now
 pages:
 - _posts/2012-09-25-vulnerability-scanning-ruby-on-rails.md
