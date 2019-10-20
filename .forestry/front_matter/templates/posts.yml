@@ -75,6 +75,18 @@ fields:
 - type: tag_list
   label: redirect_from
   name: redirect_from
+- name: date_published
+  type: datetime
+  description: Post creation date
+  config:
+    required: true
+    date_format: " DD-MM-YYYY"
+    time_format: 
+    display_utc: false
+    export_format: " YYYY-MM-DD"
+  label: date_published
+  hidden: true
+  default: now
 pages:
 - _posts/2012-09-25-vulnerability-scanning-ruby-on-rails.md
 - _posts/2013-04-10-ruby-on-rails-efficiency-convention-over-configuration.md
