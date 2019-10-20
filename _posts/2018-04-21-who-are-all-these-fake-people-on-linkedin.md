@@ -1,24 +1,25 @@
 ---
 layout: post
 title: Who are all these fake people on LinkedIn?
-permalink: /marketing/who-are-all-these-fake-people-on-linkedin/
+permalink: "/marketing/who-are-all-these-fake-people-on-linkedin/"
 type: ideas
 categories:
-  - marketing
-author:
+- marketing
+author: ''
 description: Who are all these fake people on LinkedIn?
-keywords:
-image-small: '/assets/uploads/2018/linkedin2.png'
-image-large: '/assets/uploads/2018/linkedin2.png'
-excerpt-short:
-excerpt-long:
+keywords: ''
+image-small: "/assets/uploads/2018/linkedin2.png"
+image-large: "/assets/uploads/2018/linkedin2.png"
+excerpt-short: ''
+excerpt-long: ''
 tags:
-  - Red-Ant-Marketing
-  - LinkedIn
-time:
-redirect_from:
----
+- Red-Ant-Marketing
+- LinkedIn
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 ![linkedin1](/assets/uploads/2018/linkedin1.png){:height="140" width="610"}
 
 # Who are all these fake people on LinkedIn?

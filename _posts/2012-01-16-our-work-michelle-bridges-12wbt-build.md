@@ -16,9 +16,10 @@ excerpt-short: The initial build of the Michelle Bridges 12WBT project
 excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
   Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented
   us with some unique challenges to overcome. Find out how we did it.
-tags:
-time:
-redirect_from:
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
 ---
 The site has a few interesting technical challenges:

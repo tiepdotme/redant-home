@@ -1,22 +1,30 @@
 ---
 layout: post
 title: Clicktale Review - how the technology works and why it didn't for us
-permalink: /tool-reviews/clicktale-review-technology/
+permalink: "/tool-reviews/clicktale-review-technology/"
 type: news
 categories:
-  - tool-reviews
+- tool-reviews
 author: Ben Still
-description: Clicktale review which looks at how the technology works and some real world issues that you might face when implementing Clicktale
+description: Clicktale review which looks at how the technology works and some real
+  world issues that you might face when implementing Clicktale
 keywords: Clicktale review
-image-small: /assets/uploads/2012/clicktale-small.png
-image-large: /assets/uploads/2012/clicktale.png
-excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says on the box.
-excerpt-long: Clicktale is a software tool which allows you to track what users are doing on your website. It is used to analyse how people behave and what they do on particular pages. we've used it on several projects to try to gain a better understanding of how users were travelling through the site. More specifically, we were trying to get a better understanding of how they were using particular pages & forms, and what steps we could take to improve our conversion rate.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2012/clicktale-small.png"
+image-large: "/assets/uploads/2012/clicktale.png"
+excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says
+  on the box.
+excerpt-long: Clicktale is a software tool which allows you to track what users are
+  doing on your website. It is used to analyse how people behave and what they do
+  on particular pages. we've used it on several projects to try to gain a better understanding
+  of how users were travelling through the site. More specifically, we were trying
+  to get a better understanding of how they were using particular pages & forms, and
+  what steps we could take to improve our conversion rate.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 This Clicktale review is completely independent. We've used it on several projects where we wanted to better understand user interactions. In doing this we had a chance to look at both the way it collects data and how it reports this information. We've also had the opportunity to compare the results against other other software tracking tools, as well as other approaches to the same task such as physical eye tracking. We started using Clicktale based on many of the positive reviews we'd read, but on further investigation many of these were paid reviews (via affiliate commission).
 
 To summarise our experience, we were quite disappointed with the results. The [Clicktale](http://www.clicktale.com) reports seem to illustrate certain behaviours and user problems, but after some investigation we realised these weren't problems.
