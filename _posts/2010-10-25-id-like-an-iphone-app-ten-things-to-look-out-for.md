@@ -15,9 +15,11 @@ image-large: "/assets/uploads/2010/iphone-app.jpg"
 excerpt-short: 'Ten quick tips: considerations for your iphone app design brief'
 excerpt-long: Ten quick tips or ideas to consider before getting someone to build
   you an iphone app, and what to put in your design / development brief
-tags:
-time:
-redirect_from:
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 There are lots of things to consider when making a native mobile app like an iPhone app. Here are ten tips for your iPhone app design or development brief that will hopefully make things a bit easier. Don't worry- this can be quite a perplexing thing to brief, with lots of different technologies and solutions.
 

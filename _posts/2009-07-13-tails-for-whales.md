@@ -1,23 +1,28 @@
 ---
 layout: post
 title: Tails for Whales
-permalink: /ruby-on-rails/tails-for-whales/
+permalink: "/ruby-on-rails/tails-for-whales/"
 type: news
 categories:
-  - our-work
-  - ruby-on-rails
+- our-work
+- ruby-on-rails
 author: Ben Still
-description: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
+description: Tails was whales has been a huge success, and we've loved working on
+  it. And now we're making it even better.
 keywords: tails for whales
-image-small: /assets/uploads/2009/tails-whales-small.png
-image-large: /assets/uploads/2009/tails-whales-big.png
-excerpt-short: Tails was whales has been a huge success, and we've loved working on it. And now we're making it even better.
-excerpt-long: Tails was whales is a great campaign to raise awareness for what happens in Japan each year where they set sail and hunt these beautiful creatures. We think it's wrong, and so do a lot of you it seems too.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2009/tails-whales-small.png"
+image-large: "/assets/uploads/2009/tails-whales-big.png"
+excerpt-short: Tails was whales has been a huge success, and we've loved working on
+  it. And now we're making it even better.
+excerpt-long: Tails was whales is a great campaign to raise awareness for what happens
+  in Japan each year where they set sail and hunt these beautiful creatures. We think
+  it's wrong, and so do a lot of you it seems too.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).
 
 Basically, each year Japan sends all these boats down to the Southern Ocean to hunt for whales. Last year they got 551, hence the name of the project. Fingers crossed that this year the number will be much lower, but the only way that is going to happen is if we all hassle, hassle, and hassle some more.

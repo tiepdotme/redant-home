@@ -21,9 +21,11 @@ excerpt-long: The growth of tools like Wordpress have had a massive impact on th
   - sites which provide some form of utility and/or data. With these the options and
   possibilities are endless, and if anything complexity and effort to create \*\*has
   actually increased.
-tags:
-time:
-redirect_from:
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 ## On one side are the Marketers
 

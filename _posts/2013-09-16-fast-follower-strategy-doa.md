@@ -1,23 +1,30 @@
 ---
 layout: post
 title: Fast follower strategy DOA?
-permalink: /strategy/fast-follower-strategy-doa/
+permalink: "/strategy/fast-follower-strategy-doa/"
 type: ideas
 categories:
-  - strategy
-  - mobile
+- strategy
+- mobile
 author: Ben Still
-description: Fast follower is a strategy used to replicate successful products. Here are 5 reasons why it might not work out, based on our experience.
+description: Fast follower is a strategy used to replicate successful products. Here
+  are 5 reasons why it might not work out, based on our experience.
 keywords: fast follower
-image-small: /assets/uploads/2013/cat-small.jpg
-image-large: /assets/uploads/2013/cat.jpg
-excerpt-short: Five reasons why we think your fast follower strategy might not work out so well.
-excerpt-long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe the strategy</a> of some companies to look at what a rival is doing and come out quickly with a similar "follower" product, eventually overtaking the original product. It's the flip of that equally slick sounding strategy "first mover advantage", which gets used quite a bit around dotcom bubbles to justify ideas that no one needs.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2013/cat-small.jpg"
+image-large: "/assets/uploads/2013/cat.jpg"
+excerpt-short: Five reasons why we think your fast follower strategy might not work
+  out so well.
+excerpt-long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe
+  the strategy</a> of some companies to look at what a rival is doing and come out
+  quickly with a similar "follower" product, eventually overtaking the original product.
+  It's the flip of that equally slick sounding strategy "first mover advantage", which
+  gets used quite a bit around dotcom bubbles to justify ideas that no one needs.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 There's an [interesting discussion by Hunter Walk](http://hunterwalk.com/2013/09/09/has-mobile-killed-the-fast-follower-strategy-sure-looks-that-way/) about fast follower strategy and whether mobile has been instrumental in killing it off. He outlines four reasons (which are mobile iOS centric) that make the whole fast follower approach a bit redundant.
 
 As someone with experience both in making the thing that other companies want to copy, as well as being regularly asked to make copies of existing things, *I don't think this is just a mobile issue*.
