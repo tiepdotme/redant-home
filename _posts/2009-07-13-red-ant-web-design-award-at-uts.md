@@ -19,7 +19,7 @@ excerpt-long: First of all, congrats to David Chin, who was this years winner. S
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2009-07-13'
 
 ---
 We've been sponsoring a design award at our local university - UTS. We've been involved with UTS for a few years now, including doing studio visits and professional practice talks.

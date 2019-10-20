@@ -23,7 +23,7 @@ excerpt-long: Mobile devices are changing the way we're doing things and there a
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2012-10-04'
 
 ---
 No, this isn't as simple as adding a responsive layout (simple being the operative word there). Responsive is great since it will work across a number of devices (tip: resize your browser while you're reading this to see responsive in action). A separate mobile site is also good way of delivering mobile views of existing content, plus giving the option of customising (so taking advantage of better geo-location for example). Or you might want to take a mix of the two (use responsive for some, and a separate m.site to deliver a super fast version)

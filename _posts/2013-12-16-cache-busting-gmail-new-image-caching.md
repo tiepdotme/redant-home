@@ -23,7 +23,7 @@ excerpt-long: If you're a GMail user, you've probably seen an update explaining 
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2013-12-16'
 
 ---
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.

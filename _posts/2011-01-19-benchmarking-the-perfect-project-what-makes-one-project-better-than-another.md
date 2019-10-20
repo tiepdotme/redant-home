@@ -21,7 +21,7 @@ excerpt-long: We were already awesome, but we wanted more. This time our project
 tags: []
 time: 5 Mins Read
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2011-01-19'
 
 ---
 A few months ago, we started working with a project management coach.

@@ -24,7 +24,7 @@ redirect_from:
 - "/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
 - "/blog/the-story-behind-our-wallboard"
 - blog/the-story-behind-our-wallboard/
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2010-11-18'
 
 ---
 ![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg){:height="343" width="610"}

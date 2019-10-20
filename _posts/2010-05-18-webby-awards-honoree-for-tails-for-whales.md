@@ -19,7 +19,7 @@ excerpt-long: The ever-so-popular Tails for Whales website has been selected as 
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2010-05-18'
 
 ---
 The Tails for Whales site has been selected as an honoree for [the Webby Awards](http://www.webbyawards.com/webbys/current_honorees.php?media_id=96&season=14)

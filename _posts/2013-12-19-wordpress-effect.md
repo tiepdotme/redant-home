@@ -24,7 +24,7 @@ excerpt-long: The growth of tools like Wordpress have had a massive impact on th
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2013-12-19'
 
 ---
 ## On one side are the Marketers

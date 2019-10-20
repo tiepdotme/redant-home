@@ -21,7 +21,7 @@ excerpt-long: The Yates Problem Solver is a handy iPhone app that you can take w
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2010-10-04'
 
 ---
 Most problems have something from Yates that can fix it, and these are listed with the problem as well. You can read a bit more about how to apply the solution, as well as **add it to a wish list** if you need to duck off to your local hardware store to buy it.

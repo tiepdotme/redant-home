@@ -19,7 +19,7 @@ excerpt-long: The user wouldn't notice anything different about this blog, and t
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2010-11-17'
 
 ---
 We've recently launched a [new blog feature](http://www.huggies.com.au/blog) on the Huggies site. A blog is a blog, you say. Well, blogs are a pretty standard bit of the web, and there are lots of great blog tools already out there like Wordpress and Posterous. But this one had a few unique requirements. We built this blog as a custom Rails app, and here's why:

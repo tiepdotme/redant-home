@@ -23,7 +23,7 @@ keywords: ''
 image-small: "/assets/uploads/2019/crowd.jpg"
 image-large: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2019-05-22'
 
 ---
 Designing and building new ideas out as apps and platforms has become a massive industry. Whether you’re a startup with a great idea, or an established company, everyone is looking for good development talent.
