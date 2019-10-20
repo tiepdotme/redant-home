@@ -1,23 +1,26 @@
 ---
 layout: post
 title: Bypassing the sign up hurdle with super-soft joins
-permalink: /how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+permalink: "/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/"
 type: ideas
 categories:
-  - how-we-do
-  - strategy
+- how-we-do
+- strategy
 author: Sam Bauers
-description: When your users are unlikely to want to provide their email address to sign-up to your website, "Super-soft joins" may be right for you.
+description: When your users are unlikely to want to provide their email address to
+  sign-up to your website, "Super-soft joins" may be right for you.
 keywords: super soft joins
-image-small: /assets/uploads/2012/clear-your-vision-home-small.jpg
-image-large: /assets/uploads/2012/clear-your-vision-home.jpg
+image-small: "/assets/uploads/2012/clear-your-vision-home-small.jpg"
+image-large: "/assets/uploads/2012/clear-your-vision-home.jpg"
 excerpt-short: How we use super-soft joins to interact with users on personal subjects.
-excerpt-long: Sometimes engaging users can be difficult if the subject matter is intensely personal. Super-soft joins helped us help people quit drugs.
-tags:
-time:
-redirect_from:
----
+excerpt-long: Sometimes engaging users can be difficult if the subject matter is intensely
+  personal. Super-soft joins helped us help people quit drugs.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.
 
 ![Clear Your Vision homepage screenshot](/assets/uploads/2012/clear-your-vision-home.jpg){:height="448" width="610"}

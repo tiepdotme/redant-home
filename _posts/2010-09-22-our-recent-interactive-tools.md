@@ -1,23 +1,28 @@
 ---
 layout: post
 title: Our recent interactive tools
-permalink: /ruby-on-rails/our-recent-interactive-tools/
+permalink: "/ruby-on-rails/our-recent-interactive-tools/"
 type: news
 categories:
-  - our-work
-  - ruby-on-rails
+- our-work
+- ruby-on-rails
 author: Ben Still
-description:
+description: ''
 keywords: our recent interactive tools
-image-small: /assets/uploads/2010/huggies-baby-room-2-small.jpg
-image-large: /assets/uploads/2010/yates-virtual-garden-2.jpg
-excerpt-short: Who doesn't like to be out in the sun, gardening and getting your fingers all green? Well now you can do all that from the comfort of your living room!
-excerpt-long: Do you frequently feel the need to redesign your baby room or dig up your garden? Maybe you don't even have a garden? We have some top interactive tools that will help you plan what you need to do before you do it, thus saving money and inspiring creativity.
-tags:
-time:
-redirect_from:
----
+image-small: "/assets/uploads/2010/huggies-baby-room-2-small.jpg"
+image-large: "/assets/uploads/2010/yates-virtual-garden-2.jpg"
+excerpt-short: Who doesn't like to be out in the sun, gardening and getting your fingers
+  all green? Well now you can do all that from the comfort of your living room!
+excerpt-long: Do you frequently feel the need to redesign your baby room or dig up
+  your garden? Maybe you don't even have a garden? We have some top interactive tools
+  that will help you plan what you need to do before you do it, thus saving money
+  and inspiring creativity.
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
 
+---
 #### Yates Virtual Garden
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KHiiLHpYip4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>

@@ -13,9 +13,11 @@ image-small: "/assets/uploads/2009/redant-wallpaper-small.png"
 image-large: "/assets/uploads/2009/redant-wallpaper-preview.jpg"
 excerpt-short: Download your Red Ant desktop wallpaper today.
 excerpt-long: Download your Red Ant desktop wallpaper today.
-tags:
-time:
-redirect_from:
+tags: []
+time: ''
+redirect_from: []
+date_published: ! ' 2019-10-21'
+
 ---
 ![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg){:height="371" width="495"}
 
