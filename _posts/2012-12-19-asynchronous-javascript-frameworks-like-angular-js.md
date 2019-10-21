@@ -22,7 +22,7 @@ redirect_from:
 - "/pjax"
 - "/pjax/"
 - pjax/
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2012-12-19'
 
 ---
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.

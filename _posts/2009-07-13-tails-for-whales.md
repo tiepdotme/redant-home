@@ -20,7 +20,7 @@ excerpt-long: Tails was whales is a great campaign to raise awareness for what h
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2009-07-13'
 
 ---
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).

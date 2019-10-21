@@ -18,7 +18,7 @@ excerpt-long: Ten quick tips or ideas to consider before getting someone to buil
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2010-10-25'
 
 ---
 There are lots of things to consider when making a native mobile app like an iPhone app. Here are ten tips for your iPhone app design or development brief that will hopefully make things a bit easier. Don't worry- this can be quite a perplexing thing to brief, with lots of different technologies and solutions.

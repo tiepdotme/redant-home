@@ -21,7 +21,7 @@ excerpt-long: As part of a recent assessment for a client e-commerce solution we
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2012-08-03'
 
 ---
 [![](/assets/uploads/2012/shopify-account-comparison-chart.png)](/assets/uploads/2012/shopify-account-comparison-chart.png)

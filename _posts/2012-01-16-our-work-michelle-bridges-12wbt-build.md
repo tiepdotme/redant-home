@@ -19,7 +19,7 @@ excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Mich
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2012-01-16'
 
 ---
 The site has a few interesting technical challenges:

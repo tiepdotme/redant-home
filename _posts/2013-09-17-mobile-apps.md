@@ -20,7 +20,7 @@ excerpt-long: If you're making stuff for the web, mobile is a really big deal. M
 tags: []
 time: ''
 redirect_from: []
-date_published: ! ' 2019-10-21'
+date_published: ! ' 2013-09-17'
 
 ---
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
