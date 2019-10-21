@@ -157,7 +157,7 @@ We also moved the hosting from a US cloud service to a local AU physical machine
 
 Using a bare metal server that is physically close to most of your audience makes sense if you need speed- it certainly means a far snappier response rate. This [James Gollick presentation](http://vimeo.com/12814529) has some interesting bits on this (he calculated the impact of server speed to his site revenue). Here is our Google speed report on average server response comparing the old site to the new one (hosting was US Cloud now AU bare metal running Ruby on Rails).
 
-[![google report showing average speed change old vs new server](/assets/uploads/2012/mb-google.png)](/assets/uploads/2012/mb-google.png)
+![google report showing average speed change old vs new server](/assets/uploads/2012/mb-google.png){:height="153" width="610"}
 
 What we used:
 
