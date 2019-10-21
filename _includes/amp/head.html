@@ -38,7 +38,7 @@
       "headline": {{ page.title | jsonify }},
       "description": {{ page.excerpt-short | strip_newlines | strip | jsonify }},
       "articleBody": {{ page.content | strip_html | jsonify }},
-      "datePublished": {{ page.date | jsonify }},
+      "datePublished": {{ page.date_published | jsonify }},
       "author": {
         "@type": "Person",
         "name": {{ page.author | jsonify }},
@@ -56,8 +56,6 @@
       },
       "image": {
         "@type": "ImageObject",
-        "width": {{ page.img_width | default: site.img_width }},
-        "height": {{ page.img_height | default: site.img_height }},
         "url": [
           "{{ page.image-small }}",
           "{{ page.image-large }}"
