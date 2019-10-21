@@ -43,42 +43,6 @@
   <link rel="stylesheet" href="https://use.typekit.net/apo0vqh.css" type="text/css">
 
   
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "url": "https://redant.com.auamp/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins",
-    "name": "Bypassing the sign up hurdle with super-soft joins",
-    "headline": "Bypassing the sign up hurdle with super-soft joins",
-    "description": "How we use super-soft joins to interact with users on personal subjects.",
-    "articleBody": "Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.\n\n![Clear Your Vision homepage screenshot](/assets/uploads/2012/clear-your-vision-home.jpg){:height=\"448\" width=\"610\"}\n\nThe intervention is aimed at young people, generally of high school age, and the topic we are wanting them to engage in is their own drug use, specifically their cannabis use. Obviously a web site belonging to a government funded agency that is offering a place to chronicle a person's drug use activity is not a place where we are going to easily get people to provide their email address.\n\nThe answer for us was to bypass sign ups and allow anybody to start the intervention process. During the course of the program we consistently offer a save functionality.\n\n![clear-your-vision-save](/assets/uploads/2012/clear-your-vision-save.jpg){:height=\"145\" width=\"610\"}\n\nWhen selected, this gives a visitor the option of either providing their email address or downloading a personalised PDF without providing an email address.\n\n![clear-your-vision-dialog](/assets/uploads/2012/clear-your-vision-dialog.jpg){:height=\"459\" width=\"610\"}\n\nEither way, they obtain a unique keyed link for their session. Clicking on the link brings them back to where they left off with the key in the link forming the only authentication. The email path is effectively a soft join, but the PDF path is a super-soft join as it requires zero credentials.\n\n![clear-your-vision-pdf-detail](/assets/uploads/2012/clear-your-vision-pdf-detail.jpg){:height=\"275\" width=\"420\"}\n\nWith the PDF option, we have no way to directly identify the person, and so we can allow people who do not want to provide their email address to still utilise the resource. Those that provide their email get the benefit of being automatically reminded via email when they should return to complete the second part of the program.\n\nThe [authentication (Authentication on Wikipedia)](http://en.wikipedia.org/wiki/Authentication#Authentication_factors_and_identity) is one factor, but where the usual factor would be something the user knows - like a password, our factor is something the user has - their keyed unique link. By nature this is less secure certainly - as we rely on the user to keep it secret - but this level of authentication is OK for this application because in no way do we reveal any personally identifying data or offer the ability to reset the login credentials via the user interface. If you are offering the ability to change the account settings or are displaying personally identifying data, then this is definitely not a good approach for your application and you should probably use a normal password bound authentication method.\n",
-    "datePublished": " 2012-03-30",
-    "author": {
-      "@type": "Person",
-      "name": "Sam Bauers"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Red Ant",
-      "url": "https://redant.com.au",
-      "logo": {
-        "@type": "ImageObject",
-        "width": 48,
-        "height": 48,
-        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
-      }
-    },
-    "image": {
-      "@type": "ImageObject",
-      "url": [
-        "/assets/uploads/2012/clear-your-vision-home-small.jpg",
-        "/assets/uploads/2012/clear-your-vision-home.jpg"
-      ]
-    }
-  }
-</script>
-
 </head>
 
   <body class="">
