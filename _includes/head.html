@@ -29,4 +29,39 @@
     href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}"
   />
   {% endif %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "url": "{{ site.url }}{{ page.url }}",
+      "name": {{ page.title | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.excerpt-short | strip_newlines | strip | jsonify }},
+      "articleBody": {{ page.content | strip_html | jsonify }},
+      "datePublished": {{ page.date_published | jsonify }},
+      "author": {
+        "@type": "Person",
+        "name": {{ page.author | jsonify }},
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Red Ant",
+        "url": "{{ site.url }}",
+        "logo": {
+          "@type": "ImageObject",
+          "width": 48,
+          "height": 48,
+          "url": "{{ site.data.webpack['favicon.ico'] }}"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": [
+          "{{ page.image-small }}",
+          "{{ page.image-large }}"
+        ]
+      }
+    }
+  </script>
 </head>

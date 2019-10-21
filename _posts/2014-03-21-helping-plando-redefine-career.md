@@ -23,7 +23,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2014-01-02'
-description: 'The world of employment and careers is due for a shakeup. We've been
+description: 'The world of employment and careers is due for a shakeup. We have been
   helping Plando build a career management platform that we think will fundamentally
   change the careers landscape.'
 
