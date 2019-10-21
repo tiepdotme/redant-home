@@ -57,6 +57,42 @@
   })(window,document,'script','dataLayer',gtmId);
 </script>
   
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://redant.com.au/technology/",
+    "name": "Technologies and Integrations we work with",
+    "headline": "Technologies and Integrations we work with",
+    "description": "",
+    "articleBody": "\n  \n    \n      \n        Technology and Integrations\n        \n        \n          Technologies and Integrations we work with\n        \n      \n    \n  \n\n\n\n  \n    \n      {% for slug in site.data.technology.order %} {% assign pages = site.pages\n      | where:'slug', slug %} {% for page in pages %}\n      \n        \n          \n            \n              \n            \n          \n          \n            \n              {{ page.title }}\n              {{page.type}}\n            \n            {{ page.listing_description }}\n          \n        \n      \n      {% endfor %} {% endfor %}\n    \n  \n\n",
+    "datePublished": null,
+    "author": {
+      "@type": "Person",
+      "name": null
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Red Ant",
+      "url": "https://redant.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 48,
+        "height": 48,
+        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": [
+        "",
+        ""
+      ]
+    }
+  }
+</script>
+
 </head>
 
   <body class="">

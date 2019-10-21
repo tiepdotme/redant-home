@@ -57,6 +57,42 @@
   })(window,document,'script','dataLayer',gtmId);
 </script>
   
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://redant.com.au/portfolio/",
+    "name": "Our Porfolio",
+    "headline": "Our Porfolio",
+    "description": "",
+    "articleBody": "\n  \n  \n    \n      \n        Portfolio\n        \n      \n    \n  \n\n\n\n  \n    \n      {% for slug in site.data.portfolio.order %}\n        {% assign pages = site.pages | where:'slug', slug %}\n        {% for page in pages %}\n          \n            \n              \n                {{ page.title }}\n                \n                  \n                \n                {{ page.tagline }}\n                {{ page.description }}\n              \n              \n                \n                  {% if page.project_type == 'mobile' %}\n                    {% include svg/mobile-project-header.svg slug=page.slug title=page.title %}\n                  {% else %}\n                    {% include svg/project-header.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}\n                  {% endif %}\n                \n              \n            \n          \n        {% endfor %}\n      {% endfor %}\n    \n  \n\n",
+    "datePublished": null,
+    "author": {
+      "@type": "Person",
+      "name": null
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Red Ant",
+      "url": "https://redant.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 48,
+        "height": 48,
+        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": [
+        "",
+        ""
+      ]
+    }
+  }
+</script>
+
 </head>
 
   <body class="">

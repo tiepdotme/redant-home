@@ -43,6 +43,42 @@
   <link rel="stylesheet" href="https://use.typekit.net/apo0vqh.css" type="text/css">
 
   
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://redant.com.auamp/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff",
+    "name": "A look inside our Jenkins Pipeline - how we make reliable stuff",
+    "headline": "A look inside our Jenkins Pipeline - how we make reliable stuff",
+    "description": "How we build relational trust; our integrated testing pipeline",
+    "articleBody": "It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else's code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.\n\nJenkins sees a change has been made, and then grabs that version of the project, builds a completely new version of the site and content, and then starts running some automated tests. These tests make sure that each of the parts of the project work properly. Once everything passes, it gets a green light and Jenkins publishes this version of the code to a server (so us humans can take a look).\n\nThe big advantage to using a CI server like Jenkins is that any change gets tested immediately. We don't rely on a human to test these, as (lets be honest here) they can be a bit unreliable. They get sick, they get distracted, they skip steps in testing, and they complain when asked to do boring tasks like check the same thing again and again and again. Jenkins on the other hand is always there, happily running in the background.\n\nWhat can be tricky is understanding exactly where Jenkins is up to. Has the build just started, or is the testing almost complete? Is my change being tested now or is it sitting in a queue? Often several different changes are made by several developers at once, so it is useful to know which is getting tested and if it broke, where. This is where the **Pipeline** comes in - particularly when there are 3 or 4 anxious developers all trying to get their work through to Production.\n\n## Jenkins Pipeline\n\nThe **Jenkins Pipeline** gives us an overview of where these tests are up to. We have a development and a master Jenkins Pipeline. Development is for releases to the development branch, and these get pushed to a Dev server. Master is the master branch, and is for all of our [hotfixes](/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/) and tested releases. This gets pushed to UAT and then finally Production. All of this might sound like a bit of a cumbersome process with many steps (you might have worked with developers who say hey- I don't need to test my stuff. I made it so I know it is Awesome!). But in this everything is completely automated so it needs very little effort- all a developer needs to do is commit a change to kick it all off. The upside is that we can have a high degree of confidence that everything works as planned.\n\n## What the Jenkins Pipeline looks like\n\nThis is what the Jenkins Pipeline looks like when there are no tests running for our [Michelle Bridges 12WBT project](/portfolio/12wbt/). Each row is a build that relates directly to a commit, and the columns are steps in the process. Green is good, and it means that test group has all passed. You can see in this screenshot that there was a build which failed the Cucumber tests (the big red box) earlier today, followed by another which then passed.\n\n![Jenkins Pipeline before a build has been kicked off](/assets/uploads/2012/jenkins-pipeline-start.png){:height=\"442\" width=\"610\"}\n\n## Step 1: rspec\n\n![Jenkins Pipeline showing RSpec test running](/assets/uploads/2012/jenkins-pipeline-rspec.png){:height=\"111\" width=\"610\"}\n\nThis is what the pipeline looks like when Ive just kicked off a build. A new row appears for my test. Everything goes blue and the active step is yellow. The Rspec tests are the various code tests which check to see if specific functionality is working.\n\n## Step 2: cucumber\n\n![Jenkins Pipeline showing Cucumber test running](/assets/uploads/2012/jenkins-pipeline-cucumber.png){:height=\"111\" width=\"610\"}\n\nOnce the Rspec tests pass, that box turns green, and then the next step starts - in this case Cucumber. This is running through all of the Cucumber stories that we use to describe how different features work.\n\n## Step 3: metrics\n\n![Pipeline showing MetricFu test running](/assets/uploads/2012/jenkins-pipeline-metrics.png){:height=\"111\" width=\"610\"}\n\nThe Cucumber tests all get completed, and that box turns green. The next box is metrics, which we check with a set of tools called [MetricFu (MetricFu Ruby Gem)](http://metric-fu.rubyforge.org/). These run checks to test quality in the code- looking for telltale signs like two parts of code that do the exact same thing. While this might not be the final word on whether code is in fact good, we can pick up sudden spikes in complexity or a drop in code test coverage. We've also added in Breakman to check for security flaws.\n\n## Step 4: deploy & check\n\n![Jenkins Pipeline showing final post deploy test running](/assets/uploads/2012/jenkins-pipeline-deploy.png){:height=\"111\" width=\"610\"}\n\nFinally, the tested code is then deployed to the server using Capistrano. In this example (development pipeline) the version is pushed to our development server. There are a few checks that need to get done once everything is in place- for example a credit card payment process that relies on a 3rd party payment service. These are difficult to do inside the virtual environment of the CI server, so they get done on an actual server.\n\n## Step 5: All green - release the Pandas\n\n![Jenkins Pipeline once a build is complete](/assets/uploads/2012/jenkins-pipeline-end.png){:height=\"111\" width=\"610\"}\n\nOnce all the steps are done, everything goes green. You might notice that this screenshot of the Jenkins Pipeline has a different release number- that is because I am slow and Jenkins is fast. It started on another build before I had a chance to screenshot. I am learning to live with my various shortcomings and deficiencies.\n\nNext steps are to keep on [improving our test times](http://arrrrcamp.be/videos/2011/corey-haines—-fast-rails-tests/), since the faster these tests can run the sooner we can publish changes. When were busy well occasionally get a backlog of changes, Jenkins becomes Jerkins and it can take a while for all of the builds to push through.\n\nOverall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with [Gitflow](/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/)\n",
+    "datePublished": " 2012-02-28",
+    "author": {
+      "@type": "Person",
+      "name": "Ben Still"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Red Ant",
+      "url": "https://redant.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 48,
+        "height": 48,
+        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": [
+        "/assets/uploads/2012/jenkins-pipeline-start-small.png",
+        "/assets/uploads/2012/jenkins-pipeline-start.png"
+      ]
+    }
+  }
+</script>
+
 </head>
 
   <body class="">

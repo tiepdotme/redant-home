@@ -65,6 +65,42 @@
     href="https://redant.com.au/amp/ruby-on-rails-devops/backing-up-mysql-into-subversion-using-mysql-svn-backup.html"
   />
   
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://redant.com.au/ruby-on-rails-devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/",
+    "name": "MySQL SVN Backup- A simple solution for small databases",
+    "headline": "MySQL SVN Backup- A simple solution for small databases",
+    "description": "A common pain point when using databases like MySQL on small projects is a simple way of managing backups. Here is a solution we've created.",
+    "articleBody": "The other issue is that monolithic MySQL dumps tend to add up in size. The usual solution is to rotate out the backups and discard old ones based on what is ultimately an arbitrary schedule. When the backup you need is from eight days ago, you can be sure that you have only kept them for the last seven days. This problem can also be solved by implementing complex incremental backups or by shunting files off to cheaper storage like Amazon, but then every new step in the backup path is a new dependency or point of failure just waiting to ruin your day. Tools like rdiff-backup (sometimes via Backupninja) are also used, but the stored diffs are hard to manually verify.\n\nSo the world needs a solution for MySQL which satisfies the 5 golden rules for simple and effective backup solutions, which I just made up:\n\n\n  Each backup run should finish quickly\n  The backups should not require massive amounts of storage\n  Backups should be verifiable as sane by a human with minimal effort\n  Restoring backups from any point in time should be easy\n  Backups should not be stored in proprietary data formats\n\n\nA couple of years ago we created a tool which satisfies these requirements and is easy to understand, run, and modify for your own needs. Introducing MySQL SVN Backup. The name says it all really MySQL SVN Backup is a shell script that uses a combination of the “mysqldump” tool and the Subversion command-line client to backup MySQL databases to a Subversion repository.\n\nThe reasoning behind this approach is simple:\n\n\n  Small databases don’t change very often, so we only need to backup the changes.\n  MySQL databases can be dumped out to text format.\n  Text files can be version controlled.\n  Version control systems are common.\n  Version control systems allow for easy verification of backup content.\n  Version control systems allow for easy restoration of content at any point in time.\n\n\nIt can be configured to backup only specific databases and it can also exclude specific tables that aren’t suited to being backed up this way (or at all). By using Subversion we have access to dozens of tools for browsing backups online and restoring data. An unexpected advantage of this method has been the ease with which developers can grab a copy of production data for local development use. It’s just a matter of an SVN export, which allows us to avoid giving developers access to production systems, or bugging our system administrators for database dumps. Another bonus is that we can account for schema changes over time. So we could potentially correlate and trace schema changes made by certain database migrations run by an application framework, as opposed to schema changes that have been made manually.\n\nWe have been using MySQL SVN Backup for about two years and tweaked it over that time to make it more reliable. The code can be found at the project page on GitHub and no, the irony of hosting a Subversion based tool on GitHub is not lost on us. Git support may just be a future feature (pull requests are welcome!)\n\n",
+    "datePublished": " 2014-01-16",
+    "author": {
+      "@type": "Person",
+      "name": "Sam Bauers"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Red Ant",
+      "url": "https://redant.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 48,
+        "height": 48,
+        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": [
+        "/assets/uploads/2014/dolphins-with-lasers-small.jpg",
+        "/assets/uploads/2014/dolphins-with-lasers.jpg"
+      ]
+    }
+  }
+</script>
+
 </head>
 
   <body class="">
