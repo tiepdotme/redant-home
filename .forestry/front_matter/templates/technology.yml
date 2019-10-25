@@ -78,19 +78,19 @@ fields:
     source:
       type: documents
 pages:
-- technology/twilio.md
-- technology/tableau.md
-- technology/swift.md
-- technology/stripe-payments.md
-- technology/ruby-on-rails.md
-- technology/reactJS.md
-- technology/projectt.md
-- technology/mySQL.md
-- technology/kubernetes.md
-- technology/jira.md
-- technology/heroku.md
-- technology/elastic-search.md
-- technology/docker.md
-- technology/aws.md
-- technology/assembly.md
 - technology/salesforce-marketing-cloud.md
+- technology/projectt.md
+- technology/tableau.md
+- technology/assembly.md
+- technology/aws.md
+- technology/docker.md
+- technology/elastic-search.md
+- technology/heroku.md
+- technology/jira.md
+- technology/kubernetes.md
+- technology/ruby-on-rails.md
+- technology/stripe-payments.md
+- technology/swift.md
+- technology/twilio.md
+- technology/reactJS.md
+- technology/mySQL.md
