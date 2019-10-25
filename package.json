@@ -14,7 +14,7 @@
     "build:jekyll": "bundle exec jekyll build --destination _site",
     "amp:convert": "yarn amp:iframe && yarn amp:img",
     "amp:img": "sed -i '' 's|<img|<amp-img|g' ./amp/**/*.html",
-    "amp:iframe": "sed -i '' 's|<iframe|<amp-iframe|g' ./amp/**/*.html && sed -i '' 's|</iframe|</amp-iframe|g' ./amp/**/*.html",
+    "amp:iframe": "sed -i '' 's|<iframe|<amp-iframe|g' ./_site/amp/**/*.html && sed -i '' 's|</iframe|</amp-iframe|g' ./_amp/**/*.html",
     "preview": "yarn preview:webpack && yarn preview:jekyll",
     "preview:webpack": "webpack --mode development",
     "preview:jekyll": "bundle exec jekyll build --drafts --unpublished --future --destination _site",
