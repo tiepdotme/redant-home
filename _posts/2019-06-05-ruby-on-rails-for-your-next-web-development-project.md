@@ -19,7 +19,7 @@ excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners 
   anyone that is a bit baffled about tech stack options.
 redirect_from: []
 date_published: ! ' 2019-06-05'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 <section id="section-intro" class="bg-black"> <div class="container"> <div class="row align-items-center"> <div class="col-12"> {% include breadcrumbs.html %} </div> <div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center">

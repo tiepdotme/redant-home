@@ -23,7 +23,7 @@ tags: []
 time: 5 Mins Read
 redirect_from: []
 date_published: ! ' 2011-01-19'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 A few months ago, we started working with a project management coach.
