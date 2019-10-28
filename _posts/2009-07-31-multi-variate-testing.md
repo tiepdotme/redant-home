@@ -25,7 +25,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2009-07-31'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 Traditionally, to find out how you should best design and structure your site you might do some testing on a sample of users. There's lots of ways of doing this, from giving them a set of thing to find on your site and timing this through to tracking users eye movements as they look at different pages. If you feel a strong, overwhelming desire to irritate, you could always set up an entry and exit survey on your site.

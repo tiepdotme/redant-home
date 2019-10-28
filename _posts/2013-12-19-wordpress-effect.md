@@ -25,7 +25,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2013-12-19'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 ## On one side are the Marketers

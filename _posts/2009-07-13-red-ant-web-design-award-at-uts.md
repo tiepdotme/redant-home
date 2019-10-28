@@ -22,7 +22,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2009-07-13'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 We've been sponsoring a design award at our local university - UTS. We've been involved with UTS for a few years now, including doing studio visits and professional practice talks.

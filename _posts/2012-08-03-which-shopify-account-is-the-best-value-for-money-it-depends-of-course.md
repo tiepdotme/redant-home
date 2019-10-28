@@ -22,7 +22,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2012-08-03'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 [![](/assets/uploads/2012/shopify-account-comparison-chart.png)](/assets/uploads/2012/shopify-account-comparison-chart.png)
