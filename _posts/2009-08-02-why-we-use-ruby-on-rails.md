@@ -26,6 +26,7 @@ redirect_from:
 - "/blog/why-we-use-ruby-on-rails"
 - "/blog/text-cloud-in-flash/"
 date_published: ! ' 2009-08-02'
+publisher: Ren Ant
 
 ---
 Heres my summary of what Rails is and why we use it.

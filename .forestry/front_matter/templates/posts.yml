@@ -98,6 +98,9 @@ pages:
 - _posts/2010-05-18-webby-awards-honoree-for-tails-for-whales.md
 - _posts/2013-12-16-cache-busting-gmail-new-image-caching.md
 - _posts/2019-05-22-finding-the-right-development-option-offshore-vs-agency-vs-freelance-vs-team.md
+- _posts/2012-02-24-how-a-project-gets-tested-and-deployed-with-gitflow.md
+- _posts/2012-08-30-weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins.md
+- _posts/2012-09-25-vulnerability-scanning-ruby-on-rails.md
 - _posts/2009-08-02-why-we-use-ruby-on-rails.md
 - _posts/2012-12-19-asynchronous-javascript-frameworks-like-angular-js.md
 - _posts/2012-01-16-our-work-michelle-bridges-12wbt-build.md
@@ -105,7 +108,6 @@ pages:
 - _posts/2011-01-19-benchmarking-the-perfect-project-what-makes-one-project-better-than-another.md
 - _posts/2009-07-30-refactoring-a-design.md
 - _posts/2013-10-23-perils-ecommerce-objects-may-appear-larger-better-actually.md
-- _posts/2012-02-24-how-a-project-gets-tested-and-deployed-with-gitflow.md
 - _posts/2009-07-13-red-ant-web-design-award-at-uts.md
 - _posts/2019-06-05-ruby-on-rails-for-your-next-web-development-project.md
 - _posts/2012-02-28-a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff.md
@@ -113,10 +115,8 @@ pages:
 - _posts/2018-11-26-ai-development-testing.md
 - _posts/2012-08-03-which-shopify-account-is-the-best-value-for-money-it-depends-of-course.md
 - _posts/2018-08-10-digital-agency-vs-technical.md
-- _posts/2012-08-30-weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins.md
 - _posts/2012-03-30-keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins.md
 - _posts/2010-09-22-our-recent-interactive-tools.md
-- _posts/2012-09-25-vulnerability-scanning-ruby-on-rails.md
 - _posts/2013-04-10-ruby-on-rails-efficiency-convention-over-configuration.md
 - _posts/2013-09-17-mobile-apps.md
 - _posts/2018-09-17-mvp-software-development-options.md

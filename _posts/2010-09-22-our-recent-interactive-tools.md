@@ -7,7 +7,8 @@ categories:
 - our-work
 - ruby-on-rails
 author: Ben Still
-description: ''
+description: Who doesn't like to be out in the sun, gardening and getting your fingers
+  all green? Well now you can do all that from the comfort of your living room!
 keywords: our recent interactive tools
 image-small: "/assets/uploads/2010/huggies-baby-room-2-small.jpg"
 image-large: "/assets/uploads/2010/yates-virtual-garden-2.jpg"
@@ -21,6 +22,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2010-09-22'
+publisher: Ren Ant
 
 ---
 #### Yates Virtual Garden

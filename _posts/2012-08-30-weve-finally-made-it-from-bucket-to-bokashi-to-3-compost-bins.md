@@ -19,6 +19,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2012-08-30'
+publisher: Ren Ant
 
 ---
 We've just bought our second compost bin, to sit alongside our existing bin and worm farm.

@@ -19,6 +19,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2012-03-30'
+publisher: Ren Ant
 
 ---
 Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.
