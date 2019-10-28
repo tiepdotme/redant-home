@@ -91,7 +91,7 @@ fields:
   type: text
   config:
     required: true
-  hidden: false
+  hidden: true
   label: publisher
   default: Red Ant
 pages:
