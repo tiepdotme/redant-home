@@ -8,7 +8,10 @@ categories:
 - ruby-on-rails
 - ecommerce
 author: Ben Still
-description: ''
+description: Here are a few of the projects that have been keeping us busy lately.
+  I really should get around to putting them in to our portfolio, but the army of
+  little fairies that live in our server that do all our work (well, the hard stuff
+  anyway) have been a bit slack lately.
 keywords: latest work
 image-small: "/assets/uploads/2009/redant-office-300x200.jpg"
 image-large: "/assets/uploads/2009/redant-office-1000x600.jpg"
@@ -21,6 +24,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2009-07-13'
+publisher: Ren Ant
 
 ---
 ## Beauty Heaven

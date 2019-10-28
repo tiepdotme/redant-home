@@ -22,7 +22,7 @@ tags:
 time: ''
 redirect_from: []
 date_published: ! ' 2019-02-12'
-publisher: Ren Ant
+publisher: Red Ant
 
 ---
 Before we started working on the [Managed Platform](/portfolio/managed/), I’d made some assumptions about how Property Management works. In a nutshell, my impression was that things were pretty basic. Easy, even.
