@@ -87,6 +87,12 @@ fields:
   label: date_published
   hidden: true
   default: now
+- name: publisher
+  type: text
+  config:
+    required: true
+  label: publisher
+  default: Red Ant
 pages:
 - _posts/2009-08-02-why-we-use-ruby-on-rails.md
 - _posts/2012-12-19-asynchronous-javascript-frameworks-like-angular-js.md
