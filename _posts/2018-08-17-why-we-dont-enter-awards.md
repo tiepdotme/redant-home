@@ -18,6 +18,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2018-08-17'
+publisher: Ren Ant
 
 ---
 Why we don't enter awards… And why I irritate Wayne. I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.

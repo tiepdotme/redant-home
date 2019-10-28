@@ -25,6 +25,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2014-01-02'
+publisher: Ren Ant
 
 ---
 From NYTimes article:
