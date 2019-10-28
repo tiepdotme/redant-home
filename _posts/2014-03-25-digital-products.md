@@ -25,6 +25,7 @@ redirect_from:
 - "/digital-product"
 - "/digital-products/"
 date_published: ! ' 2014-03-25'
+publisher: Ren Ant
 
 ---
 A static site usually consists of a number of pages, which might have a CMS to allow you to edit content and make new pages. Each page is essentially static - each visitor gets the same content. Sure, there might be some multivariate testing running over the top so some visitors get different messages, but the core experience is the same.

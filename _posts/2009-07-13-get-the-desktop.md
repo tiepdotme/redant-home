@@ -17,6 +17,7 @@ tags: []
 time: ''
 redirect_from: []
 date_published: ! ' 2009-07-13'
+publisher: Ren Ant
 
 ---
 ![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg){:height="371" width="495"}
