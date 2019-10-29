@@ -1,23 +1,31 @@
 ---
 layout: service
-title: Solve performance problems
-subtitle_1: You might be feeling a bit overwhelmed with all the different technologies and approaches available. What’s the best way to evaluate the right path for your idea or product?\n Give us your quick pitch, explain the problem you’re solving. And we’ll quickly map out how we think you should approach the technical side of things. Gotchas, options and technology stacks.
-subtitle_2: With over 20 years of building custom, high-traffic websites we can help you evaluate your options. Call today for a no-obligation chat with one of our experienced technical developers and technical project managers. We can help you quickly gain insight into your next step.
-description: You might be feeling a bit overwhelmed with all the different technologies and approaches available. What’s the best way to evaluate the right path for your idea or product?
+title: 'Improving performance for fast growing sites '
+subtitle_1: Do you feel like your website, app or platform isn’t keeping up with demand
+  or if you’ve been struggling with persistent performance - we can help you get unstuck.
+subtitle_2: Perhaps you’ve had a small tech team or it was created offshore - we can
+  help you understand the challenges and make decisions to move forward.
+description: Do you feel like your website, app or platform isn’t keeping up with
+  demand or if you’ve been struggling with persistent performance - we can help you
+  get unstuck.
 slug: solve-performance-problems
-redirect_from:
+redirect_from: []
 bulletpoints:
-  - How much will my website cost?
-  - How long will it take to build?
-  - How reliable is my existing site?
-  - Should I use a software licence platform or am I better building my own custom website?
-  - How can I outpace my competitors technology?
+- 'Why are there so many bugs and error pages? '
+- Why is my customer support team overwhelmed?
+- Why does it take so long to release new features?
+- Why are customers dropping out?
 project:
-  - managed
+- managed
+projects:
+- managed
 published: false
+
 ---
+### **Get ready for scale with a structured performance review**
 
-#### Free Initial Phone Call
+With over 25 years experience in building complex, high-traffic websites - we’ve solved many performance issues and we can lend our experience to you.
 
-Contact us for a chat with a technical specialist and give us outline audience and your technical goals. Let us know what you’ve tried and what problems you’ve encountered. We can quickly map out your technical options and how we can help. The initial consult is absolutely free and take about 30 minutes. You will gain some new opinions based on years of doing it. No
-downside. [Call today](tel:+61292678300).
+We can review your existing code, technical processes and run tests and give you insight into the issues. We will discuss architecture, security, best practices, tech debt, test coverage and reliability. We provide pragmatic advice to help you move forward with greater confidence.
+
+We can take the time to explain the issues in a practical workshop or provide you with a report to share with your development team, investors and stakeholders.

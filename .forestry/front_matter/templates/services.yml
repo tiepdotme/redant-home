@@ -50,5 +50,5 @@ fields:
       type: documents
 pages:
 - services/right-tech-stack-for-me.md
-- services/solve-performance-problems.md
 - services/resourcing-roadmaps-revenue.md
+- services/solve-performance-problems.md
