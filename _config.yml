@@ -3,9 +3,9 @@ email: ben@redant.com.au
 description: >-
   Red Ant is a Technical Agency. We create & build exceptional digital products.
   These live as web sites, in mobile apps, and in social networks.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://redant.com.au" # the base hostname & protocol for your site, e.g. http://example.com
-url_host: "redant.com.au"
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://redant.com.au' # the base hostname & protocol for your site, e.g. http://example.com
+url_host: 'redant.com.au'
 
 # Build settings
 permalink: /:title/
@@ -28,6 +28,7 @@ include:
   - _pages
   - _posts
   - portfolio
+  - services
   - technology
 
 # Exclude from processing.
