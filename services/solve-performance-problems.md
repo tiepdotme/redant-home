@@ -19,7 +19,6 @@ project:
 - managed
 projects:
 - managed
-published: false
 
 ---
 ### **Get ready for scale with a structured performance review**
