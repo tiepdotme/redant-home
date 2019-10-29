@@ -1,22 +1,26 @@
 ---
 layout: service
 title: The 3Rs - resourcing, roadmaps, revenue
-subtitle_1: These 3Rs are some of the most important aspects of your platform development. They are linked, and they will determine if your product is a success.
-subtitle_2: Building a digital product can be daunting. Agile methodology was developed to help tech teams plan their work into short term “sprints” usually around 30 days. This gives flexibility to adapt and make changes along the way. However if you’ve got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.
-description: These 3Rs are some of the most important aspects of your platform development. They are linked, and they will determine if your product is a success.
+subtitle_1: These 3Rs are some of the most important aspects of your platform development.
+  They are linked, and they will determine if your product is a success.
+subtitle_2: Building a digital product can be daunting. Agile methodology was developed
+  to help tech teams plan their work into short term “sprints” usually around 30 days.
+  This gives flexibility to adapt and make changes along the way. However if you’ve
+  got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.
+description: These 3Rs are some of the most important aspects of your platform development.
+  They are linked, and they will determine if your product is a success.
 slug: resourcing-roadmaps-revenue
-redirect_from:
+redirect_from: []
 bulletpoints:
-  - How much is this going to cost?
-  - I have a small developer team, how long will this take?
-  - What are my resourcing options?
-  - Which features are going to create the biggest impact?
-  - When will I get revenue? And how?
+- How much is this going to cost?
+- I have a small developer team, how long will this take?
+- What are my resourcing options?
+- Which features are going to create the biggest impact?
+- When will I get revenue? And how?
 projects:
-  - managed
-published: false
----
+- managed
 
+---
 #### 3Rs Workshop, Roadmap and Sprint Plan
 
 We start with a 1 day workshop to really understand your users, goals and existing tech stack if you have one.
