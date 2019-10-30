@@ -4,8 +4,8 @@ title: 'Improving performance for fast growing sites '
 subtitle_1: Do you feel like your website, app or platform isn’t keeping up or if
   you’ve been struggling with persistent performance issues - we can help you get
   unstuck.
-subtitle_2: Perhaps you’ve had a small tech team or it was created offshore - we can
-  help you understand the challenges and make decisions to move forward.
+subtitle_2: Perhaps you’ve been using a small tech team or it was created offshore
+  - we can help you understand the challenges and make decisions to move forward.
 cta_button_title: Book your Performance Review
 service_title: Performance Review
 service_bulletpoints:
