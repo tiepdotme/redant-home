@@ -25,7 +25,7 @@ description: These 3Rs are some of the most important aspects of your platform d
 slug: resourcing-roadmaps-revenue
 redirect_from: []
 bulletpoints:
-- How much is this going to cost?
+- How much will my website cost?
 - I have a small developer team, how long will this take?
 - What are my resourcing options?
 - Which features are going to create the biggest impact?
