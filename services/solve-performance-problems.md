@@ -9,7 +9,7 @@ subtitle_2: Perhaps you’ve been using a small tech team or it was created offs
 cta_button_title: Book your Performance Review
 service_title: Performance Review
 service_bulletpoints:
-- We will review your existing code, technical processes and run tests and give you
+- We will review your existing code, technical processes and run tests to give you
   insight into the issues.
 - We will discuss architecture, security, best practices, tech debt, test coverage
   and reliability.
@@ -19,8 +19,8 @@ service_bulletpoints:
 time: 2 weeks
 cost: Contact us to discuss your needs
 description: Do you feel like your website, app or platform isn’t keeping up with
-  demand or if you’ve been struggling with persistent performance - we can help you
-  get unstuck.
+  demand or if you’ve been struggling with persistent performance issues - we can
+  help you get unstuck.
 slug: solve-performance-problems
 redirect_from: []
 bulletpoints:

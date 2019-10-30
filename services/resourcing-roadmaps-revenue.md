@@ -1,38 +1,39 @@
 ---
 layout: service
 title: The 3Rs - resourcing, roadmaps, revenue
-subtitle_1:
-  These 3Rs are some of the most important aspects of your platform development.
+subtitle_1: These 3Rs are the most important aspects of your website development.
   They are linked, and they will determine if your product is a success.
-subtitle_2:
-  Building a digital product can be daunting. Agile methodology was developed
+subtitle_2: Building a digital product can be daunting. Agile methodology was developed
   to help tech teams plan their work into short term “sprints” usually around 30 days.
   This gives flexibility to adapt and make changes along the way. However if you’ve
   got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.
 cta_button_title: Book your Product Workshop, Roadmap and Sprint Plan
 service_title: Product Workshop, Roadmap and Sprint Plan
 service_bulletpoints:
-  - Host a 1 day workshop in our office over video call drilling into your audience and technology goals
-  - Develop your Product Roadmap - identify key features and a sequence of development that links to resources and revenue.
-  - Create your Agile Sprint Plan that customised to your development team that is easy to implement, test and deliver.
-  - Your roadmap and sprint plan can be developed with your tech team and stakeholders - giving everyone clarity on the plan.
+- Host a 1 day workshop in our office over video call drilling into your audience
+  and technology goals
+- Develop your Product Roadmap - identify key features and a sequence of development
+  that links to resources and revenue.
+- Create your Agile Sprint Plan that customised to your development team that is easy
+  to implement, test and deliver.
+- Your roadmap and sprint plan can be developed with your tech team and stakeholders
+  - giving everyone clarity on the plan.
 time: 2 weeks
-cost: $6,000 AUD
-description:
-  These 3Rs are some of the most important aspects of your platform development.
+cost: "$6,000 AUD"
+description: These 3Rs are some of the most important aspects of your platform development.
   They are linked, and they will determine if your product is a success.
 slug: resourcing-roadmaps-revenue
 redirect_from: []
 bulletpoints:
-  - How much is this going to cost?
-  - I have a small developer team, how long will this take?
-  - What are my resourcing options?
-  - Which features are going to create the biggest impact?
-  - When will I get revenue? And how?
+- How much is this going to cost?
+- I have a small developer team, how long will this take?
+- What are my resourcing options?
+- Which features are going to create the biggest impact?
+- When will I get revenue? And how?
 projects:
-  - managed
----
+- managed
 
+---
 #### 3Rs Workshop, Roadmap and Sprint Plan
 
 We start with a 1 day workshop to really understand your users, goals and existing tech stack if you have one.
