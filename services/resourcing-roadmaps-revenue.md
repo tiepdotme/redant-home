@@ -46,4 +46,4 @@ At the end you will gain clarity over your development path, resourcing and proj
 
 Our planning processes have helped startups and established corporates get in front of their users quickly. If you have a digital project that needs a jump start contact us today to discuss a 3Rs Workshop, Roadmap and Sprint Plan.
 
-1 day workshop + Roadmap and Sprint Plan - \$6,000
+1 day workshop + Roadmap + Sprint Plan = $6,000
