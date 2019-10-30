@@ -55,24 +55,23 @@
             <div class="col-sm-8 d-flex align-items-stretch">
               <section class="card w-100 card--review card--level1">
                 <div class="card-header">
-                  <h2 class="h4 mb-0 card-title">Project Review</h2>
+                  <h2 class="h4 mb-0 card-title">{{ page.service_title }}</h2>
                 </div>
                 <div class="card-body d-flex align-items-start flex-column">
                   <p class="my-1">
-                    <span class="card-label">What we’ll do:</span>
+                    <span class="card-label">What we’ll discuss:</span>
                   </p>
                   <ul>
-                    <li>Review progress and team</li>
-                    <li>
-                      Quick review of areas such as tests and architecture
-                    </li>
-                    <li>Provide analysis and options based on experience</li>
-                    <li>Phone or hangout to run through</li>
+                    {% for item in page.service_bulletpoints%}
+                    <li>{{ item }}</li>
+                    {% endfor %}
                   </ul>
                   <p class="mt-auto">
-                    <span class="card-label">Time required:</span> 2-3 hours
+                    <span class="card-label">Time:</span> about {{ page.time }}
                   </p>
-                  <p class="mb-0"><span class="card-label">Cost:</span> Free</p>
+                  <p class="mb-0">
+                    <span class="card-label">Cost:</span> {{ page.cost }}
+                  </p>
                 </div>
                 <div class="card-footer">
                   <a
@@ -92,6 +91,7 @@
         </div>
       </section>
 
+      {% if content.size > 1 %}
       <section class="bg-gray-light py-5 text-md">
         <div class="container">
           <div class="row">
@@ -101,6 +101,7 @@
           </div>
         </div>
       </section>
+      {% endif %}
 
       <section class="py-5">
         <div class="container">
