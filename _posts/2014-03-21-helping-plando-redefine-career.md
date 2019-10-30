@@ -8,8 +8,8 @@ categories:
 - our-work
 author: Sam Bauers
 keywords: ''
-image-small: "/assets/uploads/2014/plando-small.png"
-image-large: "/assets/uploads/2014/plando-wide.png"
+image_small: "/assets/uploads/2014/plando-small.png"
+image: "/assets/uploads/2014/plando-wide.png"
 excerpt-short: The world of employment and careers is due for a shakeup. We've been
   helping Plando build a career management platform that we think will fundamentally
   change the careers landscape.

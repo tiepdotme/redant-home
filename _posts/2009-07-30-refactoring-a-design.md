@@ -10,8 +10,8 @@ author: Ben Still
 description: We've recently spent some time adding some new features to a site that
   we built a while back.
 keywords: refactoring
-image-small: "/assets/uploads/2009/refactor-small.jpg"
-image-large: "/assets/uploads/2009/refactor-large.jpg"
+image_small: "/assets/uploads/2009/refactor-small.jpg"
+image: "/assets/uploads/2009/refactor-large.jpg"
 excerpt-short: We've recently spent some time adding some new features to a site that
   we built a while back.
 excerpt-long: We've recently spent some time adding some new features to a site that

@@ -13,8 +13,8 @@ description: Here are a few of the projects that have been keeping us busy latel
   little fairies that live in our server that do all our work (well, the hard stuff
   anyway) have been a bit slack lately.
 keywords: latest work
-image-small: "/assets/uploads/2009/redant-office-300x200.jpg"
-image-large: "/assets/uploads/2009/redant-office-1000x600.jpg"
+image_small: "/assets/uploads/2009/redant-office-300x200.jpg"
+image: "/assets/uploads/2009/redant-office-1000x600.jpg"
 excerpt-short: Here are a few of the projects that have been keeping us busy lately
 excerpt-long: Here are a few of the projects that have been keeping us busy lately.
   I really should get around to putting them in to our portfolio, but the army of

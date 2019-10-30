@@ -8,8 +8,8 @@ categories:
   - tool-reviews
 author: Ben Still
 image:
-image-small: /assets/uploads/2009/ui-friction-small.jpg
-image-large: /assets/uploads/2009/ui-friction.jpg
+image_small: /assets/uploads/2009/ui-friction-small.jpg
+image: /assets/uploads/2009/ui-friction.jpg
 meta:
   dsq_thread_id: '485220609'
 excerpt:

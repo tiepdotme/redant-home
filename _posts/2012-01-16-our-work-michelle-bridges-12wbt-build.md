@@ -10,8 +10,8 @@ categories:
 author: Ben Still
 description: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
-image-small: "/assets/uploads/2012/12wbt.jpg"
-image-large: "/assets/uploads/2012/12wbt.jpg"
+image_small: "/assets/uploads/2012/12wbt.jpg"
+image: "/assets/uploads/2012/12wbt.jpg"
 excerpt-short: The initial build of the Michelle Bridges 12WBT project
 excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
   Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented

@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 description: Who are all these fake people on LinkedIn?
 keywords: ''
-image-small: "/assets/uploads/2018/linkedin2.png"
-image-large: "/assets/uploads/2018/linkedin2.png"
+image_small: "/assets/uploads/2018/linkedin2.png"
+image: "/assets/uploads/2018/linkedin2.png"
 excerpt-short: ''
 excerpt-long: ''
 tags:

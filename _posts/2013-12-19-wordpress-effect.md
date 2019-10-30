@@ -10,8 +10,8 @@ author: Ben Still
 description: The growth of WordPress has turned the web development market on its
   head. But does this apply to all web development?
 keywords: wordpress
-image-small: "/assets/uploads/2013/canyon-small.jpg"
-image-large: "/assets/uploads/2013/canyon-small.jpg"
+image_small: "/assets/uploads/2013/canyon-small.jpg"
+image: "/assets/uploads/2013/canyon-small.jpg"
 excerpt-short: The growth of tools like Wordpress have had a massive impact on the
   web development market. It's created two very distinct areas with a huge gap between.
 excerpt-long: The growth of tools like Wordpress have had a massive impact on the

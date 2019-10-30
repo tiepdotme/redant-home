@@ -9,8 +9,8 @@ author: Ben Still
 description: Have you noticed that some sites are insanely fast these days? The new
   generation of Javascript Frameworks are powering a new change in the way pages work.
 keywords: fast asynchronous javascript frameworks
-image-small: "/assets/uploads/2012/google-angular-small.png"
-image-large: "/assets/uploads/2012/angularjs.png"
+image_small: "/assets/uploads/2012/google-angular-small.png"
+image: "/assets/uploads/2012/angularjs.png"
 excerpt-short: Have you noticed that some of the sites you use have been getting super
   fast lately?
 excerpt-long: Have you noticed that some of the sites you use have been getting super

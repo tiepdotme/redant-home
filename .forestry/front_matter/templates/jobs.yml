@@ -27,11 +27,11 @@ fields:
   name: keywords
   label: keywords
 - type: file
-  name: image-small
-  label: image-small
+  name: image_small
+  label: image_small
 - type: file
-  name: image-large
-  label: image-large
+  name: image
+  label: image
 - type: tag_list
   label: redirect_from
   name: redirect_from

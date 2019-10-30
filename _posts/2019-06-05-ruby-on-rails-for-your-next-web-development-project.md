@@ -11,8 +11,8 @@ title: Why choose Ruby on Rails?
 description: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ''
-image-small: "/assets/uploads/2019/why-choose-ruby.jpg"
-image-large: ''
+image_small: "/assets/uploads/2019/why-choose-ruby.jpg"
+image: ''
 excerpt-short: The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners or

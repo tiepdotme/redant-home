@@ -10,8 +10,8 @@ author: Jesse Noble
 description: A few months ago, we started working with a project management coach.
   Here's what happened.
 keywords: project management benchmarking
-image-small: "/assets/uploads/2011/benchmark-small.jpg"
-image-large: "/assets/uploads/2011/benchmark-large.jpg"
+image_small: "/assets/uploads/2011/benchmark-small.jpg"
+image: "/assets/uploads/2011/benchmark-large.jpg"
 excerpt-short: A few months ago, we started working with a project management coach.
   Here's what happened.
 excerpt-long: We were already awesome, but we wanted more. This time our project managers

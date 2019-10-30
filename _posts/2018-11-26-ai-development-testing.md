@@ -11,8 +11,8 @@ description: AI and Machine Learning are amazing technologies. But in some cases
   can be hard to know when they are actually working
 keywords: ai development, machine learning, automated tests
 date: '2018-11-26T02:31:36.000+00:00'
-image-small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
-image-large: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
+image_small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
+image: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
 excerpt-short: Testing Machine Learning or AI powered features is often trickier than
   it seems
 excerpt-long: Testing Machine Learning or AI powered features is often trickier than

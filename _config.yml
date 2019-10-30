@@ -6,6 +6,7 @@ description: >-
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://redant.com.au' # the base hostname & protocol for your site, e.g. http://example.com
 url_host: 'redant.com.au'
+logo: 'assets/webpack/logo_redant.png'
 
 # Build settings
 permalink: /:title/

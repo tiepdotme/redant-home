@@ -20,8 +20,8 @@ categories:
 - software-development
 tags: []
 keywords: ''
-image-small: "/assets/uploads/2019/crowd.jpg"
-image-large: ''
+image_small: "/assets/uploads/2019/crowd.jpg"
+image: ''
 redirect_from: []
 date_published: ! ' 2019-05-22'
 publisher: Red Ant

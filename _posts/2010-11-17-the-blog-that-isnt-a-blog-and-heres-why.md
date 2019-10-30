@@ -9,8 +9,8 @@ author: Ben Still
 description: We've recently launched a new blog feature on the Huggies site. But it's
   a blog with a difference.
 keywords: huggies blog
-image-small: "/assets/uploads/2010/huggies-blogs-1-small.jpg"
-image-large: "/assets/uploads/2010/huggies-blogs-1.jpg"
+image_small: "/assets/uploads/2010/huggies-blogs-1-small.jpg"
+image: "/assets/uploads/2010/huggies-blogs-1.jpg"
 excerpt-short: We've recently launched a new blog feature on the Huggies site. But
   it's a blog with a difference.
 excerpt-long: The user wouldn't notice anything different about this blog, and that's

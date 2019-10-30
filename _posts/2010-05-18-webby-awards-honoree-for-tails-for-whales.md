@@ -11,8 +11,8 @@ description: The ever-so-popular Tails for Whales website has been selected as a
   honoree for the Webby Awards and we coudn't be more excited. Here's a video showing
   you what's possible when great minds and awesome skills come together.
 keywords: tails for whales webby awards
-image-small: "/assets/uploads/2010/whale-small.jpg"
-image-large: "/assets/uploads/2010/whales-large.jpg"
+image_small: "/assets/uploads/2010/whale-small.jpg"
+image: "/assets/uploads/2010/whales-large.jpg"
 excerpt-short: The Tails for Whales site has been selected as an honoree for the Webby
   Awards.
 excerpt-long: The ever-so-popular Tails for Whales website has been selected as an

@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
-image-small: "/assets/uploads/2009/troopers-small.jpg"
-image-large: "/assets/uploads/2009/troopers-large.jpg"
+image_small: "/assets/uploads/2009/troopers-small.jpg"
+image: "/assets/uploads/2009/troopers-large.jpg"
 excerpt-short: Would you like to see what we've been doing lately? From inspiring
   kids to read to launching the new Kleenex website, it's all here.
 excerpt-long: We're proud of what we do, and we'd like to share that with you. It's

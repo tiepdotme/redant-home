@@ -12,8 +12,8 @@ description: Introducing a simple tool for backing up small MySQL databases to S
   The open source script MySQL SVN Backup. Now featuring dolphins with lasers.
 keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphin
   with lasers
-image-small: "/assets/uploads/2014/dolphins-with-lasers-small.jpg"
-image-large: "/assets/uploads/2014/dolphins-with-lasers.jpg"
+image_small: "/assets/uploads/2014/dolphins-with-lasers-small.jpg"
+image: "/assets/uploads/2014/dolphins-with-lasers.jpg"
 excerpt-short: A common pain point when using databases like MySQL on small projects
   is a simple way of managing backups. Here is a solution we've created.
 excerpt-long: A common pain point when using <a href="http://www.mysql.com">MySQL</a>

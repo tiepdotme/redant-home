@@ -7,8 +7,8 @@ categories:
   - strategy
 author: Ben Still
 image:
-image-small: /assets/uploads/2009/viral-small.png
-image-large: /assets/uploads/2009/viral-large.jpg
+image_small: /assets/uploads/2009/viral-small.png
+image: /assets/uploads/2009/viral-large.jpg
 meta:
   dsq_thread_id: '497268647'
   keywords: viral marketing
