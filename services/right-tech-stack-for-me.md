@@ -3,9 +3,9 @@ layout: service
 title: Understanding your technical options
 subtitle_1: You might be feeling a bit overwhelmed with all the different technologies
   and approaches available. What’s the best way to evaluate the right path for your
-  idea or product?\n Give us your quick pitch, explain the problem you’re solving.
-  And we’ll quickly map out how we think you should approach the technical side of
-  things. Gotchas, options and technology stacks.
+  idea or product? Give us your quick pitch, explain the problem you’re solving. And
+  we’ll quickly map out how we think you should approach the technical side of things.
+  Gotchas, options and technology stacks.
 subtitle_2: 'With over 20 years of building custom, high-traffic websites we can help
   you evaluate your options. '
 cta_button_title: Book your free initial consult
