@@ -1,19 +1,22 @@
 ---
 layout: post
 title: Clicktale Review - how the technology works and why it didn't for us
-permalink: "/tool-reviews/clicktale-review-technology/"
+permalink: '/tool-reviews/clicktale-review-technology/'
 type: news
 categories:
-- tool-reviews
+  - tool-reviews
 author: Ben Still
-description: Clicktale review which looks at how the technology works and some real
+description:
+  Clicktale review which looks at how the technology works and some real
   world issues that you might face when implementing Clicktale
 keywords: Clicktale review
-image_small: "/assets/uploads/2012/clicktale-small.png"
-image: "/assets/uploads/2012/clicktale.png"
-excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says
+image_small: '/assets/uploads/2012/clicktale-small.png'
+image: '/assets/uploads/2012/clicktale.png'
+excerpt-short:
+  It could be so good, but sadly Clicktale doesn't do everything it says
   on the box.
-excerpt-long: Clicktale is a software tool which allows you to track what users are
+excerpt-long:
+  Clicktale is a software tool which allows you to track what users are
   doing on your website. It is used to analyse how people behave and what they do
   on particular pages. we've used it on several projects to try to gain a better understanding
   of how users were travelling through the site. More specifically, we were trying
@@ -24,8 +27,8 @@ time: ''
 redirect_from: []
 date_published: ! ' 2012-01-31'
 publisher: Red Ant
-
 ---
+
 This Clicktale review is completely independent. We've used it on several projects where we wanted to better understand user interactions. In doing this we had a chance to look at both the way it collects data and how it reports this information. We've also had the opportunity to compare the results against other other software tracking tools, as well as other approaches to the same task such as physical eye tracking. We started using Clicktale based on many of the positive reviews we'd read, but on further investigation many of these were paid reviews (via affiliate commission).
 
 To summarise our experience, we were quite disappointed with the results. The [Clicktale](http://www.clicktale.com) reports seem to illustrate certain behaviours and user problems, but after some investigation we realised these weren't problems.
@@ -46,13 +49,22 @@ The problem is that there are a few technical issues with accurately recording u
 
 Here's a simple example, using the [Twitter join form](https://twitter.com/signup) as an example. The first screencast is what a user actually sees:
 
+{% if page.url contains 'amp/' %}
+<amp-iframe width="560" height="315" src="https://www.youtube.com/embed/TxLYUw2PVWI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></amp-iframe>
+{% else %}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TxLYUw2PVWI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
+{% endif %}
 
 This is (in my humble opinion) a pretty nice join form. It gives lots of clear feedback and helpful suggestions. The form uses Ajax to check if that username is available or in the right format, plus comes up with some helpful suggestions. In this example user tries a few and then chooses one of the suggested names.
 
 This is how the same user behaviour on this form would look like via Clicktale. Note the absence of any kind of prompts or help text, and the pauses while the user reads the validation message (which isn't visible).
+{% if page.url contains 'amp/' %}
+<amp-iframe width="560" height="315" src="https://www.youtube.com/embed/PocHJYNAR7s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></amp-iframe>
+{% else %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PocHJYNAR7s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
+{% endif %}
 
 If you were viewing this playback to get a sense of how the form was being used, you might conclude that the user is having real trouble with filling it in. Not only that, but none of the prompts are appearing and the form looks totally broken. Have we tested in all browsers? Is this a problem that occurs under load? What is this user doing differently to all our test results?
 
