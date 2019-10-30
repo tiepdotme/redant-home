@@ -128,8 +128,6 @@ pages:
 - _posts/2012-02-24-how-a-project-gets-tested-and-deployed-with-gitflow.md
 - _posts/2009-07-30-refactoring-a-design.md
 - _posts/2019-02-12-what-makes-property-management-so-hard.md
-- _posts/2010-05-18-webby-awards-honoree-for-tails-for-whales.md
-- _posts/2010-01-08-user-generated-content.md
 - _posts/2019-06-05-ruby-on-rails-for-your-next-web-development-project.md
 - _posts/2014-03-25-digital-products.md
 - _posts/2009-07-13-get-the-desktop.md
@@ -140,6 +138,7 @@ pages:
 - _posts/2011-01-19-benchmarking-the-perfect-project-what-makes-one-project-better-than-another.md
 - _posts/2010-11-18-the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet.md
 - _posts/2012-02-28-a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff.md
+- _posts/2010-05-18-webby-awards-honoree-for-tails-for-whales.md
 - _posts/2010-09-22-our-recent-interactive-tools.md
 - _posts/2012-01-31-clicktale-review-technology.md
 - _posts/2009-07-13-earth-hour-2008.md
