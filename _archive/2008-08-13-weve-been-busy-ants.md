@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-image-small: /assets/uploads/2008/ant-small.jpg
-image-large: /assets/uploads/2008/ant-large.jpg
+image_small: /assets/uploads/2008/ant-small.jpg
+image: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
 excerpt:

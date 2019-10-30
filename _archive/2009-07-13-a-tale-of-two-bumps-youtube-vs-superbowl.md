@@ -7,8 +7,8 @@ categories:
   - how-we-do
 author: Ben Still
 image:
-image-small: /assets/uploads/2009/alexa.png
-image-large: /assets/uploads/2009/alexa.png
+image_small: /assets/uploads/2009/alexa.png
+image: /assets/uploads/2009/alexa.png
 meta:
   dsq_thread_id: '610081084'
   focus_keywords: youtube vs superbowl

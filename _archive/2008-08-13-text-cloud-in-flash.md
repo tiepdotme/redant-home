@@ -7,8 +7,8 @@ categories:
   - our-work
 author: Ben Still
 image:
-image-small: /assets/uploads/2008/radiant-admin-465x311.png
-image-large: /assets/uploads/2008/radiant-admin.png
+image_small: /assets/uploads/2008/radiant-admin-465x311.png
+image: /assets/uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:

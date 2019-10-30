@@ -9,8 +9,8 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-image-small: /assets/uploads/2008/brief-small.jpg
-image-large: /assets/uploads/2008/brief-large.jpg
+image_small: /assets/uploads/2008/brief-small.jpg
+image: /assets/uploads/2008/brief-large.jpg
 meta:
   dsq_thread_id: '480001859'
 excerpt:

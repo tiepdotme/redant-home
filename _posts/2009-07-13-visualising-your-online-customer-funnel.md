@@ -9,8 +9,8 @@ categories:
 author: Ben Still
 description: Online visualisation of your customer funnel
 keywords: ''
-image-small: "/assets/uploads/2009/funnel-small.png"
-image-large: "/assets/uploads/2009/funnel-large.jpg"
+image_small: "/assets/uploads/2009/funnel-small.png"
+image: "/assets/uploads/2009/funnel-large.jpg"
 excerpt-short: Refine your user experience and create better ROI by taking an internal
   look at what happens when your customer visits your site.
 excerpt-long: Here we look at converting customers from their first visit to your

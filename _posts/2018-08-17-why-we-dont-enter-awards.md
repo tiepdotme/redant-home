@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 description: I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
-image-small: "/assets/uploads/2018/test-image.jpg"
-image-large: "/assets/uploads/2018/test-image.jpg"
+image_small: "/assets/uploads/2018/test-image.jpg"
+image: "/assets/uploads/2018/test-image.jpg"
 excerpt-short: I have this friend. Let's call him Wayne. He works in advertising.
 excerpt-long: I have this friend. Let's call him Wayne. He works in advertising. I
   don't think I'm being unkind if I were to describe him as being a bit preoccupied

@@ -10,8 +10,8 @@ author: Ben Still
 description: Fast follower is a strategy used to replicate successful products. Here
   are 5 reasons why it might not work out, based on our experience.
 keywords: fast follower
-image-small: "/assets/uploads/2013/cat-small.jpg"
-image-large: "/assets/uploads/2013/cat.jpg"
+image_small: "/assets/uploads/2013/cat-small.jpg"
+image: "/assets/uploads/2013/cat.jpg"
 excerpt-short: Five reasons why we think your fast follower strategy might not work
   out so well.
 excerpt-long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe

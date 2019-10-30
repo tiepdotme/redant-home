@@ -8,8 +8,8 @@ categories:
   - ruby-on-rails
 author: Ben Still
 image:
-image-small: /assets/uploads/2009/forum-small.png
-image-large: /assets/uploads/2009/forum-large.png
+image_small: /assets/uploads/2009/forum-small.png
+image: /assets/uploads/2009/forum-large.png
 meta:
   dsq_thread_id: '522891991'
   focus_keywords: meaningful forum

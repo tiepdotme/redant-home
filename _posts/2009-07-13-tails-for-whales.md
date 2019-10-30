@@ -10,8 +10,8 @@ author: Ben Still
 description: Tails was whales has been a huge success, and we've loved working on
   it. And now we're making it even better.
 keywords: tails for whales
-image-small: "/assets/uploads/2009/tails-whales-small.png"
-image-large: "/assets/uploads/2009/tails-whales-big.png"
+image_small: "/assets/uploads/2009/tails-whales-small.png"
+image: "/assets/uploads/2009/tails-whales-big.png"
 excerpt-short: Tails was whales has been a huge success, and we've loved working on
   it. And now we're making it even better.
 excerpt-long: Tails was whales is a great campaign to raise awareness for what happens

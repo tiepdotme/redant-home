@@ -10,8 +10,8 @@ author: Jesse Noble
 description: The story behind our Wallboard. Who's working on what, and can I deploy
   yet?
 keywords: our wallboard
-image-small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
-image-large: "/assets/uploads/2010/redant-wallboard-preview.jpg"
+image_small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
+image: "/assets/uploads/2010/redant-wallboard-preview.jpg"
 excerpt-short: Whiteboards are out, wallboards are in. Also, vote for us!
 excerpt-long: Wallboards are cool, and every dev house should have one. Firstly because
   it provides some great information that everyone can see, and secondly because they're

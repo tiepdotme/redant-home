@@ -8,8 +8,8 @@ categories:
 author: Ben Still
 description: User generated content
 keywords: User generated content
-image-small: "/assets/uploads/2010/user-generated-content-small.png"
-image-large: "/assets/uploads/2010/user-generated-content-large.png"
+image_small: "/assets/uploads/2010/user-generated-content-small.png"
+image: "/assets/uploads/2010/user-generated-content-large.png"
 excerpt-short: It's always great to get some user feedback. Brett was kind enough
   to make this video about "Tails for Whales"
 excerpt-long: The "Tails for Whales" campaign was hugely popular, we were lucky enough

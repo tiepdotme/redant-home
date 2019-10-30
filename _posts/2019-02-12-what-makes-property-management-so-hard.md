@@ -10,8 +10,8 @@ description: From the outside looking in, the property management business looks
   simple.
 keywords: property management, payments
 date: '2019-02-12T02:31:36.000+00:00'
-image-small: "/assets/uploads/2019/managed.png"
-image-large: "/assets/uploads/2019/managed.png"
+image_small: "/assets/uploads/2019/managed.png"
+image: "/assets/uploads/2019/managed.png"
 excerpt-short: From the outside looking in, the property management business looks
   pretty simple.
 excerpt-long: From the outside looking in, the property management business looks

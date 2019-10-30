@@ -9,8 +9,8 @@ categories:
 author: Ben Still
 description: Yates Problem Solver iPhone App
 keywords: yates problem solver app
-image-small: "/assets/uploads/2010/yates-problem-solver-app-small.jpg"
-image-large: "/assets/uploads/2010/yates-problem-solver-app.jpg"
+image_small: "/assets/uploads/2010/yates-problem-solver-app-small.jpg"
+image: "/assets/uploads/2010/yates-problem-solver-app.jpg"
 excerpt-short: We take you through our great new iPhone app designed to help solve
   those common garden problems.
 excerpt-long: The Yates Problem Solver is a handy iPhone app that you can take with

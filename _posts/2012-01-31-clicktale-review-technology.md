@@ -9,8 +9,8 @@ author: Ben Still
 description: Clicktale review which looks at how the technology works and some real
   world issues that you might face when implementing Clicktale
 keywords: Clicktale review
-image-small: "/assets/uploads/2012/clicktale-small.png"
-image-large: "/assets/uploads/2012/clicktale.png"
+image_small: "/assets/uploads/2012/clicktale-small.png"
+image: "/assets/uploads/2012/clicktale.png"
 excerpt-short: It could be so good, but sadly Clicktale doesn't do everything it says
   on the box.
 excerpt-long: Clicktale is a software tool which allows you to track what users are

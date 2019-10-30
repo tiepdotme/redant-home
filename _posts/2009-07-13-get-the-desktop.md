@@ -9,8 +9,8 @@ categories:
 author: Ben Still
 description: Download your Red Ant desktop wallpaper today.
 keywords: red ant desktop wallpapers
-image-small: "/assets/uploads/2009/redant-wallpaper-small.png"
-image-large: "/assets/uploads/2009/redant-wallpaper-preview.jpg"
+image_small: "/assets/uploads/2009/redant-wallpaper-small.png"
+image: "/assets/uploads/2009/redant-wallpaper-preview.jpg"
 excerpt-short: Download your Red Ant desktop wallpaper today.
 excerpt-long: Download your Red Ant desktop wallpaper today.
 tags: []

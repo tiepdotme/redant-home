@@ -10,8 +10,8 @@ categories:
 author: Ben Still
 description: Why we use Ruby on Rails
 keywords: ruby on rails
-image-small: "/assets/uploads/2009/ruby-on-rails.png"
-image-large: "/assets/uploads/2009/ruby-on-rails.png"
+image_small: "/assets/uploads/2009/ruby-on-rails.png"
+image: "/assets/uploads/2009/ruby-on-rails.png"
 excerpt-short: We do a lot of work with a programming language called Ruby on Rails.
   This is why.
 excerpt-long: 'We do a lot of work with a programming language called Ruby on Rails.

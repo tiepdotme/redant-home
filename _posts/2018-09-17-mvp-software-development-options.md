@@ -10,8 +10,8 @@ categories:
 author: Ben Still
 description: Feeling stuck on your MVP development process? Some options to get unstuck
 keywords: MVP development
-image-small: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
-image-large: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
+image_small: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
+image: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
 excerpt-short: 'A really common scenario: you''ve had some code developed, but now
   you''re feeling a bit stuck'
 excerpt-long: 'A really common scenario: you''ve had some code developed, but now

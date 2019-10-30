@@ -9,8 +9,8 @@ author: Sam Bauers
 description: A simple tutorial showing how to manage a large list of rewrite rules
   to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
 keywords: nginx ssl redirection
-image-small: "/assets/uploads/2012/milo-on-floor-small.jpg"
-image-large: "/assets/uploads/2012/milo-on-floor.jpg"
+image_small: "/assets/uploads/2012/milo-on-floor-small.jpg"
+image: "/assets/uploads/2012/milo-on-floor.jpg"
 excerpt-short: Solutions to simple yet common and frustrating problems. We spill the
   beans on how we do it.
 excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation
