@@ -9,6 +9,7 @@ subtitle_2:
   to help tech teams plan their work into short term “sprints” usually around 30 days.
   This gives flexibility to adapt and make changes along the way. However if you’ve
   got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.
+cta_button_title: Book your Product Workshop, Roadmap and Sprint Plan
 service_title: Product Workshop, Roadmap and Sprint Plan
 service_bulletpoints:
   - Host a 1 day workshop in our office over video call drilling into your audience and technology goals
