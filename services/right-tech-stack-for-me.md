@@ -23,7 +23,7 @@ cost: Free
 description: You might be feeling a bit overwhelmed with all the different technologies
   and approaches available. What’s the best way to evaluate the right path for your
   idea or product?
-slug: right-tech-stack-for-me
+slug: understanding-your-tech-options
 redirect_from: []
 bulletpoints:
 - How much will my website cost?
