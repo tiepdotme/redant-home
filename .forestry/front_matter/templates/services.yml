@@ -74,6 +74,6 @@ fields:
     source:
       type: documents
 pages:
-- services/solve-performance-problems.md
 - services/right-tech-stack-for-me.md
 - services/resourcing-roadmaps-revenue.md
+- services/solve-performance-problems.md
