@@ -14,16 +14,17 @@
 <link rel="canonical" href="https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/" />
 <meta property="og:url" content="https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/" />
 <meta property="og:site_name" content="Red Ant" />
+<meta property="og:image" content="https://redant.com.au/assets/uploads/2012/jenkins-pipeline-start.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2012-02-28T00:00:00+00:00" />
 <script type="application/ld+json">
-{"name":null,"description":"A quick outline of how we’re using Jenkins and the Pipeline view to visualise where our builds are up to","author":{"@type":"Person","name":"Ben Still"},"@type":"BlogPosting","url":"https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/","publisher":null,"image":null,"headline":"A look inside our Jenkins Pipeline - how we make reliable stuff","dateModified":"2012-02-28T00:00:00+00:00","datePublished":"2012-02-28T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/"},"@context":"http://schema.org"}</script>
+{"name":null,"description":"A quick outline of how we’re using Jenkins and the Pipeline view to visualise where our builds are up to","author":{"@type":"Person","name":"Ben Still"},"@type":"BlogPosting","url":"https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://redant.com.au/assets/webpack/logo_redant.png"},"name":"Ben Still"},"image":"https://redant.com.au/assets/uploads/2012/jenkins-pipeline-start.png","headline":"A look inside our Jenkins Pipeline - how we make reliable stuff","dateModified":"2012-02-28T00:00:00+00:00","datePublished":"2012-02-28T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="icon" href="/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="stylesheet" href="/assets/webpack/vendor.9ab886372a49df2db72a.css" />
-  <link rel="stylesheet" href="/assets/webpack/app.bae5410ac654874d375b.css" />
+  <link rel="stylesheet" href="/assets/webpack/app.c9a0a0d868badfed23ef.css" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -65,42 +66,6 @@
     href="https://redant.com.au/amp/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff.html"
   />
   
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "url": "https://redant.com.au/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/",
-    "name": "A look inside our Jenkins Pipeline - how we make reliable stuff",
-    "headline": "A look inside our Jenkins Pipeline - how we make reliable stuff",
-    "description": "How we build relational trust; our integrated testing pipeline",
-    "articleBody": "It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else’s code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.\n\nJenkins sees a change has been made, and then grabs that version of the project, builds a completely new version of the site and content, and then starts running some automated tests. These tests make sure that each of the parts of the project work properly. Once everything passes, it gets a green light and Jenkins publishes this version of the code to a server (so us humans can take a look).\n\nThe big advantage to using a CI server like Jenkins is that any change gets tested immediately. We don’t rely on a human to test these, as (lets be honest here) they can be a bit unreliable. They get sick, they get distracted, they skip steps in testing, and they complain when asked to do boring tasks like check the same thing again and again and again. Jenkins on the other hand is always there, happily running in the background.\n\nWhat can be tricky is understanding exactly where Jenkins is up to. Has the build just started, or is the testing almost complete? Is my change being tested now or is it sitting in a queue? Often several different changes are made by several developers at once, so it is useful to know which is getting tested and if it broke, where. This is where the Pipeline comes in - particularly when there are 3 or 4 anxious developers all trying to get their work through to Production.\n\nJenkins Pipeline\n\nThe Jenkins Pipeline gives us an overview of where these tests are up to. We have a development and a master Jenkins Pipeline. Development is for releases to the development branch, and these get pushed to a Dev server. Master is the master branch, and is for all of our hotfixes and tested releases. This gets pushed to UAT and then finally Production. All of this might sound like a bit of a cumbersome process with many steps (you might have worked with developers who say hey- I don’t need to test my stuff. I made it so I know it is Awesome!). But in this everything is completely automated so it needs very little effort- all a developer needs to do is commit a change to kick it all off. The upside is that we can have a high degree of confidence that everything works as planned.\n\nWhat the Jenkins Pipeline looks like\n\nThis is what the Jenkins Pipeline looks like when there are no tests running for our Michelle Bridges 12WBT project. Each row is a build that relates directly to a commit, and the columns are steps in the process. Green is good, and it means that test group has all passed. You can see in this screenshot that there was a build which failed the Cucumber tests (the big red box) earlier today, followed by another which then passed.\n\n\nStep 1: rspec\n\n\nThis is what the pipeline looks like when Ive just kicked off a build. A new row appears for my test. Everything goes blue and the active step is yellow. The Rspec tests are the various code tests which check to see if specific functionality is working.\n\nStep 2: cucumber\n\n\nOnce the Rspec tests pass, that box turns green, and then the next step starts - in this case Cucumber. This is running through all of the Cucumber stories that we use to describe how different features work.\n\nStep 3: metrics\n\n\nThe Cucumber tests all get completed, and that box turns green. The next box is metrics, which we check with a set of tools called MetricFu (MetricFu Ruby Gem). These run checks to test quality in the code- looking for telltale signs like two parts of code that do the exact same thing. While this might not be the final word on whether code is in fact good, we can pick up sudden spikes in complexity or a drop in code test coverage. We’ve also added in Breakman to check for security flaws.\n\nStep 4: deploy &amp; check\n\n\nFinally, the tested code is then deployed to the server using Capistrano. In this example (development pipeline) the version is pushed to our development server. There are a few checks that need to get done once everything is in place- for example a credit card payment process that relies on a 3rd party payment service. These are difficult to do inside the virtual environment of the CI server, so they get done on an actual server.\n\nStep 5: All green - release the Pandas\n\n\nOnce all the steps are done, everything goes green. You might notice that this screenshot of the Jenkins Pipeline has a different release number- that is because I am slow and Jenkins is fast. It started on another build before I had a chance to screenshot. I am learning to live with my various shortcomings and deficiencies.\n\nNext steps are to keep on improving our test times, since the faster these tests can run the sooner we can publish changes. When were busy well occasionally get a backlog of changes, Jenkins becomes Jerkins and it can take a while for all of the builds to push through.\n\nOverall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with Gitflow\n",
-    "datePublished": " 2012-02-28",
-    "author": {
-      "@type": "Person",
-      "name": "Ben Still"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Red Ant",
-      "url": "https://redant.com.au",
-      "logo": {
-        "@type": "ImageObject",
-        "width": 48,
-        "height": 48,
-        "url": "/assets/webpack/favicon.f6ca223af6a4fa1fb307.ico"
-      }
-    },
-    "image": {
-      "@type": "ImageObject",
-      "url": [
-        "/assets/uploads/2012/jenkins-pipeline-start-small.png",
-        "/assets/uploads/2012/jenkins-pipeline-start.png"
-      ]
-    }
-  }
-</script>
-
 </head>
 
   <body class="">
@@ -415,7 +380,7 @@
 </footer>
 
       <script src="/assets/webpack/vendor.9ab886372a49df2db72a.js"></script>
-<script src="/assets/webpack/app.bae5410ac654874d375b.js"></script>
+<script src="/assets/webpack/app.c9a0a0d868badfed23ef.js"></script>
 
     </div>
   </body>
