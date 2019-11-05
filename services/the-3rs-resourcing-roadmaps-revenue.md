@@ -32,7 +32,6 @@ bulletpoints:
 - When will I get revenue? And how?
 projects:
 - managed
-published: false
 
 ---
 #### 3Rs Workshop, Roadmap and Sprint Plan
