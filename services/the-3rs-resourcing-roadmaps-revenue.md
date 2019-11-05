@@ -18,8 +18,8 @@ service_bulletpoints:
   to implement, test and deliver.
 - Your roadmap and sprint plan can be developed with your tech team and stakeholders
   - giving everyone clarity on the plan.
-time: 2 weeks
-cost: "$6,000 AUD"
+time: About 2 weeks
+cost: Contact us to discuss your project
 description: These 3Rs are some of the most important aspects of your platform development.
   They are linked, and they will determine if your product is a success.
 slug: resourcing-roadmaps-revenue
@@ -46,5 +46,3 @@ The focus will be on delivering early. Getting your digital product or service i
 At the end you will gain clarity over your development path, resourcing and project value. You will have an actionable report to share with investors, stakeholders and your development team.
 
 Our planning processes have helped startups and established corporates get in front of their users quickly. If you have a digital project that needs a jump start contact us today to discuss a 3Rs Workshop, Roadmap and Sprint Plan.
-
-1 day workshop + Roadmap + Sprint Plan = $6,000
