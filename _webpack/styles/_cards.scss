@@ -19,6 +19,15 @@
     }
   }
 
+  .number {
+    background-color: $red;
+    border-radius: 100%;
+    color: $white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+  }
+
   &:hover,
   &:focus {
     text-decoration: none;
