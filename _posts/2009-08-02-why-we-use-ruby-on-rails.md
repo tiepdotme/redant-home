@@ -1,20 +1,25 @@
 ---
 layout: post
 title: Why we use Ruby on Rails
-permalink: "/ruby-on-rails/why-we-use-ruby-on-rails/"
+permalink: '/ruby-on-rails/why-we-use-ruby-on-rails/'
 type: ideas
 categories:
-- how-we-do
-- ruby-on-rails
-- ruby-on-rails-devops
+  - how-we-do
+  - ruby-on-rails
+  - ruby-on-rails-devops
 author: Ben Still
 description: Why we use Ruby on Rails
 keywords: ruby on rails
-image_small: "/assets/uploads/2009/ruby-on-rails.png"
-image: "/assets/uploads/2009/ruby-on-rails.png"
-excerpt-short: We do a lot of work with a programming language called Ruby on Rails.
+image_small: '/assets/uploads/2009/ruby-on-rails.png'
+image:
+  path: '/assets/uploads/2009/ruby-on-rails.png'
+  height: 1300
+  width: 1300
+excerpt-short:
+  We do a lot of work with a programming language called Ruby on Rails.
   This is why.
-excerpt-long: 'We do a lot of work with a programming language called Ruby on Rails.
+excerpt-long:
+  'We do a lot of work with a programming language called Ruby on Rails.
   When I explain this, some people look at me blankly (disclosure: I get that a lot
   anyway...). Techie people usually start gushing about how great it is, or want a
   fight about how X is better. Many people have heard of it somewhere, but are unsure
@@ -22,13 +27,13 @@ excerpt-long: 'We do a lot of work with a programming language called Ruby on Ra
 tags: []
 time: ''
 redirect_from:
-- "/blog/why-we-use-ruby-on-rails/"
-- "/blog/why-we-use-ruby-on-rails"
-- "/blog/text-cloud-in-flash/"
+  - '/blog/why-we-use-ruby-on-rails/'
+  - '/blog/why-we-use-ruby-on-rails'
+  - '/blog/text-cloud-in-flash/'
 date_published: ! ' 2009-08-02'
 publisher: Red Ant
-
 ---
+
 Heres my summary of what Rails is and why we use it.
 
 The Ruby bit is a programming language called Ruby that was developed in the early 1990's, while Rails is the framework bit. It can run on all different types of servers, and has been used to build a few high profile sites such as Twitter.
