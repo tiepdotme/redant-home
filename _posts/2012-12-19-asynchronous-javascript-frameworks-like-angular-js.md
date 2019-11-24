@@ -1,31 +1,37 @@
 ---
 layout: post
 title: Have you noticed how fast some sites are these days?
-permalink: "/pjax/asynchronous-javascript-frameworks-like-angular-js/"
+permalink: '/pjax/asynchronous-javascript-frameworks-like-angular-js/'
 type: ideas
 categories:
-- pjax
+  - pjax
 author: Ben Still
-description: Have you noticed that some sites are insanely fast these days? The new
+description:
+  Have you noticed that some sites are insanely fast these days? The new
   generation of Javascript Frameworks are powering a new change in the way pages work.
 keywords: fast asynchronous javascript frameworks
-image_small: "/assets/uploads/2012/google-angular-small.png"
-image: "/assets/uploads/2012/angularjs.png"
-excerpt-short: Have you noticed that some of the sites you use have been getting super
+image_small: '/assets/uploads/2012/google-angular-small.png'
+image:
+  path: '/assets/uploads/2012/angularjs.png'
+  height: 275
+  width: 1300
+excerpt-short:
+  Have you noticed that some of the sites you use have been getting super
   fast lately?
-excerpt-long: Have you noticed that some of the sites you use have been getting super
+excerpt-long:
+  Have you noticed that some of the sites you use have been getting super
   fast lately? Web pages seem to respond almost too quickly. Try typing a search term
   into Google and see how quickly the suggested results come back.
 tags: []
 time: ''
 redirect_from:
-- "/pjax"
-- "/pjax/"
-- pjax/
+  - '/pjax'
+  - '/pjax/'
+  - pjax/
 date_published: ! ' 2012-12-19'
 publisher: Red Ant
-
 ---
+
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.
 
 ## A quick summary of what makes these pages so damn fast
@@ -48,7 +54,7 @@ Jquery Mobile: **4 s**
 
 Angular: **450 ms**
 
-*(Mum: if you’re reading this, 450ms is 0.45 seconds – about the reaction time a driver needs to brake when driving)*
+_(Mum: if you’re reading this, 450ms is 0.45 seconds – about the reaction time a driver needs to brake when driving)_
 
 ## Why bother with all of this?
 
