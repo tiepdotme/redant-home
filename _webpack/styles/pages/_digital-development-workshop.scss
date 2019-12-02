@@ -1,0 +1,42 @@
+// Campaign
+.digital-development-workshop {
+
+	//reset style
+	background-color: #fff;
+
+	.navbar {
+		width: 100%;
+		max-width: 100%;
+
+		.code-review {
+			display: none !important;
+		}
+
+		.contact-us {
+			border-left: none !important;
+		}
+
+		&.open {
+			> .container {
+			}
+		}
+	}
+}
+
+// Style
+.campaign {
+	section,
+	.section {
+		@extend .py-3;
+		@extend .py-md-4;
+		@extend .py-lg-5;
+	}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+		color: $red-dark;
+	}
+}
