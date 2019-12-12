@@ -1,10 +1,9 @@
 // Campaign
-.digital-development-workshop {
-
+.campaign {
 	//reset style
-	background-color: #fff;
+	//background-color: #fff;
 
-	.navbar {
+/*	.navbar {
 		width: 100%;
 		max-width: 100%;
 
@@ -20,11 +19,11 @@
 			> .container {
 			}
 		}
-	}
+	} */
 }
 
 // Style
-.campaign {
+.digital-development-workshop {
 	section,
 	.section {
 		@extend .py-3;
@@ -32,11 +31,41 @@
 		@extend .py-lg-5;
 	}
 
- h1,
- h2,
- h3,
- h4,
- h5 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
 		color: $red-dark;
+	}
+
+	.hero {
+		background-image: linear-gradient(#fff, #fcf7f6);
+		position: relative;
+
+		&::before {
+			content: '';
+			display: block;
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			background-image: url("~images/services/digital-workshop/hero-workshop.png");
+		}
+	}
+
+	section {
+		&.cta-panel {
+			background-color: #353933;
+
+			h2,
+			p {
+				color: #fff;
+			}
+		}
 	}
 }
