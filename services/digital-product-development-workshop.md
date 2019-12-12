@@ -9,13 +9,15 @@ class: digital-development-workshop
   <div class="container">
     <div class="row">
       <div class="col col-lg-8">
-        <h1 class="text-xl mb-4">Digital Development Workshop</h1>
+        <h1 class="text-xl mb-4 mb-lg-5 font-700">Digital
+          <span class="d-block">Development</span> 
+          <span class="d-block">Workshop</span>
+        </h1>
       </div>
     </div>
     <div class="row">
-      <div class="col col-sm-10 col-md-9">
-        <p class="h3 mb-3">Help you plan, develop and deliver your digital product.</p>
-        <p class="text-lg mb-5">Start with your Workshop, and finish with Product Roadmap and Agile Sprint Plan.</p>
+      <div class="col col-sm-10 col-md-8">
+        <p class="h3 mb-4 font-500">Help you <b>plan</b>, <b>develop</b>, <b>deliver</b> and <b>promote</b> your digital product with a 1:1 Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
         <p><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Let’s start now</a></p>
       </div>
     </div>
@@ -26,10 +28,10 @@ class: digital-development-workshop
   <div class="container section">
     <div class="row ">
       <div class="col">
-        <p class="h3">Start your digital project on the right track with</p>
-        <h2>Discovery Workshop. Product Roadmap. Sprint Plan</h2>
+        <p class="h3 font-500">Start your digital project on the right track with</p>
+        <h2>Discovery Workshop. <span class="text-red-dark">Product Roadmap.</span> <span class="text-red">Sprint Plan.</span></h2>
         <p>Articulate a compelling vision of your product with confidence, promote and share your enthusiasm with your skate-holders.</p>
-        <p>Once it is done, you will:</p>
+        <p class="font-500">Once it is done, you will:</p>
         <ul>
           <li>Know your project resources, time and costs required</li>
           <li>Understand the complex parts and the project dependencies</li>
@@ -62,7 +64,7 @@ class: digital-development-workshop
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="h3 text-center" >How it works</p>
+        <p class="h2 text-center" >How it works</p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -109,11 +111,11 @@ class: digital-development-workshop
   </div>
 </section>
 
-<section id="testimonials" ga-trigger="visibility"  class="testimonials section">
+<section id="testimonials" ga-trigger="visibility"  class="testimonials section ">
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2>Testimonials</h2>
+        <h2 class="text-center">Testimonials</h2>
       </div>
     </div>
     <div class="row">
@@ -131,46 +133,113 @@ class: digital-development-workshop
   </div>
 </section>
 
+
 <section id="faqs" ga-trigger="visibility" class="faqs">
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="col">
-        <h2>Frequently Asked Questions</h2>
+        <h2 class="">Frequently Asked Questions</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 "> 
-      <h3>What we will cover in Discovery Workshop?</h3>
-        <p>One day Discovery Workshop where we will cover: </p>
-        <ul>
-        <li>Current experience - what’s working, what’s not</li> 
-        <li>Development of new user persona and goals</li>  
-        <li>Project stakeholders - alignment and engagement</li> 
-        <li>Goals and expected returns</li>
-        <li>Timelines and critical dates</li>  
-        <li>Competitors now and expected entrants</li> 
-        <li>Mandatory features and functionality VS “nice to haves”</li> 
-        <li>Budget and resourcing - internal and external</li>
-        <li>Success criteria</li> 
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 ">
-        <h3>What is Product Roadmap?</h3>
-        <p>Your Product Roadmap will give you the bigger picture of what your project will deliver. You will have a one page document that you can share with your stakeholders to outline the evolution of your digital product. How the needs of different user groups will be supported and the priorities for development. </p>
-      </div>
-    </div>
-    <div class="row">    
-      <div class="col-12">
-        <h3>What is Sprint Plan?</h3>
-        <p>Your Agile Sprint Plan will detail the phases of delivery into actionable 2 week sprints. You will clarity on what will be developed in each sprint and how it can be tested and confirmed. A Sprint Plan puts you back in control over your development and give you the ability to engage and make refinements during the development phase.</p>
-      </div>
-    </div>
-    <div class="row">    
-      <div class="col-12">
-        <h3>What is Agile Sprint Planning</h3>
-        <p>Agile methodology was developed to help tech teams plan their work into short term “sprints” usually around 2 weeks. We tend to use a two week time frame. This gives flexibility to adapt and make changes along the way. However if you’ve got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.</p>
+    <div class="row mt-3d">
+      <div class="col">
+        <div class="accordion theme-red" id="workshop-faqs">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#a1"
+                  aria-expanded="true"
+                  aria-controls="a1"
+                >
+                  What we will cover in Discovery Workshop?
+                </button>
+              </h3>
+            </div>
+            <div id="a1" class="collapse" data-parent="#workshop-faqs">
+              <div class="card-body ">
+                <p>One day Discovery Workshop where we will cover: </p>
+                <ul>
+                  <li>Current experience - what’s working, what’s not</li> 
+                  <li>Development of new user persona and goals</li>  
+                  <li>Project stakeholders - alignment and engagement</li> 
+                  <li>Goals and expected returns</li>
+                  <li>Timelines and critical dates</li>  
+                  <li>Competitors now and expected entrants</li> 
+                  <li>Mandatory features and functionality VS “nice to haves”</li> 
+                  <li>Budget and resourcing - internal and external</li>
+                  <li>Success criteria</li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#a2"
+                  aria-expanded="true"
+                  aria-controls="a2"
+                >
+                  What is Product Roadmap?
+                </button>
+              </h3>
+            </div>
+            <div id="a2" class="collapse" data-parent="#workshop-faqs">
+              <div class="card-body">
+                <p>Your Product Roadmap will give you the bigger picture of what your project will deliver. You will have a one page document that you can share with your stakeholders to outline the evolution of your digital product. How the needs of different user groups will be supported and the priorities for development. </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3 class="mb-0">
+                <button
+                  class="btn btn-link collapsed "
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#a4"
+                  aria-expanded="true"
+                  aria-controls="a4"
+                >
+                  What is Sprint Plan?
+                </button>
+              </h3>
+            </div>
+            <div id="a4" class="collapse" data-parent="#workshop-faqs">
+              <div class="card-body">
+                <p>Your Agile Sprint Plan will detail the phases of delivery into actionable 2 week sprints. You will clarity on what will be developed in each sprint and how it can be tested and confirmed. A Sprint Plan puts you back in control over your development and give you the ability to engage and make refinements during the development phase.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3 class="mb-0">
+                <button
+                  class="btn btn-link  collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#a5"
+                  aria-expanded="true"
+                  aria-controls="a5"
+                >
+                  What is Agile Sprint Planning
+                </button>
+              </h3>
+            </div>
+            <div id="a5" class="collapse" data-parent="#workshop-faqs">
+              <div class="card-body">
+                <p>Agile methodology was developed to help tech teams plan their work into short term “sprints” usually around 2 weeks. We tend to use a two week time frame. This gives flexibility to adapt and make changes along the way. However if you’ve got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

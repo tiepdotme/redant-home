@@ -6,8 +6,8 @@
 /*	.navbar {
 		width: 100%;
 		max-width: 100%;
-
-		.code-review {
+*/
+		.code-review-link {
 			display: none !important;
 		}
 
@@ -15,6 +15,7 @@
 			border-left: none !important;
 		}
 
+/*
 		&.open {
 			> .container {
 			}
@@ -36,7 +37,27 @@
 	h3,
 	h4,
 	h5 {
+
+	}
+
+	.text-red {
+		color: $red;
+	}
+
+	.text-red-dark {
 		color: $red-dark;
+	}
+
+	.font-700 {
+		font-weight: 700;
+	}
+
+	.font-500 {
+		font-weight: 500;
+	}
+
+	.font-300 {
+		font-weight: 300;
 	}
 
 	.hero {
@@ -56,9 +77,17 @@
 			background-position: center;
 			background-image: url("~images/services/digital-workshop/hero-workshop.png");
 		}
+
+		h1 {
+			font-weight: 700;
+		}
 	}
 
 	section {
+		&.how-it-works {
+			background-color: $gray-100;
+		}
+
 		&.cta-panel {
 			background-color: #353933;
 
