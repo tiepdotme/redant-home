@@ -1,100 +1,204 @@
 // Campaign
 .campaign {
-	//reset style
-	//background-color: #fff;
+  .code-review-link {
+    display: none !important;
+  }
 
-/*	.navbar {
-		width: 100%;
-		max-width: 100%;
-*/
-		.code-review-link {
-			display: none !important;
-		}
+  .contact-us {
+    border-left: none !important;
+  }
 
-		.contact-us {
-			border-left: none !important;
-		}
+  ul {
+    &.list-check {
+      list-style: none;
+      padding-left: 0;
 
-/*
-		&.open {
-			> .container {
-			}
-		}
-	} */
+      li {
+        padding-left: 1.5rem;
+        position: relative;
+        margin-bottom: 0.5rem;
+
+        &::before {
+          content: '\f00c';
+          font-family: FontAwesome, sans-serif;
+          color: $red;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+
+  // responsive text
+  @include media-breakpoint-down(sm) {
+    .text-xl {
+      font-size: 2.2rem;
+    }
+
+    h2,
+    .h2 {
+      font-size: 1.6rem;
+    }
+
+    h3,
+    .h3 {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+    }
+
+    h4,
+    .h4 {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
+  }
 }
 
 // Style
 .digital-development-workshop {
-	section,
-	.section {
-		@extend .py-3;
-		@extend .py-md-4;
-		@extend .py-lg-5;
-	}
+  section,
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
+    @include media-breakpoint-up(lg) {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
 
-	}
+  .text-red {
+    color: $red;
+  }
 
-	.text-red {
-		color: $red;
-	}
+  .text-red-dark {
+    color: $red-dark;
+  }
 
-	.text-red-dark {
-		color: $red-dark;
-	}
+  .font-700 {
+    font-weight: 700;
+  }
 
-	.font-700 {
-		font-weight: 700;
-	}
+  .font-500 {
+    font-weight: 500;
+  }
 
-	.font-500 {
-		font-weight: 500;
-	}
+  .font-300 {
+    font-weight: 300;
+  }
 
-	.font-300 {
-		font-weight: 300;
-	}
+  .hero,
+  .intro {
+    background-image: linear-gradient(#fff, #fcf7f6);
+    position: relative;
 
-	.hero {
-		background-image: linear-gradient(#fff, #fcf7f6);
-		position: relative;
+    &::before {
+      content: '';
+      display: block;
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-image: url("~images/services/digital-workshop/hero-workshop.png");
+    }
 
-		&::before {
-			content: '';
-			display: block;
-			width: 500px;
-			height: 500px;
-			position: absolute;
-			bottom: 10px;
-			right: 10px;
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-position: center;
-			background-image: url("~images/services/digital-workshop/hero-workshop.png");
-		}
+    h1 {
+      font-weight: 700;
+    }
 
-		h1 {
-			font-weight: 700;
-		}
-	}
+    @include media-breakpoint-only(md) {
+      padding-bottom: 400px;
+    }
 
-	section {
-		&.how-it-works {
-			background-color: $gray-100;
-		}
+    @include media-breakpoint-down(sm) {
+      margin-top: 20px;
+      padding-top: 3rem !important;
+      padding-bottom: 355px !important;
 
-		&.cta-panel {
-			background-color: #353933;
+      &::before {
+        width: 345px;
+        height: 345px;
+        right: 50%;
+        margin-right: -175px;
+      }
+    }
 
-			h2,
-			p {
-				color: #fff;
-			}
-		}
-	}
+    @include media-breakpoint-up(md) {
+      min-height: 670px;
+
+      .btn-lg {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  section {
+    &.our-clients {
+      border-top: 1px solid $gray-200;
+    }
+
+    &.how-it-works {
+      background-color: $gray-100;
+    }
+
+    &.cta-panel {
+      background-color: #353933;
+      background-image: url("~images/services/digital-workshop/bg-cta.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      h2,
+      p {
+        color: #fff;
+      }
+    }
+
+    &.testimonials {
+      padding-bottom: 5rem;
+
+      .card {
+        &.card-testimonial {
+          @extend .p-4;
+          background: $gray-100;
+
+          p {
+            font-size: 1.1rem;
+            font-weight: 600;
+
+            @include media-breakpoint-up(md) {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    &.faqs {
+      border-top: 1px solid $gray-200;
+
+      .accordion {
+        &.theme-red {
+          > .card {
+            .card-header {
+              margin-bottom: 0;
+
+              .btn {
+                color: $red;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.about-redant {
+      background-color: $gray-100;
+    }
+  }
 }
