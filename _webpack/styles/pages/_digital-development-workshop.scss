@@ -88,6 +88,15 @@
     font-weight: 300;
   }
 
+  .anchor {
+    position: relative;
+    top: -110px;
+
+    @include media-breakpoint-up(md) {
+      top: -80px;
+    }
+  }
+
   .hero,
   .intro {
     background-image: linear-gradient(#fff, #fcf7f6);
@@ -99,8 +108,8 @@
       width: 500px;
       height: 500px;
       position: absolute;
-      bottom: 10px;
-      right: 20px;
+      bottom: 50px;
+      right: 50px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -123,6 +132,7 @@
       &::before {
         width: 345px;
         height: 345px;
+        bottom: 10px;
         right: 50%;
         margin-right: -175px;
       }

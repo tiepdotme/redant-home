@@ -24,7 +24,7 @@ class: digital-development-workshop
   </div>
 </header>
 
-<section id="workshop-roadmap-sprint-plan-summary" ga-trigger="visibility" class="summary section">
+<section id="workshop-roadmap-sprint-plan-summary" data-ga-trigger="visibility" class="summary section">
   <div class="container">
     <div class="row ">
       <div class="col">
@@ -35,8 +35,8 @@ class: digital-development-workshop
         <ul class="list-check">
           <li>Know your project resources, time and costs required</li>
           <li>Understand the complex parts and the project dependencies</li>
-          <li>Have an idea when you will see a return and how to get their sooner</li> 
-          <li>Be aligned on the development priorities and business goals</li>  
+          <li>Have an idea when you will see a return and how to get their sooner</li>
+          <li>Be aligned on the development priorities and business goals</li>
           <li>Orchestrate your remotely located development teams</li>
           <li>Have engaged stakeholders and a motivated team ready to start development</li> 
         </ul>
@@ -45,7 +45,7 @@ class: digital-development-workshop
   </div>
 </section>
 
-<section id="our-clients" ga-trigger="visibility" class="our-clients section">
+<section id="our-clients" data-ga-trigger="visibility" class="our-clients section">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -60,7 +60,7 @@ class: digital-development-workshop
   </div>
 </section>
 
-<section id="how-it-works" ga-trigger="visibility" class="how-it-works">
+<section id="how-it-works" data-ga-trigger="visibility" class="how-it-works">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -73,7 +73,7 @@ class: digital-development-workshop
       </div>
       <div class="col-12 col-md-7">
         <h3 class="mb-3 mt-3">Discovery Workshop</h3>
-        <p>One day workshop to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.</p>
+        <p>One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.</p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -93,25 +93,25 @@ class: digital-development-workshop
       <div class="col-12 col-md-7">
         <h3  class="mb-3 text-red mt-3"> Agile Sprint Plan</h3>
         <p>Back up your product development with a <a href="#faqs-agile-sprint-plan" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">sprint plan</a> actionable guide and show how you can get things done.</p>
-        <p>Using <a href="#agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in phases of development include testing criteria. Help you manage risk, identify dependencies from start to finish. </p>
+        <p>Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in phases of development include testing criteria. Helping you manage risk, and identifying dependencies from start to finish.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="cta-panel" ga-trigger="visibility" class="cta-panel section">
+<section id="cta-panel" data-ga-trigger="visibility" class="cta-panel section">
   <div class="container">
     <div class="row">
       <div class="col">
         <h2 class="h1">Ready to get started?</h2>
-        <p  class="h3 mb-4 font-500">Even if you are not, lets start a conversation</p>
+        <p  class="h3 mb-4 font-500">Even if you are not, let's start a conversation</p>
         <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup" ga-trigger="click">Contact Us</a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="testimonials" ga-trigger="visibility"  class="testimonials section ">
+<section id="testimonials" data-ga-trigger="visibility"  class="testimonials section ">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -136,7 +136,7 @@ class: digital-development-workshop
 </section>
 
 
-<section id="faqs" ga-trigger="visibility" class="faqs">
+<section id="faqs" data-ga-trigger="visibility" class="faqs">
   <div class="container ">
     <div class="row">
       <div class="col">
@@ -147,6 +147,7 @@ class: digital-development-workshop
       <div class="col">
         <div class="accordion theme-red" id="workshop-faqs">
           <div class="card">
+            <div class="anchor" id="faqs-discovery-workshop" ></div>
             <div class="card-header">
               <h3 class="mb-0">
                 <button
@@ -156,6 +157,7 @@ class: digital-development-workshop
                   data-target="#a1"
                   aria-expanded="true"
                   aria-controls="a1"
+                  data-ga-trigger="click-faqs"
                 >
                   What we will cover in Discovery Workshop?
                 </button>
@@ -165,20 +167,21 @@ class: digital-development-workshop
               <div class="card-body ">
                 <p>One day Discovery Workshop where we will cover: </p>
                 <ul>
-                  <li>Current experience - what’s working, what’s not</li> 
-                  <li>Development of new user persona and goals</li>  
-                  <li>Project stakeholders - alignment and engagement</li> 
+                  <li>Current experience - what’s working, what’s not</li>
+                  <li>Development of new user persona and goals</li>
+                  <li>Project stakeholders - alignment and engagement</li>
                   <li>Goals and expected returns</li>
-                  <li>Timelines and critical dates</li>  
-                  <li>Competitors now and expected entrants</li> 
-                  <li>Mandatory features and functionality VS “nice to haves”</li> 
+                  <li>Timelines and critical dates</li>
+                  <li>Competitors now and expected entrants</li>
+                  <li>Mandatory features and functionality VS "nice to haves"</li>
                   <li>Budget and resourcing - internal and external</li>
-                  <li>Success criteria</li> 
+                  <li>Success criteria</li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="card" id="faqs-product-roadmap">
+          <div class="card">
+            <div class="anchor" id="faqs-product-roadmap" ></div>
             <div class="card-header">
               <h3 class="mb-0">
                 <button
@@ -188,6 +191,7 @@ class: digital-development-workshop
                   data-target="#a2"
                   aria-expanded="true"
                   aria-controls="a2"
+                  data-ga-trigger="click-faqs"
                 >
                   What is Product Roadmap?
                 </button>
@@ -195,11 +199,13 @@ class: digital-development-workshop
             </div>
             <div id="a2" class="collapse" data-parent="#workshop-faqs">
               <div class="card-body">
-                <p>Your Product Roadmap will give you the bigger picture of what your project will deliver. You will have a one page document that you can share with your stakeholders to outline the evolution of your digital product. How the needs of different user groups will be supported and the priorities for development.</p>
+                <p>Your Product Roadmap will give you the bigger picture of what your project will deliver. </p>
+                <p> You will have a one page document that you can share with your stakeholders to outline the evolution of your digital product. How the needs of different user groups will be supported and the priorities for development.</p>
               </div>
             </div>
           </div>
-          <div class="card"  id="faqs-agile-sprint-plan">
+          <div class="card">
+            <div class="anchor" id="faqs-agile-sprint-plan" ></div>
             <div class="card-header" >
               <h3 class="mb-0">
                 <button
@@ -209,6 +215,7 @@ class: digital-development-workshop
                   data-target="#a4"
                   aria-expanded="true"
                   aria-controls="a4"
+                  data-ga-trigger="click-faqs"
                 >
                   What is Sprint Plan?
                 </button>
@@ -216,13 +223,16 @@ class: digital-development-workshop
             </div>
             <div id="a4" class="collapse" data-parent="#workshop-faqs">
               <div class="card-body">
-                <p>Your Agile Sprint Plan will detail the phases of delivery into actionable 2 week sprints. You will clarity on what will be developed in each sprint and how it can be tested and confirmed. A Sprint Plan puts you back in control over your development and give you the ability to engage and make refinements during the development phase.</p>
+                <p>Your Agile Sprint Plan will detail the phases of delivery into actionable 2 week sprints.</p>
+                <p>You will have clarity on what will be developed in each sprint and how it can be tested and confirmed.</p>
+                <p> A Sprint Plan puts you back in control over your development and gives you the ability to engage and make refinements during the development phase.</p>
               </div>
             </div>
           </div>
-          <div class="card" id="faqs-agile-methodology" >
+          <div class="card" >
+            <div class="anchor" id="faqs-agile-methodology" ></div>
             <div class="card-header">
-              <h3 class="mb-0">
+              <h3 class="mb-0" >
                 <button
                   class="btn btn-link  collapsed"
                   type="button"
@@ -230,6 +240,7 @@ class: digital-development-workshop
                   data-target="#a5"
                   aria-expanded="true"
                   aria-controls="a5"
+                  data-ga-trigger="click-faqs"
                 >
                   What is Agile Sprint Planning
                 </button>
@@ -237,7 +248,8 @@ class: digital-development-workshop
             </div>
             <div name="a5" id="a5" class="collapse" data-parent="#workshop-faqs">
               <div class="card-body">
-                <p>Agile methodology was developed to help tech teams plan their work into short term “sprints” usually around 2 weeks. We tend to use a two week time frame. This gives flexibility to adapt and make changes along the way. However if you’ve got a fixed budget or fixed timeline - then you’re going to need a bit more certainty.</p>
+                <p>Agile methodology was developed to help tech teams plan their work into short term "sprints" usually around 2 weeks. </p>
+                <p>This gives flexibility to adapt and make changes along the way. If you’ve got a fixed budget or timeline, sprints offer you a way of managing scope so that everyone stays focussed on the goal.</p>
               </div>
             </div>
           </div>
@@ -247,12 +259,14 @@ class: digital-development-workshop
   </div>
 </section>
 
-<section id="workshop-footer" ga-trigger="visibility" class="section intro workshop-footer">
+<section id="workshop-footer" data-ga-trigger="visibility" class="section intro workshop-footer">
   <div class="container">
     <div class="row">
       <div class="col col-sm-10 col-md-8">
         <p class="h2 mb-4 mb-lg-5 font-700">Discovery Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
-        <p><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Start now</a></p>
+        <p class="mb-4"><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Start now</a> </p>
+        <p class="mb-b">If you prefer to talk to us in person</p>
+        <p><a class="btn btn-primary btn-lg" href="tel:+61292678300"><i class="fa fa-phone"></i> Call (02) 9267 8300</a></p>
       </div>
     </div>
   </div>
