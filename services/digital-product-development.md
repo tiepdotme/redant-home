@@ -1,17 +1,17 @@
 ---
 layout: campaign
-title: 1:1 Digital Development Workshop. Product Roadmap and Sprint Plan.
-description: Plan, develop and deliver your digital product. Articulate a compelling vision of your idea and share your enthusiasm with your skate-holders with confidence.
-slug: digital-product-development-workshop
-class: digital-development-workshop
+title: 1:1 Digital Product Development Workshop. Product Roadmap and Sprint Plan.
+description: Plan, develop and deliver your digital product. Articulate a compelling vision of your idea and share your enthusiasm with your stakeholders with confidence.
+slug: digital-product-development
+class: digital-product-development
 ---
 <header id="workshop-hero" class="section hero">
   <div class="container">
     <div class="row">
       <div class="col col-lg-8">
         <h1 class="text-xl mb-4 mb-lg-5 font-700">Digital
-          <span class="d-inline d-lg-block text-red-dark">Development</span> 
-          <span class="d-block text-red">Workshop</span>
+          <span class="d-inline d-lg-block text-red-dark">Product</span> 
+          <span class="d-block text-red">Development</span>
         </h1>
       </div>
     </div>
@@ -28,17 +28,16 @@ class: digital-development-workshop
   <div class="container">
     <div class="row ">
       <div class="col">
-        <p class="h3 font-500">Start your digital project on the right track with</p>
+        <p class="h3 font-500">Advance your digital experience</p>
         <h2 class="mb-4">Discovery Workshop. <span class="text-red-dark">Product Roadmap.</span> <span class="text-red">Sprint Plan.</span></h2>
-        <p>Articulate a compelling vision of your product with confidence. Promote and share your enthusiasm with your skate-holders.</p>
-        <p class="font-700">Once it is done, you will:</p>
+        <p>Envisage your product with features that matter to your audience. Build momentum and enthusiasm with your developers and stakeholders.</p>
+        <p class="font-700">Our digital product planning will help you:</p>
         <ul class="list-check">
-          <li>Know your project resources, time and costs required</li>
+          <li>Bring the team together on development priorities and goals </li>
+          <li>Know the time, cost and resources required</li>
           <li>Understand the complex parts and the project dependencies</li>
-          <li>Have an idea when you will see a return and how to get their sooner</li>
-          <li>Be aligned on the development priorities and business goals</li>
-          <li>Orchestrate your remotely located development teams</li>
-          <li>Have engaged stakeholders and a motivated team ready to start development</li> 
+          <li>Work out revenue and profit more accurately</li>
+          <li>Orchestrate geographically diverse development teams</li>
         </ul>
       </div>
     </div>
@@ -49,7 +48,7 @@ class: digital-development-workshop
   <div class="container">
     <div class="row">
       <div class="col">
-        <p class="tex-lg text-center h4 mb-3 text-red-dark">We are 100% Aussie team</p>
+        <p class="tex-lg text-center h4 mb-3 text-red-dark">100% Australian Based Team</p>
         <h2 class="text-center mb-5">Our clients</h2>
       </div>
     </div>
@@ -73,7 +72,7 @@ class: digital-development-workshop
       </div>
       <div class="col-12 col-md-7">
         <h3 class="mb-3 mt-3">Discovery Workshop</h3>
-        <p>One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.</p>
+        <p>One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to determine your business, audiences, stakeholders and organisational goals. Developing ambitious and clear development goals is the key to achieving them. </p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -82,8 +81,8 @@ class: digital-development-workshop
       </div>
       <div class="col-12 col-md-7">
         <h3 class="mb-3 text-red-dark mt-3">Product Roadmap</h3>
-        <p>Using the findings of the workshop, we compile your very own <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.</p>
-        <p>This one page document communicates the big picture of your product with phases of development and business goals. So you can promote and share your vision with your stakeholder with confidence.</p>
+        <p>Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.</p>
+        <p>This one page document articulates the phases of development and alignment with business goals. Technical development is the core of most business and needs to align with business drivers.</p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -92,8 +91,8 @@ class: digital-development-workshop
       </div>
       <div class="col-12 col-md-7">
         <h3  class="mb-3 text-red mt-3"> Agile Sprint Plan</h3>
-        <p>Back up your product development with a <a href="#faqs-agile-sprint-plan" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">sprint plan</a> actionable guide and show how you can get things done.</p>
-        <p>Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in phases of development include testing criteria. Helping you manage risk, and identifying dependencies from start to finish.</p>
+        <p>Dive into the detail with the a <a href="#faqs-agile-sprint-plan" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">sprint plan</a>. This is your actionable guide to show you how to get it all done.</p>
+        <p>Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in actionable phases of development - known as "Sprints". Helping you manage risk, and identifying dependencies from start to finish.</p>
       </div>
     </div>
   </div>
@@ -104,7 +103,7 @@ class: digital-development-workshop
     <div class="row">
       <div class="col">
         <h2 class="h1">Ready to get started?</h2>
-        <p  class="h3 mb-4 font-500">Even if you are not, let's start a conversation</p>
+        <p  class="h3 mb-4 font-500">Let's start a conversation</p>
         <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup" ga-trigger="click">Contact Us</a>
       </div>
     </div>
@@ -165,7 +164,7 @@ class: digital-development-workshop
             </div>
             <div id="a1" class="collapse" data-parent="#workshop-faqs">
               <div class="card-body ">
-                <p>One day Discovery Workshop where we will cover: </p>
+                <p>In our one day Discovery Workshop we will cover:</p>
                 <ul>
                   <li>Current experience - what’s working, what’s not</li>
                   <li>Development of new user persona and goals</li>
@@ -193,7 +192,7 @@ class: digital-development-workshop
                   aria-controls="a2"
                   data-ga-trigger="click-faqs"
                 >
-                  What is Product Roadmap?
+                  What is a Product Roadmap?
                 </button>
               </h3>
             </div>
