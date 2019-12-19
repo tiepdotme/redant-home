@@ -5,12 +5,13 @@ description: Plan, develop and deliver your digital product. Articulate a compel
 slug: digital-product-development
 class: digital-product-development
 ---
+
 <header id="workshop-hero" class="section hero">
   <div class="container">
     <div class="row">
       <div class="col col-lg-8">
         <h1 class="text-xl mb-4 mb-lg-5 font-700">Digital
-          <span class="d-inline d-lg-block text-red-dark">Product</span> 
+          <span class="d-inline d-lg-block text-red-dark">Product</span>
           <span class="d-block text-red">Development</span>
         </h1>
       </div>
@@ -53,8 +54,10 @@ class: digital-product-development
       </div>
     </div>
     <div class="row text-center">
+      <div class="col">
         <img class="d-md-block d-none img-fluid" src="{{ site.data.webpack['client-logo-desktop.png'] }}" alt="Red Ant clients" />
         <img class="d-md-none img-fluid" src="{{ site.data.webpack['client-logo-mobile.png'] }}" alt="Red Ant clients" />
+      </div>
     </div>
   </div>
 </section>
@@ -134,7 +137,6 @@ class: digital-product-development
   </div>
 </section>
 
-
 <section id="faqs" data-ga-trigger="visibility" class="faqs">
   <div class="container ">
     <div class="row">
@@ -156,8 +158,7 @@ class: digital-product-development
                   data-target="#a1"
                   aria-expanded="true"
                   aria-controls="a1"
-                  data-ga-trigger="click-faqs"
-                >
+                  data-ga-trigger="click-faqs">
                   What we will cover in Discovery Workshop?
                 </button>
               </h3>
@@ -190,8 +191,7 @@ class: digital-product-development
                   data-target="#a2"
                   aria-expanded="true"
                   aria-controls="a2"
-                  data-ga-trigger="click-faqs"
-                >
+                  data-ga-trigger="click-faqs">
                   What is a Product Roadmap?
                 </button>
               </h3>
@@ -214,8 +214,7 @@ class: digital-product-development
                   data-target="#a4"
                   aria-expanded="true"
                   aria-controls="a4"
-                  data-ga-trigger="click-faqs"
-                >
+                  data-ga-trigger="click-faqs">
                   What is Sprint Plan?
                 </button>
               </h3>
@@ -239,8 +238,7 @@ class: digital-product-development
                   data-target="#a5"
                   aria-expanded="true"
                   aria-controls="a5"
-                  data-ga-trigger="click-faqs"
-                >
+                  data-ga-trigger="click-faqs">
                   What is Agile Sprint Planning
                 </button>
               </h3>
