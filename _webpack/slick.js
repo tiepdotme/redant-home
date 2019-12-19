@@ -9,8 +9,9 @@ const init = $(function() {
     $slick.slick({
       lazyLoad: 'ondemand',
       dots: true,
+      arrows: false,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 7000,
       slidesToShow: 1,
     });
   }
