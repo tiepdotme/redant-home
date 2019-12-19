@@ -11,14 +11,19 @@ description: At Red Ant we are always on a look out for a good fit to this famil
     <div class="row">
       <div class="col py-3">
         <h1 class="text-x-large">Working at Red Ant</h1>
-        <hr>
-        <p class="text-md">Red Ant is a diverse workplace in Surry Hills, Sydney.</p>
+        <hr />
+        <p class="text-md">
+          Red Ant is a diverse workplace in Surry Hills, Sydney.
+        </p>
       </div>
     </div>
   </div>
 </header>
 
-<section id="section-jobs" class="ga-section section-border padded-section pt-5">
+<section
+  id="section-jobs"
+  class="ga-section section-border padded-section pt-5"
+>
   <div class="container">
     <div class="row">
       <div class="col">
@@ -28,18 +33,16 @@ description: At Red Ant we are always on a look out for a good fit to this famil
       </div>
     </div>
     <div class="row ">
-      {% for slug in site.data.jobs.order %}
-        {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
-        <div class="col-12 mb-4">
-          <div class="card">
-            <h2 class="h3">{{ page.title }}</h2>
-            <p>{{ page.summary }}</p>
-            <a href="/jobs/{{ page.slug }}/">Read more</a>
-          </div>
+      {% for slug in site.data.jobs.order %} {% assign pages = site.pages |
+      where:'slug', slug %} {% for page in pages %}
+      <div class="col-12 mb-4">
+        <div class="card">
+          <h2 class="h3">{{ page.title }}</h2>
+          <p>{{ page.summary }}</p>
+          <a href="/jobs/{{ page.slug }}/">Read more</a>
         </div>
-        {% endfor %}
-      {% endfor %}
+      </div>
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </section>
@@ -51,8 +54,14 @@ description: At Red Ant we are always on a look out for a good fit to this famil
       <div class="col-8">
         <p class="h2 mb-3">
           Didn’t see what you seek?
+        </p>
+
         <p class="h3 mb-3">We are always open for conversation.</p>
-        <p>Red Ant always looking out for valuble individual to join our team. If you think you have something special to contribute and a good fit to us, we would like to hear from you.</p>
+        <p>
+          Red Ant always looking out for valuble individual to join our team. If
+          you think you have something special to contribute and a good fit to
+          us, we would like to hear from you.
+        </p>
 
         <p>Pick up your phone, fire up your device and contact us.</p>
         <ul class="unstyled-list">
@@ -71,19 +80,66 @@ description: At Red Ant we are always on a look out for a good fit to this famil
 </section>
 {% endcomment %}
 
-<section id="section-office" class="ga-section jumbotron mb-0 bg-gray-light content-left">
+<section
+  id="section-office"
+  class="ga-section jumbotron mb-0 bg-gray-light content-left"
+>
   <div class="container">
     <h3 class="">Red Ant Office</h3>
-    <p>We’re a leading technical agency in Sydney, Australia. This page should tell you all you need to know about us and more. To start with, we have a core team of 35 – a mix of developers, designers and project managers. For technology, we use <a href="/ruby-on-rails/">Ruby on Rails</a> and <a href="/pjax/">AngularJS</a>. We apply the <a href="/agile/">Agile project methodology</a>.</p>
-    <p>We’ve been around for a while (+18y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building <a href="/digital-products/">Digital Products</a>.</p>
+    <p>
+      We’re a leading technical agency in Sydney, Australia. This page should
+      tell you all you need to know about us and more. To start with, we have a
+      core team of 35 – a mix of developers, designers and project managers. For
+      technology, we use <a href="/ruby-on-rails/">Ruby on Rails</a> and
+      <a href="/pjax/">AngularJS</a>. We apply the
+      <a href="/agile/">Agile project methodology</a>.
+    </p>
+    <p>
+      We’ve been around for a while (+18y) and in that time have worked on a
+      wide variety of projects. Picking up quite a bit of know how and
+      experience along the way. We specialise in creating and building
+      <a href="/digital-products/defining-a-digital-product/"
+        >Digital Products</a
+      >.
+    </p>
   </div>
   <div class="container">
     <div class="slick-redant">
-      <div class="item"><img class="img-fluid" data-lazy="{{ site.data.webpack['redant-office-4.jpg'] }}" alt="Office exterior"/></div>
-      <div class="item"><img class="img-fluid" data-lazy="{{ site.data.webpack['redant-office-sign.jpg'] }}" alt="Red Ant sign"/></div>
-      <div class="item"><img class="img-fluid" data-lazy="{{ site.data.webpack['redant-office-1.jpg'] }}" alt="Office interior 1"/></div>
-      <div class="item"><img class="img-fluid" data-lazy="{{ site.data.webpack['redant-office-3.jpg'] }}" alt="Office interior 2"/></div>
-      <div class="item"><img class="img-fluid" data-lazy="{{ site.data.webpack['redant-office-2.jpg'] }}" alt="Office interior 3"/></div>
+      <div class="item">
+        <img
+          class="img-fluid"
+          data-lazy="{{ site.data.webpack['redant-office-4.jpg'] }}"
+          alt="Office exterior"
+        />
+      </div>
+      <div class="item">
+        <img
+          class="img-fluid"
+          data-lazy="{{ site.data.webpack['redant-office-sign.jpg'] }}"
+          alt="Red Ant sign"
+        />
+      </div>
+      <div class="item">
+        <img
+          class="img-fluid"
+          data-lazy="{{ site.data.webpack['redant-office-1.jpg'] }}"
+          alt="Office interior 1"
+        />
+      </div>
+      <div class="item">
+        <img
+          class="img-fluid"
+          data-lazy="{{ site.data.webpack['redant-office-3.jpg'] }}"
+          alt="Office interior 2"
+        />
+      </div>
+      <div class="item">
+        <img
+          class="img-fluid"
+          data-lazy="{{ site.data.webpack['redant-office-2.jpg'] }}"
+          alt="Office interior 3"
+        />
+      </div>
     </div>
   </div>
 </section>
