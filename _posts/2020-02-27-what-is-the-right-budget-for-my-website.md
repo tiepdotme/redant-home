@@ -12,8 +12,8 @@ publisher: Red Ant
 title: What is the right budget for my website?
 description: Building a SaaS platform isn’t a modular commodity with a fixed price.
 keywords: Budget, SaaS platform
-image_small: "/assets/uploads/2020/Group.png"
-image: "/assets/uploads/2020/Group-1.png"
+image_small: "/assets/uploads/2020/Desktop.png"
+image: "/assets/uploads/2020/Desktop-1.png"
 excerpt-short: Building a SaaS platform isn’t a modular commodity with a fixed price.
   It requires a much deeper understanding of initial and ongoing engineering costs
   to make sure you have enough funds to stay in the game. Here we discuss how to calculate
