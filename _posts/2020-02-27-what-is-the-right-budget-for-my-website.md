@@ -25,7 +25,7 @@ excerpt-long: Building a SaaS platform isn’t a modular commodity with a fixed 
 redirect_from: []
 
 ---
-Building technology isn’t a modular commodity - something with a fixed price that you can buy just like you buy a grocery item. Some tech is - for example creating a public “this is what we do” Wordpress site. Get 5 quotes and they’ll all be roughly in line. Get 5 quotes for building a SaaS platform and they’ll be all over the place.
+Building technology isn’t a modular commodity - something with a fixed price that you can buy just like you buy a grocery item. Some tech is - for example creating a public “this is what we do” Wordpress site. **Get 5 quotes and they’ll all be roughly in line. Get 5 quotes for building a SaaS platform and they’ll be all over the place.**
 
 The cost of building a technology product - like a SaaS platform - is largely driven by engineering hours required. And working out how much of these you need is a “piece of string” problem. The more effort, the more you’ll get. But how much is enough?
 
@@ -33,14 +33,14 @@ The solution lies with your business plan. Map out what you expect revenue to lo
 
 ![](/assets/uploads/2020/how-much-1.png)
 
-Now remember, as a general rule, the more awesome & unique your product, the steeper that graph will be. But these usually take more engineering effort. You can keep tech costs down by using off the shelf technologies, or a less capable development team. But it’s naive to assume you’ll get both cheap and good.
+Now remember, as a general rule, the more awesome & unique your product, the steeper that graph will be. But these usually take more engineering effort. **You can keep tech costs down by using off the shelf technologies, or a less capable development team. But it’s naive to assume you’ll get both cheap and good.**
 
 Next work out your “runway” - how much money do you have to invest in this idea? That determines how long you can keep things going until breakeven. Remember to factor in revenue as part of that.
 
-Finally, get some rough technology build costs for two things. The first being the MVP build, and then what your ongoing costs might be. People often forget that second bit.
+**Finally, get some rough technology build costs for two things. The first being the MVP build, and then what your ongoing costs might be. People often forget that second bit.**
 
 Then overlay those costs with your revenue graph. The aim is to get those lines crossing over as soon as you can. Without trying to state the obvious, that cross over point has to be before your runway runs out.
 
 ![](/assets/uploads/2020/how-much-2.png)
 
-Congratulations - you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.
+**Congratulations** - you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.
