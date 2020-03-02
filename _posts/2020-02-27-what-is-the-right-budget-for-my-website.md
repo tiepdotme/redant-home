@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: "/strategy/what-is-the-right-budget-for-my-website/"
+permalink: "/strategy/how-much-should-I-spend/"
 type: ideas
 categories:
 - strategy
@@ -9,7 +9,7 @@ tags: []
 time: 5 Mins Read
 date_published: ! ' 2020-02-27'
 publisher: Red Ant
-title: What is the right budget for my website?
+title: How much should I spend on my website?
 description: Building a SaaS platform isn’t a modular commodity with a fixed price.
 keywords: Budget, SaaS platform
 image_small: "/assets/uploads/2020/Desktop.png"
