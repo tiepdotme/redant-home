@@ -43,4 +43,4 @@ Then overlay those costs with your revenue graph. The aim is to get those lines 
 
 ![](/assets/uploads/2020/how-much-2.png)
 
-**Congratulations** - you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.
+**Congratulations** - **you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.**
