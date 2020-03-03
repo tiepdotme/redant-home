@@ -38,16 +38,16 @@ Here are some screens:
 
 Redesigned home page
 
-[![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg)](http://www.flickr.com/photos/39680059@N08/3641611813/)
+![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg){:height="772" width="495"}
 
 The new feature that pulls in the latest articles on the home page (javascript)
 
-[![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg)](http://www.flickr.com/photos/39680059@N08/3642419864/)
+![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg){:height="292" width="495"}
 
 Latest video widget thing that pulls in video and story excerpts (flash)
 
-[![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg)](http://www.flickr.com/photos/39680059@N08/3642419752/)
+![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg){:height="328" width="412"}
 
 Salon directory application
 
-[![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg)](http://www.flickr.com/photos/39680059@N08/3642419644/)
+![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg){:height="224" width="495"}

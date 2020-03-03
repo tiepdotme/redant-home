@@ -32,13 +32,13 @@ Need to cut to the chase? Here is our original version (Content Management Syste
 
 Our original version was this:
 
-[![original version screenshot](/assets/uploads/2009/yates-original-version.jpg)](http://www.flickr.com/photos/26091646@N08/2442027383/)
+[original version screenshot](/assets/uploads/2009/yates-original-version.jpg){:height="500" width="472"}
 
 This was (in my opinion) a good example of something that **photoshops well**, but is not particularly usable in when filled with real data. This wasn't evident until the site was live and filled with real content, and you needed to find something specific (rather than a product) or browse around a product area.
 
 Each product area has a drop down list, which shows a set of product names that you select from:
 
-[![Existing product menu detail](/assets/uploads/2009/yates-existing-product-menu.gif)](http://www.flickr.com/photos/26091646@N08/2442851158/)
+[Existing product menu detail](/assets/uploads/2009/yates-existing-product-menu.gif){:height="293" width="610"}
 
 This design worked well if:
 
@@ -60,9 +60,9 @@ However, we all thought there were a few ways that we could improve the page, an
 
 Here is the revised design, and you can [play with it here](http://yates.co.nz/products/fertilising/)
 
-[![Revised design for the Yates product menu](/assets/uploads/2009/yates-revised-design-expanded.jpg)](http://www.flickr.com/photos/26091646@N08/2442871682/)
+[Revised design for the Yates product menu](/assets/uploads/2009/yates-revised-design-expanded.jpg){:height="500" width="477"}
 
-[![Revised design for the Yates product menu](/assets/uploads/2009/yates-revised-design.jpg)](http://www.flickr.com/photos/26091646@N08/2442027585/)
+[Revised design for the Yates product menu](/assets/uploads/2009/yates-revised-design.jpg){:height="500" width="426"}
 
 We thought that using thumbnails of each product might be a nice idea, but it was only when we prototyped real data such as [the tools menu](http://yates.co.nz/products/books-tools-and-propagation/) that we could see how useful a thumbnail would be in this instance. The tools menu lists all different types of secateurs, saws, and tree cutting devices. There is no way you could know whether the [ARS Fruit Pruner 300L](http://yates.co.nz/products/books-tools-and-propagation/tools/ars-fruit-pruner-300l/) is the same or different to the [ARS Fruit Pruner SE30](http://yates.co.nz/products/books-tools-and-propagation/tools/ars-fruit-pruner-se30/) (they are different) by looking at the product names. But it is quite clear from the thumbnail that the [SE45](http://yates.co.nz/products/books-tools-and-propagation/tools/ars-fruit-pruner-se45/) is closer to the 300L.
 

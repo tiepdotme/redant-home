@@ -30,7 +30,7 @@ publisher: Red Ant
 
 The Tails for Whales site has been selected as an honoree for [the Webby Awards](http://www.webbyawards.com/webbys/current_honorees.php?media_id=96&season=14)
 
-![2010 Webby Awards Official Honoree](/assets/uploads/2010/webby-awards-official-honoree.jpg)
+![2010 Webby Awards Official Honoree](/assets/uploads/2010/webby-awards-official-honoree.jpg){:height="39" width="208"}
 
 We designed and built the site, all based on the awesome idea from Ben at Republic. Here is his explanation of the Tails for Whales campaign. A great example of what you can do with a good idea.
 
