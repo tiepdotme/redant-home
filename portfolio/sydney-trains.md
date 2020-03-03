@@ -5,7 +5,7 @@ slug: sydney-trains
 title: Transport for NSW (Sydney Trains)
 tagline: Visualisation Tool to improve timetable management
 description: A data visualisation tool utilises customer data to better predict and plan maintenance and other timetable changes.
-project_url: Proprietary tool
+project_url:
 client: Transport NSW and Veitch Lister Consulting
 project_date: 2019 (~6 months)
 desktop_img_height: 450

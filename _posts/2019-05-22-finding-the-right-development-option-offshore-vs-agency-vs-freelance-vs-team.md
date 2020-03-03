@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Hiring a web development team you''ll love '
+title: 'Hiring a web development team you''ll love'
 subtitle: We've integrated many different types of payment systems
 description: 'Working out the best way to resource the development of your project
-  can be hard. It''s super competitive, and can be hard to compare apples with apples. '
+  can be hard. It''s super competitive, and can be hard to compare apples with apples.'
 slug: online-payment-systems
 projects: []
 image: ''
