@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     color: $white;
-    background-color: $red-light;
+    background-color: $red-100;
   }
 
   h4 {
@@ -35,9 +35,9 @@
 }
 
 .portfolio-tile {
+  border-radius: 0.25rem;
   display: block;
   position: relative;
-  color: $white;
   overflow: hidden;
 
   &:active,
@@ -56,16 +56,6 @@
   &.bg-beautyheaven,
   &.bg-momentum {
     color: #212529;
-
-    .hr-wrapper {
-      border-bottom: 1px solid rgba($black, 0.65);
-
-      hr {
-        &.hr-white {
-          @include block($black);
-        }
-      }
-    }
   }
 
   .content {

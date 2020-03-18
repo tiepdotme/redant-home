@@ -42,11 +42,6 @@
   }
 }
 
-.bg-pattern-dot {
-  background-image: url('~images/pattern-dot.jpg');
-  background-repeat: repeat;
-}
-
 .bg-our-approach {
   background-image: url('~images/our-approach.jpg');
 
@@ -61,6 +56,10 @@
 
 @each $name, $value in $project-colors {
   .bg-#{$name} {
-    background-color: $value;
+    background-color: rgba($value, 0.1);
+  }
+
+  .text-#{$name} {
+    color: $value;
   }
 }

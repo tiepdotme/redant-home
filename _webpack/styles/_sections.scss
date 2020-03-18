@@ -103,21 +103,35 @@
   }
 }
 
-.hero-section {
-  background-image: url('~images/home-bg-1.jpg');
-  background-position: center;
-  min-height: 100vh;
+.section-hero {
+  background-color: $gray-100;
+  background-image: url('~images/bg-home.jpg');
+  background-position: top;
+  font-family: $montserrat-medium;
+  min-height: 110vh;
+
+  h1 {
+    font-family: $montserrat-bold;
+  }
+
+  .hero-image {
+    background-image: url('~images/home-hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+  }
 }
 
 .how-section {
   background-image: url('~images/home-bg-2.jpg');
   background-position: right center;
+  color: $white;
 }
 
-.hero-section,
+.section-hero,
 .how-section {
   background-repeat: no-repeat;
-  color: $white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -130,6 +144,24 @@
     position: absolute;
     top: 0;
     width: 100%;
+  }
+}
+
+.section-platforms {
+  background-color: $gray-100 !important;
+
+  .subtext {
+    font-family: $montserrat-semibold;
+  }
+}
+
+.section-rails {
+  h2 {
+    font-family: $montserrat-bold;
+  }
+
+  .subtitle {
+    font-family: $montserrat-medium;
   }
 }
 
@@ -195,8 +227,9 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .hero-section {
-    background-position: 75% 50%;
+  .section-hero {
+    background-image: url('~images/bg-home-mobile.jpg');
+    // background-position: 75% 50%;
   }
 
   .diamond-section {

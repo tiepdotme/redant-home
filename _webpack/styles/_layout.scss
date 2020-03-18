@@ -18,6 +18,7 @@ body {
   max-width: $layout-max-width;
   margin: auto;
   background-color: $white;
+  font-family: $montserrat-regular;
 
   &.default-layout {
     padding-bottom: $slide-footer-height;
@@ -34,7 +35,6 @@ body {
 
     > header,
     > section,
-    > footer,
     > .container {
       background-color: $white;
     }
@@ -46,15 +46,20 @@ body {
 }
 
 .slidedown-container {
-  position: fixed;
+  background-color: $gray-500;
+  bottom: 0;
+  color: $white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
   max-width: $layout-max-width;
   min-height: $slide-footer-height;
-  bottom: 0;
-  background: $gray-100;
+  position: fixed;
+  width: 100%;
+
+  a {
+    color: $white;
+  }
 }
 
 .ruby {
@@ -68,17 +73,12 @@ body {
     }
   }
 
-  .code-review,
   .ruby {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
     height: 100%;
     min-height: 200px;
-  }
-
-  .code-review {
-    background-image: url('~images/code-review.png');
   }
 }
 

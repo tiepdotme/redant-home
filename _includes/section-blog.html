@@ -1,0 +1,9 @@
+<section id="section-blog" class="ga-section bg-gray-light py-5">
+  <div class="container py-5 py-sm-0">
+    <div id="macy-container" data-columns="3" data-columns-small="2">
+      {% for post in site.posts limit:3 %} {% unless include.type != nil or
+      include.type == post.type %} {% include post-card.html %} {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

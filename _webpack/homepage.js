@@ -1,5 +1,4 @@
 import 'slick-carousel';
-
 import AOS from 'aos';
 
 const init = $(function() {
@@ -29,16 +28,19 @@ const init = $(function() {
     dataAosAnchorPlacement: 'center-bottom',
     easing: 'ease-in-out',
     duration: 900,
-    disable: 'mobile'
+    disable: 'mobile',
   });
 
-  $(document).on('click', 'a[href^="#"]', function (event) {
+  $(document).on('click', 'a[href^="#"]', function(event) {
     event.preventDefault();
-    
-    $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top,
-      easing: "easein"
-     }, 500);
+
+    $('html, body').animate(
+      {
+        scrollTop: $($.attr(this, 'href')).offset().top,
+        easing: 'easein',
+      },
+      500
+    );
   });
 
   /* Carousel */
@@ -50,21 +52,23 @@ const init = $(function() {
       autoplay: true,
       autoplaySpeed: 4000,
       slidesToScroll: 1,
-      initialSlide: 0
+      initialSlide: 0,
     });
 
     $carousel_selector.slick('slickPause');
 
     $(document).on('scroll', function() {
-      if (($carousel_selector.offset().top - window.innerHeight) < window.scrollY) {
+      if (
+        $carousel_selector.offset().top - window.innerHeight <
+        window.scrollY
+      ) {
         $carousel_selector.slick('slickPlay');
         $(document).off('scroll');
       }
     });
   }
 
-
-  $('#gallery-modal').on('shown.bs.modal', function (e) {
+  $('#gallery-modal').on('shown.bs.modal', function(e) {
     var $carousel = $(this).find($carousel_selector);
     var index = $(e.relatedTarget).data('index');
     $carousel.resize();

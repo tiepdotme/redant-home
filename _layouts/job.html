@@ -4,18 +4,21 @@
   <body class="{{ page.class }}">
     <div class="main-layout">
       {% include nav.html %}
-      <header id="section-intro" class="ga-section dark-header padded-section">
+      <header class="ga-section dark-header padded-section">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
             <div class="col-md-12 py-3">
               <h1 class="text-xl pb-3">{{ page.title }}</h1>
-              <hr>
+              <hr />
             </div>
           </div>
         </div>
       </header>
-      <section id="section-job-summary"  class="ga-section jumbotron bg-gray-light py-5">
+      <section
+        id="section-job-summary"
+        class="ga-section jumbotron bg-gray-light py-5"
+      >
         <div class="container">
           <p class="summary">{{ page.summary }}</p>
         </div>
@@ -25,8 +28,7 @@
           {{ content }}
         </div>
       </section>
-      {% include footer.html %}
-      {% include scripts.html %}
+      {% include footer.html %} {% include scripts.html %}
     </div>
   </body>
 </html>

@@ -19,6 +19,27 @@
     }
   }
 
+  h5.card-title {
+    font-family: $montserrat-regular;
+    font-weight: normal;
+
+    span {
+      font-family: $montserrat-bold;
+    }
+
+    &.text-green {
+      color: $green;
+    }
+
+    &.text-orange {
+      color: $orange;
+    }
+
+    &.text-red {
+      color: $red;
+    }
+  }
+
   .number {
     background-color: $red;
     border-radius: 100%;
@@ -34,13 +55,13 @@
   }
 
   &--review {
-    border: 1px solid $red-light;
+    border: 1px solid $red-100;
 
     .card-header {
       background: $red;
       padding-left: 1rem;
       padding-right: 1rem;
-      border-color: $red-light;
+      border-color: $red-100;
 
       .card-title {
         color: $white;
@@ -79,7 +100,7 @@
         font-size: 1.1em;
 
         &:hover {
-          background: $red-dark;
+          background: $red-200;
         }
       }
     }

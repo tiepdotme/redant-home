@@ -2,6 +2,8 @@
   color: $white;
   background-color: $red;
   border: none;
+  font-family: $montserrat-semibold;
+  padding: 10px 20px 10px 20px;
 
   &:hover,
   &:active,
@@ -15,5 +17,14 @@
 .btn-default {
   color: $red;
   background-color: $white;
-  border: 1px solid $red;
+  border: 2px solid $red;
+  font-family: $montserrat-semibold;
+  padding: 10px 20px 10px 20px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba($white, 0.9) !important;
+    transition: 0.2s;
+  }
 }

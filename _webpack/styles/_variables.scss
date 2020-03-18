@@ -1,12 +1,19 @@
-$red: #df4040;
-$red-dark: #b41e1e;
-$red-light: #edaeae;
+$about-red: #df4040;
+$about-green: #40df40;
+$blue-100: #4040df;
 
 $gray-smoke: #e4e4f5;
 $gray-100: #f7f7f7;
 $gray-200: #ddd;
 $gray-300: #808080;
 $gray-400: #666;
+$gray-500: #484d53;
+$gray-600: #343a40;
+$green: #7b9e89;
+$orange: #f18805;
+$red: #df4140;
+$red-200: #b41e1e;
+$red-100: #edaeae;
 
 $white: #fff !default;
 
@@ -34,18 +41,16 @@ $project-colors: (
   sydney-trains: #e56e0f,
 );
 
-$about-red: #df4040;
-$about-green: #40df40;
-$blue-100: #4040df;
-
 $layout-max-width: 1400px;
 $navbar-height: 68px;
 $navbar-height-sm: 100px;
 $slide-footer-height: 400px;
 
+// Fonts
 $font-size-base: 1.05rem;
 $headings-font-weight: 700;
-$font-family-sans-serif: proxima-nova, 'Helvetica Neue', Helvetica, Arial,
-  sans-serif;
-
+$montserrat-regular: 'Montserrat-Regular', sans-serif;
+$montserrat-medium: 'Montserrat-Medium', sans-serif;
+$montserrat-semibold: 'Montserrat-SemiBold', sans-serif;
+$montserrat-bold: 'Montserrat-Bold', sans-serif;
 $fa-font-path: '~font-awesome/fonts';
