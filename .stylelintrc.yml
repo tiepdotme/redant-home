@@ -4,19 +4,19 @@ rules:
   at-rule-no-unknown:
     - true
     - ignoreAtRules:
-      - each
-      - extend
-      - import
-      - include
-      - media
-      - mixin
+        - each
+        - extend
+        - import
+        - include
+        - media
+        - mixin
   block-no-empty:
   color-no-invalid-hex: true
   comment-empty-line-before:
     - always
     - ignore:
-      - stylelint-commands
-      - after-comment
+        - stylelint-commands
+        - after-comment
   declaration-colon-space-after: always
   declaration-empty-line-before: never
   indentation: null
@@ -24,28 +24,29 @@ rules:
   rule-empty-line-before:
     - always
     - except:
-      - first-nested
+        - first-nested
       ignore:
-      - after-comment
+        - after-comment
   unit-no-unknown:
     - true
     - ignoreUnits:
-      - /wbt/ # The linter reads 12wbt as a unit
+        - /wbt/ # The linter reads 12wbt as a unit
   unit-whitelist:
     - deg
     - em
     - px
     - rem
-    - "%"
+    - '%'
     - s
     - vh
+    - vw
     - wbt # The linter reads 12wbt as a unit
 at-rule-empty-line-before:
   - always
   - except:
-    - after-same-name
-    - first-nested
+      - after-same-name
+      - first-nested
   - ignore:
-    - after-comment
-    - blockless-after-blockless
-    - first-nested
+      - after-comment
+      - blockless-after-blockless
+      - first-nested

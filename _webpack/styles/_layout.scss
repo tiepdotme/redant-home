@@ -1,5 +1,5 @@
 body {
-  background-color: $gray-300;
+  background-color: $gray-700;
 }
 
 .anchor-offset {
@@ -67,12 +67,6 @@ body {
 }
 
 .homepage {
-  .canvas-section {
-    .container {
-      pointer-events: auto;
-    }
-  }
-
   .ruby {
     background-repeat: no-repeat;
     background-position: top;

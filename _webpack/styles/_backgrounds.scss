@@ -9,7 +9,7 @@
   border-bottom-color: $white;
 
   @include media-breakpoint-up(sm) {
-    border-width: 0 0 620px 1080px;
+    border-width: 0 0 80vh 98vw;
   }
 }
 
@@ -18,16 +18,15 @@
   color: $white;
 }
 
-.bg-gray-light {
-  background-color: $gray-100;
+.bg-gradient {
+  background: linear-gradient(transparent, $white);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.bg-gray {
-  background-color: $gray-400;
-}
-
-.bg-mac-modal {
-  background-color: $gray-200;
+.bg-green {
+  background-color: $green;
 }
 
 .bg-code-review {
@@ -42,12 +41,50 @@
   }
 }
 
+.bg-gray {
+  background-color: $gray-400;
+}
+
+.bg-gray-light {
+  background-color: $gray-100;
+}
+
+.bg-mac-modal {
+  background-color: $gray-200;
+}
+
+// .bg-get-started {
+//   background-image: url('~images/bg-get-started.png');
+//   background-position: left;
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+// }
+
+.bg-get-started {
+  position: relative;
+  background-color: transparent;
+}
+
+.bg-get-started::before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('~images/bg-get-started.png');
+}
+
 .bg-our-approach {
   background-image: url('~images/our-approach.jpg');
 
   &.padded-section {
     padding: 150px 0 90px 0;
   }
+}
+
+.bg-orange {
+  background-color: $orange;
 }
 
 .bg-white {

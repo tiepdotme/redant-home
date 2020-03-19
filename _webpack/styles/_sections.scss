@@ -6,17 +6,6 @@
   }
 }
 
-.dark-section {
-  color: $white;
-  background-color: $black;
-}
-
-.list-section {
-  ul {
-    margin-bottom: 0;
-  }
-}
-
 .arrow-section {
   position: relative;
 
@@ -31,17 +20,6 @@
     border-style: solid;
     border-width: 52px 100px 0 100px;
     border-color: $gray-100 transparent transparent transparent;
-  }
-}
-
-.canvas-section {
-  position: relative;
-  overflow: hidden;
-
-  .container {
-    position: relative;
-    pointer-events: none;
-    z-index: 2;
   }
 }
 
