@@ -7,7 +7,7 @@ redirect_from:
   - /portfolio
 ---
 
-<header id="section-intro" class="dark-header padded-section">
+<header id="section-intro" class="dark-header default-padding">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -32,7 +32,7 @@ redirect_from:
           href="{{ page.dir }}"
           class="portfolio-tile bg-gray bg-{{ page.theme }}"
         >
-          <div class="content mb-2">
+          <div class="content mb-2 text-{{ page.theme }}">
             <h2>{{ page.title }}</h2>
             <h3 class="h5 my-4">{{ page.tagline }}</h3>
             <p>{{ page.description }}</p>

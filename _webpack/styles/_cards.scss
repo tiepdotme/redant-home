@@ -28,7 +28,7 @@
     }
 
     &.text-green {
-      color: $green;
+      color: $green-100;
     }
 
     &.text-orange {
@@ -55,13 +55,13 @@
   }
 
   &--review {
-    border: 1px solid $red-100;
+    border: 1px solid $red-200;
 
     .card-header {
       background: $red;
       padding-left: 1rem;
       padding-right: 1rem;
-      border-color: $red-100;
+      border-color: $red-200;
 
       .card-title {
         color: $white;
@@ -100,7 +100,7 @@
         font-size: 1.1em;
 
         &:hover {
-          background: $red-200;
+          background: $red-300;
         }
       }
     }

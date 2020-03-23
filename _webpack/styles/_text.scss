@@ -50,7 +50,7 @@ hr {
   }
 
   &.hr-green {
-    @include block($green);
+    @include block($green-100);
   }
 
   &.hr-orange {
@@ -104,11 +104,16 @@ strong {
   }
 }
 
-.section-hero {
-  h1 {
-    font-size: 2.625rem;
-    font-weight: 600;
-  }
+.font-700 {
+  font-weight: 700;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-300 {
+  font-weight: 300;
 }
 
 .hr-wrapper {
@@ -133,10 +138,9 @@ strong {
   }
 }
 
-.text-xl {
-  font-size: 4rem;
-  font-weight: 600;
-  line-height: 1;
+.text-sm {
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 .text-md {
@@ -149,9 +153,10 @@ strong {
   font-weight: 300;
 }
 
-.text-sm {
-  font-size: 0.9rem;
-  font-weight: 300;
+.text-xl {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .text-blue {
@@ -160,6 +165,26 @@ strong {
 
 .text-gray {
   color: $gray-200;
+}
+
+.text-green {
+  color: $green-100;
+}
+
+.text-green-dark {
+  color: $green-200;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-red-dark {
+  color: $red-300;
 }
 
 .text-white {

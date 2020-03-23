@@ -35,21 +35,6 @@
       z-index: 1;
     }
   }
-
-  @include media-breakpoint-down(sm) {
-    .slide {
-      .content {
-        height: 840px;
-        padding-top: 120px;
-      }
-
-      .svg-wrapper {
-        width: 100%;
-        height: 65%;
-        margin-bottom: -100px;
-      }
-    }
-  }
 }
 
 // Carousel slide-like styling
@@ -63,8 +48,26 @@
       padding-top: 0;
     }
   }
+}
 
-  @include media-breakpoint-down(sm) {
+@include media-breakpoint-down(sm) {
+  .carousel,
+  .carousel-layout {
+    .slide {
+      .content {
+        height: 840px;
+        padding-top: 120px;
+      }
+
+      .svg-wrapper {
+        width: 100%;
+        height: 65%;
+        margin-bottom: -100px;
+      }
+    }
+  }
+
+  .carousel-layout {
     .slide {
       .content {
         justify-content: flex-start;

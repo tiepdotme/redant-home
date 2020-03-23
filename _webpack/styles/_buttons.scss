@@ -12,6 +12,17 @@
     background-color: rgba($red, 0.9) !important;
     transition: 0.2s;
   }
+
+  &.btn-green {
+    background-color: $green-100;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgba($green-100, 0.9) !important;
+      transition: 0.2s;
+    }
+  }
 }
 
 .btn-default {

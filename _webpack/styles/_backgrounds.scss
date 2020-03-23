@@ -26,13 +26,13 @@
 }
 
 .bg-green {
-  background-color: $green;
+  background-color: $green-100;
 }
 
 .bg-code-review {
   background-image: url('~images/code-review.jpg');
 
-  &.padded-section {
+  &.default-padding {
     padding: 130px 0 90px 0;
 
     @include media-breakpoint-down(sm) {
@@ -53,32 +53,32 @@
   background-color: $gray-200;
 }
 
-// .bg-get-started {
-//   background-image: url('~images/bg-get-started.png');
-//   background-position: left;
-//   position: absolute;
-//   height: 100%;
-//   width: 100%;
-// }
-
 .bg-get-started {
-  position: relative;
-  background-color: transparent;
+  background-image: url('~images/bg-get-started-hero.png');
+  background-position: left;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-.bg-get-started::before {
-  content: ' ';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-image: url('~images/bg-get-started.png');
-}
+// .bg-get-started {
+//   position: relative;
+//   background-color: transparent;
+// }
+//
+// .bg-get-started::before {
+//   content: ' ';
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   z-index: -1;
+//   background-image: url('~images/bg-get-started.png');
+// }
 
 .bg-our-approach {
   background-image: url('~images/our-approach.jpg');
 
-  &.padded-section {
+  &.default-padding {
     padding: 150px 0 90px 0;
   }
 }
@@ -89,6 +89,10 @@
 
 .bg-white {
   background-color: $white;
+}
+
+.bg-red {
+  background-color: $red-100 !important;
 }
 
 @each $name, $value in $project-colors {

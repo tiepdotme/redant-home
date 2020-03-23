@@ -68,26 +68,6 @@
     }
   }
 
-  .text-red {
-    color: $red;
-  }
-
-  .text-red-dark {
-    color: $red-200;
-  }
-
-  .font-700 {
-    font-weight: 700;
-  }
-
-  .font-500 {
-    font-weight: 500;
-  }
-
-  .font-300 {
-    font-weight: 300;
-  }
-
   .anchor {
     position: relative;
     top: -110px;
@@ -113,7 +93,7 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      background-image: url("~images/services/digital-workshop/hero-workshop.png");
+      background-image: url('~images/services/digital-workshop/hero-workshop.png');
     }
 
     h1 {
@@ -158,7 +138,7 @@
 
     &.cta-panel {
       background-color: #353933;
-      background-image: url("~images/services/digital-workshop/bg-cta.jpg");
+      background-image: url('~images/services/digital-workshop/bg-cta.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
