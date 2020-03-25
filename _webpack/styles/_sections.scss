@@ -1,5 +1,4 @@
 #section-service-options {
-  background-image: url('~images/bg-get-started-services.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -12,25 +11,12 @@
     th,
     td {
       border-top: 1px solid $black;
+      padding: 50px 0.75rem 50px 0.75rem;
     }
   }
-}
 
-#section-services {
   .benefit-list {
-    padding-left: 35px;
-
-    p {
-      &::before {
-        content: '';
-        background-color: $red;
-        height: 2px;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 20px;
-      }
-    }
+    @include dashes();
 
     &.green-dashes {
       p {
@@ -40,6 +26,28 @@
       }
     }
   }
+
+  .bg-services-1 {
+    background-image: url('~images/bg-services-mobile-1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .bg-services-2 {
+    background-image: url('~images/bg-services-mobile-2.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .table-title {
+    font-family: $montserrat-bold;
+  }
+}
+
+#section-work-reasons {
+  @include dashes($orange);
 }
 
 #section-testimonials {
@@ -115,6 +123,10 @@
 // }
 
 @include media-breakpoint-up(sm) {
+  #section-service-options {
+    background-image: url('~images/bg-get-started-services.png');
+  }
+
   .section-border {
     padding-bottom: 100px;
   }

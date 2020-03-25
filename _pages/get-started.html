@@ -7,9 +7,7 @@ keywords: Code Review Ruby on Rails
 hide_blurb: true
 ---
 
-<header id="section-intro" class="bg-gray-light">
-  <!-- <div class="bg-get-started"></div> -->
-  <img src="{{ site.data.webpack['bg-get-started-hero.png'] }}" />
+<header id="section-intro" class="bg-gray-light bg-get-started default-padding">
   <div class="container">
     <div class="row">
       <div class="col-md-12 py-3">
@@ -34,27 +32,27 @@ hide_blurb: true
   </div>
 </header>
 
-<section id="section-services" class="py-5 text-md">
+<section id="section-work-reasons" class="text-md default-padding">
   <div class="container">
     <div class="row">
       <div class="col-12 mb-3">
         <h2 class="h5 text-orange">Why work with us?</h2>
       </div>
       <div class="col-md-6">
-        <p class="pl-5 mb-4">
-          Be able to make confident technology choices and move forwa
+        <p class="mb-4">
+          Be able to make confident technology choices and move forward
         </p>
-        <p class="pl-5">
+        <p>
           Bring the investors, developers, and stakeholders teams together with
           a clear understanding of the development direction
         </p>
       </div>
       <div class="col-md-6">
-        <p class="pl-5 mb-4">
+        <p class="mb-4">
           Save time, money and frustration with better oversight of your digital
           strategy
         </p>
-        <p class="pl-5">
+        <p>
           Understand the time and resources needed to build your digital
           strategy
         </p>
@@ -63,10 +61,10 @@ hide_blurb: true
   </div>
 </section>
 
-<section id="section-service-options" class="py-5 bg-gray-light">
+<section id="section-service-options" class="bg-gray-light default-padding">
   <div class="container">
     <!-- desktop -->
-    <div class="row d-none d-md-block">
+    <div class="row d-none d-sm-block">
       <table class="table table-services">
         <thead>
           <tr>
@@ -99,7 +97,7 @@ hide_blurb: true
         </thead>
         <tbody>
           <tr>
-            <th scope="row border-bottom-0">What you get</th>
+            <td class="pl-0 table-title">What you get</td>
             <td>
               <p>
                 An expert review of your code for security issues, performance
@@ -114,12 +112,12 @@ hide_blurb: true
             </td>
           </tr>
           <tr>
-            <th scope="row">Who is it for</th>
+            <td class="pl-0 table-title">Who is it for</td>
             <td><p>Ideal for owners of an existing digital product</p></td>
             <td><p>Ideal for a new website or relaunch</p></td>
           </tr>
           <tr>
-            <th scope="row">Benefits</th>
+            <td class="pl-0 table-title">Benefits</td>
             <td class="benefit-list green-dashes">
               <p>Overcome persistent bugs and errors</p>
               <p>Understand your technology options</p>
@@ -150,8 +148,8 @@ hide_blurb: true
             </td>
           </tr>
           <tr>
-            <td class="border-top-0"></td>
-            <td class="border-top-0">
+            <td class="border-top-0 py-0"></td>
+            <td class="border-top-0 py-0">
               <a
                 class="btn btn-primary btn-green rounded-pill"
                 href="/free-initial-consult-code-review/"
@@ -159,7 +157,7 @@ hide_blurb: true
                 Find out more
               </a>
             </td>
-            <td class="border-top-0">
+            <td class="border-top-0 py-0">
               <a
                 class="btn btn-primary rounded-pill"
                 href="/free-initial-consult-code-review/"
@@ -171,23 +169,30 @@ hide_blurb: true
         </tbody>
       </table>
     </div>
-
     <!-- mobile -->
-    <div class="row d-md-none">
-      <div class="col-12">
-        <h4>Code Review and Checkup</h4>
-
-        <p><b>What you get</b></p>
+    <div class="row d-sm-none">
+      <div class="col-12 bg-services-1">
+        <img
+          class="service-illustration img-responsive mb-4"
+          src="{{ site.data.webpack['illustration-services-1.png'] }}"
+        />
+        <h4>
+          Code
+          <span class="d-inline d-lg-block text-green-dark">Review</span>
+          <span class="d-block text-green">and Checkup</span>
+        </h4>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">What you get</p>
         <p>
           An expert review of your code for security issues, performance
           problems and quality. You’ll get a good idea of how your code
           benchmarks against industry standards.
         </p>
-
-        <p><b>Who is it for</b></p>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">Who is it for</p>
         <p>Ideal for owners of an existing digital product.</p>
-
-        <p><b>Benefits</b></p>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">Benefits</p>
         <p>Overcome persistent bugs and errors</p>
         <p>Understand your technology options</p>
         <p>Develop reliable development practices and testing methodology</p>
@@ -197,24 +202,32 @@ hide_blurb: true
         <p>Be able to prioritise development decisions</p>
         <p>Understand security vulnerability</p>
         <a
-          class="btn btn-primary rounded-pill"
+          class="btn btn-primary btn-green rounded-pill"
           href="/free-initial-consult-code-review/"
         >
           Find out more
         </a>
       </div>
-      <div class="col-md-5">
-        <h4>Digital Product Development Workshop</h4>
-
-        <p><b>What you get</b></p>
+      <div class="col-12 bg-services-2 mt-5">
+        <img
+          class="service-illustration img-responsive mb-4"
+          src="{{ site.data.webpack['illustration-services-2.png'] }}"
+        />
+        <h4>
+          Digital Product
+          <span class="d-inline d-lg-block text-red-dark">Development</span>
+          <span class="d-block text-red">Workshop</span>
+        </h4>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">What you get</p>
         <p>
           1 day Discovery Workshop, Product Roadmap and Agile Sprint Plan
         </p>
-
-        <p><b>Who is it for</b></p>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">Who is it for</p>
         <p>Ideal for a new website or relaunch.</p>
-
-        <p><b>Benefits</b></p>
+        <hr class="my-4 hr-long bg-black" />
+        <p class="table-title">Benefits</p>
         <p>
           Hit your business goals by building a unique digital product to
           delight your target audiences
@@ -272,7 +285,7 @@ hide_blurb: true
 <section
   id="section-testimonials"
   data-ga-trigger="visibility"
-  class="testimonials section py-5 bg-red"
+  class="testimonials default-padding bg-red"
 >
   <div class="container">
     <div class="row">

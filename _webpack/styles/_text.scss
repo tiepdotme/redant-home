@@ -64,6 +64,11 @@ hr {
     width: 100%;
   }
 
+  &.hr-long {
+    height: 0;
+    width: 100%;
+  }
+
   &.hr-white {
     @include block($white);
   }
