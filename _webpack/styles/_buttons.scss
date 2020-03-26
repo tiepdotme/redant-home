@@ -35,7 +35,7 @@
   &:hover,
   &:active,
   &:focus {
-    background-color: rgba($white, 0.9) !important;
+    color: rgba($red, 0.9);
     transition: 0.2s;
   }
 }

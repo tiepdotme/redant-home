@@ -1,5 +1,4 @@
-.carousel,
-.carousel-layout {
+.carousel {
   max-width: 100%;
   overflow: hidden;
 
@@ -33,50 +32,6 @@
       margin-bottom: -10px;
       overflow: hidden;
       z-index: 1;
-    }
-  }
-}
-
-// Carousel slide-like styling
-.carousel-layout {
-  .slide {
-    .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 380px;
-      padding-top: 0;
-    }
-  }
-}
-
-@include media-breakpoint-down(sm) {
-  .carousel,
-  .carousel-layout {
-    .slide {
-      .content {
-        height: 840px;
-        padding-top: 120px;
-      }
-
-      .svg-wrapper {
-        width: 100%;
-        height: 65%;
-        margin-bottom: -100px;
-      }
-    }
-  }
-
-  .carousel-layout {
-    .slide {
-      .content {
-        justify-content: flex-start;
-        height: 420px;
-      }
-
-      .svg-wrapper {
-        margin-bottom: -120px;
-      }
     }
   }
 }

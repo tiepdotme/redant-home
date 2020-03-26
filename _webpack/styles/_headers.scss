@@ -16,7 +16,7 @@
   }
 }
 
-.project-header {
+.project-preview {
   position: relative;
   width: 100%;
   margin-bottom: -2 * $navbar-height;
@@ -29,7 +29,7 @@
   @include media-breakpoint-down(md) {
     height: 480px;
 
-    .project-header-content {
+    .project-preview-content {
       margin-top: -200px;
     }
   }

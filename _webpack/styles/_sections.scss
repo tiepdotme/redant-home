@@ -1,8 +1,14 @@
-#section-service-options {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
+#section-ruby-on-rails {
+  h2 {
+    font-family: $montserrat-bold;
+  }
 
+  .subtitle {
+    font-family: $montserrat-medium;
+  }
+}
+
+#section-service-options {
   table {
     th {
       border-bottom: 1px solid $black;
@@ -46,8 +52,27 @@
   }
 }
 
-#section-work-reasons {
-  @include dashes($orange);
+#section-stuff-we-made {
+  .content {
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 60px 0 0 0;
+    position: relative;
+  }
+
+  .svg-wrapper {
+    bottom: 0;
+    height: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    width: 100%;
+
+    svg {
+      height: auto;
+    }
+  }
 }
 
 #section-testimonials {
@@ -63,9 +88,13 @@
   }
 }
 
+#section-work-reasons {
+  @include dashes($orange);
+}
+
 .section-hero {
   background-color: $gray-100;
-  background-image: url('~images/bg-home-hero.jpg');
+  background-image: url('~images/bg-home-hero-mobile.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,25 +111,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 650px;
+    height: 350px;
+    margin: 10px 0 0 0;
   }
-}
-
-#section-platforms {
-  background-color: $gray-100 !important;
 
   .subtext {
     font-family: $montserrat-semibold;
-  }
-}
-
-.section-rails {
-  h2 {
-    font-family: $montserrat-bold;
-  }
-
-  .subtitle {
-    font-family: $montserrat-medium;
   }
 }
 
@@ -115,26 +131,36 @@
   }
 }
 
-// #section-engagement {
-//   .table {
-//     border-radius: 5px;
-//     min-height: 100%;
-//   }
-// }
-
 @include media-breakpoint-up(sm) {
   #section-service-options {
     background-image: url('~images/bg-get-started-services.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #section-stuff-we-made {
+    .content {
+      height: 500px;
+      padding: 100px 0 90px 0;
+    }
+
+    .svg-wrapper {
+      position: absolute;
+      width: 50%;
+    }
   }
 
   .section-border {
     padding-bottom: 100px;
   }
-}
 
-@include media-breakpoint-down(sm) {
   .section-hero {
-    background-image: url('~images/bg-home-hero-mobile.jpg');
-    // background-position: 75% 50%;
+    background-image: url('~images/bg-home-hero.jpg');
+
+    .hero-image {
+      margin: 0;
+      height: 650px;
+    }
   }
 }

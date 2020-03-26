@@ -8,30 +8,6 @@ a {
   }
 }
 
-.text-hover-underline {
-  position: relative;
-
-  &::after {
-    content: '';
-    height: 7px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    background: rgba($white, 0.75);
-    transition: 0.2s;
-  }
-
-  &:hover {
-    color: $white;
-    text-decoration: none;
-
-    &::after {
-      width: 100%;
-    }
-  }
-}
-
 blockquote {
   border-left: 5px solid $gray-100;
   padding: 0 30px 0 30px;
@@ -143,6 +119,30 @@ strong {
   }
 }
 
+.text-hover-underline {
+  position: relative;
+
+  &::after {
+    content: '';
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background: rgba($white, 0.75);
+    transition: 0.2s;
+  }
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
 .text-sm {
   font-size: 0.9rem;
   font-weight: 300;
@@ -194,11 +194,6 @@ strong {
 
 .text-white {
   color: $white;
-}
-
-.unstyled-list {
-  padding-left: 0;
-  list-style: none;
 }
 
 .white-space-normal {

@@ -5,13 +5,13 @@
     <div class="main-layout">
       {% include nav.html %}
 
-      <header id="section-project-intro" class="ga-section project-header ">
-        <div class="project-header-content">
+      <header id="section-project-intro" class="ga-section project-preview ">
+        <div class="project-preview-content">
           <div class="bg-angled bg-{{ page.theme }}"></div>
           <div class="bg-gradient"></div>
           {% if page.project_type == 'mobile' %} {% include
-          svg/mobile-project-header.svg slug=page.slug title=page.title %} {%
-          else %} {% include svg/project-header-reverse.svg slug=page.slug
+          svg/preview-mobile.svg slug=page.slug title=page.title %} {%
+          else %} {% include svg/preview-right.svg slug=page.slug
           title=page.title img_height=page.desktop_img_height %} {% endif %}
         </div>
       </header>

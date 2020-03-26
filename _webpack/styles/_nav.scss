@@ -116,7 +116,7 @@
   span {
     display: block;
     position: absolute;
-    height: 4px;
+    height: 2px;
     width: 100%;
     left: 0;
     background-color: $red;
@@ -217,7 +217,7 @@
 
   @include media-breakpoint-down(sm) {
     top: 0;
-    height: $navbar-height-sm;
+    height: 70px;
 
     .nav-links {
       padding: 15% 0;
