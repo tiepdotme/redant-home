@@ -89,7 +89,14 @@
 }
 
 #section-work-reasons {
-  @include dashes($orange);
+  @include dashes($orange-200);
+
+  &.about-reasons {
+    background-image: url('~images/bg-work-reasons.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .section-hero {

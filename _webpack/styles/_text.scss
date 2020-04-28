@@ -30,7 +30,7 @@ hr {
   }
 
   &.hr-orange {
-    @include block($orange);
+    @include block($orange-200);
   }
 
   &.hr-thin {
@@ -181,7 +181,7 @@ strong {
 }
 
 .text-orange {
-  color: $orange;
+  color: $orange-200;
 }
 
 .text-red {

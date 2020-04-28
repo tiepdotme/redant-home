@@ -1,3 +1,12 @@
+.bg-about {
+  background-image: url('~images/bg-about-hero.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 .bg-angled {
   position: absolute;
   width: 0;
@@ -49,10 +58,6 @@
   background-color: $gray-100;
 }
 
-.bg-mac-modal {
-  background-color: $gray-200;
-}
-
 .bg-get-started {
   background-image: url('~images/bg-get-started-hero.png');
   background-position: left;
@@ -71,7 +76,11 @@
 }
 
 .bg-orange {
-  background-color: $orange;
+  background-color: $orange-200;
+}
+
+.bg-orange-100 {
+  background-color: $orange-100 !important;
 }
 
 .bg-white {
