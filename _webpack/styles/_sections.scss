@@ -1,3 +1,52 @@
+.section-hero {
+  background-color: $gray-100;
+  background-image: url('~images/bg-home-hero-mobile.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $montserrat-medium;
+
+  h1 {
+    font-family: $montserrat-bold;
+    font-size: 2.625rem;
+    font-weight: 600;
+  }
+
+  .hero-image {
+    background-image: url('~images/home-hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    margin: 10px 0 0 0;
+  }
+
+  .subtext {
+    font-family: $montserrat-semibold;
+  }
+}
+
+#section-portfolio-list {
+  background-image: url('~images/bg-portfolio-list.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  h1 {
+    padding: 100px 0 60px 0;
+  }
+
+  p {
+    font-family: $montserrat-regular;
+    font-size: 16px;
+  }
+
+  .tagline {
+    font-family: $montserrat-medium;
+    font-size: 20px;
+  }
+}
+
 #section-ruby-on-rails {
   h2 {
     font-family: $montserrat-bold;
@@ -96,34 +145,6 @@
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
-  }
-}
-
-.section-hero {
-  background-color: $gray-100;
-  background-image: url('~images/bg-home-hero-mobile.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: $montserrat-medium;
-
-  h1 {
-    font-family: $montserrat-bold;
-    font-size: 2.625rem;
-    font-weight: 600;
-  }
-
-  .hero-image {
-    background-image: url('~images/home-hero.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 350px;
-    margin: 10px 0 0 0;
-  }
-
-  .subtext {
-    font-family: $montserrat-semibold;
   }
 }
 
