@@ -41,6 +41,8 @@ rules:
     - vh
     - vw
     - wbt # The linter reads 12wbt as a unit
+  no-descending-specificity:
+    - null
 at-rule-empty-line-before:
   - always
   - except:

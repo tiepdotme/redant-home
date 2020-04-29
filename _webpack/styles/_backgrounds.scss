@@ -83,6 +83,15 @@
   background-color: $orange-100 !important;
 }
 
+.bg-technology {
+  background-image: url('~images/bg-technology-hero.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 .bg-white {
   background-color: $white;
 }
