@@ -3,26 +3,29 @@ layout: project
 theme: move
 slug: outdoor-automated-proposal-platform
 title: Move Outdoor Advertising proposal platform
-tagline: APP is an automated proposal booking platform for Australia’s largest outdoor
+tagline:
+  APP is an automated proposal booking platform for Australia’s largest outdoor
   advertising networks.
-description: Instead of exchanging emails and spreadsheets back and forth, media agencies
+description:
+  Instead of exchanging emails and spreadsheets back and forth, media agencies
   can use the platform to request proposals
 client: Move OMA
 project_date: 2017-now
 technologies:
-- Ruby on Rails
-- PostgreSQL
+  - Ruby on Rails
+  - PostgreSQL
 team_size: 4 people
 lines_of_code: 450k
 images:
-- filename: outdoor-automated-proposal-platform-1.jpg
-- filename: outdoor-automated-proposal-platform-2.jpg
-- filename: outdoor-automated-proposal-platform-3.jpg
-- filename: outdoor-automated-proposal-platform-4.jpg
+  - filename: outdoor-automated-proposal-platform-1.jpg
+  - filename: outdoor-automated-proposal-platform-2.jpg
+  - filename: outdoor-automated-proposal-platform-3.jpg
+  - filename: outdoor-automated-proposal-platform-4.jpg
 project_url: https://
 project_type: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 The Outdoor Media Association (OMA) appointed us to build the Australian Out of Home (OOH) industry’s first Automated Proposal Platform (APP).
@@ -34,7 +37,6 @@ The platform will enable media agencies to request proposals from OMA member com
 “The APP will allow the transaction of briefing, proposal evaluation, booking and billing OOH as seamless as possible. Creating real-time savings for planners and buyers of our channel, by having fast access to a platform that that allows them to visualise information about their campaign and audiences, will help agencies and clients better utilise the benefits of OOH.”
 
 Charmaine Moldrich, CEO, OMA
-
 
 #### What is MOVE?
 

@@ -47,6 +47,56 @@
   }
 }
 
+#section-project-content {
+  h1 {
+    font-family: $montserrat-bold;
+    font-size: 46px;
+  }
+
+  h4 {
+    font-family: $montserrat-semibold;
+    font-size: 20px;
+  }
+
+  img {
+    @extend .img-fluid;
+  }
+
+  .list-dashed {
+    ul {
+      list-style-type: none;
+
+      li::before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -38px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .card .card-img-wrapper {
+    height: auto;
+  }
+
+  .project-detail-container {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+#section-read-more {
+  h4 {
+    font-family: $montserrat-semibold;
+    font-size: 13px;
+  }
+}
+
 #section-ruby-on-rails {
   h2 {
     font-family: $montserrat-bold;

@@ -4,13 +4,13 @@
   <body class="{{ page.class }}">
     <div class="main-layout">
       {% include nav.html %}
-      <section class="project-content pt-3 pb-5 text-md">
+      <section class="post-content pt-3 pb-5 text-md">
         <div class="container">
           <div class="row mb-4">
             {% include breadcrumbs.html %}
             <div class="col-12 mt-3 pt-5">
               <h1 class="post-title pb-2">{{ page.title }}</h1>
-              <hr>
+              <hr />
             </div>
           </div>
           <div class="row">
@@ -18,21 +18,19 @@
               {{ content }}
             </div>
             <div class="col-md-4">
-              <hr class="hr-blue my-0">
+              <hr class="hr-blue my-0" />
               {% if page.description.size > 1 %}
-                <div class="project-detail-container section-border">
-                  <p>{{ page.description }}</p>
-                </div>
-              {% endif %}
-              {% include gallery.html images=page.images slug=page.slug %}
+              <div class="post-detail-container section-border">
+                <p>{{ page.description }}</p>
+              </div>
+              {% endif %} {% include gallery.html images=page.images
+              slug=page.slug %}
             </div>
           </div>
         </div>
       </section>
-      <section class="pb-5 d-none d-sm-block" data-read-more>
-      </section>
-      {% include footer.html %}
-      {% include scripts.html %}
+      <section class="pb-5 d-none d-sm-block" data-read-more></section>
+      {% include footer.html %} {% include scripts.html %}
     </div>
   </body>
 </html>

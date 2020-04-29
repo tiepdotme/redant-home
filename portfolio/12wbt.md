@@ -38,6 +38,7 @@ images:
   - filename: 12wbt-4.jpg
   - filename: 12wbt-5.jpg
 project_type: ''
+hide_blurb: true
 ---
 
 [12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.

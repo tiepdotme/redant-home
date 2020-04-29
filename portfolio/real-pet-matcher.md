@@ -19,6 +19,7 @@ images:
   - filename: real-pet-matcher-2.jpg
 project_type: ''
 lines_of_code: ''
+hide_blurb: true
 ---
 
 #### How it works

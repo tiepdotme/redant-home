@@ -28,7 +28,7 @@
 }
 
 .bg-gradient {
-  background: linear-gradient(transparent, $white);
+  background: linear-gradient(transparent, $white 80%);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -94,6 +94,10 @@
 @each $name, $value in $project-colors {
   .bg-#{$name} {
     background-color: rgba($value, 0.1);
+  }
+
+  .bg-detail-#{$name} {
+    background-color: rgba($value, 0.5);
   }
 
   .text-#{$name} {

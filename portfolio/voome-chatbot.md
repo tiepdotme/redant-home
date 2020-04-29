@@ -4,25 +4,27 @@ theme: voome
 slug: voome-chatbot
 title: Voome Chat Bot
 tagline: A health and fitness product
-description: Using WIT AI, a tool which allows developers to build applications and
+description:
+  Using WIT AI, a tool which allows developers to build applications and
   devices that you can talk or text to, the user can begin to have a conversation
   with a bot to help them find a recipe they might like.
 project_url: https://www.voome.com.au
 client: 12WBT
-project_date: "2016"
+project_date: '2016'
 technologies:
-- Facebook Messenger
-- Wit.ai API
+  - Facebook Messenger
+  - Wit.ai API
 project_type: mobile
 images:
-- filename: voome-chatbot-1.jpg
-- filename: voome-chatbot-2.jpg
-- filename: voome-chatbot-3.jpg
-- filename: voome-chatbot-4.jpg
+  - filename: voome-chatbot-1.jpg
+  - filename: voome-chatbot-2.jpg
+  - filename: voome-chatbot-3.jpg
+  - filename: voome-chatbot-4.jpg
 team_size: 0 people
 lines_of_code: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 If you’ve already read through [Voome Weekly](/portfolio/voome-weekly) and [Voome Programs](/portfolio/voome-programs), you’ll know what a gem of a product this is. And the Voome Ingredient Chatbot really takes the cake.

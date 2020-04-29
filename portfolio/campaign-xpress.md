@@ -30,6 +30,7 @@ team_size: 4 people
 technolog: []
 project_type: ''
 lines_of_code: 450k+
+hide_blurb: true
 ---
 
 #### Project Description

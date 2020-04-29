@@ -19,6 +19,7 @@ technologies:
 images:
   - filename: matrix-education-1.jpg
 project_type: ''
+hide_blurb: true
 ---
 
 ### Digital roadmapping, Agile Process, Ruby on Rails, React, Systems Integration, Stripe Payments

@@ -19,6 +19,7 @@ desktop_img_height: 463
 images: []
 project_type: ''
 lines_of_code: ''
+hide_blurb: true
 ---
 
 #### Project Description

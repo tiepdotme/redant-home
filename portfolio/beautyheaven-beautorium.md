@@ -11,16 +11,17 @@ project_date: 2007 - 2013
 team_size: 2 people
 lines_of_code: 10k
 technologies:
-- Ruby on Rails
+  - Ruby on Rails
 images:
-- filename: beautyheaven-beautorium-screens.jpg
-  title: Member Offer page (Desktop)
+  - filename: beautyheaven-beautorium-screens.jpg
+    title: Member Offer page (Desktop)
 project_type: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
-Beautorium is a popup / flash style store where  Beautyheaven members can buy health and beauty products using their loyalty points. To buy product, a member needs to be of [a certain points level,](/portfolio/beautyheaven/) and then you can use your points to buy product. A member can choose to use a combination of products to buy.
+Beautorium is a popup / flash style store where Beautyheaven members can buy health and beauty products using their loyalty points. To buy product, a member needs to be of [a certain points level,](/portfolio/beautyheaven/) and then you can use your points to buy product. A member can choose to use a combination of products to buy.
 
 This was an interesting project, as it helped us understand the power of introducing a viable loyalty based system to members. And most importantly, having this store allowed members to be able to redeem those points to buy product
 

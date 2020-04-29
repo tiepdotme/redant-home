@@ -41,7 +41,7 @@ Some of the sites we work on are:
 ### Location
 
 Surry Hills, just off Oxford St. We’re close to trains, and we’re right opposite a lovely park if you’re up for nude frisbee of a lunchtime. Or not.<br>
-Here's a <a href="/about-red-ant/map">map</a>
+Here's a <a href="/about">map</a>
 
 ### Interested?
 

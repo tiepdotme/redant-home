@@ -7,17 +7,18 @@ tagline: A health and fitness product
 description: Find a pocket personal trainer
 project_url: https://www.12wbt.com
 client: 12WBT
-project_date: "2015"
+project_date: '2015'
 technologies:
-- Brightcove
+  - Brightcove
 images:
-- filename: 12wbt-dynamic-video-1.jpg
-- filename: 12wbt-dynamic-video-2.jpg
+  - filename: 12wbt-dynamic-video-1.jpg
+  - filename: 12wbt-dynamic-video-2.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 People often talk about scaling things. Scaling a business to handle more customers. Scaling a web site to handle more traffic. A site that scales well works fine even as traffic increases.
@@ -28,7 +29,7 @@ Making content (images, words, videos) for a simple web site that has a few page
 
 Now imagine your site changes to that each page personalised to the user. So everyone gets personalised images, content and video. Congratulations - you now have a content scaling problem. How on earth are you going to make all that content?
 
-By "personalised", I don't mean "Dear  FIRSTNAME ". Ironically this is where many personalisation initiatives end up - simply because they had trouble scaling meaningful content. Or the technology over promised and under delivered (I'm looking at you, Sitecore). Or a bit of both.
+By "personalised", I don't mean "Dear FIRSTNAME ". Ironically this is where many personalisation initiatives end up - simply because they had trouble scaling meaningful content. Or the technology over promised and under delivered (I'm looking at you, Sitecore). Or a bit of both.
 
 By personalised, what I actually mean is having content carefully customised based on what we know about you. If I'm pregnant, don't start showing me recipes with raw fish or soft cheese. Even better, show me the alternate recipe sans fish and/or soft cheese. If I'm injured, don't give me pushups in my workout. Swap them out for knee pushups. Yes, that would be nice.
 
@@ -39,7 +40,6 @@ But what about video? Some of the most popular pieces of content on 12WBT are th
 The "traditional" approach for fitness videos is to shoot the scene with say 3 instructors doing the workout. One does the easy routine, the next does a regular one, and the third does advanced moves. So the user is "personalising" by who they choose to watch. Doing a big shoot like that isn't particularly cheap - lots of cameras, talent and editing.
 
 We took a different approach on 12WBT. Instead of shooting the workout in one long sequence, we got the video team to try shooting each routine separately. We also asked that each exercise (for example: a pushup) starts and finishes in the same position in the video frame.
-
 
 ![Regular Workout Videos]({{ site.data.webpack['12wbt-video-diagram-1.jpg'] }})
 ![Dynamic Workout Videos]({{ site.data.webpack['12wbt-video-diagram-2.jpg'] }})

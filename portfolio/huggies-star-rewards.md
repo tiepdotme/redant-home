@@ -21,6 +21,7 @@ images:
   - filename: huggies-star-rewards-1.jpg
 project_type: ''
 lines_of_code: ''
+hide_blurb: true
 ---
 
 #### Project Description

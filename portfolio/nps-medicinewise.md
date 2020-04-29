@@ -4,27 +4,29 @@ theme: nps
 slug: nps-medicinewise
 title: NPS Medicinewise
 tagline: A reliable online resource for drug and health information
-description: Making Australia more medicine wise, through digital health and data
+description:
+  Making Australia more medicine wise, through digital health and data
   insights, health professional education and reliable health information for consumers.
 project_url: https://www.nps.org.au/
 client: NPS Medicinewise
 technologies:
-- Amazon Web Services (AWS)
-- Ruby on Rails
-- Scrivito CMS
-- PostgreSQL
-- WAVE visually impaired testing tool as part of CI build chain
+  - Amazon Web Services (AWS)
+  - Ruby on Rails
+  - Scrivito CMS
+  - PostgreSQL
+  - WAVE visually impaired testing tool as part of CI build chain
 project_date: 2015-17
 images:
-- filename: nps-medicinewise-1.jpg
-- filename: nps-medicinewise-2.jpg
-- filename: nps-medicinewise-3.jpg
-- filename: nps-medicinewise-4.jpg
+  - filename: nps-medicinewise-1.jpg
+  - filename: nps-medicinewise-2.jpg
+  - filename: nps-medicinewise-3.jpg
+  - filename: nps-medicinewise-4.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 NPS provides free, independent, evidence-based info on medicines, health conditions & medical tests for health professionals & consumers. Over 7 million Australians are aware of NPS MedicineWise, and the website had 13 million visits in the 2016-17 financial year.

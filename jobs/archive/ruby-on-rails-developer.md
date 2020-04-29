@@ -48,7 +48,7 @@ This is a full time position - all of our team work together (see the bottom of 
 
 We don't want to boast, but our office is pretty FTW. A light filled warehouse space, with plenty of space to help you concentrate. Have a virtual walk around and check things out.
 
-In terms of where we are, we're the epicentre of hipsterville in Surry Hills (<a href="/about-red-ant/map/">map here</a>). You can't spill your Chai without hitting a man with a beard or a chick with ironic glasses and tattoos. In terms of transport options, you can park your chopper in the park over the road, or if you arrive by pony you can tie it up on the tree outside. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
+In terms of where we are, we're the epicentre of hipsterville in Surry Hills (<a href="/about/">map here</a>). You can't spill your Chai without hitting a man with a beard or a chick with ironic glasses and tattoos. In terms of transport options, you can park your chopper in the park over the road, or if you arrive by pony you can tie it up on the tree outside. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
 
 For lunch, we have probably the highest concentration of cafes, bars and restaurants in the country. You’ll need to figure out if you like your coffee pressed, cold, drawn or dripped. Are you single origin or blend? Are you craft beer or obscure import?
 

@@ -7,27 +7,28 @@ tagline: A health and fitness product
 description: Voome is an extremely successful online health and fitness platform
 project_url: https://www.voome.com.au
 client: 12WBT
-project_date: "2016"
+project_date: '2016'
 technologies:
-- Ruby on Rails
-- PostgreSQL
-- AngularJS
-- Salesforce Marketing Cloud
-- Redis
-- Elasticsearch
-- BigQuery
-- Chargify
-- Wordpress
-- Facebook
-- Brightcove
+  - Ruby on Rails
+  - PostgreSQL
+  - AngularJS
+  - Salesforce Marketing Cloud
+  - Redis
+  - Elasticsearch
+  - BigQuery
+  - Chargify
+  - Wordpress
+  - Facebook
+  - Brightcove
 images:
-- filename: voome-weekly-1.jpg
-- filename: voome-weekly-2.jpg
+  - filename: voome-weekly-1.jpg
+  - filename: voome-weekly-2.jpg
 team_size: 4 people
-lines_of_code: "2000"
+lines_of_code: '2000'
 project_type: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 Voome, brought to you by the team behind 12WBT.

@@ -4,33 +4,35 @@ theme: voome
 slug: voome-programs
 title: Voome Programs
 tagline: A health and fitness product
-description: Voome Programs. It’s for those who don’t like to commit long term, but
+description:
+  Voome Programs. It’s for those who don’t like to commit long term, but
   still need a bit of guidance and enjoy working out to the dulcet tones of their
   favourite fitness and nutrition experts.
 project_url: https://www.voome.com.au
 client: 12WBT
-project_date: "2017"
+project_date: '2017'
 technologies:
-- Ruby on Rails
-- PostgreSQL
-- AngularJS
-- Salesforce Marketing Cloud
-- Redis
-- Elasticsearch
-- Google BigQuery
-- Chargify
-- Wordpress
-- Facebook
-- Brightcove
+  - Ruby on Rails
+  - PostgreSQL
+  - AngularJS
+  - Salesforce Marketing Cloud
+  - Redis
+  - Elasticsearch
+  - Google BigQuery
+  - Chargify
+  - Wordpress
+  - Facebook
+  - Brightcove
 images:
-- filename: voome-programs-1.jpg
-- filename: voome-programs-2.jpg
-- filename: voome-programs-3.jpg
+  - filename: voome-programs-1.jpg
+  - filename: voome-programs-2.jpg
+  - filename: voome-programs-3.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
+hide_blurb: true
 ---
+
 #### Project Description
 
 Voome Programs. It’s for those who don’t like to commit long term, but still need a bit of guidance and enjoy working out to the dulcet tones of their favourite fitness and nutrition experts.

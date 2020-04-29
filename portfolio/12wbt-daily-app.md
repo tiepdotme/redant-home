@@ -3,9 +3,11 @@ layout: project
 theme: 12wbt
 slug: 12wbt-daily-app
 title: 12WBT Daily App
-tagline: A companion iOS app for this extremely successful online health and fitness
+tagline:
+  A companion iOS app for this extremely successful online health and fitness
   platform
-description: This app is used by people doing the 12WBT program. It has workouts,
+description:
+  This app is used by people doing the 12WBT program. It has workouts,
   recipes and daily stats.
 project_url: https://www.12wbt.com/features/introducing-12wbt-daily
 client: 12WBT
@@ -14,32 +16,33 @@ project_type: mobile
 team_size: 6 people
 lines_of_code: 30k
 technologies:
-- Swift
-- FB authentication
-- iOS Push
-- CoreData
+  - Swift
+  - FB authentication
+  - iOS Push
+  - CoreData
 images:
-- filename: 12wbt-daily-app-1.jpg
-- filename: 12wbt-daily-app-2.jpg
-- filename: 12wbt-daily-app-3.jpg
-- filename: 12wbt-daily-app-4.jpg
-- filename: 12wbt-daily-app-5.jpg
+  - filename: 12wbt-daily-app-1.jpg
+  - filename: 12wbt-daily-app-2.jpg
+  - filename: 12wbt-daily-app-3.jpg
+  - filename: 12wbt-daily-app-4.jpg
+  - filename: 12wbt-daily-app-5.jpg
 subtitle: ''
 projects: []
 image: ''
 how_title: ''
 how_bulletpoints: []
-
+hide_blurb: true
 ---
+
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
 
 Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they **actually** want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.
 
 Now 12WBT already had this- they have a very successful digital product, with lots of engaged customers. We had already developed the main product so that it was optimised for how their audience was using the product:
 
-* on their mobile phones
-* on their desktop or laptops
-* printing out parts and using that during a workout or cooking
+- on their mobile phones
+- on their desktop or laptops
+- printing out parts and using that during a workout or cooking
 
 But there were some specific user issues we needed to address for people using the product on mobile.
 
@@ -64,4 +67,4 @@ Again, "native" functionality means we can store assets on the phone. This is wh
 Along with starting with the solution ("I need an app"), another common mistake we see is assuming 1:1 parity as a requirement: "Everything the user can do on my web platform, they should be able to do in my App. Otherwise it will suck."
 I'd challenge that- what things could be better delivered as an App? Are there steps that make sense to be different?
 
-The approach the 12WBT Daily App takes is to focus on the daily component of the  program (which takes 4+12 weeks). The role of the app is to act as a companion, rather than try to be an exact replica of what you'd get on the web version. It answers the question "what do I need to do today?". How much water, which snacks, which meals, and what does my workout look like.
+The approach the 12WBT Daily App takes is to focus on the daily component of the program (which takes 4+12 weeks). The role of the app is to act as a companion, rather than try to be an exact replica of what you'd get on the web version. It answers the question "what do I need to do today?". How much water, which snacks, which meals, and what does my workout look like.

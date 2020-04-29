@@ -13,11 +13,12 @@ project_type: ''
 lines_of_code: ''
 technologies: []
 images:
-- "/assets/uploads/2019/12wbt-recipes-1.jpg"
-- "/assets/uploads/2019/12wbt-recipes-hero.jpg"
+  - '/assets/uploads/2019/12wbt-recipes-1.jpg'
+  - '/assets/uploads/2019/12wbt-recipes-hero.jpg'
 published: false
-
+hide_blurb: true
 ---
+
 **Backround**
 _BEN, PLEASE EDIT THIS CONTNENT_
 With the 12WBT recipes section we aimed to modernise the old recipe template that has been used on countless recipe websites since the dawn of the internet. It's important that we stress the modernisation approach because the tried and true structure has a trump card: user familiarity.
@@ -35,6 +36,7 @@ A single block of content with an image as part of the page layout, with ingredi
 
    ![](/assets/uploads/2019/12wbt-recipes-img-2.jpg)
    Content content content content content content content content content content content content content content content.
+
 2. **Not scalable**  
    ![](/assets/uploads/2019/12wbt-recipes-img-3.jpg)
    Content content content content content content content content content content content content content content content.
@@ -53,8 +55,10 @@ A single block of content with an image as part of the page layout, with ingredi
 
    ![](/assets/uploads/2019/12wbt-recipes-img-5.jpg)
    One central source for all ingredients
+
    </div>
    <div class="col-8">
+
 3. **Add metadata**
    ![](/assets/uploads/2019/12wbt-recipes-img-6.jpg)
    Preparation time  
@@ -75,6 +79,7 @@ A single block of content with an image as part of the page layout, with ingredi
    The vegetarian version  
    The gluten free version  
    The quick & easy version
+
    </div>
    </div>
 

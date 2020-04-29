@@ -4,7 +4,8 @@ theme: plando
 slug: plando
 title: Plando
 tagline: A career management platform
-description: LinkedIn is for what you’ve done. PlanDo is for managing what you want
+description:
+  LinkedIn is for what you’ve done. PlanDo is for managing what you want
   to be. We’ve been helping Plando build a career management platform that gives individuals
   the tools to manage their own careers.
 project_url: https://plando.com
@@ -12,17 +13,17 @@ client: PlanDo
 project_date: 2013-now
 desktop_img_height: 488
 technologies:
-- AngularJS
-- Grape Ruby API
+  - AngularJS
+  - Grape Ruby API
 images:
-- filename: plando-1.jpg
+  - filename: plando-1.jpg
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-
+hide_blurb: true
 ---
-#### Project Description
 
+#### Project Description
 
 We've been helping Plando build a career management platform that will shakeup the world of employment and careers by giving individuals the tools to manage their own careers. Traditionally employees have been reliant on their employer's HR practices and tools to successfully map their career path. Plando changes all this. The project has been chock full of innovative ideas and code, with the whole project being built on the Grape API micro-framework
 
