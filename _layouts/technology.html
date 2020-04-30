@@ -4,128 +4,143 @@
   <body>
     <div class="main-layout">
       {% include nav.html %}
-      <section
+      <header
         id="section-tech-header"
-        class="ga-section navbar-aos default-padding text-md">
+        class="ga-section bg-gray-light default-padding section-hero"
+      >
         <div class="container py-5 py-sm-0">
           <div class="row d-block d-sm-none">
             <div class="col text-center">
-              <img class="img-fluid rounded-circle w-50" src="{{ page.image }}" alt="{{ page.title }}">
+              <img
+                class="img-responsive rounded-circle w-50"
+                src="{{ page.image }}"
+                alt="{{ page.title }}"
+              />
             </div>
           </div>
+
           <div class="row mt-4">
-            <div class="col-sm-8">
+            <div class="col-sm-6">
               <h1 class="project-title pb-4">{{ page.title }}</h1>
-              <h5>{{ page.subtitle}}</h5>
+              <h5 class="subtext">{{ page.subtitle}}</h5>
               <div class="col p-md-0">
                 {{ page.description }}
               </div>
+
               <div class="row text-center pt-4">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                  <a
-                    class="btn btn-primary w-100 py-2"
-                    href="/free-initial-consult-code-review/">
-                    <i class="fa fa-comments"></i> Free initial consult
-                  </a>
-                </div>
-                <div class="col-sm-6">
-                  <a
-                    class="btn btn-primary w-100 py-2"
-                    href="/ruby-on-rails-code-review/">
-                    <i class="fa fa-code"></i> Code review
-                  </a>
-                </div>
+                <a
+                  class="btn btn-primary rounded-pill d-block d-sm-inline mx-2 mb-2 mb-sm-0"
+                  href="/free-initial-consult-code-review/"
+                >
+                  Free initial consult
+                </a>
+
+                <a
+                  class="btn btn-default rounded-pill d-block d-sm-inline mx-2"
+                  href="/ruby-on-rails-code-review/"
+                >
+                  Get started
+                </a>
               </div>
             </div>
-            <div class="col-sm-4 d-none d-sm-block text-center">
+
+            <div class="col-sm-6 d-none d-sm-block text-center">
               <img
-                class="img-fluid rounded-circle"
+                class="img-responsive rounded-circle"
                 src="{{ page.image }}"
                 alt="{{ page.title }}"
                 data-aos="fade-left"
-                data-aos-once="true"/>
+                data-aos-once="true"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {% if page.content != "" %}
+      <section
+        id="section-how-we-do-it"
+        class="ga-section navbar-aos default-padding how-section"
+      >
+        <div class="container py-5 py-sm-0">
+          <div class="row">
+            <div class="col">
+              <h4>{{ page.how_title }}</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <p>{{ content }}</p>
+            </div>
+            <div class="col-md-4">
+              <ul class="about-us-list">
+                {% for bulletpoint in page.how_bulletpoints %}
+                <li
+                  class="red"
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                  data-aos-delay="{{ index }}00"
+                >
+                  {{ bulletpoint }}
+                </li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
         </div>
       </section>
-
-      {% if page.content != "" %}
-        <section
-          id="section-how-we-do-it"
-          class="ga-section navbar-aos default-padding how-section">
-          <div class="container py-5 py-sm-0">
-            <div class="row">
-              <div class="col">
-                <h4>{{ page.how_title }}</h4>
-              </div>
-            </div>
-            <div class="row mt-4 text-md">
-              <div class="col-md-8">
-                <p>{{ content }}</p>
-              </div>
-              <div class="col-md-4">
-                <ul class="about-us-list">
-                  {% for bulletpoint in page.how_bulletpoints %}
-                    <li
-                      class="red"
-                      data-aos="fade-up"
-                      data-aos-once="true"
-                      data-aos-delay="{{ index }}00">
-                      {{ bulletpoint }}
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
       {% endif %}
 
-      {% include section-companies.html %}
-      {% include section-engagement-models.html %}
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <hr class="hr-long bg-black" />
+          </div>
+        </div>
+      </div>
+
+      {% include section-companies.html %} {% include
+      section-engagement-models.html %}
 
       <section class="py-5">
         <div class="container">
-          <h2 class="font-weight-normal mb-5 text-center">
+          <h2 class="mb-5 text-center">
             Some of our {{ page.title }} projects
           </h2>
           <div id="macy-container" data-columns="2" data-columns-small="1">
-            {% for slug in page.projects %}
-              {% assign pages = site.pages | where: 'slug', slug %}
-              {% for page in pages %}
-                <div
-                  id="section-card-{{ page.title | downcase | replace: ' ', '-' }}"
-                  class="ga-section card mb-1">
-                  <a
-                    href="{{ page.dir }}"
-                    class="portfolio-tile bg-gray bg-{{ page.theme }}">
-                    <div class="content mb-2">
-                      <h2>{{ page.title }}</h2>
-                      <div class="hr-wrapper">
-                        <hr class="hr-white">
-                      </div>
-                      <h3 class="h5 my-4">{{ page.tagline }}</h3>
-                      <p>{{ page.description }}</p>
-                    </div>
-                    <div class="svg-container">
-                      <div class="svg-wrapper">
-                        {% if page.project_type == 'mobile' %}
-                          {% include svg/preview-mobile.svg slug=page.slug title=page.title %}
-                        {% else %}
-                          {% include svg/preview-left.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}
-                        {% endif %}
-                      </div>
-                    </div>
-                  </a>
+            {% for slug in page.projects %} {% assign pages = site.pages |
+            where: 'slug', slug %} {% for page in pages %}
+            <div
+              id="section-card-{{ page.title | downcase | replace: ' ', '-' }}"
+              class="ga-section card mb-1"
+            >
+              <a
+                href="{{ page.dir }}"
+                class="portfolio-tile bg-gray bg-{{ page.theme }} text-black"
+              >
+                <div class="content mb-2">
+                  <h2 class="text-{{ page.theme }}">{{ page.title }}</h2>
+                  <p class="my-4 tagline">{{ page.tagline }}</p>
+                  <p>{{ page.description }}</p>
                 </div>
-              {% endfor %}
-            {% endfor %}
+                <div class="svg-container">
+                  <div class="svg-wrapper">
+                    {% if page.project_type == 'mobile' %} {% include
+                    svg/preview-mobile.svg slug=page.slug title=page.title %} {%
+                    else %} {% include svg/preview-left.svg slug=page.slug
+                    title=page.title img_height=page.desktop_img_height %} {%
+                    endif %}
+                  </div>
+                </div>
+              </a>
+            </div>
+            {% endfor %} {% endfor %}
           </div>
         </div>
       </section>
 
-      {% include footer.html %}
-      {% include scripts.html %}
+      {% include footer.html %} {% include scripts.html %}
     </div>
   </body>
 </html>

@@ -40,11 +40,6 @@
     font-family: $montserrat-regular;
     font-size: 16px;
   }
-
-  .tagline {
-    font-family: $montserrat-medium;
-    font-size: 20px;
-  }
 }
 
 #section-project-content {
@@ -171,6 +166,17 @@
     svg {
       height: auto;
     }
+  }
+}
+
+#section-tech-header {
+  background-image: url('~images/bg-technology-detail.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  img.img-responsive {
+    max-width: 300px;
   }
 }
 
