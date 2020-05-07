@@ -4,65 +4,82 @@ title: 1:1 Digital Product Development Workshop. Product Roadmap and Sprint Plan
 description: Plan, develop and deliver your digital product. Articulate a compelling vision of your idea and share your enthusiasm with your stakeholders with confidence.
 slug: digital-product-development
 class: digital-product-development
+hide_blurb: true
 ---
 
-<header id="workshop-hero" class="section hero">
+<header id="section-workshop-hero" class="section hero bg-gray-light">
   <div class="container">
     <div class="row">
-      <div class="col col-lg-8">
-        <h1 class="text-xl mb-4 mb-lg-5 font-700">Digital
-          <span class="d-inline d-lg-block text-red-dark">Product</span>
-          <span class="d-block text-red">Development</span>
+      <div class="col-sm-6">
+        <h1 class="mb-4 mb-lg-5">Digital Product
+          <span class="d-inline d-lg-block text-red-dark">Development</span>
+          <span class="d-block text-red">Workshop</span>
         </h1>
+
+        <p class="mb-4 mb-lg-5">
+          Help you plan, develop and deliver your digital product. Start with a 1:1 Workshop, and finish with your very own Product Roadmap and Agile Sprint Plan.
+        </p>
+        <p>
+          <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share rounded-pill" data-mode="popup">Let’s start now</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img
+          class="img-responsive"
+          src="{{ site.data.webpack['illustration-product-dev-1.png'] }}"
+        />
       </div>
     </div>
     <div class="row">
-      <div class="col col-sm-10 col-md-8">
-        <p class="h3 mb-4 mb-lg-5 font-500">Help you <b>plan</b>, <b>develop</b>, <b>deliver</b> and <b>promote</b> your digital product with a 1:1 Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
-        <p><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Let’s start now</a></p>
-      </div>
     </div>
+
   </div>
 </header>
 
-<section id="workshop-roadmap-sprint-plan-summary" data-ga-trigger="visibility" class="summary section">
+<section id="workshop-roadmap-sprint-plan-summary" data-ga-trigger="visibility" class="summary section default-padding">
   <div class="container">
     <div class="row ">
-      <div class="col">
-        <p class="h3 font-500">Advance your digital experience</p>
-        <h2 class="mb-4">Discovery Workshop. <span class="text-red-dark">Product Roadmap.</span> <span class="text-red">Sprint Plan.</span></h2>
-        <p>Envisage your product with features that matter to your audience. Build momentum and enthusiasm with your developers and stakeholders.</p>
-        <p class="font-700">Our digital product planning will help you:</p>
-        <ul class="list-check">
-          <li>Bring the team together on development priorities and goals </li>
-          <li>Know the time, cost and resources required</li>
-          <li>Understand the complex parts and the project dependencies</li>
-          <li>Work out revenue and profit more accurately</li>
-          <li>Orchestrate geographically diverse development teams</li>
-        </ul>
+      <div class="col-12">
+        <p class="h3">
+          Start your digital project on the right track with
+        </p>
+        <p class="h3 text-red mb-4">
+          Discovery Workshop. Product Roadmap. Sprint Plan.
+        </p>
+        <p>
+          We have developed a package of services aimed bring your digital ideal to life. Articulate a compelling vision of your product with confidence, promote and share your enthusiasm with your skate-holders.
+        </p>
+        <p class="font-700">
+          Once it is done, you will:
+        </p>
+      </div>
+      <div class="col-md-6 dashed">
+        <p class="mb-4">
+          Know your project resources, time and costs required
+        </p>
+        <p class="mb-4">
+          Have an idea when you will see a return and how to get their sooner
+        </p>
+        <p>
+          Orchestrate your remotely located development teams
+        </p>
+      </div>
+      <div class="col-md-6 dashed">
+        <p class="mb-4">
+          Understand the complex parts and the project dependencies
+        </p>
+        <p class="mb-4">
+          Be aligned on the development priorities and business goals
+        </p>
+        <p>
+          Have engaged stakeholders and a motivated team ready to start development
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="our-clients" data-ga-trigger="visibility" class="our-clients section">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <p class="tex-lg text-center h4 mb-3 text-red-dark">100% Australian Based Team</p>
-        <h2 class="text-center mb-5">Our clients</h2>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col">
-        <img class="d-md-block d-none img-fluid" src="{{ site.data.webpack['client-logo-desktop.png'] }}" alt="Red Ant clients" />
-        <img class="d-md-none img-fluid" src="{{ site.data.webpack['client-logo-mobile.png'] }}" alt="Red Ant clients" />
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="how-it-works" data-ga-trigger="visibility" class="how-it-works">
+<section id="how-it-works" data-ga-trigger="visibility" class="how-it-works default-padding">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -101,43 +118,27 @@ class: digital-product-development
   </div>
 </section>
 
-<section id="cta-panel" data-ga-trigger="visibility" class="cta-panel section">
+<section id="our-clients" data-ga-trigger="visibility" class="our-clients section text-center default-padding">
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="h1">Ready to get started?</h2>
-        <p  class="h3 mb-4 font-500">Let's start a conversation</p>
-        <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup" ga-trigger="click">Contact Us</a>
+        <p class="h4 mb-3">We are 100% Aussie Team</p>
+        <p class="mb-5">Our clients</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img class="d-md-block d-none img-fluid" src="{{ site.data.webpack['client-logo-desktop.png'] }}" alt="Red Ant clients" />
+        <img class="d-md-none img-fluid" src="{{ site.data.webpack['client-logo-mobile.png'] }}" alt="Red Ant clients" />
       </div>
     </div>
   </div>
 </section>
 
-<section id="testimonials" data-ga-trigger="visibility"  class="testimonials section ">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="text-center mb-4">Testimonials</h2>
-      </div>
-    </div>
-    <div class="row slick-redant">
-      <div class="col-md-10 offset-md-1">
-        <div class="card card-testimonial">
-          <p class="font-500">"Working with Red Ant was a real pleasure. They developed a deep understanding of our business and came up with great strategic and tactical ideas for growth"</p>
-          <p>Peter Mercer</p>
-        </div>
-      </div>
-      <div class="col-lg-10 offset-lg-1">
-        <div class="card card-testimonial">
-          <p class="font-500">"I've worked with Red Ant for nearly 20 years. The best development agency in Sydney, one that won't let you down."</p>
-          <p>Binh Wilson</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include testemonials.html %}
+{% include cta-panel.html %}
 
-<section id="faqs" data-ga-trigger="visibility" class="faqs">
+<section id="faqs" data-ga-trigger="visibility" class="faqs default-padding">
   <div class="container ">
     <div class="row">
       <div class="col">
@@ -146,7 +147,7 @@ class: digital-product-development
     </div>
     <div class="row mt-3d">
       <div class="col">
-        <div class="accordion theme-red" id="workshop-faqs">
+        <div class="accordion" id="workshop-faqs">
           <div class="card">
             <div class="anchor" id="faqs-discovery-workshop" ></div>
             <div class="card-header">
@@ -251,19 +252,6 @@ class: digital-product-development
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="workshop-footer" data-ga-trigger="visibility" class="section intro workshop-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col col-sm-10 col-md-8">
-        <p class="h2 mb-4 mb-lg-5 font-700">Discovery Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
-        <p class="mb-4"><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Start now</a> </p>
-        <p class="mb-b">If you prefer to talk to us in person</p>
-        <p><a class="btn btn-primary btn-lg" href="tel:+61292678300"><i class="fa fa-phone"></i> Call (02) 9267 8300</a></p>
       </div>
     </div>
   </div>

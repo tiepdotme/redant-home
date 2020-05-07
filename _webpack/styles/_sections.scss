@@ -196,10 +196,21 @@
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
+  padding-bottom: 5rem;
 
   .card {
     &.card-testimonial {
+      @extend .p-4;
       background: transparent;
+
+      p {
+        font-size: 1.1rem;
+        font-weight: 600;
+
+        @include media-breakpoint-up(md) {
+          font-size: 1.3rem;
+        }
+      }
     }
   }
 }
@@ -223,6 +234,31 @@
   &.border-red {
     border-top: 1px solid $red;
     border-bottom: 1px solid $red;
+  }
+}
+
+#section-workshop-hero {
+  background-image: url('~images/bg-product-dev-hero.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  p {
+    font-family: $montserrat-medium;
+    font-size: 20px;
+  }
+}
+
+.cta-panel {
+  background-color: #353933;
+  background-image: url('~images/services/digital-workshop/bg-cta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h2,
+  p {
+    color: #fff;
   }
 }
 

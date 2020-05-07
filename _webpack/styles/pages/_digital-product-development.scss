@@ -57,17 +57,6 @@
 
 // Style
 .digital-product-development {
-  section,
-  .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    @include media-breakpoint-up(lg) {
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-    }
-  }
-
   .anchor {
     position: relative;
     top: -110px;
@@ -77,29 +66,12 @@
     }
   }
 
+  .dashed {
+    @include dashes();
+  }
+
   .hero,
   .intro {
-    background-image: linear-gradient(#fff, #fcf7f6);
-    position: relative;
-
-    &::before {
-      content: '';
-      display: block;
-      width: 500px;
-      height: 500px;
-      position: absolute;
-      bottom: 50px;
-      right: 50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      background-image: url('~images/services/digital-workshop/hero-workshop.png');
-    }
-
-    h1 {
-      font-weight: 700;
-    }
-
     @include media-breakpoint-only(md) {
       padding-bottom: 400px;
     }
@@ -136,51 +108,22 @@
       background-color: $gray-100;
     }
 
-    &.cta-panel {
-      background-color: #353933;
-      background-image: url('~images/services/digital-workshop/bg-cta.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-
-      h2,
-      p {
-        color: #fff;
-      }
-    }
-
-    &.testimonials {
-      padding-bottom: 5rem;
-
-      .card {
-        &.card-testimonial {
-          @extend .p-4;
-          background: $gray-100;
-
-          p {
-            font-size: 1.1rem;
-            font-weight: 600;
-
-            @include media-breakpoint-up(md) {
-              font-size: 1.3rem;
-            }
-          }
-        }
-      }
-    }
-
     &.faqs {
-      border-top: 1px solid $gray-200;
+      background-color: $gray-500;
+      color: $white;
 
       .accordion {
-        &.theme-red {
-          > .card {
-            .card-header {
-              margin-bottom: 0;
+        .card {
+          background-color: $gray-500;
+          border-top: 1px solid $gray-200;
+          border-bottom: 1px solid $gray-200;
 
-              .btn {
-                color: $red;
-              }
+          .card-header {
+            border: none;
+            margin-bottom: 0;
+
+            .btn {
+              color: $white;
             }
           }
         }
