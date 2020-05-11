@@ -3,6 +3,7 @@ layout: job
 slug: senior-javascript-developer
 title: Senior Javascript Developer
 description: We’re looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.
+summary: Help us create some incredible digital experiences.
 ---
 
 Lets go off piste here and assume that you are indeed technically awesome.

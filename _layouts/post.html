@@ -9,12 +9,17 @@
           <div class="row mb-4">
             {% include breadcrumbs.html %}
             <div class="col-12 mt-3 pt-5">
-              <h1 class="post-title pb-2">{{ page.title }}</h1>
+              <h1 class="pb-2">{{ page.title }}</h1>
               <hr />
             </div>
           </div>
           <div class="row">
             <div class="col-md-8">
+              <img
+                class="img-responsive mb-4"
+                src="{{ page.image }}"
+                alt="{{ page.title }}"
+              />
               {{ content }}
             </div>
             <div class="col-md-4">

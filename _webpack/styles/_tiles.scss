@@ -124,23 +124,15 @@
 }
 
 .project-title {
-  max-width: 500px;
-}
-
-.project-title,
-.post-title {
   font-size: $font-size-base * 4.4;
   font-weight: 600;
   line-height: $font-size-base * 4.2;
+  max-width: 500px;
 
   @include media-breakpoint-down(sm) {
     font-size: $font-size-base * 3.4;
     line-height: $font-size-base * 3.2;
   }
-}
-
-.project-detail-title {
-  font-size: 1.25rem;
 }
 
 .post-image-preview,

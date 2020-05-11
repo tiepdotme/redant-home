@@ -1,10 +1,8 @@
 .bg-about {
   background-image: url('~images/bg-about-hero.png');
-  background-position: left;
+  background-position: top center;
   background-repeat: no-repeat;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  background-size: cover;
 }
 
 .bg-angled {
@@ -75,6 +73,13 @@
   background-color: $orange-100 !important;
 }
 
+.bg-portfolio-list {
+  background-image: url('~images/bg-portfolio-list.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .bg-technology {
   background-image: url('~images/bg-technology-hero.png');
   background-position: center top;
@@ -82,6 +87,13 @@
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.bg-technology-detail {
+  background-image: url('~images/bg-technology-detail.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bg-white {
