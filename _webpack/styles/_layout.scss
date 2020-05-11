@@ -13,6 +13,35 @@ body {
   max-width: 960px;
 }
 
+.dashed {
+  @include dashes();
+
+  &.dashed-green {
+    @include dashes($green-200);
+  }
+}
+
+.dashed-list {
+  ul {
+    list-style-type: none;
+
+    li::before {
+      content: '\2014';
+      position: absolute;
+      margin-left: -38px;
+      font-weight: bold;
+    }
+  }
+
+  &.dashed-green {
+    ul {
+      li::before {
+        color: $green-200;
+      }
+    }
+  }
+}
+
 .default-padding {
   padding: 40px 0 40px 0;
 }

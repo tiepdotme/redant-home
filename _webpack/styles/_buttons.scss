@@ -14,12 +14,12 @@
   }
 
   &.btn-green {
-    background-color: $green-100;
+    background-color: $green-200;
 
     &:hover,
     &:active,
     &:focus {
-      background-color: rgba($green-100, 0.9) !important;
+      background-color: rgba($green-200, 0.9) !important;
       transition: 0.2s;
     }
   }

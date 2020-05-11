@@ -66,10 +66,6 @@
     }
   }
 
-  .dashed {
-    @include dashes();
-  }
-
   .hero,
   .intro {
     @include media-breakpoint-only(md) {
@@ -106,28 +102,6 @@
 
     &.how-it-works {
       background-color: $gray-100;
-    }
-
-    &.faqs {
-      background-color: $gray-500;
-      color: $white;
-
-      .accordion {
-        .card {
-          background-color: $gray-500;
-          border-top: 1px solid $gray-200;
-          border-bottom: 1px solid $gray-200;
-
-          .card-header {
-            border: none;
-            margin-bottom: 0;
-
-            .btn {
-              color: $white;
-            }
-          }
-        }
-      }
     }
 
     &.about-redant {

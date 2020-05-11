@@ -13,14 +13,28 @@ blockquote {
   padding: 0 30px 0 30px;
 }
 
-h1 {
+h1,
+.h1 {
   font-family: $montserrat-bold;
   font-size: 46px;
 }
 
-h4 {
-  font-size: 1.75rem;
-  font-weight: 600;
+h2,
+.h2 {
+  font-family: $montserrat-bold;
+  font-size: 36px;
+}
+
+h3,
+.h3 {
+  font-family: $montserrat-bold;
+  font-size: 26px;
+}
+
+h4,
+.h4 {
+  font-family: $montserrat-semibold;
+  font-size: 20px;
 }
 
 hr {
@@ -35,7 +49,7 @@ hr {
   }
 
   &.hr-green {
-    @include block($green-100);
+    @include block($green-200);
   }
 
   &.hr-orange {
@@ -183,11 +197,11 @@ strong {
 }
 
 .text-green {
-  color: $green-100;
+  color: $green-200;
 }
 
 .text-green-dark {
-  color: $green-200;
+  color: $green-300;
 }
 
 .text-orange {

@@ -35,7 +35,7 @@
 }
 
 .bg-green {
-  background-color: $green-100;
+  background-color: $green-100 !important;
 }
 
 .bg-code-review {
@@ -65,14 +65,6 @@
   position: absolute;
   height: 100%;
   width: 100%;
-}
-
-.bg-our-approach {
-  background-image: url('~images/our-approach.jpg');
-
-  &.default-padding {
-    padding: 150px 0 90px 0;
-  }
 }
 
 .bg-orange {

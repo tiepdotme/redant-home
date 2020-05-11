@@ -1,3 +1,29 @@
+section {
+  &.faqs {
+    background-color: $gray-500 !important;
+    color: $white;
+
+    .accordion {
+      .card {
+        background-color: $gray-500;
+        border-top: 1px solid $gray-300;
+        border-bottom: 1px solid $gray-300;
+        border-radius: 0;
+        margin-top: -1px;
+
+        .card-header {
+          border: none;
+          margin-bottom: 0;
+
+          .btn {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
 .section-hero {
   background-color: $gray-100;
   background-image: url('~images/bg-home-hero-mobile.jpg');
@@ -5,12 +31,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: $montserrat-medium;
-
-  h1 {
-    font-family: $montserrat-bold;
-    font-size: 2.625rem;
-    font-weight: 600;
-  }
 
   .hero-image {
     background-image: url('~images/home-hero.png');
@@ -24,6 +44,13 @@
   .subtext {
     font-family: $montserrat-semibold;
   }
+}
+
+#section-code-review-hero {
+  background-image: url('~images/bg-code-review-hero.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #section-portfolio-list {
@@ -43,31 +70,8 @@
 }
 
 #section-project-content {
-  h1 {
-    font-family: $montserrat-bold;
-    font-size: 46px;
-  }
-
-  h4 {
-    font-family: $montserrat-semibold;
-    font-size: 20px;
-  }
-
   img {
     @extend .img-fluid;
-  }
-
-  .list-dashed {
-    ul {
-      list-style-type: none;
-
-      li::before {
-        content: '\2014';
-        position: absolute;
-        margin-left: -38px;
-        font-weight: bold;
-      }
-    }
   }
 
   .card .card-img-wrapper {
@@ -86,10 +90,6 @@
 }
 
 #section-read-more {
-  h4 {
-    font-family: $montserrat-semibold;
-    font-size: 13px;
-  }
 }
 
 #section-ruby-on-rails {
@@ -112,18 +112,6 @@
     td {
       border-top: 1px solid $black;
       padding: 50px 0.75rem 50px 0.75rem;
-    }
-  }
-
-  .benefit-list {
-    @include dashes();
-
-    &.green-dashes {
-      p {
-        &::before {
-          background-color: $green-100;
-        }
-      }
     }
   }
 
@@ -192,24 +180,36 @@
 }
 
 #section-testimonials {
-  background-image: url('~images/bg-testimonials.png');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 5rem;
 
+  &.bg-green {
+    background-image: url('~images/bg-testimonials-green.png');
+
+    .card {
+      color: $green-200;
+    }
+  }
+
+  &.bg-red {
+    background-image: url('~images/bg-testimonials-red.png');
+
+    .card {
+      color: $red;
+    }
+  }
+
   .card {
-    &.card-testimonial {
-      @extend .p-4;
-      background: transparent;
+    background: transparent;
 
-      p {
-        font-size: 1.1rem;
-        font-weight: 600;
+    p {
+      font-family: $montserrat-medium;
+      font-size: 22px;
 
-        @include media-breakpoint-up(md) {
-          font-size: 1.3rem;
-        }
+      &.small {
+        font-size: 16px;
       }
     }
   }

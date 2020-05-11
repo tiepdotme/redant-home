@@ -7,7 +7,7 @@ class: digital-product-development
 hide_blurb: true
 ---
 
-<header id="section-workshop-hero" class="section hero bg-gray-light">
+<header id="section-workshop-hero" class="section hero bg-gray-light default-padding">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -23,14 +23,12 @@ hide_blurb: true
           <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share rounded-pill" data-mode="popup">Let’s start now</a>
         </p>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 d-flex justify-content-center align-items-center">
         <img
           class="img-responsive"
-          src="{{ site.data.webpack['illustration-product-dev-1.png'] }}"
+          src="{{ site.data.webpack['illustration-services-2.png'] }}"
         />
       </div>
-    </div>
-    <div class="row">
     </div>
 
   </div>
@@ -92,7 +90,9 @@ hide_blurb: true
       </div>
       <div class="col-12 col-md-7">
         <h3 class="mb-3 mt-3">Discovery Workshop</h3>
-        <p>One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to determine your business, audiences, stakeholders and organisational goals. Developing ambitious and clear development goals is the key to achieving them. </p>
+        <p>
+          One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.
+        </p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -101,8 +101,12 @@ hide_blurb: true
       </div>
       <div class="col-12 col-md-7">
         <h3 class="mb-3 text-red-dark mt-3">Product Roadmap</h3>
-        <p>Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.</p>
-        <p>This one page document articulates the phases of development and alignment with business goals. Technical development is the core of most business and needs to align with business drivers.</p>
+        <p>
+          Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.
+        </p>
+        <p>
+          This one page document communicates the big picture of your product with phases of development and business goals. So you can promote and share your vision with your stakeholder with confidence.
+        </p>
       </div>
     </div>
     <div class="row align-items-center">
@@ -111,8 +115,12 @@ hide_blurb: true
       </div>
       <div class="col-12 col-md-7">
         <h3  class="mb-3 text-red mt-3"> Agile Sprint Plan</h3>
-        <p>Dive into the detail with the a <a href="#faqs-agile-sprint-plan" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">sprint plan</a>. This is your actionable guide to show you how to get it all done.</p>
-        <p>Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in actionable phases of development - known as "Sprints". Helping you manage risk, and identifying dependencies from start to finish.</p>
+        <p>
+          Back up your product development with a this actionable guide and show how you can get thins done.
+        </p>
+        <p>
+          Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5"Agile methodology</a> we break down your digital product in phases of development include testing criteria. Help you manage risk, identify dependencies from start to finish.
+        </p>
       </div>
     </div>
   </div>
@@ -135,7 +143,7 @@ hide_blurb: true
   </div>
 </section>
 
-{% include testemonials.html %}
+{% include testimonials.html colour='red' %}
 {% include cta-panel.html %}
 
 <section id="faqs" data-ga-trigger="visibility" class="faqs default-padding">
