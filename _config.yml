@@ -55,3 +55,4 @@ exclude:
   - jobs/archive
   - .release.json
   - .stage
+  - vendor
