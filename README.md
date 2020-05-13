@@ -99,6 +99,29 @@ The site can be deployed to gh-pages manually with:
 yarn release
 ```
 
+## Deploying to the dev environment
+
+Setup heroku
+
+```
+heroku git:remote -a redant-dev
+```
+
+Make sure you login to heroku
+
+```
+heroku login
+```
+
+Push release to heroku
+
+```
+git push -f heroku my-branch-name:master
+```
+
+Check changes on:
+https://redant-dev.herokuapp.com
+
 ## AMP
 
 AMP requires a customised css file that requires the minimum Bootstrap styles to render posts. This is handled by webpack using the amp.js entrypoint which compiles to /assets/amp.[hash].css.
