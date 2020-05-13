@@ -11,16 +11,16 @@ hide_blurb: true
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1 class="mb-4 mb-lg-5">Digital Product
-          <span class="d-inline d-lg-block text-red-dark">Development</span>
+        <h1 class="mb-4">Digital Product
+          <span class="d-block text-red-dark">Development</span>
           <span class="d-block text-red">Workshop</span>
         </h1>
 
-        <p class="mb-4 mb-lg-5">
+        <p class="subheading">
           Help you plan, develop and deliver your digital product. Start with a 1:1 Workshop, and finish with your very own Product Roadmap and Agile Sprint Plan.
         </p>
         <p>
-          <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share rounded-pill" data-mode="popup">Let’s start now</a>
+          <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share rounded-pill mt-4" data-mode="popup">Let’s start now</a>
         </p>
       </div>
       <div class="col-sm-6 d-flex justify-content-center align-items-center">
@@ -38,18 +38,18 @@ hide_blurb: true
   <div class="container">
     <div class="row ">
       <div class="col-12">
-        <p class="h3">
+        <h3>
           Start your digital project on the right track with
-        </p>
-        <p class="h3 text-red mb-4">
+        </h3>
+        <h3 class="text-red mb-4">
           Discovery Workshop. Product Roadmap. Sprint Plan.
-        </p>
+        </h3>
         <p>
           We have developed a package of services aimed bring your digital ideal to life. Articulate a compelling vision of your product with confidence, promote and share your enthusiasm with your skate-holders.
         </p>
-        <p class="font-700">
+        <h5>
           Once it is done, you will:
-        </p>
+        </h5>
       </div>
       <div class="col-md-6 dashed">
         <p class="mb-4">
@@ -81,26 +81,26 @@ hide_blurb: true
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="h2 text-center mb-4" >How it works</p>
+        <p class="h1 text-center mb-5" >How it works</p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center pb-4">
       <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
         <img class="img-fluid" src="{{ site.data.webpack['icon-workshop.png'] }}" alt="Red Ant Digital Disovery Workshop. One day workshop to get to know you and the core of your product" />
       </div>
       <div class="col-12 col-md-7">
-        <h3 class="mb-3 mt-3">Discovery Workshop</h3>
+        <h3 class="mb-4 mt-3">Discovery Workshop</h3>
         <p>
           One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center py-4">
       <div class="col-6 offset-3 col-md-5 offset-md-0 px-4 py-sm-4 py-lg-0">
         <img class="img-fluid" src="{{ site.data.webpack['icon-roadmap.png'] }}" alt="Red Ant Product Roadmap. Using the findings of the workshop, we compile your very own Product Roadmap." />
       </div>
       <div class="col-12 col-md-7">
-        <h3 class="mb-3 text-red-dark mt-3">Product Roadmap</h3>
+        <h3 class="mb-4 mt-3 text-red-dark">Product Roadmap</h3>
         <p>
           Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.
         </p>
@@ -109,12 +109,12 @@ hide_blurb: true
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center pt-4">
       <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
         <img class="img-fluid" src="{{ site.data.webpack['icon-sprint-plan.png'] }}" alt="Red Ant Agile Sprint Plan. Back up your product development with a this actionable guide and show how you can get things done " />
       </div>
       <div class="col-12 col-md-7">
-        <h3  class="mb-3 text-red mt-3"> Agile Sprint Plan</h3>
+        <h3  class="mb-4 mt-3 text-red"> Agile Sprint Plan</h3>
         <p>
           Back up your product development with a this actionable guide and show how you can get thins done.
         </p>
@@ -130,7 +130,7 @@ hide_blurb: true
   <div class="container">
     <div class="row">
       <div class="col">
-        <p class="h4 mb-3">We are 100% Aussie Team</p>
+        <h3 class="mb-3">We are 100% Aussie Team</h3>
         <p class="mb-5">Our clients</p>
       </div>
     </div>

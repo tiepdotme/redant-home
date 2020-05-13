@@ -4,11 +4,14 @@
   <body class="{{ page.class }}">
     <div class="main-layout default-layout">
       {% include nav.html %}
-      <header id="section-service-intro" class="dark-header default-padding bg-code-review ">
+      <header
+        id="section-service-intro"
+        class="dark-header default-padding bg-code-review "
+      >
         <div class="container">
           <div class="row">
             <div class="col-md-9 py-3">
-              <h1 class="text-xl py-3">{{ page.title }}</h1>
+              <h1 class="py-3">{{ page.title }}</h1>
               <hr />
               <p class="text-lg">
                 {{ page.subtitle_1 }}
@@ -131,10 +134,10 @@
                 <div class="svg-container">
                   <div class="svg-wrapper">
                     {% if page.project_type == 'mobile' %} {% include
-                    svg/preview-mobile.svg slug=page.slug
-                    title=page.title %} {% else %} {% include
-                    svg/preview-left.svg slug=page.slug title=page.title
-                    img_height=page.desktop_img_height %} {% endif %}
+                    svg/preview-mobile.svg slug=page.slug title=page.title %} {%
+                    else %} {% include svg/preview-left.svg slug=page.slug
+                    title=page.title img_height=page.desktop_img_height %} {%
+                    endif %}
                   </div>
                 </div>
               </a>

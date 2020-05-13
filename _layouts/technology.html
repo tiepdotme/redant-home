@@ -6,7 +6,7 @@
       {% include nav.html %}
       <header
         id="section-tech-header"
-        class="ga-section bg-gray-light default-padding section-hero bg-technology-detail"
+        class="ga-section bg-gray-light default-padding bg-technology-detail"
       >
         <div class="container py-5 py-sm-0">
           <div class="row d-block d-sm-none">
@@ -21,8 +21,8 @@
 
           <div class="row mt-4">
             <div class="col-sm-6">
-              <h1 class="project-title pb-4">{{ page.title }}</h1>
-              <h5 class="subtext">{{ page.subtitle}}</h5>
+              <h1 class="pb-4">{{ page.title }}</h1>
+              <h5 class="subheading">{{ page.subtitle}}</h5>
               <div class="col p-md-0">
                 {{ page.description }}
               </div>
@@ -65,7 +65,7 @@
         <div class="container py-5 py-sm-0">
           <div class="row">
             <div class="col">
-              <h4>{{ page.how_title }}</h4>
+              <h3>{{ page.how_title }}</h3>
             </div>
           </div>
 
@@ -100,14 +100,54 @@
         </div>
       </div>
 
-      {% include section-companies.html %} {% include
-      section-engagement-models.html %}
+      {% include section-companies.html %}
 
-      <section class="py-5">
+      <section
+        id="section-engagement"
+        class="ga-section section-border bg-gray-light default-padding"
+      >
+        <p class="h1 text-center pb-4">Engagement Models</p>
         <div class="container">
-          <h2 class="mb-5 text-center">
+          <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="px-4 py-5 tile bg-white table rounded-sm">
+                <h3 class="mt-0 text-red-dark">New Builds</h3>
+                We create, design and build new apps and platforms. We can help
+                you design for scale, as well as strategy or product support as
+                you need it. We'll take responsibility for delivering your
+                project.We create, design and build new apps and platforms. We
+                can help you design for scale, as well as strategy or product
+                support as you need it. We'll take responsibility for delivering
+                your project.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="px-4 py-5 tile bg-white table rounded-sm">
+                <h3 class="mt-0 text-red-dark">Existing Apps</h3>
+                We can also take over an existing project. Often companies need
+                a bit more experience, developer resourcing, or help in
+                completing certain features before they launch. Or you might
+                need more development tasks done to your existing platform.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="px-4 py-5 tile bg-white table rounded-sm">
+                <h3 class="mt-0 text-red-dark">Devops and Platform Support</h3>
+                We also provide a comprehensive Devops and Platform Support
+                service. We'll take on responsibility for monitoring and
+                providing technical support as part of an ongoing plan that we
+                can design with you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="default-padding">
+        <div class="container">
+          <h3 class="mb-5 text-center">
             Some of our {{ page.title }} projects
-          </h2>
+          </h3>
           <div id="macy-container" data-columns="2" data-columns-small="1">
             {% for slug in page.projects %} {% assign pages = site.pages |
             where: 'slug', slug %} {% for page in pages %}

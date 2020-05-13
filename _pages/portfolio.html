@@ -9,7 +9,7 @@ redirect_from:
 
 <section id="section-portfolio-list" class="bg-portfolio-list">
   <div class="container">
-    <h1>Portfolio</h1>
+    <h1 class="default-padding">Portfolio</h1>
     <div id="macy-container" data-columns="2" data-columns-small="1">
       {% for slug in site.data.portfolio.order %} {% assign pages = site.pages |
       where:'slug', slug %} {% for page in pages %}

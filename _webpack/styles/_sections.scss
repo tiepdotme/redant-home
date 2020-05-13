@@ -30,7 +30,6 @@ section {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: $montserrat-medium;
 
   .hero-image {
     background-image: url('~images/home-hero.png');
@@ -40,10 +39,6 @@ section {
     height: 350px;
     margin: 10px 0 0 0;
   }
-
-  .subtext {
-    font-family: $montserrat-semibold;
-  }
 }
 
 #section-code-review-hero {
@@ -51,17 +46,6 @@ section {
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-#section-portfolio-list {
-  h1 {
-    padding: 100px 0 60px 0;
-  }
-
-  p {
-    font-family: $montserrat-regular;
-    font-size: 16px;
-  }
 }
 
 #section-project-content {
@@ -81,19 +65,6 @@ section {
     p {
       font-size: 16px;
     }
-  }
-}
-
-#section-read-more {
-}
-
-#section-ruby-on-rails {
-  h2 {
-    font-family: $montserrat-bold;
-  }
-
-  .subtitle {
-    font-family: $montserrat-medium;
   }
 }
 
@@ -232,11 +203,6 @@ section {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
-
-  p {
-    font-family: $montserrat-medium;
-    font-size: 20px;
-  }
 }
 
 .cta-panel {

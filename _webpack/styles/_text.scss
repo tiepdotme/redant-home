@@ -16,7 +16,7 @@ blockquote {
 h1,
 .h1 {
   font-family: $montserrat-bold;
-  font-size: 46px;
+  font-size: 36px;
 }
 
 h2,
@@ -35,6 +35,12 @@ h4,
 .h4 {
   font-family: $montserrat-semibold;
   font-size: 20px;
+}
+
+h5,
+.h5 {
+  font-family: $montserrat-semibold;
+  font-size: 16px;
 }
 
 hr {
@@ -108,18 +114,6 @@ strong {
   }
 }
 
-.font-700 {
-  font-weight: 700;
-}
-
-.font-500 {
-  font-weight: 500;
-}
-
-.font-300 {
-  font-weight: 300;
-}
-
 .hr-wrapper {
   width: 100%;
   margin-bottom: 1rem;
@@ -136,6 +130,16 @@ strong {
   strong {
     font-weight: 600;
   }
+}
+
+.subheading {
+  font-family: $montserrat-medium;
+  font-size: 20px;
+}
+
+.subheading-small {
+  font-family: $montserrat-medium;
+  font-size: 16px;
 }
 
 .tagline {
@@ -224,12 +228,9 @@ strong {
   white-space: normal;
 }
 
-@include media-breakpoint-down(sm) {
-  .text-md {
-    font-size: 1.25rem;
-  }
-
-  .text-xl {
-    font-size: 3rem;
+@include media-breakpoint-up(sm) {
+  h1,
+  .h1 {
+    font-size: 46px;
   }
 }
