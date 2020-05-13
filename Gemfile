@@ -32,3 +32,6 @@ gem "public_suffix"
 
 # Required by heroku to build via the rake task
 gem "rake"
+
+# Installs yarn for heroku, not used anywhere else
+gem "webpacker"
