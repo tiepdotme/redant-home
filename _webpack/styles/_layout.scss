@@ -53,7 +53,8 @@ body {
   max-width: $layout-max-width;
   margin: auto;
   background-color: $white;
-  font-family: $montserrat-regular;
+
+  @include montserrat();
   overflow: hidden;
 
   &.default-layout {

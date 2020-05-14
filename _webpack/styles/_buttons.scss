@@ -2,7 +2,8 @@
   color: $white;
   background-color: $red;
   border: none;
-  font-family: $montserrat-semibold;
+
+  @include montserrat($montserrat-semibold);
   padding: 10px 20px 10px 20px;
 
   &:hover,
@@ -29,7 +30,8 @@
   color: $red;
   background-color: $white;
   border: 2px solid $red;
-  font-family: $montserrat-semibold;
+
+  @include montserrat($montserrat-semibold);
   padding: 10px 20px 10px 20px;
 
   &:hover,

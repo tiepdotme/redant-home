@@ -15,31 +15,31 @@ blockquote {
 
 h1,
 .h1 {
-  font-family: $montserrat-bold;
+  @include montserrat($montserrat-bold);
   font-size: 36px;
 }
 
 h2,
 .h2 {
-  font-family: $montserrat-bold;
+  @include montserrat($montserrat-bold);
   font-size: 36px;
 }
 
 h3,
 .h3 {
-  font-family: $montserrat-bold;
+  @include montserrat($montserrat-bold);
   font-size: 26px;
 }
 
 h4,
 .h4 {
-  font-family: $montserrat-semibold;
+  @include montserrat($montserrat-semibold);
   font-size: 20px;
 }
 
 h5,
 .h5 {
-  font-family: $montserrat-semibold;
+  @include montserrat($montserrat-semibold);
   font-size: 16px;
 }
 
@@ -133,17 +133,17 @@ strong {
 }
 
 .subheading {
-  font-family: $montserrat-medium;
+  @include montserrat($montserrat-medium);
   font-size: 20px;
 }
 
 .subheading-small {
-  font-family: $montserrat-medium;
+  @include montserrat($montserrat-medium);
   font-size: 16px;
 }
 
 .tagline {
-  font-family: $montserrat-medium;
+  @include montserrat($montserrat-medium);
   font-size: 20px;
 }
 

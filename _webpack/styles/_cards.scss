@@ -20,11 +20,11 @@
   }
 
   h5.card-title {
-    font-family: $montserrat-regular;
+    @include montserrat();
     font-size: 26px;
 
     span {
-      font-family: $montserrat-bold;
+      @include montserrat($montserrat-bold);
     }
 
     &.text-green {

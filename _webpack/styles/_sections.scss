@@ -96,7 +96,7 @@ section {
   }
 
   .table-title {
-    font-family: $montserrat-bold;
+    @include montserrat($montserrat-bold);
   }
 }
 
@@ -131,7 +131,7 @@ section {
 
 #section-technology-list {
   h5 {
-    font-family: $montserrat-bold;
+    @include montserrat($montserrat-bold);
     font-size: 22px;
   }
 
@@ -166,7 +166,7 @@ section {
     background: transparent;
 
     p {
-      font-family: $montserrat-medium;
+      @include montserrat($montserrat-medium);
       font-size: 22px;
 
       &.small {
