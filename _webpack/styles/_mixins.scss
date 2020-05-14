@@ -21,3 +21,8 @@
     }
   }
 }
+
+@mixin montserrat($weight: $montserrat-regular) {
+  font-family: $montserrat;
+  font-weight: $weight;
+}
