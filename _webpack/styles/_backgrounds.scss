@@ -65,6 +65,14 @@
   width: 100%;
 }
 
+.bg-map {
+  height: 400px;
+  background-image: url('~images/map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-orange {
   background-color: $orange-200;
 }
