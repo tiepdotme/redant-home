@@ -1,19 +1,25 @@
 {
   "order": [
     "ruby-on-rails",
+    "reactjs",
     "mysql",
+    "shopify",
+    "amazon-web-services-(aws)",
+    "swift",
+    "angularjs",
+    "projectt",
+    "jira",
+    "heroku",
+    "twilio",
     "radiant-cms",
     "kubernetes",
     "postgresql",
     "salesforce-marketing-cloud",
     "stripe-payments",
-    "angularjs",
     "brightcove",
     "postgres",
     "sidekiq",
-    "swift",
     "wordpress",
-    "amazon-web-services-(aws)",
     "chargify",
     "comfy-cms",
     "elastic-search",
@@ -24,10 +30,9 @@
     "memcached",
     "paperclip",
     "paypal",
-    "reactjs",
     "redis",
     "send-grid",
-    "shopify",
+
     "abc-/-vfx-signs-api-integration",
     "assembly",
     "carrierwave",
@@ -67,10 +72,6 @@
     "withings",
     "yesmail",
     "ios-push-notifications",
-    "docker",
-    "heroku",
-    "projectt",
-    "twilio",
-    "jira"
+    "docker"
   ]
 }
