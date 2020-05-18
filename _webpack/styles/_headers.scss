@@ -19,29 +19,35 @@
 .project-preview {
   position: relative;
   width: 100%;
-  margin-bottom: -2 * $navbar-height;
+  margin-bottom: -50px;
   overflow: hidden;
 
   svg {
     z-index: 5;
+    margin-top: 60px;
   }
 
   @include media-breakpoint-down(md) {
-    height: 480px;
+    height: 580px;
+    margin-top: 0;
 
-    .project-preview-content {
-      margin-top: -200px;
+    svg {
+      margin-top: -80px;
     }
   }
 
   @include media-breakpoint-down(sm) {
-    height: 360px;
+    height: 250px;
     margin-bottom: 0;
+
+    svg {
+      margin-top: -230px;
+    }
   }
 }
 
 .blog-header--agile {
-  background-image: url("~images/headers/agile.jpg");
+  background-image: url('~images/headers/agile.jpg');
   background-size: cover;
 }
 
@@ -67,7 +73,7 @@
     font-size: 75px;
     // gotham medium
     &.slash::before {
-      content: "/";
+      content: '/';
     }
 
     @include media-breakpoint-down(sm) {

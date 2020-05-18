@@ -36,7 +36,7 @@ hide_blurb: true
       | where:'slug', slug %} {% for page in pages %}
       <div class="portfolio-tile text-black mb-0">
         <div class="row content px-2 mb-2">
-          <div class="col-4 col-sm-12">
+          <div class="col-12">
             <a href="{{ page.url }}" class="mb-0">
               <div
                 class="technology-image-preview rounded-circle mb-4"
@@ -44,7 +44,7 @@ hide_blurb: true
               ></div>
             </a>
           </div>
-          <div class="col-8 col-sm-12">
+          <div class="col-12">
             <a href="{{ page.url }}" class="portfolio-tile text-black mb-3">
               <h5 class="mb-0 text-red-dark">{{ page.title }}</h5>
               <small class="text-muted">{{page.type}}</small>

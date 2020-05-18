@@ -8,11 +8,11 @@
         id="section-tech-header"
         class="ga-section bg-gray-light default-padding bg-technology-detail"
       >
-        <div class="container py-5 py-sm-0">
+        <div class="container py-0 py-sm-5">
           <div class="row d-block d-sm-none">
             <div class="col text-center">
               <img
-                class="img-responsive rounded-circle w-50"
+                class="img-responsive rounded-circle w-25"
                 src="{{ page.image }}"
                 alt="{{ page.title }}"
               />
@@ -90,7 +90,6 @@
           </div>
         </div>
       </section>
-      {% endif %}
 
       <div class="container">
         <div class="row">
@@ -99,8 +98,7 @@
           </div>
         </div>
       </div>
-
-      {% include section-companies.html %}
+      {% endif %} {% include section-companies.html %}
 
       <section
         id="section-engagement"
@@ -143,44 +141,45 @@
         </div>
       </section>
 
+      {% for slug in page.projects %} {% assign pages = site.pages | where:
+      'slug', slug %} {% if forloop.first %}
       <section class="default-padding">
         <div class="container">
           <h3 class="mb-5 text-center">
             Some of our {{ page.title }} projects
           </h3>
           <div id="macy-container" data-columns="2" data-columns-small="1">
-            {% for slug in page.projects %} {% assign pages = site.pages |
-            where: 'slug', slug %} {% for page in pages %}
+            {% endif %} {% for item in pages %}
             <div
-              id="section-card-{{ page.title | downcase | replace: ' ', '-' }}"
+              id="section-card-{{ item.title | downcase | replace: ' ', '-' }}"
               class="ga-section card mb-1"
             >
               <a
-                href="{{ page.dir }}"
-                class="portfolio-tile bg-gray bg-{{ page.theme }} text-black"
+                href="{{ item.dir }}"
+                class="portfolio-tile bg-gray bg-{{ item.theme }} text-black"
               >
                 <div class="content mb-2">
-                  <h2 class="text-{{ page.theme }}">{{ page.title }}</h2>
-                  <p class="my-4 tagline">{{ page.tagline }}</p>
-                  <p>{{ page.description }}</p>
+                  <h2 class="text-{{ item.theme }}">{{ item.title }}</h2>
+                  <p class="my-4 tagline">{{ item.tagline }}</p>
+                  <p>{{ item.description }}</p>
                 </div>
                 <div class="svg-container">
                   <div class="svg-wrapper">
-                    {% if page.project_type == 'mobile' %} {% include
-                    svg/preview-mobile.svg slug=page.slug title=page.title %} {%
-                    else %} {% include svg/preview-left.svg slug=page.slug
-                    title=page.title img_height=page.desktop_img_height %} {%
+                    {% if item.project_type == 'mobile' %} {% include
+                    svg/preview-mobile.svg slug=item.slug title=item.title %} {%
+                    else %} {% include svg/preview-left.svg slug=item.slug
+                    title=item.title img_height=item.desktop_img_height %} {%
                     endif %}
                   </div>
                 </div>
               </a>
             </div>
-            {% endfor %} {% endfor %}
+            {% endfor %} {% if forloop.last %}
           </div>
         </div>
       </section>
-
-      {% include footer.html %} {% include scripts.html %}
+      {% endif %} {% endfor %} {% include footer.html %} {% include scripts.html
+      %}
     </div>
   </body>
 </html>

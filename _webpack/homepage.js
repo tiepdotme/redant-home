@@ -28,7 +28,6 @@ const init = $(function() {
     dataAosAnchorPlacement: 'center-bottom',
     easing: 'ease-in-out',
     duration: 900,
-    disable: 'mobile',
   });
 
   $(document).on('click', 'a[href^="#"]', function(event) {

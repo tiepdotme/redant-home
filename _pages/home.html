@@ -9,7 +9,7 @@ hide_blurb: true
 
 <header
   id="section-intro"
-  class="ga-section section-hero d-flex align-items-center"
+  class="ga-section section-hero d-flex align-items-center bg-gray-light"
 >
   <div class="container">
     <div class="row">
@@ -277,4 +277,20 @@ hide_blurb: true
   </div>
 </section>
 
-{% include section-blog.html %}
+<section id="section-blog" class="ga-section bg-gray-light default-padding">
+  <div class="container">
+    <div class="row mb-5 justify-content-between">
+      <div class="col">
+        <h3>Popular blog posts</h3>
+      </div>
+      <div class="col text-right">
+        <a href="/blog/" class="more">View all</a>
+      </div>
+    </div>
+    <div id="macy-container" data-columns="3" data-columns-small="2">
+      {% for post in site.posts limit:3 %} {% unless include.type != nil or
+      include.type == post.type %} {% include post-card.html %} {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

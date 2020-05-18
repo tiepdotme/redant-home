@@ -1,6 +1,8 @@
 .blog-navbar {
   color: #fff;
   position: relative;
+  background-color: $gray-600;
+  z-index: 2;
 
   .container {
     position: relative;
@@ -65,18 +67,6 @@
     font-size: 15px;
     // gotham book
   }
-
-  &::before {
-    background-color: #000;
-    opacity: 0.75;
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
 }
 
 .navbar {
@@ -112,7 +102,7 @@
   }
 
   .logo {
-    height: 32px;
+    height: 26px;
   }
 }
 
