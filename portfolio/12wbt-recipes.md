@@ -16,7 +16,7 @@ images:
   - '/assets/uploads/2019/12wbt-recipes-1.jpg'
   - '/assets/uploads/2019/12wbt-recipes-hero.jpg'
 published: false
-: true
+
 ---
 
 **Backround**

@@ -22,7 +22,7 @@ technologies:
 lines_of_code: '3000'
 redirect_from: '/portfolio/beautyheaven-beautorium/www.beautyheaven.com.au'
 project_type: ''
-: true
+
 ---
 
 Beautyheaven is a health and beauty site. More accurately, it is a really popular platform for people to review health and beauty products. Here's how it works:

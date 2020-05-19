@@ -22,7 +22,7 @@ images:
   - filename: voome-chatbot-4.jpg
 team_size: 0 people
 lines_of_code: ''
-: true
+
 ---
 
 #### Project Description
