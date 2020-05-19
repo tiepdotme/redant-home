@@ -23,7 +23,7 @@ technologies:
   - Refile
 images: []
 project_type: ''
-: true
+
 ---
 
 Managed is a platform for residential real estate. It’s used by property management agents to run a portfolio of rental properties.

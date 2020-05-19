@@ -18,7 +18,7 @@ images:
 team_size: 0 people
 project_type: ''
 lines_of_code: ''
-: true
+
 ---
 
 #### Project Description

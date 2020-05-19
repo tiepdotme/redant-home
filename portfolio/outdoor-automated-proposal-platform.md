@@ -23,7 +23,7 @@ images:
   - filename: outdoor-automated-proposal-platform-4.jpg
 project_url: https://
 project_type: ''
-: true
+
 ---
 
 #### Project Description

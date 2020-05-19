@@ -17,7 +17,7 @@ images:
   - filename: sydney-trains-1.jpg
   - filename: sydney-trains-2.jpg
 project_type: ''
-: true
+
 ---
 
 ### Project background
