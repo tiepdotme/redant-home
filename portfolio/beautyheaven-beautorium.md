@@ -16,7 +16,7 @@ images:
   - filename: beautyheaven-beautorium-screens.jpg
     title: Member Offer page (Desktop)
 project_type: ''
-hide_blurb: true
+: true
 ---
 
 #### Project Description

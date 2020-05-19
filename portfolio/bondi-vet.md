@@ -24,7 +24,6 @@ images:
 team_size: 4 people
 project_type: ''
 lines_of_code: ''
-hide_blurb: true
 ---
 
 We’ve partnered with <a href="http://wtfn.com/">WTFN</a> to bring bondivet.com to life, combining Red Ant’s technical know-how and WTFN’s extensive catalogue of content. The website aims to capitalise on the popularity of the TV show to build an active online audience.

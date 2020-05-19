@@ -26,7 +26,7 @@ images:
 team_size: 4 people
 lines_of_code: '2000'
 project_type: ''
-hide_blurb: true
+: true
 ---
 
 #### Project Description

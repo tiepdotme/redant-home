@@ -41,7 +41,7 @@ images:
 team_size: 12 people
 project_type: ''
 lines_of_code: ''
-hide_blurb: true
+: true
 ---
 
 Running a successful consumer brand in Australia is really tough. Retailers are constantly discounting, and teach consumers to buy on discount signals rather than product quality. Then Disrupters like Amazon make it even harder.

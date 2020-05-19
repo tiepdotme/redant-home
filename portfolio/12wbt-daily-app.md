@@ -31,7 +31,6 @@ projects: []
 image: ''
 how_title: ''
 how_bulletpoints: []
-hide_blurb: true
 ---
 
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).

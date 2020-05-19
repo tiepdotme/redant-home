@@ -22,7 +22,7 @@ images:
   - filename: selleys-diy-3.jpg
 project_type: ''
 lines_of_code: ''
-hide_blurb: true
+: true
 ---
 
 #### Project Description
