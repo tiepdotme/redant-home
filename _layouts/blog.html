@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{ page.class }}">
+    <div class="main-layout default-layout">
+      {% include nav.html %}
+      {% include blog-nav.html %}
+      <section class="bg-gray-light bg-portfolio-list px-3">
+        <div class="container default-padding">
+          {{content}}
+        </div>
+      </section>
+      {% include footer.html %}
+      {% include slidedown-container.html %}
+      {% include scripts.html %}
+    </div>
+  </body>
+</html>

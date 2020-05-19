@@ -4,50 +4,39 @@ permalink: /portfolio/
 title: Our Porfolio
 description: It isn’t just good design, or a good user experience.  Great digital products come about when these blend together.
 redirect_from:
-- /portfolio
+  - /portfolio
 ---
 
-<header class="dark-header padded-section">
-  <div class="overlay"></div>
+<section id="section-portfolio-list" class="bg-portfolio-list">
   <div class="container">
-    <div class="row">
-      <div class="col-md-10 py-3">
-        <h1 class="text-xl">Portfolio</h1>
-        <hr>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section class="py-5">
-  <div class="container">
+    <h1 class="default-padding">Portfolio</h1>
     <div id="macy-container" data-columns="2" data-columns-small="1">
-      {% for slug in site.data.portfolio.order %}
-        {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
-          <div id="section-card-{{ page.title | downcase | replace: ' ', '-' }}" class="ga-section card mb-1">
-            <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }}">
-              <div class="content mb-2">
-                <h2>{{ page.title }}</h2>
-                <div class="hr-wrapper">
-                  <hr class="hr-white">
-                </div>
-                <h3 class="h5 my-4">{{ page.tagline }}</h3>
-                <p>{{ page.description }}</p>
-              </div>
-              <div class="svg-container">
-                <div class="svg-wrapper">
-                  {% if page.project_type == 'mobile' %}
-                    {% include svg/mobile-project-header.svg slug=page.slug title=page.title %}
-                  {% else %}
-                    {% include svg/project-header.svg slug=page.slug title=page.title img_height=page.desktop_img_height %}
-                  {% endif %}
-                </div>
-              </div>
-            </a>
+      {% for slug in site.data.portfolio.order %} {% assign pages = site.pages |
+      where:'slug', slug %} {% for page in pages %}
+      <div
+        id="section-card-{{ page.title | downcase | replace: ' ', '-' }}"
+        class="ga-section card mb-1"
+      >
+        <a
+          href="{{ page.dir }}"
+          class="portfolio-tile bg-gray bg-{{ page.theme }} text-black"
+        >
+          <div class="content mb-2">
+            <h2 class="text-{{ page.theme }}">{{ page.title }}</h2>
+            <p class="my-4 tagline">{{ page.tagline }}</p>
+            <p>{{ page.description }}</p>
           </div>
-        {% endfor %}
-      {% endfor %}
+          <div class="svg-container">
+            <div class="svg-wrapper">
+              {% if page.project_type == 'mobile' %} {% include
+              svg/preview-mobile.svg slug=page.slug title=page.title %} {% else
+              %} {% include svg/preview-left.svg slug=page.slug title=page.title
+              img_height=page.desktop_img_height %} {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </section>

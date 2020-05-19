@@ -4,56 +4,137 @@ title: 1:1 Digital Product Development Workshop. Product Roadmap and Sprint Plan
 description: Plan, develop and deliver your digital product. Articulate a compelling vision of your idea and share your enthusiasm with your stakeholders with confidence.
 slug: digital-product-development
 class: digital-product-development
+: true
 ---
 
-<header id="workshop-hero" class="section hero">
+<header id="section-workshop-hero" class="section hero bg-gray-light default-padding">
   <div class="container">
     <div class="row">
-      <div class="col col-lg-8">
-        <h1 class="text-xl mb-4 mb-lg-5 font-700">Digital
-          <span class="d-inline d-lg-block text-red-dark">Product</span>
-          <span class="d-block text-red">Development</span>
+      <div class="col-sm-6">
+        <h1 class="mb-4">Digital Product
+          <span class="d-block text-red-dark">Development</span>
+          <span class="d-block text-red">Workshop</span>
         </h1>
+
+        <p class="subheading">
+          Help you plan, develop and deliver your digital product. Start with a 1:1 Workshop, and finish with your very own Product Roadmap and Agile Sprint Plan.
+        </p>
+        <p>
+          <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share rounded-pill mt-4" data-mode="popup">Let’s start now</a>
+        </p>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-center align-items-center">
+        <img
+          class="img-responsive"
+          src="{{ site.data.webpack['illustration-services-2.png'] }}"
+        />
       </div>
     </div>
-    <div class="row">
-      <div class="col col-sm-10 col-md-8">
-        <p class="h3 mb-4 mb-lg-5 font-500">Help you <b>plan</b>, <b>develop</b>, <b>deliver</b> and <b>promote</b> your digital product with a 1:1 Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
-        <p><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Let’s start now</a></p>
-      </div>
-    </div>
+
   </div>
 </header>
 
-<section id="workshop-roadmap-sprint-plan-summary" data-ga-trigger="visibility" class="summary section">
+<section id="workshop-roadmap-sprint-plan-summary" data-ga-trigger="visibility" class="summary section default-padding">
   <div class="container">
     <div class="row ">
-      <div class="col">
-        <p class="h3 font-500">Advance your digital experience</p>
-        <h2 class="mb-4">Discovery Workshop. <span class="text-red-dark">Product Roadmap.</span> <span class="text-red">Sprint Plan.</span></h2>
-        <p>Envisage your product with features that matter to your audience. Build momentum and enthusiasm with your developers and stakeholders.</p>
-        <p class="font-700">Our digital product planning will help you:</p>
-        <ul class="list-check">
-          <li>Bring the team together on development priorities and goals </li>
-          <li>Know the time, cost and resources required</li>
-          <li>Understand the complex parts and the project dependencies</li>
-          <li>Work out revenue and profit more accurately</li>
-          <li>Orchestrate geographically diverse development teams</li>
-        </ul>
+      <div class="col-12">
+        <h3>
+          Start your digital project on the right track with
+        </h3>
+        <h3 class="text-red mb-4">
+          Discovery Workshop. Product Roadmap. Sprint Plan.
+        </h3>
+        <p>
+          We have developed a package of services aimed bring your digital ideal to life. Articulate a compelling vision of your product with confidence, promote and share your enthusiasm with your skate-holders.
+        </p>
+        <h5>
+          Once it is done, you will:
+        </h5>
+      </div>
+      <div class="col-md-6 dashed">
+        <p class="mb-4">
+          Know your project resources, time and costs required
+        </p>
+        <p class="mb-4">
+          Have an idea when you will see a return and how to get their sooner
+        </p>
+        <p>
+          Orchestrate your remotely located development teams
+        </p>
+      </div>
+      <div class="col-md-6 dashed">
+        <p class="mb-4">
+          Understand the complex parts and the project dependencies
+        </p>
+        <p class="mb-4">
+          Be aligned on the development priorities and business goals
+        </p>
+        <p>
+          Have engaged stakeholders and a motivated team ready to start development
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="our-clients" data-ga-trigger="visibility" class="our-clients section">
+<section id="how-it-works" data-ga-trigger="visibility" class="how-it-works default-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="h1 text-center mb-5" >How it works</p>
+      </div>
+    </div>
+    <div class="row align-items-center pb-4">
+      <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
+        <img class="img-fluid" src="{{ site.data.webpack['icon-workshop.png'] }}" alt="Red Ant Digital Disovery Workshop. One day workshop to get to know you and the core of your product" />
+      </div>
+      <div class="col-12 col-md-7">
+        <h3 class="mb-4 mt-3">Discovery Workshop</h3>
+        <p>
+          One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to get to know you and the core of your product. Bring vision of your business, audiences, stakeholders and organisational goals into focus.
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center py-4">
+      <div class="col-6 offset-3 col-md-5 offset-md-0 px-4 py-sm-4 py-lg-0">
+        <img class="img-fluid" src="{{ site.data.webpack['icon-roadmap.png'] }}" alt="Red Ant Product Roadmap. Using the findings of the workshop, we compile your very own Product Roadmap." />
+      </div>
+      <div class="col-12 col-md-7">
+        <h3 class="mb-4 mt-3 text-red-dark">Product Roadmap</h3>
+        <p>
+          Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.
+        </p>
+        <p>
+          This one page document communicates the big picture of your product with phases of development and business goals. So you can promote and share your vision with your stakeholder with confidence.
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center pt-4">
+      <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
+        <img class="img-fluid" src="{{ site.data.webpack['icon-sprint-plan.png'] }}" alt="Red Ant Agile Sprint Plan. Back up your product development with a this actionable guide and show how you can get things done " />
+      </div>
+      <div class="col-12 col-md-7">
+        <h3  class="mb-4 mt-3 text-red"> Agile Sprint Plan</h3>
+        <p>
+          Back up your product development with a this actionable guide and show how you can get thins done.
+        </p>
+        <p>
+          Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5"Agile methodology</a> we break down your digital product in phases of development include testing criteria. Help you manage risk, identify dependencies from start to finish.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="our-clients" data-ga-trigger="visibility" class="our-clients section text-center default-padding">
   <div class="container">
     <div class="row">
       <div class="col">
-        <p class="tex-lg text-center h4 mb-3 text-red-dark">100% Australian Based Team</p>
-        <h2 class="text-center mb-5">Our clients</h2>
+        <h3 class="mb-3">We are 100% Aussie Team</h3>
+        <p class="mb-5">Our clients</p>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row">
       <div class="col">
         <img class="d-md-block d-none img-fluid" src="{{ site.data.webpack['client-logo-desktop.png'] }}" alt="Red Ant clients" />
         <img class="d-md-none img-fluid" src="{{ site.data.webpack['client-logo-mobile.png'] }}" alt="Red Ant clients" />
@@ -62,82 +143,10 @@ class: digital-product-development
   </div>
 </section>
 
-<section id="how-it-works" data-ga-trigger="visibility" class="how-it-works">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p class="h2 text-center mb-4" >How it works</p>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
-        <img class="img-fluid" src="{{ site.data.webpack['icon-workshop.png'] }}" alt="Red Ant Digital Disovery Workshop. One day workshop to get to know you and the core of your product" />
-      </div>
-      <div class="col-12 col-md-7">
-        <h3 class="mb-3 mt-3">Discovery Workshop</h3>
-        <p>One day <a href="#faqs-discovery-workshop" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">workshop</a> to determine your business, audiences, stakeholders and organisational goals. Developing ambitious and clear development goals is the key to achieving them. </p>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-6 offset-3 col-md-5 offset-md-0 px-4 py-sm-4 py-lg-0">
-        <img class="img-fluid" src="{{ site.data.webpack['icon-roadmap.png'] }}" alt="Red Ant Product Roadmap. Using the findings of the workshop, we compile your very own Product Roadmap." />
-      </div>
-      <div class="col-12 col-md-7">
-        <h3 class="mb-3 text-red-dark mt-3">Product Roadmap</h3>
-        <p>Using the findings of the workshop, we compile your <a href="#faqs-product-roadmap" data-toggle="collapse" data-target="#a2" aria-expanded="true" aria-controls="a2">Product Roadmap</a>.</p>
-        <p>This one page document articulates the phases of development and alignment with business goals. Technical development is the core of most business and needs to align with business drivers.</p>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-6 offset-3 col-md-5 offset-md-0 order-md-2 px-4 py-sm-4 py-lg-0">
-        <img class="img-fluid" src="{{ site.data.webpack['icon-sprint-plan.png'] }}" alt="Red Ant Agile Sprint Plan. Back up your product development with a this actionable guide and show how you can get things done " />
-      </div>
-      <div class="col-12 col-md-7">
-        <h3  class="mb-3 text-red mt-3"> Agile Sprint Plan</h3>
-        <p>Dive into the detail with the a <a href="#faqs-agile-sprint-plan" data-toggle="collapse" data-target="#a4" aria-expanded="true" aria-controls="a4">sprint plan</a>. This is your actionable guide to show you how to get it all done.</p>
-        <p>Using <a href="#faqs-agile-methodology" data-toggle="collapse" data-target="#a5" aria-expanded="true" aria-controls="a5">Agile methodology</a> we break down your digital product in actionable phases of development - known as "Sprints". Helping you manage risk, and identifying dependencies from start to finish.</p>
-      </div>
-    </div>
-  </div>
-</section>
+{% include testimonials.html colour='red' %}
+{% include cta-panel.html %}
 
-<section id="cta-panel" data-ga-trigger="visibility" class="cta-panel section">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="h1">Ready to get started?</h2>
-        <p  class="h3 mb-4 font-500">Let's start a conversation</p>
-        <a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup" ga-trigger="click">Contact Us</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="testimonials" data-ga-trigger="visibility"  class="testimonials section ">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="text-center mb-4">Testimonials</h2>
-      </div>
-    </div>
-    <div class="row slick-redant">
-      <div class="col-md-10 offset-md-1">
-        <div class="card card-testimonial">
-          <p class="font-500">"Working with Red Ant was a real pleasure. They developed a deep understanding of our business and came up with great strategic and tactical ideas for growth"</p>
-          <p>Peter Mercer</p>
-        </div>
-      </div>
-      <div class="col-lg-10 offset-lg-1">
-        <div class="card card-testimonial">
-          <p class="font-500">"I've worked with Red Ant for nearly 20 years. The best development agency in Sydney, one that won't let you down."</p>
-          <p>Binh Wilson</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="faqs" data-ga-trigger="visibility" class="faqs">
+<section id="faqs" data-ga-trigger="visibility" class="faqs default-padding">
   <div class="container ">
     <div class="row">
       <div class="col">
@@ -146,7 +155,7 @@ class: digital-product-development
     </div>
     <div class="row mt-3d">
       <div class="col">
-        <div class="accordion theme-red" id="workshop-faqs">
+        <div class="accordion" id="workshop-faqs">
           <div class="card">
             <div class="anchor" id="faqs-discovery-workshop" ></div>
             <div class="card-header">
@@ -251,19 +260,6 @@ class: digital-product-development
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="workshop-footer" data-ga-trigger="visibility" class="section intro workshop-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col col-sm-10 col-md-8">
-        <p class="h2 mb-4 mb-lg-5 font-700">Discovery Workshop, <span class="text-red-dark font-700">Product Roadmap</span> and <span class="text-red font-700">Agile Sprint Plan</span>.</p>
-        <p class="mb-4"><a href="https://red-ant.typeform.com/to/wW5Q1I" class="btn btn-primary typeform-share btn-lg" data-mode="popup">Start now</a> </p>
-        <p class="mb-b">If you prefer to talk to us in person</p>
-        <p><a class="btn btn-primary btn-lg" href="tel:+61292678300"><i class="fa fa-phone"></i> Call (02) 9267 8300</a></p>
       </div>
     </div>
   </div>

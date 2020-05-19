@@ -53,4 +53,4 @@ Recruiters please: I could write pretty much anything here as you probably won�
 
 ## Location
 
-Surry Hills, just off Oxford St (<a href="/about-red-ant/map/">map here</a>). In terms of transport, we’re close to trains, buses, and nowhere near an airport. But lots of bike lanes. For lunch, we have a gazillion cafes, bars and restaurants around us. Actually we have a pretty good restaurant (Longrain) directly under our office.
+Surry Hills, just off Oxford St (<a href="/about/">map here</a>). In terms of transport, we’re close to trains, buses, and nowhere near an airport. But lots of bike lanes. For lunch, we have a gazillion cafes, bars and restaurants around us. Actually we have a pretty good restaurant (Longrain) directly under our office.

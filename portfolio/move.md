@@ -20,6 +20,7 @@ images: []
 project_type: ''
 lines_of_code: ''
 published: false
+: true
 ---
 
 From the press release:

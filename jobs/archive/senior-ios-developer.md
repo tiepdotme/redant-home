@@ -49,7 +49,7 @@ This is a full time position - all of our team work together (see the bottom of 
 
 ## Location
 
-The hipster heart of Sydney: Surry Hills, just off Oxford St (<a href="/about-red-ant/map/">map here</a>). In terms of transport options, you can park your chopper in the park over the road, if you arrive by pony you can tie it up on the tree outside, and if you bike you’d better bring it inside as a bearded hipster might "borrow" it. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
+The hipster heart of Sydney: Surry Hills, just off Oxford St (<a href="/about/">map here</a>). In terms of transport options, you can park your chopper in the park over the road, if you arrive by pony you can tie it up on the tree outside, and if you bike you’d better bring it inside as a bearded hipster might "borrow" it. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
 
 For lunch, we have probably the highest concentration of cafes, bars and restaurants in the country. You’ll need to figure out if you like your coffee pressed, cold, drawn or dripped. Are you single origin or blend? Are you craft beer or obscure import?
 

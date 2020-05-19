@@ -54,7 +54,7 @@ We specialise in creating large and interesting websites. There are around 35 of
 
 We’re also trying to become better at TDD, becoming even more Agile, and make our builds run at somewhere approaching light speed.
 
-You can read more of the backstory here <a href="/about-red-ant/">http://redant.com.au/about-red-ant</a>
+You can read more of the backstory here <a href="/about/">http://redant.com.au/about</a>
 
 Some of the sites you’ll be working on are:
 

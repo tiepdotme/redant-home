@@ -33,7 +33,7 @@ One developer would work on a project, and establish a way of doing something - 
 
 The real clangers were always when we had different developers working on different parts of a big project. We'd discover that while some parts of the code worked fine, other parts used technology that was case sensitive. Remember how one guy was using **TableName** and the other was using **tablename**? Once some part of the project becomes case sensitive, everything comes to a screeching halt.
 
-As a solution, we decided to document **The Right Way**. This was before we [discovered Agile (Red Ant discovers agile)](/about-red-ant/), and I spent many many hours writing this very comprehensive, massive weighty tome. Which no one ended up reading. The developers just cherry picked what suited.
+As a solution, we decided to document **The Right Way**. This was before we [discovered Agile (Red Ant discovers agile)](/about/), and I spent many many hours writing this very comprehensive, massive weighty tome. Which no one ended up reading. The developers just cherry picked what suited.
 
 So our next attempt at solving this was to create a library of code that contained all **The Right Ways** to do stuff. This took ages to build, and it was great for a while, until we worked out that how big and inefficient the damn thing had got. It was classic [not made here (not invented here)](http://en.wikipedia.org/wiki/Not_invented_here) behaviour. Rather than using existing open source libraries, we were rolling our own, and often there were 2 or 3 very similar parts. See- the CamelCase guy might want one flavour, and lowercase guy might prefer another, so we'd better have both. I think someone had a crack at rewriting SQL in there somewhere too.
 

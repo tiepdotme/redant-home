@@ -3,9 +3,8 @@
   {% include head.html %}
   <body class="campaign {{ page.class }}">
     <div class="main-layout default-layout">
-      {% include nav.html %}
-      {{ content }}
-      {% include footer.html %}
+      {% include nav.html %} {{ content }} {% include slidedown-container.html
+      %} {% include footer.html %}
       <script>
         (function() {
           var qs,
@@ -27,9 +26,8 @@
           }
         })();
       </script>
-      
-    {%include scripts.html %}
+
+      {%include scripts.html %}
     </div>
   </body>
 </html>
-

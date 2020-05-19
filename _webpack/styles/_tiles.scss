@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     color: $white;
-    background-color: $red-light;
+    background-color: $red-200;
   }
 
   h4 {
@@ -35,9 +35,9 @@
 }
 
 .portfolio-tile {
+  border-radius: 0.25rem;
   display: block;
   position: relative;
-  color: $white;
   overflow: hidden;
 
   &:active,
@@ -56,16 +56,6 @@
   &.bg-beautyheaven,
   &.bg-momentum {
     color: #212529;
-
-    .hr-wrapper {
-      border-bottom: 1px solid rgba($black, 0.65);
-
-      hr {
-        &.hr-white {
-          @include block($black);
-        }
-      }
-    }
   }
 
   .content {
@@ -134,23 +124,15 @@
 }
 
 .project-title {
-  max-width: 500px;
-}
-
-.project-title,
-.post-title {
   font-size: $font-size-base * 4.4;
   font-weight: 600;
   line-height: $font-size-base * 4.2;
+  max-width: 500px;
 
   @include media-breakpoint-down(sm) {
     font-size: $font-size-base * 3.4;
     line-height: $font-size-base * 3.2;
   }
-}
-
-.project-detail-title {
-  font-size: 1.25rem;
 }
 
 .post-image-preview,

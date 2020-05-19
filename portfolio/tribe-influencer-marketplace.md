@@ -24,6 +24,7 @@ images:
   - filename: tribe-influencer-marketplace-4.jpg
 project_type: ''
 lines_of_code: ''
+: true
 ---
 
 #### How it works

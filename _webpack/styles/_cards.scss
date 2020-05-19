@@ -19,6 +19,27 @@
     }
   }
 
+  h5.card-title {
+    @include montserrat();
+    font-size: 26px;
+
+    span {
+      @include montserrat($montserrat-bold);
+    }
+
+    &.text-green {
+      color: $green-200;
+    }
+
+    &.text-orange {
+      color: $orange-200;
+    }
+
+    &.text-red {
+      color: $red;
+    }
+  }
+
   .number {
     background-color: $red;
     border-radius: 100%;
@@ -34,24 +55,24 @@
   }
 
   &--review {
-    border: 1px solid $red-light;
+    background-color: $white;
+    padding: 40px 20px 0 20px;
 
     .card-header {
-      background: $red;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      border-color: $red-light;
+      background: transparent;
+      margin-bottom: 30px;
+      padding: 0;
 
       .card-title {
-        color: $white;
-        font-size: 1.3rem;
-        font-weight: normal;
+        color: $green-300;
       }
     }
 
     .card-body {
+      padding: 0;
+
       > ul {
-        margin-left: -20px;
+        margin: 0 0 0 10px;
 
         ul li {
           font-size: 0.95rem;
@@ -66,22 +87,10 @@
     }
 
     .card-footer {
-      padding: 0;
       background: none;
       border: none;
-
-      a {
-        display: block;
-        border-radius: 0;
-        background: $red;
-        text-align: center;
-        color: $white;
-        font-size: 1.1em;
-
-        &:hover {
-          background: $red-dark;
-        }
-      }
+      margin-bottom: -25px;
+      padding: 0;
     }
   }
 }

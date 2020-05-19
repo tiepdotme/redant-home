@@ -1,15 +1,22 @@
+.bg-about {
+  background-image: url('~images/bg-about-hero.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-angled {
   position: absolute;
   width: 0;
   height: 0;
   left: 0;
   border-style: solid;
-  border-width: 0 0 480px 780px;
+  border-width: 0 0 230px 100vw;
   border-color: transparent;
   border-bottom-color: $white;
 
   @include media-breakpoint-up(sm) {
-    border-width: 0 0 620px 1080px;
+    border-width: 0 0 810px 1400px;
   }
 }
 
@@ -18,22 +25,21 @@
   color: $white;
 }
 
-.bg-gray-light {
-  background-color: $gray-100;
+.bg-gradient {
+  background: linear-gradient(transparent, $white 80%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.bg-gray {
-  background-color: $gray-400;
-}
-
-.bg-mac-modal {
-  background-color: $gray-200;
+.bg-green {
+  background-color: $green-100 !important;
 }
 
 .bg-code-review {
   background-image: url('~images/code-review.jpg');
 
-  &.padded-section {
+  &.default-padding {
     padding: 130px 0 90px 0;
 
     @include media-breakpoint-down(sm) {
@@ -42,16 +48,63 @@
   }
 }
 
-.bg-pattern-dot {
-  background-image: url('~images/pattern-dot.jpg');
-  background-repeat: repeat;
+.bg-gray {
+  background-color: $gray-400;
 }
 
-.bg-our-approach {
-  background-image: url('~images/our-approach.jpg');
+.bg-gray-light {
+  background-color: $gray-100;
+}
 
-  &.padded-section {
-    padding: 150px 0 90px 0;
+.bg-get-started {
+  background-image: url('~images/bg-get-started-hero.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-map {
+  height: 400px;
+  background-image: url('~images/map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-orange {
+  background-color: $orange-200;
+}
+
+.bg-orange-100 {
+  background-color: $orange-100 !important;
+}
+
+.bg-portfolio-list {
+  background-image: url('~images/bg-portfolio-list.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-technology {
+  background-image: url('~images/bg-technology-hero.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-technology-detail {
+  background-image: url('~images/bg-technology-detail.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
   }
 }
 
@@ -59,8 +112,20 @@
   background-color: $white;
 }
 
+.bg-red {
+  background-color: $red-100 !important;
+}
+
 @each $name, $value in $project-colors {
   .bg-#{$name} {
-    background-color: $value;
+    background-color: rgba($value, 0.1);
+  }
+
+  .bg-detail-#{$name} {
+    border-left-color: rgba($value, 0.5);
+  }
+
+  .text-#{$name} {
+    color: $value;
   }
 }

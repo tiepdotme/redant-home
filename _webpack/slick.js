@@ -1,9 +1,7 @@
 import 'slick-carousel';
 
 const init = $(function() {
-
-  /* Carousel */
-  let $slick  = $('.slick-redant');
+  let $slick = $('.slick-redant');
 
   if ($slick.length) {
     $slick.slick({
@@ -15,7 +13,6 @@ const init = $(function() {
       slidesToShow: 1,
     });
   }
-
 });
 
 export default init;

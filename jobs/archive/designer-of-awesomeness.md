@@ -43,7 +43,7 @@ Some of the sites you’ll be working on are <a href="http://12wbt.com/tour">12w
 ## Location
 
 Surry Hills, just off Oxford St. We’re close to trains, and we’re right opposite a lovely park if you’re up for nude frisbee of a lunchtime. Or not.<br>
-here’s a <a href="/about-red-ant/map">map</a>
+here’s a <a href="/about">map</a>
 
 ## Interested?
 

@@ -17,6 +17,7 @@ images: []
 client: ''
 project_type: ''
 lines_of_code: ''
+: true
 ---
 
 #### Project Description

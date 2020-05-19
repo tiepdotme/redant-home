@@ -1,5 +1,7 @@
+@import 'mixins';
+
 body {
-  background-color: $gray-300;
+  background-color: $gray-700;
 }
 
 .anchor-offset {
@@ -9,8 +11,37 @@ body {
   visibility: hidden;
 }
 
-.container {
-  max-width: 960px;
+.dashed {
+  @include dashes();
+
+  &.dashed-green {
+    @include dashes($green-200);
+  }
+}
+
+.dashed-list {
+  ul {
+    list-style-type: none;
+
+    li::before {
+      content: '\2014';
+      position: absolute;
+      margin-left: -38px;
+      font-weight: bold;
+    }
+  }
+
+  &.dashed-green {
+    ul {
+      li::before {
+        color: $green-200;
+      }
+    }
+  }
+}
+
+.default-padding {
+  padding: 40px 0 40px 0;
 }
 
 .main-layout {
@@ -18,6 +49,9 @@ body {
   max-width: $layout-max-width;
   margin: auto;
   background-color: $white;
+
+  @include montserrat();
+  overflow: hidden;
 
   &.default-layout {
     padding-bottom: $slide-footer-height;
@@ -34,7 +68,6 @@ body {
 
     > header,
     > section,
-    > footer,
     > .container {
       background-color: $white;
     }
@@ -45,59 +78,77 @@ body {
   }
 }
 
-.slidedown-container {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  max-width: $layout-max-width;
-  min-height: $slide-footer-height;
-  bottom: 0;
-  background: $gray-100;
+.post-content {
+  img {
+    @extend .img-fluid;
+  }
+}
+
+.post-detail-container {
+  padding: 40px 0;
+  margin-top: 40px;
+
+  &.section-border {
+    padding-bottom: 40px;
+  }
 }
 
 .ruby {
   background-image: url('~images/ruby.png');
 }
 
-.homepage {
-  .canvas-section {
-    .container {
-      pointer-events: auto;
-    }
-  }
+.homepage .ruby {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  height: 100%;
+  min-height: 200px;
+}
 
-  .code-review,
-  .ruby {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    height: 100%;
-    min-height: 200px;
-  }
+.slidedown-container {
+  background-color: $gray-500;
+  bottom: 0;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: $layout-max-width;
+  min-height: $slide-footer-height;
+  position: fixed;
+  width: 100%;
 
-  .code-review {
-    background-image: url('~images/code-review.png');
+  a {
+    color: $white;
   }
 }
 
-.project-content {
-  img {
-    @extend .img-fluid;
+.table-services {
+  .column-20 {
+    width: 20%;
+  }
+
+  .column-40 {
+    width: 40%;
   }
 }
 
-.project-detail-container {
-  padding: 40px 0;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.unstyled-list {
+  padding-left: 0;
+  list-style: none;
+}
 
-  &.section-border {
-    padding-bottom: 40px;
+@include media-breakpoint-up(sm) {
+  .default-padding {
+    padding: 100px 0 100px 0;
   }
 
-  @include media-breakpoint-up(sm) {
+  .project-detail-container {
     margin-top: 0;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .container {
+    max-width: 960px;
   }
 }

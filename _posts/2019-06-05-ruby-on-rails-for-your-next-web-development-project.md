@@ -1,32 +1,32 @@
 ---
 layout: default
-permalink: "/software-development/ruby-on-rails-for-your-web-development"
+permalink: '/software-development/ruby-on-rails-for-your-web-development'
 type: news
 categories:
-- software-development
+  - software-development
 author: Ben Still
 tags: []
 time: 15 Mins Read
 title: Why choose Ruby on Rails?
-description: The no nonsense guide for entrepreneurs, startups, product owners or
+description:
+  The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ''
-image_small: "/assets/uploads/2019/why-choose-ruby.jpg"
-image: ''
-excerpt-short: The no nonsense guide for entrepreneurs, startups, product owners or
+image_small: '/assets/uploads/2019/why-choose-ruby.jpg'
+image: '/assets/uploads/2019/why-choose-ruby.jpg'
+excerpt-short:
+  The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
-excerpt-long: The no nonsense guide for entrepreneurs, startups, product owners or
+excerpt-long:
+  The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 redirect_from: []
 date_published: ! ' 2019-06-05'
 publisher: Red Ant
-
 ---
+
 <section id="section-intro" class="bg-black"> <div class="container"> <div class="row align-items-center">
-{% if page.url contains 'amp/' %}
-{% else %}
-<div class="col-12"> {% include breadcrumbs.html %} </div>
-{% endif %} <div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center">
+<div class="col-md-8 pt-5"> <h1 class="project-title pb-2 mw-100"> Why choose Ruby on Rails? </h1> <hr> </div> <div class="col-md-4 text-center">
 
 <img class="img-fluid" src="{{ site.data.webpack['ruby-bg.png'] }}" alt="Ruby" width="200" height="225"/> </div> <div class="col-12 pt-3 pb-5"> <p class="text-lg"> The no nonsense guide for entrepreneurs, startups, product owners or anyone that is a bit baffled about tech stack options. </p> </div> </div> </div> </section>
 

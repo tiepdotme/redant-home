@@ -5,16 +5,15 @@ title: Jobs and Careers at Red Ant
 description: At Red Ant we are always on a look out for a good fit to this family. If you are liviing in Sdyney, a Ruby and Rails developer, a JavaScript developer or just like to get to know us better. Red Ant would very much like to hear from you.
 ---
 
-<header id="section-intro" class="ga-section dark-header padded-section">
-  <div class="overlay"></div>
+<header
+  id="section-intro"
+  class="ga-section bg-gray-light default-padding bg-portfolio-list"
+>
   <div class="container">
     <div class="row">
-      <div class="col py-3">
-        <h1 class="text-x-large">Working at Red Ant</h1>
-        <hr />
-        <p class="text-md">
-          Red Ant is a diverse workplace in Surry Hills, Sydney.
-        </p>
+      <div class="col-sm-12 py-3">
+        <h1 class="mb-3">Working at Red Ant</h1>
+        <p>Red Ant is a diverse workplace in Surry Hills, Sydney.</p>
       </div>
     </div>
   </div>
@@ -22,22 +21,20 @@ description: At Red Ant we are always on a look out for a good fit to this famil
 
 <section
   id="section-jobs"
-  class="ga-section section-border padded-section pt-5"
+  class="ga-section section-border default-padding pt-5"
 >
   <div class="container">
     <div class="row">
-      <div class="col">
-        <p class="h2 mb-4">
-          Available Jobs
-        </p>
+      <div class="col mb-5">
+        <h2>Available Jobs:</h2>
       </div>
     </div>
-    <div class="row ">
+    <div class="row mb-3">
       {% for slug in site.data.jobs.order %} {% assign pages = site.pages |
       where:'slug', slug %} {% for page in pages %}
       <div class="col-12 mb-4">
         <div class="card">
-          <h2 class="h3">{{ page.title }}</h2>
+          <h4>{{ page.title }}</h4>
           <p>{{ page.summary }}</p>
           <a href="/jobs/{{ page.slug }}/">Read more</a>
         </div>
@@ -47,51 +44,19 @@ description: At Red Ant we are always on a look out for a good fit to this famil
   </div>
 </section>
 
-{% comment %}
-<section id="section-seek" class="ga-section section-border padded-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-8">
-        <p class="h2 mb-3">
-          Didn’t see what you seek?
-        </p>
-
-        <p class="h3 mb-3">We are always open for conversation.</p>
-        <p>
-          Red Ant always looking out for valuble individual to join our team. If
-          you think you have something special to contribute and a good fit to
-          us, we would like to hear from you.
-        </p>
-
-        <p>Pick up your phone, fire up your device and contact us.</p>
-        <ul class="unstyled-list">
-          <li>
-            <strong>Email </strong>
-            <a href="mailto:info@redant.com.au">info@redant.com.au</a>
-          </li>
-          <li>
-            <strong>Phone </strong>
-            <a href="tel:+61292678300">+61 2 9267 8300</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-{% endcomment %}
-
 <section
   id="section-office"
-  class="ga-section jumbotron mb-0 bg-gray-light content-left"
+  class="ga-section mb-0 bg-gray-light default-padding"
 >
-  <div class="container">
-    <h3 class="">Red Ant Office</h3>
+  <div class="container mb-5">
+    <h3 class="mb-4">Red Ant Office</h3>
     <p>
       We’re a leading technical agency in Sydney, Australia. This page should
       tell you all you need to know about us and more. To start with, we have a
       core team of 35 – a mix of developers, designers and project managers. For
-      technology, we use <a href="/ruby-on-rails/">Ruby on Rails</a> and
-      <a href="/pjax/">AngularJS</a>. We apply the
+      technology, we use
+      <a href="/technology/ruby-on-rails/">Ruby on Rails</a> and
+      <a href="/technology/reactJS/">ReactJS</a>. We apply the
       <a href="/agile/">Agile project methodology</a>.
     </p>
     <p>
@@ -103,43 +68,5 @@ description: At Red Ant we are always on a look out for a good fit to this famil
       >.
     </p>
   </div>
-  <div class="container">
-    <div class="slick-redant">
-      <div class="item">
-        <img
-          class="img-fluid"
-          data-lazy="{{ site.data.webpack['redant-office-4.jpg'] }}"
-          alt="Office exterior"
-        />
-      </div>
-      <div class="item">
-        <img
-          class="img-fluid"
-          data-lazy="{{ site.data.webpack['redant-office-sign.jpg'] }}"
-          alt="Red Ant sign"
-        />
-      </div>
-      <div class="item">
-        <img
-          class="img-fluid"
-          data-lazy="{{ site.data.webpack['redant-office-1.jpg'] }}"
-          alt="Office interior 1"
-        />
-      </div>
-      <div class="item">
-        <img
-          class="img-fluid"
-          data-lazy="{{ site.data.webpack['redant-office-3.jpg'] }}"
-          alt="Office interior 2"
-        />
-      </div>
-      <div class="item">
-        <img
-          class="img-fluid"
-          data-lazy="{{ site.data.webpack['redant-office-2.jpg'] }}"
-          alt="Office interior 3"
-        />
-      </div>
-    </div>
-  </div>
+  {% include office-photos.html %}
 </section>

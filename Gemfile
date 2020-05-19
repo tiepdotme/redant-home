@@ -1,3 +1,5 @@
+ruby "2.5.8"
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -25,5 +27,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Install manuall as Forestry can't locate this
-gem 'public_suffix'
+# Install manually as Forestry can't locate this
+gem "public_suffix"
+
+# Required by heroku to build via the rake task
+gem "rake"
+
+# Installs yarn for heroku, not used anywhere else
+gem "webpacker"
